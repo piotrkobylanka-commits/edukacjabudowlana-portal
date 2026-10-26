@@ -1,0 +1,56 @@
+name: Publikacja na edukacjabudowlana.eu
+
+# Wgrywa zmienione pliki strony na Hostingera przez FTPS.
+# Niczego na serwerze nie usuwa (brak dangerous-clean-slate, delete wyłączone przez exclude).
+# Wymaga sekretu repozytorium FTP_PASSWORD (Settings → Secrets and variables → Actions).
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - "_narzedzia/**"
+      - ".github/**"
+      - "README.md"
+  workflow_dispatch:
+    inputs:
+      proba:
+        description: "Tylko próba (nic nie wgrywa)"
+        type: boolean
+        default: true
+
+concurrency:
+  group: publikacja
+  cancel-in-progress: false
+
+jobs:
+  ftp:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Sprawdzenie danych portalu
+        run: |
+          python3 - <<'E'
+          import json, re
+          h = open("index.html", encoding="utf-8").read()
+          m = re.search(r'<script id="data" type="application/json">', h)
+          raw = h[m.end():h.index("</script>", m.end())]
+          d = json.loads(raw)
+          print("artykułów:", len(d["articles"]))
+          E
+      - name: Wgranie przez FTPS
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: 217.65.157.30
+          username: u475962483
+          password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ftps
+          port: 21
+          server-dir: public_html/
+          dry-run: ${{ github.event_name == 'workflow_dispatch' && inputs.proba }}
+          exclude: |
+            **/.git*
+            **/.git*/**
+            .github/**
+            _narzedzia/**
+            README.md
+            .gitattributes

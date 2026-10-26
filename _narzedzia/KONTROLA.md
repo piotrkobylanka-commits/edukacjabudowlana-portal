@@ -62,8 +62,16 @@ Etapy: 1 Przygotowanie inwestycji i dokumentacja · 2 Roboty przygotowawcze i zi
 - Ostatnie przeniesione (25.10.2026): 122142661947228509 brama-garazowa…, 122142630387228509 zbiornik-na-deszczowke…, 122142446595228509 dach-przecieka-tylko-przy-deszczu-z-wiatrem…, 122142444633228509 chce-wyburzyc-tylko-kawalek-sciany….
 - Na FB czeka co najmniej: „Wprowadziłeś się. Pierwsza zima w nowym domu zdecyduje, czy wiosną zobaczysz pleśń” (26.10.2026 ok. 17:15).
 
-## Do ustalenia
-- Kanał wgrywania na Hostingera, który działa bez Piotra (warunek automatu). Opcje: repozytorium GitHub + wdrożenie Git w hPanel; klucz SSH; Piotr otwiera menedżer plików kliknięciem.
+## Repozytorium i automaty
+- GitHub: `piotrkobylanka-commits/edukacjabudowlana-portal` (prywatne). Gałąź `main` = strona 1:1 z `public_html` + katalog `_narzedzia/` (niepubliczny, .htaccess „Require all denied”, wykluczony z wgrywania).
+- `_narzedzia/`: KONTROLA.md (kopia tego pliku), SKILL.md (procedura), fb2portal.py (post → wpis), wstaw.py (wpisy → index.html), meta.json (metryczki), posty/*.txt (teksty 1:1), wpisy/*.json, fb-obrazy.txt (ID + URL grafik z FB), mirror.py.
+- Automat „Kopia strony i grafiki z FB” (.github/workflows/mirror.yml): uruchamia się po zmianie `_narzedzia/trigger-mirror` (kopia całej strony z edukacjabudowlana.eu) albo `_narzedzia/fb-obrazy.txt` (pobranie grafik z FB do img/full/<ID>.webp). Powód: środowisko Claude nie widzi edukacjabudowlana.eu ani fbcdn.net, a GitHub Actions tak.
+- Automat „Publikacja” (.github/workflows/publikacja.yml): po każdym pushu do `main` (poza _narzedzia i .github) wgrywa zmienione pliki przez FTPS do `public_html` (217.65.157.30, użytkownik u475962483). Nic nie usuwa na serwerze. Wymaga sekretu repozytorium `FTP_PASSWORD` ustawionego przez Piotra. Hasła Claude nie zna i nie wpisuje.
+
+## Znane braki portalu
+- Okładki starszych artykułów (`img/full/*.webp`) zwracają 404 na serwerze (sprawdzone 26.10.2026), miniatury w `img/thumbs/sNN.webp` działają.
+- Nowe wpisy nie mają jeszcze miniatur w sprite’ach `img/thumbs` (pole `thumb`); do uzupełnienia: kafel 5×5 w sprite s49 (zajęte 9 pól).
 
 ## Dziennik
 - 26.10.2026: utworzono plik kontrolny; ustalono budowę portalu i stan na 25.10.2026.
+- 26.10.2026: założono repozytorium GitHub i automaty; przygotowano 9 wpisów z 26.10 (zdjęcia FB 122142724155, …726459, …728661, …732153, …747843, …751101, …767925, …768747, …769719). Piotr zaakceptował okładki; myślnik „—” na grafice „Ściany pomalowane” i literówki („gwarancyjn9ą”, „Farbę wysycha się”) zostają jak w oryginale.
