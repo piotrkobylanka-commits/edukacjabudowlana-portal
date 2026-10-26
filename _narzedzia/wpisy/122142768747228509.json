@@ -1,0 +1,56 @@
+{
+ "slug": "dom-odebrany-teraz-formalnosci-o-ktorych-nikt-nie-przypomina",
+ "title": "Dom odebrany – teraz formalności, o których nikt nie przypomina",
+ "lead": "Jakie obowiązki ma właściciel nowego domu po zakończeniu budowy: numer porządkowy, informacja IN-1, deklaracja do CEEB, obowiązkowe przeglądy, gwarancje i zmiana ubezpieczenia.",
+ "stage": 10,
+ "dzial": "formalne-zakonczenie-budowy",
+ "domain": "prawo",
+ "norms": [
+  "Prawo budowlane art. 62",
+  "Ustawa o podatkach i opłatach lokalnych"
+ ],
+ "date": "2026-10-26",
+ "html": "<p>🔑 Dom odebrany. Teraz formalności, o których nikt nie przypomina</p>\n<p>Zawiadomienie złożone, 14 dni minęło, meble stoją. Kierownik budowy i ekipy zniknęli z horyzontu. Od tej chwili za dom odpowiadasz Ty. Kilka obowiązków ma terminy, a urząd sam o nich nie przypomni.</p>\n<h2 id=\"numer-porzadkowy\">🔹 NUMER PORZĄDKOWY</h2>\n<ul>\n<li class=\"fb-b\">▪️ Jeśli dom nie ma jeszcze numeru, złóż w urzędzie gminy wniosek o nadanie numeru porządkowego.</li>\n<li class=\"fb-b\">▪️ Tabliczkę z numerem umieszcza właściciel, tak żeby była widoczna od ulicy.</li>\n<li class=\"fb-b\">▪️ Z numerem zaktualizujesz adres u dostawców prądu, gazu i wody, w banku i u ubezpieczyciela.</li>\n</ul>\n<h2 id=\"podatek-od-nieruchomosci\">🔹 PODATEK OD NIERUCHOMOŚCI</h2>\n<ul>\n<li class=\"fb-b\">▪️ Informację IN-1 o nowym budynku składasz w gminie w ciągu 14 dni od zakończenia budowy albo rozpoczęcia użytkowania.</li>\n<li class=\"fb-b\">▪️ Podatek od budynku płaci się od 1 stycznia następnego roku. Do tego czasu płacisz jak dotąd, za grunt.</li>\n<li class=\"fb-b\">▪️ Gmina wyśle decyzję z kwotą i terminami rat. Sprawdź, czy powierzchnia w decyzji zgadza się z Twoim domem.</li>\n<li class=\"fb-b\">▪️ Spóźnienie z IN-1 to wykroczenie skarbowe. Nie warto.</li>\n</ul>\n<h2 id=\"deklaracja-do-ceeb\">🔹 DEKLARACJA DO CEEB</h2>\n<ul>\n<li class=\"fb-b\">▪️ Źródło ciepła (pompa ciepła, kocioł, kominek) zgłasza się do Centralnej Ewidencji Emisyjności Budynków.</li>\n<li class=\"fb-b\">▪️ Deklarację składa się w ciągu 14 dni od pierwszego uruchomienia źródła ciepła. Najprościej przez internet.</li>\n</ul>\n<h2 id=\"przeglady-obowiazkowe\">🔹 PRZEGLĄDY OBOWIĄZKOWE</h2>\n<ul>\n<li class=\"fb-b\">▪️ Co najmniej raz w roku kalendarzowym: kontrola przewodów kominowych (dymowych, spalinowych i wentylacyjnych) i instalacji gazowej, jeśli ją masz.</li>\n<li class=\"fb-b\">▪️ Protokół z kontroli kominiarskiej sporządza się jako e-protokół w CEEB. Po wizycie kominiarza sprawdź, czy wpis tam jest. Sam papier to za mało.</li>\n<li class=\"fb-b\">▪️ Co najmniej raz na 5 lat: kontrola stanu technicznego całego domu, razem z instalacją elektryczną i piorunochronną. Robi ją osoba z uprawnieniami.</li>\n<li class=\"fb-b\">▪️ Dom jednorodzinny jest zwolniony z rocznego przeglądu elementów narażonych na pogodę i z prowadzenia książki obiektu budowlanego. Protokoły z kontroli i tak trzeba przechowywać.</li>\n<li class=\"fb-b\">▪️ Brak przeglądów potrafi utrudnić wypłatę odszkodowania z ubezpieczenia.</li>\n</ul>\n<h2 id=\"gwarancje-i-rekojmia\">🔹 GWARANCJE I RĘKOJMIA</h2>\n<ul>\n<li class=\"fb-b\">▪️ Zrób listę: kto co wykonał, do kiedy gwarancja, jakie warunki (np. coroczny przegląd pompy ciepła).</li>\n<li class=\"fb-b\">▪️ Rękojmia przy budynku trwa 5 lat od wydania.</li>\n<li class=\"fb-b\">▪️ Usterkę zgłaszaj na piśmie, od razu po wykryciu, ze zdjęciami.</li>\n</ul>\n<h2 id=\"ubezpieczenie\">🔹 UBEZPIECZENIE</h2>\n<ul>\n<li class=\"fb-b\">▪️ Polisa „budowy” to nie polisa domu. Zmień ją na ubezpieczenie budynku zamieszkanego, z aktualną wartością i wyposażeniem.</li>\n</ul>\n<h2 id=\"zapisz\">📋 ZAPISZ</h2>\n<p>W jednym segregatorze albo folderze: projekt, oświadczenie kierownika budowy, geodezja, dziennik budowy, protokoły, gwarancje, decyzja podatkowa i protokoły z przeglądów. Właściciel przechowuje dokumentację domu przez cały czas jego istnienia.</p>\n<p>Budowę kończy zawiadomienie. Bycie właścicielem domu dopiero się zaczyna.</p>",
+ "toc": [
+  {
+   "id": "numer-porzadkowy",
+   "t": "🔹 NUMER PORZĄDKOWY"
+  },
+  {
+   "id": "podatek-od-nieruchomosci",
+   "t": "🔹 PODATEK OD NIERUCHOMOŚCI"
+  },
+  {
+   "id": "deklaracja-do-ceeb",
+   "t": "🔹 DEKLARACJA DO CEEB"
+  },
+  {
+   "id": "przeglady-obowiazkowe",
+   "t": "🔹 PRZEGLĄDY OBOWIĄZKOWE"
+  },
+  {
+   "id": "gwarancje-i-rekojmia",
+   "t": "🔹 GWARANCJE I RĘKOJMIA"
+  },
+  {
+   "id": "ubezpieczenie",
+   "t": "🔹 UBEZPIECZENIE"
+  },
+  {
+   "id": "zapisz",
+   "t": "📋 ZAPISZ"
+  }
+ ],
+ "sources": "<ul>\n<li>Opracowanie autorskie EdukacjaBudowlana, pierwotnie opublikowane na profilu EdukacjaBudowlana na Facebooku.</li>\n<li>Prawo budowlane art. 62</li>\n<li>Ustawa o podatkach i opłatach lokalnych</li>\n</ul>",
+ "disclaimer": "Artykuł ma charakter informacyjny i nie stanowi porady prawnej.",
+ "minutes": 2,
+ "nr": null,
+ "seria": null,
+ "zag": "numer-porzadkowy-i-podatek-od-nieruchomosci",
+ "cover": {
+  "src": "img/full/122142768747228509.webp",
+  "w": 1672,
+  "h": 941,
+  "alt": "Dom odebrany – teraz formalności, o których nikt nie przypomina"
+ }
+}

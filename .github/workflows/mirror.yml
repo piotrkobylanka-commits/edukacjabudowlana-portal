@@ -1,0 +1,35 @@
+name: Kopia strony i grafiki z FB
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "_narzedzia/trigger-mirror"
+      - "_narzedzia/fb-obrazy.txt"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: mirror
+  cancel-in-progress: false
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pillow
+      - run: python3 _narzedzia/mirror.py
+      - name: Zapis do repozytorium
+        run: |
+          git config user.name "EdukacjaBudowlana automat"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then echo "Bez zmian"; exit 0; fi
+          git commit -m "Automat: kopia strony / grafiki z FB"
+          git push

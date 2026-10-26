@@ -1,0 +1,69 @@
+# Plik kontrolny: przenoszenie postów z Facebooka na portal EdukacjaBudowlana
+
+Czytaj na początku KAŻDEGO przenoszenia. Aktualizuj na końcu (sekcje „Stan” i „Dziennik”).
+
+## Zadanie
+Każdy nowy post z fanpage’a EdukacjaBudowlana trafia na portal jako pełny artykuł, możliwie od razu po publikacji na FB.
+
+## Adresy
+- Fanpage: https://www.facebook.com/people/EdukacjaBudowlana/61586855296654/ (Piotr zalogowany jako administrator w przeglądarce wbudowanej aplikacji Claude na komputerze).
+- Portal (tymczasowo): https://edukacjabudowlana.eu. Docelowo edukacjabudowlana.pl (na razie 404 na domena.pl, „.pl jest na .eu”).
+- Hosting: Hostinger, plan Premium, strona typu PHP/HTML, katalog `public_html`, użytkownik u475962483, IP 217.65.157.30. Brak Git, SSH wyłączone. Menedżer plików otwiera się w okienku (srv2288-files.hstgr.io), które przeglądarka Claude blokuje.
+- NIE publikować na bud24.eu (podłączony WordPress to bud24.eu, nie EB).
+
+## Zasady (bezwzględne)
+0. TEKST 1:1 Z FB. Treść posta przenosi się dokładnie tak, jak jest na FB: emoji, punktory, podział linii, wielkie litery, interpunkcja. Niczego nie „czyścić” ani nie przepisywać. (Odczyt: emoji na FB to obrazki z atrybutem alt; pobieraj tekst z alt, bo innerText je gubi.) Oczywistą literówkę zgłoś Piotrowi, nie poprawiaj sama.
+0a. OBRAZ = oryginalna grafika z posta (pełna rozdzielczość z FB), zapisana jako img/full/<ID>.webp. Każdy obraz pokazać Piotrowi do akceptacji przed publikacją.
+0b. Merytorykę i prawa autorskie sprawdzić w wielu źródłach, ale w artykule NIC o sprawdzaniu ani o źródłach poza ustalonym formatem pola `sources`.
+0c. Nie publikować udostępnionych cudzych postów (np. izb inżynierów), tylko własne posty EdukacjaBudowlana.
+1. Sygnatura wyłącznie EdukacjaBudowlana / www.edukacjabudowlana.pl. Zero: bud24, INPEN, numerów telefonów, wzmianek o AI, Claude, Higgsfield. Wyjątek: stopka i kontakt portalu (biuro@edukacjabudowlana.pl) zostają, jak są.
+2. Zero długich myślników „—”. W tytułach i zakresach „–”.
+3. Styl wg skilla `naturalny-styl-pisania`: konkret, problem na start, bez formułek AI, bez sztucznych podsumowań.
+4. Oryginalność wg skilla `oryginalne-tresci-prawa-autorskie`: post z FB to nasz materiał, ale artykuł opracowujemy na nowo i rozwijamy, nie kopiujemy cudzych tekstów.
+5. Stan prawny: przed publikacją sprawdź aktualność przywołanych przepisów i norm (wyszukiwanie). Każdy obowiązek z podstawą prawną.
+6. Przykłady fikcyjne i opisane jako fikcyjne.
+7. Nie przenosić drugi raz posta, który już jest (sprawdzaj ID posta i tytuł).
+
+## Budowa portalu
+Jeden plik `index.html` (~13,7 MB) na Hostingerze. Dane w `<script id="data" type="application/json">`, klucze: phases, stages (13), domains, series, articles, icons, thumbs, checklist, stops. Obrazy okładek: `img/full/<ID posta FB>.webp` (960×536).
+
+Domeny: konstrukcje, fizyka, grunt, instalacje, wykonczenia, prawo, koszty.
+Etapy: 1 Przygotowanie inwestycji i dokumentacja · 2 Roboty przygotowawcze i ziemne · 3 Fundamenty i stan zerowy · 4 SSO · 5 SSZ · 6 Instalacje wewnętrzne i prace przedtynkowe · 7 Tynki, izolacje, jastrychy i stan deweloperski · 8 Roboty wykończeniowe · 9 Przyłącza i zagospodarowanie działki · 10 Odbiory, dokumentacja i zakończenie budowy · 11 Wykonawcy i umowy · 12 Użytkowanie i gwarancje · 13 Remont, przebudowa, rozbudowa.
+
+### Pola artykułu z FB (wzór z 25.10.2026)
+- `slug`: z tytułu, bez polskich znaków, myślniki.
+- `title`: problem czytelnika, format „Sytuacja – pytanie/rozwiązanie”.
+- `lead`: 1–2 zdania, co czytelnik wyniesie.
+- `stage` (1–13), `dzial` (slug działu etapu), `domain`, `zag` (slug zagadnienia, np. podjazd-i-chodniki).
+- `norms`: lista, np. ["Warunki techniczne § 107", "PN-EN 1433"].
+- `date`: RRRR-MM-DD publikacji na FB.
+- `html`: treść, akapity `<p>`, śródtytuły `<h2 id="...">` zgodne z `toc`.
+- `toc`: [{"id","t"}] dla każdego h2.
+- `sources`: `<ul><li>Opracowanie autorskie EdukacjaBudowlana, pierwotnie opublikowane na profilu EdukacjaBudowlana na Facebooku.</li>` + po jednym `<li>` na przepis/normę `</ul>`.
+- `disclaimer`: jedno zdanie dopasowane do dziedziny (prawo: „Artykuł ma charakter informacyjny i nie stanowi porady prawnej.”).
+- `minutes`: czas czytania; `nr`: null; `seria`: null.
+- `cover`: {"src":"img/full/<ID>.webp","w":960,"h":536,"alt":"<tytuł>"}; `thumb`: [indeks, x, y] z tablicy `thumbs`.
+
+## Procedura
+1. Przeczytaj ten plik.
+2. Odczytaj aktualny portal i listę już przeniesionych ID (sekcja „Stan”).
+3. Otwórz fanpage w przeglądarce wbudowanej (tylko odczyt, bez klikania „Promuj”, reakcji, komentarzy), zbierz posty nowsze niż ostatnie przeniesione ID: ID, data, pełny tekst, grafika.
+4. Dla każdego posta: przenieś tekst 1:1 do pola `html` (nagłówki pisane wersalikami na FB → `<h2>` z tym samym tekstem i emoji; punkty → `<li class="fb-b">` z oryginalnym znakiem punktora), uzupełnij metadane (tytuł = pierwsza linia posta, lead, etap, dział, zagadnienie, normy), sprawdź merytorykę. Grafikę z posta zapisz jako webp i pokaż Piotrowi.
+5. Kontrola automatyczna: 0 × „—”, „bud24”, „INPEN”, „Claude”, „Higgsfield”, „AI”; poprawny JSON; slug unikalny.
+6. Wgraj nowy `index.html` i obrazy na Hostingera (kanał: patrz „Do ustalenia”), wyczyść cache.
+7. Sprawdź na żywo, że artykuły się otwierają.
+8. Zaktualizuj „Stan” i „Dziennik”.
+
+## Stan (aktualizuj po każdym przeniesieniu)
+- Portal sprawdzony: 26.10.2026, plik z 26.10.2026 01:05.
+- Artykułów ogółem: 1290, z FB: 1140 (1108 z ID posta w okładce).
+- Ostatnia data na portalu: 2026-10-25.
+- Najwyższe przeniesione ID posta FB: 122142661947228509 („Brama garażowa zamknięta, a deszczówka wlewa się do garażu – skąd woda i co naprawić”).
+- Ostatnie przeniesione (25.10.2026): 122142661947228509 brama-garazowa…, 122142630387228509 zbiornik-na-deszczowke…, 122142446595228509 dach-przecieka-tylko-przy-deszczu-z-wiatrem…, 122142444633228509 chce-wyburzyc-tylko-kawalek-sciany….
+- Na FB czeka co najmniej: „Wprowadziłeś się. Pierwsza zima w nowym domu zdecyduje, czy wiosną zobaczysz pleśń” (26.10.2026 ok. 17:15).
+
+## Do ustalenia
+- Kanał wgrywania na Hostingera, który działa bez Piotra (warunek automatu). Opcje: repozytorium GitHub + wdrożenie Git w hPanel; klucz SSH; Piotr otwiera menedżer plików kliknięciem.
+
+## Dziennik
+- 26.10.2026: utworzono plik kontrolny; ustalono budowę portalu i stan na 25.10.2026.
