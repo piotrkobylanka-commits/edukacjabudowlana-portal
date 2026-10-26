@@ -26,7 +26,9 @@ Każdy nowy post z fanpage’a EdukacjaBudowlana trafia na portal jako pełny ar
 7. Nie przenosić drugi raz posta, który już jest (sprawdzaj ID posta i tytuł).
 
 ## Budowa portalu
-Jeden plik `index.html` (~13,7 MB) na Hostingerze. Dane w `<script id="data" type="application/json">`, klucze: phases, stages (13), domains, series, articles, icons, thumbs, checklist, stops. Obrazy okładek: `img/full/<ID posta FB>.webp` (960×536).
+Jeden plik `index.html` (~13,7 MB) na Hostingerze. Dane w `<script id="data" type="application/json">` (zapis zwarty, „</” jako „<\/”), klucze: phases, stages (13), domains, series, articles, icons, thumbs, checklist, stops.
+GRAFIKI: w danych okładka to `img/full/<ID>.webp`, ale pliku nie ma na serwerze (404 to norma). Skrypt `window.EBIMG` (w index.html) ma mapę `const M={"<ID>":<nr paczki>}` i ładuje `p/NNN.json` = {"<ID>": base64 WebP 960 px, q80}. Nowe grafiki → kolejna paczka (`pakuj.py`). Ostatnia paczka: p/427.json (26.10.2026).
+Na serwerze są też pliki, których nie ma w repozytorium i których nie wolno nadpisać: api.php, eb_lib.php, kontakt.php, .htaccess, p/000–426.json, img/…, panel administratora w PHP (serwerowa wersja index.html różni się od artefaktu claude.ai).
 
 Domeny: konstrukcje, fizyka, grunt, instalacje, wykonczenia, prawo, koszty.
 Etapy: 1 Przygotowanie inwestycji i dokumentacja · 2 Roboty przygotowawcze i ziemne · 3 Fundamenty i stan zerowy · 4 SSO · 5 SSZ · 6 Instalacje wewnętrzne i prace przedtynkowe · 7 Tynki, izolacje, jastrychy i stan deweloperski · 8 Roboty wykończeniowe · 9 Przyłącza i zagospodarowanie działki · 10 Odbiory, dokumentacja i zakończenie budowy · 11 Wykonawcy i umowy · 12 Użytkowanie i gwarancje · 13 Remont, przebudowa, rozbudowa.
@@ -69,12 +71,13 @@ Etapy: 1 Przygotowanie inwestycji i dokumentacja · 2 Roboty przygotowawcze i zi
 - Automat „Kopia strony i grafiki z FB” (.github/workflows/mirror.yml): uruchamia się po zmianie `_narzedzia/trigger-mirror` (kopia całej strony z edukacjabudowlana.eu) albo `_narzedzia/fb-obrazy.txt` (pobranie grafik z FB do img/full/<ID>.webp). Powód: środowisko Claude nie widzi edukacjabudowlana.eu ani fbcdn.net, a GitHub Actions tak.
 - Automat „Publikacja” (.github/workflows/publikacja.yml): po każdym pushu do `main` (poza _narzedzia i .github) wgrywa zmienione pliki przez FTPS do `public_html` (217.65.157.30, użytkownik u475962483). Nic nie usuwa na serwerze. Wymaga sekretu repozytorium `FTP_PASSWORD` ustawionego przez Piotra. Hasła Claude nie zna i nie wpisuje.
 
-## Znane braki portalu
-- Okładki starszych artykułów (`img/full/*.webp`) zwracają 404 na serwerze (sprawdzone 26.10.2026), miniatury w `img/thumbs/sNN.webp` działają.
-- Miniatury: sprite `img/thumbs/sNN.webp` 2400×1350, siatka 5×5 kafli 480×270, pole `thumb` = [NN, kolumna, wiersz]. W s49 zajęte: wiersz 0 (5), wiersz 1 kol. 0–3 (wpisy z 25.10, ale kafle są PUSTE – brak grafik), (4,1), wiersz 2 (5), wiersz 3 kol. 0–2. Następne wolne: (3,3), (4,3), wiersz 4; potem nowy sprite s50.
-- Wpisy z 25.10.2026 (brama, zbiornik, ściana nośna, dach przy wietrze) nie mają okładek ani miniatur na serwerze – do uzupełnienia z grafik FB.
+## Uwagi techniczne
+- CDN Hostingera potrafi oddać starą wersję pliku graficznego. Pliki zmieniane (arkusz miniatur, index.html) zawsze pobieraj z `?nocache=<czas>` (mirror.py robi to sam; lista w `_narzedzia/pobierz.txt`).
+- Repozytorium NIE jest pełną kopią serwera: trzyma tylko pliki zarządzane (index.html, nowe p/NNN.json, zmieniane arkusze img/thumbs). Wgrywanie FTP niczego nie usuwa.
+- Miniatury: sprite `img/thumbs/sNN.webp` 2400×1350, siatka 5×5 kafli 480×270, pole `thumb` = [NN, kolumna, wiersz]. W s49 zajęte: wiersz 0 (5), wiersz 1 (5; kol. 0–3 wpisy z 25.10), wiersz 2 (5), wiersz 3 kol. 0–2 (wpisy z 26.10). Następne wolne: (3,3), (4,3), wiersz 4; potem nowy sprite s50.
+- (Sprostowanie 26.10: okładki i miniatury wpisów z 25.10 są na serwerze; wcześniejsza uwaga o brakach wynikała z kopii z pamięci podręcznej CDN.)
 
 ## Dziennik
 - 26.10.2026: utworzono plik kontrolny; ustalono budowę portalu i stan na 25.10.2026.
-- 26.10.2026: automat GitHuba skopiował stronę (index.html 13,7 MB, 90 zasobów; 1329 okładek img/full brak na serwerze). Weryfikacja merytoryczna 9 postów: poprawki tylko na portalu (PB-16a nowy wzór, zaświadczenie PINB „może”, załączniki przy projektach od 19.09.2020, WZ od 1.01.2027 tylko z prawem do dysponowania, progi f-gazów, literówki). Wpisy wstawione do index.html, miniatury w s49.
+- 26.10.2026: automat GitHuba skopiował index.html (13,7 MB, zgodny z serwerem). Grafiki 9 wpisów spakowane do p/427.json; arkusz s49 odświeżony z serwera bez cache i uzupełniony o 9 miniatur. Weryfikacja merytoryczna 9 postów: poprawki tylko na portalu (PB-16a nowy wzór, zaświadczenie PINB „może”, załączniki przy projektach od 19.09.2020, WZ od 1.01.2027 tylko z prawem do dysponowania, progi f-gazów, literówki). Wpisy wstawione do index.html, miniatury w s49.
 - 26.10.2026: założono repozytorium GitHub i automaty; przygotowano 9 wpisów z 26.10 (zdjęcia FB 122142724155, …726459, …728661, …732153, …747843, …751101, …767925, …768747, …769719). Piotr zaakceptował okładki; myślnik „—” na grafice „Ściany pomalowane” i literówki („gwarancyjn9ą”, „Farbę wysycha się”) zostają jak w oryginale.
