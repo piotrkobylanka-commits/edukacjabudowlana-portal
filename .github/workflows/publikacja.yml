@@ -1,26 +1,26 @@
 name: Publikacja na edukacjabudowlana.eu
 
-# Wgrywa zmienione pliki strony na Hostingera przez FTPS.
-# Niczego na serwerze nie usuwa (brak dangerous-clean-slate, delete wyłączone przez exclude).
-# Wymaga sekretu repozytorium FTP_PASSWORD (Settings → Secrets and variables → Actions).
+# Wgrywa pliki zarządzane (index.html, p/, img/) na Hostingera przez FTPS.
+# Niczego na serwerze nie usuwa. Wymaga sekretu FTP_PASSWORD.
+# Prawdziwe wgranie tylko, gdy istnieje _narzedzia/publikacja-wlaczona; inaczej próba (dry-run).
+# Wynik (lista katalogów FTP, tryb, kontrola na żywo) zapisuje do _narzedzia/raport-publikacji.txt.
 
 on:
   push:
     branches: [main]
-    paths-ignore:
-      - "_narzedzia/**"
-      - ".github/**"
-      - "README.md"
+    paths:
+      - "index.html"
+      - "p/**"
+      - "img/**"
+      - "_narzedzia/publikacja-trigger"
   workflow_dispatch:
-    inputs:
-      proba:
-        description: "Tylko próba (nic nie wgrywa)"
-        type: boolean
-        default: true
 
 concurrency:
   group: publikacja
   cancel-in-progress: false
+
+permissions:
+  contents: write
 
 jobs:
   ftp:
@@ -30,11 +30,10 @@ jobs:
       - name: Sprawdzenie danych portalu
         run: |
           python3 - <<'E'
-          import json, re
+          import json
           h = open("index.html", encoding="utf-8").read()
-          m = re.search(r'<script id="data" type="application/json">', h)
-          raw = h[m.end():h.index("</script>", m.end())]
-          d = json.loads(raw)
+          s = h.index(">", h.index('id="data"')) + 1
+          d = json.loads(h[s:h.index("</script>", s)])
           print("artykułów:", len(d["articles"]))
           E
       - name: Tryb publikacji
@@ -42,18 +41,22 @@ jobs:
         env:
           HASLO: ${{ secrets.FTP_PASSWORD }}
         run: |
+          R=_narzedzia/raport-publikacji.txt
+          date -u '+%Y-%m-%d %H:%M UTC' > $R
           if [ -z "$HASLO" ]; then
-            echo "::warning::Brak sekretu FTP_PASSWORD – publikacja pominięta."
+            echo "BRAK sekretu FTP_PASSWORD – publikacja pominięta" | tee -a $R
             echo "pomin=true" >> "$GITHUB_OUTPUT"; exit 0
           fi
           echo "pomin=false" >> "$GITHUB_OUTPUT"
-          # Prawdziwe wgranie tylko gdy włączone plikiem _narzedzia/publikacja-wlaczona
-          # i (przy ręcznym uruchomieniu) nie zaznaczono próby.
-          if [ -f _narzedzia/publikacja-wlaczona ] && [ "${{ inputs.proba }}" != "true" ]; then
-            echo "proba=false" >> "$GITHUB_OUTPUT"
-          else
-            echo "proba=true" >> "$GITHUB_OUTPUT"
-          fi
+          if [ -f _narzedzia/publikacja-wlaczona ]; then echo "proba=false" >> "$GITHUB_OUTPUT"; echo "TRYB: wgranie" >> $R
+          else echo "proba=true" >> "$GITHUB_OUTPUT"; echo "TRYB: próba (dry-run)" >> $R; fi
+          for d in "" "public_html/" "public_html/p/" ; do
+            echo "== ftp://.../$d" >> $R
+            curl -s --max-time 60 --ssl-reqd --user "u475962483:$HASLO" "ftp://217.65.157.30/$d" --list-only 2>&1 \
+              | grep -v '^[0-9]\{3\}\.json$' | head -40 >> $R || echo "błąd listy $d (kod $?)" >> $R
+          done
+          echo "== liczba paczek p/*.json na serwerze:" >> $R
+          curl -s --max-time 60 --ssl-reqd --user "u475962483:$HASLO" "ftp://217.65.157.30/public_html/p/" --list-only 2>/dev/null | grep -c 'json$' >> $R || true
       - name: Wgranie przez FTPS
         if: steps.tryb.outputs.pomin != 'true'
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
@@ -65,6 +68,7 @@ jobs:
           port: 21
           server-dir: public_html/
           dry-run: ${{ steps.tryb.outputs.proba }}
+          log-level: standard
           exclude: |
             **/.git*
             **/.git*/**
@@ -72,3 +76,24 @@ jobs:
             _narzedzia/**
             README.md
             .gitattributes
+      - name: Kontrola na żywo
+        if: always() && steps.tryb.outputs.pomin != 'true'
+        run: |
+          R=_narzedzia/raport-publikacji.txt
+          T=$(date +%s)
+          echo "== kontrola na żywo" >> $R
+          curl -s "https://edukacjabudowlana.eu/?nocache=$T" -o live.html
+          echo "index.html: $(stat -c %s live.html) B, nowe wpisy: $(grep -o 'podlogowka-ulozona-zanim-wjedzie-wylewka' live.html | head -1)" >> $R
+          echo "p/427.json: $(curl -s -o /dev/null -w '%{http_code} %{size_download}' "https://edukacjabudowlana.eu/p/427.json?nocache=$T")" >> $R
+          echo "s49.webp: $(curl -s -o /dev/null -w '%{http_code} %{size_download}' "https://edukacjabudowlana.eu/img/thumbs/s49.webp?nocache=$T")" >> $R
+          echo "api.php: $(curl -s -o /dev/null -w '%{http_code}' "https://edukacjabudowlana.eu/api.php?nocache=$T")" >> $R
+          rm -f live.html
+      - name: Zapis raportu
+        if: always()
+        run: |
+          git config user.name "EdukacjaBudowlana automat"
+          git config user.email "actions@users.noreply.github.com"
+          git add _narzedzia/raport-publikacji.txt
+          git diff --cached --quiet && exit 0
+          git commit -m "Automat: raport publikacji"
+          for i in 1 2 3 4 5; do git pull --rebase -X theirs origin main && git push && exit 0; sleep 10; done
