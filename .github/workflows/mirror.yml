@@ -6,6 +6,7 @@ on:
     paths:
       - "_narzedzia/trigger-mirror"
       - "_narzedzia/fb-obrazy.txt"
+      - "_narzedzia/pobierz.txt"
   workflow_dispatch:
 
 permissions:

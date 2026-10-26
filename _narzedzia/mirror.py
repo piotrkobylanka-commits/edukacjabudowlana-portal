@@ -16,7 +16,9 @@ REPORT = []
 UA = {"User-Agent": "Mozilla/5.0 (EdukacjaBudowlana mirror)"}
 
 
-def get(url, tries=3):
+def get(url, tries=3, nocache=False):
+    if nocache:  # omija pamięć podręczną CDN Hostingera
+        url += ("&" if "?" in url else "?") + "nocache=" + str(int(time.time() * 1000))
     for i in range(tries):
         try:
             req = urllib.request.Request(url, headers=UA)
@@ -45,7 +47,7 @@ ROOTFILES = ["robots.txt", "sitemap.xml", "favicon.ico", "favicon.svg", "favicon
 
 
 def mirror():
-    st, ct, html = get(BASE)
+    st, ct, html = get(BASE, nocache=True)
     if st != 200:
         REPORT.append(f"BŁĄD index.html: {st} {ct}")
         return
@@ -60,7 +62,7 @@ def mirror():
         if rel in seen or "${" in rel:
             continue
         seen.add(rel)
-        st, ct, data = get(BASE + rel)
+        st, ct, data = get(BASE + rel, nocache=True)
         if st == 200 and not (rel.endswith((".webp", ".png", ".jpg", ".jpeg")) and "text/html" in ct):
             save(rel, data)
             ok += 1
@@ -73,6 +75,24 @@ def mirror():
     REPORT.extend("  BRAK " + m for m in missing)
 
 
+def pobierz_lista():
+    """Pobiera świeże (bez cache) pliki wymienione w _narzedzia/pobierz.txt."""
+    path = os.path.join(ROOT, "_narzedzia", "pobierz.txt")
+    if not os.path.exists(path):
+        return
+    for rel in open(path, encoding="utf-8"):
+        rel = rel.strip()
+        if not rel or rel.startswith("#"):
+            continue
+        st, ct, data = get(BASE + rel, nocache=True)
+        if st == 200 and data and not ("text/html" in ct and not rel.endswith(".html")):
+            save(rel, data)
+            REPORT.append(f"pobrano {rel}: {len(data)} B")
+        else:
+            REPORT.append(f"BŁĄD {rel}: {st} {ct}")
+    os.remove(path)
+
+
 def fb_images():
     path = os.path.join(ROOT, "_narzedzia", "fb-obrazy.txt")
     if not os.path.exists(path):
@@ -83,7 +103,7 @@ def fb_images():
         if not line or line.startswith("#"):
             continue
         pid, url = line.split(None, 1)
-        out = f"img/full/{pid}.webp"
+        out = f"_narzedzia/obrazy/{pid}.webp"
         if os.path.exists(os.path.join(ROOT, out)):
             REPORT.append(f"FB {pid}: już jest")
             continue
@@ -93,7 +113,7 @@ def fb_images():
             continue
         im = Image.open(io.BytesIO(data)).convert("RGB")
         buf = io.BytesIO()
-        im.save(buf, "WEBP", quality=85, method=6)
+        im.save(buf, "WEBP", quality=90, method=6)
         save(out, buf.getvalue())
         REPORT.append(f"FB {pid}: {im.size[0]}x{im.size[1]} -> {out}")
 
@@ -102,6 +122,7 @@ if __name__ == "__main__":
     if os.path.exists(os.path.join(ROOT, "_narzedzia", "trigger-mirror")):
         mirror()
         os.remove(os.path.join(ROOT, "_narzedzia", "trigger-mirror"))
+    pobierz_lista()
     fb_images()
     with open(os.path.join(ROOT, "_narzedzia", "raport-mirror.txt"), "w", encoding="utf-8") as f:
         f.write(time.strftime("%Y-%m-%d %H:%M UTC\n", time.gmtime()) + "\n".join(REPORT) + "\n")

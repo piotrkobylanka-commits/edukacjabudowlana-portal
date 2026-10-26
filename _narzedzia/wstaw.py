@@ -31,8 +31,9 @@ for f in sorted(glob.glob(os.path.join(wdir, "*.json")), reverse=True):
     if a["slug"] in have_slug or a["cover"]["src"] in have_cover:
         print("pomijam (już jest):", a["slug"])
         continue
-    if not os.path.exists(os.path.join(os.path.dirname(index) or ".", a["cover"]["src"])):
-        sys.exit("Brak pliku okładki: " + a["cover"]["src"])
+    pid = re.search(r"(\d{12,})", a["cover"]["src"]).group(1)
+    if f'"{pid}":' not in h[h.find("window.EBIMG"):h.find("window.EBIMG") + 200000]:
+        sys.exit("Grafika nie jest w paczce EBIMG (uruchom pakuj.py): " + pid)
     new.append(a)
 
 if not new:
