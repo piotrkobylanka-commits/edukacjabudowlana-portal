@@ -6,6 +6,7 @@
  "dzial": "pierwsze-lata-domu",
  "domain": "fizyka",
  "norms": [
+  "PN-EN 16798-1",
   "PN-EN ISO 13788"
  ],
  "date": "2026-10-26",
@@ -48,7 +49,7 @@
    "t": "📋 ZAPISZ"
   }
  ],
- "sources": "<ul>\n<li>Opracowanie autorskie EdukacjaBudowlana, pierwotnie opublikowane na profilu EdukacjaBudowlana na Facebooku.</li>\n<li>PN-EN ISO 13788</li>\n</ul>",
+ "sources": "<ul>\n<li>Opracowanie autorskie EdukacjaBudowlana, pierwotnie opublikowane na profilu EdukacjaBudowlana na Facebooku.</li>\n<li>PN-EN 16798-1</li>\n<li>PN-EN ISO 13788</li>\n</ul>",
  "disclaimer": "Technologię wykonania dla konkretnej budowy ustala projekt i karta techniczna producenta; artykuł ma charakter informacyjny.",
  "minutes": 3,
  "nr": null,

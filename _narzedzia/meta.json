@@ -1,47 +1,150 @@
 {
- "122142724155228509": {"date": "2026-10-26", "stage": 6, "dzial": "ogrzewanie-i-chlodzenie", "zag": "ogrzewanie-podlogowe-i-grzejniki", "domain": "instalacje",
-  "norms": ["PN-EN 1264-4"],
+ "122142724155228509": {
+  "date": "2026-10-26",
+  "stage": 6,
+  "dzial": "ogrzewanie-i-chlodzenie",
+  "zag": "ogrzewanie-podlogowe-i-grzejniki",
+  "domain": "instalacje",
+  "norms": [
+   "PN-EN 1264-4",
+   "PN-EN 1264-3",
+   "PN-EN 13813"
+  ],
   "lead": "Co sprawdzić w ogrzewaniu podłogowym przed przyjazdem wylewki: próbę szczelności, ułożenie rur, izolację, dylatacje i grubość podkładu, a także co zapisać, zanim wszystko zniknie pod jastrychem.",
   "disclaimer": "Instalację dla konkretnego budynku projektuje i wykonuje osoba z odpowiednimi uprawnieniami; artykuł ma charakter informacyjny.",
-  "cover_w": 1086, "cover_h": 1448},
- "122142726459228509": {"date": "2026-10-26", "stage": 7, "dzial": "ocieplenie-i-elewacja", "zag": "tynki-elewacyjne-i-kolor", "domain": "wykonczenia",
-  "norms": ["PN-EN 13499", "PN-EN 17237"],
+  "cover_w": 1086,
+  "cover_h": 1448
+ },
+ "122142726459228509": {
+  "date": "2026-10-26",
+  "stage": 7,
+  "dzial": "ocieplenie-i-elewacja",
+  "zag": "tynki-elewacyjne-i-kolor",
+  "domain": "wykonczenia",
+  "norms": [
+   "PN-EN 13499",
+   "PN-EN 13500",
+   "PN-EN 15824",
+   "EAD 040083-00-0404"
+  ],
   "lead": "Co skontrolować na ociepleniu, zanim zakryje je tynk, w jakich warunkach kłaść tynk cienkowarstwowy, co zrobić, gdy nie zdążycie przed zimą, i na co patrzeć na elewacji po pierwszej zimie.",
   "disclaimer": "Technologię wykonania dla konkretnej budowy ustala projekt i karta techniczna producenta; artykuł ma charakter informacyjny.",
-  "cover_w": 1672, "cover_h": 941},
- "122142728661228509": {"date": "2026-10-26", "stage": 8, "dzial": "podlogi-i-schody", "zag": "plytki-i-spieki-wielkoformatowe", "domain": "wykonczenia",
-  "norms": ["PN-EN 12004", "PN-EN 13888"],
+  "cover_w": 1672,
+  "cover_h": 941
+ },
+ "122142728661228509": {
+  "date": "2026-10-26",
+  "stage": 8,
+  "dzial": "podlogi-i-schody",
+  "zag": "plytki-i-spieki-wielkoformatowe",
+  "domain": "wykonczenia",
+  "norms": [
+   "PN-EN 12004",
+   "PN-EN 13888",
+   "PN-EN 14891",
+   "PN-EN 15651-3"
+  ],
   "lead": "Kiedy fugować, gdzie zamiast fugi musi być silikon, po jakim czasie można wziąć pierwszy prysznic i jak sprawdzić ułożone płytki, zanim łazienka zacznie pracować.",
   "disclaimer": "Technologię wykonania dla konkretnej budowy ustala projekt i karta techniczna producenta; artykuł ma charakter informacyjny.",
-  "cover_w": 2048, "cover_h": 1536},
- "122142732153228509": {"date": "2026-10-26", "stage": 1, "dzial": "dzialka-i-warunki-zabudowy", "zag": "tereny-zalewowe-gornicze-i-chronione", "domain": "prawo",
-  "norms": ["Prawo wodne art. 16", "Ustawa o planowaniu i zagospodarowaniu przestrzennym"],
+  "cover_w": 2048,
+  "cover_h": 1536
+ },
+ "122142732153228509": {
+  "date": "2026-10-26",
+  "stage": 1,
+  "dzial": "dzialka-i-warunki-zabudowy",
+  "zag": "tereny-zalewowe-gornicze-i-chronione",
+  "domain": "prawo",
+  "norms": [
+   "Prawo wodne art. 16 pkt 34",
+   "Prawo wodne art. 166",
+   "Prawo wodne art. 77",
+   "Ustawa o planowaniu i zagospodarowaniu przestrzennym art. 61 i 63"
+  ],
   "lead": "Dlaczego działka nad rzeką bywa podejrzanie tania, co oznacza obszar szczególnego zagrożenia powodzią, czym grozi zakup takiego gruntu i jak sprawdzić go przed wpłatą zadatku.",
   "disclaimer": "Artykuł ma charakter informacyjny i nie stanowi porady prawnej.",
-  "cover_w": 1672, "cover_h": 941},
- "122142747843228509": {"date": "2026-10-26", "stage": 8, "dzial": "sciany-i-sufity", "zag": "gladzie-i-malowanie", "domain": "wykonczenia",
-  "norms": [],
+  "cover_w": 1672,
+  "cover_h": 941
+ },
+ "122142747843228509": {
+  "date": "2026-10-26",
+  "stage": 8,
+  "dzial": "sciany-i-sufity",
+  "zag": "gladzie-i-malowanie",
+  "domain": "wykonczenia",
+  "norms": [
+   "PN-EN 13300",
+   "PN-EN 14342"
+  ],
   "lead": "Po jakim czasie farba jest naprawdę gotowa, kiedy wnieść meble, kiedy kłaść podłogę drewnianą i panele i w jakiej kolejności kończyć prace we wnętrzach.",
   "disclaimer": "Dobór materiałów i technologii dla konkretnego wnętrza wymaga konsultacji z wykonawcą; artykuł ma charakter informacyjny.",
-  "cover_w": 1672, "cover_h": 941},
- "122142751101228509": {"date": "2026-10-26", "stage": 12, "dzial": "przeglady-i-konserwacja", "zag": "eksploatacja-pompy-ciepla-i-wentylacji", "domain": "instalacje",
-  "norms": ["Rozporządzenie (UE) 2024/573"],
+  "cover_w": 1672,
+  "cover_h": 941
+ },
+ "122142751101228509": {
+  "date": "2026-10-26",
+  "stage": 12,
+  "dzial": "przeglady-i-konserwacja",
+  "zag": "eksploatacja-pompy-ciepla-i-wentylacji",
+  "domain": "instalacje",
+  "norms": [
+   "Rozporządzenie (UE) 2024/573",
+   "Ustawa o substancjach zubożających warstwę ozonową oraz o niektórych fluorowanych gazach cieplarnianych",
+   "PN-EN 378"
+  ],
   "lead": "Co sprawdzić po montażu pompy ciepła: uruchomienie i protokół, krzywą grzewczą i ustawienia, które podnoszą rachunki, jednostkę zewnętrzną zimą i obowiązki związane z f-gazami.",
   "disclaimer": "Instalację dla konkretnego budynku projektuje i wykonuje osoba z odpowiednimi uprawnieniami; artykuł ma charakter informacyjny.",
-  "cover_w": 1080, "cover_h": 1440},
- "122142767925228509": {"date": "2026-10-26", "stage": 10, "dzial": "formalne-zakonczenie-budowy", "zag": "zawiadomienie-czy-pozwolenie-na-uzytkowanie", "domain": "prawo",
-  "norms": ["Prawo budowlane art. 54", "Prawo budowlane art. 57"],
+  "cover_w": 1080,
+  "cover_h": 1440
+ },
+ "122142767925228509": {
+  "date": "2026-10-26",
+  "stage": 10,
+  "dzial": "formalne-zakonczenie-budowy",
+  "zag": "zawiadomienie-czy-pozwolenie-na-uzytkowanie",
+  "domain": "prawo",
+  "norms": [
+   "Prawo budowlane art. 54",
+   "Prawo budowlane art. 57",
+   "Prawo budowlane art. 59f i 59i",
+   "Rozporządzenie z 18.02.2026 w sprawie wzorów formularzy (Dz.U. 2026 poz. 272)"
+  ],
   "lead": "Kiedy można legalnie zamieszkać w nowym domu jednorodzinnym, jak złożyć zawiadomienie o zakończeniu budowy na formularzu PB-16a, co do niego dołączyć i jaki błąd kosztuje najwięcej.",
   "disclaimer": "Artykuł ma charakter informacyjny i nie stanowi porady prawnej.",
-  "cover_w": 1672, "cover_h": 941},
- "122142768747228509": {"date": "2026-10-26", "stage": 10, "dzial": "formalne-zakonczenie-budowy", "zag": "numer-porzadkowy-i-podatek-od-nieruchomosci", "domain": "prawo",
-  "norms": ["Prawo budowlane art. 62", "Ustawa o podatkach i opłatach lokalnych"],
+  "cover_w": 1672,
+  "cover_h": 941
+ },
+ "122142768747228509": {
+  "date": "2026-10-26",
+  "stage": 10,
+  "dzial": "formalne-zakonczenie-budowy",
+  "zag": "numer-porzadkowy-i-podatek-od-nieruchomosci",
+  "domain": "prawo",
+  "norms": [
+   "Ustawa o podatkach i opłatach lokalnych art. 6",
+   "Kodeks karny skarbowy art. 56 § 4",
+   "Ustawa o wspieraniu termomodernizacji i remontów art. 27g",
+   "Prawo budowlane art. 62 i 62a",
+   "Kodeks cywilny art. 568"
+  ],
   "lead": "Jakie obowiązki ma właściciel nowego domu po zakończeniu budowy: numer porządkowy, informacja IN-1, deklaracja do CEEB, obowiązkowe przeglądy, gwarancje i zmiana ubezpieczenia.",
   "disclaimer": "Artykuł ma charakter informacyjny i nie stanowi porady prawnej.",
-  "cover_w": 1672, "cover_h": 941},
- "122142769719228509": {"date": "2026-10-26", "stage": 12, "dzial": "pierwsze-lata-domu", "zag": "wilgoc-i-plesn", "domain": "fizyka",
-  "norms": ["PN-EN ISO 13788"],
+  "cover_w": 1672,
+  "cover_h": 941
+ },
+ "122142769719228509": {
+  "date": "2026-10-26",
+  "stage": 12,
+  "dzial": "pierwsze-lata-domu",
+  "zag": "wilgoc-i-plesn",
+  "domain": "fizyka",
+  "norms": [
+   "PN-EN 16798-1",
+   "PN-EN ISO 13788"
+  ],
   "lead": "Dlaczego w pierwszą zimę w nowym domu na oknach pojawia się woda, jaka wilgotność jest właściwa, jak wietrzyć i ogrzewać, żeby nie dopuścić do pleśni, i które rysy w pierwszym roku są normalne.",
   "disclaimer": "Technologię wykonania dla konkretnej budowy ustala projekt i karta techniczna producenta; artykuł ma charakter informacyjny.",
-  "cover_w": 1672, "cover_h": 941}
+  "cover_w": 1672,
+  "cover_h": 941
+ }
 }
