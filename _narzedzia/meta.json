@@ -13,7 +13,12 @@
   "lead": "Co sprawdzić w ogrzewaniu podłogowym przed przyjazdem wylewki: próbę szczelności, ułożenie rur, izolację, dylatacje i grubość podkładu, a także co zapisać, zanim wszystko zniknie pod jastrychem.",
   "disclaimer": "Instalację dla konkretnego budynku projektuje i wykonuje osoba z odpowiednimi uprawnieniami; artykuł ma charakter informacyjny.",
   "cover_w": 1086,
-  "cover_h": 1448
+  "cover_h": 1448,
+  "thumb": [
+   49,
+   0,
+   2
+  ]
  },
  "122142726459228509": {
   "date": "2026-10-26",
@@ -30,7 +35,22 @@
   "lead": "Co skontrolować na ociepleniu, zanim zakryje je tynk, w jakich warunkach kłaść tynk cienkowarstwowy, co zrobić, gdy nie zdążycie przed zimą, i na co patrzeć na elewacji po pierwszej zimie.",
   "disclaimer": "Technologię wykonania dla konkretnej budowy ustala projekt i karta techniczna producenta; artykuł ma charakter informacyjny.",
   "cover_w": 1672,
-  "cover_h": 941
+  "cover_h": 941,
+  "poprawki": [
+   [
+    "🔹 CO NIE WOLNO",
+    "🔹 CZEGO NIE WOLNO"
+   ],
+   [
+    "zwykle 3–5 cm,",
+    "zwykle 2–5 cm zależnie od rodzaju parapetu,"
+   ]
+  ],
+  "thumb": [
+   49,
+   1,
+   2
+  ]
  },
  "122142728661228509": {
   "date": "2026-10-26",
@@ -47,7 +67,12 @@
   "lead": "Kiedy fugować, gdzie zamiast fugi musi być silikon, po jakim czasie można wziąć pierwszy prysznic i jak sprawdzić ułożone płytki, zanim łazienka zacznie pracować.",
   "disclaimer": "Technologię wykonania dla konkretnej budowy ustala projekt i karta techniczna producenta; artykuł ma charakter informacyjny.",
   "cover_w": 2048,
-  "cover_h": 1536
+  "cover_h": 1536,
+  "thumb": [
+   49,
+   4,
+   1
+  ]
  },
  "122142732153228509": {
   "date": "2026-10-26",
@@ -64,7 +89,18 @@
   "lead": "Dlaczego działka nad rzeką bywa podejrzanie tania, co oznacza obszar szczególnego zagrożenia powodzią, czym grozi zakup takiego gruntu i jak sprawdzić go przed wpłatą zadatku.",
   "disclaimer": "Artykuł ma charakter informacyjny i nie stanowi porady prawnej.",
   "cover_w": 1672,
-  "cover_h": 941
+  "cover_h": 941,
+  "poprawki": [
+   [
+    "Nie musisz być właścicielem działki.",
+    "Do końca 2026 r. nie musisz być właścicielem działki. Od 1 stycznia 2027 r. wniosek o WZ złoży tylko osoba z prawem do dysponowania działką na cele budowlane, np. na podstawie zgody właściciela."
+   ]
+  ],
+  "thumb": [
+   49,
+   2,
+   2
+  ]
  },
  "122142747843228509": {
   "date": "2026-10-26",
@@ -79,7 +115,26 @@
   "lead": "Po jakim czasie farba jest naprawdę gotowa, kiedy wnieść meble, kiedy kłaść podłogę drewnianą i panele i w jakiej kolejności kończyć prace we wnętrzach.",
   "disclaimer": "Dobór materiałów i technologii dla konkretnego wnętrza wymaga konsultacji z wykonawcą; artykuł ma charakter informacyjny.",
   "cover_w": 1672,
-  "cover_h": 941
+  "cover_h": 941,
+  "poprawki": [
+   [
+    "Farbę wysycha się w godzinę.",
+    "Farba wysycha w godzinę."
+   ],
+   [
+    "cykliniuje się dopiero, gdy klej odda wilgoć, zwykle po min. 2 tygodniach.",
+    "cyklinuje się dopiero, gdy klej odda wilgoć, w terminie z karty kleju; przy klejach wodnych często po 1–2 tygodniach."
+   ],
+   [
+    "Farba lateksowa jest sucha w dotyku po ok. godzinie, kolejną warstwę kładzie się zwykle po ok. 2 godzinach.",
+    "Farba lateksowa jest sucha w dotyku po ok. 1–2 godzinach, kolejną warstwę kładzie się zwykle po 2–4 godzinach, według karty."
+   ]
+  ],
+  "thumb": [
+   49,
+   3,
+   2
+  ]
  },
  "122142751101228509": {
   "date": "2026-10-26",
@@ -95,7 +150,22 @@
   "lead": "Co sprawdzić po montażu pompy ciepła: uruchomienie i protokół, krzywą grzewczą i ustawienia, które podnoszą rachunki, jednostkę zewnętrzną zimą i obowiązki związane z f-gazami.",
   "disclaimer": "Instalację dla konkretnego budynku projektuje i wykonuje osoba z odpowiednimi uprawnieniami; artykuł ma charakter informacyjny.",
   "cover_w": 1080,
-  "cover_h": 1440
+  "cover_h": 1440,
+  "poprawki": [
+   [
+    "▪️ W typowych domowych monoblokach ten obowiązek zwykle nie występuje, przy pompach typu split z długimi przewodami może wystąpić.",
+    "▪️ Decyduje ilość i rodzaj czynnika: próg to 5 t ekwiwalentu CO2 dla urządzeń niehermetycznych (np. split) i 10 t dla hermetycznych (np. monoblok). W typowych domowych monoblokach ten obowiązek zwykle nie występuje, a pompy na propanie (R290) w ogóle nie podlegają przepisom o f-gazach."
+   ],
+   [
+    "gwarancyjn9ą",
+    "gwarancyjną"
+   ]
+  ],
+  "thumb": [
+   49,
+   4,
+   2
+  ]
  },
  "122142767925228509": {
   "date": "2026-10-26",
@@ -112,7 +182,26 @@
   "lead": "Kiedy można legalnie zamieszkać w nowym domu jednorodzinnym, jak złożyć zawiadomienie o zakończeniu budowy na formularzu PB-16a, co do niego dołączyć i jaki błąd kosztuje najwięcej.",
   "disclaimer": "Artykuł ma charakter informacyjny i nie stanowi porady prawnej.",
   "cover_w": 1672,
-  "cover_h": 941
+  "cover_h": 941,
+  "poprawki": [
+   [
+    "▪️ Na wniosek PINB wydaje zaświadczenie, że nie ma podstaw do sprzeciwu. Przydaje się w banku i przy sprzedaży.",
+    "▪️ Przed upływem 14 dni PINB może wydać zaświadczenie, że nie ma podstaw do sprzeciwu. Można o nie poprosić, ale urząd nie musi go wydać. Przydaje się w banku i przy sprzedaży."
+   ],
+   [
+    "▪️ Od 6 marca 2026 r. dla domu jednorodzinnego składa się osobny formularz PB-16a. Zwykły PB-16 nie dotyczy domów jednorodzinnych.",
+    "▪️ Dla domu jednorodzinnego składa się osobny formularz PB-16a, od 6 marca 2026 r. w nowym wzorze. Zwykły PB-16 nie dotyczy domów jednorodzinnych."
+   ],
+   [
+    "▪️ Nie ma ich na liście załączników PB-16a, ale są częścią dokumentacji domu.",
+    "▪️ Przy projektach sporządzonych od 19 września 2020 r. nie ma ich na liście załączników PB-16a. Przy starszych projektach dziennik budowy i protokoły dołącza się do zawiadomienia. W każdym przypadku są częścią dokumentacji domu."
+   ]
+  ],
+  "thumb": [
+   49,
+   0,
+   3
+  ]
  },
  "122142768747228509": {
   "date": "2026-10-26",
@@ -130,7 +219,12 @@
   "lead": "Jakie obowiązki ma właściciel nowego domu po zakończeniu budowy: numer porządkowy, informacja IN-1, deklaracja do CEEB, obowiązkowe przeglądy, gwarancje i zmiana ubezpieczenia.",
   "disclaimer": "Artykuł ma charakter informacyjny i nie stanowi porady prawnej.",
   "cover_w": 1672,
-  "cover_h": 941
+  "cover_h": 941,
+  "thumb": [
+   49,
+   1,
+   3
+  ]
  },
  "122142769719228509": {
   "date": "2026-10-26",
@@ -145,6 +239,21 @@
   "lead": "Dlaczego w pierwszą zimę w nowym domu na oknach pojawia się woda, jaka wilgotność jest właściwa, jak wietrzyć i ogrzewać, żeby nie dopuścić do pleśni, i które rysy w pierwszym roku są normalne.",
   "disclaimer": "Technologię wykonania dla konkretnej budowy ustala projekt i karta techniczna producenta; artykuł ma charakter informacyjny.",
   "cover_w": 1672,
-  "cover_h": 941
+  "cover_h": 941,
+  "poprawki": [
+   [
+    "mają do oddania setki litrów wody",
+    "mają do oddania setki, a często tysiące litrów wody"
+   ],
+   [
+    "Poniżej ok. 40% podłoga drewniana",
+    "Poniżej ok. 45% podłoga drewniana"
+   ]
+  ],
+  "thumb": [
+   49,
+   2,
+   3
+  ]
  }
 }

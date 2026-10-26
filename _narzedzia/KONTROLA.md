@@ -13,6 +13,7 @@ Każdy nowy post z fanpage’a EdukacjaBudowlana trafia na portal jako pełny ar
 
 ## Zasady (bezwzględne)
 0. TEKST 1:1 Z FB. Treść posta przenosi się dokładnie tak, jak jest na FB: emoji, punktory, podział linii, wielkie litery, interpunkcja. Niczego nie „czyścić” ani nie przepisywać. (Odczyt: emoji na FB to obrazki z atrybutem alt; pobieraj tekst z alt, bo innerText je gubi.) Oczywistą literówkę zgłoś Piotrowi, nie poprawiaj sama.
+0-bis. POPRAWKI TYLKO NA PORTALU (decyzja Piotra 26.10.2026, wariant 3): gdy weryfikacja wykaże błąd, oryginał zostaje w `posty/<ID>.txt` 1:1, a poprawkę zapisuje się w `meta.json` → `poprawki: [[stary_tekst, nowy_tekst], …]`; fb2portal.py stosuje je przy konwersji. FB zostaje bez zmian. Literówki poprawia się tak samo.
 0a. OBRAZ = oryginalna grafika z posta (pełna rozdzielczość z FB), zapisana jako img/full/<ID>.webp. Każdy obraz pokazać Piotrowi do akceptacji przed publikacją.
 0b. Merytorykę i prawa autorskie sprawdzić w wielu źródłach, ale w artykule NIC o sprawdzaniu ani o źródłach poza ustalonym formatem pola `sources`.
 0c. Nie publikować udostępnionych cudzych postów (np. izb inżynierów), tylko własne posty EdukacjaBudowlana.
@@ -58,9 +59,9 @@ Etapy: 1 Przygotowanie inwestycji i dokumentacja · 2 Roboty przygotowawcze i zi
 - Portal sprawdzony: 26.10.2026, plik z 26.10.2026 01:05.
 - Artykułów ogółem: 1290, z FB: 1140 (1108 z ID posta w okładce).
 - Ostatnia data na portalu: 2026-10-25.
-- Najwyższe przeniesione ID posta FB: 122142661947228509 („Brama garażowa zamknięta, a deszczówka wlewa się do garażu – skąd woda i co naprawić”).
+- Najwyższe przeniesione ID zdjęcia FB: 122142769719228509 („Wprowadziłeś się. Pierwsza zima w nowym domu…”, 26.10.2026). Uwaga: od 26.10 kluczem jest ID ZDJĘCIA (fbid z albumu), wcześniejsze wpisy używały ID posta; nowe ID są zawsze większe od 122142661947228509.
 - Ostatnie przeniesione (25.10.2026): 122142661947228509 brama-garazowa…, 122142630387228509 zbiornik-na-deszczowke…, 122142446595228509 dach-przecieka-tylko-przy-deszczu-z-wiatrem…, 122142444633228509 chce-wyburzyc-tylko-kawalek-sciany….
-- Na FB czeka co najmniej: „Wprowadziłeś się. Pierwsza zima w nowym domu zdecyduje, czy wiosną zobaczysz pleśń” (26.10.2026 ok. 17:15).
+- 26.10.2026 dodano 9 wpisów (w repozytorium, czekają na publikację FTP): 122142724155, …726459, …728661, …732153, …747843, …751101, …767925, …768747, …769719 (końcówka 228509). Artykułów ogółem: 1299.
 
 ## Repozytorium i automaty
 - GitHub: `piotrkobylanka-commits/edukacjabudowlana-portal` (prywatne). Gałąź `main` = strona 1:1 z `public_html` + katalog `_narzedzia/` (niepubliczny, .htaccess „Require all denied”, wykluczony z wgrywania).
@@ -70,8 +71,10 @@ Etapy: 1 Przygotowanie inwestycji i dokumentacja · 2 Roboty przygotowawcze i zi
 
 ## Znane braki portalu
 - Okładki starszych artykułów (`img/full/*.webp`) zwracają 404 na serwerze (sprawdzone 26.10.2026), miniatury w `img/thumbs/sNN.webp` działają.
-- Nowe wpisy nie mają jeszcze miniatur w sprite’ach `img/thumbs` (pole `thumb`); do uzupełnienia: kafel 5×5 w sprite s49 (zajęte 9 pól).
+- Miniatury: sprite `img/thumbs/sNN.webp` 2400×1350, siatka 5×5 kafli 480×270, pole `thumb` = [NN, kolumna, wiersz]. W s49 zajęte: wiersz 0 (5), wiersz 1 kol. 0–3 (wpisy z 25.10, ale kafle są PUSTE – brak grafik), (4,1), wiersz 2 (5), wiersz 3 kol. 0–2. Następne wolne: (3,3), (4,3), wiersz 4; potem nowy sprite s50.
+- Wpisy z 25.10.2026 (brama, zbiornik, ściana nośna, dach przy wietrze) nie mają okładek ani miniatur na serwerze – do uzupełnienia z grafik FB.
 
 ## Dziennik
 - 26.10.2026: utworzono plik kontrolny; ustalono budowę portalu i stan na 25.10.2026.
+- 26.10.2026: automat GitHuba skopiował stronę (index.html 13,7 MB, 90 zasobów; 1329 okładek img/full brak na serwerze). Weryfikacja merytoryczna 9 postów: poprawki tylko na portalu (PB-16a nowy wzór, zaświadczenie PINB „może”, załączniki przy projektach od 19.09.2020, WZ od 1.01.2027 tylko z prawem do dysponowania, progi f-gazów, literówki). Wpisy wstawione do index.html, miniatury w s49.
 - 26.10.2026: założono repozytorium GitHub i automaty; przygotowano 9 wpisów z 26.10 (zdjęcia FB 122142724155, …726459, …728661, …732153, …747843, …751101, …767925, …768747, …769719). Piotr zaakceptował okładki; myślnik „—” na grafice „Ściany pomalowane” i literówki („gwarancyjn9ą”, „Farbę wysycha się”) zostają jak w oryginale.

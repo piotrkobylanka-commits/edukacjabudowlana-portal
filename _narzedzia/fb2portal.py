@@ -89,6 +89,11 @@ def main():
     pid = re.search(r"(\d{12,})", path).group(1)
     meta = json.load(open(metap, encoding="utf-8"))[pid]
     text = open(path, encoding="utf-8").read()
+    # Poprawki tylko na portalu (decyzja Piotra); oryginał z FB zostaje w posty/*.txt
+    for old, new in meta.get("poprawki", []):
+        if text.count(old) != 1:
+            sys.exit(f"Poprawka nie pasuje dokładnie raz ({text.count(old)}x) w {pid}: {old[:60]}")
+        text = text.replace(old, new)
     first, body, toc, minutes = convert(text)
     title = meta.get("title") or make_title(first)
     norms = meta["norms"]
@@ -114,6 +119,8 @@ def main():
         "zag": meta["zag"],
         "cover": {"src": f"img/full/{pid}.webp", "w": meta["cover_w"], "h": meta["cover_h"], "alt": title},
     }
+    if meta.get("thumb"):
+        art["thumb"] = meta["thumb"]  # [nr sprite'a img/thumbs/sNN.webp, kolumna, wiersz] w siatce 5x5
     json.dump(art, sys.stdout, ensure_ascii=False, indent=1)
 
 
