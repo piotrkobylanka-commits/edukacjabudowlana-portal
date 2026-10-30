@@ -8829,17 +8829,17 @@ function calc(st){
   const T = [n('t1'), n('t2'), n('t3'), n('t4')], days = 56;
   const tempAt = d => T[Math.min(3, Math.floor(d / 7))];
   let te = 0; const curve = [[0, 0]], eq = [];
-  for (let d = 1; d <= days; d++){ const t = tempAt(d - 1); te += Math.exp(-(4000 / (273 + t) - 13.65)) * 1; eq.push(te); const f = fcm * Math.exp(s * (1 - Math.sqrt(28 / Math.max(te, .01)))); curve.push([d, Math.max(0, f)]); }
-  const ck = curve.map(p => [p[0], p[0] >= 28 ? Math.max(fck, p[1] - 8) : Math.max(0, p[1] - 8)]); // PN-EN 1992-1-1 3.1.2(5): fck(t) = fcm(t) - 8 MPa
+  for (let d = 1; d <= days; d++){ const t = tempAt(d - 1); te += t > 0 ? Math.exp(-(4000 / (273 + t) - 13.65)) * 1 : 0; eq.push(te); const f = fcm * Math.exp(s * (1 - Math.sqrt(28 / Math.max(te, .01)))); curve.push([d, Math.max(0, f)]); }
+  const ck = curve.map(p => [p[0], (eq[p[0] - 1] || 0) >= 27.5 ? Math.max(fck, p[1] - 8) : Math.max(0, p[1] - 8)]); // PN-EN 1992-1-1 3.1.2(5): fck(t) = fcm(t) - 8 MPa
   const fAt = d => ck[Math.min(d, days)][1];
   const reach = need => { for (let d = 1; d <= days; d++) if (ck[d][1] >= need - 1e-9) return d; return null; };
   const elKey = Object.keys(EL).find(k => EL[k] === E) || 'strop', tm = (T[0] + T[1] + T[2]) / 3, tf = tm >= 14 ? 1 : tm >= 5 ? 1 + (14 - tm) / 9 : Math.min(3, 2 + (5 - tm) * .2);
   const minOf = nm => /^Deskowanie boczne/.test(nm) ? (elKey === 'lawa' || elKey === 'sciana' ? 1 : 2) : /^Spód/.test(nm) ? 7 : /^Usunięcie podpór/.test(nm) ? 21 : /^Ruch pieszy/.test(nm) ? (elKey === 'zewn' ? 3 : 2) : 28;
   const mile = E[1].map(m => { const need = m[2] === 'fck' ? m[1] * fck : m[1], dS = reach(need), dMin = Math.round(minOf(m[0]) * tf), d = dS == null ? null : Math.min(days, Math.max(dS, dMin));
     return {n: m[0], need, d, dS, dMin, gov: dS != null && dS >= dMin ? 'str' : 'min', lab: m[2] === 'fck' ? `${PX.fi(m[1] * 100)}% f<sub>ck</sub> = ${PX.fx(need, 1)} MPa` : `${PX.fx(need, 1)} MPa`, labT: m[2] === 'fck' ? `${PX.fi(m[1] * 100)}% fck = ${PX.fx(need, 1)} MPa` : `${PX.fx(need, 1)} MPa`}; });
-  const frost = reach(5), r2 = fAt(2) / Math.max(fAt(28), 1);
+  const frost = reach(5), r2 = Math.exp(s * (1 - Math.sqrt(14)));
   const tAvg = T[0], dev = r2 >= .5 ? 'szybki' : r2 >= .3 ? 'średni' : r2 >= .15 ? 'wolny' : 'bardzo wolny';
-  const curTab = {szybki: [1, 1.5, 2, 3], 'średni': [1.5, 2.5, 4, 5], wolny: [2.5, 5, 8, 10], 'bardzo wolny': [3.5, 7, 12, 15]};
+  const curTab = {szybki: [1, 1, 1.5, 2], 'średni': [1.5, 2.5, 4, 5], wolny: [2.5, 5, 8, 11], 'bardzo wolny': [3.5, 7, 12, 15]};
   const ci = tAvg >= 25 ? 0 : tAvg >= 15 ? 1 : tAvg >= 10 ? 2 : 3, cure = curTab[dev][ci];
   const V = n('V'), mix = Math.ceil(V / Math.max(n('gruszka'), 1)), X = EXP[st.exp] || EXP[E[2]];
   const minCl = X[1], okCl = fck >= +minCl.slice(1, 3);
