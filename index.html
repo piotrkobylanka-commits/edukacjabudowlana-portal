@@ -2294,6 +2294,10 @@ html:not(.pri-ok) .pri-sm.s2{display:block}html.pri-ok:not(.pri-ok2) .pri-sm.s2{
 .sk-card .sk-cov img{transition:transform .35s ease}
 .sk-card:hover .sk-cov img{transform:scale(1.03)}
 @media (max-width:700px){.sk-pack{grid-template-columns:minmax(0,1fr)}.sk-pack>.sk-cov{max-width:none}}
+.sk-new{margin-bottom:22px}
+.sk-new .sk-hero-cov .sk-cov,.sk-cta .sk-cov{background:var(--navy)}
+.sk-new .sk-hero-cov .sk-cov{aspect-ratio:600/849}
+.sk-new .sk-cov img,.sk-cta .sk-cov img{object-fit:contain}
 @media (prefers-reduced-motion:reduce){.sk-card .sk-cov img{transition:none}}
 </style>
 
@@ -2760,7 +2764,7 @@ function viewArticle(slug){
     <div class="wrap"><div class="art-layout">
       <aside class="toc" aria-label="Spis treści"><h4>W artykule</h4>${toc}</aside>
       <article>${wtNote(a)}<div class="prose">${a.html}</div>
-        ${(t => t ? `<aside class="sk-cta"><span class="sk-cta-cov">${cover(t, t.t)}</span><div><p class="eyebrow">Poradnik BUDOWLANE SOS · tom ${t.t}</p><b>${esc(t.name)}</b><p>${esc(t.desc)}</p><a class="link-more" href="#sklep">Zobacz w sklepie →</a></div></aside>` : '')(shopForArticle(a))}<details class="sources" open><summary>Źródła i podstawa</summary>${a.sources}</details>
+        ${(t => t ? `<aside class="sk-cta"><span class="sk-cta-cov">${cover(t, t.t, t.t ? '' : 'PORADNIK PDF')}</span><div><p class="eyebrow">${t.t ? 'Poradnik BUDOWLANE SOS · tom ' + t.t : 'Poradnik dla inwestora · ' + zl(t.price)}</p><b>${esc(t.name)}</b><p>${esc(t.desc)}</p><a class="link-more" href="#sklep">Zobacz w sklepie →</a></div></aside>` : '')(shopForArticle(a))}<details class="sources" open><summary>Źródła i podstawa</summary>${a.sources}</details>
         <p class="disclaimer">${esc(a.disclaimer)}</p>
         <div class="art-actions"><a class="btn ghost" href="#etap-${a.stage}">← ${a.stage <= 10 ? 'Wszystkie poddziały etapu ' + pad(a.stage) : 'Cały dział ' + code(a.stage)}</a><button class="btn ghost" id="copy-title" type="button">Kopiuj tytuł</button></div>
       </article></div></div>
@@ -10628,6 +10632,11 @@ const SHOP = {
     desc:'Dwa mieszkania pod jednym dachem: co mówi prawo, jak budować, jak dzielić i jak sprzedać. Definicja z Prawa budowlanego, 4 formy własności, 8 wariantów sprzedaży, 7 spraw z sądów, listy kontrolne.', meta:'PDF · 45 stron A4'},
   pack: {name:'BUDOWLANE SOS · pakiet 7 tomów', sub:'Pakiet', price:63, live:false, url:'https://cart.easy.tools/checkout/26354048/budowlane-sos-pakiet', img:'img/shop/pakiet.webp',
     desc:'Siedem poradników PDF, każdy rozwiązuje jeden objaw: od pierwszych 5 minut po rozmowę z wykonawcą. Mapa przyczyn, drzewa TAK/NIE, proste testy, naprawa A/B/C/D, koszty 2026 i karta awaryjna.', meta:'PDF · 7 tomów · 439 stron A4'},
+  guides: [
+    {name:'Działka budowlana. Co sprawdzić i jak postawić dom', sub:'Nowość · poradnik dla inwestora', price:12, live:true, url:'https://cart.easy.tools/checkout/26354048/dzialka-budowlana-co-sprawdzic-i-jak-postawic-dom', img:'https://easycart.fra1.digitaloceanspaces.com/images/oTywyu9YDEhTPEhajw4joY2hAgf8OLaU.webp',
+      desc:'Co sprawdzić, zanim wpłacisz zadatek albo kupisz projekt: MPZP, plan ogólny i WZ, księga wieczysta, dostęp do drogi, media, grunt i woda gruntowa, odległości od granic, linia zabudowy i nasłonecznienie. 12 kosztownych błędów, checklista przed umową, karta oględzin do wydrukowania i wzór wniosku o wypis i wyrys.', meta:'PDF · 10 rozdziałów · stan prawny 21.10.2026', st:[1,9],
+      kw:'dział\\p{L}* budowlan|zakup\\p{L}* dział|kupn\\p{L}* dział|wypis\\p{L}* i wyrys|warunk\\p{L}* zabudowy|MPZP|plan\\p{L}* ogóln|linia zabudowy|księg\\p{L}* wieczyst'},
+  ],
   toms: [
     {t:1, name:'Podłogówka nie grzeje', desc:'Od rozdzielacza do źródła ciepła: 29 przyczyn, drzewa TAK/NIE, krzywa grzewcza, ΔT, karta pętli.', pages:71, url:'https://cart.easy.tools/checkout/26354048/budowlane-sos-tom-1-podlogowka', img:'img/shop/tom-1.webp', st:[6], kw:'podłogow|ogrzewani\\p{L}* podłogow|rozdzielacz'},
     {t:2, name:'Pompa ciepła dużo zużywa', desc:'Najpierw policz zużycie, potem szukaj przyczyny: krzywa grzewcza, ciepła woda, grzałka, taktowanie.', pages:63, url:'https://cart.easy.tools/checkout/26354048/budowlane-sos-tom-2-pompa-ciepla', img:'img/shop/tom-2.webp', st:[6,12], kw:'pomp\\p{L}* ciepła'},
@@ -10651,6 +10660,8 @@ function viewShop(){
   return pageHead('Sklep', 'Poradniki EdukacjaBudowlana w PDF. Zakup i pobieranie odbywa się w bezpiecznym sklepie Easytools.', [['Start','#start'],['Sklep']])
   + `<section class="section"><div class="wrap">
     <article class="sk-hero"><div class="sk-hero-cov">${cover(f, 0, 'E-BOOK · ZA DARMO')}</div><div class="sk-hero-txt"><p class="eyebrow">${esc(f.sub)}</p><h2>${esc(f.name)}</h2><p>${esc(f.desc)}</p><p class="sk-meta">${esc(f.meta)} · <b>${zl(f.price)}</b></p>${buyBtn(f,'Pobierz za darmo')}</div></article>
+    <div class="sec-head" style="margin-top:44px"><div><p class="eyebrow">Poradniki</p><h2>Dla inwestora</h2><p>Samodzielne poradniki PDF na najważniejsze decyzje przed budową i w jej trakcie.</p></div></div>
+    ${SHOP.guides.map(g => `<article class="sk-hero sk-new"><div class="sk-hero-cov">${cover(g, 0, 'PORADNIK PDF')}</div><div class="sk-hero-txt"><p class="eyebrow">${esc(g.sub)}</p><h2>${esc(g.name)}</h2><p>${esc(g.desc)}</p><p class="sk-meta">${esc(g.meta)} · <b>${zl(g.price)}</b></p>${buyBtn(g,'Kup poradnik')}</div></article>`).join('')}
     <div class="sec-head" style="margin-top:44px"><div><p class="eyebrow">Seria</p><h2>BUDOWLANE SOS</h2><p>Praktyczne rozwiązania problemów w domu i na budowie. Każdy tom zaczyna od objawu i prowadzi do przyczyny, zanim zapłacisz za zbędny remont.</p></div></div>
     <article class="sk-pack">${cover(p)}<div><p class="eyebrow">Najkorzystniej</p><h3>${esc(p.name)}</h3><p>${esc(p.desc)}</p><p class="sk-meta">${esc(p.meta)} · <b>${zl(p.price)}</b></p>${buyBtn(p,'Kup pakiet')}</div></article>
     <div class="sk-grid">${SHOP.toms.map(t => `<article class="sk-card">${cover(t, t.t)}<div class="sk-body"><p class="eyebrow">Tom ${t.t}</p><h3>${esc(t.name)}</h3><p>${esc(t.desc)}</p><p class="sk-meta">PDF · ${t.pages} stron A4 · <b>9 zł</b></p>${buyBtn(Object.assign({live:false}, t), 'Kup tom ' + t.t)}</div></article>`).join('')}</div>
@@ -10658,6 +10669,7 @@ function viewShop(){
   </div></section>`;
 }
 function shopForArticle(a){
+  for (const g of SHOP.guides){ if (g.st && !g.st.includes(a.stage)) continue; const re = g._re || (g._re = new RegExp('(?<![\\p{L}\\d])(?:' + g.kw + ')', 'iu')); if (re.test(a.title) || (a.text.match(new RegExp(re.source, 'giu')) || []).length >= 3) return g; }
   for (const t of SHOP.toms){ const re = t._re || (t._re = new RegExp('(?<![\\p{L}\\d])(?:' + t.kw + ')', 'iu')); if (re.test(a.title) || (a.text.match(new RegExp(re.source, 'giu')) || []).length >= 3) return t; }
   return null;
 }
