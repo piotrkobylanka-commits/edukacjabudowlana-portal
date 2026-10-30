@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /normy-eu.php
+Disallow: /normy-eu-cache.json
+
+Sitemap: https://edukacjabudowlana.eu/sitemap.xml
