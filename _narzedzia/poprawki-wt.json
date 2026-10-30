@@ -1,0 +1,199 @@
+{
+ "_opis": "Poprawki zdań nieaktualnych lub błędnych w odwołaniach do warunków technicznych (stan prawny 30.10.2026). Tekst oryginalny postów z FB zostaje bez zmian na FB; poprawki tylko na portalu (decyzja Piotra 26.10.2026). Każda para [stary, nowy] musi pasować dokładnie raz w polu html (albo w polu wskazanym jako 'pole').",
+ "poprawki": [
+  {
+   "slug": "warunki-techniczne-wrzesien-2026",
+   "stary": "<p><strong>Aktualizacja 19.10.2026:</strong> nowelizacja Prawa budowlanego została podpisana 28 sierpnia 2026 r. Dotychczasowe warunki techniczne można stosować przez 18 miesięcy od 20 września 2026 r. Nowe rozporządzenie nie weszło w życie 20 września i według doniesień branżowych z października 2026 r. nadal nie zostało ogłoszone. Artykuł poniżej opisuje stan na 24 sierpnia 2026 r. Przed decyzją sprawdź aktualny tekst w Dzienniku Ustaw i ustal stan z projektantem.</p>",
+   "nowy": "<p><strong>Aktualizacja 30.10.2026:</strong> ustawa z 31 lipca 2026 r. (Dz.U. 2026 poz. 1161) została podpisana 28 sierpnia i ogłoszona 1 września 2026 r. Dodała do Prawa budowlanego art. 102a–102c. Rozporządzenie z 2002 r. przestało obowiązywać we wrześniu 2026 r., a nowe do 30 października 2026 r. nie zostało ogłoszone. Dotychczasowe warunki techniczne można stosować do 20 marca 2028 r., ale tylko w przypadkach wskazanych w ustawie: projekt do pozwolenia na budowę lub zgłoszenia budowy po złożeniu oświadczenia przez inwestora (art. 102a), roboty bez pozwolenia i bez zgłoszenia (art. 102b) oraz utrzymanie i użytkowanie budynków mieszkalnych (art. 102c). Tekst poniżej opisuje stan na 24 sierpnia 2026 r. Przed decyzją ustal stan prawny z projektantem.</p>"
+  },
+  {
+   "slug": "warunki-techniczne-wrzesien-2026",
+   "stary": "jakim powinny odpowiadać budynki i ich usytuowanie, obowiązuje od 2002 roku.",
+   "nowy": "jakim powinny odpowiadać budynki i ich usytuowanie, obowiązywało od 2002 roku."
+  },
+  {
+   "slug": "warunki-techniczne-wrzesien-2026",
+   "stary": "<strong>obowiązywanie dotychczasowych warunków technicznych zostaje wydłużone o 18 miesięcy.</strong>",
+   "nowy": "<strong>dotychczasowe warunki techniczne można stosować jeszcze przez 18 miesięcy, ale tylko w przypadkach wskazanych w ustawie.</strong>"
+  },
+  {
+   "slug": "warunki-techniczne-wrzesien-2026",
+   "stary": "<p><strong>Jeżeli wniosek złożyliście przed 19 września</strong>, działacie po prostu na dotychczasowych przepisach.</p>",
+   "nowy": "<p><strong>Jeżeli wniosek złożyliście przed 20 września</strong>, a decyzji jeszcze nie ma, ustawa wprost tej sytuacji nie opisuje. Izby zawodowe zalecają złożyć oświadczenie także w toczącym się postępowaniu: przed wydaniem decyzji, a przy zgłoszeniu przed upływem terminu na sprzeciw.</p>"
+  },
+  {
+   "slug": "warunki-techniczne-wrzesien-2026",
+   "stary": "<p><strong>Uwaga:</strong> w dniu pisania ustawa czekała na podpis Prezydenta. Dopóki nie zostanie ogłoszona, opisany mechanizm jest uchwalony, ale nie obowiązuje.</p>",
+   "nowy": "<p><strong>Uwaga:</strong> ustawa została ogłoszona 1 września 2026 r. (Dz.U. 2026 poz. 1161), a przepisy o okresie przejściowym obowiązują od 2 września 2026 r.</p>"
+  },
+  {
+   "slug": "warunki-techniczne-wrzesien-2026",
+   "pole": "sources",
+   "stary": "<li>Nowelizacja ustawy Prawo budowlane uchwalona przez Sejm 31 lipca 2026 r., przyjęta przez Senat bez poprawek 6 sierpnia 2026 r. (przedłużenie stosowania dotychczasowych WT o 18 miesięcy, oświadczenie inwestora); na 24.08.2026 oczekiwała na podpis Prezydenta</li>",
+   "nowy": "<li>Ustawa z 31 lipca 2026 r. o zmianie ustawy o samorządach zawodowych architektów oraz inżynierów budownictwa oraz ustawy – Prawo budowlane (Dz.U. 2026 poz. 1161): art. 102a–102c Prawa budowlanego, podpisana 28.08.2026, ogłoszona 1.09.2026, przepisy epizodyczne w mocy od 2.09.2026</li>"
+  },
+  {
+   "slug": "okna-trzyszybowe-a-dwuszybowe-roznica-w-rachunkach-za-cieplo",
+   "stary": "Od 2021 roku obowiązują w Polsce wymagania techniczne WT2021",
+   "nowy": "Od 2021 roku stosuje się w Polsce wymagania techniczne WT2021"
+  },
+  {
+   "slug": "okna-trzyszybowe-a-dwuszybowe-roznica-w-rachunkach-za-cieplo",
+   "stary": "są dziś wymagane normą WT2021",
+   "nowy": "są dziś wymagane przepisami WT2021"
+  },
+  {
+   "slug": "okna-trzyszybowe-a-dwuszybowe-roznica-w-rachunkach-za-cieplo",
+   "stary": "wymóg normy WT2021 i niewielka dopłata",
+   "nowy": "wymóg WT2021 i niewielka dopłata"
+  },
+  {
+   "slug": "okna-trzyszybowe-a-dwuszybowe-roznica-w-rachunkach-za-cieplo",
+   "stary": "wymaga ich norma WT2021",
+   "nowy": "wymagają ich przepisy WT2021"
+  },
+  {
+   "slug": "poddasze-uzytkowe-jak-je-dobrze-zaplanowac-i-ocieplic",
+   "stary": "Zgodnie z normą WT2021",
+   "nowy": "Zgodnie z wymaganiami WT2021"
+  },
+  {
+   "slug": "poddasze-uzytkowe-jak-je-dobrze-zaplanowac-i-ocieplic",
+   "stary": "dla spełnienia normy WT2021",
+   "nowy": "dla spełnienia wymagań WT2021"
+  },
+  {
+   "slug": "dom-modulowy-w-polsce-ceny-dostawcy-i-czas-realizacji",
+   "stary": "zgodność z normami WT2021",
+   "nowy": "zgodność z wymaganiami WT2021"
+  },
+  {
+   "slug": "stan-surowy-zamkniety-co-to-jest-i-ile-kosztuje-w-2026-roku",
+   "stary": "wymóg normy WT2021",
+   "nowy": "wymóg WT2021"
+  },
+  {
+   "slug": "dom-energooszczedny-czy-pasywny-ile-oszczedzasz-przez-30-lat",
+   "stary": "Wymogi techniczne WT2021 (obowiązujące od 2021 roku) to aktualnie obowiązkowe minimum dla każdego nowego budynku w Polsce.",
+   "nowy": "Wymogi techniczne WT2021 (stosowane od 2021 roku) to minimum, które przyjmuje się obecnie przy projektowaniu nowych budynków w Polsce."
+  },
+  {
+   "slug": "okna-premium-hybrydowe-i-specjalistyczne-w-budownictwie",
+   "stary": "Warunki Techniczne WT 2021 obowiązujące w Polsce wymagają",
+   "nowy": "Warunki Techniczne WT 2021, stosowane w Polsce, wymagają"
+  },
+  {
+   "slug": "aktualne-normy-wspolczynnika-przenikania-ciepla-dla-dachow",
+   "stary": "Zgodnie z obowiązującymi od 2021 roku Warunkami Technicznymi (WT 2021)",
+   "nowy": "Zgodnie z Warunkami Technicznymi w wersji od 2021 roku (WT 2021)"
+  },
+  {
+   "slug": "dlaczego-najtansza-oferta-to-najdrozszy-blad",
+   "stary": "zgodnie z WT 2021/2026 dla przegród zewnętrznych",
+   "nowy": "zgodnie z WT 2021 dla przegród zewnętrznych"
+  },
+  {
+   "slug": "zmiany-istotne-i-nieistotne-w-projekcie-gdzie-lezy-granica",
+   "stary": "(w tym standardami WT 2021/2026)",
+   "nowy": "(w tym WT 2021)"
+  },
+  {
+   "slug": "modernizacja-dachu-formalnosci-i-kluczowe-aspekty-techniczne",
+   "stary": "(w tym standardów WT 2021/2026)",
+   "nowy": "(w tym WT 2021)"
+  },
+  {
+   "slug": "dom-parterowy-czy-pietrowy-koszty-energia-i-wygoda",
+   "stary": "WT2021 / WT2024",
+   "nowy": "WT2021"
+  },
+  {
+   "slug": "jaki-system-ogrzewania-domu-wybrac",
+   "stary": "WT2021/WT2024",
+   "nowy": "WT2021"
+  },
+  {
+   "slug": "nadbudowa-kondygnacji-marzenie-o-przestrzeni-a-realia-konstrukcyjne",
+   "stary": "Nowa część budynku musi spełniać aktualne warunki techniczne",
+   "nowy": "Nowa część budynku musi spełniać warunki techniczne, według których powstaje projekt nadbudowy"
+  },
+  {
+   "slug": "kawalerki-bez-slonca-co-zmienia-projekt-rozporzadzenia-o",
+   "stary": "Dziś § 60 Warunków Technicznych (WT) mówi wyraźnie",
+   "nowy": "Dotychczasowy § 60 Warunków Technicznych (WT) mówi wyraźnie"
+  },
+  {
+   "slug": "jak-ogrzac-stary-budynek-systemy-warunki-i-bledy-ktorych-trzeba",
+   "stary": "Aktualne WT dla przegród",
+   "nowy": "Dotychczasowe WT (stosowane przejściowo) dla przegród"
+  },
+  {
+   "slug": "obowiazkowa-fotowoltaika-na-budynkach-z-sensu-czy-z-przymusu",
+   "stary": "<p>Nowelizacja warunków technicznych WT 2026 wdraża dyrektywę EPBD 2023/2413. Harmonogram jest etapowy:</p>",
+   "nowy": "<p>Obowiązek wynika z art. 10 dyrektywy EPBD (UE) 2024/1275. W Polsce ma go wdrożyć m.in. projekt nowych warunków technicznych (WT 2026), który do 30 października 2026 r. nie został ogłoszony. Harmonogram dyrektywy jest etapowy:</p>"
+  },
+  {
+   "slug": "obowiazkowa-fotowoltaika-na-budynkach-z-sensu-czy-z-przymusu",
+   "stary": "<p>od 1 stycznia 2026 — nowe budynki użyteczności publicznej i komercyjne powyżej 250 m²</p>",
+   "nowy": "<p>do końca 2026 – nowe budynki publiczne i niemieszkalne powyżej 250 m²</p>"
+  },
+  {
+   "slug": "obowiazkowa-fotowoltaika-na-budynkach-z-sensu-czy-z-przymusu",
+   "stary": "<p>od 2027 — budynki publiczne i komercyjne poddawane gruntownej renowacji</p>",
+   "nowy": "<p>do końca 2027 – istniejące budynki publiczne powyżej 2000 m² oraz niemieszkalne powyżej 500 m² przy gruntownej renowacji</p>"
+  },
+  {
+   "slug": "obowiazkowa-fotowoltaika-na-budynkach-z-sensu-czy-z-przymusu",
+   "stary": "<p>od 2029 — nowe budynki mieszkalne</p>",
+   "nowy": "<p>do końca 2029 – wszystkie nowe budynki mieszkalne</p>"
+  },
+  {
+   "slug": "obowiazkowa-fotowoltaika-na-budynkach-z-sensu-czy-z-przymusu",
+   "stary": "<p>od 2030 — istniejące budynki publiczne, w szczególności modernizowane</p>",
+   "nowy": "<p>do końca 2030 – istniejące budynki publiczne powyżej 250 m²</p>"
+  },
+  {
+   "slug": "obowiazkowa-fotowoltaika-na-budynkach-z-sensu-czy-z-przymusu",
+   "pole": "norms",
+   "stary": "Warunki techniczne (nowelizacja WT 2026)",
+   "nowy": "Projekt nowych warunków technicznych (WT 2026)"
+  },
+  {
+   "slug": "zmiany-w-prawie-budowlanym-w-2026-roku-przewodnik-dla-inwestora",
+   "stary": "<p>Projektowane rozporządzenie w sprawie warunków technicznych wejdzie w życie prawdopodobnie 20 września 2026 roku. Przyniesie ono wzrost kosztów budowy (szacowany na 10-15%), ale znacznie poprawi bezpieczeństwo i komfort.</p>",
+   "nowy": "<p>Projektowane rozporządzenie w sprawie warunków technicznych miało wejść w życie 20 września 2026 roku, ale do 30 października 2026 r. nie zostało ogłoszone. Do 20 marca 2028 r. można stosować dotychczasowe warunki techniczne w przypadkach wskazanych w art. 102a–102c Prawa budowlanego. Poniżej kierunki zmian z projektu: to nie są obowiązujące przepisy i mogą się jeszcze zmienić. Według zapowiedzi projekt przyniesie wzrost kosztów budowy (szacowany na 10-15%), ale poprawi bezpieczeństwo i komfort.</p>"
+  },
+  {
+   "slug": "zmiany-w-prawie-budowlanym-w-2026-roku-przewodnik-dla-inwestora",
+   "stary": "<li class=\"fb-b\">• Wyższe standardy akustyczne: Ściany i stropy w domach w zabudowie bliźniaczej, szeregowej oraz domach dwulokalowych będą musiały spełniać równie restrykcyjne normy izolacyjności akustycznej, jak ma to miejsce w blokach wielorodzinnych.</li>",
+   "nowy": "<li class=\"fb-b\">• Wyższe standardy akustyczne: od 1 sierpnia 2024 r. (zmiana dotychczasowych warunków technicznych) ściany i stropy oddzielające lokale w domach dwulokalowych i w zabudowie szeregowej muszą spełniać takie same wymagania izolacyjności akustycznej jak przegrody między mieszkaniami w budynkach wielorodzinnych.</li>"
+  },
+  {
+   "slug": "zmiany-w-prawie-budowlanym-w-2026-roku-przewodnik-dla-inwestora",
+   "pole": "norms",
+   "stary": "Rozporządzenie w sprawie warunków technicznych (WT 2026)",
+   "nowy": "Projekt rozporządzenia w sprawie warunków technicznych (WT 2026)"
+  },
+  {
+   "slug": "nowoczesne-elewacje-2025-2026-trendy-technologie-i-wymagania-energetyczne",
+   "stary": "<p>Wyzwania WT 2026 i EPBD Najważniejszym czynnikiem",
+   "nowy": "<p>Wyzwania: projekt nowych WT i EPBD. Najważniejszym czynnikiem"
+  },
+  {
+   "slug": "nowoczesne-elewacje-2025-2026-trendy-technologie-i-wymagania-energetyczne",
+   "stary": "Od 2026 roku w Polsce zaczną obowiązywać nowe klasy efektywności energetycznej budynków (od A+ do G). Sprawia to",
+   "nowy": "Dyrektywa EPBD przewiduje nowe klasy efektywności energetycznej budynków (od A do G), których Polska do końca października 2026 r. nie wdrożyła. Kierunek zmian sprawia"
+  },
+  {
+   "slug": "obowiazkowa-fotowoltaika-na-budynkach-z-sensu-czy-z-przymusu",
+   "stary": "<p>Od 1 stycznia 2026 roku weszły w życie przepisy wynikające z unijnej dyrektywy EPBD, które wprowadzają obowiązek instalacji OZE na nowych budynkach użyteczności publicznej i komercyjnych powyżej 250 m². Od 2029 roku obowiązek obejmie nowe budynki mieszkalne. Od 2030 roku — istniejące budynki publiczne poddawane modernizacji.</p>",
+   "nowy": "<p>Unijna dyrektywa EPBD wprowadza obowiązek instalacji słonecznych na budynkach: do końca 2026 roku na nowych budynkach publicznych i niemieszkalnych powyżej 250 m², do końca 2029 roku na wszystkich nowych budynkach mieszkalnych, a do końca 2030 roku na istniejących budynkach publicznych powyżej 250 m². Do 30 października 2026 roku Polska nie wdrożyła tych przepisów.</p>"
+  },
+  {
+   "slug": "obowiazkowa-fotowoltaika-na-budynkach-z-sensu-czy-z-przymusu",
+   "pole": "lead",
+   "stary": "Od 2026 roku obowiązek OZE obejmuje kolejne grupy budynków, ale przepisy zostawiają wiele niejasności.",
+   "nowy": "Dyrektywa EPBD etapami wprowadza obowiązek instalacji słonecznych na budynkach, ale przepisy zostawiają wiele niejasności."
+  }
+ ]
+}
