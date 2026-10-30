@@ -73,7 +73,104 @@
 .ha-shbar i{display:block;height:100%;background:var(--signal);border-radius:4px}
 @media (max-width:560px){.ha-sh{display:none}}
 @media (max-width:560px){.ha-body .acct-kpis{grid-template-columns:repeat(2,minmax(0,1fr))}.ha-body .acct-kpi b{font-size:28px}}
-</style></head><body>
+</style><style id="nx-css">
+/* Indeks norm i przepisów */
+.nx .wrap{display:block}
+.nx-stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));margin:0 0 28px;border:1px solid var(--line);border-radius:12px;background:var(--surface);overflow:hidden}
+.nx-stats div{padding:16px 20px;border-left:1px solid var(--line)}
+.nx-stats div:first-child{border-left:0}
+.nx-stats dt{font-family:var(--f-display);font-weight:600;font-size:32px;line-height:1;color:var(--ink);font-variant-numeric:tabular-nums}
+.nx-stats div:first-child dt{color:var(--signal)}
+.nx-stats dd{margin:6px 0 0;font-size:13.5px;color:var(--ink-3);line-height:1.3}
+.nx-bar{display:grid;grid-template-columns:1fr auto;gap:14px 16px;align-items:center;margin-bottom:10px}
+.nx-q{position:relative;display:flex;align-items:center}
+.nx-q svg{position:absolute;left:14px;color:var(--ink-3);pointer-events:none}
+.nx-q input{width:100%;box-sizing:border-box;border:1px solid var(--line-2);background:var(--surface);color:var(--ink);border-radius:10px;padding:14px 14px 14px 44px;font:16px var(--f-ui)}
+.nx-q input:focus{outline:2px solid var(--signal);outline-offset:-1px;border-color:transparent}
+.nx-q input::placeholder{color:var(--ink-3)}
+.nx-tools{display:flex;gap:10px;align-items:center}
+.nx-sort{display:flex;align-items:center;gap:8px;font-size:13.5px;color:var(--ink-3);white-space:nowrap}
+.nx-sort select{border:1px solid var(--line-2);background:var(--surface);color:var(--ink);border-radius:8px;padding:10px 12px;font:14px var(--f-ui)}
+.nx-btn{border:1px solid var(--line-2);background:var(--surface);color:var(--ink);border-radius:8px;padding:10px 14px;font:600 14px var(--f-ui);cursor:pointer;white-space:nowrap}
+.nx-btn:hover,.nx-sort select:hover{border-color:var(--signal)}
+.nx-cats{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:6px}
+.nx-cats .chip{padding:7px 12px;font-size:13.5px}
+.nx-res{min-height:1.4em;margin:6px 0 14px;font-size:14px;color:var(--ink-3)}
+.nx-cat{margin-top:34px}
+.nx-cat:first-child{margin-top:8px}
+.nx-ch{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 16px;margin-bottom:12px;padding-bottom:10px;border-bottom:2px solid var(--ink)}
+.nx-ch h2{margin:0;font-family:var(--f-display);text-transform:uppercase;font-weight:600;font-size:26px;letter-spacing:.01em;line-height:1.05;display:flex;align-items:center;gap:10px}
+.nx-cc{font-family:var(--f-mono);font-size:12px;font-weight:600;letter-spacing:0;background:var(--ink);color:var(--paper);border-radius:999px;padding:3px 9px}
+.nx-ch p{margin:0;font-size:14.5px;color:var(--ink-3)}
+.nx-list{border:1px solid var(--line);border-radius:12px;background:var(--surface);overflow:hidden}
+.nx-doc + .nx-doc{border-top:1px solid var(--line)}
+.nx-doc[hidden]{display:none}
+.nx-doc > summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:minmax(0,1fr) auto 18px;grid-template-areas:"name n chev" "desc n chev" "top n chev";column-gap:18px;row-gap:3px;align-items:center;padding:15px 20px}
+.nx-doc > summary::-webkit-details-marker{display:none}
+.nx-doc > summary:hover{background:var(--paper)}
+.nx-doc > summary:focus-visible{outline:2px solid var(--signal);outline-offset:-2px}
+.nx-name{grid-area:name;font-weight:700;font-size:17px;line-height:1.3;color:var(--ink)}
+.nx-name.nx-code{font-family:var(--f-mono);font-size:15.5px;font-weight:600;letter-spacing:-.01em}
+.nx-desc{grid-area:desc;font-size:14.5px;line-height:1.4;color:var(--ink-2)}
+.nx-top{grid-area:top;font-family:var(--f-mono);font-size:12.5px;color:var(--ink-3);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.nx-n{grid-area:n;text-align:right;font-size:12.5px;color:var(--ink-3);line-height:1.15;white-space:nowrap}
+.nx-n b{display:block;font-family:var(--f-display);font-size:24px;font-weight:600;color:var(--ink);font-variant-numeric:tabular-nums}
+.nx-chev{grid-area:chev;color:var(--ink-3);transition:transform .18s ease}
+.nx-doc[open] > summary{background:var(--paper);border-bottom:1px solid var(--line)}
+.nx-doc[open] .nx-chev{transform:rotate(180deg);color:var(--signal)}
+.nx-doc[open] .nx-name{color:var(--signal)}
+.nx-doc.nx-hl{box-shadow:inset 3px 0 0 var(--signal)}
+.nx-body{padding:14px 20px 16px}
+.nx-units{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:12px}
+.nx-u{border:1px solid var(--line-2);background:transparent;color:var(--ink-2);border-radius:999px;padding:4px 10px;font:500 12.5px var(--f-mono);cursor:pointer}
+.nx-u span{opacity:.6;margin-left:2px}
+.nx-u:hover{border-color:var(--signal);color:var(--ink)}
+.nx-u[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:var(--paper)}
+.nx-arts{list-style:none;margin:0;padding:0;counter-reset:nx}
+.nx-arts li{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 18px;align-items:baseline;padding:9px 0;border-top:1px dashed var(--line)}
+.nx-arts li:first-child{border-top:0}
+.nx-arts li[hidden]{display:none}
+.nx-arts li.nx-hit{background:var(--orange-soft);margin:0 -10px;padding-inline:10px;border-radius:6px}
+.nx-arts a{color:var(--ink);font-size:15.5px;line-height:1.4;text-decoration:none;font-weight:500}
+.nx-arts a:hover{color:var(--signal);text-decoration:underline;text-underline-offset:3px}
+.nx-am{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:6px 10px;align-items:baseline}
+.nx-st{font-family:var(--f-mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3);border:1px solid var(--line-2);border-radius:4px;padding:1px 6px;white-space:nowrap}
+.nx-ref{font-family:var(--f-mono);font-size:12.5px;color:var(--ink-2);text-align:right}
+.nx-foot{margin-top:12px;padding-top:10px;border-top:1px solid var(--line);display:flex;justify-content:flex-end}
+.nx-link{background:none;border:0;padding:0;color:var(--ink-3);font:600 13px var(--f-ui);cursor:pointer}
+.nx-link:hover{color:var(--signal);text-decoration:underline}
+.nx-empty{margin-top:12px}
+.nx-more{border:1px dashed var(--line-2);background:transparent;color:var(--ink-2);border-radius:999px;padding:4px 10px;font:600 12.5px var(--f-ui);cursor:pointer}
+.nx-more:hover{border-color:var(--signal);color:var(--signal)}
+.nx-pn{display:none;margin:0 0 8px;font-size:13px;color:var(--ink-3)}
+.nx-part .nx-pn{display:block}
+.nx-part .nx-units{display:none}
+.nx-note{margin-top:40px;padding:16px 20px;border-left:3px solid var(--signal);background:var(--sunken);border-radius:0 10px 10px 0;font-size:14px;line-height:1.55;color:var(--ink-2)}
+.nx-note b{color:var(--ink)}
+@media (max-width:820px){
+  .nx-stats{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .nx-stats div:nth-child(3){border-left:0}
+  .nx-stats div:nth-child(n+3){border-top:1px solid var(--line)}
+  .nx-bar{grid-template-columns:1fr}
+  .nx-tools{flex-wrap:wrap}
+}
+@media (max-width:600px){
+  .nx-stats dt{font-size:26px}
+  .nx-stats div{padding:12px 14px}
+  .nx-cats{flex-wrap:nowrap;overflow-x:auto;margin-inline:-16px;padding-inline:16px;scrollbar-width:none}
+  .nx-cats .chip{flex:none}
+  .nx-doc > summary{grid-template-columns:minmax(0,1fr) 18px;grid-template-areas:"name chev" "desc chev" "top chev" "n chev";padding:14px 16px}
+  .nx-n{text-align:left;margin-top:4px}
+  .nx-n b{display:inline;font-size:16px;margin-right:3px}
+  .nx-top{white-space:normal}
+  .nx-body{padding:12px 16px 14px}
+  .nx-arts li{grid-template-columns:1fr}
+  .nx-am{justify-content:flex-start}
+  .nx-ref{text-align:left}
+  .nx-ch h2{font-size:22px}
+}
+</style>
+</head><body>
 <script id="ck-core">
 window.EBck=(function(){
   var K='eb-cookies', st=null;
@@ -2560,7 +2657,7 @@ function buildMega(){
   showPhase(1);
   window.__megaShow = n => { showPhase(phaseOf(n).n); showStage(n); };
   // Branże, Narzędzia, Wiedza
-  const nNorm = new Set(D.articles.flatMap(a => a.norms)).size;
+  const nNorm = nxIndex().docs.length;
   const domItems = D.domains.map(d => { const c = D.articles.filter(a => a.domain === d.key).length; return `<a href="#dziedzina-${d.key}"><b>${esc(d.name)} <span class="dd-c">${c}</span></b><small>${esc(d.desc)}</small></a>`; });
   const toolItems = [`<a class="dd-all" href="#narzedzia"><b>Wszystkie narzędzia · ${ALLT().length}</b><small>Katalog z ikonami i filtrami według etapu budowy</small></a>`].concat(ALLT().map(x => `<a class="dd-t${x.kind === 'pro' ? ' dd-pro' : x.kind === 'plan' ? ' dd-feat' : ''}" href="${x.href}"${x.tool ? ` data-tool="${x.tool}"` : ''}>${tTile(x.key, 'sm')}<span><b>${esc(x.name)}${x.kind === 'pro' ? '<span class="pro-badge">PRO</span>' : ''}</b><small>${esc(x.short)}</small></span></a>`));
   const wiedzaItems = [['#normy','Normy i przepisy', nNorm + ' pozycji w indeksie, z artykułami, które je cytują'],['#slowniczek','Słowniczek', GLOSS.length + ' pojęć z budowy w jednym, dwóch zdaniach'],['#serie','Serie artykułów','cykle czytane po kolei'],['#lista-kontroli','Lista kontroli i punkty zatrzymania','dla kierownika budowy i inspektora nadzoru']].map(x => `<a href="${x[0]}"><b>${esc(x[1])}</b><small>${esc(x[2])}</small></a>`);
@@ -2654,7 +2751,7 @@ function wireBand(root){
 /* ---------- Widoki ---------- */
 function viewHome(){
   const latest = D.articles.slice(0,6).map(artCard).join('');
-  const normsCount = new Set(D.articles.flatMap(a => a.norms)).size;
+  const normsCount = nxIndex().docs.length;
   const doms = D.domains.map(d => { const c = D.articles.filter(a => a.domain===d.key).length;
     return `<a class="dom-card" href="#dziedzina-${d.key}"><h3>${esc(d.name)}</h3><p>${esc(d.desc)}</p><span class="cnt">${c} ${plural(c,'artykuł','artykuły','artykułów')}</span></a>`; }).join('');
   return `<section class="hero hx"><div class="wrap hx-grid">
@@ -2848,12 +2945,283 @@ function viewDomain(key){
       ${arts.length ? `<div class="art-grid">${arts.map(artCard).join('')}</div>` : '<div class="empty">Artykuły z tej dziedziny są w przygotowaniu.</div>'}</div></section>`;
 }
 
+/* ---------- Indeks norm i przepisów ---------- */
+const NX_CAT = [
+  {k:'ustawy', n:'Ustawy i kodeksy', d:'Akty prawa krajowego rangi ustawowej, z wyszczególnieniem przywołanych artykułów.'},
+  {k:'rozp', n:'Rozporządzenia', d:'Przepisy wykonawcze: warunki techniczne, BHP, geotechnika, ochrona przeciwpożarowa i inne.'},
+  {k:'plan', n:'Planowanie i decyzje', d:'Plany miejscowe, decyzje administracyjne, uchwały i formularze urzędowe.'},
+  {k:'euro', n:'Eurokody', d:'Normy projektowania konstrukcji PN-EN 1990–1999 wraz z przywołanymi częściami.'},
+  {k:'normy', n:'Normy', d:'Polskie Normy PN, PN-EN, PN-EN ISO, PN-HD oraz normy EN, ISO i IEC.'},
+  {k:'ue', n:'Prawo Unii Europejskiej', d:'Dyrektywy i rozporządzenia UE oraz unijne systemy regulacyjne.'},
+  {k:'orz', n:'Orzecznictwo', d:'Wyroki i uchwały sądów oraz Krajowej Izby Odwoławczej.'},
+  {k:'wyt', n:'Wytyczne i oceny techniczne', d:'Instrukcje ITB, wytyczne branżowe, oceny techniczne, certyfikaty i katalogi nakładów.'},
+  {k:'zagr', n:'Przepisy zagraniczne', d:'Normy i przepisy innych państw przywołane dla porównania.'},
+  {k:'inne', n:'Pojęcia i badania', d:'Badania, wskaźniki i pojęcia techniczne, do których odwołują się artykuły.'}
+];
+const NX_EC = {0:'Podstawy projektowania konstrukcji',1:'Oddziaływania na konstrukcje',2:'Projektowanie konstrukcji z betonu',3:'Projektowanie konstrukcji stalowych',4:'Projektowanie konstrukcji zespolonych stalowo-betonowych',5:'Projektowanie konstrukcji drewnianych',6:'Projektowanie konstrukcji murowych',7:'Projektowanie geotechniczne',8:'Projektowanie konstrukcji poddanych oddziaływaniom sejsmicznym',9:'Projektowanie konstrukcji aluminiowych'};
+/* [wzorzec, klucz, nazwa, kategoria, opis] – kolejność ma znaczenie */
+const NX_RULES = [
+  [/^(?:Prawo budowlane|Nowelizacja Prawa budowlanego)/, 'pb', 'Prawo budowlane', 'ustawy', 'Ustawa z dnia 7 lipca 1994 r. – Prawo budowlane'],
+  [/^Kodeks cywilny:?/, 'kc', 'Kodeks cywilny', 'ustawy', 'Ustawa z dnia 23 kwietnia 1964 r. – Kodeks cywilny'],
+  [/^Kodeks karny skarbowy/, 'kks', 'Kodeks karny skarbowy', 'ustawy', 'Ustawa z dnia 10 września 1999 r. – Kodeks karny skarbowy'],
+  [/^Kodeks karny/, 'kk', 'Kodeks karny', 'ustawy', 'Ustawa z dnia 6 czerwca 1997 r. – Kodeks karny'],
+  [/^Kodeks postępowania cywilnego/, 'kpc', 'Kodeks postępowania cywilnego', 'ustawy', 'Ustawa z dnia 17 listopada 1964 r. – Kodeks postępowania cywilnego'],
+  [/^Kodeks pracy/, 'kp', 'Kodeks pracy', 'ustawy', 'Ustawa z dnia 26 czerwca 1974 r. – Kodeks pracy'],
+  [/^Kodeks rodzinny i opiekuńczy/, 'kro', 'Kodeks rodzinny i opiekuńczy', 'ustawy', 'Ustawa z dnia 25 lutego 1964 r. – Kodeks rodzinny i opiekuńczy'],
+  [/^Kodeks spółek handlowych/, 'ksh', 'Kodeks spółek handlowych', 'ustawy', 'Ustawa z dnia 15 września 2000 r. – Kodeks spółek handlowych'],
+  [/^Kodeks wykroczeń/, 'kw', 'Kodeks wykroczeń', 'ustawy', 'Ustawa z dnia 20 maja 1971 r. – Kodeks wykroczeń'],
+  [/^(?:KPA\b|Kodeks postępowania administracyjnego)/, 'kpa', 'Kodeks postępowania administracyjnego', 'ustawy', 'Ustawa z dnia 14 czerwca 1960 r. – Kodeks postępowania administracyjnego'],
+  [/^Prawo energetyczne/, 'pe', 'Prawo energetyczne', 'ustawy', 'Ustawa z dnia 10 kwietnia 1997 r. – Prawo energetyczne'],
+  [/^Prawo geodezyjne(?: i kartograficzne)?/, 'pgk', 'Prawo geodezyjne i kartograficzne', 'ustawy', 'Ustawa z dnia 17 maja 1989 r. – Prawo geodezyjne i kartograficzne'],
+  [/^Prawo geologiczne i górnicze/, 'pgg', 'Prawo geologiczne i górnicze', 'ustawy', 'Ustawa z dnia 9 czerwca 2011 r. – Prawo geologiczne i górnicze'],
+  [/^Prawo ochrony środowiska/, 'pos', 'Prawo ochrony środowiska', 'ustawy', 'Ustawa z dnia 27 kwietnia 2001 r. – Prawo ochrony środowiska'],
+  [/^Prawo wodne(?: z 2017 r\.)?/, 'pw', 'Prawo wodne', 'ustawy', 'Ustawa z dnia 20 lipca 2017 r. – Prawo wodne'],
+  [/^(?:Prawo zamówień publicznych|Pzp)\b/, 'pzp', 'Prawo zamówień publicznych', 'ustawy', 'Ustawa z dnia 11 września 2019 r. – Prawo zamówień publicznych'],
+  [/^Prawo Jurina/, 'jurin', 'Prawo Jurina', 'inne', 'Zależność opisująca podciąganie kapilarne cieczy'],
+  [/^(?:Ustawa deweloperska(?: z 2021 r\.)?|Ustawa o ochronie praw nabywcy lokalu mieszkalnego lub domu jednorodzinnego oraz o Deweloperskim Funduszu Gwarancyjnym)/, 'dew', 'Ustawa deweloperska', 'ustawy', 'Ustawa z dnia 20 maja 2021 r. o ochronie praw nabywcy lokalu mieszkalnego lub domu jednorodzinnego oraz o Deweloperskim Funduszu Gwarancyjnym'],
+  [/^Projekt UC77 \(ustawa o charakterystyce energetycznej budynków\)/, 'uc77', 'Projekt UC77', 'ustawy', 'Projekt ustawy o charakterystyce energetycznej budynków'],
+  [/^Ustawa o charakterystyce energetycznej budynków/, 'uceb', 'Ustawa o charakterystyce energetycznej budynków', 'ustawy', 'Ustawa z dnia 29 sierpnia 2014 r. o charakterystyce energetycznej budynków'],
+  [/^Ustawa o drogach publicznych/, 'udp', 'Ustawa o drogach publicznych', 'ustawy', 'Ustawa z dnia 21 marca 1985 r. o drogach publicznych'],
+  [/^Ustawa o elektromobilności/, 'uem', 'Ustawa o elektromobilności i paliwach alternatywnych', 'ustawy', 'Ustawa z dnia 11 stycznia 2018 r. o elektromobilności i paliwach alternatywnych'],
+  [/^Ustawa o finansach publicznych/, 'ufp', 'Ustawa o finansach publicznych', 'ustawy', 'Ustawa z dnia 27 sierpnia 2009 r. o finansach publicznych'],
+  [/^Ustawa o księgach wieczystych i hipotece/, 'ukwh', 'Ustawa o księgach wieczystych i hipotece', 'ustawy', 'Ustawa z dnia 6 lipca 1982 r. o księgach wieczystych i hipotece'],
+  [/^Ustawa o ochronie gruntów rolnych i leśnych/, 'ugrl', 'Ustawa o ochronie gruntów rolnych i leśnych', 'ustawy', 'Ustawa z dnia 3 lutego 1995 r. o ochronie gruntów rolnych i leśnych'],
+  [/^Ustawa o ochronie ludności(?: i obronie cywilnej)?/, 'uol', 'Ustawa o ochronie ludności i obronie cywilnej', 'ustawy', 'Ustawa z dnia 5 grudnia 2024 r. o ochronie ludności i obronie cywilnej'],
+  [/^Ustawa o ochronie przeciwpożarowej/, 'uopp', 'Ustawa o ochronie przeciwpożarowej', 'ustawy', 'Ustawa z dnia 24 sierpnia 1991 r. o ochronie przeciwpożarowej'],
+  [/^Ustawa o ochronie przyrody/, 'uop', 'Ustawa o ochronie przyrody', 'ustawy', 'Ustawa z dnia 16 kwietnia 2004 r. o ochronie przyrody'],
+  [/^Ustawa o ochronie zabytków(?: i opiece nad zabytkami)?/, 'uoz', 'Ustawa o ochronie zabytków i opiece nad zabytkami', 'ustawy', 'Ustawa z dnia 23 lipca 2003 r. o ochronie zabytków i opiece nad zabytkami'],
+  [/^Ustawa o odpadach/, 'uodp', 'Ustawa o odpadach', 'ustawy', 'Ustawa z dnia 14 grudnia 2012 r. o odpadach'],
+  [/^Ustawa o planowaniu i zagospodarowaniu przestrzennym/, 'upzp', 'Ustawa o planowaniu i zagospodarowaniu przestrzennym', 'ustawy', 'Ustawa z dnia 27 marca 2003 r. o planowaniu i zagospodarowaniu przestrzennym'],
+  [/^Ustawa o podatkach i opłatach lokalnych/, 'upol', 'Ustawa o podatkach i opłatach lokalnych', 'ustawy', 'Ustawa z dnia 12 stycznia 1991 r. o podatkach i opłatach lokalnych'],
+  [/^Ustawa o prawach konsumenta/, 'upk', 'Ustawa o prawach konsumenta', 'ustawy', 'Ustawa z dnia 30 maja 2014 r. o prawach konsumenta'],
+  [/^Ustawa o przeciwdziałaniu nadmiernym opóźnieniom w transakcjach handlowych/, 'upno', 'Ustawa o przeciwdziałaniu nadmiernym opóźnieniom w transakcjach handlowych', 'ustawy', 'Ustawa z dnia 8 marca 2013 r. o przeciwdziałaniu nadmiernym opóźnieniom w transakcjach handlowych'],
+  [/^Ustawa o spółdzielniach mieszkaniowych/, 'usm', 'Ustawa o spółdzielniach mieszkaniowych', 'ustawy', 'Ustawa z dnia 15 grudnia 2000 r. o spółdzielniach mieszkaniowych'],
+  [/^(?:Ustawa o substancjach zubożających warstwę ozonową oraz o niektórych fluorowanych gazach cieplarnianych|Ustawa F-gazowa)/, 'ufg', 'Ustawa o substancjach zubożających warstwę ozonową oraz o niektórych fluorowanych gazach cieplarnianych', 'ustawy', 'Ustawa z dnia 15 maja 2015 r. („ustawa F-gazowa”)'],
+  [/^Ustawa o utrzymaniu czystości i porządku w gminach/, 'uucp', 'Ustawa o utrzymaniu czystości i porządku w gminach', 'ustawy', 'Ustawa z dnia 13 września 1996 r. o utrzymaniu czystości i porządku w gminach'],
+  [/^Ustawa o wspieraniu termomodernizacji i remontów/, 'uwtr', 'Ustawa o wspieraniu termomodernizacji i remontów', 'ustawy', 'Ustawa z dnia 21 listopada 2008 r. o wspieraniu termomodernizacji i remontów'],
+  [/^Ustawa o własności lokali/, 'uwl', 'Ustawa o własności lokali', 'ustawy', 'Ustawa z dnia 24 czerwca 1994 r. o własności lokali'],
+  [/^Ustawa o zapewnianiu dostępności/, 'uzd', 'Ustawa o zapewnianiu dostępności osobom ze szczególnymi potrzebami', 'ustawy', 'Ustawa z dnia 19 lipca 2019 r. o zapewnianiu dostępności osobom ze szczególnymi potrzebami'],
+  [/^Ustawa o zapobieganiu oraz zwalczaniu zakażeń i chorób zakaźnych u ludzi/, 'uzz', 'Ustawa o zapobieganiu oraz zwalczaniu zakażeń i chorób zakaźnych u ludzi', 'ustawy', 'Ustawa z dnia 5 grudnia 2008 r.'],
+  [/^(?:Ustawa z 7 czerwca 2001 r\. o |Ustawa o )zbiorowym zaopatrzeniu w wodę(?: i zbiorowym odprowadzaniu ścieków)?/, 'uzzw', 'Ustawa o zbiorowym zaopatrzeniu w wodę i zbiorowym odprowadzaniu ścieków', 'ustawy', 'Ustawa z dnia 7 czerwca 2001 r. o zbiorowym zaopatrzeniu w wodę i zbiorowym odprowadzaniu ścieków'],
+  [/^(?:Warunki techniczne użytkowania budynków mieszkalnych|Rozporządzenie w sprawie warunków technicznych użytkowania budynków mieszkalnych)/, 'wtu', 'Warunki techniczne użytkowania budynków mieszkalnych', 'rozp', 'Rozporządzenie w sprawie warunków technicznych użytkowania budynków mieszkalnych'],
+  [/^Warunki techniczne budowli ochronnych/, 'wtbo', 'Warunki techniczne budowli ochronnych', 'rozp', 'Rozporządzenie w sprawie warunków technicznych dla budowli ochronnych'],
+  [/^(?:ITB: Warunki techniczne wykonania i odbioru robót budowlanych|Warunki Techniczne Wykonania i Odbioru Robót Budowlanych \(ITB\))/, 'wtwor', 'Warunki techniczne wykonania i odbioru robót budowlanych (ITB)', 'wyt', 'Wydawnictwo Instytutu Techniki Budowlanej, wymagania wykonawcze i kryteria odbioru'],
+  [/^(?:Warunki techniczne(?:, jakim powinny odpowiadać budynki)?|Rozporządzenie w sprawie warunków technicznych|Rozporządzenie Ministra Infrastruktury z 12 kwietnia 2002 r\. \(warunki techniczne\)|WT(?= Dział))/, 'wt', 'Warunki techniczne (WT)', 'rozp', 'Rozporządzenie w sprawie warunków technicznych, jakim powinny odpowiadać budynki i ich usytuowanie'],
+  [/^Rozporządzenie (?:w sprawie )?(?:BHP|bhp)(?: (?:przy robotach budowlanych|podczas wykonywania robót budowlanych))?(?: z 6(?:\.02\.| lutego )2003(?: r\.)?| \(2003\))?/, 'bhpb', 'Rozporządzenie BHP przy robotach budowlanych', 'rozp', 'Rozporządzenie Ministra Infrastruktury z dnia 6 lutego 2003 r. w sprawie bezpieczeństwa i higieny pracy podczas wykonywania robót budowlanych'],
+  [/^Rozporządzenie w sprawie ogólnych przepisów BHP/, 'bhpo', 'Ogólne przepisy BHP', 'rozp', 'Rozporządzenie w sprawie ogólnych przepisów bezpieczeństwa i higieny pracy'],
+  [/^Przepisy BHP:/, 'bhpl', 'Przepisy BHP – linie napowietrzne', 'rozp', 'Odległości bezpieczne przy pracach w pobliżu linii elektroenergetycznych'],
+  [/^BIOZ\b/, 'bioz', 'Rozporządzenie w sprawie planu BIOZ', 'rozp', 'Rozporządzenie w sprawie informacji dotyczącej bezpieczeństwa i ochrony zdrowia oraz planu bezpieczeństwa i ochrony zdrowia'],
+  [/^Rozporządzenie (?:MTBiGM z 25 kwietnia 2012 r\. )?w sprawie (?:ustalania )?geotechnicznych warunków posadawiania obiektów budowlanych(?: \(Dz\.U\. 2012 poz\. 463\))?/, 'geot', 'Geotechniczne warunki posadawiania', 'rozp', 'Rozporządzenie z dnia 25 kwietnia 2012 r. w sprawie ustalania geotechnicznych warunków posadawiania obiektów budowlanych'],
+  [/^(?:Rozporządzenie o ochronie przeciwpożarowej budynków|Rozporządzenie ppoż\.|Rozporządzenie MSWiA z 7 czerwca 2010 r\.)/, 'ppoz', 'Ochrona przeciwpożarowa budynków', 'rozp', 'Rozporządzenie MSWiA z dnia 7 czerwca 2010 r. w sprawie ochrony przeciwpożarowej budynków, innych obiektów budowlanych i terenów'],
+  [/^Rozporządzenie o zakresie(?: i formie)? projektu budowlanego/, 'proj', 'Zakres i forma projektu budowlanego', 'rozp', 'Rozporządzenie w sprawie szczegółowego zakresu i formy projektu budowlanego'],
+  [/^Rozporządzenie w sprawie dziennika budowy oraz systemu Elektroniczny Dziennik Budowy/, 'edb', 'Dziennik budowy i EDB', 'rozp', 'Rozporządzenie w sprawie dziennika budowy oraz systemu Elektroniczny Dziennik Budowy'],
+  [/^Rozporządzenie z 18\.02\.2026 w sprawie wzor(?:u formularza|ów formularzy)[^(]*\(Dz\.U\. 2026 poz\. 272\)/, 'form26', 'Wzory formularzy (Dz.U. 2026 poz. 272)', 'rozp', 'Rozporządzenie z dnia 18 lutego 2026 r.: zawiadomienie o zakończeniu budowy i wniosek o pozwolenie na użytkowanie'],
+  [/^Rozporządzenie UE 305\/2011/, 'cpr', 'Rozporządzenie (UE) nr 305/2011 (CPR)', 'ue', 'Rozporządzenie w sprawie wyrobów budowlanych'],
+  [/^RODO\b/, 'rodo', 'RODO', 'ue', 'Rozporządzenie (UE) 2016/679 o ochronie danych osobowych'],
+  [/^EU ETS 2\b/, 'ets2', 'EU ETS 2', 'ue', 'Unijny system handlu uprawnieniami do emisji obejmujący m.in. paliwa do ogrzewania budynków'],
+  [/^Umowa handlowa UE-UK/, 'tca', 'Umowa handlowa UE–UK (TCA)', 'ue', 'Umowa o handlu i współpracy między UE a Zjednoczonym Królestwem'],
+  [/^Dyrektywa EPBD/, 'epbd', 'Dyrektywa EPBD', 'ue', 'Dyrektywa w sprawie charakterystyki energetycznej budynków'],
+  [/^(?:Instrukcja ITB|Instrukcje ITB)/, 'itb', 'Instrukcje ITB', 'wyt', 'Instrukcje, wytyczne i poradniki Instytutu Techniki Budowlanej'],
+  [/^(?:Instrukcje|Wytyczne) WTA/, 'wta', 'Wytyczne WTA', 'wyt', 'Wytyczne techniczne WTA dotyczące ochrony i renowacji budynków'],
+  [/^(?:Instrukcja SEP|Wzór protokołu SEP|N-SEP-E)/, 'sep', 'Dokumenty SEP', 'wyt', 'Instrukcje, wzory protokołów i normy Stowarzyszenia Elektryków Polskich'],
+  [/^EAD\b/, 'ead', 'Europejskie Dokumenty Oceny (EAD)', 'wyt', 'Podstawa wydawania Europejskich Ocen Technicznych'],
+  [/^(?:ETA$|Europejska Ocena Techniczna)/, 'eta', 'Europejska Ocena Techniczna (ETA)', 'wyt', 'Dokument oceny właściwości wyrobu nieobjętego normą zharmonizowaną'],
+  [/^Krajowa ocena techniczna/, 'kot', 'Krajowa ocena techniczna', 'wyt', 'Dokument oceny wyrobu budowlanego wydawany w Polsce'],
+  [/^Deklaracja właściwości użytkowych/, 'dop', 'Deklaracja właściwości użytkowych (DoP)', 'wyt', 'Dokument producenta określający deklarowane właściwości wyrobu'],
+  [/^FIDIC 2017/, 'fidic', 'FIDIC 2017', 'wyt', 'Wzorcowe warunki kontraktowe Międzynarodowej Federacji Inżynierów Konsultantów'],
+  [/^(?:Decyzja o warunkach zabudowy|Warunki zabudowy \(WZ\))/, 'wz', 'Decyzja o warunkach zabudowy (WZ)', 'plan', ''],
+  [/^MPZP\b/, 'mpzp', 'Miejscowy plan zagospodarowania przestrzennego (MPZP)', 'plan', ''],
+  [/^Uchwał[ay] antysmogow/, 'antysmog', 'Uchwały antysmogowe', 'plan', 'Uchwały sejmików województw ograniczające eksploatację instalacji spalania paliw'],
+  [/^(?:Pozwolenie|Zgłoszenie) wodnoprawne/, null, null, 'plan', ''],
+  [/^(?:Formularz PB-7|Opinia geotechniczna|Program Mikroretencja)/, null, null, 'plan', ''],
+  [/^(?:Bauordnung|OIB-|Building Regulations|Wiring Regulations|NEC \(USA\))/, null, null, 'zagr', ''],
+  [/^(?:Wyrok|Uchwała SN|SN )/, null, null, 'orz', ''],
+  [/^Dyrektywa/, null, null, 'ue', ''],
+  [/^Rozporządzenie (?:\(UE\)|UE|CPR)/, null, null, 'ue', ''],
+  [/^Rozporządzenie/, null, null, 'rozp', ''],
+  [/^Ustawa/, null, null, 'ustawy', ''],
+  [/^(?:Instrukcj|Wytyczne|Certyfikat|KNR\b|Karta Wenecka|Kryteria|VDI\b)/, null, null, 'wyt', '']
+];
+/* krótki opis zakresu najczęściej przywoływanych norm (klucz = numer) */
+const NX_NDESC = {
+  'B-03430':'Wentylacja w budynkach mieszkalnych, zamieszkania zbiorowego i użyteczności publicznej','B-02151':'Akustyka budowlana – ochrona przed hałasem w budynkach','B-06265':'Beton – krajowe uzupełnienia PN-EN 206','B-06050':'Geotechnika – roboty ziemne','B-04481':'Grunty budowlane – badania próbek gruntu','S-02205':'Drogi samochodowe – roboty ziemne',
+  '206':'Beton – wymagania, właściwości użytkowe, produkcja i zgodność','13670':'Wykonywanie konstrukcji z betonu','10080':'Stal do zbrojenia betonu','12350':'Badania mieszanki betonowej','13791':'Ocena wytrzymałości betonu na ściskanie w konstrukcjach','1504':'Wyroby i systemy do ochrony i napraw konstrukcji betonowych',
+  '13813':'Podkłady podłogowe – materiały i właściwości','1264':'Wodne systemy ogrzewania płaszczyznowego','12831':'Charakterystyka energetyczna budynków – obliczanie projektowego obciążenia cieplnego','13788':'Cieplno-wilgotnościowe właściwości komponentów i elementów budynku','10211':'Mostki cieplne w budynkach – strumienie ciepła i temperatury powierzchni','14683':'Mostki cieplne w budynkach – liniowy współczynnik przenikania ciepła','9972':'Właściwości cieplne budynków – szczelność powietrzna, metoda ciśnieniowa','10456':'Materiały i wyroby budowlane – właściwości cieplno-wilgotnościowe',
+  '60364':'Instalacje elektryczne niskiego napięcia','62305':'Ochrona odgromowa','61439':'Rozdzielnice i sterownice niskonapięciowe','62561':'Elementy urządzenia piorunochronnego',
+  '12056':'Systemy kanalizacji grawitacyjnej wewnątrz budynków','806':'Instalacje wodociągowe do przesyłu wody przeznaczonej do spożycia','1717':'Ochrona przed wtórnym zanieczyszczeniem wody w instalacjach wodociągowych','14366':'Pomiar hałasu instalacji ściekowych w warunkach laboratoryjnych','752':'Zewnętrzne systemy kanalizacyjne','1610':'Budowa i badania przewodów kanalizacyjnych','805':'Wymagania dotyczące zewnętrznych systemów wodociągowych',
+  '13914':'Projektowanie, przygotowanie i wykonywanie tynków zewnętrznych i wewnętrznych','13279':'Spoiwa gipsowe i tynki gipsowe','998':'Wymagania dotyczące zapraw do murów','845':'Wyroby dodatkowe do murów (kotwy, łączniki, nadproża)','771':'Wymagania dotyczące elementów murowych','772':'Metody badań elementów murowych',
+  '13163':'Wyroby do izolacji cieplnej ze styropianu (EPS)','13162':'Wyroby do izolacji cieplnej z wełny mineralnej (MW)','13499':'Złożone systemy izolacji cieplnej (ETICS) na bazie styropianu','13500':'Złożone systemy izolacji cieplnej (ETICS) na bazie wełny mineralnej','13496':'Siatki z włókien szklanych do systemów ETICS','13501':'Klasyfikacja ogniowa wyrobów budowlanych i elementów budynków',
+  '13859':'Elastyczne wyroby wodochronne – podkłady pod pokrycia i do ścian','13984':'Elastyczne wyroby wodochronne – warstwy paroizolacyjne','13707':'Zbrojone wyroby bitumiczne do pokryć dachowych',
+  '338':'Drewno konstrukcyjne – klasy wytrzymałości','14081':'Drewno konstrukcyjne sortowane wytrzymałościowo','14250':'Konstrukcje drewniane – prefabrykowane elementy z łącznikami płytkowymi',
+  '520':'Płyty gipsowo-kartonowe','13964':'Sufity podwieszane','14195':'Elementy metalowe konstrukcji do systemów płyt gipsowo-kartonowych','13963':'Materiały do spoinowania płyt gipsowo-kartonowych',
+  '13300':'Farby i lakiery – wyroby do ścian i sufitów wewnętrznych','12944':'Ochrona konstrukcji stalowych przed korozją za pomocą powłok malarskich','12004':'Kleje do płytek ceramicznych','14891':'Wyroby nieprzepuszczające wody nakładane w postaci ciekłej, stosowane pod płytki',
+  '14351':'Okna i drzwi – norma wyrobu','1627':'Okna i drzwi – odporność na włamanie','356':'Szkło w budownictwie – szkło ochronne','12600':'Szkło w budownictwie – próba wahadłowa','13241':'Bramy – norma wyrobu',
+  '1443':'Kominy – wymagania ogólne','16798':'Charakterystyka energetyczna budynków – wentylacja','14825':'Klimatyzatory i pompy ciepła – badania przy częściowym obciążeniu',
+  '9836':'Właściwości użytkowe w budownictwie – określanie wskaźników powierzchniowych i kubaturowych'
+};
+let NXI = null;
+function nxIndex(){
+  if (NXI) return NXI;
+  const docs = new Map(), slugs = new Set();
+  const getDoc = (key, name, cat, desc) => {
+    let d = docs.get(key);
+    if (!d){
+      let sl = nxSlug(name), i = 2; while (slugs.has(sl)) sl = nxSlug(name) + '-' + i++; slugs.add(sl);
+      d = {key, name, cat, desc: desc || '', slug: sl, arts: new Map(), units: new Map(), raws: new Set(), sortKey: ''};
+      docs.set(key, d);
+    }
+    if (!d.desc && desc) d.desc = desc;
+    return d;
+  };
+  D.articles.forEach(a => a.norms.forEach(raw => {
+    const r = nxParse(raw.trim());
+    const d = getDoc(r.key, r.name, r.cat, r.desc);
+    if (r.rank != null && (d.rank == null || r.rank < d.rank)){ d.rank = r.rank; d.name = r.name; }
+    d.raws.add(raw);
+    let e = d.arts.get(a.slug); if (!e){ e = {a, refs: new Set(), units: new Set()}; d.arts.set(a.slug, e); }
+    if (r.ref) e.refs.add(r.ref);
+    r.units.forEach(u => { e.units.add(u); if (!d.units.has(u)) d.units.set(u, new Set()); d.units.get(u).add(a.slug); });
+  }));
+  const list = [...docs.values()];
+  list.forEach(d => {
+    d.n = d.arts.size;
+    d.unitList = [...d.units.entries()].map(([u, s]) => [u, s.size]).sort((x, y) => nxNat(x[0], y[0]));
+    d.artList = [...d.arts.values()].sort((x, y) => x.a.stage - y.a.stage || x.a.title.localeCompare(y.a.title, 'pl'));
+    d.blob = norm([d.name, d.desc, ...d.raws, ...d.artList.map(e => e.a.title)].join(' | '));
+    d.head = norm([d.name, d.desc, ...d.raws].join(' | '));
+  });
+  const arts = new Set(); let refs = 0;
+  D.articles.forEach(a => { if (a.norms.length){ arts.add(a.slug); refs += a.norms.length; } });
+  NXI = {docs: list, arts: arts.size, refs, last: D.articles.reduce((m, a) => a.date > m ? a.date : m, '')};
+  return NXI;
+}
+function nxSlug(s){ return norm(s).replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 60) || 'pozycja'; }
+function nxNat(a, b){ return a.localeCompare(b, 'pl', {numeric: true, sensitivity: 'base'}); }
+function nxClean(s){ return s.replace(/^[\s,:;]+|[\s,;]+$/g, '').replace(/^\((.*)\)$/, '$1').replace(/\s+rozporządzenia$/, '').trim(); }
+/* jednostki redakcyjne aktu prawnego: art., §, załącznik, dział */
+function nxUnits(rest){
+  const out = [], sup = '[a-z]*[¹²³⁴⁵⁶⁷⁸⁹⁰]*(?:\\(\\d+\\))?';
+  const num = new RegExp('^(?:art\\.|§§?)?\\s*(\\d+' + sup + '(?:\\s*[–-]\\s*\\d+' + sup + ')?)(.*)$');
+  const m = rest.match(/^(art\.|§§?)\s*(.+)$/);
+  if (m){
+    const pre = m[1] === 'art.' ? 'art. ' : '§ '; let detailed = false;
+    m[2].split(/,\s*|\s+i\s+/).forEach((t, i) => {
+      if (i && detailed) return;
+      const x = t.trim().match(num); if (!x) return;
+      out.push(pre + x[1].replace(/\s*[–-]\s*/, '–')); detailed = !!x[2].trim();
+    });
+    return out;
+  }
+  const z = rest.match(/^(?:zał\.|załącznik)\s*(?:nr\s*)?(\d+)/); if (z) return ['zał. ' + z[1]];
+  const dz = rest.match(/^Dział\s+([IVXL]+)/); if (dz) return ['Dział ' + dz[1]];
+  return out;
+}
+function nxParse(raw){
+  /* Eurokody */
+  let m = raw.match(/^(?:Eurokod\s*(\d)|(?:PN-)?EN 199(\d)(?!\d)(-\d+(?:-\d+)?)?)(.*)$/);
+  if (m){
+    const n = m[1] != null ? m[1] : m[2]; let part = m[3] ? 'PN-EN 199' + n + m[3] : '', rest = m[4] || '';
+    const pm = rest.match(/^\s*\(PN-EN 199\d(-\d+(?:-\d+)?)\)/); if (pm){ part = 'PN-EN 199' + n + pm[1]; rest = rest.replace(pm[0], ''); }
+    const cz = rest.match(/^\s*część\s*(\d+(?:-\d+)*)/); if (cz){ part = 'PN-EN 199' + n + '-' + cz[1]; rest = rest.replace(cz[0], ''); }
+    rest = rest.replace(/^\s*,?\s*/, '').replace(/^\((Eurokod \d)\)\s*/, '');
+    const ref = [part, nxClean(rest)].filter(Boolean).join(' ');
+    return {key: 'ec' + n, name: 'Eurokod ' + n + ' – PN-EN 199' + n, cat: 'euro', desc: NX_EC[n] || '', ref, units: part ? [part] : []};
+  }
+  /* normy: PN, EN, ISO, IEC, HD, DIN, BN */
+  m = raw.match(/^PN-(\d\d)\/([A-Z])-(\d+)(.*)$/);
+  if (m) return nxNorm('PN-' + m[2] + '-' + m[3], m[2] + '-' + m[3], m[4], raw, 'PN');
+  m = raw.match(/^PN-([A-Z])[ -](\d{5})(.*)$/);
+  if (m) return nxNorm('PN-' + m[1] + '-' + m[2], m[1] + '-' + m[2], m[3], raw, 'PN');
+  m = raw.match(/^((?:PN-)?(?:IEC\/EN|EN ISO|ISO\/IEC|EN|HD|IEC|ISO)) ?(\d+)(.*)$/);
+  if (m) return nxNorm(m[1] + ' ' + m[2], m[2], m[3], raw, m[1]);
+  m = raw.match(/^DIN (\d+)(.*)$/);
+  if (m){ const r = nxNorm('DIN ' + m[1], 'DIN' + m[1], m[2], raw, 'DIN'); r.cat = 'zagr'; return r; }
+  if (/^(?:BN-|Polska Norma)/.test(raw)) return {key: 'n:' + raw, name: raw, cat: 'normy', desc: '', ref: '', units: []};
+  /* reguły nazwane */
+  for (const [re, key, name, cat, desc] of NX_RULES){
+    const x = raw.match(re); if (!x) continue;
+    if (!key){ const base = raw.split(/\s+(?=art\.|§|subklauzula)/)[0]; const rest = raw.slice(base.length).trim();
+      return {key: 'g:' + base, name: base, cat, desc, ref: rest, units: nxUnits(rest)}; }
+    let rest = raw.slice(x[0].length);
+    if (/^Nowelizacja/.test(raw)) rest = 'nowelizacja z 7 stycznia 2026';
+    rest = nxClean(rest);
+    return {key, name, cat, desc, ref: rest, units: nxUnits(rest)};
+  }
+  return {key: 'x:' + raw, name: raw.charAt(0).toUpperCase() + raw.slice(1), cat: 'inne', desc: '', ref: '', units: []};
+}
+const NX_RANK = {'PN-EN ISO':0, 'PN-EN':1, 'PN-HD':2, 'PN-ISO':3, 'PN-IEC':4, 'PN':5, 'EN ISO':6, 'EN':7, 'IEC/EN':8, 'ISO/IEC':9, 'ISO':10, 'HD':11, 'IEC':12, 'DIN':13};
+function nxNorm(code, num, rest, raw, pfx){
+  const pm = rest.match(/^-(\d+(?:-\d+)*)/);
+  return {key: 'n:' + num, name: code, rank: NX_RANK[pfx] ?? 20, cat: 'normy', desc: NX_NDESC[num] || '', ref: raw, units: pm ? [code + '-' + pm[1]] : []};
+}
+function nxDocHtml(d, open){
+  const top = d.unitList.slice().sort((x, y) => y[1] - x[1]).slice(0, 4).map(u => u[0]);
+  const many = d.unitList.length > 16, keep = new Set(d.unitList.slice().sort((x, y) => y[1] - x[1]).slice(0, 12).map(u => u[0]));
+  const chips = d.unitList.length > 1 ? `<div class="nx-units" role="group" aria-label="Filtruj według jednostki"><button type="button" class="nx-u" aria-pressed="true" data-u="">Wszystkie <span>${d.n}</span></button>${d.unitList.map(([u, c]) => `<button type="button" class="nx-u" aria-pressed="false" data-u="${esc(u)}"${many && !keep.has(u) ? ' data-more hidden' : ''}>${esc(u)} <span>${c}</span></button>`).join('')}${many ? `<button type="button" class="nx-more">+ ${d.unitList.length - keep.size} kolejnych</button>` : ''}</div>` : '';
+  const items = d.artList.map(e => { const st = stageBy(e.a.stage); const refs = [...e.refs].filter(r => r !== d.name);
+    return `<li data-u="${esc([...e.units].join('|'))}" data-t="${esc(norm(e.a.title))}"><a href="#a-${e.a.slug}">${esc(e.a.title)}</a><span class="nx-am"><span class="nx-st" title="${st ? esc(st.name) : ''}">${sLbl(e.a.stage)}</span>${refs.length ? `<span class="nx-ref">${refs.map(esc).join(' · ')}</span>` : ''}</span></li>`; }).join('');
+  return `<details class="nx-doc" id="nx-${d.slug}" data-cat="${d.cat}"${open ? ' open' : ''}><summary><span class="nx-name${/^(normy|euro|zagr)$/.test(d.cat) ? ' nx-code' : ''}">${esc(d.name)}</span>${d.desc ? `<span class="nx-desc">${esc(d.desc)}</span>` : ''}${top.length ? `<span class="nx-top">${top.map(esc).join(' · ')}${d.unitList.length > 4 ? ' …' : ''}</span>` : ''}<span class="nx-n"><b>${d.n}</b> ${plural(d.n, 'artykuł', 'artykuły', 'artykułów')}</span><svg class="nx-chev" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+    <div class="nx-body">${chips}<p class="nx-pn">Pokazano artykuły pasujące do wyszukiwania. Wyczyść pole wyszukiwania, aby zobaczyć wszystkie (${d.n}).</p><ol class="nx-arts">${items}</ol><div class="nx-foot"><button type="button" class="nx-link" data-link="${d.slug}">Kopiuj link do pozycji</button></div></div></details>`;
+}
 function viewNorms(){
-  const map = {};
-  D.articles.forEach(a => a.norms.forEach(n => (map[n] = map[n] || []).push(a)));
-  const rows = Object.keys(map).sort((a,b) => a.localeCompare(b,'pl')).map(n => `<tr><td>${esc(n)}</td><td>${map[n].map(a => `<a href="#a-${a.slug}">${esc(a.title)}</a>`).join('<br>')}</td><td class="mono tabnum">${map[n].length}</td></tr>`).join('');
-  return pageHead('Indeks norm i przepisów', 'Normy, rozporządzenia i ustawy, na które powołują się artykuły. Kliknij tytuł, żeby zobaczyć, jak przepis działa w praktyce.', [['Start','#start'],['Normy']])
-    + `<section class="section"><div class="wrap"><div class="table-wrap" style="border:1px solid var(--line);border-radius:10px;overflow-x:auto"><table class="norm-table"><thead><tr><th>Norma / przepis</th><th>Artykuły</th><th>Liczba</th></tr></thead><tbody>${rows}</tbody></table></div></div></section>`;
+  const I = nxIndex();
+  const cats = NX_CAT.map(c => ({...c, docs: I.docs.filter(d => d.cat === c.k).sort((x, y) => nxNat(x.name, y.name))})).filter(c => c.docs.length);
+  const sections = cats.map(c => `<section class="nx-cat" data-cat="${c.k}" id="nxc-${c.k}"><header class="nx-ch"><h2>${esc(c.n)} <span class="nx-cc">${c.docs.length}</span></h2><p>${esc(c.d)}</p></header><div class="nx-list">${c.docs.map(d => nxDocHtml(d, false)).join('')}</div></section>`).join('');
+  return pageHead('Indeks norm i przepisów', 'Ustawy, rozporządzenia, normy i wytyczne, na które powołują się artykuły portalu, uporządkowane według rodzaju dokumentu. Przy każdej pozycji znajdziesz artykuły pokazujące, jak przepis działa na budowie.', [['Start','#start'],['Wiedza'],['Indeks norm']])
+    + `<section class="section nx"><div class="wrap">
+      <dl class="nx-stats"><div><dt>${I.docs.length}</dt><dd>${plural(I.docs.length, 'pozycja', 'pozycje', 'pozycji')} w indeksie</dd></div><div><dt>${I.refs}</dt><dd>powołań w artykułach</dd></div><div><dt>${I.arts}</dt><dd>artykułów z podstawą prawną lub normową</dd></div><div><dt>${fmtDate(I.last)}</dt><dd>ostatnia aktualizacja</dd></div></dl>
+      <div class="nx-bar" role="search">
+        <div class="nx-q"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="m20 20-3.5-3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><input id="nx-q" type="search" placeholder="Numer normy, nazwa ustawy, artykuł lub temat, np. PN-EN 206, art. 647, wentylacja" autocomplete="off" aria-label="Szukaj w indeksie norm i przepisów"></div>
+        <div class="nx-tools"><label class="nx-sort">Kolejność <select id="nx-sort"><option value="az">Alfabetycznie</option><option value="n">Najczęściej przywoływane</option></select></label><button type="button" class="nx-btn" id="nx-all" aria-pressed="false">Rozwiń wszystkie</button></div>
+        <div class="nx-cats" role="group" aria-label="Rodzaj dokumentu"><button type="button" class="chip" aria-pressed="true" data-c="">Wszystkie <span class="k">${I.docs.length}</span></button>${cats.map(c => `<button type="button" class="chip" aria-pressed="false" data-c="${c.k}">${esc(c.n)} <span class="k">${c.docs.length}</span></button>`).join('')}</div>
+      </div>
+      <p class="nx-res" id="nx-res" aria-live="polite"></p>
+      <div id="nx-out">${sections}</div>
+      <div class="empty nx-empty" id="nx-empty" hidden>Nie znaleziono pozycji pasujących do zapytania. Sprawdź pisownię numeru normy albo wpisz samą liczbę, np. „1992” lub „647”.</div>
+      <aside class="nx-note"><b>Jak korzystać z indeksu.</b> Indeks wskazuje artykuły, w których dany akt lub norma jest omawiana. Nie zastępuje tekstu źródłowego: akty prawne publikowane są w Dzienniku Ustaw i Internetowym Systemie Aktów Prawnych (ISAP), a pełne treści Polskich Norm udostępnia Polski Komitet Normalizacyjny. Przed zastosowaniem przepisu sprawdź jego aktualne brzmienie.</aside>
+    </div></section>`;
+}
+function wireNorms(root, sel){
+  const I = nxIndex(), q = root.querySelector('#nx-q'), out = root.querySelector('#nx-out'), res = root.querySelector('#nx-res'), empty = root.querySelector('#nx-empty');
+  const docEl = new Map(I.docs.map(d => [d, root.querySelector('#nx-' + d.slug)]));
+  let cat = ''; const all = root.querySelector('#nx-all');
+  const apply = () => {
+    const words = norm(q.value.trim()).split(/\s+/).filter(Boolean); let shown = 0, arts = 0;
+    I.docs.forEach(d => {
+      const el = docEl.get(d), okC = !cat || d.cat === cat, okQ = words.every(w => d.blob.includes(w)); const ok = okC && okQ;
+      el.hidden = !ok; if (!ok) return; shown++;
+      const headHit = words.length && words.every(w => d.head.includes(w)), byTitle = !!words.length && !headHit;
+      el.querySelectorAll('.nx-u').forEach(x => x.setAttribute('aria-pressed', String(!x.dataset.u)));
+      el.querySelectorAll('.nx-arts li').forEach(li => { const hit = byTitle && words.every(w => li.dataset.t.includes(w)); li.classList.toggle('nx-hit', hit); li.hidden = byTitle && !hit; });
+      el.classList.toggle('nx-part', byTitle); el.open = byTitle || (all.getAttribute('aria-pressed') === 'true');
+      arts += d.n;
+    });
+    root.querySelectorAll('.nx-cat').forEach(s => { s.hidden = ![...s.querySelectorAll('.nx-doc')].some(e => !e.hidden); });
+    empty.hidden = shown > 0;
+    res.textContent = (words.length || cat) ? (shown ? `Wyświetlono ${shown} ${plural(shown, 'pozycję', 'pozycje', 'pozycji')} z ${I.docs.length}.` : '') : '';
+  };
+  let t; q.addEventListener('input', () => { clearTimeout(t); t = setTimeout(apply, 120); });
+  root.querySelectorAll('.nx-cats .chip').forEach(b => b.addEventListener('click', () => {
+    cat = b.dataset.c; root.querySelectorAll('.nx-cats .chip').forEach(x => x.setAttribute('aria-pressed', String(x === b))); apply(); }));
+  root.querySelector('#nx-sort').addEventListener('change', e => {
+    const byN = e.target.value === 'n', byId = new Map(I.docs.map(d => ['nx-' + d.slug, d]));
+    root.querySelectorAll('.nx-list').forEach(l => { [...l.children].sort((a, b) => { const da = byId.get(a.id), db = byId.get(b.id);
+      return byN ? (db.n - da.n || nxNat(da.name, db.name)) : nxNat(da.name, db.name); }).forEach(x => l.appendChild(x)); });
+  });
+  all.addEventListener('click', () => { const on = all.getAttribute('aria-pressed') !== 'true'; all.setAttribute('aria-pressed', String(on)); all.textContent = on ? 'Zwiń wszystkie' : 'Rozwiń wszystkie';
+    root.querySelectorAll('.nx-doc').forEach(d => { if (!d.hidden) d.open = on; }); });
+  out.addEventListener('click', e => {
+    const mo = e.target.closest('.nx-more');
+    if (mo){ mo.parentElement.querySelectorAll('[data-more]').forEach(x => { x.hidden = false; }); mo.remove(); return; }
+    const u = e.target.closest('.nx-u');
+    if (u){ const box = u.closest('.nx-doc'); box.querySelectorAll('.nx-u').forEach(x => x.setAttribute('aria-pressed', String(x === u)));
+      box.querySelectorAll('.nx-arts li').forEach(li => { li.hidden = !!u.dataset.u && !li.dataset.u.split('|').includes(u.dataset.u); }); return; }
+    const l = e.target.closest('.nx-link');
+    if (l){ const url = location.origin + location.pathname + '#normy/' + l.dataset.link;
+      const done = () => { const o = l.textContent; l.textContent = 'Skopiowano link'; setTimeout(() => { l.textContent = o; }, 1800); };
+      if (navigator.clipboard) navigator.clipboard.writeText(url).then(done, () => prompt('Skopiuj link:', url)); else prompt('Skopiuj link:', url); }
+  });
+  if (sel){ const el = root.querySelector('#nx-' + sel); if (el){ el.open = true; el.classList.add('nx-hl'); setTimeout(() => el.scrollIntoView({block: 'start'}), 40); } }
 }
 
 function viewSeries(){
@@ -10676,7 +11044,7 @@ function shopForArticle(a){
 
 /* ---------- O portalu, kontakt, polityka ---------- */
 function viewAbout(){
-  const normsCount = new Set(D.articles.flatMap(a => a.norms)).size;
+  const normsCount = nxIndex().docs.length;
   return pageHead('O portalu', 'Wielobranżowy portal edukacyjny z zakresu budownictwa i inwestycji.', [['Start','#start'],['O portalu']])
   + `<section class="section"><div class="wrap about"><div class="prose">
     <p>Publikujemy praktyczną wiedzę techniczną, analizy i wskazówki, które pomagają inwestorom oraz wykonawcom unikać błędów, opóźnień i niepotrzebnych kosztów.</p>
@@ -11602,7 +11970,7 @@ function render(){
   else if (h === 'lista-kontroli'){ html = pageHead('Lista kontroli i punkty zatrzymania robót', 'Obszary, które kierownik budowy i inspektor nadzoru sprawdzają na każdym etapie, i momenty, w których roboty muszą stanąć do odbioru.', [['Start','#start'],['Wiedza'],['Lista kontroli']]) + checklistSection(); }
   else if ((m = h.match(/^a-([a-z0-9-]+)$/))){ html = viewArticle(m[1]); wire = r => wireArticle(r, m[1]); }
   else if ((m = h.match(/^dziedzina-([a-z]+)$/))) html = viewDomain(m[1]);
-  else if (h === 'normy') html = viewNorms();
+  else if ((m = h.match(/^normy(?:\/([a-z0-9-]+))?$/))){ const sel = m[1]; html = viewNorms(); wire = r => wireNorms(r, sel); }
   else if (h === 'serie') html = viewSeries();
   else if (h === 'narzedzia'){ html = viewTools(); wire = wireTools; }
   else if ((m = h.match(/^narzedzia\/k-([a-z]+)$/)) && tools.some(t => t.id === m[1])){ const tid = m[1]; html = viewCalc(tid); wire = wireCalcPage; }
