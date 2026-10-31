@@ -61,9 +61,9 @@
     // Rozporządzenia krajowe
     {k:'wt', t:'rozp', n:'Warunki techniczne, jakim powinny odpowiadać budynki i ich usytuowanie (rozporządzenie z 12 kwietnia 2002 r.)', eli:'2002/690',
      re:/^(Warunki techniczne(?! (budowli|wykonania|użytkowania))|WT\b|Rozporządzenie Ministra Infrastruktury z 12 kwietnia 2002|Rozporządzenie w sprawie warunków technicznych(?! użytkowania))/i,
-     note:'Nowe rozporządzenie nie zostało dotąd ogłoszone. Przepisy przejściowe Prawa budowlanego (m.in. art. 102a) pozwalają przez 18 miesięcy od 20.09.2026 r. stosować dotychczasowe warunki techniczne.'},
+     note:'Utraciło moc we wrześniu 2026 r., a nowe rozporządzenie nie zostało dotąd ogłoszone (stan na 30.10.2026 r.). Do 20.03.2028 r. dotychczasowe warunki techniczne stosuje się przy projekcie do pozwolenia na budowę lub zgłoszenia budowy, jeśli inwestor złoży oświadczenie (art. 102a Prawa budowlanego), oraz przy robotach bez pozwolenia i zgłoszenia (art. 102b).'},
     {k:'wtu', t:'rozp', n:'Warunki techniczne użytkowania budynków mieszkalnych (rozporządzenie z 16 sierpnia 1999 r.)', eli:'1999/836', re:/warunków technicznych użytkowania budynków mieszkalnych/i,
-     note:'Utraciło moc 20.09.2026 r. Jego zakres ma przejąć nowe rozporządzenie o warunkach technicznych, które nie zostało jeszcze ogłoszone (stan na 30.10.2026 r.).'},
+     note:'Utraciło moc we wrześniu 2026 r. Do 20.03.2028 r. utrzymanie i użytkowanie budynków mieszkalnych może się opierać na dotychczasowych przepisach (art. 102c Prawa budowlanego). Jego zakres ma przejąć nowe rozporządzenie o warunkach technicznych, które nie zostało jeszcze ogłoszone (stan na 30.10.2026 r.).'},
     {k:'bhpb',t:'rozp', n:'Rozporządzenie w sprawie BHP podczas wykonywania robót budowlanych (6 lutego 2003 r.)', eli:'2003/401', re:/^Rozporządzenie (w sprawie )?BHP (podczas|przy|z 6)|^Rozporządzenie bhp przy robotach/i},
     {k:'bhpo',t:'rozp', n:'Rozporządzenie w sprawie ogólnych przepisów BHP', eli:'1997/844', re:/^Rozporządzenie w sprawie ogólnych przepisów BHP/i},
     {k:'geot',t:'rozp', n:'Rozporządzenie w sprawie ustalania geotechnicznych warunków posadawiania obiektów budowlanych', eli:'2012/463', re:/geotechnicznych warunków posadawiania/i},
@@ -165,7 +165,7 @@
             : c.key.indexOf('PN:') === 0 ? {k: c.key, t: 'norma', n: c.key.slice(3), sub: FAM[c.key.slice(3)] || '', arts: {}, cites: {}, raw: {}}
             : {k: c.key, t: c.t, n: c.key.slice(2), arts: {}, cites: {}, raw: {}};
         }
-        var ar = e.arts[a.slug] || (e.arts[a.slug] = {slug: a.slug, title: a.title, cites: {}});
+        var ar = e.arts[a.slug] || (e.arts[a.slug] = {slug: a.slug, title: a.title, cites: {}, law: (a.law || []).length > 0});
         if (c.cite && !/^\d{4}( r\.)?$|^Dz\.?\s?U/i.test(c.cite) && c.cite.length < 70) { ar.cites[c.cite] = 1; e.cites[c.cite] = (e.cites[c.cite] || 0) + 1; }
         e.raw[raw] = 1;
       });
@@ -274,7 +274,9 @@
     var bad = d.list.filter(function (e) { return STATUS[e.k] && STATUS[e.k].inForce === false; });
     var checked = d.list.filter(function (e) { return (e.eli || e.celex) && STATUS[e.k] && !STATUS[e.k].err; }).length;
     var checkable = d.list.filter(function (e) { return e.eli || e.celex; }).length;
-    var badArts = {}; bad.forEach(function (e) { e.list.forEach(function (a) { badArts[a.slug] = 1; }); });
+    var badArts = {}, openArts = {}; bad.forEach(function (e) { e.list.forEach(function (a) { badArts[a.slug] = 1; if (!a.law) openArts[a.slug] = 1; }); });
+    var nBad = Object.keys(badArts).length, nOpen = Object.keys(openArts).length;
+    var badLinks = bad.map(function (e) { return '<a href="#normy" data-jump="nx-' + esc(e.k) + '">' + esc(e.n.replace(/\s*\(.*\)$/, '')) + '</a>'; }).join(', ');
 
     var html =
       '<section class="page-head" data-nx="1"><div class="wrap"><nav class="crumbs" aria-label="Okruszki"><a href="#start">Start</a><span aria-hidden="true">/</span><span>Wiedza</span><span aria-hidden="true">/</span><span>Normy i przepisy</span></nav>' +
@@ -283,9 +285,10 @@
       '<div class="nx-meta"><span><i class="nx-dot' + (checked < checkable ? ' nx-dot-wait' : '') + '"></i>Status sprawdzony: <b>' + checked + ' z ' + checkable + '</b> aktów (ISAP, EUR-Lex) · ' + new Date().toLocaleDateString('pl-PL') + '</span>' +
       '<span><b>' + d.list.length + '</b> pozycji (scalone z ' + d.rawCount + ' wpisów w ' + d.arts + ' artykułach)</span></div></div></section>' +
 
-      (bad.length ? '<section class="nx-warnbar"><div class="wrap"><b>Wymaga uwagi:</b> ' + bad.length + ' ' + plural(bad.length, 'akt nie obowiązuje', 'akty nie obowiązują', 'aktów nie obowiązuje') +
-        ', a powołuje się na ' + plural(bad.length, 'niego', 'nie', 'nie') + ' ' + Object.keys(badArts).length + ' ' + plural(Object.keys(badArts).length, 'artykuł', 'artykuły', 'artykułów') + ': ' +
-        bad.map(function (e) { return '<a href="#normy" data-jump="nx-' + esc(e.k) + '">' + esc(e.n.replace(/\s*\(.*\)$/, '')) + '</a>'; }).join(', ') + '.</div></section>' : '') +
+      (bad.length ? (nOpen
+        ? '<section class="nx-warnbar"><div class="wrap"><b>Wymaga uwagi:</b> ' + bad.length + ' ' + plural(bad.length, 'akt nie obowiązuje', 'akty nie obowiązują', 'aktów nie obowiązuje') +
+          ', a ' + nOpen + ' ' + plural(nOpen, 'artykuł powołuje', 'artykuły powołują', 'artykułów powołuje') + ' się na ' + plural(bad.length, 'niego', 'nie', 'nie') + ' bez noty o stanie prawnym: ' + badLinks + '.</div></section>'
+        : '<section class="nx-warnbar nx-okbar"><div class="wrap"><b>Przepisy przejściowe:</b> ' + bad.length + ' ' + plural(bad.length, 'akt utracił', 'akty utraciły', 'aktów utraciło') + ' moc (' + badLinks + '), ale do 20.03.2028 r. można ' + plural(bad.length, 'go', 'je', 'je') + ' stosować na zasadach z art. 102a–102c Prawa budowlanego. Każdy z ' + nBad + ' ' + plural(nBad, 'artykułu', 'artykułów', 'artykułów') + ', które się na ' + plural(bad.length, 'niego', 'nie', 'nie') + ' powołują, ma na początku ramkę „Stan prawny”.</div></section>') : '') +
 
       '<div class="nx-tools"><div class="wrap"><label class="nx-search"><input type="search" id="nx-q" placeholder="Szukaj: numer, nazwa, artykuł…" value="' + esc(st.q) + '" aria-label="Szukaj w wykazie"></label>' +
       '<div class="nx-chips" role="group" aria-label="Rodzaj"><button class="chip" data-t="" aria-pressed="' + (st.t === '') + '">Wszystkie <span class="k">' + d.list.length + '</span></button>' +
@@ -336,7 +339,7 @@
   var CSS = '.nx-eyebrow{font:700 13px/1 var(--f-display);letter-spacing:.14em;text-transform:uppercase;color:var(--orange);margin:6px 0 8px}' +
     '.nx-meta{display:flex;flex-wrap:wrap;gap:6px 26px;margin-top:16px;font-size:14px;color:var(--ink-2)}.nx-meta b{color:var(--ink)}' +
     '.nx-dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--acc-ok);margin-right:7px;vertical-align:1px}.nx-dot-wait{background:var(--acc-warn);animation:nxp 1s infinite alternate}@keyframes nxp{to{opacity:.3}}' +
-    '.nx-warnbar{background:var(--danger-soft);border-bottom:1px solid var(--line)}.nx-warnbar .wrap{padding-block:12px;font-size:15px;color:var(--ink)}.nx-warnbar b{color:var(--danger)}.nx-warnbar a{color:var(--danger);font-weight:600}' +
+    '.nx-warnbar{background:var(--danger-soft);border-bottom:1px solid var(--line)}.nx-warnbar .wrap{padding-block:12px;font-size:15px;color:var(--ink)}.nx-warnbar b{color:var(--danger)}.nx-warnbar a{color:var(--danger);font-weight:600}.nx-okbar{background:var(--orange-soft)}.nx-okbar b,.nx-okbar a{color:var(--ink)}' +
     '.nx-tools{position:sticky;top:0;z-index:20;background:var(--paper);border-bottom:1px solid var(--line)}.nx-tools .wrap{display:flex;flex-wrap:wrap;gap:10px;align-items:center;padding-block:12px}' +
     '.nx-search{flex:1 1 240px;max-width:320px}.nx-search input{width:100%;height:40px;border:1px solid var(--line-2);border-radius:10px;background:var(--surface);padding:0 14px;font:inherit;font-size:15px;color:var(--ink)}' +
     '.nx-search input:focus{outline:2px solid var(--signal);outline-offset:-1px}.nx-chips{display:flex;flex-wrap:wrap;gap:6px}.nx-chips .chip{padding:6px 12px;font-size:13.5px}' +

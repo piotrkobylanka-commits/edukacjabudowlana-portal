@@ -2,7 +2,7 @@
  * EdukacjaBudowlana – nota „Stan prawny” w artykułach (wersja 2026-10-30)
  * W artykułach, które powołują się na rozporządzenie z 12 kwietnia 2002 r. w sprawie warunków
  * technicznych (WT 2002), wstawia na początku treści krótką ramkę z aktualnym stanem prawnym.
- * Artykuły, które już omawiają art. 102a Prawa budowlanego, są pomijane.
+ * Artykuły, które już omawiają art. 102a Prawa budowlanego albo mają ramkę z danych (pole law, funkcja wtNote), są pomijane.
  * Przy zmianie stanu prawnego (np. ogłoszeniu nowych WT) wystarczy zmienić tekst w NOTA.
  * Wymaga jednej linii w index.html przed </body>:
  *   <script src="stan-prawny-modul.js?v=20261030" defer></script>
@@ -12,7 +12,7 @@
 
   var NOTA = {
     tytul: 'Stan prawny na 30 października 2026 r.',
-    tekst: 'Rozporządzenie w sprawie warunków technicznych, jakim powinny odpowiadać budynki i ich usytuowanie (z 12 kwietnia 2002 r.), na które powołuje się ten artykuł, przestało obowiązywać 20 września 2026 r. Nowe rozporządzenie nie zostało jeszcze ogłoszone. Przez 18 miesięcy od 20 września 2026 r. (mniej więcej do 20 marca 2028 r.) projekt można sporządzić według dotychczasowych warunków technicznych, jeżeli inwestor złoży oświadczenie (art. 102a Prawa budowlanego, Dz.U. 2026 poz. 1161). Numery paragrafów (§) podane w artykule odnoszą się do rozporządzenia z 2002 r.',
+    tekst: 'Rozporządzenie w sprawie warunków technicznych, jakim powinny odpowiadać budynki i ich usytuowanie (z 12 kwietnia 2002 r.), na które powołuje się ten artykuł, przestało obowiązywać we wrześniu 2026 r. Nowe rozporządzenie nie zostało jeszcze ogłoszone. Przez 18 miesięcy od 20 września 2026 r. (mniej więcej do 20 marca 2028 r.) projekt można sporządzić według dotychczasowych warunków technicznych, jeżeli inwestor złoży oświadczenie (art. 102a Prawa budowlanego, Dz.U. 2026 poz. 1161). Numery paragrafów (§) podane w artykule odnoszą się do rozporządzenia z 2002 r.',
     link: '#normy',
     linkTxt: 'Zobacz aktualny status przepisów →'
   };
@@ -26,6 +26,7 @@
     ART = {};
     try {
       JSON.parse(document.getElementById('data').textContent).articles.forEach(function (a) {
+        if (a.law && a.law.length) return; // ramka „Stan prawny” jest już w danych artykułu (wtNote)
         var n = (a.norms || []).some(function (x) { return RE_NORM.test(x); });
         var h = String(a.html || '');
         var t = RE_TXT.test(h.replace(/<[^>]+>/g, ' '));
