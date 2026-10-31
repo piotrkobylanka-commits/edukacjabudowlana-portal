@@ -1,10 +1,5 @@
-2026-10-31 10:20 UTC
-pobrano index.html: 13742852 B
-pobrano normy-modul.js: 35542 B
-pobrano stan-prawny-modul.js: 4082 B
-pobrano uslugi-modul.js: 7837 B
-pobrano slowniczek-modul.js: 46013 B
-pobrano kontrast-modul.js: 10281 B
+2026-10-31 21:36 UTC
+pobrano index.html: 13798899 B
 FB 122142724155228509: już jest
 FB 122142726459228509: już jest
 FB 122142751101228509: już jest
