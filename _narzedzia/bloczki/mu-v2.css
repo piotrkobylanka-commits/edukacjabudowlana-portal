@@ -1,12 +1,12 @@
 /* Kalkulator bloczków v2: edytor otworów */
 .mu-tip{margin:0 0 10px;font-size:14px;color:var(--ink-2);line-height:1.5}
 .mu-wtb{display:flex;flex-direction:column;gap:8px;margin-bottom:8px}
-.mu-segs,.mu-snap,.mu-szs,.mu-sela{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
-.mu-segs button,.mu-snap button,.mu-szs button,.mu-sela button{appearance:none;border:1px solid var(--line-2);background:var(--surface);color:var(--ink-2);border-radius:999px;padding:6px 12px;font:600 13px var(--f-ui);cursor:pointer;min-height:34px}
+.mu-segs,.mu-snap,.mu-szs,.mu-sela,.mu-zm{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.mu-segs button,.mu-snap button,.mu-szs button,.mu-sela button,.mu-zm button{appearance:none;border:1px solid var(--line-2);background:var(--surface);color:var(--ink-2);border-radius:999px;padding:6px 12px;font:600 13px var(--f-ui);cursor:pointer;min-height:34px}
 .mu-segs button small{font-weight:400;color:var(--ink-3)}
-.mu-segs button.on,.mu-snap button.on,.mu-szs button.on{background:var(--ink);color:var(--surface);border-color:var(--ink)}
+.mu-segs button.on,.mu-snap button.on,.mu-szs button.on,.mu-zm button.on{background:var(--ink);color:var(--surface);border-color:var(--ink)}
 .mu-segs button.on small{color:inherit;opacity:.8}
-.mu-snap span,.mu-szs span{font:600 11px var(--f-mono);text-transform:uppercase;letter-spacing:.06em;color:var(--ink-3)}
+.mu-snap span,.mu-szs span,.mu-zm span{font:600 11px var(--f-mono);text-transform:uppercase;letter-spacing:.06em;color:var(--ink-3)}
 .mu-snap .mu-ra{margin-left:auto;border-style:dashed;border-color:var(--orange);color:var(--orange);background:transparent}
 .mu-wfig{margin:0}
 .mu-wall.fit{width:100%;height:auto}
@@ -53,3 +53,9 @@
 .mu-szs button.on small{color:inherit;opacity:.8}
 :root[data-theme="dark"] .mu-wall .mu-segl{fill:#8EC0F0}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .mu-wall .mu-segl{fill:#8EC0F0}}
+.mu-zm small{font-size:12px;color:var(--ink-3)}
+/* wykresy na telefonie: rysowane w szerokości ekranu, bez przewijania w bok */
+.mu-svg.nar{min-width:0;width:100%;overflow:visible}
+.mu-svg.nar .mu-in{font-size:13.5px}
+.mu-svg.nar .mu-ax{font-size:11.5px}
+@media (max-width:600px){.calc.rs.mu{padding-left:12px;padding-right:12px}.calc.rs.mu .rs-fig{padding-left:8px;padding-right:8px}.mu-wfig figcaption span{font-size:13px}.mu-snap{gap:5px}.mu-snap button,.mu-segs button,.mu-zm button{padding:6px 10px;font-size:12.5px}}

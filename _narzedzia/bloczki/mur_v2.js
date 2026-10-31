@@ -304,18 +304,18 @@ const MUR = (() => {
     const lb = Math.max(sg.s, ...same.filter(q => q.x1 <= it.x0 + 1e-6).map(q => q.x1)), rb = Math.min(sg.s + sg.len, len, ...same.filter(q => q.x0 >= it.x1 - 1e-6).map(q => q.x0));
     return {sg, lb, rb};
   }
-  function svgWall(S, r, sel, view, tw){
+  function svgWall(S, r, sel, view, tw, zm){
     const g = r.g, p = r.p, M = MAT[p.mat] || MAT.bk, bl = p.L / 1000, bj = p.jv / 1000, bh = p.H / 1000, rh = (p.H + p.jh) / 1000;
     const L = layout(S, r), bad = checkOps(S, r, L), ops = L.items, G = L.G, hW = S.wien.on && r.k !== 'd' ? S.wien.h : 0, RG = r.k === 'z' ? r.RG : null, roofOn = G.roofOn, ts = G.ts;
     const seg = view != null && L.segs.length > 1 && L.segs[view] ? L.segs[view] : null, vx0 = seg ? seg.s : 0, vx1 = seg ? seg.s + seg.len : Math.max(g.len, roofOn ? RG.perim : 0), vw = vx1 - vx0;
     // wysokość muru nad stropem w oglądanym zakresie (żeby nad ścianą okapową nie było pustego pasa)
     const hmaxV = roofOn ? (seg ? Math.max(0, ...RG.prof.filter(q => q[0] >= vx0 - 1e-6 && q[0] <= vx1 + 1e-6).map(q => q[1])) : RG.hmax) : 0;
-    const narrow = seg && tw && tw < 700, padL = narrow ? 40 : 56, padR = narrow ? 18 : 40, padB = 74;
-    const sc = seg ? (narrow ? Math.max(18, Math.min(150, (tw - padL - padR) / Math.max(vw, 1))) : Math.max(40, Math.min(150, 860 / Math.max(vw, 1)))) : Math.max(34, Math.min(90, 900 / Math.max(vw, 1)));
-    const padT2 = 46 + (roofOn ? (hmaxV + ts) * sc : 0), W = narrow ? tw : Math.max(640, padL + vw * sc + padR), H = padT2 + g.h * sc + padB;
+    const narrow = seg && tw && tw < 700, zf = narrow ? Math.max(1, Math.min(4, zm || 1)) : 1, TW = narrow ? tw * zf : tw, padL = narrow ? 40 : 56, padR = narrow ? 18 : 40, padB = 74;
+    const sc = seg ? (narrow ? Math.max(18, Math.min(150 * zf, (TW - padL - padR) / Math.max(vw, 1))) : Math.max(40, Math.min(150, 860 / Math.max(vw, 1)))) : Math.max(34, Math.min(90, 900 / Math.max(vw, 1)));
+    const padT2 = 46 + (roofOn ? (hmaxV + ts) * sc : 0), W = narrow ? Math.round(TW) : Math.max(640, padL + vw * sc + padR), H = padT2 + g.h * sc + padB;
     const X = x => padL + (x - vx0) * sc, Y = y => padT2 + (g.h - y) * sc, inV = (a, b) => b > vx0 - 1e-6 && a < vx1 + 1e-6;
     const NN = L.N, nop = w => NN.op(w), obst = []; ops.forEach(o => { obst.push([o.x0, o.x1, o.y0, o.y1]); if (S.nad.on) obst.push([o.x0 - nop(o.w), o.x1 + nop(o.w), o.y1, o.y1 + NN.h]); });
-    let s = `<svg viewBox="0 0 ${W} ${H}" width="${W}" class="mu-wall${seg ? ' fit' : ''}" role="group" aria-label="Rozwinięcie ściany z układem elementów i otworami"><defs>
+    let s = `<svg viewBox="0 0 ${W} ${H}" width="${W}" class="mu-wall${seg && zf <= 1 ? ' fit' : ''}" role="group" aria-label="Rozwinięcie ściany z układem elementów i otworami"><defs>
       <pattern id="muW" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#B9BCBE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#8D9194" stroke-width="2"/></pattern>
       <pattern id="muG" width="6" height="6" patternUnits="userSpaceOnUse"><rect width="6" height="6" fill="#DCE9F3"/><path d="M0 6L6 0" stroke="#A9C6DD" stroke-width="1"/></pattern>
       <pattern id="muGr" width="6" height="6" patternUnits="userSpaceOnUse"><rect width="6" height="6" fill="#F8DEDA"/><path d="M0 6L6 0" stroke="#E7A49B" stroke-width="1"/></pattern>
@@ -377,7 +377,7 @@ const MUR = (() => {
     const nOpT = `${nOp} ${nOp === 1 ? 'otwór' : nOp % 10 >= 2 && nOp % 10 <= 4 && (nOp % 100 < 12 || nOp % 100 > 14) ? 'otwory' : 'otworów'}`;
     s += narrow ? `<text x="${X(xa)}" y="${H - 26}" class="mu-ax">${nOpT} na tej ścianie</text><text x="${X(xa)}" y="${H - 10}" class="mu-ax">elementy: ${full} całych, ${cut} docinanych</text>`
       : `<text x="${X(xa)}" y="${H - 12}" class="mu-ax">${seg ? 'ta ściana' : 'rozwinięcie ścian'}: ${nOpT} · widocznych elementów: ${full} całych, ${cut} docinanych</text>`;
-    return {svg: s + '</svg>', full, cut, L, bad, sc, vx0, padL, padT: padT2};
+    return {svg: s + '</svg>', full, cut, L, bad, sc, vx0, padL, padT: padT2, narrow: !!narrow, zf};
   }
   function svgM2(p){
     const M = MAT[p.mat] || MAT.bk, sz = 220, pad = 26, sc = sz / 1000, bl = p.L, bj = p.jv, bh = p.H, jh = p.jh, rh = bh + jh;
@@ -405,39 +405,64 @@ const MUR = (() => {
     s += `<text x="${W / 2}" y="${y0 + 2 * bh + jd + 26}" text-anchor="middle" class="mu-dt2">spoina ${p.jh} mm</text><text x="${W / 2}" y="${y0 + 2 * bh + jd + 44}" text-anchor="middle" class="mu-dt">${p.jv ? 'pionowa ' + p.jv + ' mm' : 'pionowa: pióro-wpust, bez spoiwa'}</text>`;
     return s + '</svg>';
   }
-  function svgArea(r){
+  // wykresy: na wąskim ekranie (telefon) etykieta nad paskiem, rysunek w skali 1:1 do szerokości kontenera
+  const NAR = 560, clip = (t, n) => t.length > n ? t.slice(0, Math.max(1, n - 1)).trimEnd() + '…' : t;
+  const palW = n => n === 1 ? 'paleta' : n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 'palety' : 'palet';
+  function svgArea(r, tw){
     const rows = [['brutto (długość × wysokość)', r.gross, 'b']];
     if (r.kol) rows.push(['+ ścianki kolankowe', r.kol, 'p']); if (r.szc) rows.push([r.RG && r.RG.nG ? '+ szczyty' : '+ ściany nad kolankowymi', r.szc, 'p']); if (r.att) rows.push(['+ attyka', r.att, 'p']);
     rows.push(['− otwory', -r.otw, 'm']); if (r.nad) rows.push(['− nadproża', -r.nad, 'm']); if (r.wien) rows.push([r.nW > 1 ? `− wieńce (${r.nW} × ${fx(r.wien / r.nW / r.g.len, 2)} m)` : '− wieniec', -r.wien, 'm']); if (r.cor) rows.push(['− podwójnie liczone naroża', -r.cor, 'm']);
     rows.push(['= mur netto', r.net, 'n']);
-    const W = 760, L = 230, iw = 440, mx = Math.max(r.gross + (r.kol || 0) + (r.szc || 0) + (r.att || 0), 1), X = v => L + v / mx * iw, H = 20 + rows.length * 34;
-    let s = `<svg viewBox="0 0 ${W} ${H}" class="mu-svg" role="img" aria-label="Bilans powierzchni muru">`, acc = 0;
-    rows.forEach(([t, v, c], i) => { const y = 12 + i * 34; let x0, x1;
+    const nar = tw > 0 && tw < NAR, W = nar ? Math.max(240, Math.round(tw)) : 760, L = nar ? 1 : 230, iw = nar ? W - 2 : 440, rh = nar ? 48 : 34;
+    const mx = Math.max(r.gross + (r.kol || 0) + (r.szc || 0) + (r.att || 0), 1), X = v => L + v / mx * iw, H = (nar ? 8 : 20) + rows.length * rh;
+    let s = `<svg viewBox="0 0 ${W} ${H}" class="mu-svg${nar ? ' nar' : ''}" role="img" aria-label="Bilans powierzchni muru">`, acc = 0;
+    rows.forEach(([t, v, c], i) => { const y = (nar ? 4 : 12) + i * rh, b = c === 'n' ? ' b' : ''; let x0, x1;
       if (c === 'b' || c === 'n'){ x0 = 0; x1 = v; acc = c === 'b' ? v : acc; } else { x0 = v > 0 ? acc : acc + v; x1 = v > 0 ? acc + v : acc; acc += v; }
-      s += `<text x="${L - 10}" y="${y + 16}" text-anchor="end" class="mu-in${c === 'n' ? ' b' : ''}">${t}</text><rect x="${X(x0)}" y="${y + 2}" width="${Math.max(2, X(x1) - X(x0))}" height="20" rx="4" class="mu-bar ${c}"/><text x="${X(Math.max(x0, x1)) + 8}" y="${y + 16}" class="mu-in${c === 'n' ? ' b' : ''}">${v < 0 ? '−' : ''}${fx(Math.abs(v), 2)} m²</text>`; });
+      const val = `${v < 0 ? '−' : ''}${fx(Math.abs(v), 2)} m²`, bar = (yb, hb) => `<rect x="${X(x0)}" y="${yb}" width="${Math.max(2, X(x1) - X(x0))}" height="${hb}" rx="4" class="mu-bar ${c}"/>`;
+      s += nar ? `<text x="0" y="${y + 14}" class="mu-in${b}">${clip(t, Math.floor((W - 80) / 6.9))}</text><text x="${W - 2}" y="${y + 14}" text-anchor="end" class="mu-in${b}">${val}</text>${bar(y + 22, 18)}`
+        : `<text x="${L - 10}" y="${y + 16}" text-anchor="end" class="mu-in${b}">${t}</text>${bar(y + 2, 20)}<text x="${X(Math.max(x0, x1)) + 8}" y="${y + 16}" class="mu-in${b}">${val}</text>`; });
     return s + '</svg>';
   }
-  function svgPallets(R){
-    const on = R.G.filter(x => x.on && x.pal), W = 760, rowH = 92, H = 24 + on.length * rowH;
-    let s = `<svg viewBox="0 0 ${W} ${H}" class="mu-svg" role="img" aria-label="Palety do zamówienia">`;
-    on.forEach((x, i) => { const y = 14 + i * rowH, M = MAT[x.p.mat] || MAT.bk, n = x.pal, show = Math.min(n, 16);
-      s += `<text x="0" y="${y + 14}" class="mu-in b">${GR[x.k].sh}</text><text x="0" y="${y + 32}" class="mu-ax">${x.p.nm}</text><text x="0" y="${y + 50}" class="mu-in">${n} ${n === 1 ? 'paleta' : n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 'palety' : 'palet'}${x.mass ? ` · ok. ${fx(x.mass, 1)} t` : ''}</text>`;
-      for (let j = 0; j < show; j++){ const px = 220 + j * 32, py = y + 10;
-        s += `<g transform="translate(${px} ${py})"><path d="M0 44 L14 52 L28 44 L14 36Z" fill="#B88A55"/><path d="M0 44 L0 48 L14 56 L14 52Z" fill="#8E6A3F"/><path d="M28 44 L28 48 L14 56 L14 52Z" fill="#A27A49"/>
+  const palIco = (px, py, M) => `<g transform="translate(${px} ${py})"><path d="M0 44 L14 52 L28 44 L14 36Z" fill="#B88A55"/><path d="M0 44 L0 48 L14 56 L14 52Z" fill="#8E6A3F"/><path d="M28 44 L28 48 L14 56 L14 52Z" fill="#A27A49"/>
           <path d="M2 18 L14 25 L26 18 L14 11Z" fill="${M.top}" stroke="${M.edge}" stroke-width=".6"/><path d="M2 18 L2 43 L14 50 L14 25Z" fill="${M.front}" stroke="${M.edge}" stroke-width=".6"/><path d="M26 18 L26 43 L14 50 L14 25Z" fill="${M.end}" stroke="${M.edge}" stroke-width=".6"/>
-          <path d="M2 18 L14 25 L26 18" fill="none" stroke="rgba(255,255,255,.6)" stroke-width="1"/></g>`; }
-      if (n > show) s += `<text x="${220 + show * 32 + 6}" y="${y + 44}" class="mu-in b">+ ${n - show}</text>`; });
+          <path d="M2 18 L14 25 L26 18" fill="none" stroke="rgba(255,255,255,.6)" stroke-width="1"/></g>`;
+  function svgPallets(R, tw){
+    const on = R.G.filter(x => x.on && x.pal), nar = tw > 0 && tw < NAR;
+    if (!nar){ const W = 760, rowH = 92, H = 24 + on.length * rowH;
+      let s = `<svg viewBox="0 0 ${W} ${H}" class="mu-svg" role="img" aria-label="Palety do zamówienia">`;
+      on.forEach((x, i) => { const y = 14 + i * rowH, M = MAT[x.p.mat] || MAT.bk, n = x.pal, show = Math.min(n, 16);
+        s += `<text x="0" y="${y + 14}" class="mu-in b">${GR[x.k].sh}</text><text x="0" y="${y + 32}" class="mu-ax">${x.p.nm}</text><text x="0" y="${y + 50}" class="mu-in">${n} ${palW(n)}${x.mass ? ` · ok. ${fx(x.mass, 1)} t` : ''}</text>`;
+        for (let j = 0; j < show; j++) s += palIco(220 + j * 32, y + 10, M);
+        if (n > show) s += `<text x="${220 + show * 32 + 6}" y="${y + 44}" class="mu-in b">+ ${n - show}</text>`; });
+      return s + '</svg>'; }
+    // telefon: opis nad ikonami, ikony zawijane w maks. 2 rzędy
+    const W = Math.max(240, Math.round(tw)), per = Math.max(1, Math.floor((W - 4) / 32)), blocks = on.map(x => { const n = x.pal, cap = per * 2, show = n > cap ? cap - 1 : n; return {x, n, show, rows: Math.max(1, Math.ceil((show + (n > show ? 1 : 0)) / per))}; });
+    const H = blocks.reduce((a, b) => a + 48 + b.rows * 46 + 14, 0);
+    let s = `<svg viewBox="0 0 ${W} ${H}" class="mu-svg nar" role="img" aria-label="Palety do zamówienia">`, y = 4;
+    blocks.forEach(({x, n, show, rows}) => { const M = MAT[x.p.mat] || MAT.bk;
+      s += `<text x="0" y="${y + 14}" class="mu-in b">${GR[x.k].sh}</text><text x="${W - 2}" y="${y + 14}" text-anchor="end" class="mu-in b">${n} ${palW(n)}${x.mass ? ` · ${fx(x.mass, 1)} t` : ''}</text><text x="0" y="${y + 32}" class="mu-ax">${esc(clip(x.p.nm, Math.floor(W / 6.7)))}</text>`;
+      for (let j = 0; j < show; j++) s += palIco((j % per) * 32, y + 34 + Math.floor(j / per) * 46, M);
+      if (n > show){ const j = show; s += `<text x="${(j % per) * 32 + 2}" y="${y + 34 + Math.floor(j / per) * 46 + 40}" class="mu-in b">+${n - show}</text>`; }
+      y += 48 + rows * 46 + 14; });
     return s + '</svg>';
   }
-  function svgCmp(S, k){
+  function svgCmp(S, k, tw){
     const r0 = calcGroup(S, k); if (!r0.on) return '';
     const cands = PROD.filter(p => Math.abs(p.T - r0.p.T) <= 70).map(p => { const SS = {...S, g: {...S.g, [k]: {...S.g[k], prod: p.id}}}; return {p, r: calcGroup(SS, k)}; }).sort((a, b) => a.r.pcs - b.r.pcs);
-    const W = 760, L = 250, iw = 360, rowH = 30, H = 30 + cands.length * rowH, mx = Math.max(...cands.map(c => c.r.pcs)), X = v => L + v / mx * iw;
+    const mx = Math.max(...cands.map(c => c.r.pcs), 1), nar = tw > 0 && tw < NAR, pm = c => `${c.r.pal != null ? c.r.pal + ' pal.' : '–'}${c.r.mass != null ? ' · ' + fx(c.r.mass, 1) + ' t' : ''}`, nmOf = c => `${c.p.br} ${c.p.nm.replace(c.p.br, '').trim()}`;
+    if (nar){ const W = Math.max(240, Math.round(tw)), rowH = 58, iw = W - 64, H = 26 + cands.length * rowH;
+      let s = `<svg viewBox="0 0 ${W} ${H}" class="mu-svg nar" role="img" aria-label="Porównanie elementów murowych"><text x="0" y="14" class="mu-ax">sztuk do zamówienia · palet · masa</text>`;
+      cands.forEach((c, i) => { const y = 22 + i * rowH, me = c.p.id === r0.p.id, M = MAT[c.p.mat], b = me ? ' b' : '', bw = Math.max(3, c.r.pcs / mx * iw);
+        s += `<g class="mu-ck" data-prod="${c.p.id}"><rect x="0" y="${y}" width="${W}" height="${rowH - 4}" rx="8" fill="${me ? 'rgba(181,71,10,.08)' : 'transparent'}"/><text x="6" y="${y + 17}" class="mu-in${b}">${esc(clip(nmOf(c), Math.floor((W - 12) / 6.9)))}</text>
+          <rect x="6" y="${y + 24}" width="${bw}" height="12" rx="3" fill="${M.front}" stroke="${M.edge}"/><text x="${6 + bw + 6}" y="${y + 35}" class="mu-in${b}">${fi(c.r.pcs)}</text>
+          <text x="6" y="${y + 50}" class="mu-ax">${pm(c)}</text><title>${esc(c.p.nm)}: dotknij, żeby wybrać</title></g>`; });
+      return s + '</svg>'; }
+    const W = 760, L = 250, iw = 360, rowH = 30, H = 30 + cands.length * rowH, X = v => L + v / mx * iw;
     let s = `<svg viewBox="0 0 ${W} ${H}" class="mu-svg" role="img" aria-label="Porównanie elementów murowych"><text x="${L}" y="14" class="mu-ax">sztuk do zamówienia</text><text x="${W - 4}" y="14" text-anchor="end" class="mu-ax">palet · masa</text>`;
     cands.forEach((c, i) => { const y = 24 + i * rowH, me = c.p.id === r0.p.id, M = MAT[c.p.mat];
-      s += `<g class="mu-ck" data-prod="${c.p.id}"><rect x="0" y="${y - 2}" width="${W}" height="${rowH - 2}" rx="6" fill="${me ? 'rgba(181,71,10,.08)' : 'transparent'}"/><text x="${L - 10}" y="${y + 17}" text-anchor="end" class="mu-in${me ? ' b' : ''}">${c.p.br} ${c.p.nm.replace(c.p.br, '').trim()}</text>
+      s += `<g class="mu-ck" data-prod="${c.p.id}"><rect x="0" y="${y - 2}" width="${W}" height="${rowH - 2}" rx="6" fill="${me ? 'rgba(181,71,10,.08)' : 'transparent'}"/><text x="${L - 10}" y="${y + 17}" text-anchor="end" class="mu-in${me ? ' b' : ''}">${nmOf(c)}</text>
         <rect x="${L}" y="${y + 5}" width="${Math.max(3, X(c.r.pcs) - L)}" height="16" rx="4" fill="${M.front}" stroke="${M.edge}"/><text x="${X(c.r.pcs) + 6}" y="${y + 17}" class="mu-in${me ? ' b' : ''}">${fi(c.r.pcs)}</text>
-        <text x="${W - 4}" y="${y + 17}" text-anchor="end" class="mu-ax">${c.r.pal != null ? c.r.pal + ' pal.' : '–'}${c.r.mass != null ? ' · ' + fx(c.r.mass, 1) + ' t' : ''}</text><title>${c.p.nm}: kliknij, żeby wybrać</title></g>`; });
+        <text x="${W - 4}" y="${y + 17}" text-anchor="end" class="mu-ax">${pm(c)}</text><title>${c.p.nm}: kliknij, żeby wybrać</title></g>`; });
     return s + '</svg>';
   }
 
@@ -481,7 +506,7 @@ const MUR = (() => {
 
   function wire(el){
     const clone = o => JSON.parse(JSON.stringify(o));
-    let S = clone(PRE.parter); delete S.t; delete S.d; S.price = {}; let tab = 'z', sel = null, flt = 'all', snap = 'cm5', drag = null, lastW = null;
+    let S = clone(PRE.parter); delete S.t; delete S.d; S.price = {}; let tab = 'z', sel = null, flt = 'all', snap = 'cm5', drag = null, lastW = null, zoom = 1;
     const views = {z: null, w: null, d: null};
     const $ = q => el.querySelector(q), $$ = q => [...el.querySelectorAll(q)];
     const num = v => { const n = parseFloat(String(v).replace(',', '.')); return isFinite(n) ? n : 0; };
@@ -547,7 +572,7 @@ const MUR = (() => {
     const flBase = (it, L, gh) => it.y0 >= gh - 1e-6 && L.G.roofOn ? L.G.base : Math.min(Math.floor((it.y0 + 1e-6) / L.fh), L.fl - 1) * L.fh;
     const renderTb = cur => { const L = lastW && lastW.L, segs = L ? L.segs : [], v = views[tab], G = geom();
       $('.mu-wtb').innerHTML = `${segs.length > 1 ? `<div class="mu-segs" role="group" aria-label="Widok ściany"><button type="button" data-seg="all" class="${v == null ? 'on' : ''}">całe rozwinięcie</button>${segs.map(s => `<button type="button" data-seg="${s.i}" class="${v === s.i ? 'on' : ''}">${esc(s.nm)} <small>${fx(s.len, 1)} m</small></button>`).join('')}</div>` : ''}
-        <div class="mu-snap" role="group" aria-label="Przyciąganie"><span>Przyciąganie:</span>${[['cm5', 'co 5 cm'], ['mod', G ? `do modułu elementu (${fx(G.mod * 100, 1)} cm, warstwa ${fx(G.rh * 100, 1)} cm)` : 'do modułu elementu'], ['off', 'wyłączone']].map(([k, n]) => `<button type="button" data-snap="${k}" class="${snap === k ? 'on' : ''}">${n}</button>`).join('')}<button type="button" class="mu-ra" data-act="auto">rozmieść równomiernie</button></div>`; };
+        <div class="mu-snap" role="group" aria-label="Przyciąganie"><span>Przyciąganie:</span>${[['cm5', 'co 5 cm'], ['mod', G ? `do modułu elementu (${fx(G.mod * 100, 1)} cm, warstwa ${fx(G.rh * 100, 1)} cm)` : 'do modułu elementu'], ['off', 'wyłączone']].map(([k, n]) => `<button type="button" data-snap="${k}" class="${snap === k ? 'on' : ''}">${n}</button>`).join('')}<button type="button" class="mu-ra" data-act="auto">rozmieść równomiernie</button></div>${lastW && lastW.narrow ? `<div class="mu-zm" role="group" aria-label="Powiększenie rysunku"><span>Rysunek:</span>${[1, 2, 3].map(z => `<button type="button" data-zoom="${z}" class="${zoom === z ? 'on' : ''}" aria-pressed="${zoom === z}">${z === 1 ? 'cała ściana' : '× ' + z}</button>`).join('')}${zoom > 1 ? '<small>przesuń rysunek palcem w bok</small>' : ''}</div>` : ''}`; };
     const renderSel = cur => { const it = sel && itemOf(sel.r, sel.i), box = $('.mu-sel');
       if (!it){ box.innerHTML = cur.ops.length ? '<p class="rs-wnote mu-selh">Kliknij otwór na rysunku, żeby ustawić go dokładnie: ściana, odległość od narożnika, parapet, rozmiar.</p>' : ''; return; }
       const L = lastW.L, {sg, lb, rb} = neigh(L, it, cur.g.len), base = flBase(it, L, cur.g.h), o = it.o, T = OTY[o.t] || OTY.okno, st = it.st;
@@ -561,7 +586,7 @@ const MUR = (() => {
         ${it.msg.length ? `<ul class="mu-selm">${it.msg.map(m => `<li>${esc(m)}</li>`).join('')}</ul>` : ''}
         <div class="mu-sela"><button type="button" data-act="center">wyśrodkuj na ścianie</button><button type="button" data-act="dup">powiel obok</button><button type="button" data-act="del">usuń</button><button type="button" data-act="desel">gotowe</button></div></div>`; };
     const renderBad = (cur, bad) => { $('.mu-opw').innerHTML = bad.length ? `<div class="rs-v warn"><p class="zb-p warn"><b>${bad.length} ${pl(bad.length, 'otwór wymaga', 'otwory wymagają', 'otworów wymaga')} sprawdzenia</b> – kliknij, żeby zaznaczyć na rysunku:</p><ul class="mu-badl">${bad.map(b => { const sg = lastW.L.segs.find(q => b.x0 >= q.s - 1e-6 && b.x0 < q.s + q.len) || lastW.L.segs[0]; return `<li><button type="button" data-pick="${b.ri},${b.ii}" class="${b.st}">${esc((OTY[b.t] || OTY.okno).nm)} ${fx(b.w * 100, 0)}×${fx(b.h * 100, 0)} · ${esc(sg.nm)}: ${esc(b.msg.join('; '))}</button></li>`; }).join('')}</ul></div>` : ''; };
-    const drawWall = cur => { cur = cur || curR(); if (!cur.on) return; const w = svgWall(S, cur, sel, views[tab], $('.mu-wallw').clientWidth); lastW = {...w, gh: cur.g.h};
+    const drawWall = cur => { cur = cur || curR(); if (!cur.on) return; const w = svgWall(S, cur, sel, views[tab], $('.mu-wallw').clientWidth, zoom); lastW = {...w, gh: cur.g.h};
       if (sel && !itemOf(sel.r, sel.i)) sel = null;
       $('.mu-wall-in').innerHTML = w.svg; renderTb(cur); renderSel(cur); renderBad(cur, w.bad); return w; };
     const nadList = R => { if (!S.nad.on) return '<p class="rs-wnote">Nadproża nie są odliczane – włącz „Odlicz nadproża” w punkcie 4.</p>';
@@ -585,10 +610,10 @@ const MUR = (() => {
         if (S.zap < 3) W.push('Zapas poniżej 3% zwykle nie wystarcza na docinki, uszkodzenia w transporcie i elementy przy otworach.'); }
       $('.mu-warn').innerHTML = W.length ? `<div class="rs-v warn">${W.map(t => `<p class="zb-p warn">${t}</p>`).join('')}</div>` : '';
       if (cur.on){ $('.mu-hero').innerHTML = `<div class="mu-hg"><div>${svgBlock(cur.p, {W: 460, H: 300, k: 'h'})}</div><div>${svgM2(cur.p)}</div><div>${svgJoint(cur.p, cur.sys)}</div><dl class="mu-dl2"><dt>Element</dt><dd>${esc(cur.p.nm)}</dd><dt>Wymiary</dt><dd>${cur.p.L} × ${cur.p.T} × ${cur.p.H} mm</dd><dt>Materiał</dt><dd>${MAT[cur.p.mat].nm}</dd><dt>Spoiny</dt><dd>${cur.p.jv === 0 ? 'pionowe na pióro-wpust, bez zaprawy' : 'pionowe z zaprawą ' + cur.p.jv + ' mm'}, poziome ${cur.p.jh} mm</dd>${cur.p.pal ? `<dt>Paleta</dt><dd>${cur.p.pal} szt.${cur.p.kg ? `, ok. ${fx(cur.p.pal * cur.p.kg / 1000, 2)} t` : ''}</dd>` : ''}${cur.p.kg ? `<dt>Masa</dt><dd>${fx(cur.p.kg, 1)} kg/szt.</dd>` : ''}<dt>Spoiwo</dt><dd>${MO[cur.sys].nm}${cur.mort && cur.mort.q != null ? `, ok. ${fx(cur.mort.q, 0)} ${cur.mort.u}${cur.mort.bags ? ' = ' + fi(cur.mort.bags) + ' ' + cur.mort.bu : ''} <small>(${cur.mort.src === 'geo' ? 'szacunek z grubości spoin' : 'zużycie wg producenta'})</small>` : ''}</dd></dl></div><p class="mu-why"><b>${MO[cur.sys].nm[0].toUpperCase() + MO[cur.sys].nm.slice(1)}:</b> ${MO[cur.sys].why}</p>`;
-        $('.mu-area').innerHTML = svgArea(cur); $('.mu-cmp').innerHTML = svgCmp(S, tab); }
+        $('.mu-area').innerHTML = svgArea(cur, $('.mu-area').clientWidth); $('.mu-cmp').innerHTML = svgCmp(S, tab, $('.mu-cmp').clientWidth); }
       else { lastW = null; ['.mu-hero', '.mu-wall-in', '.mu-area', '.mu-cmp'].forEach(q => { $(q).innerHTML = `<p class="rs-wnote">Grupa „${GR[tab].nm}” jest wyłączona.</p>`; }); ['.mu-wtb', '.mu-sel', '.mu-opw'].forEach(q => { $(q).innerHTML = ''; }); }
       $('.mu-nadl').innerHTML = nadList(R);
-      $('.mu-pal').innerHTML = svgPallets(R);
+      $('.mu-pal').innerHTML = svgPallets(R, $('.mu-pal').clientWidth);
       $$('.mu-case').forEach(b => b.classList.remove('on'));
       const zl = $('.mu-tabs [data-tab="z"] small'); if (zl) zl.textContent = S.g.z.on ? `${fx(S.g.z.len, 1)} m · ${prodBy(S.g.z.prod).nm}` : 'wyłączone';
       if (tab === 'z' && S.dach.auto){ const li = $('input[type="number"][data-f="len"]'); if (li) li.value = S.g.z.len; }
@@ -670,6 +695,7 @@ const MUR = (() => {
       const pre = e.target.closest('[data-pre]'); if (pre){ const P = clone(PRE[pre.dataset.pre]); delete P.t; delete P.d; const price = S.price; S = {...P, price}; S.nad.typ = S.nad.typ || 'own'; tab = Object.keys(GR).find(k => S.g[k].on) || 'z'; sel = null; views.z = views.w = views.d = null; full(); pre.classList.add('on'); return; }
       const sg = e.target.closest('[data-seg]'); if (sg){ views[tab] = sg.dataset.seg === 'all' ? null : +sg.dataset.seg; drawWall(); return; }
       const sn = e.target.closest('[data-snap]'); if (sn){ snap = sn.dataset.snap; drawWall(); return; }
+      const zb = e.target.closest('[data-zoom]'); if (zb){ zoom = +zb.dataset.zoom; drawWall(); const bx = $('.mu-wallw'), g = sel && $(`.mu-op[data-r="${sel.r}"][data-i="${sel.i}"]`); if (g){ const bb = g.getBoundingClientRect(), wb = bx.getBoundingClientRect(); bx.scrollLeft += bb.left - wb.left - wb.width / 2 + bb.width / 2; } else if (zoom === 1) bx.scrollLeft = 0; return; }
       const pk = e.target.closest('[data-pick]'); if (pk){ const [r, i] = pk.dataset.pick.split(',').map(Number); sel = {r, i}; const it = itemOf(r, i);
         if (it && views[tab] != null){ const s2 = lastW.L.segs.find(q => it.x0 >= q.s - 1e-6 && it.x0 < q.s + q.len); views[tab] = s2 ? s2.i : null; }
         drawWall(); selRow(); const g = $(`.mu-op[data-r="${r}"][data-i="${i}"]`); if (g){ g.focus({preventScroll: true}); const bb = g.getBoundingClientRect(), wb = box.getBoundingClientRect(); box.scrollLeft += bb.left - wb.left - wb.width / 2 + bb.width / 2; $('.mu-wallw').scrollIntoView({block: 'nearest', behavior: 'smooth'}); } return; }
@@ -696,6 +722,8 @@ const MUR = (() => {
       const row = e.target.closest('.mu-opr'); if (row && !e.target.closest('input,select,button')){ const r = +row.dataset.oi; if (S.op[r] && S.op[r].g === tab){ sel = {r, i: 0}; drawWall(); selRow(); } }
     });
     full();
+    // obrót telefonu / zmiana szerokości okna: przerysuj wykresy w nowej szerokości
+    if (window.ResizeObserver){ let lw = el.clientWidth, rT = 0; const ro = new ResizeObserver(() => { if (!el.isConnected){ ro.disconnect(); return; } const w = el.clientWidth; if (Math.abs(w - lw) < 8 || drag) return; lw = w; clearTimeout(rT); rT = setTimeout(run, 120); }); ro.observe(el); }
   }
   return {html, wire, calc, calcGroup, roofGeom, layout, checkOps, PROD, PRE, OTY, svgBlock, MUV};
 })();
