@@ -52,22 +52,22 @@ jobs:
           else echo "proba=true" >> "$GITHUB_OUTPUT"; echo "TRYB: próba (dry-run)" >> $R; fi
           for d in "" "public_html/" "public_html/p/" ; do
             echo "== ftp://.../$d" >> $R
-            curl -s --max-time 60 --ssl-reqd --user "u475962483:$HASLO" "ftp://217.65.157.30/$d" --list-only 2>&1 \
+            curl -s --max-time 60 --ssl-reqd --user "u475962483:$HASLO" "ftp://edukacjabudowlana.eu/$d" --list-only 2>&1 \
               | grep -v '^[0-9]\{3\}\.json$' | head -40 >> $R || echo "błąd listy $d (kod $?)" >> $R
           done
           echo "== diagnostyka logowania FTPS (kody serwera)" >> $R
-          curl -sS -v --max-time 60 --ssl-reqd --user "u475962483:$HASLO" "ftp://217.65.157.30/" --list-only 2>&1 \
+          curl -sS -v --max-time 60 --ssl-reqd --user "u475962483:$HASLO" "ftp://edukacjabudowlana.eu/" --list-only 2>&1 \
             | grep -E '^< [0-9]{3}|^curl: \(|SSL connection|TLS' | grep -v -i 'pass ' | head -20 >> $R || true
           echo "== diagnostyka FTP bez TLS (tylko logowanie)" >> $R
-          curl -sS -v --max-time 60 --user "u475962483:$HASLO" "ftp://217.65.157.30/" --list-only 2>&1 \
+          curl -sS -v --max-time 60 --user "u475962483:$HASLO" "ftp://edukacjabudowlana.eu/" --list-only 2>&1 \
             | grep -E '^< [0-9]{3}|^curl: \(' | grep -v -i 'pass ' | head -12 >> $R || true
           echo "== liczba paczek p/*.json na serwerze:" >> $R
-          curl -s --max-time 60 --ssl-reqd --user "u475962483:$HASLO" "ftp://217.65.157.30/public_html/p/" --list-only 2>/dev/null | grep -c 'json$' >> $R || true
+          curl -s --max-time 60 --ssl-reqd --user "u475962483:$HASLO" "ftp://edukacjabudowlana.eu/public_html/p/" --list-only 2>/dev/null | grep -c 'json$' >> $R || true
       - name: Wgranie przez FTPS
         if: steps.tryb.outputs.pomin != 'true'
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
-          server: 217.65.157.30
+          server: edukacjabudowlana.eu
           username: u475962483
           password: ${{ secrets.FTP_PASSWORD }}
           protocol: ftps
