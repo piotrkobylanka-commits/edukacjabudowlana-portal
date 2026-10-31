@@ -115,7 +115,7 @@ const MUR = (() => {
   };
   const NAD_MAT = {cer: 'pt238', bk: 'ytyf', sil: 'u', ker: 'l19', bet: 'l19'};
   // rodzaj nadproża i jego wymiary dla stanu S (zgodność wstecz: bez typu = własne wymiary)
-  const nadOf = S => { const n = S.nad || {}; let k = n.typ || 'own'; if (k === 'auto') k = NAD_MAT[(prodBy(S.g.z.prod) || {}).mat] || 'l19';
+  const nadOf = (S, gk) => { const n = S.nad || {}; let k = n.typ || 'own'; if (k === 'auto'){ const gg = S.g[gk || 'z'] || S.g.z, mat = (prodBy(gg.prod) || {}).mat; k = gk === 'd' && mat === 'cer' ? 'pt115' : NAD_MAT[mat] || 'l19'; }
     const T = NAD[k] || NAD.own; return k === 'own' || !T.h ? {k, nm: NAD.own.nm, h: +n.h || 0, op: () => +n.op || 0} : {k, nm: T.nm, h: T.h, op: T.op, d: T.d}; };
   const PRE = {
     parter: {t: 'Dom parterowy z poddaszem', d: 'Rzut 12 × 10 m, beton komórkowy 24 cm, szczyty pod dach dwuspadowy.',
@@ -190,6 +190,7 @@ const MUR = (() => {
   }
   const prodBy = id => PROD.find(p => p.id === id) || PROD[0];
   const sysOf = (p, g) => (g && g.mo && p.sys.includes(g.mo)) ? g.mo : p.sys[0];
+  const bagsOf = (sys, u, q) => { const m = MO[sys]; return q == null ? null : m.unit === 'puszek' || u === 'puszek' ? Math.ceil(q) : u === 'kg' ? (m.bag ? Math.ceil(q / m.bag) : null) : m.yl ? Math.ceil(q / m.yl) : null; };
   // zużycie spoiwa: dane producenta (p.cons[sys]) albo geometria spoin
   function mortQty(p, sys, net, vol){
     const m = MO[sys], c = p.cons && p.cons[sys]; let q = null, u = m.unit, src = 'prod';
@@ -198,7 +199,7 @@ const MUR = (() => {
       if (sys === 'pianka'){ q = net / m.m2can; u = 'puszek'; }
       else if (m.unit === 'kg'){ q = Vj * 1000 * m.kgl * m.loss * net; }
       else { q = Vj * 1000 * m.loss * (p.holes === 'grid' ? m.holeF || 1 : 1) * net; } }
-    const bags = q == null ? null : m.unit === 'puszek' || u === 'puszek' ? Math.ceil(q) : u === 'kg' ? Math.ceil(q / m.bag) : m.yl ? Math.ceil(q / m.yl) : null;
+    const bags = bagsOf(sys, u, q);
     return {ty: sys, q, u, bags, bu: m.bu, src};
   }
   const perM2 = p => p.m2 || 1e6 / ((p.L + p.jv) * (p.H + p.jh));
@@ -208,11 +209,11 @@ const MUR = (() => {
     if (!g.on || !(g.len > 0) || !(g.h > 0)) return {k, on: false, p, sys};
     const gross = g.len * g.h, kol = RG ? RG.kol : 0, szc = RG ? RG.szc : 0, att = RG ? RG.att : 0;
     const otw = ops.reduce((s, o) => s + o.w * o.h * o.n, 0);
-    const NN = nadOf(S), nad = S.nad.on ? ops.reduce((s, o) => s + (o.w + 2 * NN.op(o.w)) * NN.h * o.n, 0) : 0;
+    const NN = nadOf(S, k), nad = S.nad.on ? ops.reduce((s, o) => s + (o.w + 2 * NN.op(o.w)) * NN.h * o.n, 0) : 0;
     // wieniec: tylko ściany nośne (zewnętrzne i wewnętrzne), tyle wieńców, ile kondygnacji mieści się w podanej wysokości
     const nW = Math.max(1, Math.round(S.wien.n || 1)), wien = S.wien.on && k !== 'd' ? g.len * S.wien.h * nW : 0;
     // przy długości z obwodu rzutu (wymiary w osiach) naroży nie odejmujemy
-    const meas = RG && S.dach.auto ? 'os' : g.meas, cor = meas === 'zew' ? Math.max(0, g.cor) * T * g.h : 0;
+    const hWi = S.wien.on && k !== 'd' ? S.wien.h * nW : 0, meas = RG && S.dach.auto ? 'os' : g.meas, cor = meas === 'zew' ? Math.max(0, g.cor) * T * Math.max(0, g.h - hWi) : 0;
     const net = Math.max(0, gross + kol + szc + att - otw - nad - wien - cor), m2 = perM2(p), raw = net * m2, pcs = Math.ceil(raw * (1 + S.zap / 100));
     const pal = p.pal ? Math.ceil(pcs / p.pal) : null, mass = p.kg ? pcs * p.kg / 1000 : null, vol = net * T;
     const mort = mortQty(p, sys, net, vol);
@@ -222,7 +223,10 @@ const MUR = (() => {
   }
   function calc(S){ const G = ['z', 'w', 'd'].map(k => calcGroup(S, k)), on = G.filter(x => x.on);
     const sum = f => on.reduce((s, x) => s + (f(x) || 0), 0);
-    return {S, G, pcs: sum(x => x.pcs), pal: sum(x => x.pal), mass: sum(x => x.mass), net: sum(x => x.net), cost: on.some(x => x.cost != null) ? sum(x => x.cost) : null, anyMassMissing: on.some(x => x.mass == null)}; }
+    // palety liczone dla każdego elementu łącznie (ten sam element w kilku grupach ścian jedzie na wspólnych paletach)
+    const byP = {}; on.forEach(x => { const b = byP[x.p.id] = byP[x.p.id] || {p: x.p, ks: [], pcs: 0, mass: 0}; b.ks.push(x.k); b.pcs += x.pcs; b.mass += x.mass || 0; });
+    const PB = Object.values(byP).map(b => ({...b, pal: b.p.pal ? Math.ceil(b.pcs / b.p.pal) : null, mass: b.p.kg ? b.mass : null}));
+    return {S, G, PB, pcs: sum(x => x.pcs), pal: PB.reduce((s, b) => s + (b.pal || 0), 0), mass: sum(x => x.mass), net: sum(x => x.net), cost: on.some(x => x.cost != null) ? sum(x => x.cost) : null, anyMassMissing: on.some(x => x.mass == null)}; }
   /* ---------- rysunki ---------- */
   const rectSub = (R, O) => { // R minus O, prostokąty [x0,x1,y0,y1]
     if (O[0] >= R[1] || O[1] <= R[0] || O[2] >= R[3] || O[3] <= R[2]) return [R];
@@ -252,7 +256,7 @@ const MUR = (() => {
   }
   // rozmieszczenie: otwory ustawione ręcznie (o.at[i]) zostają, pozostałe trafiają w wolne miejsca
   function layout(S, r){
-    const g = r.g, k = r.k, fl = floorsOf(S, g, k), fh = g.h / fl, segs = segsOf(S, r), G = wallGeo(S, r), N = nadOf(S), opw = w => S.nad.on ? Math.max(.1, N.op(w)) : .1, nh = S.nad.on ? N.h : 0, m = opw(1.2);
+    const g = r.g, k = r.k, fl = floorsOf(S, g, k), fh = g.h / fl, segs = segsOf(S, r), G = wallGeo(S, r), N = nadOf(S, k), opw = w => S.nad.on ? Math.max(.1, N.op(w)) : .1, nh = S.nad.on ? N.h : 0, m = opw(1.2);
     const items = []; S.op.forEach((o, ri) => { if (o.g !== k || !(o.n > 0 && o.w > 0 && o.h > 0)) return; for (let ii = 0; ii < Math.round(o.n); ii++) items.push({o, ri, ii, t: o.t, w: Math.min(o.w, g.len), h: o.h, fix: o.at && o.at[ii] ? o.at[ii] : null}); });
     const placed = [], band = it => [it.y0, it.y1 + nh];
     const put = it => { it.x1 = it.x0 + it.w; it.y1 = it.y0 + it.h; placed.push(it); };
@@ -312,10 +316,10 @@ const MUR = (() => {
     const hmaxV = roofOn ? (seg ? Math.max(0, ...RG.prof.filter(q => q[0] >= vx0 - 1e-6 && q[0] <= vx1 + 1e-6).map(q => q[1])) : RG.hmax) : 0;
     const narrow = seg && tw && tw < 700, zf = narrow ? Math.max(1, Math.min(4, zm || 1)) : 1, TW = narrow ? tw * zf : tw, padL = narrow ? 40 : 56, padR = narrow ? 18 : 40, padB = 74;
     const sc = seg ? (narrow ? Math.max(18, Math.min(150 * zf, (TW - padL - padR) / Math.max(vw, 1))) : Math.max(40, Math.min(150, 860 / Math.max(vw, 1)))) : Math.max(34, Math.min(90, 900 / Math.max(vw, 1)));
-    const padT2 = 46 + (roofOn ? (hmaxV + ts) * sc : 0), W = narrow ? Math.round(TW) : Math.max(640, padL + vw * sc + padR), H = padT2 + g.h * sc + padB;
+    const padT2 = 46 + (roofOn ? (hmaxV + ts) * sc : 0), natW = Math.ceil(padL + vw * sc + padR), W = narrow ? Math.max(Math.round(TW), natW) : Math.max(640, padL + vw * sc + padR), H = padT2 + g.h * sc + padB;
     const X = x => padL + (x - vx0) * sc, Y = y => padT2 + (g.h - y) * sc, inV = (a, b) => b > vx0 - 1e-6 && a < vx1 + 1e-6;
     const NN = L.N, nop = w => NN.op(w), obst = []; ops.forEach(o => { obst.push([o.x0, o.x1, o.y0, o.y1]); if (S.nad.on) obst.push([o.x0 - nop(o.w), o.x1 + nop(o.w), o.y1, o.y1 + NN.h]); });
-    let s = `<svg viewBox="0 0 ${W} ${H}" width="${W}" class="mu-wall${seg && zf <= 1 ? ' fit' : ''}" role="group" aria-label="Rozwinięcie ściany z układem elementów i otworami"><defs>
+    let s = `<svg viewBox="0 0 ${W} ${H}" width="${W}" class="mu-wall${seg && zf <= 1 && (!narrow || natW <= Math.round(TW) + 1) ? ' fit' : ''}" role="group" aria-label="Rozwinięcie ściany z układem elementów i otworami"><defs>
       <pattern id="muW" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#B9BCBE"/><line x1="0" y1="0" x2="0" y2="8" stroke="#8D9194" stroke-width="2"/></pattern>
       <pattern id="muG" width="6" height="6" patternUnits="userSpaceOnUse"><rect width="6" height="6" fill="#DCE9F3"/><path d="M0 6L6 0" stroke="#A9C6DD" stroke-width="1"/></pattern>
       <pattern id="muGr" width="6" height="6" patternUnits="userSpaceOnUse"><rect width="6" height="6" fill="#F8DEDA"/><path d="M0 6L6 0" stroke="#E7A49B" stroke-width="1"/></pattern>
@@ -325,13 +329,16 @@ const MUR = (() => {
     let full = 0, cut = 0;
     const blk = (R, isCut) => { const [x0, x1, y0, y1] = R; if (!inV(x0, x1)) return ''; if (isCut) cut++; else full++;
       return `<rect x="${X(x0).toFixed(1)}" y="${Y(y1).toFixed(1)}" width="${((x1 - x0) * sc).toFixed(1)}" height="${((y1 - y0) * sc).toFixed(1)}" fill="${isCut ? '#F2B48C' : M.front}" stroke="${M.edge}" stroke-width=".8"/>`; };
-    const top = g.h - hW;
-    for (let k = 0; k * rh < top - 1e-6; k++){ const y0 = k * rh, y1 = Math.min(y0 + bh, top), vcut = y0 + bh > top + 1e-6, off = k % 2 ? (bl + bj) / 2 : 0;
+    // pasy muru między wieńcami: przy kilku wieńcach (kondygnacjach) każdy pas zaczyna się od wierzchu niższego wieńca
+    const nWd = hW && r.nW > 1 ? Math.max(1, Math.min(r.nW, L.fl)) : 1, bands = [];
+    for (let f = 0; f < nWd; f++) bands.push([f * g.h / nWd, (f + 1) * g.h / nWd - hW]);
+    bands.forEach(([b0, top]) => {
+    for (let k = 0; b0 + k * rh < top - 1e-6; k++){ const y0 = b0 + k * rh, y1 = Math.min(y0 + bh, top), vcut = y0 + bh > top + 1e-6, off = k % 2 ? (bl + bj) / 2 : 0;
       for (let x = -off; x < g.len - 1e-6; x += bl + bj){ if (x + bl < vx0 - 1e-6 || x > vx1 + 1e-6) continue; const B = [Math.max(0, x), Math.min(g.len, x + bl), y0, y1]; if (B[1] - B[0] < 1e-4) continue;
         let parts = [B]; obst.forEach(O => { parts = parts.flatMap(q => rectSub(q, O)); });
         const hcut = B[0] > x + 1e-6 || B[1] < x + bl - 1e-6;
-        parts.forEach(q => { const whole = parts.length === 1 && Math.abs(q[1] - q[0] - (B[1] - B[0])) < 1e-6 && Math.abs(q[3] - q[2] - (B[3] - B[2])) < 1e-6; s += blk(q, hcut || vcut || !whole); }); } }
-    if (hW) s += `<rect x="${X(0)}" y="${Y(g.h)}" width="${g.len * sc}" height="${hW * sc}" fill="url(#muW)" stroke="#5B6064"/><text x="${X(Math.max(0, vx0) + .15)}" y="${Y(g.h) + hW * sc / 2 + 4}" class="mu-lab">wieniec</text>`;
+        parts.forEach(q => { const whole = parts.length === 1 && Math.abs(q[1] - q[0] - (B[1] - B[0])) < 1e-6 && Math.abs(q[3] - q[2] - (B[3] - B[2])) < 1e-6; s += blk(q, hcut || vcut || !whole); }); } } });
+    if (hW) bands.forEach(([, top]) => { s += `<rect x="${X(0)}" y="${Y(top + hW)}" width="${g.len * sc}" height="${hW * sc}" fill="url(#muW)" stroke="#5B6064"/><text x="${X(Math.max(0, vx0) + .15)}" y="${Y(top + hW) + hW * sc / 2 + 4}" class="mu-lab">wieniec</text>`; });
     if (roofOn){ const base = G.base, poly = G.poly;
       if (ts) s += `<rect x="${X(0)}" y="${Y(base)}" width="${RG.perim * sc}" height="${ts * sc}" fill="url(#muW)" stroke="#5B6064"/><text x="${X(vx0 + .2)}" y="${Y(base) + ts * sc / 2 + 4}" class="mu-lab">strop</text>`;
       s += `<clipPath id="muRoof"><path d="M${poly.map(q => X(q[0]) + ' ' + Y(q[1])).join('L')}Z"/></clipPath><g clip-path="url(#muRoof)">`;
@@ -354,7 +361,7 @@ const MUR = (() => {
     ops.forEach(o => { if (!inV(o.x0, o.x1)) return; const on = isSel(o), err = o.st === 'err', wr = o.st === 'warn', col = err ? '#C62828' : wr ? '#B26A00' : '#2E6FA8';
       const sgn = (L.segs.find(q => o.x0 >= q.s - 1e-6 && o.x0 < q.s + q.len) || L.segs[0]);
       if (S.nad.on) s += `<rect x="${X(o.x0 - nop(o.w))}" y="${Y(o.y1 + NN.h)}" width="${(o.w + 2 * nop(o.w)) * sc}" height="${NN.h * sc}" fill="${err ? '#D98C84' : '#9AA0A6'}" stroke="#5B6064" stroke-width="1" pointer-events="none"/>`;
-      s += `<g class="mu-op${on ? ' on' : ''}${err ? ' err' : wr ? ' warn' : ''}" data-r="${o.ri}" data-i="${o.ii}" tabindex="0" role="button" aria-pressed="${on}" aria-label="${OTY[o.t] ? OTY[o.t].nm : o.t} ${fx(o.w * 100, 0)} × ${fx(o.h * 100, 0)} cm, ściana ${esc(sgn.nm)}, ${fx(o.x0 - sgn.s, 2)} m od narożnika${o.msg.length ? ', uwaga: ' + esc(o.msg.join('; ')) : ''}">`
+      s += `<g class="mu-op${on ? ' on' : ''}${err ? ' err' : wr ? ' warn' : ''}" data-r="${o.ri}" data-i="${o.ii}" tabindex="0" role="button" aria-pressed="${!!on}" aria-label="${OTY[o.t] ? OTY[o.t].nm : o.t} ${fx(o.w * 100, 0)} × ${fx(o.h * 100, 0)} cm, ściana ${esc(sgn.nm)}, ${fx(o.x0 - sgn.s, 2)} m od narożnika${o.msg.length ? ', uwaga: ' + esc(o.msg.join('; ')) : ''}">`
         + `<rect x="${X(o.x0)}" y="${Y(o.y1)}" width="${o.w * sc}" height="${o.h * sc}" fill="url(#${err ? 'muGr' : 'muG'})" stroke="${col}" stroke-width="${on ? 3 : 1.6}"${wr && !on ? ' stroke-dasharray="6 3"' : ''}/>`;
       if (o.t === 'okno' || o.t === 'balk') s += `<line x1="${X(o.x0 + o.w / 2)}" x2="${X(o.x0 + o.w / 2)}" y1="${Y(o.y1)}" y2="${Y(o.y0)}" stroke="${col}" stroke-width="1"/>`;
       if (o.t === 'drzwi') s += `<path d="M${X(o.x0)} ${Y(o.y0)}A${o.w * sc} ${o.w * sc} 0 0 1 ${X(o.x1)} ${Y(o.y0) - Math.min(o.w, o.h) * sc}" fill="none" stroke="${col}" stroke-width=".8" stroke-dasharray="3 3"/>`;
@@ -427,23 +434,23 @@ const MUR = (() => {
           <path d="M2 18 L14 25 L26 18 L14 11Z" fill="${M.top}" stroke="${M.edge}" stroke-width=".6"/><path d="M2 18 L2 43 L14 50 L14 25Z" fill="${M.front}" stroke="${M.edge}" stroke-width=".6"/><path d="M26 18 L26 43 L14 50 L14 25Z" fill="${M.end}" stroke="${M.edge}" stroke-width=".6"/>
           <path d="M2 18 L14 25 L26 18" fill="none" stroke="rgba(255,255,255,.6)" stroke-width="1"/></g>`;
   function svgPallets(R, tw){
-    const on = R.G.filter(x => x.on && x.pal), nar = tw > 0 && tw < NAR;
+    const on = (R.PB || []).filter(x => x.pal), nar = tw > 0 && tw < NAR, gl = x => x.ks.map(k => GR[k].sh).join(' + ');
     if (!nar){ const W = 760, rowH = 92, H = 24 + on.length * rowH;
       let s = `<svg viewBox="0 0 ${W} ${H}" class="mu-svg" role="img" aria-label="Palety do zamówienia">`;
       on.forEach((x, i) => { const y = 14 + i * rowH, M = MAT[x.p.mat] || MAT.bk, n = x.pal, show = Math.min(n, 16);
-        s += `<text x="0" y="${y + 14}" class="mu-in b">${GR[x.k].sh}</text><text x="0" y="${y + 32}" class="mu-ax">${x.p.nm}</text><text x="0" y="${y + 50}" class="mu-in">${n} ${palW(n)}${x.mass ? ` · ok. ${fx(x.mass, 1)} t` : ''}</text>`;
+        s += `<text x="0" y="${y + 14}" class="mu-in b">${gl(x)}</text><text x="0" y="${y + 32}" class="mu-ax">${esc(x.p.nm)}</text><text x="0" y="${y + 50}" class="mu-in">${n} ${palW(n)}${x.mass ? ` · ok. ${fx(x.mass, 1)} t` : ''}</text>`;
         for (let j = 0; j < show; j++) s += palIco(220 + j * 32, y + 10, M);
         if (n > show) s += `<text x="${220 + show * 32 + 6}" y="${y + 44}" class="mu-in b">+ ${n - show}</text>`; });
       return s + '</svg>'; }
     // telefon: opis nad ikonami, ikony zawijane w maks. 2 rzędy
     const W = Math.max(240, Math.round(tw)), per = Math.max(1, Math.floor((W - 4) / 32)), blocks = on.map(x => { const n = x.pal, cap = per * 2, show = n > cap ? cap - 1 : n; return {x, n, show, rows: Math.max(1, Math.ceil((show + (n > show ? 1 : 0)) / per))}; });
-    const H = blocks.reduce((a, b) => a + 48 + b.rows * 46 + 14, 0);
+    const H = blocks.reduce((a, b) => a + 66 + b.rows * 46 + 14, 0);
     let s = `<svg viewBox="0 0 ${W} ${H}" class="mu-svg nar" role="img" aria-label="Palety do zamówienia">`, y = 4;
     blocks.forEach(({x, n, show, rows}) => { const M = MAT[x.p.mat] || MAT.bk;
-      s += `<text x="0" y="${y + 14}" class="mu-in b">${GR[x.k].sh}</text><text x="${W - 2}" y="${y + 14}" text-anchor="end" class="mu-in b">${n} ${palW(n)}${x.mass ? ` · ${fx(x.mass, 1)} t` : ''}</text><text x="0" y="${y + 32}" class="mu-ax">${esc(clip(x.p.nm, Math.floor(W / 6.7)))}</text>`;
-      for (let j = 0; j < show; j++) s += palIco((j % per) * 32, y + 34 + Math.floor(j / per) * 46, M);
-      if (n > show){ const j = show; s += `<text x="${(j % per) * 32 + 2}" y="${y + 34 + Math.floor(j / per) * 46 + 40}" class="mu-in b">+${n - show}</text>`; }
-      y += 48 + rows * 46 + 14; });
+      s += `<text x="0" y="${y + 14}" class="mu-in b">${esc(clip(gl(x), Math.floor(W / 7.2)))}</text><text x="0" y="${y + 32}" class="mu-ax">${esc(clip(x.p.nm, Math.floor(W / 6.7)))}</text><text x="0" y="${y + 50}" class="mu-in">${n} ${palW(n)}${x.mass ? ` · ok. ${fx(x.mass, 1)} t` : ''}</text>`;
+      for (let j = 0; j < show; j++) s += palIco((j % per) * 32, y + 52 + Math.floor(j / per) * 46, M);
+      if (n > show){ const j = show; s += `<text x="${(j % per) * 32 + 2}" y="${y + 52 + Math.floor(j / per) * 46 + 40}" class="mu-in b">+${n - show}</text>`; }
+      y += 66 + rows * 46 + 14; });
     return s + '</svg>';
   }
   function svgCmp(S, k, tw){
@@ -530,7 +537,7 @@ const MUR = (() => {
     const renderOdl = () => {
       const card = (key, title, body, on) => `<div class="mu-oc${on ? ' on' : ''}"><label class="mu-on"><input type="checkbox" data-s="${key}" ${on ? 'checked' : ''}> ${title}</label>${on ? `<div class="mu-ocb">${body}</div>` : ''}</div>`;
       $('.mu-odl').innerHTML = ''
-        + card('nad.on', 'Odlicz nadproża', (() => { const N = nadOf(S), typ = S.nad.typ || 'own'; return `<div class="field"><label>Rodzaj nadproża</label><select data-nad="typ">${Object.entries(NAD).map(([k, v]) => `<option value="${k}"${typ === k ? ' selected' : ''}>${v.nm}${k === 'auto' ? ' (' + NAD[N.k].nm + ')' : ''}</option>`).join('')}</select></div>`
+        + card('nad.on', 'Odlicz nadproża', (() => { const N = nadOf(S), typ = S.nad.typ || 'own', NA = k2 => nadOf({...S, nad: {...S.nad, typ: 'auto'}}, k2); return `<div class="field"><label>Rodzaj nadproża</label><select data-nad="typ">${Object.entries(NAD).map(([k, v]) => `<option value="${k}"${typ === k ? ' selected' : ''}>${v.nm}${k === 'auto' ? ' (' + NAD[NA('z').k].nm + (S.g.d.on && NA('d').k !== NA('z').k ? '; działowe: ' + NAD[NA('d').k].nm : '') + ')' : ''}</option>`).join('')}</select></div>`
           + (typ === 'own' ? fld('nad.h', 'Wysokość nadproża [m]', S.nad.h, 'min="0" step="0.01"') + fld('nad.op', 'Oparcie z każdej strony [m]', S.nad.op, 'min="0" step="0.005"') : `<p class="rs-wnote">Wysokość ${fx(N.h * 100, 1)} cm, ${N.d}. Dokładne wymiary i długości z karty nadproża.</p>`); })(), S.nad.on)
         + card('wien.on', 'Wysokość muru podana z wieńcem', fld('wien.h', 'Wysokość wieńca [m]', S.wien.h, 'min="0" step="0.01"') + fld('wien.n', 'Liczba wieńców w tej wysokości (kondygnacji)', S.wien.n || 1, 'min="1" step="1"') + '<p class="rs-wnote">Odliczane w ścianach zewnętrznych i wewnętrznych nośnych. Ścianki działowe wieńca nie mają.</p>', S.wien.on)
         + `<div class="mu-oc on"><label class="mu-on">Zapas</label><div class="mu-ocb">${fld('zap', 'Zapas na docinki i straty [%]', S.zap, 'min="0" step="1"', [0, 15, 1])}</div></div>`;
@@ -554,6 +561,7 @@ const MUR = (() => {
           ${D.t === 'nacz' ? fd('hn', 'Wysokość naczółka [m]', D.hn, 'min="0" step="0.1"', [.3, 3, .1]) : ''}${D.t === 'flat' ? fd('ha', 'Wysokość attyki [m]', D.ha, 'min="0" step="0.05"', [0, 1.5, .05]) : ''}
           ${D.t !== 'brak' ? fd('ts', 'Grubość stropu (rysunek) [m]', D.ts, 'min="0" step="0.01"') : ''}
         </div>
+        ${D.plan === 'L' && !(D.A > D.B) ? '<p class="rs-wnote warn">Rzut L wymaga, żeby skrzydło główne A było dłuższe od szerokości B – przy tych wymiarach kalkulator liczy budynek jak prostokąt.</p>' : ''}${D.t === 'mono' && D.plan === 'L' && D.A > D.B ? '<p class="rs-wnote warn">Dach jednospadowy na rzucie L: kalkulator liczy tu tylko ścianki kolankowe na całym obwodzie. Trójkątne części ścian bocznych i wyższą ścianę dodaj ręcznie (zwiększ wysokość lub długość ścian), bo ich kształt zależy od układu połaci w projekcie.</p>' : ''}
         <label class="mu-on mu-auto"><input type="checkbox" data-dd="auto" ${D.auto ? 'checked' : ''}> długość ścian zewnętrznych = obwód rzutu (${fx(RG.perim, 2)} m)</label>
         ${D.t !== 'brak' ? `<p class="rs-wnote">Nad stropem: ${RG.kol ? `ścianki kolankowe ${fx(RG.kol, 2)} m²` : ''}${RG.kol && RG.szc ? ', ' : ''}${RG.szc ? `${RG.nG ? 'szczyty' : 'ściany wyższe i boczne'} ${fx(RG.szc, 2)} m²` : ''}${RG.att ? `attyka ${fx(RG.att, 2)} m²` : ''}${['dwu', 'nacz', 'mono'].includes(D.t) && RG.H ? ` · wysokość muru w kalenicy ${fx(D.hk + (D.t === 'mono' ? D.B * RG.tn : RG.H - (D.t === 'nacz' ? Math.min(D.hn, RG.H) : 0)), 2)} m nad stropem` : ''}. Okna w szczytach i ściankach kolankowych dodaj do ścian zewnętrznych i przesuń na rysunku nad strop.</p>` : '<p class="rs-wnote">Bez muru nad stropem – np. ściany fundamentowe albo same ścianki działowe.</p>'}`;
     };
@@ -590,15 +598,16 @@ const MUR = (() => {
       if (sel && !itemOf(sel.r, sel.i)) sel = null;
       $('.mu-wall-in').innerHTML = w.svg; renderTb(cur); renderSel(cur); renderBad(cur, w.bad); return w; };
     const nadList = R => { if (!S.nad.on) return '<p class="rs-wnote">Nadproża nie są odliczane – włącz „Odlicz nadproża” w punkcie 4.</p>';
-      const NN = nadOf(S), rows = {}; R.G.filter(x => x.on).forEach(x => x.ops.forEach(o => { const l = +(o.w + 2 * NN.op(o.w)).toFixed(3), key = x.k + '|' + l; rows[key] = rows[key] || {k: x.k, l, n: 0, w: o.w}; rows[key].n += Math.round(o.n); }));
+      const rows = {}, typ = {}; R.G.filter(x => x.on).forEach(x => { const NN = nadOf(S, x.k); x.ops.forEach(o => { const l = +(o.w + 2 * NN.op(o.w)).toFixed(3), key = x.k + '|' + l; typ[x.k] = NN; rows[key] = rows[key] || {k: x.k, l, n: 0, w: o.w}; rows[key].n += Math.round(o.n); }); });
+      const tl = Object.entries(typ), same = tl.every(([, N]) => N.k === tl[0][1].k);
       const list = Object.values(rows).sort((a, b) => a.k.localeCompare(b.k) || a.l - b.l); if (!list.length) return '<p class="rs-wnote">Brak otworów.</p>';
-      return `<p class="rs-wnote">Rodzaj: ${esc(NN.nm)}${NN.d ? ' – ' + NN.d : ''}.</p><table class="mu-nadt"><thead><tr><th>ściany</th><th>otwór</th><th>nadproże min.</th><th>sztuk</th></tr></thead><tbody>${list.map(x => `<tr><td>${GR[x.k].sh}</td><td>${fx(x.w * 100, 0)} cm</td><td><b>${fx(x.l, 2)} m</b></td><td>${x.n}</td></tr>`).join('')}</tbody></table>`; };
+      return `<p class="rs-wnote">${same ? `Rodzaj: ${esc(tl[0][1].nm)}${tl[0][1].d ? ' – ' + tl[0][1].d : ''}.` : 'Rodzaj: ' + tl.map(([k, N]) => `${GR[k].sh} – ${esc(N.nm)}`).join('; ') + '.'}</p><table class="mu-nadt"><thead><tr><th>ściany</th><th>otwór</th><th>nadproże min.</th><th>sztuk</th></tr></thead><tbody>${list.map(x => `<tr><td>${GR[x.k].sh}</td><td>${fx(x.w * 100, 0)} cm</td><td><b>${fx(x.l, 2)} m</b></td><td>${x.n}</td></tr>`).join('')}</tbody></table>`; };
     const run = () => {
       const R = calc(S), cur = R.G.find(x => x.k === tab), K = (l, v, u, s, st) => `<div class="rs-kpi ${st || ''}"><span class="l">${l}</span><span class="v">${v}${u ? `<small>${u}</small>` : ''}</span><span class="s">${s}</span></div>`;
-      const morts = {}; R.G.filter(x => x.on && x.mort).forEach(x => { const k = x.mort.ty + '|' + x.mort.u + '|' + (x.mort.bu || ''); morts[k] = morts[k] || {ty: x.mort.ty, u: x.mort.u, q: 0, bags: 0, bu: x.mort.bu}; morts[k].q += x.mort.q || 0; morts[k].bags += x.mort.bags || 0; });
+      const morts = {}; R.G.filter(x => x.on && x.mort).forEach(x => { const k = x.mort.ty + '|' + x.mort.u + '|' + (x.mort.bu || ''); morts[k] = morts[k] || {ty: x.mort.ty, u: x.mort.u, q: 0, bu: x.mort.bu}; morts[k].q += x.mort.q || 0; }); Object.values(morts).forEach(m => { m.bags = bagsOf(m.ty, m.u, m.q); });
       const mtxt = Object.values(morts).map(m => `${m.bags ? fi(m.bags) + ' ' + m.bu : 'ok. ' + fx(m.q, 0) + ' ' + m.u} – ${MO[m.ty].nm}`).join('; '), trips = R.mass ? Math.max(1, Math.ceil(R.mass / 20)) : 0;
       $('.mu-kpis').innerHTML = K('Elementów razem', fi(R.pcs), 'szt.', `${fx(R.net, 1)} m² muru netto, z zapasem ${S.zap}%`, 'ok')
-        + K('Palet', R.pal ? fi(R.pal) : '–', '', 'pełne palety, osobno dla każdego elementu', 'ok')
+        + K('Palet', R.pal ? fi(R.pal) : '–', '', 'pełne palety każdego elementu (łącznie dla wszystkich ścian z tego elementu)', 'ok')
         + K('Masa', R.mass ? fx(R.mass, 1) : '–', 't', R.mass ? `ok. ${trips} ${pl(trips, 'kurs', 'kursy', 'kursów')} auta z HDS (20 t)` : 'brak danych o masie', 'ok')
         + K(R.cost != null ? 'Koszt elementów' : 'Zaprawa / klej', R.cost != null ? fi(R.cost) : '', R.cost != null ? 'zł' : '', R.cost != null ? 'według wpisanych cen' : (mtxt || '–'), 'ok');
       $('.mu-sum').innerHTML = `<div class="mu-gs">${R.G.filter(x => x.on).map(x => `<div class="mu-g${x.k === tab ? ' on' : ''}" data-tab="${x.k}"><span class="mu-gimg">${svgBlock(x.p, {W: 120, H: 84, noDim: true, pad: 8, k: 's' + x.k})}</span><div><b>${GR[x.k].nm}</b><span>${esc(x.p.nm)}</span><span class="mu-gn">${fi(x.pcs)} szt.${x.pal ? ` · ${x.pal} pal.` : ''}</span><span>${fx(x.net, 1)} m² netto · ${fx(x.m2, 2)} szt./m²${x.mort && x.mort.q != null ? ` · ${x.mort.bags ? fi(x.mort.bags) + ' ' + (x.mort.bu || 'worków') : fx(x.mort.q, 0) + ' ' + x.mort.u}` : ''}</span></div></div>`).join('')}</div>`;
@@ -640,19 +649,22 @@ const MUR = (() => {
       if (t.dataset.s){ const [a, b] = t.dataset.s.split('.'); S[a][b] = t.checked ? 1 : 0; renderOdl(); run(); return; }
       if (t.dataset.nad){ S.nad.typ = t.value; renderOdl(); run(); return; }
       if (t.dataset.o){ const i = +t.closest('[data-oi]').dataset.oi, o = S.op[i], k = t.dataset.o;
-        if (k === 't' || k === 'g'){ if (k === 'g' && o.g !== t.value) delete o.at; o[k] = t.value; if (k === 'g') renderOps(); }
+        if (k === 't'){ const old = sillOf(o); o.t = t.value; const d = sillOf(o) - old; if (d && o.at) o.at.forEach(a => { if (a) a.y = Math.max(0, +(a.y + d).toFixed(3)); }); }
+        else if (k === 'g'){ if (o.g !== t.value) delete o.at; o.g = t.value; renderOps(); }
         else if (k === 'sill'){ const old = sillOf(o); o.sill = t.value === '' ? null : num(t.value); const d = sillOf(o) - old; if (o.at) o.at.forEach(a => { if (a) a.y = Math.max(0, a.y + d); }); }
-        else { o[k] = num(t.value); if (k === 'n' && o.at) o.at.length = Math.min(o.at.length, Math.max(0, Math.round(o.n))); }
+        else o[k] = k === 'n' ? Math.max(0, Math.round(num(t.value))) : num(t.value);
         soon(); }
     });
     // pola zaznaczonego otworu – zatwierdzane po zmianie (Enter, wyjście z pola, strzałki pola)
     el.addEventListener('change', e => { const t = e.target;
       if (t.dataset.o === 'g' || t.dataset.o === 't') run();
+      // zmniejszona liczba sztuk: nadmiarowe ręczne położenia usuwamy dopiero po zatwierdzeniu niepustej wartości
+      if (t.dataset.o === 'n' && t.value !== ''){ const o = S.op[+t.closest('[data-oi]').dataset.oi]; if (o){ t.value = o.n; if (o.at) o.at.length = Math.min(o.at.length, o.n); } }
       if (!t.dataset.sel || !sel) return; const k = t.dataset.sel, cur = curR(); if (!cur.on || !lastW) return;
       if (['w', 'h', 't'].includes(k)) sel = split(sel.r, sel.i);
       freeze(tab); const o = S.op[sel.r], it = itemOf(sel.r, sel.i) || {x0: o.at[sel.i].x, y0: o.at[sel.i].y, w: o.w}, a = o.at[sel.i], L = lastW.L, v = num(t.value);
       const sg = L.segs.find(q => it.x0 >= q.s - 1e-6 && it.x0 < q.s + q.len) || L.segs[0];
-      if (k === 't') o.t = t.value;
+      if (k === 't'){ const old = sillOf(o); o.t = t.value; if (o.sill == null || o.sill === '') a.y = Math.max(0, +(a.y + sillOf(o) - old).toFixed(3)); }
       else if (k === 'w') o.w = Math.max(.3, v); else if (k === 'h') o.h = Math.max(.3, v);
       else if (k === 'x') a.x = sg.s + Math.max(0, v);
       else if (k === 'sill') a.y = (itemOf(sel.r, sel.i) ? flBase(itemOf(sel.r, sel.i), L, cur.g.h) : 0) + Math.max(0, v);
@@ -664,20 +676,22 @@ const MUR = (() => {
       if (e.button > 0) return; const hd = e.target.closest('.mu-hd'), og = e.target.closest('.mu-op');
       if (!og){ if (sel && !e.target.closest('.mu-segl')){ sel = null; drawWall(); selRow(); } return; }
       const G = geom(); if (!G) return; let r = +og.dataset.r, i = +og.dataset.i;
-      if (hd && Math.round(S.op[r].n) > 1){ ({r, i} = split(r, i)); renderOps(); }
-      freeze(tab); sel = {r, i}; const P = svgPt(e), o = S.op[r], a = o.at[i]; if (!P || !a) return;
-      drag = {r, i, mode: hd ? hd.dataset.hd : 'move', P0: P, x0: a.x, y0: a.y, w: o.w, h: o.h, moved: false, id: e.pointerId, G};
+      // uchwyt rozmiaru przy wierszu „n sztuk”: wydzielenie otworu dopiero przy pierwszym ruchu (samo kliknięcie nic nie zmienia)
+      const needSplit = !!hd && Math.round(S.op[r].n) > 1;
+      freeze(tab); sel = {r, i}; const P = svgPt(e), o = S.op[r], a = o.at[i], it0 = itemOf(r, i); if (!P || !a) return;
+      drag = {r, i, mode: hd ? hd.dataset.hd : 'move', P0: P, x0: it0 ? it0.x0 : a.x, y0: it0 ? it0.y0 : a.y, w: o.w, h: o.h, moved: false, id: e.pointerId, G, needSplit};
       try { box.setPointerCapture(e.pointerId); } catch (_) {}
       e.preventDefault(); drawWall(); selRow(); });
     box.addEventListener('pointermove', e => { if (!drag || e.pointerId !== drag.id) return; const P = svgPt(e); if (!P) return;
       const dx = P.x - drag.P0.x, dy = P.y - drag.P0.y; if (!drag.moved && Math.hypot(dx, dy) * (lastW ? lastW.sc : 50) < 4) return; drag.moved = true; box.classList.add('dragging');
-      const o = S.op[drag.r], G = drag.G;
-      if (drag.mode === 'move') o.at[drag.i] = {x: sx(drag.x0 + dx, G), y: Math.max(0, sy(drag.y0 + dy, G))};
+      if (drag.needSplit){ drag.needSplit = false; ({r: drag.r, i: drag.i} = split(drag.r, drag.i)); sel = {r: drag.r, i: drag.i}; }
+      const o = S.op[drag.r], G = drag.G, gl = G.r.g.len, ym = lastW ? lastW.L.G.ymax : G.r.g.h;
+      if (drag.mode === 'move') o.at[drag.i] = {x: Math.max(0, Math.min(gl - Math.min(o.w, gl), sx(drag.x0 + dx, G))), y: Math.max(0, Math.min(ym - o.h, sy(drag.y0 + dy, G)))};
       else if (drag.mode === 'w') o.w = Math.max(.3, sx(drag.w + dx, G));
       else o.h = Math.max(.3, sy(drag.h + dy, G));
       soonWall(); });
     const endDrag = e => { if (!drag || (e && e.pointerId !== drag.id)) return; const moved = drag.moved; drag = null; box.classList.remove('dragging'); try { box.releasePointerCapture(e.pointerId); } catch (_) {}
-      if (moved){ renderOps(); run();
+      if (moved){ const o = S.op[sel ? sel.r : -1], a = o && o.at && o.at[sel.i]; if (a){ a.x = +a.x.toFixed(3); a.y = +a.y.toFixed(3); } renderOps(); run();
         // widok jednej ściany podąża za otworem przeniesionym na sąsiednią ścianę
         const it = sel && itemOf(sel.r, sel.i); if (it && views[tab] != null){ const sg = lastW.L.segs.find(q => it.x0 >= q.s - 1e-6 && it.x0 < q.s + q.len); if (sg && sg.i !== views[tab]){ views[tab] = sg.i; drawWall(); } } }
       focusSel(); };
@@ -686,7 +700,8 @@ const MUR = (() => {
       freeze(tab); const [w, h] = [1.2, 1.5]; S.op.push({t: 'okno', w, h, n: 1, g: tab, at: [{x: sx(Math.max(0, P.x - w / 2), G), y: Math.max(0, sy(P.y - h / 2, G))}]}); sel = {r: S.op.length - 1, i: 0}; renderOps(); run(); focusSel(); });
     box.addEventListener('keydown', e => { const og = e.target.closest('.mu-op'); if (!og) return; const r = +og.dataset.r, i = +og.dataset.i, G = geom(); if (!G) return;
       const mv = {ArrowLeft: [-1, 0], ArrowRight: [1, 0], ArrowUp: [0, 1], ArrowDown: [0, -1]}[e.key];
-      if (mv){ e.preventDefault(); freeze(tab); sel = {r, i}; const a = S.op[r].at[i], st = e.shiftKey ? .5 : snap === 'mod' ? (mv[0] ? G.mod : G.rh) : .05; a.x = Math.max(0, +(a.x + mv[0] * st).toFixed(3)); a.y = Math.max(0, +(a.y + mv[1] * st).toFixed(3)); run(); selRow(); focusSel(); return; }
+      if (mv){ e.preventDefault(); freeze(tab); sel = {r, i}; const o = S.op[r], a = o.at[i], it = itemOf(r, i), gl = G.r.g.len, ym = lastW ? lastW.L.G.ymax : G.r.g.h, st = e.shiftKey ? .5 : snap === 'mod' ? (mv[0] ? G.mod : G.rh) : .05;
+        if (it){ a.x = it.x0; a.y = it.y0; } a.x = Math.max(0, Math.min(gl - Math.min(o.w, gl), +(a.x + mv[0] * st).toFixed(3))); a.y = Math.max(0, Math.min(ym - o.h, +(a.y + mv[1] * st).toFixed(3))); run(); selRow(); focusSel(); return; }
       if (e.key === 'Delete' || e.key === 'Backspace'){ e.preventDefault(); delInst(r, i); renderOps(); run(); return; }
       if (e.key === 'Enter' || e.key === ' '){ e.preventDefault(); sel = {r, i}; drawWall(); selRow(); focusSel(); return; }
       if (e.key === 'Escape'){ sel = null; drawWall(); selRow(); } });
@@ -710,11 +725,11 @@ const MUR = (() => {
         renderOps(); run(); focusSel(); return; }
       const tb = e.target.closest('[data-tab]'); if (tb){ tab = tb.dataset.tab; sel = null; renderGroup(); renderOps(); run(); return; }
       const rf = e.target.closest('[data-roof]'); if (rf){ S.dach.t = rf.dataset.roof; renderDach(); run(); renderGroup(); return; }
-      const pr = e.target.closest('[data-prod]'); if (pr){ S.g[tab].prod = pr.dataset.prod; if (!S.g[tab].on) S.g[tab].on = 1; renderGroup(); if (tab === 'z') renderOdl(); run(); return; }
+      const pr = e.target.closest('[data-prod]'); if (pr){ S.g[tab].prod = pr.dataset.prod; if (!S.g[tab].on) S.g[tab].on = 1; renderGroup(); renderOdl(); run(); return; }
       const mo = e.target.closest('[data-mo]'); if (mo){ S.g[tab].mo = mo.dataset.mo; renderGroup(); run(); return; }
       const fl = e.target.closest('[data-flt]'); if (fl){ flt = fl.dataset.flt; renderGroup(); return; }
       const ad = e.target.closest('[data-add]'); if (ad){ const t = ad.dataset.add, d = (OTY[t].sz.find(q => t === 'okno' ? q[0] === 1.5 : t === 'drzwi' ? q[0] === 1.0 : true) || OTY[t].sz[0]);
-        const g = t === 'drzwi' && tab !== 'z' ? tab : ['okno', 'balk', 'brama'].includes(t) ? 'z' : tab;
+        const g0 = t === 'drzwi' && tab !== 'z' ? tab : ['okno', 'balk', 'brama'].includes(t) ? 'z' : tab, g = S.g[g0].on && S.g[g0].len > 0 ? g0 : tab;
         if (S.op.some(o => o.g === g && o.at)) freeze(g);
         S.op.push({t, w: d[0], h: d[1], n: 1, g}); if (g !== tab){ tab = g; renderGroup(); }
         sel = {r: S.op.length - 1, i: 0}; renderOps(); run(); focusSel(); return; }
