@@ -1,0 +1,1077 @@
+{
+ "_opis": "Poprawki merytoryczne kalkulatorów z audytu 31.10.2026 (zweryfikowane w normach i kartach producentów).",
+ "poprawki": [
+  {
+   "kalk": "przegroda",
+   "opis": "Glaser miesięczny: podział warstw o R > 0,25 m²K/W na podwarstwy (PN-EN ISO 13788) – część 1/6: tablica podwarstw lsG",
+   "waga": "ISTOTNY",
+   "stare": "if (!ls.length) throw new Error('dodaj co najmniej jedną warstwę');",
+   "nowe": "if (!ls.length) throw new Error('dodaj co najmniej jedną warstwę');\n  const lsG = ls.flatMap(x => { const k = Math.max(1, Math.ceil(x.R / .25 - 1e-9)); return Array.from({length: k}, () => Object.assign({}, x, {d: x.d / k, R: x.R / k, sd: x.sd / k})); });",
+   "audyt": "A"
+  },
+  {
+   "kalk": "przegroda",
+   "opis": "Glaser – część 2/6: obliczenia miesięczne na podwarstwach",
+   "waga": "ISTOTNY",
+   "stare": "const S = state(ls, T, ti, te, pi, pe), tsimin",
+   "nowe": "const S = state(lsG, T, ti, te, pi, pe), tsimin",
+   "audyt": "A"
+  },
+  {
+   "kalk": "przegroda",
+   "opis": "Glaser – część 3/6: zwrócenie lsG z calc",
+   "waga": "ISTOTNY",
+   "stare": "need, start};",
+   "nowe": "need, start, lsG};",
+   "audyt": "A"
+  },
+  {
+   "kalk": "przegroda",
+   "opis": "Glaser – część 4/6: oś wykresu Glasera według podwarstw",
+   "waga": "ISTOTNY",
+   "stare": "const xs = [0]; r.ls.forEach(l => xs.push(xs[xs.length - 1] + l.d * 100));",
+   "nowe": "const xs = [0]; r.lsG.forEach(l => xs.push(xs[xs.length - 1] + l.d * 100));",
+   "audyt": "A"
+  },
+  {
+   "kalk": "przegroda",
+   "opis": "Glaser – część 5/6: pasy warstw na wykresie według podwarstw",
+   "waga": "ISTOTNY",
+   "stare": "const bands = r.ls.map((l, i) => ({x0: xs[i], x1: xs[i + 1], c: l.c, o: .35}));",
+   "nowe": "const bands = r.lsG.map((l, i) => ({x0: xs[i], x1: xs[i + 1], c: l.c, o: .35}));",
+   "audyt": "A"
+  },
+  {
+   "kalk": "przegroda",
+   "opis": "Glaser – część 6/6: przy podwarstwach płaszczyzna kondensacji może przesunąć się na sąsiednią granicę; sumuj kondensację w każdym miesiącu, w którym występuje",
+   "waga": "ISTOTNY",
+   "stare": "if (c) g = x.S.cond.reduce((s, c) => s + c.g, 0);",
+   "nowe": "if (c || x.S.cond.length) g = x.S.cond.reduce((s, c) => s + c.g, 0);",
+   "audyt": "A"
+  },
+  {
+   "kalk": "przegroda",
+   "opis": "Opisy klas wilgotności zgodne z PN-EN ISO 13788:2013 (tabl. A.1)",
+   "waga": "DROBNY",
+   "stare": "[[1, '1 – magazyny, pomieszczenia suche'], [2, '2 – biura, sklepy'], [3, '3 – mieszkania (typowo)'], [4, '4 – mieszkania z dużą liczbą osób, kuchnie'], [5, '5 – łazienki, pralnie, baseny']]",
+   "nowe": "[[1, '1 – budynki nieużytkowane, magazyny suche'], [2, '2 – biura, mieszkania o normalnym użytkowaniu'], [3, '3 – użytkowanie nieznane (bezpiecznie dla domu)'], [4, '4 – kuchnie, stołówki, hale sportowe'], [5, '5 – budynki specjalne: pralnie, baseny']]",
+   "audyt": "A"
+  },
+  {
+   "kalk": "przegroda",
+   "opis": "Podpowiedź klasy wilgotności – łazienka w domu nie jest klasą 5 normy",
+   "waga": "DROBNY",
+   "stare": "h: 'Klasa wilgotności wewnętrznej wg PN-EN ISO 13788. Dla domu jednorodzinnego zwykle 3, dla łazienki 5.'",
+   "nowe": "h: 'Klasa wilgotności wewnętrznej wg PN-EN ISO 13788. Dla domu jednorodzinnego bezpiecznie 3 (norma dla mieszkań o normalnym użytkowaniu podaje 2). Klasa 5 dotyczy budynków specjalnych, np. basenów i pralni.'",
+   "audyt": "A"
+  },
+  {
+   "kalk": "ozc",
+   "opis": "Warszawa leży w III strefie klimatycznej (−20 °C), nie w II (PN-82/B-02403). Dane wspólne PX.CLIM – dotyczy też „Przegrody” i innych programów",
+   "waga": "ISTOTNY",
+   "stare": "warszawa:{n:'Warszawa', s:'II', te:-18,",
+   "nowe": "warszawa:{n:'Warszawa', s:'III', te:-20,",
+   "audyt": "A"
+  },
+  {
+   "kalk": "ozc",
+   "opis": "Łódź leży w III strefie klimatycznej (−20 °C), nie w II (PN-82/B-02403). Dane wspólne PX.CLIM",
+   "waga": "ISTOTNY",
+   "stare": "lodz:{n:'Łódź', s:'II', te:-18,",
+   "nowe": "lodz:{n:'Łódź', s:'III', te:-20,",
+   "audyt": "A"
+  },
+  {
+   "kalk": "ozc",
+   "opis": "Podłoga na gruncie: θm,e ze strefy wg załącznika krajowego PN-EN 12831 (7,7/7,9/7,6/6,9/5,5 °C) zamiast średniej ze stacji – straty do gruntu były zaniżone o ok. 13–15%",
+   "waga": "DROBNY",
+   "stare": "tm = C.t.reduce((s, x) => s + x, 0) / 12",
+   "nowe": "tm = ({I: 7.7, II: 7.9, III: 7.6, IV: 6.9, V: 5.5})[C.s] || C.t.reduce((s, x) => s + x, 0) / 12",
+   "audyt": "A"
+  },
+  {
+   "kalk": "ozc",
+   "opis": "fg2 ujemne dla pomieszczeń chłodniejszych niż θm,e (np. 6 °C) – ujemne straty przez podłogę",
+   "waga": "DROBNY",
+   "stare": "const fg2 = r.dt > 0 ? (r.t - tm) / r.dt : 0;",
+   "nowe": "const fg2 = r.dt > 0 ? Math.max(0, r.t - tm) / r.dt : 0;",
+   "audyt": "A"
+  },
+  {
+   "kalk": "ozc",
+   "opis": "Podstawa normowa: zastosowana metoda (fg1 = 1,45, fg2, e·ε, ΔUtb, nmin) to PN-EN 12831:2006 z załącznikiem krajowym – tę wersję przywołują warunki techniczne",
+   "waga": "DROBNY",
+   "stare": "base: 'PN-EN 12831-1:2017 z załącznikiem krajowym (metoda uproszczona:",
+   "nowe": "base: 'PN-EN 12831:2006 z załącznikiem krajowym, wersja przywołana w warunkach technicznych (metoda uproszczona:",
+   "audyt": "A"
+  },
+  {
+   "kalk": "ozc",
+   "opis": "Podpowiedź temperatury obliczeniowej – właściwe oznaczenie normy",
+   "waga": "DROBNY",
+   "stare": "np. wartość ze stacji meteorologicznej wg załącznika krajowego PN-EN 12831-1",
+   "nowe": "np. wartość ze stacji meteorologicznej zamiast strefy wg załącznika krajowego PN-EN 12831",
+   "audyt": "A"
+  },
+  {
+   "kalk": "ozc",
+   "opis": "Błąd wykonania przy pustej liście pomieszczeń (out → undefined.n)",
+   "waga": "DROBNY",
+   "stare": "Najwięcej ciepła potrzebuje <b>${esc(r.R.slice().sort((a, b) => b.Q - a.Q)[0].n)}</b>",
+   "nowe": "Najwięcej ciepła potrzebuje <b>${esc((r.R.slice().sort((a, b) => b.Q - a.Q)[0] || {n: '–'}).n)}</b>",
+   "audyt": "A"
+  },
+  {
+   "kalk": "went",
+   "opis": "Roczne zużycie prądu wentylatorów zaniżone 3,3 raza: zbędny mnożnik 0,3 przy jednostkowym poborze SPI [Wh/m³] i stałym strumieniu Q",
+   "waga": "ISTOTNY",
+   "stare": "fan = Q * .3 * 8760 / 1000 * n('sfp')",
+   "nowe": "fan = Q * 8760 / 1000 * n('sfp')",
+   "audyt": "A"
+  },
+  {
+   "kalk": "went",
+   "opis": "Opis pola poboru wentylatorów (SPI z karty ErP)",
+   "waga": "DROBNY",
+   "stare": "{k: 'sfp', t: 'num', l: 'Pobór wentylatorów', u: 'Wh/m³', step: .05}",
+   "nowe": "{k: 'sfp', t: 'num', l: 'Pobór wentylatorów', u: 'Wh/m³', step: .05, h: 'Jednostkowy pobór mocy SPI z karty ErP centrali (oba wentylatory), zwykle 0,25–0,45 Wh/m³.'}",
+   "audyt": "A"
+  },
+  {
+   "kalk": "went",
+   "opis": "Przewód owalny 132×52: przekrój wewnętrzny ok. 122×44 mm ≈ 49,5 cm² (średnica równoważna pola ≈ 79 mm), a nie 58 mm (to średnica hydrauliczna) – liczba przewodów owalnych zawyżona prawie 2 razy",
+   "waga": "ISTOTNY",
+   "stare": "o63: ['Przewód owalny 132×52', 58]",
+   "nowe": "o63: ['Przewód owalny 132×52', 79]",
+   "audyt": "A"
+  },
+  {
+   "kalk": "went",
+   "opis": "Prędkość 0 lub puste pole daje nieskończoną liczbę rur",
+   "waga": "DROBNY",
+   "stare": "vmax = n('vr')",
+   "nowe": "vmax = Math.max(n('vr'), .5)",
+   "audyt": "A"
+  },
+  {
+   "kalk": "went",
+   "opis": "Opis KPI centrali niezgodny z doborem (dobór: obciążenie do 70%, nie 60–70%)",
+   "waga": "DROBNY",
+   "stare": "s: 'praca ok. 60–70% wydajności'",
+   "nowe": "s: 'praca do ok. 70% wydajności'",
+   "audyt": "A"
+  },
+  {
+   "kalk": "rosa",
+   "opis": "Opisy stref klimatycznych: Wrocław leży w II strefie, Gdańsk w I, Łódź w III (PN-82/B-02403)",
+   "waga": "ISTOTNY",
+   "stare": "['-16', 'I strefa: −16 °C (m.in. Szczecin, Wrocław)'], ['-18', 'II strefa: −18 °C (m.in. Gdańsk, Poznań, Łódź)'], ['-20', 'III strefa: −20 °C (m.in. Warszawa, Kraków)']",
+   "nowe": "['-16', 'I strefa: −16 °C (m.in. Szczecin, Gdańsk)'], ['-18', 'II strefa: −18 °C (m.in. Poznań, Wrocław)'], ['-20', 'III strefa: −20 °C (m.in. Warszawa, Kraków, Łódź)']",
+   "audyt": "A"
+  },
+  {
+   "kalk": "rosa",
+   "opis": "Opis metody: dla stropu pod nieogrzewanym poddaszem program stosuje Rse = 0,10 (PN-EN ISO 6946), a opis podaje tylko 0,04",
+   "waga": "DROBNY",
+   "stare": "R<sub>se</sub> = 0,04 m²K/W. Przy szczelinie",
+   "nowe": "R<sub>se</sub> = 0,04 m²K/W (strop pod nieogrzewanym poddaszem: 0,10 m²K/W). Przy szczelinie",
+   "audyt": "A"
+  },
+  {
+   "kalk": "pompa",
+   "opis": "Linia zapotrzebowania na ciepło liczona od +20 °C zamiast od +16 °C, jak w PN-EN 14825 (Ph(Tj) = Pdesignh·(Tj−16)/(Tdesignh−16)); przy tstop > 20 °C obciążenie wychodziło ujemne.",
+   "waga": "ISTOTNY",
+   "stare": "const load = T => T < tstop ? phi * (20 - T) / (20 - te) : 0;",
+   "nowe": "const load = T => T < tstop ? phi * Math.max(0, 16 - T) / (16 - te) : 0; // PN-EN 14825: Ph(Tj) = Pdesignh·(Tj − 16)/(Tdesignh − 16)",
+   "audyt": "B"
+  },
+  {
+   "kalk": "pompa",
+   "opis": "Spadek COP powyżej 35 °C zasilania liniowo 2,5%/K (przy 55 °C COP × 0,50) – za mocno wobec kart katalogowych (ok. × 0,60–0,72). Zamiana na przeskalowanie według stosunku sprawności Carnota.",
+   "waga": "ISTOTNY",
+   "stare": "const d = tf - 35; c *= d > 0 ? Math.max(.35, 1 - .025 * d) : Math.min(1.2, 1 - .02 * d);",
+   "nowe": "const d = tf - 35, Tc = Math.min(T, 15); c *= d > 0 ? Math.max(.35, (tf + 273.15) / (tf - Tc) * (35 - Tc) / 308.15) : Math.min(1.2, 1 - .02 * d);",
+   "audyt": "B"
+  },
+  {
+   "kalk": "pompa",
+   "opis": "COP przy grzaniu c.w.u. liczony zawsze dla 50 °C, niezależnie od pola „Temperatura c.w.u.”.",
+   "waga": "DROBNY",
+   "stare": "cw / Math.max(1, cop(b.T, 50) * .95)",
+   "nowe": "cw / Math.max(1, cop(b.T, Math.max(40, PX.num(st.tcwu))) * .95)",
+   "audyt": "B"
+  },
+  {
+   "kalk": "pompa",
+   "opis": "Niespójny próg punktu biwalentnego: kafelek KPI daje „ok” dopiero przy ≤ −7 °C, a werdykt pisze „pompa sama ogrzeje dom” już przy ≤ −5 °C.",
+   "waga": "DROBNY",
+   "stare": "const okB = r.bivFull || (r.biv != null && r.biv <= -5);",
+   "nowe": "const okB = r.bivFull || (r.biv != null && r.biv <= -7);",
+   "audyt": "B"
+  },
+  {
+   "kalk": "podloga",
+   "opis": "Tabela współczynników K_H zawyżona o 12–29% względem PN-EN 1264-2 (jastrych 45 mm, λ = 1,2 W/mK, rura 16×2). Program wybiera za rzadki rozstaw i obiecuje moc, której podłoga nie odda.",
+   "waga": "KRYTYCZNY",
+   "stare": "const KT = {0: [7.2, 6.4, 5.6, 4.9], .05: [5.7, 5.2, 4.6, 4.1], .10: [4.7, 4.3, 3.9, 3.5], .15: [4.0, 3.7, 3.4, 3.0]};",
+   "nowe": "const KT = {0: [6.4, 5.5, 4.8, 4.2], .05: [4.7, 4.2, 3.7, 3.3], .10: [3.7, 3.4, 3.0, 2.8], .15: [3.1, 2.8, 2.6, 2.4]};",
+   "audyt": "B"
+  },
+  {
+   "kalk": "podloga",
+   "opis": "Graniczna temperatura podłogi w łazience przyjęta na sztywno 33 °C; PN-EN 1264 podaje θi + 9 K (33 °C tylko przy θi = 24 °C). Przy θi = 20 °C program dopuszcza podłogę 33 °C.",
+   "waga": "DROBNY",
+   "stare": "tF = (TYP[x.typ] || TYP.pokoj)[1];",
+   "nowe": "tF = x.typ === 'lazienka' ? Math.min(33, ti + 9) : (TYP[x.typ] || TYP.pokoj)[1];",
+   "audyt": "B"
+  },
+  {
+   "kalk": "pv",
+   "opis": "Cała energia oddana do sieci liczona jako oszczędność (exp·cs). W net-billingu depozytem płaci się tylko za energię czynną (bez dystrybucji), a niewykorzystaną nadwyżkę po 12 miesiącach zwraca się najwyżej w 30% (RCE). Przy dużej instalacji i małym zużyciu oszczędność zawyżona.",
+   "waga": "ISTOTNY",
+   "stare": "const save = self * buy + exp * sell, cost",
+   "nowe": "const dep = exp * sell, use = Math.min(dep, S('grid') * buy * .55), save = self * buy + use + Math.min(dep - use, .3 * dep), cost",
+   "audyt": "B"
+  },
+  {
+   "kalk": "pv",
+   "opis": "Podpowiedź do ceny energii oddanej nie mówi o mnożniku 1,23, o tym, że depozyt nie pokrywa dystrybucji, ani o limicie zwrotu 30%.",
+   "waga": "DROBNY",
+   "stare": "h: 'W net-billingu energia oddana do sieci zasila depozyt według cen rynkowych, średnio wyraźnie mniej niż cena zakupu.'",
+   "nowe": "h: 'W net-billingu energia oddana do sieci zasila depozyt według cen rynkowych RCE powiększonych o współczynnik 1,23, średnio wyraźnie mniej niż cena zakupu. Depozytem płaci się tylko za energię, nie za dystrybucję; nadwyżkę niewykorzystaną przez 12 miesięcy zwraca się najwyżej w 30% wartości.'",
+   "audyt": "B"
+  },
+  {
+   "kalk": "pv",
+   "opis": "Przycisk „Dodaj zużycie pompy ciepła” zmienia profil na „Dom z pompą ciepła” także wtedy, gdy program „Pompa ciepła” nie był liczony (zużycie się nie zmienia, a profil tak).",
+   "waga": "DROBNY",
+   "stare": "acts: {pobierz(st){ const o = PX.shared('pompaE'); if (o) st.zuz = Math.round(PX.num(st.zuz) + o); st.prof = 'pc'; }},",
+   "nowe": "acts: {pobierz(st){ const o = PX.shared('pompaE'); if (o){ st.zuz = Math.round(PX.num(st.zuz) + o); st.prof = 'pc'; } }},",
+   "audyt": "B"
+  },
+  {
+   "kalk": "jastrych",
+   "opis": "Wygrzewanie osuszające (wzrost, utrzymanie, obniżanie) dla jastrychu ≤ 7 cm trwa tylko ok. 10 dni; wytyczne producentów (protokół Belegreifheizen) wymagają co najmniej 14 dni. Termin pomiaru CM i „posadzka najwcześniej” za wczesne o ok. 4 dni.",
+   "waga": "ISTOTNY",
+   "stare": "const hold = Math.max(3, Math.ceil(acc - (day - 0) - Math.ceil((tmax - 25) / 10)));",
+   "nowe": "const hold = Math.max(3, 14 - (day - start - 7) - Math.ceil((tmax - 25) / 10), Math.ceil(acc - (day - 0) - Math.ceil((tmax - 25) / 10)));",
+   "audyt": "B"
+  },
+  {
+   "kalk": "jastrych",
+   "opis": "Opis przypisuje PN-EN 1264-4 także schemat osuszania; norma opisuje tylko wygrzewanie funkcyjne, osuszanie (do gotowości pod posadzkę) wynika z wytycznych producentów.",
+   "waga": "DROBNY",
+   "stare": "Schemat wg PN-EN 1264-4: 3 dni 25 °C, potem 4 dni temperatura projektowa; osuszanie – podnoszenie o 5 K na dobę, utrzymanie, obniżanie o 10 K na dobę.",
+   "nowe": "Wygrzewanie funkcyjne wg PN-EN 1264-4: 3 dni 25 °C, potem 4 dni temperatura projektowa. Osuszanie wg wytycznych producentów (nie jest częścią normy): podnoszenie o 5 K na dobę, utrzymanie, obniżanie o 10 K na dobę, łącznie co najmniej 14 dni.",
+   "audyt": "B"
+  },
+  {
+   "kalk": "jastrych",
+   "opis": "Gdy maksymalna temperatura osuszania jest niższa od temperatury projektowej, program „utrzymuje” temperaturę niższą niż w wygrzewaniu funkcyjnym, a linia „maks. osuszania” leży pod linią projektową.",
+   "waga": "DROBNY",
+   "stare": "tp = n('tproj'), tmax = Math.min(n('tmax'), R[2] === 'CA' ? 50 : 55)",
+   "nowe": "tp = n('tproj'), tmax = Math.max(tp, Math.min(n('tmax'), R[2] === 'CA' ? 50 : 55))",
+   "audyt": "B"
+  },
+  {
+   "kalk": "jastrych (prosty)",
+   "opis": "Przy ogrzewaniu podłogowym pole „Grubość” oznacza grubość nad rurami (etykieta „tak (grubość nad rurami)”), a czas schnięcia liczony jest tylko z tej grubości. Schnie cała warstwa razem ze strefą rur (ok. 1,6–2 cm więcej), więc czas gotowości wychodził za krótki o ok. 30–45% (np. CT 4,5 cm nad rurami: 33 zamiast ok. 48 dni).",
+   "waga": "ISTOTNY",
+   "stare": "const tRef = R.base * Math.pow(d / R.d0, 1.75);",
+   "nowe": "const tRef = R.base * Math.pow((heat ? d + 1.7 : d) / R.d0, 1.75); // z ogrzewaniem d to grubość nad rurami, schnie też strefa rur (ok. 1,7 cm)",
+   "audyt": "B"
+  },
+  {
+   "kalk": "dach",
+   "opis": "Śnieg bez współczynnika ekspozycji Ce i bez reguły μ1 ≥ 0,8 przy płotkach śniegowych / attyce (PN-EN 1991-1-3 5.2(7), 5.3.2(1)); teren osłonięty Ce = 1,2 (+20%), płotki przy 40° +50%.",
+   "waga": "ISTOTNY",
+   "stare": "mu = deg <= 30 ? .8 : deg < 60 ? .8 * (60 - deg) / 30 : 0, s = mu * sk;",
+   "nowe": "mu = st.plot ? .8 : deg <= 30 ? .8 : deg < 60 ? .8 * (60 - deg) / 30 : 0, s = mu * (PX.num(st.ce) || 1) * sk;",
+   "audyt": "C"
+  },
+  {
+   "kalk": "dach",
+   "opis": "(cd.) pola wyboru Ce i płotków śniegowych",
+   "waga": "ISTOTNY",
+   "stare": "{k: 'ter', t: 'sel', l: 'Kategoria terenu', o: Object.entries(TER).map(([k, x]) => [k, x[0]])}]},",
+   "nowe": "{k: 'ter', t: 'sel', l: 'Kategoria terenu', o: Object.entries(TER).map(([k, x]) => [k, x[0]])}, {k: 'ce', t: 'sel', l: 'Ekspozycja na śnieg (Ce)', o: [['1', 'normalna (1,0)'], ['1.2', 'osłonięta: drzewa, wyższe budynki (1,2)'], ['0.8', 'wystawiona na wiatr (0,8)']]}, {k: 'plot', t: 'chk', l: 'Płotki śniegowe lub attyka przy okapie (μ ≥ 0,8)'}]},",
+   "audyt": "C"
+  },
+  {
+   "kalk": "dach",
+   "opis": "(cd.) wartości domyślne Ce i płotków",
+   "waga": "ISTOTNY",
+   "stare": "podd: true, drew: 'C24'",
+   "nowe": "podd: true, ce: '1', plot: false, drew: 'C24'",
+   "audyt": "C"
+  },
+  {
+   "kalk": "dach",
+   "opis": "Kombinacja tylko z wiodącym śniegiem (1,35G + 1,5S + 0,9W). Przy dachach stromych (μ1 → 0) miarodajny jest wiatr wiodący 1,35G + 0,75S + 1,5W (ψ0 śniegu 0,5); przy 60° moment zaniżony o ok. 21%.",
+   "waga": "ISTOTNY",
+   "stare": "const qd = 1.35 * g * a * Math.cos(al) + 1.5 * s * a * Math.cos(al) * Math.cos(al) + 1.5 * .6 * qp * .7 * a,",
+   "nowe": "const qS = s * a * Math.cos(al) * Math.cos(al), qW = qp * .7 * a, qd = 1.35 * g * a * Math.cos(al) + Math.max(1.5 * qS + 1.5 * .6 * qW, 1.5 * .5 * qS + 1.5 * qW),",
+   "audyt": "C"
+  },
+  {
+   "kalk": "dach",
+   "opis": "(cd.) opis kombinacji",
+   "waga": "ISTOTNY",
+   "stare": "kombinacja 1,35 G + 1,5 S + 0,9 W.",
+   "nowe": "kombinacje 1,35 G + 1,5 S + 0,9 W oraz 1,35 G + 0,75 S + 1,5 W (miarodajna większa), ugięcie końcowe z pełzaniem (k<sub>def</sub> 0,8).",
+   "audyt": "C"
+  },
+  {
+   "kalk": "dach",
+   "opis": "Ugięcie liczone jako chwilowe od G+S i porównane z granicą l/200 dla ugięcia końcowego (NA do PN-EN 1995-1-1: w_net,fin ≤ l/200). Brak pełzania: w_fin = w_inst,G(1+k_def) + w_inst,S(1+ψ2·k_def), k_def = 0,8 (klasa użytkowania 2), ψ2 śniegu = 0. Ugięcie zaniżone o ok. 35–40% (wynik ×1,6), dobór „najmniejszego wystarczającego” przekroju może być za mały.",
+   "waga": "ISTOTNY",
+   "stare": "qk = g * a * Math.cos(al) + s * a * Math.cos(al) * Math.cos(al);",
+   "nowe": "qk = g * a * Math.cos(al) * 1.8 + s * a * Math.cos(al) * Math.cos(al);",
+   "audyt": "C"
+  },
+  {
+   "kalk": "dach",
+   "opis": "(cd.) etykieta wiersza ugięcia",
+   "waga": "ISTOTNY",
+   "stare": "['Ugięcie', PX.fx(r.u, 1) + ' mm ≤ '",
+   "nowe": "['Ugięcie końcowe (z pełzaniem)', PX.fx(r.u, 1) + ' mm ≤ '",
+   "audyt": "C"
+  },
+  {
+   "kalk": "dach",
+   "opis": "(cd.) opis podstawy",
+   "waga": "ISTOTNY",
+   "stare": "γ<sub>M</sub> 1,3, ugięcie l/200)",
+   "nowe": "γ<sub>M</sub> 1,3, ugięcie końcowe l/200 z k<sub>def</sub> 0,8)",
+   "audyt": "C"
+  },
+  {
+   "kalk": "dach",
+   "opis": "Liczba krokwi zaokrąglana w dół: floor(L/a)+1 daje rozstaw większy od przyjętego w obliczeniach (np. 12,8 m co 90 cm: 15 szt. na połać, faktyczny rozstaw 91,4 cm). Zestawienie zaniżone o 1 krokiew na połać.",
+   "waga": "DROBNY",
+   "stare": "nK = 2 * (Math.floor(Ltot / a) + 1)",
+   "nowe": "nK = 2 * (Math.ceil(Ltot / a - 1e-9) + 1)",
+   "audyt": "C"
+  },
+  {
+   "kalk": "dach",
+   "opis": "Rozstaw krokwi 0 lub puste pole → dzielenie przez 0 (ciężar własny i liczba krokwi = Infinity).",
+   "waga": "DROBNY",
+   "stare": "a = n('roz') / 100",
+   "nowe": "a = Math.max(10, n('roz')) / 100",
+   "audyt": "C"
+  },
+  {
+   "kalk": "wiatr",
+   "opis": "Rozstaw krokwi 0 (np. w trakcie wpisywania „0,6”: pierwszy znak „0”) → pętla for z krokiem S.s = 0 nigdy się nie kończy, karta przeglądarki zawiesza się. Długość lub szerokość 0 → wyjątek (worst1 = null), kalkulator przestaje odświeżać wyniki.",
+   "waga": "KRYTYCZNY",
+   "stare": "const S = {...S0};",
+   "nowe": "const S = {...S0}; S.s = Math.max(.3, +S.s || 0); S.L = Math.max(1, +S.L || 0); S.B = Math.max(1, +S.B || 0);",
+   "audyt": "C"
+  },
+  {
+   "kalk": "dach-prosty",
+   "opis": "Błędne źródło zasady 2,20 / 1,40 m (100% / 50% / 0%). PN-ISO 9836 nie redukuje powierzchni ze względu na wysokość; redukcję wprowadza rozporządzenie w sprawie szczegółowego zakresu i formy projektu budowlanego (§ 20) i ustawa o podatkach i opłatach lokalnych (art. 4 ust. 2), historycznie PN-70/B-02365. Ten sam portal pisze to w artykule o powierzchni użytkowej.",
+   "waga": "DROBNY",
+   "stare": "(zasada z PN-ISO 9836:1997 i z ustawy o podatkach i opłatach lokalnych, art. 4 ust. 2)",
+   "nowe": "(zasada z rozporządzenia w sprawie szczegółowego zakresu i formy projektu budowlanego, § 20, i z ustawy o podatkach i opłatach lokalnych, art. 4 ust. 2; sama PN-ISO 9836 nie zmniejsza powierzchni ze względu na wysokość)",
+   "audyt": "C"
+  },
+  {
+   "kalk": "dach-prosty",
+   "opis": "Opis śniegu pomija regułę μ1 ≥ 0,8 przy płotkach śniegowych lub attyce oraz C_e = 1,2 w terenie osłoniętym – użytkownik z płotkami na dachu 45° odczyta obciążenie o połowę za małe.",
+   "waga": "DROBNY",
+   "stare": "Bez worków śnieżnych i zasp przy attykach.",
+   "nowe": "Bez worków śnieżnych i zasp przy attykach. Przy płotkach śniegowych lub attyce przy okapie μ₁ nie mniej niż 0,8; w terenie osłoniętym (drzewa, wyższe budynki) C<sub>e</sub> = 1,2.",
+   "audyt": "C"
+  },
+  {
+   "kalk": "rynny",
+   "opis": "Model spustów „na końcach okapu” w obliczeniu liczby spustów nie zgadza się z rozmieszczeniem rysowanym w widoku (spusty na obu końcach i równo pomiędzy). Program przyjmuje n odcinków L/n, a faktycznie jest 2(n−1) odcinków L/(2(n−1)). Skutek: liczba spustów i elementów zawyżona (np. okap 20,8 m, PVC 100: 6 zamiast 4 spustów), a przepływ na rurę środkową zaniżony (Q/n zamiast Q/(n−1), np. 0,93 zamiast 1,39 l/s).",
+   "waga": "ISTOTNY",
+   "stare": "let nOut = 1; while (nOut < 60 && Q / (nOut * runs) > QL * FLf(L / (nOut * runs) * 1000 / dep)) nOut++; const qOut = Q / nOut, FLr = FLf(L / (nOut * runs) * 1000 / dep);",
+   "nowe": "let nOut = 1; const kR = m => runs === 2 ? 2 * m : m > 1 ? 2 * (m - 1) : 1; while (nOut < 60 && Q / kR(nOut) > QL * FLf(L / kR(nOut) * 1000 / dep)) nOut++; const qOut = runs === 2 || nOut < 3 ? Q / nOut : Q / (nOut - 1), qRun = Q / kR(nOut), FLr = FLf(L / kR(nOut) * 1000 / dep);",
+   "audyt": "C"
+  },
+  {
+   "kalk": "rynny",
+   "opis": "(cd.) zwrócenie przepływu na odcinek",
+   "waga": "ISTOTNY",
+   "stare": "return {FLf, dep, FLr, L, b, h,",
+   "nowe": "return {FLf, dep, FLr, qRun, L, b, h,",
+   "audyt": "C"
+  },
+  {
+   "kalk": "rynny",
+   "opis": "(cd.) linia „potrzebne przy tym rozstawie” na wykresie",
+   "waga": "ISTOTNY",
+   "stare": "line: {v: [1, 2, 3].map(() => r.qOut / r.runs)",
+   "nowe": "line: {v: [1, 2, 3].map(() => r.qRun)",
+   "audyt": "C"
+  },
+  {
+   "kalk": "rynny",
+   "opis": "Wartość 0,03 l/(s·m²) opisana jako „norma”. PN-EN 12056-3 nie podaje tej liczby – pochodzi z wycofanej PN-92/B-01707; dla deszczu 5-minutowego wg lokalnych danych (atlas PANDa) bywa większa.",
+   "waga": "DROBNY",
+   "stare": "' · norma'",
+   "nowe": "' · typowe (dawna PN-92/B-01707)'",
+   "audyt": "C"
+  },
+  {
+   "kalk": "rynny",
+   "opis": "(cd.) opis podstawy",
+   "waga": "DROBNY",
+   "stare": "natężenie deszczu przyjęte 0,03 l/(s·m²) (300 l/(s·ha))",
+   "nowe": "natężenie deszczu domyślnie 0,03 l/(s·m²) (300 l/(s·ha), wartość z wycofanej PN-92/B-01707; norma zaleca dane lokalne, dla deszczu 5-minutowego bywa więcej)",
+   "audyt": "C"
+  },
+  {
+   "kalk": "slonce",
+   "opis": "Wymóg § 60 sprawdzany tylko 21 marca (CET). Program liczy w czasie urzędowym, a w jesiennym dniu równonocy obowiązuje czas letni: przedział 7–17 CEST to 6–16 CET, więc okna zachodnie i południowo-zachodnie dostają mniej słońca niż w marcu. Opinie izby architektów i analizy wymagają obu dni. Skutek: wynik „spełnia” przy 3,0 h w marcu i 2,9 h we wrześniu.",
+   "waga": "ISTOTNY",
+   "stare": "return {D, req, s, cur, lat, prz, okN: D.rw.h7 >= req - 1e-9};",
+   "nowe": "const J = day(st, 9, 23), hR = Math.min(D.rw.h7, J.h7); return {D, J, hR, req, s, cur, lat, prz, okN: hR >= req - 1e-9};",
+   "audyt": "C"
+  },
+  {
+   "kalk": "slonce",
+   "opis": "(cd.) kafel wyniku",
+   "waga": "ISTOTNY",
+   "stare": "{l: 'Słońce w równonoc (7–17)', v: PX.fx(r.D.rw.h7, 1), u: 'h', st: r.okN ? 'ok' : 'bad', s: `wymagane ≥ ${PX.fx(r.req, 1)} h`}",
+   "nowe": "{l: 'Słońce w równonoc (7–17)', v: PX.fx(r.hR, 1), u: 'h', st: r.okN ? 'ok' : 'bad', s: `21.03: ${PX.fx(r.D.rw.h7, 1)} h, 23.09: ${PX.fx(r.J.h7, 1)} h; wymagane ≥ ${PX.fx(r.req, 1)} h`}",
+   "audyt": "C"
+  },
+  {
+   "kalk": "slonce",
+   "opis": "(cd.) werdykt",
+   "waga": "ISTOTNY",
+   "stare": "${r.okN ? `Okno ma ${PX.fx(r.D.rw.h7, 1)} h słońca w dniu równonocy (7–17): spełnia § 60.` : `Tylko ${PX.fx(r.D.rw.h7, 1)} h słońca w dniu równonocy:",
+   "nowe": "${r.okN ? `Okno ma co najmniej ${PX.fx(r.hR, 1)} h słońca w obu dniach równonocy (7–17, czas urzędowy): spełnia § 60.` : `Tylko ${PX.fx(r.hR, 1)} h słońca w ${r.J.h7 < r.D.rw.h7 ? 'jesiennym (23 września)' : 'wiosennym (21 marca)'} dniu równonocy:",
+   "audyt": "C"
+  },
+  {
+   "kalk": "slonce",
+   "opis": "(cd.) legenda wykresu sugeruje, że 23 września daje ten sam wynik",
+   "waga": "ISTOTNY",
+   "stare": "{c: cols.rw, l: 'równonoc 21 marca / 23 września'}",
+   "nowe": "{c: cols.rw, l: 'równonoc 21 marca (23 września ta sama droga, godziny o 1 h później – czas letni)'}",
+   "audyt": "C"
+  },
+  {
+   "kalk": "slonce",
+   "opis": "Błąd zmiennoprzecinkowy w pętli co 1/12 h: próbka 7:00 ma t = 6,99999…, więc jest pomijana (t ≥ 7 fałsz). Wynik w przedziale 7–17 zaniżony o 5 min (np. 9,9 zamiast 10,0 h; okno wschodnie 4,8 zamiast 4,9 h), w przypadku granicznym może zmienić werdykt.",
+   "waga": "DROBNY",
+   "stare": "for (let t = 4; t <= 22; t += 1 / 12){ const s = sun(lat, lon, m, d, t), on = onWindow(s, st); pts.push([t, s]); tl.push([t, on, s.alt > 0]); if (on){ all += 1 / 12; if (t >= 7 && t < 17) h7 += 1 / 12; } }",
+   "nowe": "for (let i = 0; i <= 216; i++){ const t = 4 + i / 12, s = sun(lat, lon, m, d, t), on = onWindow(s, st); pts.push([t, s]); tl.push([t, on, s.alt > 0]); if (on){ all += 1 / 12; if (i >= 36 && i < 156) h7 += 1 / 12; } }",
+   "audyt": "C"
+  },
+  {
+   "kalk": "slonce",
+   "opis": "§ 13: dla przesłaniających obiektów wyższych niż 35 m wymagana odległość wynosi 35 m, a program żąda odległości równej wysokości (np. 50 m) – fałszywy wynik „za blisko”.",
+   "waga": "DROBNY",
+   "stare": "need: st.srodm ? n('ph') / 2 : n('ph')",
+   "nowe": "need: Math.min(n('ph'), 35) / (st.srodm ? 2 : 1)",
+   "audyt": "C"
+  },
+  {
+   "kalk": "slonce",
+   "opis": "(cd.) opis podstawy § 13",
+   "waga": "DROBNY",
+   "stare": "§ 13 (przesłanianie: w kącie 60° odległość co najmniej równa wysokości przesłaniania)",
+   "nowe": "§ 13 (przesłanianie: w kącie 60° odległość co najmniej równa wysokości przesłaniania, a dla obiektów wyższych niż 35 m – 35 m; w zabudowie śródmiejskiej najwyżej o połowę mniej)",
+   "audyt": "C"
+  },
+  {
+   "kalk": "lawa",
+   "opis": "Opisy stref przemarzania: strefa I to zachód i północny zachód (nie całe wybrzeże), tereny podgórskie leżą w strefie III, a strefa IV to tylko północno-wschodni narożnik (Suwalszczyzna).",
+   "waga": "DROBNY",
+   "stare": "const STREFA = {1: ['I (zachód, wybrzeże)', .8], 2: ['II (centrum)', 1.0], 3: ['III (wschód)', 1.2], 4: ['IV (Suwalszczyzna, góry)', 1.4]};",
+   "nowe": "const STREFA = {1: ['I (zachód i północny zachód)', .8], 2: ['II (centrum i południowy zachód)', 1.0], 3: ['III (wschód, południowy wschód, tereny podgórskie)', 1.2], 4: ['IV (północno-wschodni narożnik, Suwalszczyzna)', 1.4]};",
+   "audyt": "D"
+  },
+  {
+   "kalk": "lawa",
+   "opis": "Ciężar gruntu na odsadzkach liczony z wysokości (hgr − h) zamiast z wysokości gruntu nad ławą hgr (opis pola). Przy domyślnych danych grunt 0,65 m zamiast 0,85 m (D − h): G_k zaniżone o ok. 3%, naprężenie o ok. 2,5%; dodatkowo przy b < grubości ściany fundamentowej ciężar wychodził ujemny.",
+   "waga": "DROBNY",
+   "stare": "self = b * h * 25 + (b - sc) * Math.max(0, n('hgr') - h) * 18;",
+   "nowe": "self = b * h * 25 + Math.max(0, b - sc) * Math.max(0, n('hgr')) * 18;",
+   "audyt": "D"
+  },
+  {
+   "kalk": "lawa",
+   "opis": "To samo w szerokości minimalnej bmin: wysokość gruntu nad ławą = hgr.",
+   "waga": "DROBNY",
+   "stare": "Math.max(qf - 1.35 * (h * 25 + Math.max(0, n('hgr') - h) * 18), 1)",
+   "nowe": "Math.max(qf - 1.35 * (h * 25 + Math.max(0, n('hgr')) * 18), 1)",
+   "audyt": "D"
+  },
+  {
+   "kalk": "lawa",
+   "opis": "Domyślna wysokość gruntu nad ławą zgodna z geometrią domyślną (D − h = 1,20 − 0,35 = 0,85 m).",
+   "waga": "DROBNY",
+   "stare": "D: 1.2, hgr: 1.0,",
+   "nowe": "D: 1.2, hgr: .85,",
+   "audyt": "D"
+  },
+  {
+   "kalk": "lawa",
+   "opis": "Objaśnienie pola „Grunt nad ławą”.",
+   "waga": "DROBNY",
+   "stare": "{k: 'hgr', t: 'num', l: 'Grunt nad ławą', u: 'm', step: .05}",
+   "nowe": "{k: 'hgr', t: 'num', l: 'Grunt nad ławą', u: 'm', step: .05, h: 'Wysokość zasypki nad wierzchem ławy, zwykle D − h; od strony wnętrza do spodu podłogi na gruncie.'}",
+   "audyt": "D"
+  },
+  {
+   "kalk": "lawa",
+   "opis": "Warunek wysokości ławy h ≥ 0,8·odsadzka jest za łagodny. PN-EN 1992-1-1 p. 12.9.3 (ława z betonu niezbrojonego poprzecznie): 0,85·h/a ≥ √(3σ/f_ctd), f_ctd = 0,8·1,5/1,4 MPa dla C20/25 (uproszczenie h/a ≥ 2). Przy 250–300 kPa wymagane h ≈ 1,1–1,2·a, program dopuszcza 0,8·a (za niska ława o 30–50%).",
+   "waga": "ISTOTNY",
+   "stare": "const D = n('D'), okD = D >= hz - 1e-9, wyst = (b - sc) / 2, okH = h >= Math.max(.3, wyst * .8);",
+   "nowe": "const D = n('D'), okD = D >= hz - 1e-9, wyst = (b - sc) / 2, kH = Math.min(3, Math.sqrt(3 * Math.max(0, sig) / 1000 / (.8 * 1.5 / 1.4)) / .85), okH = h >= Math.max(.3, wyst * kH);",
+   "audyt": "D"
+  },
+  {
+   "kalk": "lawa",
+   "opis": "Przekazanie współczynnika kH do wyniku.",
+   "waga": "ISTOTNY",
+   "stare": "D, okD, wyst, okH, sc,",
+   "nowe": "D, okD, wyst, okH, kH, sc,",
+   "audyt": "D"
+  },
+  {
+   "kalk": "lawa",
+   "opis": "Komunikat o minimalnej wysokości ławy zgodny z nowym warunkiem (zaokrąglenie w górę do 5 cm).",
+   "waga": "ISTOTNY",
+   "stare": "zwiększ do min. ${PX.fi(Math.max(30, r.wyst * 80))} cm",
+   "nowe": "zwiększ do min. ${PX.fi(Math.ceil(Math.max(30, r.wyst * r.kH * 100) / 5) * 5)} cm",
+   "audyt": "D"
+  },
+  {
+   "kalk": "lawa",
+   "opis": "Podstawa normowa: dopisanie warunku wysokości ławy.",
+   "waga": "DROBNY",
+   "stare": "PN-EN 1992-1-1 (otulina, zbrojenie konstrukcyjne)",
+   "nowe": "PN-EN 1992-1-1 (otulina, zbrojenie konstrukcyjne, p. 12.9.3: wysokość ławy z warunku zginania odsadzki)",
+   "audyt": "D"
+  },
+  {
+   "kalk": "strop",
+   "opis": "Dane stropów gęstożebrowych niezgodne z danymi systemu Teriva: Teriva 6.0 i 8.0 mają 34 cm i ciężar ok. 4,0 kN/m² (program: 24/30 cm, 3,4/3,9 kN/m²), maksymalne rozpiętości 6.0 i 8.0 zamienione miejscami (systemowo 7,8 m dla 6.0 i 7,2 m dla 8.0; program 7,2 i 7,8 m, czyli dla 8.0 o 0,6 m za dużo). Dodano dopuszczalne obciążenie ponad ciężar własny (4,0 / 6,0 / 8,0 kN/m² charakterystycznie).",
+   "waga": "KRYTYCZNY",
+   "stare": "t4: ['Strop gęstożebrowy typu Teriva 4.0 (24 cm)', 2.9, 6.0], t6: ['Strop gęstożebrowy typu Teriva 6.0 (24 cm)', 3.4, 7.2], t8: ['Strop gęstożebrowy typu Teriva 8.0 (30 cm)', 3.9, 7.8],",
+   "nowe": "t4: ['Strop gęstożebrowy typu Teriva 4.0/1 (24 cm)', 2.9, 6.0, 4.0], t6: ['Strop gęstożebrowy typu Teriva 6.0 (34 cm)', 4.0, 7.8, 6.0], t8: ['Strop gęstożebrowy typu Teriva 8.0 (34 cm)', 4.0, 7.2, 8.0],",
+   "audyt": "D"
+  },
+  {
+   "kalk": "strop",
+   "opis": "Brak sprawdzenia obciążenia ponad ciężar własny stropu gęstożebrowego. Domyślnie (jastrych z ogrzewaniem, ścianki, 1,5 kN/m²) wychodzi 4,25 kN/m² przy dopuszczalnych 4,0 kN/m² dla Teriva 4.0, a program pisze „przechodzi sprawdzenie”. Przy płytkach, ściankach ceramicznych i 2,0 kN/m² nadwyżka ok. 30%.",
+   "waga": "KRYTYCZNY",
+   "stare": "else { Object.assign(out, {lmax: T[2], okM: l <= T[2], okL: true}); }",
+   "nowe": "else { const okQ = g - self + q <= T[3] + 1e-9; Object.assign(out, {lmax: T[2], qadm: T[3], okQ, okM: l <= T[2] && okQ, okL: true}); }",
+   "audyt": "D"
+  },
+  {
+   "kalk": "strop",
+   "opis": "Wiersz wyników: obciążenie ponad ciężar własny porównane z dopuszczalnym.",
+   "waga": "KRYTYCZNY",
+   "stare": "['Obciążenie dodatkowe do sprawdzenia w tabeli producenta', PX.fx(r.g - r.self + r.q, 2) + ' kN/m²']",
+   "nowe": "['Obciążenie ponad ciężar własny / dopuszczalne (charakt.)', `${PX.fx(r.g - r.self + r.q, 2)} / ${PX.fx(r.qadm, 1)} kN/m² ${r.okQ ? PX.badge('ok', 'mieści się') : PX.badge('bad', 'za duże')}`]",
+   "audyt": "D"
+  },
+  {
+   "kalk": "strop",
+   "opis": "Wiersz rozpiętości ocenia tylko rozpiętość (okM obejmuje teraz też obciążenie).",
+   "waga": "KRYTYCZNY",
+   "stare": "${PX.fx(r.l, 2)} / ${PX.fx(r.lmax, 1)} m ${r.okM ?",
+   "nowe": "${PX.fx(r.l, 2)} / ${PX.fx(r.lmax, 1)} m ${r.l <= r.lmax ?",
+   "audyt": "D"
+  },
+  {
+   "kalk": "strop",
+   "opis": "Kafelek „Rozpiętość” ocenia tylko rozpiętość.",
+   "waga": "KRYTYCZNY",
+   "stare": "st: r.okM ? 'ok' : 'bad', s: `maks. ok. ${PX.fx(r.lmax, 1)} m`}",
+   "nowe": "st: r.l <= r.lmax ? 'ok' : 'bad', s: `maks. ok. ${PX.fx(r.lmax, 1)} m`}",
+   "audyt": "D"
+  },
+  {
+   "kalk": "strop",
+   "opis": "Werdykt podaje właściwą przyczynę (rozpiętość albo obciążenie).",
+   "waga": "KRYTYCZNY",
+   "stare": "'Rozpiętość przekracza orientacyjne maksimum dla tego stropu: wybierz wyższy typ lub dodaj podciąg.'",
+   "nowe": "(r.l > r.lmax ? 'Rozpiętość przekracza orientacyjne maksimum dla tego stropu: wybierz wyższy typ lub dodaj podciąg.' : 'Obciążenie ponad ciężar własny przekracza dopuszczalne dla tego typu stropu: wybierz typ o większej nośności albo zmniejsz obciążenie.')",
+   "audyt": "D"
+  },
+  {
+   "kalk": "strop",
+   "opis": "Rysunek: wysokość stropów Teriva 6.0 i 8.0 to 34 cm.",
+   "waga": "DROBNY",
+   "stare": "st.typ === 't8' ? 30 : 24",
+   "nowe": "st.typ === 't4' ? 24 : 34",
+   "audyt": "D"
+  },
+  {
+   "kalk": "strop",
+   "opis": "Rysunek: nadbeton 3 cm w Teriva 4.0/1, 4 cm w pozostałych.",
+   "waga": "DROBNY",
+   "stare": "(st.typ === 't8' ? 6 : 4)",
+   "nowe": "(st.typ === 't4' ? 3 : 4)",
+   "audyt": "D"
+  },
+  {
+   "kalk": "strop",
+   "opis": "Rysunek: rozstaw belek 60 cm (Teriva 4.0) i 45 cm (6.0, 8.0).",
+   "waga": "DROBNY",
+   "stare": "const hp = hS - hn, R0 = 60,",
+   "nowe": "const hp = hS - hn, R0 = st.typ === 't4' ? 60 : 45,",
+   "audyt": "D"
+  },
+  {
+   "kalk": "strop",
+   "opis": "Opis rozstawu belek na rysunku zgodny z typem.",
+   "waga": "DROBNY",
+   "stare": "'rozstaw osiowy belek 60 cm'",
+   "nowe": "`rozstaw osiowy belek ${R0} cm`",
+   "audyt": "D"
+  },
+  {
+   "kalk": "strop",
+   "opis": "Moment liczony z rozpiętości w świetle. PN-EN 1992-1-1 p. 5.3.2.2: l_eff = l_n + a1 + a2, a_i = min(h/2; t/2). Dla płyty 20 cm na ścianach 24 cm przy 5,0 m w świetle l_eff = 5,2 m: moment o 8% większy, a domyślna płyta nie spełnia już warunku l/d. Najprostsza poprawka: pole jako rozpiętość obliczeniowa (w uproszczeniu w osiach ścian).",
+   "waga": "ISTOTNY",
+   "stare": "{k: 'l', t: 'num', l: 'Rozpiętość w świetle podpór', u: 'm', step: .05}",
+   "nowe": "{k: 'l', t: 'num', l: 'Rozpiętość obliczeniowa (w osiach podpór)', u: 'm', step: .05, h: 'Rozpiętość w świetle powiększona z każdej strony o połowę grubości płyty, nie więcej niż o połowę grubości ściany (PN-EN 1992-1-1, 5.3.2.2). W uproszczeniu odległość osi ścian.'}",
+   "audyt": "D"
+  },
+  {
+   "kalk": "strop",
+   "opis": "Strop dwuprzęsłowy: moment przęsłowy w l²/14,2 przy pełnym obciążeniu obu przęseł. PN-EN 1992-1-1 p. 5.1.3 wymaga niekorzystnego układu obciążenia zmiennego (jedno przęsło): M = (0,070·1,35g + 0,096·1,5q)·l². Zaniżenie 6% przy q = 1,5 i do 15% przy q = 5 kN/m².",
+   "waga": "ISTOTNY",
+   "stare": "const Mp = w * l * l * S[1],",
+   "nowe": "const Mp = st.sch === 'c2' ? (1.35 * g * .0703 + 1.5 * q * .0957) * l * l : w * l * l * S[1],",
+   "audyt": "D"
+  },
+  {
+   "kalk": "strop",
+   "opis": "Ten sam układ obciążeń przy wyznaczaniu minimalnej grubości płyty.",
+   "waga": "ISTOTNY",
+   "stare": "mu = ww * l * l * S[1] / 1000 / (dd * dd * fcd)",
+   "nowe": "mu = (st.sch === 'c2' ? 1.35 * (hh * 25 + g - self) * .0703 + 1.5 * q * .0957 : ww * S[1]) * l * l / 1000 / (dd * dd * fcd)",
+   "audyt": "D"
+  },
+  {
+   "kalk": "strop",
+   "opis": "Reakcja na ścianę w schemacie dwuprzęsłowym podana jako 0,625·w·l (udział jednego przęsła). Ściana środkowa przenosi 1,25·w·l (oba przęsła), skrajne 0,375·w·l. Wynik „do przeniesienia do programu Ława” zaniżony o 50% dla ściany środkowej.",
+   "waga": "ISTOTNY",
+   "stare": "R = w * l / 2 * (st.sch === 'c2' ? 1.25 : 1), Rk = wk * l / 2 * (st.sch === 'c2' ? 1.25 : 1);",
+   "nowe": "R = w * l / 2 * (st.sch === 'c2' ? 2.5 : 1), Rk = wk * l / 2 * (st.sch === 'c2' ? 2.5 : 1);",
+   "audyt": "D"
+  },
+  {
+   "kalk": "strop",
+   "opis": "Opis reakcji przy schemacie dwuprzęsłowym.",
+   "waga": "ISTOTNY",
+   "stare": "Reakcja na ścianę: ${PX.fx(r.R, 1)} kN/m (charakterystycznie",
+   "nowe": "Reakcja na ścianę${r.S === SCH.c2 ? ' środkową (z obu przęseł; na ściany skrajne ok. 0,375·w·l)' : ''}: ${PX.fx(r.R, 1)} kN/m (charakterystycznie",
+   "audyt": "D"
+  },
+  {
+   "kalk": "strop",
+   "opis": "Etykieta kafelka reakcji przy schemacie dwuprzęsłowym.",
+   "waga": "ISTOTNY",
+   "stare": "{l: 'Reakcja na ścianę', v: PX.fx(r.R, 1), u: 'kN/m'}",
+   "nowe": "{l: st.sch === 'c2' ? 'Reakcja na ścianę środkową' : 'Reakcja na ścianę', v: PX.fx(r.R, 1), u: 'kN/m'}",
+   "audyt": "D"
+  },
+  {
+   "kalk": "strop",
+   "opis": "Rozstaw prętów wychodzi 2,5 cm (albo 0) i program uznaje płytę za poprawną (np. l = 5,25 m, h = 18 cm, Ø8, dwa przęsła, q = 5: góra Ø8 co 2,5 cm). PN-EN 1992-1-1 p. 8.2: odstęp w świetle ≥ max(Ø; d_g + 5 mm; 20 mm), czyli rozstaw osiowy ≥ Ø + 21 mm.",
+   "waga": "ISTOTNY",
+   "stare": "okM: Ap != null && (Ms ? Asu != null : true)",
+   "nowe": "okM: Ap != null && sp >= (fi + 21) / 10 && (Ms ? Asu != null && spS >= (fi + 21) / 10 : true)",
+   "audyt": "D"
+  },
+  {
+   "kalk": "strop",
+   "opis": "Werdykt przy zbyt gęstym zbrojeniu: zwiększyć średnicę prętów (a nie grubość).",
+   "waga": "ISTOTNY",
+   "stare": "r.typ === 'plyta' ? `Płyta ${PX.fi(r.h * 100)} cm jest za cienka: zwiększ do ok. ${PX.fi(Math.round(r.hmin * 100))} cm albo dodaj podporę.` : r.typ === 'drewno'",
+   "nowe": "r.typ === 'plyta' ? (r.Ap != null && (!r.Ms || r.Asu != null) && r.okL ? `Rozstaw prętów Ø${r.fi} wychodzi za mały do wykonania: przyjmij większą średnicę prętów.` : `Płyta ${PX.fi(r.h * 100)} cm jest za cienka: zwiększ do ok. ${PX.fi(Math.round(r.hmin * 100))} cm albo dodaj podporę.`) : r.typ === 'drewno'",
+   "audyt": "D"
+  },
+  {
+   "kalk": "strop",
+   "opis": "Belka drewniana: ugięcie chwilowe od g + q porównane z l/300, bez pełzania. PN-EN 1995-1-1 p. 2.2.3 i 7.2: w_fin = w_G(1 + k_def) + w_Q(1 + ψ2·k_def), k_def = 0,6 (drewno lite, klasa użytkowania 1), ψ2 = 0,3 (kat. A), granica l/250. Obecny warunek jest o ok. 20% łagodniejszy.",
+   "waga": "ISTOTNY",
+   "stare": "u = 5 * wk * a * l ** 4 / (384 * 11e6 * I) * 1000, ulim = l * 1000 / 300",
+   "nowe": "u = 5 * (g * 1.6 + q * 1.18) * a * l ** 4 / (384 * 11e6 * I) * 1000, ulim = l * 1000 / 250",
+   "audyt": "D"
+  },
+  {
+   "kalk": "strop",
+   "opis": "Opis założeń ugięcia belki drewnianej.",
+   "waga": "ISTOTNY",
+   "stare": "Drewno C24, k<sub>mod</sub> 0,8, γ<sub>M</sub> 1,3, ugięcie l/300.",
+   "nowe": "Drewno C24, k<sub>mod</sub> 0,8, γ<sub>M</sub> 1,3, ugięcie końcowe z pełzaniem (k<sub>def</sub> 0,6, ψ<sub>2</sub> 0,3) ≤ l/250.",
+   "audyt": "D"
+  },
+  {
+   "kalk": "strop",
+   "opis": "Ścianki działowe: ścianka z betonu komórkowego 12 cm z tynkiem waży ok. 3 kN/m (nie ≤ 2), ceramiczna 11,5 cm ok. 3,4 kN/m, silikatowa 12 cm ok. 5,4 kN/m (z kart producentów: masa elementów × szt./m² + tynk, wys. 2,65 m). PN-EN 1991-1-1 p. 6.3.1.2(8): zastępcze 1,2 kN/m² tylko do 3 kN/m, cięższe ścianki liczy się jako obciążenie liniowe.",
+   "waga": "ISTOTNY",
+   "stare": "bk: ['Ścianki z betonu komórkowego 12 cm (≤ 2 kN/m)', .8], cer: ['Ścianki ceramiczne / silikat 12 cm (≤ 3 kN/m)', 1.2]",
+   "nowe": "bk: ['Ścianki z betonu komórkowego 12 cm z tynkiem (ok. 3 kN/m)', 1.2], cer: ['Ścianki ceramiczne / silikat 12 cm (ponad 3 kN/m: wymagają obliczenia jako obciążenie liniowe, tu orientacyjnie)', 1.2]",
+   "audyt": "D"
+  },
+  {
+   "kalk": "strop",
+   "opis": "Smukłość graniczna l/d bez mnożnika 7/l_eff dla rozpiętości ponad 7 m ze ściankami działowymi (PN-EN 1992-1-1 p. 7.4.2(2)).",
+   "waga": "DROBNY",
+   "stare": "return Math.min(K * b * Math.min(1.5, Math.max(1, f || 1)), 40); };",
+   "nowe": "return Math.min(K * b * Math.min(1.5, Math.max(1, f || 1)) * (l > 7 && st.dz !== 'brak' ? 7 / l : 1), 40); };",
+   "audyt": "D"
+  },
+  {
+   "kalk": "schody",
+   "opis": "Stopnie zabiegowe: § 69 ust. 6 wymaga szerokości stopnia co najmniej 0,25 m w odległości nie większej niż 0,4 m od wewnętrznej poręczy. Program porównuje z s, więc przy s < 25 cm (np. h = 19 cm, krok 60–62 cm → s = 22–24 cm) uznaje stopnie za zgodne.",
+   "waga": "ISTOTNY",
+   "stare": "add('Stopnie zabiegowe: szerokość 40 cm od wewnętrznej krawędzi', `≥ s = ${PX.fx(s * 100, 1)} cm (§ 69 ust. 6)`, PX.fx(P.wInfo.inTread * 100, 1) + ' cm', P.wInfo.inTread >= s - .005);",
+   "nowe": "add('Stopnie zabiegowe: szerokość 40 cm od wewnętrznej krawędzi', `≥ 25 cm (§ 69 ust. 6) i ≥ s = ${PX.fx(s * 100, 1)} cm`, PX.fx(P.wInfo.inTread * 100, 1) + ' cm', P.wInfo.inTread >= Math.max(.25, s) - .005);",
+   "audyt": "D"
+  },
+  {
+   "kalk": "schody",
+   "opis": "Schody kręcone: sprawdzenie zawsze „spełnia”. Wymagane co najmniej 0,25 m w odległości 0,4 m od słupa (§ 69 ust. 6).",
+   "waga": "ISTOTNY",
+   "stare": "add('Kręcone: szerokość 40 cm od słupa', `= s ${PX.fx(s * 100, 1)} cm`, PX.fx(P.kInfo.at40 * 100, 1) + ' cm', true);",
+   "nowe": "add('Kręcone: szerokość 40 cm od słupa', '≥ 25 cm (§ 69 ust. 6)', PX.fx(P.kInfo.at40 * 100, 1) + ' cm', P.kInfo.at40 >= .25 - .005);",
+   "audyt": "D"
+  },
+  {
+   "kalk": "schody",
+   "opis": "Szerokość biegu schodów kręconych 60–80 cm oznaczona „na granicy”, a werdykt nie każe jej poprawić. § 68 ust. 1 nie przewiduje wyjątku dla schodów kręconych: w budynku jednorodzinnym bieg ≥ 0,8 m.",
+   "waga": "ISTOTNY",
+   "stare": "P.B >= .8 - 1e-9, kind === 'K' && P.B >= .6);",
+   "nowe": "P.B >= .8 - 1e-9);",
+   "audyt": "D"
+  },
+  {
+   "kalk": "schody",
+   "opis": "Podstawa prawna: dopisanie wymaganej szerokości 0,25 m.",
+   "waga": "DROBNY",
+   "stare": "§ 69 ust. 6 (stopnie zabiegowe i kręcone: szerokość stopnia zapewniona nie dalej niż 0,4 m od poręczy lub słupa)",
+   "nowe": "§ 69 ust. 6 (stopnie zabiegowe i kręcone: szerokość stopnia co najmniej 0,25 m zapewniona nie dalej niż 0,4 m od poręczy lub słupa)",
+   "audyt": "D"
+  },
+  {
+   "kalk": "schody",
+   "opis": "Wysokość kondygnacji 0 albo pusta daje stopnie 0 cm uznane za zgodne.",
+   "waga": "DROBNY",
+   "stare": "add('Wysokość stopnia h', '≤ 19 cm', PX.fx(h * 100, 1) + ' cm', h <= .19 + 1e-9);",
+   "nowe": "add('Wysokość stopnia h', '≤ 19 cm', PX.fx(h * 100, 1) + ' cm', h > 0 && h <= .19 + 1e-9);",
+   "audyt": "D"
+  },
+  {
+   "kalk": "schody",
+   "opis": "Sprawdzenie stopni zabiegowych na linii biegu: wymaganie dotyczy 2h + s, a w kolumnie „Jest” pokazana sama głębokość stopnia (np. 30,3 cm przy wymaganiu 60–68 cm).",
+   "waga": "DROBNY",
+   "stare": "'2h + s w granicach 60–68 cm', PX.fx(P.wInfo.walkTread * 100, 1) + ' cm'",
+   "nowe": "'2h + s w granicach 60–68 cm', PX.fx((2 * h + P.wInfo.walkTread) * 100, 1) + ' cm'",
+   "audyt": "D"
+  },
+  {
+   "kalk": "mury",
+   "opis": "Cegła pełna, mur 25 cm (jedna cegła): liczba sztuk liczona z lica 25 × 6,5 cm, tj. 51 szt./m², tak jak dla muru 12 cm. Mur 25 cm ma dwie warstwy wozówek albo główki: ok. 103 szt./m². Wynik zaniżony o połowę. Poprawka: długość w licu 12 cm (główka), objętość cegły bez zmian.",
+   "waga": "KRYTYCZNY",
+   "stare": "cg25: ['Cegła pełna 25×12×6,5, mur 25 cm', 25, 6.5, 25,",
+   "nowe": "cg25: ['Cegła pełna 25×12×6,5, mur 25 cm', 12, 6.5, 25,",
+   "audyt": "D"
+  },
+  {
+   "kalk": "bloczki",
+   "opis": "Bloczek betonowy 38×24×12 (mur 24 cm): 19 szt./m² wpisane na sztywno, a z wymiarów i spoin 10 mm wychodzi 19,7 szt./m² (poradniki: ok. 20–22 szt./m²). Wynik zaniżony o ok. 4%. Poprawka: liczyć z geometrii.",
+   "waga": "DROBNY",
+   "stare": "nm: 'Bloczek betonowy 38×24×12 B15', L: 380, T: 240, H: 120, jh: 10, jv: 10, m2: 19,",
+   "nowe": "nm: 'Bloczek betonowy 38×24×12 B15', L: 380, T: 240, H: 120, jh: 10, jv: 10, m2: null,",
+   "audyt": "D"
+  },
+  {
+   "kalk": "lawy",
+   "opis": "Przy zerowej objętości (np. długość 0) kafelek pokazuje „0 kursów, ostatni ok. 8,0 m³”.",
+   "waga": "DROBNY",
+   "stare": "last: order - (trucks - 1) * S.cap}",
+   "nowe": "last: trucks ? order - (trucks - 1) * S.cap : 0}",
+   "audyt": "D"
+  },
+  {
+   "kalk": "uziom",
+   "waga": "ISTOTNY",
+   "opis": "Łączenie uziomów: suma równoległa ×1,15 i współczynnik η nie uwzględniają wzajemnego oddziaływania uziomów w tym samym obrysie (fundamentowy + otokowy + wiele prętów na obwodzie). Przy wielu prętach wynik jest zaniżony do 50–65% względem obliczenia numerycznego, a program może pokazać „spełnia 10 Ω”, gdy rzeczywista rezystancja jest wyższa. Dodano dolne ograniczenie rezystancją płyty o obrysie układu ρ/(4r) (wzór Laurenta) oraz rzeczywisty odstęp prętów na obwodzie otoku.",
+   "stare": "R.r1 = rRod(rho, Lr, dr); R.pret = R.r1 / (nr * eta(nr, ar, Lr)); R.tasma = 2 * rho / Math.max(Lt, .5);\n  const comb = [st.u_fund && R.fund, st.u_otok && R.otok, st.u_pret && R.pret, st.u_tasma && R.tasma].filter(Boolean);\n  const Rtot = comb.length ? 1 / comb.reduce((s, x) => s + 1 / x, 0) * (comb.length > 1 ? 1.15 : 1) : Infinity;\n  const other = [st.u_fund && R.fund, st.u_otok && R.otok, st.u_tasma && R.tasma].filter(Boolean), par = arr => arr.length ? 1 / arr.reduce((s, x) => s + 1 / x, 0) * (arr.length > 1 ? 1.15 : 1) : Infinity;\n  let needN = null; if (par(other) <= target) needN = 0; else for (let k = 1; k <= 30; k++){ if (par([...other, R.r1 / (k * eta(k, ar, Lr))]) <= target){ needN = k; break; } }\n  const otokOk = !st.u_otok && par([...other, R.otok]) <= target;\n  const needL = (() => { for (let L = 1; L <= 60; L += .5) if (rRod(rho, L, dr) <= target) return L; return null; })();\n  const curve = Array.from({length: 12}, (_, i) => [i + 1, R.r1 / ((i + 1) * eta(i + 1, ar, Lr))]), curve2 = other.length ? Array.from({length: 12}, (_, i) => [i + 1, par([...other, R.r1 / ((i + 1) * eta(i + 1, ar, Lr))])]) : null;\n  const Rother = par(other); return {rho0, rho, target, A, B, P, D, R, Rtot, comb, needN, needL, curve, Lr, nr, ar, Lt, dr, Rother, otokOk, curve2, withN: k => par([...other, R.r1 / (k * eta(k, ar, Lr))])};",
+   "nowe": "R.r1 = rRod(rho, Lr, dr); R.tasma = 2 * rho / Math.max(Lt, .5);\n  // uziomy blisko siebie: układ nie może mieć mniejszej rezystancji niż płyta o obrysie uziomów, ρ/(4·r), r = √(pole/π) (wzór Laurenta); pręty rozstawione na obwodzie otoku\n  const rE = Math.sqrt((A + 2) * (B + 2) / Math.PI), flR = rho / (4 * rE) / (1 + .2 * (Lr + .5) / rE), rodsR = k => k > 1 ? Math.max(R.r1 / (k * eta(k, Math.min(ar, 2 * (A + B + 4) / k), Lr)), flR) : R.r1;\n  R.pret = rodsR(nr);\n  const p0 = arr => arr.length ? 1 / arr.reduce((s, x) => s + 1 / x, 0) * (arr.length > 1 ? 1.15 : 1) : Infinity, fo = [st.u_fund && R.fund, st.u_otok && R.otok].filter(Boolean);\n  const sys = (f, rr) => { const c = rr ? [...f, rr] : f; let x = p0(c); if (c.length > 1) x = Math.max(x, rr ? flR : rho / (4 * rE)); return st.u_tasma ? p0([x, R.tasma].filter(isFinite)) : x; };\n  const comb = [st.u_fund && R.fund, st.u_otok && R.otok, st.u_pret && R.pret, st.u_tasma && R.tasma].filter(Boolean);\n  const Rtot = comb.length ? sys(fo, st.u_pret && R.pret) : Infinity;\n  const other = [st.u_fund && R.fund, st.u_otok && R.otok, st.u_tasma && R.tasma].filter(Boolean), withN = k => sys(fo, rodsR(k));\n  let needN = null; if (sys(fo) <= target) needN = 0; else for (let k = 1; k <= 30; k++){ if (withN(k) <= target){ needN = k; break; } }\n  const otokOk = !st.u_otok && sys([...fo, R.otok]) <= target;\n  const needL = (() => { for (let L = 1; L <= 60; L += .5) if (rRod(rho, L, dr) <= target) return L; return null; })();\n  const curve = Array.from({length: 12}, (_, i) => [i + 1, rodsR(i + 1)]), curve2 = other.length ? Array.from({length: 12}, (_, i) => [i + 1, withN(i + 1)]) : null;\n  const Rother = sys(fo); return {rho0, rho, target, A, B, P, D, R, Rtot, comb, needN, needL, curve, Lr, nr, ar, Lt, dr, Rother, otokOk, curve2, withN};",
+   "audyt": "E"
+  },
+  {
+   "kalk": "uziom",
+   "waga": "DROBNY",
+   "opis": "Brak kontroli danych: długość pręta mniejsza od d/4 (np. 0 lub 0,004 m) daje ujemną rezystancję i komunikat „spełnia cel”; wymiar budynku 0 daje komunikat „Zaznacz co najmniej jeden rodzaj uziomu”.",
+   "stare": "const A = n('A'), B = n('B'), P = 2 * (A + B), D = Math.sqrt(4 * A * B / Math.PI), Lr = n('L'), dr = n('d') / 1000,",
+   "nowe": "const A = Math.max(n('A'), 1), B = Math.max(n('B'), 1), P = 2 * (A + B), D = Math.sqrt(4 * A * B / Math.PI), Lr = Math.max(n('L'), .5), dr = Math.max(n('d'), 10) / 1000,",
+   "audyt": "E"
+  },
+  {
+   "kalk": "kanal",
+   "waga": "ISTOTNY",
+   "opis": "Przepustowość i prędkość liczone wzorem Manninga z n = 0,010 są zawyżone o ok. 20% względem tablic PN-EN 12056-2 (Colebrook-White, kb = 1,0 mm, co odpowiada n ≈ 0,012). Skutek: plakietka „samooczyszczanie” (v ≥ 0,7 m/s) pojawia się przy spadkach, przy których według normy prędkość jest za mała (np. DN160 przy 0,5%: program 0,79 m/s, norma ok. 0,66 m/s). Przy ujemnym spadku wynik był NaN.",
+   "stare": "Rh = d / 4, n = .010; return A * Math.pow(Rh, 2 / 3) * Math.sqrt(i) / n * 1000; }\nfunction qPart(D, i, f){ const th = 2 * Math.acos(1 - 2 * f), d = D / 1000, A = d * d / 8 * (th - Math.sin(th)), P = d * th / 2; return A * Math.pow(A / P, 2 / 3) * Math.sqrt(i) / .010 * 1000; }",
+   "nowe": "Rh = d / 4, n = .012; return A * Math.pow(Rh, 2 / 3) * Math.sqrt(Math.max(i, 0)) / n * 1000; }\nfunction qPart(D, i, f){ const th = 2 * Math.acos(1 - 2 * f), d = D / 1000, A = d * d / 8 * (th - Math.sin(th)), P = d * th / 2; return A * Math.pow(A / P, 2 / 3) * Math.sqrt(Math.max(i, 0)) / .012 * 1000; }",
+   "audyt": "E"
+  },
+  {
+   "kalk": "kanal",
+   "waga": "DROBNY",
+   "opis": "Opis podstaw niezgodny z obliczeniem: podaje n = 0,010 i „minimum ok. 1%” dla DN160, a program przyjmuje minimum 0,7% (1:DN, PN-EN 12056-2 / PN-EN 752 dla przewodów zewnętrznych).",
+   "stare": "przepustowość wzorem Manninga (n = 0,010, PVC-U). Spadki zalecane: DN110 ≥ 2%, DN160 ≥ 1,5% (minimum ok. 1%), DN200 ≥ 1%.",
+   "nowe": "przepustowość wzorem Manninga (n = 0,012, odpowiada chropowatości kb = 1 mm z tablic PN-EN 12056-2). Spadki zalecane: DN110 ≥ 2%, DN160 ≥ 1,5%, DN200 ≥ 1%; minimum 1:DN (DN110 1%, DN160 ok. 0,7%, DN200 0,5%).",
+   "audyt": "E"
+  },
+  {
+   "kalk": "kanal",
+   "waga": "ISTOTNY",
+   "opis": "Tryb „Dopasuj do wlotu”: gdy wlot kanału lub szamba leży wyżej niż dno rury na wyjściu z budynku, program wylicza ujemny spadek i jednocześnie pisze „Spływ grawitacyjny: spadek dobrany tak, że rura trafia dokładnie w wlot”. Komunikat jest sprzeczny z rzeczywistością (ścieki nie spłyną).",
+   "stare": "okG = r.gap >= -.005;",
+   "nowe": "okG = r.gap >= -.005 && (!r.auto || r.iUse > 0);",
+   "audyt": "E"
+  },
+  {
+   "kalk": "kanal",
+   "waga": "ISTOTNY",
+   "opis": "(cd. poprzedniej poprawki) właściwy komunikat dla wlotu położonego wyżej niż wyjście z budynku.",
+   "stare": "!okG ? `Ścieki nie spłyną grawitacyjnie: dno rury na końcu (${PX.fx(r.endZ, 2)} m) jest niżej niż wlot (${PX.fx(r.zt, 2)} m). Potrzebna przepompownia albo płytsze wyjście z budynku.` :",
+   "nowe": "!okG ? (r.auto && r.iUse <= 0 ? `Ścieki nie spłyną grawitacyjnie: wlot (${PX.fx(r.zt, 2)} m) leży wyżej niż dno rury na wyjściu z budynku (${PX.fx(r.z0, 2)} m). Potrzebna przepompownia albo płytsze wyjście z budynku.` : `Ścieki nie spłyną grawitacyjnie: dno rury na końcu (${PX.fx(r.endZ, 2)} m) jest niżej niż wlot (${PX.fx(r.zt, 2)} m). Potrzebna przepompownia albo płytsze wyjście z budynku.`) :",
+   "audyt": "E"
+  },
+  {
+   "kalk": "planer",
+   "waga": "ISTOTNY",
+   "opis": "Pompa ciepła (obwód 3-fazowy z falownikiem) trafia do wspólnego RCD typu A z innymi obwodami. PN-HD 60364-5-53 (531.3.3) wymaga dla odbiorników z falownikiem trójfazowym bez separacji RCD typu B; prąd stały upływu może też „zaślepić” wspólny RCD typu A i odebrać ochronę pozostałym obwodom. Oznaczenie jako obwód wydzielony daje osobny RCD typu B (tak jak dla ładowarki EV).",
+   "stare": "pc:{label:\"Pompa ciepła\",P:6.0,cos:0.9,ph:3,kz:1,ch:\"C\",In:16,S:2.5},",
+   "nowe": "pc:{label:\"Pompa ciepła\",P:6.0,cos:0.9,ph:3,kz:1,ch:\"C\",In:16,S:2.5,ded:true},",
+   "audyt": "E"
+  },
+  {
+   "kalk": "planer",
+   "waga": "ISTOTNY",
+   "opis": "(cd.) opis pod elewacją wyjaśnia RCD typu B także dla pompy ciepła.",
+   "stare": "jeśli nie zapewnia jej ładowarka</div>':\"\"}",
+   "nowe": "jeśli nie zapewnia jej ładowarka. PN-HD 60364-5-53, pkt 531.3.3 · pompa ciepła z falownikiem trójfazowym: osobny RCD typu B, chyba że producent dopuszcza inny typ</div>':\"\"}",
+   "audyt": "E"
+  },
+  {
+   "kalk": "planer",
+   "waga": "DROBNY",
+   "opis": "Nieaktualny opis normy: według PN-HD 60364-4-41:2017 (411.3.2.2) czasy z tablicy 41.1 (0,4 s w TN 230 V) dotyczą obwodów odbiorczych do 63 A z gniazdami i do 32 A zasilających tylko odbiorniki stałe (nie „do 32 A”).",
+   "stare": "0,4 s dla obwodów odbiorczych do 32 A;",
+   "nowe": "0,4 s dla obwodów odbiorczych do 63 A z gniazdami i do 32 A tylko z odbiornikami stałymi;",
+   "audyt": "E"
+  },
+  {
+   "kalk": "planer",
+   "waga": "DROBNY",
+   "opis": "Zły numer normy: dobór i montaż ograniczników przepięć to PN-HD 60364-5-534 (od 2016 r. osobna część), nie PN-HD 60364-5-53.",
+   "stare": "PN-HD 60364-5-53 · ogranicznik przepięć",
+   "nowe": "PN-HD 60364-5-534 · ogranicznik przepięć",
+   "audyt": "E"
+  },
+  {
+   "kalk": "planer",
+   "waga": "ISTOTNY",
+   "opis": "Spadek napięcia w obwodzie jest porównywany z pełnym limitem (domyślnie 3%), bez spadku w WLZ. Opis normy w tym samym narzędziu mówi „od licznika do odbiornika do 3%” (N SEP-E-002), a załącznik G PN-HD 60364-5-52 liczy spadek od początku instalacji. Skutek: dopuszczany jest spadek łączny do 3,5% (o ok. 17% za dużo), a L_max jest zawyżone. Poprawka odejmuje dopuszczalny spadek WLZ od limitu dla obwodów.",
+   "stare": "const LmaxDU=IB>0?S.dumax*U/100/(b*IB*k):Infinity;",
+   "nowe": "const LmaxDU=IB>0?Math.max(0,S.dumax-S.wlzDu)*U/100/(b*IB*k):Infinity;",
+   "audyt": "E"
+  },
+  {
+   "kalk": "planer",
+   "waga": "ISTOTNY",
+   "opis": "(cd.) warunek spadku w obwodzie.",
+   "stare": "okDU:dUp<=S.dumax+1e-9",
+   "nowe": "okDU:dUp<=S.dumax-S.wlzDu+1e-9",
+   "audyt": "E"
+  },
+  {
+   "kalk": "planer",
+   "waga": "ISTOTNY",
+   "opis": "(cd.) komunikat o przekroczeniu.",
+   "stare": "issues.push(\"spadek > \"+fmt(S.dumax,1)+\"%\")",
+   "nowe": "issues.push(\"spadek > \"+fmt(S.dumax-S.wlzDu,1)+\"% (razem z WLZ \"+fmt(S.dumax,1)+\"%)\")",
+   "audyt": "E"
+  },
+  {
+   "kalk": "planer",
+   "waga": "ISTOTNY",
+   "opis": "(cd.) etykieta pola zgodna ze znaczeniem limitu.",
+   "stare": "Dop. spadek w obwodach [%]",
+   "nowe": "Dop. spadek od licznika do odbiornika [%]",
+   "audyt": "E"
+  },
+  {
+   "kalk": "dzialka",
+   "waga": "ISTOTNY",
+   "opis": "Odległości szamba 2 m i 5 m (§ 36 ust. 2) dotyczą tylko zbiorników do 10 m³. Popularne szamba 10–12 m³ i większe (do 50 m³) wymagają 30 m od okien i drzwi, 7,5 m od granicy działki sąsiedniej i 10 m od drogi (§ 36 ust. 3). Program nie pyta o pojemność i dla takiego zbiornika pokazuje „spełnia”. Minimalna poprawka: oznaczenie zakresu i podpowiedź.",
+   "stare": "{k: 's_on', t: 'chk', l: 'Szambo (zbiornik bezodpływowy)'}",
+   "nowe": "{k: 's_on', t: 'chk', l: 'Szambo (zbiornik bezodpływowy do 10 m³)', h: 'Odległości 2 m od granicy i drogi oraz 5 m od okien i drzwi dotyczą zbiorników do 10 m³ w zabudowie jednorodzinnej (§ 36 ust. 2). Zbiornik większy, do 50 m³: co najmniej 30 m od okien i drzwi, 7,5 m od granicy działki sąsiedniej i 10 m od drogi lub ciągu pieszego (§ 36 ust. 3).'}",
+   "audyt": "E"
+  },
+  {
+   "kalk": "dzialka",
+   "waga": "ISTOTNY",
+   "opis": "§ 12 ust. 4 pkt 1: na działce o szerokości 16 m lub mniejszej ścianę bez okien i drzwi można postawić w granicy albo w dowolnej odległości od 1,5 m do 3 m. Program akceptował tylko dokładnie 1,5 m albo 0 m (np. 2 m na działce 14 m oznaczał jako „nie spełnia”), a warunek W < 16 wykluczał działkę o szerokości dokładnie 16 m.",
+   "stare": "else if (!w && (Math.abs(dist - 1.5) < .05 || Math.abs(dist) < .05)) add(`Dom – granica ${name}`, '1,5 m lub w granicy: tylko przy działce węższej niż 16 m albo gdy pozwala MPZP', dist, false, W < 16, 'WT § 12 ust. 2–4', W < 16 ? 'działka węższa niż 16 m: dopuszczalne' : 'wymaga zapisu w MPZP');",
+   "nowe": "else if (!w && (Math.abs(dist) < .05 || (W <= 16 + 1e-9 ? dist >= 1.45 : Math.abs(dist - 1.5) < .05))) add(`Dom – granica ${name}`, W <= 16 + 1e-9 ? 'w granicy lub 1,5–3 m: działka o szerokości do 16 m' : '1,5 m lub w granicy: tylko gdy pozwala MPZP', dist, false, W <= 16 + 1e-9, 'WT § 12 ust. 2 i 4', W <= 16 + 1e-9 ? 'działka o szerokości do 16 m: dopuszczalne' : 'wymaga zapisu w MPZP');",
+   "audyt": "E"
+  },
+  {
+   "kalk": "dzialka",
+   "waga": "DROBNY",
+   "opis": "§ 31 ust. 2 dopuszcza studnię bliżej niż 5 m od granicy (także wspólną na granicy), jeśli na obu działkach zachowane są odległości z ust. 1 pkt 2–5. Program oznaczał to jako bezwzględne „nie spełnia”; poprawnie: „warunkowo”.",
+   "stare": "add('Studnia – granica działki', '≥ 5 m', bnd(x, y), bnd(x, y) >= 5, false, 'WT § 31 ust. 1');",
+   "nowe": "add('Studnia – granica działki', '≥ 5 m', bnd(x, y), bnd(x, y) >= 5, true, 'WT § 31 ust. 1–2', 'bliżej niż 5 m: tylko gdy na działce sąsiedniej zachowane są odległości od szamba, drenażu i rowu');",
+   "audyt": "E"
+  },
+  {
+   "kalk": "dzialka",
+   "waga": "DROBNY",
+   "opis": "Opis podstaw nie mówi, że program nie sprawdza odległości od jezdni (art. 43 ustawy o drogach publicznych) ani od lasu (§ 271 ust. 8 i 8a). Użytkownik może uznać wynik „spełnia” za pełną kontrolę usytuowania.",
+   "stare": "Przepisy przewidują wyjątki (np. § 36 ust. 5): ostateczną ocenę robi projektant.',",
+   "nowe": "Przepisy przewidują wyjątki (np. § 36 ust. 5): ostateczną ocenę robi projektant. Program nie sprawdza odległości od zewnętrznej krawędzi jezdni (art. 43 ustawy o drogach publicznych: droga gminna 6 m w terenie zabudowy, 15 m poza nim, mniej tylko za zgodą zarządcy drogi) ani od granicy lasu (§ 271 ust. 8: 12 m, dla domu jednorodzinnego wyjątki z ust. 8a).',",
+   "audyt": "E"
+  },
+  {
+   "kalk": "koszt",
+   "opis": "Dom piętrowy z dachem spadzistym: brak stropu nad piętrem (opcja opisana jako „płaski strop pod dachem”), liczony jest tylko strop nad parterem.",
+   "waga": "ISTOTNY",
+   "stare": "const Astrop = kond === 'parter' ? 0 : Az0;            // strop nad parterem",
+   "nowe": "const Astrop = kond === 'parter' ? 0 : kond === 'pietro' && st.dach !== 'plaski' ? 2 * Az0 : Az0;   // strop nad parterem (+ strop nad piętrem pod dachem spadzistym)",
+   "audyt": "F"
+  },
+  {
+   "kalk": "koszt",
+   "opis": "Taras na gruncie (poza bryłą budynku) liczony w etapie SSZ i z VAT 8% (GW) albo średnią 8/23% (gospodarczy); poprawnie: zagospodarowanie działki, VAT 23%.",
+   "waga": "DROBNY",
+   "stare": "if (n('taras') > 0) add(5, 'taras', n('taras'));",
+   "nowe": "if (n('taras') > 0) add(9, 'taras', n('taras'));",
+   "audyt": "F"
+  },
+  {
+   "kalk": "koszt",
+   "opis": "System gospodarczy: okna, drzwi zewnętrzne, brama, okna dachowe, źródło ciepła, rekuperacja i PV kupowane z montażem to jedna usługa budowlana (8%), a program liczy dla nich średnią 8/23% – VAT zawyżony o ok. 1% kwoty brutto. Pompy ciepła pominięte (jednostka na gruncie poza bryłą – stawka sporna).",
+   "waga": "DROBNY",
+   "stare": "    x.vatR = fixed23 ? .23 : gw ? v8 : x.lab * v8 + (1 - x.lab) * .23;",
+   "nowe": "    x.vatR = fixed23 ? .23 : gw || /^(okna_|drzwi_zew$|brama$|kociol_gaz$|rekuperacja$|pv$)/.test(x.key) ? v8 : x.lab * v8 + (1 - x.lab) * .23;",
+   "audyt": "F"
+  },
+  {
+   "kalk": "koszt",
+   "opis": "Opis VAT w tabeli przedmiaru – dopasowanie do poprawki stawek dla pozycji z montażem.",
+   "waga": "DROBNY",
+   "stare": "¹ W systemie gospodarczym VAT jest średnią ważoną: 8% od robocizny i 23% od materiałów.",
+   "nowe": "¹ W systemie gospodarczym VAT jest średnią ważoną: 8% od robocizny i 23% od materiałów kupowanych samodzielnie. Okna, drzwi, bramę, kocioł, rekuperację i fotowoltaikę zwykle kupuje się z montażem jako jedną usługę: 8%.",
+   "audyt": "F"
+  },
+  {
+   "kalk": "koszt",
+   "opis": "Opis VAT w „Założeniach” – dopasowanie do poprawek (taras na gruncie 23%, pozycje z montażem 8%).",
+   "waga": "DROBNY",
+   "stare": "Materiały kupowane samodzielnie przez inwestora mają 23%, dlatego w systemie gospodarczym program liczy 8% od robocizny i 23% od materiałów. Prace poza bryłą budynku (przyłącza, szambo, ogrodzenie, podjazd)",
+   "nowe": "Materiały kupowane samodzielnie przez inwestora mają 23%, dlatego w systemie gospodarczym program liczy 8% od robocizny i 23% od materiałów, a dla okien, drzwi, bramy, kotła, rekuperacji i fotowoltaiki kupowanych z montażem 8%. Prace poza bryłą budynku (przyłącza, szambo, ogrodzenie, podjazd, taras na gruncie)",
+   "audyt": "F"
+  },
+  {
+   "kalk": "koszt",
+   "opis": "Ujemna powierzchnia garażu zmniejsza powierzchnię zabudowy i cały przedmiar (brak ograniczenia do ≥ 0).",
+   "waga": "DROBNY",
+   "stare": "pu = Math.max(30, n('pu')), gar = n('gar'),",
+   "nowe": "pu = Math.max(30, n('pu')), gar = Math.max(0, n('gar')),",
+   "audyt": "F"
+  },
+  {
+   "kalk": "koszt",
+   "opis": "Stropodach i strop monolityczny mają ten sam klucz „str_mono”: zmiana ilości lub ceny jednej pozycji w przedmiarze zmienia obie (dach płaski + strop monolityczny).",
+   "waga": "DROBNY",
+   "stare": "\"str_drew\": [\"Strop drewniany belkowy z poszyciem\", \"m²\", 280, 0.45, []],",
+   "nowe": "\"str_drew\": [\"Strop drewniany belkowy z poszyciem\", \"m²\", 280, 0.45, []], \"stropodach\": [\"Stropodach żelbetowy (płyta nad ostatnią kondygnacją)\", \"m²\", 580, 0.45, [8]],",
+   "audyt": "F"
+  },
+  {
+   "kalk": "koszt",
+   "opis": "Stropodach – użycie własnego klucza (druga część poprawki powyżej).",
+   "waga": "DROBNY",
+   "stare": "add(4, 'str_mono', g.Az0 * 1.05, {name: 'Stropodach żelbetowy (płyta nad ostatnią kondygnacją)'});",
+   "nowe": "add(4, 'stropodach', g.Az0 * 1.05);",
+   "audyt": "F"
+  },
+  {
+   "kalk": "koszt",
+   "opis": "Kwota „bez etapu 1” przekazywana do harmonogramu zawiera rezerwę liczoną także od etapu 1 (ok. 2,7 tys. zł przy domyślnych danych).",
+   "waga": "DROBNY",
+   "stare": "PX.shared('koszt', Math.round(tot - E[0].b));",
+   "nowe": "PX.shared('koszt', Math.round((gross - E[0].b) * (1 + PX.num(st.rez) / 100)));",
+   "audyt": "F"
+  },
+  {
+   "kalk": "koszt",
+   "opis": "Ta sama poprawka w eksporcie do Excela (wiersz „Koszt budowy do harmonogramu”).",
+   "waga": "DROBNY",
+   "stare": "harm = R0(r.tot - r.E[0].b);",
+   "nowe": "harm = R0((r.gross - r.E[0].b) * (1 + PX.num(st.rez) / 100));",
+   "audyt": "F"
+  },
+  {
+   "kalk": "koszt",
+   "opis": "Tynk gipsowy liczony także na sufitach i skosach wykonywanych z płyt g-k (pozycje „Sufit podwieszany g-k…” przy parterze i „Ocieplenie skosów… z zabudową g-k” przy poddaszu) – podwójne liczenie ok. 50–130 m² tynku. Malowanie zostaje na pełnej powierzchni.",
+   "waga": "DROBNY",
+   "stare": "const Atyn = (O * (Hsc - .3) - Aokna) + 2 * Adz + 2 * Awn + pu * 1.0;",
+   "nowe": "const Asgk = st.dach === 'plaski' ? 0 : kond === 'parter' ? pu : kond === 'podd' ? pu - Az0 * kU : 0;   // sufity i skosy z g-k (bez tynku)\n  const Atyn = (O * (Hsc - .3) - Aokna) + 2 * Adz + 2 * Awn + pu * 1.0 - Asgk;",
+   "audyt": "F"
+  },
+  {
+   "kalk": "koszt",
+   "opis": "Tynk na g-k – druga część: zwrot Asgk z geometrii.",
+   "waga": "DROBNY",
+   "stare": "Atyn, Afloor, Aelew, pE, pW, Arz, szczyty};",
+   "nowe": "Atyn, Asgk, Afloor, Aelew, pE, pW, Arz, szczyty};",
+   "audyt": "F"
+  },
+  {
+   "kalk": "koszt",
+   "opis": "Tynk na g-k – trzecia część: malowanie obejmuje także sufity i skosy z g-k.",
+   "waga": "DROBNY",
+   "stare": "add(8, 'malowanie', g.Atyn);",
+   "nowe": "add(8, 'malowanie', g.Atyn + g.Asgk);",
+   "audyt": "F"
+  },
+  {
+   "kalk": "harmonogram",
+   "opis": "Domyślne etapy (jedna podmiana tablicy DEF): (1) udziały kosztów niezgodne ze strukturą kosztorysu – transza przy SSO 46% zamiast ok. 35–37%, instalacje 10% zamiast ok. 13–18%, teren i przyłącza 3% zamiast ok. 8–11%; (2) sucha zabudowa i ocieplenie poddasza (wełna, paroizolacja, g-k) zaplanowane przed tynkami i wylewkami – zawilgocenie wełny i płyt; kamień „stan deweloperski” przeniesiony na koniec zabudowy (tak liczy kosztorys); (3) przerwa po wieńcu ścianki kolankowej 7 dni, a więźbę montuje się najwcześniej po ok. 14 dniach; (4) etap terenu nie wymienia przyłączy, a elewacja równoległa z tynkami nie ma ostrzeżenia o wilgoci.",
+   "waga": "ISTOTNY",
+   "stare": "const DEF = [\n  E('a1', 'Przygotowanie placu, wytyczenie przez geodetę, prąd i woda budowlana', 5, '', 'FS', 0, 'nie', '', 2, 'Tablica informacyjna, dziennik budowy, wytyczenie geodezyjne z wpisem'),\n  E('a2', 'Wykopy i ławy fundamentowe', 7, '', 'FS', 7, 'zew', '', 6, 'Odbiór wykopu i zbrojenia ław przez kierownika budowy przed betonowaniem'),\n  E('a3', 'Ściany fundamentowe, izolacje przeciwwodne, ocieplenie, zasypka', 10, '', 'FS', 3, 'zew', '', 6, 'Kontrola izolacji przed zasypaniem, zagęszczenie warstwami'),\n  E('a4', 'Kanalizacja podposadzkowa i podkład z chudego betonu', 4, '', 'FS', 7, 'zew', '', 1, 'Próba szczelności i spadków przed zasypaniem, inwentaryzacja geodezyjna przyłączy'),\n  E('a5', 'Ściany parteru i nadproża', 12, '', 'FS', 0, 'zew', '', 8, 'Kontrola pionów, wiązań i otworów w świetle'),\n  E('a6', 'Strop i wieniec (szalunek, zbrojenie, betonowanie)', 7, '', 'FS', 14, 'zew', '', 6, 'Odbiór zbrojenia stropu przed betonowaniem; podpory zostają zwykle ok. 28 dni'),\n  E('a7', 'Ściany poddasza, kominy, wieniec ścianki kolankowej', 8, '', 'FS', 7, 'zew', '', 4, 'Kontrola kotew murłaty w wieńcu'),\n  E('a8', 'Więźba dachowa', 5, '', 'FS', 0, 'nie', '', 4, 'Impregnacja drewna, zgodność przekrojów z projektem'),\n  E('a9', 'Pokrycie dachu, obróbki blacharskie, rynny', 10, '', 'FS', 0, 'nie', 'sso', 9, 'Odbiór membrany i łat przed ułożeniem pokrycia'),\n  E('a10', 'Okna i drzwi zewnętrzne (montaż warstwowy)', 3, '', 'FS', 0, 'nie', 'ssz', 8, 'Taśmy paroszczelne i paroprzepuszczalne, protokół montażu'),\n  E('a11', 'Instalacje: wod-kan, ogrzewanie, wentylacja, elektryka', 15, '', 'FS', 0, 'nie', '', 10, 'Próby ciśnieniowe i pomiary elektryczne przed zakryciem tynkiem i wylewką'),\n  E('a12', 'Sucha zabudowa i ocieplenie poddasza', 10, '', 'FS', 0, 'nie', '', 4, 'Ciągłość paroizolacji, sklejenie zakładów'),\n  E('a13', 'Tynki wewnętrzne', 10, '', 'FS', 14, 'wew', '', 5, 'Temperatura min. +5 °C, wietrzenie w trakcie schnięcia'),\n  E('a14', 'Elewacja: ocieplenie i tynk cienkowarstwowy', 15, 'a13', 'SS', 0, 'zew', '', 8, 'Prace przy temperaturze +5…+25 °C, bez deszczu i silnego słońca'),\n  E('a15', 'Wylewki (jastrych) z wygrzewaniem ogrzewania podłogowego', 4, 'a13', 'FS', 28, 'wew', 'dew', 3, 'Pomiar wilgotności metodą CM przed układaniem podłóg'),\n  E('a16', 'Prace wykończeniowe: płytki, podłogi, malowanie, biały montaż', 30, 'a15', 'FS', 0, 'nie', '', 12, 'Odbiory częściowe od ekip, lista usterek'),\n  E('a17', 'Zagospodarowanie terenu, podjazd, ogrodzenie', 10, 'a16', 'SS', 0, 'nie', '', 3, 'Opaska wokół budynku i spadki terenu od ścian'),\n  E('a18', 'Inwentaryzacja geodezyjna, dokumenty, zawiadomienie o zakończeniu budowy', 5, 'a16', 'FS', 0, 'nie', 'odb', 1, 'Oświadczenie kierownika budowy, protokoły kominiarskie i elektryczne'),\n];",
+   "nowe": "const DEF = [\n  E('a1', 'Przygotowanie placu, wytyczenie przez geodetę, prąd i woda budowlana', 5, '', 'FS', 0, 'nie', '', 1, 'Tablica informacyjna, dziennik budowy, wytyczenie geodezyjne z wpisem'),\n  E('a2', 'Wykopy i ławy fundamentowe', 7, '', 'FS', 7, 'zew', '', 5, 'Odbiór wykopu i zbrojenia ław przez kierownika budowy przed betonowaniem'),\n  E('a3', 'Ściany fundamentowe, izolacje przeciwwodne, ocieplenie, zasypka', 10, '', 'FS', 3, 'zew', '', 3, 'Kontrola izolacji przed zasypaniem, zagęszczenie warstwami'),\n  E('a4', 'Kanalizacja podposadzkowa i podkład z chudego betonu', 4, '', 'FS', 7, 'zew', '', 2, 'Próba szczelności i spadków przed zasypaniem, inwentaryzacja geodezyjna przyłączy'),\n  E('a5', 'Ściany parteru i nadproża', 12, '', 'FS', 0, 'zew', '', 6, 'Kontrola pionów, wiązań i otworów w świetle'),\n  E('a6', 'Strop i wieniec (szalunek, zbrojenie, betonowanie)', 7, '', 'FS', 14, 'zew', '', 8, 'Odbiór zbrojenia stropu przed betonowaniem; podpory zostają zwykle ok. 28 dni'),\n  E('a7', 'Ściany poddasza, kominy, wieniec ścianki kolankowej', 8, '', 'FS', 14, 'zew', '', 2, 'Kontrola kotew murłaty w wieńcu; więźbę montuj najwcześniej po ok. 14 dniach od betonowania wieńca'),\n  E('a8', 'Więźba dachowa', 5, '', 'FS', 0, 'nie', '', 4, 'Impregnacja drewna, zgodność przekrojów z projektem'),\n  E('a9', 'Pokrycie dachu, obróbki blacharskie, rynny', 10, '', 'FS', 0, 'nie', 'sso', 6, 'Odbiór membrany i łat przed ułożeniem pokrycia'),\n  E('a10', 'Okna i drzwi zewnętrzne (montaż warstwowy)', 3, '', 'FS', 0, 'nie', 'ssz', 6, 'Taśmy paroszczelne i paroprzepuszczalne, protokół montażu'),\n  E('a11', 'Instalacje: wod-kan, ogrzewanie, wentylacja, elektryka', 15, '', 'FS', 0, 'nie', '', 16, 'Próby ciśnieniowe i pomiary elektryczne przed zakryciem tynkiem i wylewką'),\n  E('a13', 'Tynki wewnętrzne', 10, '', 'FS', 14, 'wew', '', 4, 'Temperatura min. +5 °C, wietrzenie w trakcie schnięcia'),\n  E('a14', 'Elewacja: ocieplenie i tynk cienkowarstwowy', 15, 'a13', 'SS', 0, 'zew', '', 6, 'Prace przy temperaturze +5…+25 °C, bez deszczu i silnego słońca; systemodawcy zalecają ocieplenie po wyschnięciu tynków i wylewek, przy pracy równoległej intensywnie wietrz wnętrza'),\n  E('a15', 'Wylewki (jastrych) z wygrzewaniem ogrzewania podłogowego', 4, 'a13', 'FS', 28, 'wew', '', 2, 'Pomiar wilgotności metodą CM przed układaniem podłóg'),\n  E('a12', 'Sucha zabudowa i ocieplenie poddasza', 10, 'a15', 'FS', 0, 'nie', 'dew', 6, 'Po pracach mokrych (tynki, wylewki), gdy wilgoć odparuje; ciągłość paroizolacji, sklejenie zakładów'),\n  E('a16', 'Prace wykończeniowe: płytki, podłogi, malowanie, biały montaż', 30, 'a12', 'FS', 0, 'nie', '', 13, 'Odbiory częściowe od ekip, lista usterek'),\n  E('a17', 'Przyłącza, zagospodarowanie terenu, podjazd, ogrodzenie', 10, 'a16', 'SS', 0, 'nie', '', 9, 'Opaska wokół budynku i spadki terenu od ścian'),\n  E('a18', 'Inwentaryzacja geodezyjna, dokumenty, zawiadomienie o zakończeniu budowy', 5, 'a16', 'FS', 0, 'nie', 'odb', 1, 'Oświadczenie kierownika budowy, protokoły kominiarskie i elektryczne'),\n];",
+   "audyt": "F"
+  },
+  {
+   "kalk": "harmonogram",
+   "opis": "Zapas na opóźnienia: Math.ceil na wyniku zmiennoprzecinkowym dodaje 1 dzień w części przypadków (np. 50 dni × 1,1 = 55,000…01 → 56).",
+   "waga": "DROBNY",
+   "stare": "D = Math.max(0, Math.ceil(PX.num(r.d) * (1 + res)))",
+   "nowe": "D = Math.max(0, Math.ceil(Math.round(PX.num(r.d) * (1 + res) * 1e6) / 1e6))",
+   "audyt": "F"
+  },
+  {
+   "kalk": "harmonogram",
+   "opis": "Wczytywanie kwoty z CSV/tekstu: zapis z kropką jako separatorem tysięcy („850.000”, „1.250.000”) daje 850 / 1,25 i kwota jest odrzucana – plik zgłasza błąd „nie znaleziono kwoty”.",
+   "waga": "DROBNY",
+   "stare": "    else if (s.includes(',')) s = /,\\d{3}$/.test(s)",
+   "nowe": "    else if (/^-?\\d{1,3}(\\.\\d{3})+$/.test(s)) s = s.replace(/\\./g, '');\n    else if (s.includes(',')) s = /,\\d{3}$/.test(s)",
+   "audyt": "F"
+  }
+ ]
+}
