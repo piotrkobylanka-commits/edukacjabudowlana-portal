@@ -1,2 +1,12 @@
-2026-10-31 10:26 UTC
-BRAK sekretu FTP_PASSWORD – publikacja pominięta
+2026-10-31 10:29 UTC
+TRYB: próba (dry-run)
+== ftp://.../
+== ftp://.../public_html/
+== ftp://.../public_html/p/
+== liczba paczek p/*.json na serwerze:
+0
+== kontrola na żywo
+index.html: 13742852 B, nowe wpisy: 
+p/427.json: 404 4511
+s49.webp: 200 181260
+api.php: 401
