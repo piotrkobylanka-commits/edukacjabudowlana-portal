@@ -1,27 +1,12 @@
-2026-10-31 10:31 UTC
+2026-10-31 10:36 UTC
 TRYB: próba (dry-run)
 == ftp://.../
 == ftp://.../public_html/
 == ftp://.../public_html/p/
 == diagnostyka logowania FTPS (kody serwera)
-< 220 FTP Server ready.
-< 234 AUTH SSL successful
-* TLSv1.3 (OUT), TLS handshake, Client hello (1):
-* TLSv1.3 (IN), TLS handshake, Server hello (2):
-* TLSv1.3 (IN), TLS change cipher, Change cipher spec (1):
-* TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):
-* TLSv1.3 (IN), TLS handshake, Certificate (11):
-* TLSv1.3 (IN), TLS handshake, CERT verify (15):
-* TLSv1.3 (IN), TLS handshake, Finished (20):
-* TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):
-* TLSv1.3 (OUT), TLS handshake, Finished (20):
-* SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384 / X25519MLKEM768 / id-ecPublicKey
-curl: (60) SSL: no alternative certificate subject name matches target ipv4 address '217.65.157.30'
+curl: (28) Connection timed out after 60001 milliseconds
 == diagnostyka FTP bez TLS (tylko logowanie)
-< 220 FTP Server ready.
-< 331 Password required for u475962483
-< 530 Login incorrect.
-curl: (67) Access denied: 530
+curl: (28) Connection timed out after 60002 milliseconds
 == liczba paczek p/*.json na serwerze:
 0
 == kontrola na żywo
