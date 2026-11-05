@@ -1,0 +1,70 @@
+Kamienna okładzina na elewacji. Co przekazać projektantowi, zanim wykonawca wyceni sam klej
+
+🪨 „Kamienna okładzina ma wisieć na elewacji. Wykonawca wycenia tylko klej.”
+W ofercie są trzy pozycje: kamień, klej, robocizna. Nie ma kotew, rusztu, rysunku mocowania ani osoby, która sprawdziła, czy taki układ wytrzyma lata na tej ścianie.
+Klej nie zawsze jest błędem. Drobne, cienkie elementy na niskiej ścianie to inna sprawa niż płyty 3–4 cm nad wejściem. Błędem jest założenie, że skoro ktoś wycenił klej, to ktoś rozwiązał też mocowanie.
+NAJPIERW KILOGRAMY
+Przyjmijmy do rachunku 2700 kg/m³. Tablice obciążeń podają dla granitu 27–30 kN/m³, a dla piaskowca 21–27 kN/m³, więc wasz kamień może wyjść inaczej.
+● 2 cm grubości: ok. 54 kg/m²,
+● 3 cm grubości: ok. 81 kg/m²,
+● 4 cm grubości: ok. 108 kg/m²,
+● płyta 60 × 60 × 3 cm: ok. 29 kg,
+● płyta 100 × 50 × 4 cm: ok. 54 kg.
+Poradniki branżowe podają dla klejenia do ocieplenia pułap 40 kg/m². Przy tej gęstości osiągacie go już przy 1,5 cm kamienia.
+PIĘĆ DANYCH DLA PROJEKTANTA
+● Rodzaj kamienia. Skała, nazwa handlowa, wykończenie, kolor i dokument wyrobu. Projektanta interesują gęstość, nasiąkliwość, wytrzymałość na zginanie i mrozoodporność. Przy kotwach w krawędzi płyty także obciążenie niszczące przy otworze.
+● Format. Długość, szerokość, grubość, tolerancje i spoina. Przy kamieniu łupanym podajcie największą grubość.
+● Ciężar. Kilogramy na metr kwadratowy i na sztukę, policzone z danych dostawcy.
+● Podłoże. Z czego jest ściana nośna: żelbet, cegła pełna, silikat, beton komórkowy, ceramika poryzowana. Co na niej leży: tynk, styropian, XPS, wełna, warstwa zbrojona. Jak ocieplenie jest przymocowane.
+● Wysokość montażu. Ile metrów nad terenem i w jakim miejscu: cokół, parter, nad wejściem, nad tarasem, attyka.
+Dołączcie rysunek elewacji z zaznaczonym kamieniem. Projektant ma oceniać konkretne miejsce na budynku, a nie „kamień na dom”.
+GDZIE SAM KLEJ PRZESTAJE BYĆ OCZYWISTY
+Nie ma jednej liczby dla każdego domu. Są za to punkty odniesienia:
+● Poradniki branżowe wiążą klejenie do ocieplenia z elementami cienkimi i lekkimi: do 40 kg/m², grubości do 2 cm, na ścianach do 2,5–3 m.
+● Małe elementy do 3 cm można na niskim budynku kleić do wytrzymałego muru, ale poradnik zaleca dodatkowe kotwienie co kilka warstw.
+● Płyty 3–4 cm na ścianie z ociepleniem wieszane są na łącznikach mechanicznych. To one przenoszą ciężar oraz parcie i ssanie wiatru.
+● W polskich ocenach systemów ociepleń z okładziną chodziło zwykle o płytki ceramiczne: do 0,09 m², boku 30 cm, grubości 15 mm i masy 40 kg/m². Cięższe układy i kamień wymagają osobnej oceny.
+● Niemiecka DIN 18515-1 dla okładzin przyklejanych obejmuje płytki do 15 mm, a przy grubości 15–30 mm tylko elementy do 1,5 kg/szt. DIN 18516-3 dla wentylowanych płyt kamiennych od 30 mm nie dopuszcza klejenia przenoszącego obciążenia statyczne.
+Normy DIN nie są polskimi przepisami. Pokazują jednak skalę problemu.
+
+CO TO MOCOWANIE MUSI WYTRZYMAĆ
+● Ciężar. Działa bez przerwy, także na izolację, jeśli kamień leży na ociepleniu.
+● Wiatr. Badacze ITB opisują wieloletnie cykle docisku i odrywania, które mogą stopniowo odspajać okładzinę.
+● Temperaturę. Dobowa różnica może sięgać 40°C, a ciemny kamień w słońcu może przekroczyć 90°C. Ulewa potrafi go potem gwałtownie schłodzić.
+● Wodę i mróz. Zaprawa bywa wypłukiwana, a zawilgocona warstwa może się rozwarstwiać. Dotyczy to zwłaszcza cokołów, gzymsów, nadproży, attyk i miejsc przy nieszczelnych rynnach.
+W jednym z badań ITB system z ceramiką grubości 40 mm na wełnie klejonej do podłoża uległ zniszczeniu przy pierwszym stopniu dodatkowego obciążenia. Układ ze styropianem TR 80 oceniono wtedy pozytywnie. To wstępne wyniki dla ceramiki, nie dla każdego kamienia. Pokazują jednak, że o nośności decyduje cały układ, nie sam klej.
+Karta z napisem „do kamienia” też nie zamyka tematu. Sprawdźcie, czy producent dopuszcza zastosowanie na zewnątrz, na tym podłożu, z tym kamieniem i formatem. PN-EN 1469 dotyczy płyt okładzinowych i nie obejmuje ich mocowania zaprawą ani klejem.
+KOTWA TEŻ MA SWÓJ ZAKRES
+Zamiana kleju na „jakieś kotwy” niczego nie rozwiązuje. Krajowa deklaracja jednego z producentów obejmuje ściany z betonu od C12/15 oraz z pełnej cegły ceramicznej klasy co najmniej 15. Poradnik branżowy wskazuje kotwy punktowe przy żelbecie i wytrzymałym silikacie, a przy betonie komórkowym i ceramice poryzowanej uznaje ruszt za bezpieczniejszy.
+Kopiowanie rozwiązania od sąsiada też odpada. Liczbę, kształt i wymiary łączników dobiera się na podstawie obliczeń dla ciężaru, wiatru i ruchów okładziny.
+
+CO MÓWI PRAWO
+Art. 5 ust. 1 Prawa budowlanego wymaga projektowania i budowania obiektu oraz jego części według przepisów i zasad wiedzy technicznej. Trzeba przy tym uwzględnić przewidywany okres użytkowania oraz zapewnić m.in. nośność, stateczność i bezpieczeństwo użytkowania.
+Jeśli kamień zastępuje tynk już po zatwierdzeniu projektu, zamierzone odstąpienie kwalifikuje projektant (art. 36a ust. 6). Zapytajcie go przed zamówieniem płyt.
+Przy umowie o roboty budowlane wykonawca powinien niezwłocznie zawiadomić inwestora, gdy dokumentacja nie nadaje się do prawidłowego wykonania robót albo pojawiają się inne przeszkody (art. 651 k.c.). Orzecznictwo nie nakłada jednak na niego obowiązku szczegółowego badania projektu. Przy umowie o dzieło sprawdźcie art. 634 k.c. Dlatego kto projektuje mocowanie, zapiszcie wprost.
+Warunki techniczne z 2002 r. mówiły w § 225 o mocowaniu okładzin tak, by nie odpadały w pożarze. To wymaganie pożarowe, a nie recepta na klej. Same warunki wygasły 20 września 2026 r., a nowych nie ogłoszono. Art. 102a Prawa budowlanego pozwala w okresie przejściowym oprzeć wskazane projekty na dotychczasowych przepisach, po złożeniu oświadczenia inwestora. Zapytajcie projektanta, według których warunków powstał wasz projekt.
+CO ZAPISAĆ W UMOWIE
+● kto projektuje mocowanie, a kto je wykonuje,
+● rysunek z typem, liczbą i rozstawem łączników,
+● obliczenia albo pisemna ocena projektanta,
+● przyjęty kamień, format i ciężar,
+● klej, zaprawa, siatka, kotwy i ruszt z kartami i zakresem stosowania,
+● dokument całego zestawu albo potwierdzenie, że elementy do siebie pasują,
+● podział płyt, spoiny i dylatacje,
+● zdjęcia przed zakryciem: kotwy, ruszt, warstwa zbrojona, klej na spodzie płyt,
+● zakaz zmiany kamienia lub formatu bez ponownej oceny.
+
+OSIEM BŁĘDÓW
+❌ „Klej” w ofercie bez opisu całego układu
+❌ Wybór kamienia bez kilogramów na metr kwadratowy
+❌ Karta kleju przeczytana tylko do słów „do kamienia”
+❌ Ciężar oparty na ociepleniu bez sprawdzenia jego mocowania
+❌ Kotwa dobrana bez znajomości ściany
+❌ Cokół, nadproże i attyka potraktowane jak środek ściany
+❌ Zmiana formatu na budowie bez rozmowy z projektantem
+❌ Każdy zakłada, że liczył ktoś inny
+
+NA KONIEC
+Cena kleju mówi, ile kosztuje worek. Nie mówi, kto odpowiada za to, co ten worek ma utrzymać.
+
+#EdukacjaBudowlana #Elewacja #ElewacjaZKamienia #KamieńNaturalny #OkładzinaKamienna #Kotwy #ElewacjaWentylowana #BudowaDomu #Inwestor #KierownikBudowy #BłędyBudowlane

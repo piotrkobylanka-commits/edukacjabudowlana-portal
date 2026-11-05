@@ -1,0 +1,122 @@
+❄️ „Klimatyzator ma wisieć na wspólnej elewacji”
+
+Model wybrany, montażysta ma wolny piątek, karton stoi w przedpokoju. Na koniec pada pytanie: „A zgodę masz?”.
+
+Elewacja należy do wszystkich właścicieli, więc zakup powinien być ostatnim krokiem. Przed wizytą w sklepie ustal pięć rzeczy: miejsce, mocowanie, trasę przewodów, odpływ i zgody.
+
+CZYJA ZGODA JEST POTRZEBNA
+
+Sąd Apelacyjny w Łodzi uznał ścianę zewnętrzną za nieruchomość wspólną, a klimatyzator na niej za zmianę przeznaczenia jej części. Pismo zarządu nie zastąpiło uchwały (I ACa 728/17). Właściciel powiesił urządzenie przed głosowaniem, a uchwała nie zdobyła większości.
+
+● Wspólnota, więcej niż trzy lokale: potrzebna jest uchwała (art. 22 ust. 2 i ust. 3 pkt 4 ustawy o własności lokali), zwykle większością udziałów. Może zapaść na zebraniu albo w indywidualnym zbieraniu głosów (art. 23).
+● Najwyżej trzy lokale: stosuje się przepisy Kodeksu cywilnego o współwłasności (art. 19 tej ustawy). Czynność przekraczająca zwykły zarząd wymaga zgody wszystkich. Gdy jej brak, współwłaściciele mający co najmniej połowę udziałów mogą iść do sądu (art. 199 k.c.).
+● Spółdzielnia: zapytaj o regulamin montażu. Taki dokument może dopuszczać tylko balkon lub loggię, zakazywać ścian zewnętrznych i wyznaczać limity hałasu.
+● Nowy budynek: przeczytaj warunki gwarancji na elewację i ocieplenie, zanim ktoś przewierci ścianę.
+
+CO DOŁĄCZYĆ DO WNIOSKU
+
+Sama „zgoda na klimatyzację” zostawia spór na dzień montażu. Sąd Okręgowy Warszawa-Praga uchylił uchwałę o zasadach montażu. Decyzji o korzystaniu z elewacji nie można było przenieść na zarząd, a wymóg „wszystkich wymaganych dokumentów” był zbyt nieprecyzyjny (I C 614/17). Sąd Apelacyjny w Szczecinie oceniał uchwałę razem z dokumentacją, która była jej częścią (I ACa 770/21).
+
+Przygotuj komplet:
+
+Numer lokalu i fotomontaż z zaznaczonym miejscem.
+Rysunek mocowania i przejścia przez ścianę.
+Trasę przewodów i sposób odprowadzenia skroplin.
+Kartę urządzenia z masą, wymiarami i danymi o hałasie.
+Zasady naprawy elewacji, serwisu i demontażu.
+Informację, kto ponosi koszty i czy wspólnota chce opłaty za zajęcie elewacji.
+
+Uchwałę można zaskarżyć w ciągu 6 tygodni, a zaskarżona podlega wykonaniu, chyba że sąd ją wstrzyma (art. 25 ust. 1a i 2). Bezpieczniej zamówić montaż po upływie tego terminu.
+
+CZY BALKON ROZWIĄZUJE SPRAWĘ
+
+Nie zawsze. W wyroku warszawskim posadzka balkonu nie była częścią wspólną, ale otwory w ścianie i elewacji wymagały zgody. Status balkonu trzeba sprawdzić dla konkretnego budynku. Rządowy projekt UD312 ma doprecyzować te zasady, ale to nadal projekt.
+
+MIEJSCE
+
+● Która to ściana: front, podwórko, loggia, dach?
+● Czyje okna i balkony są obok? Agregat może dmuchać prosto w okno sąsiada.
+● Jakich odstępów wymaga producent, by urządzenie miało czym oddychać?
+● Jak serwisant dojdzie do agregatu? Podnośnik co rok to też koszt.
+● Co jest pod spodem: chodnik, wejście do klatki, balkon sąsiada?
+
+Sprawdź także plan miejscowy i to, czy budynek leży w parku kulturowym. Wrocław opisywał zakaz montażu klimatyzatorów na zewnątrz budynków w miejscach widocznych z przestrzeni publicznej, z wyjątkami związanymi z planem i konserwatorem.
+
+MOCOWANIE
+
+Ocieplenie nie przenosi obciążenia od agregatu. Wspornik musi trafić w warstwę nośną ściany, więc monter powinien ustalić:
+
+● z czego jest ściana i jak grube jest ocieplenie,
+● ile waży agregat razem ze wspornikiem,
+● jakie kotwy pasują do tego podłoża,
+● jak uszczelnić przejście przez ocieplenie,
+● jakie podkładki ograniczą drgania.
+
+Przy wielkiej płycie, ścianie warstwowej i podłożu o niepewnej nośności zapytaj konstruktora. Nie wieszaj agregatu na balustradzie bez zgody i oceny konstruktora. Zdjęcia kotew i przejść zrób przed zakryciem.
+
+PRZEWODY I PRĄD
+
+Między jednostkami biegną rury z czynnikiem, kabel i odpływ skroplin. Ustal to przed wierceniem:
+
+● gdzie będzie otwór i czy nie trafi w instalacje, zbrojenie albo nadproże,
+● czy otwór ma spadek na zewnątrz i jak zostanie uszczelniony,
+● czy trasa mieści się w limitach długości i różnicy wysokości z instrukcji,
+● czy przewody idą korytkiem, a jego kolor pasuje do elewacji,
+● czy trasa przechodzi przez fragment elewacji przy innym lokalu.
+
+Elektryk powinien sprawdzić instalację w mieszkaniu i dobrać obwód oraz zabezpieczenie do mocy urządzenia.
+
+ODPŁYW SKROPLIN
+
+Woda nie powinna spływać po elewacji, na chodnik ani na balkon niżej. Najczęściej zostają trzy drogi:
+
+● grawitacyjny odpływ do kanalizacji w lokalu przez syfon,
+● pompka skroplin, jeśli brakuje spadku,
+● pojemnik, ale tylko tam, gdzie ktoś naprawdę będzie go opróżniał.
+
+Przy grzaniu agregat również oddaje wodę. Zimą może to oznaczać lód pod urządzeniem, więc zapytaj montera, gdzie ta woda trafi.
+
+HAŁAS I DRGANIA
+
+Klasa energetyczna opisuje zużycie energii, a nie hałas. Zwrócił na to uwagę sąd warszawski. W kartach porównuj te same parametry, bo moc akustyczna i poziom ciśnienia akustycznego to dwie różne wartości.
+
+Art. 144 k.c. zakazuje zakłócania korzystania z nieruchomości sąsiednich ponad przeciętną miarę. Sąd Okręgowy Warszawa-Praga odniósł ten przepis także do lokali, w sprawie hałasu bramy garażowej (IV Ca 1056/13). Porozmawiaj z sąsiadami przed głosowaniem. Sypialnia za ścianą to ważniejszy argument niż ładny fotomontaż.
+
+STAROSTWO I KONSERWATOR
+
+Zgoda właścicieli i formalności budowlane to dwie różne sprawy.
+
+● Instalowanie urządzeń technicznych o wysokości do 3 m nie wymaga pozwolenia ani zgłoszenia (art. 29 ust. 4 pkt 3 lit. a Prawa budowlanego). Limit dotyczy urządzenia, a nie budynku.
+● Instalacje w użytkowanym budynku, poza gazowymi, są na tej samej liście (art. 29 ust. 4 pkt 3 lit. d).
+● Większą ingerencję w przegrodę zewnętrzną lub konstrukcję oceń osobno, bo to może być już inny rodzaj robót.
+● Umieszczenie urządzenia technicznego na zabytku z rejestru wymaga zgłoszenia wojewódzkiemu konserwatorowi. Ma on 60 dni na sprzeciw (art. 36aa ustawy o ochronie zabytków). Może też zażądać pozwolenia, a przewierty mogą wchodzić już w roboty przy zabytku. Zapytaj konserwatora, zanim wybierzesz miejsce.
+
+KTO MONTUJE
+
+Firma instalująca klimatyzację z fluorowanymi gazami powinna mieć certyfikat przedsiębiorcy, a personel certyfikat F-gazowy. Poproś o numery przed podpisaniem umowy.
+
+W umowie zapisz też zakres prac, wygrodzenie chodnika, pracę na wysokości, naprawę elewacji, odbiór i polisę OC.
+
+Dodaj zasady na później: kto zdejmuje agregat przy remoncie elewacji, kto naprawia otwory po demontażu i kto reguluje urządzenie po skargach na hałas.
+
+KOLEJNOŚĆ
+
+Rozmowa z zarządcą i regulamin.
+Wizja z monterem na miejscu.
+Rysunek, fotomontaż i wstępny dobór modelu.
+Rozmowa z sąsiadami.
+Wniosek, uchwała, inne wymagane zgody i termin na zaskarżenie.
+Zakup i umowa.
+Montaż, zdjęcia, protokół odbioru.
+
+SIEDEM BŁĘDÓW
+
+❌ Zakup urządzenia przed ustaleniem miejsca i zgód
+❌ Traktowanie pisma zarządu jak uchwały
+❌ Wiercenie w ociepleniu bez sprawdzenia warstwy nośnej
+❌ Skropliny puszczone po elewacji albo na niższy balkon
+❌ Agregat przy oknie sąsiada bez rozmowy i danych o hałasie
+❌ Montaż bez sprawdzenia certyfikatów firmy
+❌ Brak zasad na czas remontu elewacji
+
+#EdukacjaBudowlana #Klimatyzacja #Klimatyzator #WspólnotaMieszkaniowa #Elewacja #NieruchomośćWspólna #ZarządcaNieruchomości #SpółdzielniaMieszkaniowa #PrawoBudowlane #MontażKlimatyzacji

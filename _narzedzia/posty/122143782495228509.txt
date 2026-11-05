@@ -1,0 +1,90 @@
+Zbiornik LPG a projekt ogrodu. Lokalizacja, dostęp serwisowy i dostawy paliwa
+
+🌿 „Zbiornik LPG ma stanąć w ogrodzie, ale projekt ogrodu powstał osobno.”
+Projektant ogrodu rysuje taras, altanę, rabaty i nieckę na deszczówkę. Projektant instalacji gazowej pracuje na mapie działki i zaznacza zbiornik. Oba opracowania wyglądają dobrze, dopóki leżą osobno.
+Kłopot pojawia się po nałożeniu ich na jeden plan. Altana może wejść na dojście do zbiornika, wykop pod rurę na nowy trawnik, a niecka zbyt blisko miejsca, które wybrano dla zbiornika.
+Zbiornik nie jest ozdobą, którą dopasuje się na końcu. Ma warunki lokalizacji, dojazd, dostęp serwisowy i trasę rury do domu. Trzeba je ustalić, zanim ogród zostanie wykonany.
+
+DLACZEGO NIE MA JEDNEJ ODLEGŁOŚCI
+Wynik zależy między innymi od:
+ pojemności zbiornika,
+ tego, czy jest naziemny, czy podziemny,
+ rodzaju pobliskich budynków,
+ zastosowania ściany oddzielenia przeciwpożarowego albo odpowiedniego pasa ściany budynku,
+ granicy działki,
+ napowietrznej linii elektroenergetycznej,
+ rowów, studzienek i wpustów kanalizacyjnych.
+Dotychczasowy § 179 warunków technicznych dobrze pokazuje skalę różnic. Od budynku mieszkalnego daje 3 m dla zbiornika naziemnego do 3 m³, 1 m dla podziemnego tej samej wielkości i 7,5 m dla naziemnego powyżej 5 do 7 m³. To przykłady z tabeli. Nie są wartościami do odmierzenia na działce bez projektu.
+Do tego dochodzi stan prawny. Rozporządzenie z 2002 r. utraciło moc, a według informacji dostępnych na początku listopada 2026 r. nowego nadal nie ogłoszono. Przez 18 miesięcy od 20 września 2026 r. projekt może powstać według dotychczasowych zasad, jeśli inwestor złoży oświadczenie, o którym mówi art. 102a Prawa budowlanego. To trzeba ustalić z projektantem na początku.
+Sam tryb też trzeba sprawdzić. Art. 29 ust. 1 pkt 9 Prawa budowlanego zwalnia z pozwolenia na budowę instalację zbiornikową z pojedynczym zbiornikiem do 7 m³ dla domu jednorodzinnego, ale wymaga zgłoszenia. Inna konfiguracja może oznaczać inną ścieżkę.
+Do takiego zgłoszenia dołącza się projekt zagospodarowania działki z opisem technicznym instalacji, wykonany przez projektanta z uprawnieniami (art. 30 ust. 2a pkt 4). Ten projekt uzgadnia się pod względem ochrony przeciwpożarowej (art. 30 ust. 3). Jeśli wymagają tego przepisy o planowaniu przestrzennym, potrzebna jest też decyzja o warunkach zabudowy. Miejsce zbiornika nie jest więc szkicem w projekcie ogrodu, tylko częścią dokumentacji.
+
+CO NAŁOŻYĆ NA JEDEN PLAN
+ zbiornik i obszar, który projektant każe zachować wokół niego,
+ trasę rury do budynku i miejsce szafki gazowej,
+ wszystkie budynki, także planowaną altanę, wiatę, garaż i budynek gospodarczy,
+ rowy, studzienki, wpusty, niecki i inne zagłębienia,
+ docelowe poziomy terenu po pracach ogrodowych,
+ linie energetyczne, oświetlenie ogrodu, gniazda i pompy,
+ drzewa, żywopłoty i ogrodzenie w docelowej wielkości,
+ drogę cysterny, miejsce postoju i przejście węża.
+Dotychczasowy § 179 wskazuje, że zbiornika nie sytuuje się w zagłębieniach terenu ani w miejscach podmokłych. Propan jest cięższy od powietrza, dlatego przy niecce deszczowej, obniżeniu terenu i studzience trzeba mieć odpowiedź projektanta, a nie założenie.
+
+PYTANIA DO PROJEKTANTA INSTALACJI
+1. Gdzie zbiornik może stanąć przy wybranej pojemności i typie?
+2. Które elementy ogrodu są kolizją, a które tylko trzeba opisać?
+3. Czy altana, wiata lub budynek gospodarczy zmieniają wymagane odległości?
+4. Co z grillem, miejscem na ognisko, oświetleniem i pompą?
+5. Jaka przestrzeń ma pozostać wolna przy zbiorniku i armaturze?
+6. Przy zbiorniku podziemnym: co wolno zmieniać nad nim, sadzić i ustawiać w jego pobliżu?
+7. Co wolno zrobić nad trasą rury i jaka nawierzchnia może tam powstać?
+8. Które zmiany w ogrodzie wymagają ponownego uzgodnienia?
+Odpowiedzi poproście na piśmie albo na rysunku. Przy późniejszej zmianie będzie wiadomo, co ustalono.
+
+DOSTAWA PALIWA
+Cysterna musi dojechać, ustawić się i bezpiecznie wyjechać. Tu liczą się warunki waszego dostawcy.
+Przykład z wymagań jednego z dostawców dla instalacji przydomowych: droga dla pojazdu o masie całkowitej od 26 t, nacisk 8 t na oś, szerokość cysterny 2,5 m, wysokość 3,5 m. Od miejsca postoju do króćca napełniania nie powinno być więcej niż 40–45 m. Inny dostawca może stawiać inne warunki, więc te liczby traktujcie tylko jako przykład.
+Sprawdźcie na planie:
+ gdzie stanie cysterna,
+ czy zawróci albo wycofa się bez wjazdu na trawnik,
+ czy przejedzie przez bramę i pod gałęziami,
+ czy podjazd ma odpowiednią nośność,
+ którędy przejdzie wąż,
+ czy ogrodzenie albo żywopłot nie odetną dojścia.
+Jeśli dojazd pozwala tylko na mniejszą cysternę, zapiszcie to w projekcie razem z przyczyną. Jeden z dostawców wymaga takiej adnotacji.
+
+DOSTĘP SERWISOWY
+Zbiornik podlega dozorowi technicznemu, a przed rozpoczęciem użytkowania sprawdza go inspektor dozoru. Później do armatury muszą dojść inspektor, serwis i osoba obsługująca napełnianie.
+Ustalcie z dostawcą i projektantem:
+ która droga do zbiornika ma pozostać wolna,
+ kto ma klucz do furtki lub osłony,
+ czy teren trzeba ogrodzić i oznaczyć,
+ czego nie wolno składować w pobliżu,
+ co z parkowaniem i urządzeniami elektrycznymi,
+ jak daleko mogą rosnąć rośliny.
+Dotychczasowy § 179 nie rozstrzyga kwestii ogrodzenia, nawierzchni ani roślin. Dlatego ustaleń projektanta i dostawcy nie zastępujcie domysłem. Przy zbiorniku dzierżawionym sprawdźcie też umowę, bo właścicielem zbiornika może być dostawca.
+
+DOBRA KOLEJNOŚĆ
+1. Wybór typu zbiornika i dostawcy.
+2. Wskazanie możliwych lokalizacji przez projektanta instalacji.
+3. Przekazanie rysunku projektantowi ogrodu.
+4. Projekt ogrodu z zachowaniem dojazdu i dostępu.
+5. Powrót planu do projektanta instalacji i dostawcy.
+6. Projekt zagospodarowania z opisem technicznym i uzgodnieniem przeciwpożarowym.
+7. Zgłoszenie i prace według uzgodnionej wersji.
+8. Dopiero potem nasadzenia, nawierzchnie i mała architektura w pobliżu.
+Jeśli po zgłoszeniu zbiornik ma zmienić miejsce, nie rozstrzyga tego monter ani ogrodnik. Sprawa wraca do projektanta, bo zmienia się uzgodniona lokalizacja i trzeba sprawdzić, jakie dokumenty należy poprawić.
+
+SIEDEM BŁĘDÓW PRZY LPG I OGRODZIE
+❌ Lokalizacja zbiornika dopiero po narysowaniu ogrodu
+❌ Odległość przepisana z internetu bez sprawdzenia typu i pojemności
+❌ Pominięcie altany, wiaty lub budynku gospodarczego
+❌ Niecka albo obniżenie terenu przy zbiorniku bez uzgodnienia
+❌ Brama i podjazd zaprojektowane bez wymagań dostawcy
+❌ Żywopłot lub ogrodzenie blokujące dostęp
+❌ Zmiana projektu ogrodu bez powrotu do projektanta instalacji
+
+NA KONIEC
+Ogród można poprawić, ale przenoszenie zbiornika po wykonaniu wszystkich prac będzie trudniejsze. Dlatego dwa projekty muszą spotkać się na jednym planie, zanim na działkę wjadą rośliny i kostka.
+
+#EdukacjaBudowlana #LPG #ZbiornikLPG #GazPłynny #ProjektOgrodu #ZagospodarowanieDziałki #InstalacjaGazowa #BudowaDomu #Inwestor #KierownikBudowy

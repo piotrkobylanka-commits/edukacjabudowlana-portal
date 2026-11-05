@@ -1,0 +1,104 @@
+🔩 „Rynny z jednego metalu, obróbki z drugiego. Czy ktoś sprawdził ich zgodność?”
+
+Rynny przyjechały od jednego dostawcy, obróbki od drugiego, haki są w zestawie, a wkręty pochodzą z pudełka ekipy. Każdy element osobno może być w porządku.
+
+Tylko że dach pracuje jako całość. Karta rynny nie odpowiada na pytanie, co stanie się z wodą spływającą z elementu położonego wyżej. Dopóki nikt nie oceni zestawu, odpowiedzi nie macie.
+
+Nie chodzi o szukanie cudownej tabeli z internetu. Chodzi o dobrze zadane pytanie do osoby, która może podpisać się pod odpowiedzią.
+
+DWIE RÓŻNE SYTUACJE
+
+Kontakt. Dwa różne metale stykają się, a połączenie jest zwilżone wodą. Wtedy może powstać korozja galwaniczna, a metal mniej szlachetny będzie niszczał szybciej. Sól i zanieczyszczenia powietrza mogą ten efekt nasilić.
+
+Droga wody. Metale nie muszą się stykać. Amerykańskie Metal Construction Association podaje przykład miedzianego dachu albo rury odprowadzającej wodę na powierzchnię stali z powłoką Galvalume. Brytyjski poradnik NPL ostrzega, że woda z miedzianego dachu niesie jony miedzi, groźne dla aluminiowego odwodnienia.
+
+Stąd wniosek praktyczny: podkładka albo taśma może rozdzielić styk, ale nie zmieni składu wody płynącej z góry.
+
+KOGO O CO PYTAĆ
+
+● Projektant: gdy materiał lub detal wynika z projektu albo chcecie go zmienić. Do obowiązków projektanta należy wyjaśnianie wątpliwości dotyczących projektu (art. 20 ust. 1 pkt 3 Prawa budowlanego). W nadzorze autorskim uzgadnia też rozwiązania zamienne zgłoszone przez kierownika budowy lub inspektora nadzoru (art. 20 ust. 1 pkt 4 lit. b).
+● Producent lub dostawca: o dopuszczone zestawienia, warunki gwarancji i akcesoria przewidziane dla konkretnego wyrobu.
+● Wykonawca: przy umowie o roboty budowlane powinien niezwłocznie zawiadomić inwestora m.in. o innych okolicznościach, które mogą przeszkodzić prawidłowemu wykonaniu robót (art. 651 k.c.). Przy umowie o dzieło zbliżony obowiązek ma art. 634 k.c. Czy w tej sprawie takie zawiadomienie było konieczne, zależy od okoliczności, dlatego lepiej zadać pytanie przed montażem.
+
+CO PRZYGOTOWAĆ PRZED ZAPYTANIEM
+
+Sam napis „blacha” niczego nie rozstrzyga. Spiszcie w tabeli:
+
+● element i jego miejsce: pokrycie, obróbka okapu, koszowa, komin, rynna, hak, rura spustowa,
+● metal i powłokę: dokładnie jak w karcie, np. stal z określoną powłoką, aluminium, tytan-cynk, miedź,
+● producenta, nazwę produktu i grubość,
+● łączniki: materiał, powłokę, średnicę, podkładki,
+● uszczelniacze, kleje i taśmy,
+● elementy dodatkowe, które nie należą do dachu: miedziane rury, wywiewki, czapy kominowe, odpływ skroplin z klimatyzacji, elementy instalacji odgromowej, pokrycia bitumiczne,
+● otoczenie: bliskość morza, zakładu przemysłowego, ruchliwej drogi.
+
+Dorysujcie drogę wody od najwyższego punktu dachu do wylotu rury spustowej. Prosty rzut ze strzałkami wystarczy. Zaznaczcie też miejsca, w których woda stoi albo gromadzą się zanieczyszczenia.
+
+ZAPYTANIE, KTÓRE MOŻNA WYSŁAĆ
+
+Dzień dobry,
+proszę o ocenę zgodności materiałów dla dachu i odwodnienia budynku [adres lub nazwa inwestycji]. W załączeniu przesyłam zestawienie materiałów i łączników, karty produktów, rzut z kierunkiem spływu wody oraz opis otoczenia.
+
+Proszę o pisemną odpowiedź dla każdego zestawienia:
+
+Czy materiały mogą się stykać w opisanych miejscach?
+Czy woda spływająca z materiału położonego wyżej może trafiać na materiał położony niżej?
+Czy wskazane łączniki, podkładki, uszczelniacze, taśmy i haki są dopuszczone?
+Czy rozwiązanie wymaga warstwy rozdzielającej, zmiany materiału, zmiany trasy wody albo powłoki? Jeśli tak, proszę podać konkretny produkt i miejsce zastosowania.
+Czy proponowane rozwiązanie wpływa na gwarancję lub zalecenia konserwacyjne?
+Na jakich dokumentach oparto ocenę i dla jakich warunków otoczenia jest ona aktualna?
+
+Jeżeli któregoś zestawienia nie można ocenić, proszę wskazać, jakich danych brakuje. Pozdrawiam,
+[imię i nazwisko, kontakt]
+
+JAKA ODPOWIEDŹ JEST PRZYDATNA
+
+Dla każdej pary oczekujcie jednej z trzech decyzji:
+
+● dopuszczone bez dodatkowych warunków,
+● dopuszczone warunkowo: z konkretnym produktem, miejscem i sposobem wykonania,
+● niedopuszczone: trzeba zmienić materiał, łącznik albo trasę wody.
+
+„Nie powinno być problemu” albo „wszyscy tak robią” to za mało. Jeśli rozmowa była telefoniczna, poproście o potwierdzenie mailem. Sprawdźcie, czy odpowiedź dotyczy Waszych produktów, a nie ogólnego hasła „stal” albo „aluminium”.
+
+ZESTAWIENIA, O KTÓRE WARTO ZAPYTAĆ OD RAZU
+
+To sygnały do oceny, a nie gotowy werdykt dla każdego dachu:
+
+● miedź wyżej, stal, cynk lub aluminium niżej: MCA opisuje bardzo silne korozyjne działanie miedzi na te metale, a NPL odradza aluminiowe odwodnienie przy miedzianym dachu,
+● stal ocynkowana, aluminium, ołów albo stal nierdzewna wyżej, tytan-cynk niżej: producent Rheinzink uznaje takie układy za nieszkodliwe dla swojego wyrobu, przy stali ocynkowanej zaznacza możliwe ślady rdzy z krawędzi cięcia,
+● ocynkowany łącznik w aluminium lub stali nierdzewnej: MCA podaje to jako klasyczny przykład złego doboru,
+● papa bez posypki nad metalem: spływ produktów starzenia może wymagać ochrony. Rheinzink podaje dla swojego materiału nieszkodliwe pH 5,5–11, a przy innych pokryciach zaleca zapytać producenta,
+● gont z granulkami miedzi nad aluminiową rynną: biuletyn GAF wskazuje ryzyko przy stojącej wodzie i gromadzeniu się granulek.
+
+DLACZEGO „POMALUJ I BĘDZIE DOBRZE” TO ZŁA RADA
+
+Powłoka bywa elementem rozwiązania, ale musi wynikać z oceny. Inżynierski poradnik Steel Construction New Zealand opisuje błąd malowania tylko metalu mniej szlachetnego. Gdy w powłoce powstanie mała wada, przy dużej powierzchni metalu szlachetnego może dojść do szybkiego przebicia.
+
+Producent może przewidzieć powłokę dla konkretnego układu. Instrukcja Galeco dla jednego systemu wskazuje powłoki na bazie żywic akrylowych, gdy nie da się uniknąć kontaktu z materiałami bitumicznymi lub miedzianymi. Rheinzink opisuje powłokę ochronną przy odsłoniętych papach. Te zalecenia dotyczą ich wyrobów i nie są przepisem na każdy dach.
+
+Jeśli ktoś proponuje malowanie, zapytajcie:
+
+● czym i którą powierzchnię malujemy,
+● na jakiej długości i w ilu warstwach,
+● co dzieje się z krawędziami cięcia i otworami,
+● jak często kontrolować i odnawiać powłokę,
+● kto potwierdza, że nie narusza to gwarancji.
+
+Po montażu sprawdźcie też wnętrze rynien. Galeco zaleca usuwanie wiórów i resztek blachy, a Rheinzink ostrzega przed rdzą ze stalowych wiórów na blasze cynkowej.
+
+SIEDEM BŁĘDÓW PRZY ZESTAWIANIU METALI
+
+❌ Ocena samego materiału bez sprawdzenia sąsiednich elementów
+❌ Porównanie tylko styku, bez drogi wody
+❌ Wkręty dobrane „z tego, co jest”
+❌ Podkładka jako odpowiedź na problem spływu z góry
+❌ Zmiana materiału na budowie bez pytania projektanta lub producenta
+❌ Malowanie bez wskazania produktu, miejsca i konserwacji
+❌ Ustne „będzie dobrze” zamiast odpowiedzi dla konkretnych wyrobów
+
+NA KONIEC
+
+Zgodność metali najtaniej sprawdza się w tabeli, zanim materiał trafi na dach. Później pozostaje szukanie, kto odpowiada za połączenie, którego nikt wcześniej nie ocenił.
+
+#EdukacjaBudowlana #Rynny #ObróbkiBlacharskie #Dach #KorozjaGalwaniczna #BlachaDachowa #Odwodnienie #BudowaDomu #Inwestor #KierownikBudowy #BłędyBudowlane
