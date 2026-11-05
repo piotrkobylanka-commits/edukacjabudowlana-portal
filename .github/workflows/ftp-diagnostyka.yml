@@ -1,0 +1,39 @@
+name: Diagnostyka FTP
+
+# Sprawdza osiągalność serwera i certyfikat FTPS. Nie wysyła hasła i niczego nie zmienia na serwerze.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "_narzedzia/ftp-diagnostyka-trigger"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  diag:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Test
+        run: |
+          R=_narzedzia/raport-ftp.txt
+          date -u '+%F %H:%M UTC' > $R
+          for h in edukacjabudowlana.eu ftp.edukacjabudowlana.eu srv2288.hstgr.io; do echo "== DNS $h" >> $R; getent ahostsv4 $h | awk '{print $1}' | sort -u | head -4 >> $R; done
+          for h in 217.65.157.30 ftp.edukacjabudowlana.eu edukacjabudowlana.eu; do
+            echo "== PORT 21 $h" >> $R
+            timeout 15 bash -c "exec 3<>/dev/tcp/$h/21 && head -c 120 <&3" >> $R 2>&1 || echo "brak połączenia" >> $R
+            echo "== CERT $h" >> $R
+            echo | timeout 20 openssl s_client -starttls ftp -connect $h:21 2>/dev/null | openssl x509 -noout -subject -issuer -enddate -ext subjectAltName >> $R 2>&1 || echo "brak certyfikatu" >> $R
+          done
+          cat $R
+      - name: Zapis
+        if: always()
+        run: |
+          git config user.name "EdukacjaBudowlana automat"
+          git config user.email "actions@users.noreply.github.com"
+          git add _narzedzia/raport-ftp.txt
+          git commit -m "Automat: raport FTP" || exit 0
+          for i in 1 2 3 4 5; do git pull --rebase origin main && git push && exit 0; sleep 8; done
