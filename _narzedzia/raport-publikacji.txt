@@ -1,4 +1,4 @@
-2026-10-31 22:24 UTC
+2026-11-05 01:37 UTC
 TRYB: próba (dry-run)
 == ftp://.../
 == ftp://.../public_html/
