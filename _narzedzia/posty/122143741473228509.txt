@@ -1,0 +1,111 @@
+💧 „Studnia ma odpowiednią głębokość. Ale czy wystarczy wody dla domu?”
+
+Wiertnicy kończą, z rury leci woda i pada zdanie: „Jest, trafiliśmy”. Inwestor płaci za metry i zamawia pompę.
+
+Tyle że sama obecność wody nie mówi, ile jej dopłynie w ciągu godziny, kiedy w domu działa prysznic i pralka, a ktoś podlewa ogród. Głębokość też tego nie rozstrzyga. Dwie studnie po 20 m mogą dać zupełnie inną ilość wody, bo liczy się warstwa, w której stoi filtr, i jakość wykonania.
+
+To sprawdza się pomiarem.
+
+DLACZEGO PIERWSZE MINUTY NICZEGO NIE DOWODZĄ
+
+Na początku pompa bierze wodę, która już stoi w studni. Przykłady poglądowe:
+
+● rura o średnicy wewnętrznej 125 mm: 10 m wody to około 120 litrów. Pompa 2 m³/h wyciągnęłaby je w niecałe 4 minuty, gdyby nic nie dopływało,
+● studnia z kręgów Ø 1 m: każdy metr wody to około 785 litrów, czyli około 24 minuty pracy tej samej pompy.
+
+Krótka próba mierzy więc głównie zapas w studni, a nie dopływ z gruntu.
+
+CO MA ZOSTAĆ ZMIERZONE
+
+Próbne pompowanie polega na pobieraniu wody ze znanym przepływem i śledzeniu poziomu wody przed pompowaniem, w jego trakcie i po wyłączeniu pompy.
+
+Cztery pojęcia, które powinny znaleźć się w dokumencie:
+
+● zwierciadło statyczne: poziom wody przed pompowaniem,
+● zwierciadło dynamiczne: poziom wody w trakcie pompowania,
+● depresja: różnica między tymi poziomami,
+● wydajność: ilość wody w m³/h przy tej depresji.
+
+Sama informacja „2 m³/h” niewiele znaczy. Pełny wynik brzmi: „2,0 m³/h przy depresji 2,5 m, zwierciadło ustabilizowane”.
+
+ILE WODY POTRZEBUJE DOM
+
+Tu mieszają się dwie liczby.
+
+Zużycie dobowe. Przy założeniu 150 litrów na osobę czteroosobowa rodzina zużyje 0,6 m³ na dobę. To niewiele.
+
+Przepływ chwilowy. Woda nie schodzi równo przez całą dobę. PN-EN 806-3 przyjmuje po 0,2 l/s dla prysznica i pralki oraz 0,5 l/s dla kranu ogrodowego. Te trzy punkty otwarte naraz to 0,9 l/s, czyli około 3,2 m³/h. To prosta suma dla przykładu, a nie przepływ projektowy domu. Materiały producenta pomp podają dla typowego domu zakres 1–3 m³/h, ale wartość dla waszej instalacji powinna wynikać z jej obliczeń.
+
+Zbiornik hydroforowy wyrównuje krótkie szczyty. Nie zastąpi dopływu, kiedy podlewanie trwa godzinę.
+
+JAK TO ZAMÓWIĆ
+
+Przy studni do 30 m i poborze do 5 m³ na dobę Prawa geologicznego i górniczego się nie stosuje (wyjątek to obszary górnicze dla wód leczniczych i solanek). Ta ustawa nie narzuca więc projektu robót ani dokumentacji geologicznej, dlatego zakres próby trzeba ustalić w umowie. Wpiszcie:
+
+Cel: wymagana wydajność w m³/h i zastosowanie: dom, ogród, inne odbiorniki.
+Próbne pompowanie po oczyszczeniu studni, jako osobną pozycję w wycenie.
+Pomiar przepływu: wodomierz albo naczynie o znanej pojemności, a nie ocena na oko.
+Warunek zakończenia: woda klarowna, stały przepływ, zwierciadło przestaje opadać. Liczbę godzin ustalcie z wykonawcą przed wierceniem. W projektach większych ujęć spotyka się co najmniej 6 godzin samego oczyszczania i dziesiątki godzin pomiarów. Przy domowej studni skala jest mniejsza, ale kilkanaście minut to jeszcze nie próba.
+Pomiar odbudowy: ile czasu po wyłączeniu pompy woda wraca do poziomu wyjściowego.
+Odprowadzenie wody z próby: z dala od studni i nie na działkę sąsiada.
+Niższy wynik: kto decyduje o dogłębieniu, jak rozliczacie dodatkowe metry i co dzieje się, gdy wymaganej wydajności nie da się uzyskać.
+Płatność: ostatnią część wynagrodzenia powiążcie z przekazaniem protokołu.
+
+O CO POPROSIĆ PRZY ODBIORZE
+
+Bądźcie na miejscu choćby przez część pomiaru. Do odbioru poproście o dokumentację próbnego pompowania:
+
+● datę i wykonawcę,
+● głębokość studni, średnicę rur, położenie filtra i opis przewierconych warstw,
+● zwierciadło statyczne przed startem,
+● tabelę: godzina, przepływ, poziom wody,
+● sposób pomiaru i pompę użytą do próby,
+● czas pompowania i czas odbudowy,
+● opis wody: klarowność, obecność piasku,
+● zalecaną wydajność eksploatacyjną i zalecany poziom zawieszenia pompy.
+
+Przykład poglądowy: zwierciadło statyczne 6,0 m, przy 2,0 m³/h dynamiczne stabilizuje się na 8,5 m, depresja wynosi 2,5 m. Nie oznacza to, że przy depresji 5 m dostaniecie 4 m³/h. Przy większym przepływie depresja zwykle rośnie szybciej niż proporcjonalnie.
+
+Liczy się też termin. Niżówka hydrogeologiczna pojawia się najczęściej we wrześniu i październiku, a niski stan wód najbardziej odczuwają płytkie studnie. Wynik z mokrej wiosny może być optymistyczny, więc przy małym zapasie sprawdźcie studnię ponownie jesienią.
+
+Próbne pompowanie nie mówi nic o jakości wody. Jeśli woda ma służyć do picia, badanie w laboratorium zamawiacie osobno.
+
+WARUNKI DOBORU POMPY
+
+Pompę dobiera się do wyniku próby i do instalacji.
+
+● Wydajność. Pompa nie powinna regularnie pobierać więcej, niż daje studnia. Przewymiarowaną pompę trzeba ograniczyć albo zabezpieczyć tak, żeby nie pracowała na sucho.
+● Wysokość podnoszenia. Liczcie od zwierciadła dynamicznego, a nie od statycznego i nie od dna studni. Przykład poglądowy: 12 m do zwierciadła, 6 m do najwyższego punktu, 8 m strat i 30 m na ciśnienie 3 bar daje 56 m.
+● Punkt pracy. Potrzebna wydajność i wysokość muszą spotkać się na charakterystyce pompy. Wydajność spada wraz ze wzrostem wysokości, więc hasło „do 5 m³/h” z opakowania niczego nie gwarantuje.
+● Pompa powierzchniowa. Ogranicza ją ssanie, zwykle do 7–8 m licząc od lustra wody, a dokładną wartość podaje producent. Sprawdźcie to dla poziomu w czasie pompowania i najniższego stanu w roku.
+● Pompa głębinowa. Średnicę dobiera się do rury, a zawieszenie do wyniku próby i instrukcji. Nie stawia się jej na dnie. Materiały producenta zalecają podwieszenie ponad filtrem, żeby chronić silnik przed piaskiem i złym chłodzeniem.
+● Automatyka. Zabezpieczenie przed suchobiegiem wpiszcie do zamówienia od początku.
+● Woda. Sprawdźcie w karcie pompy dopuszczalną zawartość piasku, a do oporów doliczcie filtry i uzdatnianie.
+
+Jeśli to możliwe, zostawcie dostęp do pomiaru poziomu wody, czyli osobną rurkę. Po kilku latach porównacie wynik z pierwszym protokołem.
+
+FORMALNOŚCI W SKRÓCIE
+
+Dla studni na własnej działce, do 30 m, na potrzeby gospodarstwa domowego, przy poborze średniorocznie do 5 m³ na dobę:
+
+● nie potrzebujecie pozwolenia ani zgłoszenia wodnoprawnego (art. 33 ust. 4 pkt 1 oraz art. 395 pkt 5 i 7 Prawa wodnego),
+● obudowa ujęcia nie wymaga pozwolenia na budowę ani zgłoszenia (art. 29 ust. 2 pkt 25 Prawa budowlanego),
+● w ciągu 60 dni od rozpoczęcia użytkowania właściciel zgłasza urządzenie wodne Wodom Polskim (art. 331 ust. 3 w zw. z ust. 1 pkt 15 Prawa wodnego). Ministerstwo Infrastruktury wskazuje, że dotyczy to także studni do zwykłego korzystania z wód, a pominięcie zgłoszenia jest wykroczeniem zagrożonym grzywną.
+
+Inne zasady obowiązują przy poborze ponad ten limit i przy poborze na potrzeby działalności gospodarczej. Studnia głębsza niż 30 m to pozwolenie wodnoprawne i prace według Prawa geologicznego i górniczego.
+
+SIEDEM BŁĘDÓW PRZY STUDNI
+
+❌ Ocena studni po tym, że „woda leci”
+❌ Umowa na same metry wiercenia, bez próby
+❌ Kilkanaście minut pompowania zamiast pomiaru do ustabilizowania zwierciadła
+❌ Wydajność podana bez depresji
+❌ Dobór pompy od zwierciadła statycznego
+❌ Pompa większa niż możliwości studni, bez ochrony przed suchobiegiem
+❌ Brak protokołu, z którym można porównać późniejszy spadek wydajności
+
+NA KONIEC
+
+Przy studni płaci się za metry, ale korzysta się z dopływu. Dlatego przed zapłatą za całość trzeba mieć liczby, a nie tylko wodę w wiadrze.
+
+#EdukacjaBudowlana #Studnia #StudniaGłębinowa #PróbnePompowanie #WydajnośćStudni #PompaGłębinowa #Hydrofor #WodaZeStudni #BudowaDomu #Inwestor #KierownikBudowy

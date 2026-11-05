@@ -1,0 +1,62 @@
+„Dach i elewację wykonują różne firmy. Nikt nie chce podpisać odbioru ich połączenia.”
+
+Dekarz mówi, że skończył na obróbce. Elewacja mówi, że zaczyna pod blachą. Oboje mają protokół swojego zakresu, a na okapie, attyce albo przy ścianie nad niższym dachem zostaje miejsce, które nie należy do nikogo.
+Tu warto uporządkować jedno. Jeśli obie firmy mają umowy bezpośrednio z inwestorem, to on odbiera ich roboty. Firma nie „odbiera” pracy drugiej firmy, chyba że umowa przewiduje przejęcie podłoża albo inny podpis. Przy generalnym wykonawcy odbiór od podwykonawców i koordynację trzeba sprawdzić w jego umowie. Spór często nie dotyczy samego odbioru, tylko tego, że nikt nie ustalił granicy zakresów.
+GDZIE ZACZYNA SIĘ PROBLEM
+Na domu takie miejsca zwykle są powtarzalne:
+● okap: ocieplenie ściany, podbitka, wlot powietrza, obróbka, rynna,
+● ściana szczytowa: ocieplenie ściany i dachu, wiatrownica, obróbka,
+● attyka: ocieplenie, hydroizolacja i obróbka wierzchu,
+● ściana nad niższym dachem: wywinięcie izolacji, obróbka, zakończenie tynku,
+● lukarny, kominy i inne przebicia,
+● rusztowanie, które jedna firma chce już zdjąć, a druga dopiero potrzebuje.
+W detalu spotykają się woda, ocieplenie, wentylacja i wiatr. Murator przypomina, że izolacja dachu ma łączyć się z izolacją ściany bez przerwy, a detal trzeba rozrysować przed budową. Jeśli nie ma rysunku, każda firma wykona własną wersję „oczywistego rozwiązania”.
+TRZY PODPISY, KTÓRYCH NIE WOLNO MIESZAĆ
+Przekazanie frontu robót. Firma następna potwierdza, że przejmuje podłoże albo wpisuje zastrzeżenia. Nie ma na to jednego ustawowego wzoru, więc warunki trzeba ustalić w umowie.
+Odbiór robót zakrywanych. Kierownik budowy zgłasza inwestorowi roboty ulegające zakryciu (art. 22 pkt 7 Prawa budowlanego), a inspektor nadzoru, jeśli jest ustanowiony, sprawdza je i odbiera (art. 25 pkt 3).
+Odbiór robót od wykonawcy. Inwestor odbiera roboty i płaci wynagrodzenie (art. 647 k.c.). Jeśli umowa nie stanowi inaczej, na żądanie wykonawcy odbiera też ukończone części robót za odpowiednią część wynagrodzenia (art. 654 k.c.).
+Podpis pod przekazaniem frontu nie zastępuje odbioru. A protokół jednej firmy nie rozstrzyga odpowiedzialności za pracę drugiej.
+NAJPIERW WŁAŚCICIEL STYKU
+Niemiecka checklista dena z lipca 2026 r. proponuje prostą zasadę: dla każdego krytycznego styku wskażcie osobę odpowiedzialną i osobę zatwierdzającą. Na domu wygląda to tak:
+1. Lista styków. Okap, szczyt, attyka, ściana nad dachem, lukarna, komin, rusztowanie.
+2. Detal. Rysunek z warstwami i wymiarami. Pytania do projektanta przed podpisaniem umów.
+3. Zakres. Kto dostarcza, kto montuje i kto uszczelnia każdą warstwę.
+4. Kolejność. Co musi być gotowe, zanim wejdzie następna firma.
+5. Warunek przekazania. Co ma być sprawdzone i sfotografowane.
+6. Osoba zatwierdzająca. Inspektor, kierownik budowy albo projektant, jeśli ma taki zakres. Gdy kierownika zapewnia jedna ze spierających się firm, weźcie to pod uwagę przy wyborze osoby rozstrzygającej.
+7. Jeden właściciel styku. Jedna firma albo koordynator odpowiada za dokończenie detalu, nawet gdy materiał dostarcza kto inny.
+Jeżeli styku nie da się sensownie rozdzielić, zlećcie go jednej firmie. Prościej wyjaśnić jeden zakres niż pięć rozmów o tym, kto zaczął od złej strony.
+CO WPISAĆ DO PROTOKOŁU STYKU
+● data, miejsce i numer detalu,
+● firmy i osoby obecne,
+● co przekazano: warstwa, materiał, stan, zdjęcia,
+● wymagania: projekt, detal, instrukcja systemu,
+● wymiary i stan: np. wysokość wywinięcia, szerokość wlotu, ciągłość ocieplenia,
+● zastrzeżenia firmy następnej i termin ich wyjaśnienia,
+● decyzja: można zakrywać, można po poprawce, nie można zakrywać,
+● podpisy osób, które mają do tego umocowanie.
+Przy ścianie nad dachem nie używajcie uniwersalnej liczby z internetu. Dla połączeń dachów płaskich Baunetz podaje niemieckie minimum 15 cm przy nachyleniu do 5° i 10 cm przy większym, ale decydują projekt, system i rodzaj pokrycia.
+GDY FIRMA ODMAWIA PODPISU
+Podpisu nie da się wyegzekwować krzykiem na rusztowaniu. Działa spokojna procedura:
+1. Wyślijcie mail z numerem detalu, zdjęciami i pytaniem, czego firma nie potwierdza.
+2. Poproście o pisemne zastrzeżenia i wyznaczcie krótki termin.
+3. Zwołajcie jedne oględziny z obiema firmami oraz kierownikiem lub inspektorem.
+4. Spiszcie protokół. Odmowę podpisu zanotujcie z datą, osobami i powodem.
+5. Jeśli detal ma zostać zakryty albo spór dotyczy ryzyka szkody, poproście na piśmie o wstrzymanie zakrycia do decyzji osoby zatwierdzającej. Wpływ na termin zapiszcie w protokole.
+6. Przy sporze technicznym zlećcie ocenę niezależnemu specjaliście.
+Przy umowie o roboty budowlane wykonawca powinien niezwłocznie zawiadomić inwestora o okolicznościach, które mogą przeszkodzić prawidłowemu wykonaniu robót (art. 651 k.c.). Podłoże z uwagami to nie powód do milczenia i wejścia na budowę „bo jakoś będzie”.
+Pamiętajcie też o dowodach. Rękojmia nie zależy od winy wykonawcy, ale w sporze trzeba wykazać fakty, z których wynikają roszczenia (art. 6 k.c.), np. że wada dotyczy zakresu danej firmy. Zdjęcie przed zakryciem bywa ważniejsze niż najbardziej stanowczy mail po fakcie.
+Nie uzależniajcie zapłaty od podpisu „bez usterek”. Takie zapisy bywały uznawane za sprzeczne z art. 647 k.c. Lepiej ustalić listę dokumentów i odbiór etapowy.
+SIEDEM BŁĘDÓW PRZY STYKU DACHU Z ELEWACJĄ
+❌ Zakres w umowie opisany hasłem „do styku”
+❌ Brak rysunku detalu przed zamówieniem robót
+❌ Założenie, że firma następna odbiera poprzednią
+❌ Zakrycie bez zdjęć i bez zastrzeżeń
+❌ Demontaż rusztowania przed dokończeniem detalu
+❌ Spór w telefonie zamiast protokołu po oględzinach
+❌ Odbiór każdej firmy osobno, bez oceny połączenia
+
+NA KONIEC
+Woda nie zna podziału zakresów. Skoro dach i elewacja spotykają się w jednym detalu, ktoś musi odpowiadać za to spotkanie, zanim blacha i tynk je przykryją.
+
+#EdukacjaBudowlana #Dach #Elewacja #Okap #Attyka #ObróbkiBlacharskie #OdbiórRobót #ProtokółOdbioru #BudowaDomu #KierownikBudowy #InspektorNadzoru

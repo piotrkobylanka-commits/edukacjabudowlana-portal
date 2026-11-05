@@ -1,0 +1,111 @@
+🕳️ „Wiercenie pod pompę ciepła zakończone. Co wiadomo o wypełnieniu odwiertu?”
+
+Wiertnica odjeżdża, z ziemi wystają końcówki rur, a wykonawca wystawia fakturę za metry.
+
+Inwestor odbiera instalację, której najważniejszych fragmentów nigdy nie zobaczy. Nie obejrzy sondy na 80. metrze ani mieszanki, która ma ją otaczać. Zostają zapisy z dnia wykonania. Jeśli nikt ich nie zaplanował przed pierwszym metrem wiercenia, po robotach nie będzie ich skąd wziąć.
+
+PO CO W OGÓLE WYPEŁNIENIE
+
+Przestrzeń między rurami a ścianą otworu ma konkretne zadania:
+
+● przenosi ciepło między gruntem a sondą,
+● oddziela przewiercone warstwy wodonośne i ogranicza dopływ zanieczyszczeń z powierzchni,
+● chroni rury przed uszkodzeniem.
+
+Pustki, ucieczka mieszanki do warstw wodonośnych, skurcz i pęknięcia pogarszają pracę dolnego źródła. A po wypełnieniu uszkodzonej sondy nie da się już po prostu wyciągnąć.
+
+URZĄD WIDZI PROJEKT, A NIE MIESZANKĘ W OTWORZE
+
+Formalności zależą od głębokości pojedynczego otworu:
+
+● do 30 m poza obszarem górniczym: Prawa geologicznego i górniczego się nie stosuje (art. 3 pkt 2). Bez projektu robót technologię trzeba opisać w umowie,
+● powyżej 30 m: potrzebny jest projekt robót geologicznych (art. 79 ust. 1) zgłaszany staroście. Roboty mogą ruszyć, jeśli w ciągu 30 dni nie wniesie sprzeciwu (art. 85 ust. 1–3),
+● powyżej 100 m: może dojść zatwierdzenie planu ruchu zakładu górniczego,
+● na obszarze górniczym: projekt robót i plan ruchu są wymagane niezależnie od głębokości.
+
+Po robotach na zgłoszonym projekcie powstaje dokumentacja geologiczna inna (art. 88 ust. 2 pkt 4 i art. 92 pkt 3). Krajowy Punkt Kontaktowy ds. OZE podaje termin przekazania: 6 miesięcy od zakończenia prac.
+
+Projekt musi zawierać przewidywaną konstrukcję otworów i informacje o zamykaniu horyzontów wodonośnych (§ 1 ust. 2 pkt 4 lit. b i c rozporządzenia o projektach robót geologicznych). To rozporządzenie nie podaje jednak parametrów mieszanki ani wzoru protokołu wypełnienia. Eksperci Państwowego Instytutu Geologicznego wskazują, że projekt powinien określać rodzaj materiału, a po wypełnieniu należy sporządzić protokół. Sprzeciw do projektu nazwali też jedynym w praktyce momentem, w którym organy mogą wpłynąć na wykonywanie takich odwiertów.
+
+Reszta kontroli należy do Was i powinna znaleźć się w umowie.
+
+CO USTALIĆ, ZANIM WIERTNICA WJEDZIE NA DZIAŁKĘ
+
+Podział obowiązków. Kto robi projekt robót, kto go zgłasza, kto zapewnia geologa, kto sporządza i przekazuje dokumentację geologiczną, kto wywozi urobek i płuczkę.
+Podstawa techniczna. Wskażcie jeden dokument główny, np. wytyczne PORT PC dla dolnych źródeł, VDI 4640-2 albo EN 17522:2023.
+Zakres wiercenia. Liczba i głębokość otworów, średnica otworu, typ sondy, średnica rur. Każda zmiana tylko za pisemną zgodą. Zmiana zgłoszonego projektu wymaga dodatku (§ 3a rozporządzenia).
+Materiał. Nazwa produktu, a nie samo „wypełnienie mieszanką”. Zamiennik tylko po zgodzie projektanta dolnego źródła.
+Metoda. Wypełnianie od dna do góry, przez rurę iniekcyjną, bez przerw.
+Terminarz prób. Które próby, kiedy, przy jakim ciśnieniu i kto podpisuje wynik.
+Wzory protokołów. Poproście o nie już na etapie oferty. Jeśli firma ich nie ma, przed podpisaniem umowy ustalcie, kto i w jakiej formie je przygotuje.
+Sytuacje awaryjne. Co robicie, gdy mieszanka ucieka, otwór się osypuje albo pojawia się samoczynny wypływ wody. Kto wstrzymuje prace i kto decyduje o dalszych kosztach.
+Dostęp i termin. Wykonawca uprzedza Was o wypełnianiu i próbach, żebyście mogli być na miejscu Wy albo Wasz przedstawiciel.
+Płatność. Ostatnia część wynagrodzenia po przekazaniu kompletu dokumentów.
+
+CO MA BYĆ WIADOMO O MATERIALE
+
+Poproście o kartę techniczną konkretnego produktu i porównajcie ją z projektem dolnego źródła. Minimalne wymagania z wytycznych PORT PC, przywołane przez PIG-PIB:
+
+● współczynnik filtracji poniżej 10⁻⁹ m/s,
+● przewodność cieplna powyżej 0,8 W/(m·K),
+● gęstość powyżej 1250 kg/m³,
+● wytrzymałość na ściskanie powyżej 2,5 N/mm² po 28 dniach,
+● mrozoodporność do −10 °C,
+● odporność na korozję XA2,
+● odstój wody po 24 godzinach poniżej 2%,
+● brak składników szkodliwych dla wód podziemnych i środowiska.
+
+To dolna granica. Ekspertka PIG-PIB opisuje specjalistyczną mieszankę o przewodności min. 2,0 W/(m·K) i wskazuje ryzyko większego oporu termicznego przy innych materiałach, np. na bazie bentonitu. Zaleca też atest higieniczny NIZP-PZH i certyfikat potwierdzający przewodność cieplną.
+
+Mrozoodporność porównajcie z najniższą temperaturą czynnika w projekcie. Jeżeli wykonawca zmienia produkt, projektant powinien sprawdzić, czy jego założenia nadal są aktualne.
+
+JAK MA PRZEBIEGAĆ WYPEŁNIANIE
+
+Rurę iniekcyjną wprowadza się do otworu razem z sondą. Mieszanka idzie od dna do góry, a powietrze i płuczka mają ustępować jej miejsca.
+
+Niemieckie zalecenia oparte na VDI 4640-2 przewidują kontrolę mieszanki na budowie i ciągły zapis ilości oraz gęstości. Tłoczenie trwa, aż z otworu wypływa zawiesina o takiej samej gęstości jak wtłaczana. To nie jest wymóg polskiego przepisu, ale jasny warunek zakończenia, który można przyjąć w umowie.
+
+CZTERY MOMENTY PRÓB
+
+Przed wprowadzeniem sondy: dokument fabryczny albo próba na budowie.
+Po wprowadzeniu, przed wypełnieniem: szczelność i przepływ. To ostatnia dobra chwila na wymianę uszkodzonej sondy.
+Po wypełnieniu: tylko w czasie wskazanym przez przyjętą wytyczną i producenta mieszanki. Prezentacja wymagań VDI 4640-2 mówi o zakończeniu próby ciśnieniowej przed związaniem materiału. Wytyczne z Brandenburgii ostrzegają, że ciśnienie w trakcie wiązania może trwale naruszyć kontakt rury z wypełnieniem, a spóźnioną próbę przesuwają na co najmniej 28 dni, zgodnie z danymi producenta. Dlatego termin trzeba ustalić wcześniej, a nie na miejscu.
+Po połączeniu sond: ciśnienie i przepływ całego układu przed uruchomieniem. VDI 4640-2 dopuszcza odchyłkę ±15% między zmierzonym a obliczonym spadkiem ciśnienia, a przy sondach z kilkoma obiegami każdy sprawdza się osobno.
+
+Ciśnienia nie wybiera się z przyzwyczajenia. Zależy od głębokości, gęstości mieszanki i dopuszczalnego ciśnienia rury.
+
+RACHUNEK, KTÓRY MOŻE ZROBIĆ INWESTOR
+
+Przykład poglądowy: otwór Ø 150 mm i 90 m ma około 1,59 m³. Cztery rury Ø 32 mm zajmują około 0,29 m³. Na wypełnienie zostaje około 1,3 m³.
+
+Ściany otworu nie są idealne, więc wynik nie będzie co do litra. Ilość wyraźnie mniejsza od obliczonej wymaga wyjaśnienia. Ilość dużo większa może oznaczać kawerny albo ucieczkę mieszanki. W Brandenburgii przekroczenie dwukrotności obliczonej ilości oznacza zawiadomienie urzędu. U nas można przyjąć w umowie własny próg, po którym prace stają do czasu decyzji.
+
+KOMPLET PRZED OSTATNIĄ PŁATNOŚCIĄ
+
+● projekt robót i potwierdzenie zgłoszenia, jeśli otwory mają ponad 30 m,
+● zestawienie otworów: lokalizacja, głębokość, opis warstw, napotkane problemy,
+● dane sond: producent, typ, średnice, dokumenty fabryczne,
+● karta techniczna mieszanki, dokumenty, ilość worków i partia,
+● protokół wypełnienia każdego otworu: data, metoda, ilość obliczona i faktyczna, wyniki kontroli, przerwy, podpisy,
+● protokoły wszystkich prób,
+● plan powykonawczy otworów, rozdzielacza i rur poziomych z wymiarami,
+● zdjęcia z każdego etapu,
+● warunki gwarancji,
+● dokumentacja geologiczna albo termin jej złożenia i potwierdzenie, kto ją składa.
+
+OSIEM BŁĘDÓW PRZY WYPEŁNIENIU ODWIERTU
+
+❌ Umowa na metry wiercenia bez opisu wypełnienia
+❌ Materiał bez nazwy i parametrów
+❌ Założenie, że przy 30 m nie ma czego dokumentować, skoro nie ma projektu
+❌ Zamiana mieszanki bez sprawdzenia projektu dolnego źródła
+❌ Wypełnianie z przerwami lub bez rury iniekcyjnej
+❌ Próba szczelności w przypadkowym momencie
+❌ Brak porównania ilości obliczonej z faktyczną
+❌ Zapłata całości przed otrzymaniem protokołów i planu powykonawczego
+
+NA KONIEC
+
+Przy dolnym źródle płaci się za coś, czego nie da się później obejrzeć. Po robotach zostaje dokumentacja, a ta powstaje tylko wtedy, gdy ktoś ustalił ją przed pierwszym metrem wiercenia.
+
+#EdukacjaBudowlana #PompaCiepła #GruntowaPompaCiepła #DolneŹródło #SondaPionowa #Odwierty #Geotermia #BudowaDomu #Inwestor #KierownikBudowy #OdbiórRobót

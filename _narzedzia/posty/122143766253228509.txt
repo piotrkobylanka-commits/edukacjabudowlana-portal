@@ -1,0 +1,98 @@
+🚪 „Drzwi łazienkowe zamontowane. Kto sprawdził przewidziany przepływ powietrza?”
+
+Skrzydło równo przylega, klamka działa, kolor pasuje do listew. Monter kończy, a protokół wygląda na formalność.
+
+Tylko że te drzwi należą też do wentylacji. Kratka wywiewna zabiera z łazienki powietrze, więc inne powietrze musi na jego miejsce dopłynąć. Gdy drzwi są zamknięte, droga prowadzi zwykle przez ich dolną część.
+
+Przy odbiorze obok próbki koloru połóżcie więc projekt wentylacji i miarkę.
+
+CO MÓWIĄ PRZEPISY I NORMA
+
+W warunkach technicznych z 2002 r. drzwi do łazienki, umywalni i wydzielonego ustępu opisuje § 79 ust. 1:
+
+● mają otwierać się na zewnątrz pomieszczenia,
+● mają mieć co najmniej 0,8 × 2 m w świetle ościeżnicy,
+● w dolnej części mają mieć otwory o łącznym przekroju co najmniej 0,022 m², czyli 220 cm².
+
+Przepis nie podaje wyjątku dla wentylacji mechanicznej.
+
+PN-83/B-03430 ze zmianą Az3 mówi przy dopływie do łazienki o 200 cm² netto. To rozbieżność, którą trzeba nazwać: rozporządzenie podaje 220 cm², a norma 200 cm². Jeżeli inwestycja podlega § 79, przyjmujcie 220 cm², a z normy zapamiętajcie słowo „netto”.
+
+Warunki z 2002 r. wygasły 20 września 2026 r. Według źródeł z października nowych nie ogłoszono, a dotychczasowe wymagania można stosować na zasadach okresu przejściowego z art. 102a–102c Prawa budowlanego. Zapytajcie projektanta, jak to dotyczy Waszej inwestycji.
+
+POLICZCIE TO NA GOTOWEJ PODŁODZE
+
+Dla skrzydła o szerokości 80 cm:
+
+● szczelina 1 cm daje 80 cm²,
+● szczelina 2 cm daje 160 cm²,
+● szczelina 2,75 cm daje 220 cm².
+
+Wysokość szczeliny mierzcie przy zamkniętych drzwiach, od dolnej krawędzi skrzydła do gotowej posadzki albo progu. Nie do wylewki i nie do tego, co było na rysunku.
+
+Przykład: podcięcie ma 2,75 cm, a pod skrzydłem pojawia się próg 1,5 cm. Zostaje 1,25 cm, czyli 100 cm². Na papierze drzwi spełniały wymaganie, a po montażu progu brakuje 120 cm².
+
+To samo może zrobić wyższa okładzina po jednej stronie albo profil przejściowy. Dlatego glazurnik, posadzkarz i monter drzwi muszą znać tę samą rzędną gotowej podłogi.
+
+TULEJE I KRATKA: SPRAWDŹCIE PRZEKRÓJ, NIE NAZWĘ
+
+● Tuleje. Poradniki liczą je często z pełnej średnicy: 75 mm to ok. 44 cm², więc pięć sztuk daje ok. 221 cm². W ofercie można jednak trafić na tuleję 55 mm z otworem montażowym 40 mm. Otwór ma wtedy ok. 12,6 cm², a pięć takich otworów ok. 63 cm². Liczcie prześwit, a nie średnicę osłonki.
+● Kratka. Otwór 44 × 12 cm ma 528 cm², ale powietrze przechodzi tylko przez wolne światło między lamelami. Poproście o powierzchnię czynną w karcie kratki. Sam wymiar otworu w skrzydle tego nie pokazuje.
+● Układ mieszany. Sumujcie podcięcie i otwory, ale każdy składnik wpiszcie osobno, razem z jego źródłem.
+
+CO ZAMYKA DROGĘ POWIETRZA
+
+● Uszczelka opadająca. Taki mechanizm po zamknięciu drzwi dociska uszczelkę do podłoża albo progu. Podcięcie przestaje wtedy działać i trzeba zapewnić przekrój w inny sposób.
+● Próg. § 75 ust. 3 o braku progów odnosi się do drzwi z ust. 1 i 2, a § 79 nie powtarza tego dla łazienki. Ten zapis nie rozstrzyga więc sprawy progu w łazience domu, ale jego wysokość wchodzi do obliczeń.
+● Drzwi przesuwne lub składane. § 79 ust. 2 dopuszcza je w łazienkach i ustępach, oprócz ogólnodostępnych. Nie mówi jednak, że otwory dla dopływu powietrza przestają być potrzebne. Zapytajcie, gdzie w takim układzie jest przewidziane 220 cm².
+● Dywanik lub mata pod skrzydłem. Mały detal użytkowy, a także przeszkoda dla szczeliny.
+
+PRZEJDŹCIE CAŁĄ DROGĘ POWIETRZA
+
+Łazienka może być na końcu trasy. Przy wentylacji z rekuperacją nawiew trafia zwykle do pokojów, a wywiew działa w łazience, kuchni i WC. Powietrze przechodzi więc przez drzwi pokoju, korytarz i dopiero potem drzwi łazienki.
+
+PN-83/B-03430 podaje dla otworów lub szczelin przy pokojach mieszkalnych 80 cm² netto. Jedno z polskich zestawień dla domu z wentylacją mechaniczną przyjmuje 220 cm² dla łazienki, WC, kuchni, garderoby i spiżarni, a 80 cm² dla pozostałych drzwi.
+
+Jedno z branżowych opracowań zwraca uwagę, że gdy nawiew i wywiew są w tym samym pomieszczeniu, podcięcie nie jest potrzebne do pracy instalacji. § 79 nie zawiera jednak takiego wyjątku. Jeżeli projekt idzie tą drogą, potrzebny jest zapis projektanta z uzasadnieniem.
+
+Inna sytuacja to urządzenie gazowe w łazience. Wtedy sposób dopływu powietrza ustala projektant, a drzwi nie mogą być wybrane bez tej informacji.
+
+KARTA PRZED ZAMÓWIENIEM DRZWI
+
+Wentylacja. Rodzaj instalacji i przewidziany strumień z łazienki.
+Droga powietrza. Skąd powietrze ma wejść do łazienki i przez które drzwi przejdzie.
+Przekrój. Jaka wartość obowiązuje i na jakiej podstawie.
+Skrzydło. Podcięcie, tuleje, kratka lub panel, z przekrojem netto z karty.
+Podłoga. Rzędne gotowej posadzki po obu stronach i rodzaj progu.
+Okucia. Czy są uszczelki przy podłodze i jak działają po zamknięciu.
+Kierunek. Otwieranie na zewnątrz albo rozwiązanie przesuwne lub składane.
+Urządzenia. Czy w łazience jest coś, co zmienia zapotrzebowanie na powietrze.
+Potwierdzenie. Kto zatwierdził wynik i kiedy.
+
+Karta ma powstać przed zamówieniem. Po podcięciu fabrycznym, frezowaniu kratki albo położeniu płytek każda zmiana kosztuje więcej.
+
+ODBIÓR PRZY ZAMKNIĘTYCH DRZWIACH
+
+● Zmierzcie prześwit w kilku punktach na szerokości skrzydła.
+● Policzcie jego pole i dodajcie otwory netto.
+● Sprawdźcie, czy uszczelka nie zamyka szczeliny.
+● Zobaczcie, czy kratki i tuleje nie są zasłonięte.
+● Porównajcie wynik z kartą i projektem.
+● Przy wentylacji mechanicznej poproście o pomiar strumienia przy zamkniętych drzwiach i porównajcie go z projektem.
+● Przy wentylacji grawitacyjnej pamiętajcie, że działanie zależy od warunków, więc zapiszcie datę i okoliczności pomiaru.
+
+Rozbieżność wpiszcie do protokołu jako zastrzeżenie, z osobą odpowiedzialną i terminem. Zapis „poprawi się później” nie pomoże, gdy kolor i ościeżnica są już odebrane.
+
+SIEDEM BŁĘDÓW
+
+❌ Odbiór drzwi bez projektu wentylacji
+❌ Liczenie szczeliny od wylewki zamiast od gotowej podłogi
+❌ Próg dodany po zamówieniu podcięcia
+❌ Dobór tulei według średnicy osłonki
+❌ Kratka kupiona bez powierzchni czynnej
+❌ Uszczelka opadająca w drzwiach, które miały mieć szczelinę
+❌ Sprawdzenie tylko drzwi łazienki, bez reszty drogi powietrza
+
+Drzwi łazienkowe można odebrać w pięć minut. Miarka i karta porównania dokładają kilka kolejnych, a poprawa po montażu bywa dużo trudniejsza.
+
+#EdukacjaBudowlana #Drzwi #DrzwiŁazienkowe #Łazienka #Wentylacja #Rekuperacja #OdbiórBudowy #BudowaDomu #Inwestor #Wykończenie #KierownikBudowy

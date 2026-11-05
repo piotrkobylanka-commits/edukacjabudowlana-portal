@@ -1,0 +1,94 @@
+💧 „Zmiękczacz zamontowany. Kto ustawił go pod wynik badania wody?”
+
+Instalator podłącza zbiorniki, sypie sól, na sterowniku pojawia się godzina. Urządzenie działa. Tylko co właściwie ma zrobić z waszą wodą?
+
+Pytanie „czy ten zmiękczacz jest dobry?” niewiele daje, bo bez danych nie ma na nie odpowiedzi. Lepsze brzmi tak: czy wiadomo, co i do jakiego poziomu ma zmieniać?
+
+Zmiękczacz jonowymienny zatrzymuje wapń i magnez, a w ich miejsce oddaje do wody sód. Nie dezynfekuje wody i nie rozwiązuje każdego problemu z jej jakością. Jego ustawienia mają wynikać z liczb, a nie z przyzwyczajenia montera.
+
+CO MA BYĆ USTALONE PRZED ODBIOREM
+
+● Twardość wody surowej. Z badania, z datą i jednostką. Przy wodociągu dane często publikuje dostawca wody. Przy studni zamawiacie badanie w laboratorium.
+● Twardość docelowa. Konkretna wartość i miejsce pomiaru, na przykład zimna woda za zmiękczaczem.
+● Żelazo, mangan i pH. Szczególnie przy studni. Producenci podają dla nich limity, a w jednej ze sprawdzonych instrukcji żelazo i mangan dolicza się do twardości wpisywanej w sterownik.
+● Zakres. Które punkty dostają wodę zmiękczoną, a które nie: kuchnia, kran ogrodowy, napełnianie instalacji grzewczej.
+
+Nie ma jednej wartości dobrej dla każdego domu. Znaczenie mają rury, urządzenia i to, czy pijecie tę wodę. Bardzo miękka woda jest agresywna wobec miedzi, a rozporządzenie o jakości wody zaznacza, że woda po zmiękczaniu nie powinna mieć właściwości agresywnych ani korozyjnych. Sterownik ustawiony „na zero” nie jest więc automatycznie najlepszym wynikiem.
+
+ILE SODU DOCHODZI
+
+Przykład poglądowy: woda ma 20 °dH, czyli około 356 mg CaCO₃/l, a cel to 5 °dH. Zmiękczacz usuwa 15 °dH.
+
+Każdy stopień zamieniony na sód dodaje około 8,2 mg sodu na litr. Tutaj to około 123 mg/l, a przy całkowitym zmiękczeniu tej wody około 164 mg/l. Do tego trzeba doliczyć sód, który woda miała na wejściu.
+
+Punkt odniesienia: rozporządzenie Ministra Zdrowia z 22 maja 2026 r. podaje dla wody do spożycia 200 mg/l sodu i twardość 60–500 mg/l. Dlatego przy wodzie do picia pytacie o wynik, a nie o samą „miękkość”.
+
+JAK ODEBRAĆ URZĄDZENIE
+
+Nastawy. Zdjęcie ekranu i wpis do protokołu: twardość surowa, jednostka, tryb i godzina regeneracji, ustawienie mieszania. Jednostkę sprawdźcie osobno. 20 °dH i 20 ppm to zupełnie inna woda.
+Pomiar przed i po. Twardość wody surowej, potem twardość za zmiękczaczem. Instalator robi to przy was, na przykład testem kropelkowym, a wynik wpisuje do protokołu.
+Regeneracja próbna. Uruchamiana ręcznie. Oglądacie, czy woda płynie do odpływu, czy nic nie cieknie i czy poziom w zbiorniku solanki nie rośnie w nieprawidłowy sposób. Po regeneracji pomiar powtarzacie.
+Odpływ. Musi być przerwa powietrzna, bez szczelnego wpięcia węża w kanalizację. Dwie sprawdzone instrukcje nie pozwalają łączyć odpływu z przelewem w jeden przewód. Jedna z nich zakazuje też zaworu odcinającego na odpływie.
+Warunki pracy. Ciśnienie i temperaturę porównujecie z instrukcją swojego modelu. Jedna ze sprawdzonych instrukcji dopuszcza do 0,45 MPa, druga wymaga +5 do +38 °C oraz odsunięcia urządzenia od źródeł ciepła. Pomieszczenie nie może zamarzać.
+
+OBEJŚCIE MA OBSŁUŻYĆ DOMOWNIK
+
+Awaria zmiękczacza nie powinna odcinać domu od wody. Przy odbiorze każda osoba, która będzie to obsługiwać, ma sama przełożyć zawory.
+
+Do instrukcji obejścia wpiszcie:
+
+● gdzie są zawory i jak je oznaczono,
+● która pozycja to praca, a która obejście,
+● że w obejściu do domu płynie woda twarda,
+● kiedy obejścia używać: przy serwisie, awarii, przerwie w dostawie wody,
+● jak wrócić do pracy po awarii i kto sprawdza twardość po powrocie.
+
+Zawór mieszający i obejście to dwie różne rzeczy. Pierwszy ustala twardość, drugie omija urządzenie. Jeśli po montażu nikt ich nie opisał, łatwo przestawić nie to, co trzeba.
+
+HARMONOGRAM OBSŁUGI
+
+Jedna kartka przy urządzeniu, oparta na instrukcji waszego modelu:
+
+● Sól. Jaka, kto dosypuje i po czym poznać, że trzeba. Jedna ze sprawdzonych instrukcji dopuszcza tylko czystą sól tabletkowaną i nie pozwala mieszać rodzajów soli.
+● Kontrola twardości. Jak często, czym i do jakiej wartości. Wynik zapisany z datą.
+● Sterownik. Sprawdzenie godziny i ustawień po przerwie w zasilaniu.
+● Czyszczenie. Zbiornik solanki i złoże: co jaki czas i czym. Przy żelazie częstotliwość może być inna.
+● Dezynfekcja. Wyłącznie sposobem opisanym w instrukcji.
+● Dłuższa nieobecność. Co zrobić przed wyjazdem i po powrocie. Nie każda instrukcja to opisuje, więc zapytajcie przed zapłatą.
+● Serwis i gwarancja. Kontakt, zakres przeglądów i warunki utrzymania gwarancji.
+
+DOM Z SZAMBEM ALBO PRZYDOMOWĄ OCZYSZCZALNIĄ
+
+Popłuczyny po regeneracji zawierają sól. W polskim badaniu wstępnym jednej instalacji przydomowej stężenie NaCl na odpływie osiągało po regeneracji 3,5–5,1 g/l i utrzymywało się podwyższone przez około 1,5–2 dni. Nie zbadano w nim wpływu na osad czynny, a wyniki pochodzą z jednej instalacji i jednego typu gruntu.
+
+Nie wyciągajcie z tego ogólnej liczby dla każdego domu. Zanim popłuczyny trafią do zbiornika lub oczyszczalni, sprawdźcie instrukcję zmiękczacza i warunki producenta oczyszczalni, a miejsce zrzutu ustalcie przed montażem.
+
+CO ZABRAĆ Z ODBIORU
+
+● wynik badania wody i wartość docelową,
+● protokół uruchomienia z nastawami,
+● pomiary twardości przed i za zmiękczaczem,
+● potwierdzenie regeneracji próbnej,
+● instrukcję obsługi po polsku,
+● opisane obejście i zawór mieszający,
+● harmonogram obsługi i kontakt do serwisu,
+● kartę gwarancyjną,
+● dokument potwierdzający, że urządzenie i złoże mogą mieć kontakt z wodą do spożycia, jeśli pijecie tę wodę.
+
+SIEDEM BŁĘDÓW PRZY ODBIORZE ZMIĘKCZACZA
+
+❌ Dobór bez aktualnego wyniku badania wody
+❌ Brak wartości docelowej w zamówieniu
+❌ Nastawy wpisane bez sprawdzenia jednostki
+❌ Odbiór bez pomiaru twardości za urządzeniem
+❌ Odpływ wpięty szczelnie albo połączony z przelewem
+❌ Obejście, którego nikt w domu nie umie użyć
+❌ Pierwsza rozmowa o szambie albo oczyszczalni dopiero po montażu
+
+NA KONIEC
+
+Sterownik z godziną i sól w zbiorniku pokazują, że urządzenie zostało uruchomione. O odbiorze decydują wynik badania, nastawy, pomiar i osoba, która wie, co zrobić, gdy coś przestanie działać.
+
+A u was: wiecie, jaką twardość ma mieć woda za zmiękczaczem i kto to ostatnio zmierzył?
+
+#EdukacjaBudowlana #Zmiękczacz #ZmiękczaczWody #TwardaWoda #BadanieWody #UzdatnianieWody #InstalacjaWodna #BudowaDomu #Inwestor #KierownikBudowy

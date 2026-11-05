@@ -1,0 +1,139 @@
+🪵 „Sauna w domu miała być prostą zabudową z drewna.”
+
+Na wizualizacji są deski, ława i ładne światło pod siedziskiem. Stolarz bierze wymiary, a sauna trafia do harmonogramu gdzieś między płytkami a meblami.
+
+Potem ktoś pyta o zasilanie pieca. Okazuje się, że do pomieszczenia dochodzi zwykły obwód, kanału wywiewnego nie ma, a jedna ze ścian graniczy z sypialnią.
+
+Drewno jest ostatnią warstwą. Wcześniej trzeba ustalić piec, prąd, powietrze i to, co dzieje się z wilgocią i ciepłem za deskami.
+
+KABINA CZY POMIESZCZENIE?
+
+To pierwsze pytanie, bo od niego zależy kolejność pracy.
+
+● Kabina prefabrykowana. Część normy PN-HD 60364-7-703 o saunach nie obejmuje gotowych kabin zgodnych z normą wyrobu. Trzeba jednak sprawdzić, co producent wymaga od pomieszczenia, zasilania i wentylacji wokół kabiny.
+● Sauna budowana na miejscu. Tu norma ma zastosowanie.
+● Piec zamontowany w pomieszczeniu. Wtedy za saunę uznaje się całe pomieszczenie.
+
+W każdym wariancie poproście o instrukcję konkretnego urządzenia. Ta sama norma odsyła przy montażu pieca do instrukcji producenta.
+
+NAJPIERW PIEC, POTEM WYMIARY DESEK
+
+Z instrukcji wypiszcie:
+
+● moc i dopuszczalną kubaturę,
+● zasilanie, przewód i zabezpieczenia,
+● odległości od ścian, ławy i osłon,
+● minimalną wysokość wnętrza,
+● położenie czujnika i sterownika,
+● położenie nawiewu i wywiewu,
+● wymagania dla podłogi.
+
+Kubatura z rzutu może nie wystarczyć. Jedna z instrukcji każe dodać 1,2 m³ za każdy metr kwadratowy nieizolowanej powierzchni, np. szkła, betonu, cegły lub płytek. Przy ścianach z bali kubaturę mnoży się tam przez 1,5.
+
+Przykład dla pieca 6 kW z tej instrukcji, przeznaczonego do 5–8 m³: sauna ma 7 m³ i 2 m² szkła. Do obliczeń przyjmujemy 7 + 2 × 1,2 = 9,4 m³, czyli piec wypada poza zakres. Szklany front zmienia więc dobór urządzenia, a dobór urządzenia może zmienić zasilanie.
+
+PRĄD: USTALCIE GO PRZED ZAMKNIĘCIEM ŚCIAN
+
+Wiele pieców do saun fińskich pracuje na zasilaniu trójfazowym. Elektryk potrzebuje modelu pieca, zanim poprowadzi obwód z rozdzielnicy.
+
+W PN-HD 60364-7-703 szukajcie zwłaszcza tych zasad:
+
+● strefa 1, czyli otoczenie pieca do 0,5 m od jego powierzchni: tylko urządzenia należące do pieca,
+● strefa 2: poza strefą 1, do 1 m nad podłogą, bez szczególnych wymagań co do odporności cieplnej,
+● strefa 3: poza strefą 1, powyżej 1 m, gdzie urządzenia mają wytrzymać co najmniej 125 °C, a izolacja przewodów co najmniej 170 °C,
+● przewody najlepiej prowadzić poza strefami, po zimnej stronie izolacji,
+● stopień ochrony co najmniej IP24, a IPX5, gdy można spodziewać się czyszczenia strumieniem wody,
+● gniazda nie w pomieszczeniu z piecem,
+● pozostała aparatura, np. do oświetlenia, poza sauną.
+
+Osobno rozstrzygnijcie wyłącznik różnicowoprądowy, bo tu źródła się rozjeżdżają. Norma wymaga ochrony wyłącznikiem do 30 mA dla obwodów sauny, z wyjątkiem pieca. Instrukcje jednego z producentów zakazują podłączania zasilania pieca przez taki wyłącznik. W polskich poradnikach internetowych można znaleźć odwrotne zalecenie, że obwód pieca ma mieć 30 mA.
+
+Nie wybierajcie tego na forum. Elektryk ma zestawić normę z instrukcją konkretnego pieca i zapisać przyjęte rozwiązanie.
+
+Jeżeli w tym samym pomieszczeniu jest natrysk lub basen z zimną wodą, dochodzą wymagania normy dla pomieszczeń z wanną lub natryskiem.
+
+WENTYLACJA: PIEC, KANAŁ I POKÓJ OBOK
+
+Instrukcje jednego z producentów podają 6 wymian powietrza na godzinę. Polskie poradniki mówią ogólnie o kilku wymianach albo o przekroju wlotu. Liczbę dla swojego układu powinien potwierdzić projektant wentylacji.
+
+Położenie otworów też nie jest uniwersalne:
+
+● jedna instrukcja przy wywiewie mechanicznym stawia nawiew nad piecem, a przy grawitacyjnym pod piecem lub obok niego,
+● ta sama instrukcja stawia wywiew przy podłodze, jak najdalej od pieca,
+● polski poradnik przy wentylacji grawitacyjnej stawia wylot tuż pod sufitem lub w suficie.
+
+Żadnej z tych wskazówek nie kopiujcie na ślepo z obrazka. Ustalcie układ dla konkretnego pieca, a potem sprawdźcie, czy da się go wykonać w Waszym domu.
+
+Dopytajcie też:
+
+● skąd przyjdzie nawiew i czy nie schłodzi czujnika temperatury,
+● dokąd trafi powietrze z sauny i czy połączenie z wentylacją domu jest dopuszczone,
+● czy pomieszczenie wokół kabiny ma własną wymianę powietrza,
+● czy w saunie jest klapa do suszenia, zamykana na czas grzania i kąpieli.
+
+Sąsiednie pomieszczenie bywa częścią układu. Według jednej instrukcji wywiew w myjni wymaga mechanicznego wyciągu i co najmniej 100 mm szczeliny pod drzwiami sauny. Taki detal trzeba znać przed zamówieniem drzwi.
+
+ŚCIANA ZA DESKAMI I POKÓJ OBOK
+
+Przykładowa instrukcja opisuje przegrodę tak: izolacja 100 mm, minimum 50 mm, folia aluminiowa ze szczelnie sklejonymi krawędziami błyszczącą stroną do środka, zalecana szczelina 10 mm, boazeria 12–16 mm. Dla sufitu podaje co najmniej 100 mm izolacji. To dane producenta, a nie uniwersalny przepis.
+
+Przy Waszej ścianie zapytajcie:
+
+● Czy to ściana zewnętrzna, nośna, działowa czy instalacyjna?
+● Co jest po drugiej stronie: sypialnia, szafa, łazienka, grunt?
+● Czy układ warstw ktoś sprawdził pod kątem wilgoci?
+● Kto wykona przejścia kabli i kanałów przez folię?
+● Czy puszki i przewody nie przebiją warstwy paroszczelnej?
+● Czy ściana jest sucha, zanim ją zakryjecie?
+● Czy osłona cieplna pieca nie podniesie temperatury na ścianie? Jedna z instrukcji ostrzega przed płytą mineralną zamontowaną bezpośrednio na ścianie i podaje limit 140 °C na powierzchni ścian oraz sufitu.
+
+Gotowa kabina też potrzebuje miejsca. Jeden z poradników podaje co najmniej kilkucentymetrowy odstęp od ścian, aby powietrze mogło krążyć. Sprawdźcie tę wartość w dokumentach swojej kabiny.
+
+PRZEPISY POMIESZCZENIA I WYSOKOŚĆ
+
+Warunki techniczne z 2002 r. wygasły 20 września 2026 r. Według źródeł z października nowych nie ogłoszono, a dotychczasowe wymagania można stosować na zasadach okresu przejściowego z art. 102a–102c Prawa budowlanego. Zapytajcie projektanta, jak to dotyczy Waszej inwestycji.
+
+W dotychczasowym rozporządzeniu sauna jest wymieniona wśród pomieszczeń higienicznosanitarnych (§ 76). Dla takich pomieszczeń § 77 podaje 2,5 m wysokości w świetle, a w budynku mieszkalnym dopuszcza 2,2 m przy wentylacji mechanicznej wywiewnej lub nawiewno-wywiewnej. § 78 ust. 1 mówi o ścianach do 2 m o powierzchni zmywalnej i odpornej na wilgoć.
+
+Instrukcje pieców podają inne wartości: zwykle 2,1–2,3 m wnętrza i minimum 1,9 m. Przy drewnianej kabinie w wyższym pomieszczeniu to nie musi być sprzeczność, bo instrukcja opisuje wnętrze sauny. Przy osobnym pomieszczeniu z niskim sufitem albo ścianami wyłożonymi deskami pytanie jest poważniejsze. Niech projektant zapisze, jak kwalifikuje Wasz układ.
+
+Gdy sauna pojawia się w trakcie budowy, zapytajcie go także o zgodność z projektem. Kwalifikacja odstąpienia należy do projektanta, a przy nieistotnym dołącza on rysunek i opis do dokumentacji budowy (art. 36a ust. 6 Prawa budowlanego).
+
+KTO ZA CO ODPOWIADA
+
+Inwestor zbiera dokumenty i wymaga decyzji na piśmie.
+
+Projektant ustala funkcję pomieszczenia, wysokość, przegrody i zgodność z projektem.
+
+Projektant lub instalator wentylacji dobiera nawiew, wywiew i połączenie z instalacją domu.
+
+Projektant instalacji i elektryk ustalają zasilanie zgodnie z normą oraz instrukcją pieca. Po wykonaniu robót potrzebne są pomiary i protokół.
+
+Dostawca sauny lub pieca przekazuje instrukcję, dobór mocy, odległości i wymagania montażowe.
+
+Stolarz pracuje dopiero na uzgodnionym układzie, bez przenoszenia ławy, czujnika czy kratki „bo tak ładniej”.
+
+PRZED ZAMKNIĘCIEM ŚCIAN POPROŚCIE O:
+
+model pieca i aktualną instrukcję,
+obliczenie kubatury z powierzchniami nieizolowanymi,
+rysunek z piecem, ławami, czujnikiem, nawiewem i wywiewem,
+schemat obwodu oraz zapis decyzji o wyłączniku różnicowoprądowym,
+warstwy ścian, sufitu i podłogi,
+zdjęcia izolacji, folii, przejść i przewodów przed montażem desek,
+protokół pomiarów instalacji elektrycznej,
+instrukcję użytkowania i suszenia sauny.
+
+SIEDEM BŁĘDÓW PRZY SAUNIE W DOMU
+
+❌ Zamówienie zabudowy przed wyborem pieca
+❌ Liczenie kubatury bez szkła, betonu i płytek
+❌ Puszki i gniazda „gdzie wygodnie”
+❌ Zwykłe przewody w gorącej części sauny
+❌ Kratki wentylacyjne ustawione według wyglądu
+❌ Przebijanie folii bez uzgodnionego detalu
+❌ Zakrycie ściany przed zdjęciami i odbiorem
+
+Drewno można wybierać na końcu. Piec, prąd i powietrze powinny być znane, zanim stolarz weźmie pierwszy wymiar.
+
+#EdukacjaBudowlana #Sauna #SaunaWDomu #InstalacjaElektryczna #Wentylacja #Paroizolacja #BudowaDomu #Inwestor #Remont #BezpieczeństwoPożarowe #KierownikBudowy

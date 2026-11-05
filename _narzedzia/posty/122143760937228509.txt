@@ -1,0 +1,97 @@
+🔥 „Kominek wybrany, ale nikt nie sprawdził jego zgodności z kominem.”
+
+W salonie jest już wizualizacja, próbka kamienia i decyzja o szerokiej szybie. Dopiero potem ktoś pyta, jaki przewód jest za ścianą.
+
+Tu kolejność jest odwrócona. Obudowa to ostatnia warstwa. Najpierw trzeba zestawić urządzenie z kominem, pomieszczeniem i wentylacją, bo karta kominka nie wie nic o Waszym domu, a komin nie wie nic o wybranym wkładzie.
+
+CO MAJĄ PRZYNIEŚĆ DOKUMENTY URZĄDZENIA
+
+Przed zakupem poproście o aktualną kartę techniczną, deklarację właściwości użytkowych i instrukcję montażu. Szukajcie danych, a nie zdjęć:
+
+● moc nominalna i rodzaj paliwa,
+● masowy strumień spalin,
+● temperatura spalin,
+● minimalny ciąg kominowy,
+● średnica króćca i sposób podłączenia,
+● zapotrzebowanie powietrza,
+● odległości od materiałów palnych,
+● masa urządzenia i ograniczenia obciążenia komina.
+
+Dokumenty różnych urządzeń mogą wyglądać inaczej. Deklaracja jednego wkładu 10 kW podaje np. 13,4 g/s spalin, 296 °C i 12 Pa ciągu. Karta przykładowego pieca 7 kW podaje 5,5 g/s, 352 °C, 12 Pa, króciec 150 mm i masę 120 kg. Te liczby pokazują, co porównać. Nie są wartościami dla Waszego kominka.
+
+CO MA PRZYNIEŚĆ DOKUMENTACJA KOMINA
+
+● rodzaj przewodu: murowany, systemowy, wkład, stalowy,
+● przekrój lub średnica,
+● wysokość czynna i trasa,
+● oznaczenie, klasa temperatury, szczelność, odporność na kondensat i pożar sadzy,
+● deklarowana odległość od materiałów palnych,
+● czy przewód jest samodzielny,
+● opinia lub protokół ze stanu technicznego,
+● wyczystka i dostęp do kontroli,
+● miejsce podłączenia czopucha,
+● wylot nad dachem i otoczenie budynku.
+
+Przewód w tym samym bloku kominowym nie zawsze oznacza przewód do tego urządzenia. Dla kominka liczy się przewód dymowy dopuszczony do paliw stałych, a nie sama obecność „komina”.
+
+ZESTAWIENIE PRZED ZAKUPEM
+
+Połóżcie obie karty obok siebie i przejdźcie po kolei:
+
+Paliwo. Czy komin ma oznaczenie do paliw stałych, z oceną pożaru sadzy, a urządzenie przeznaczone jest na takie paliwo?
+Spaliny. Czy klasa temperatury i oznaczenie komina pasują do temperatury spalin podanej dla urządzenia?
+Ciąg i przepływ. Czy obliczenia lub pomiar pokazują wymagany ciąg przy Waszym strumieniu spalin, temperaturze i wysokości?
+Średnica. Czy króciec i przewód są zgodne, a ewentualna zmiana przekroju ma uzasadnienie?
+Czopuch. Czy trasa jest krótka i dopuszczona przez instrukcję, z dostępem do czyszczenia i dylatacją?
+Samodzielność. Czy do przewodu nie podłączono innego urządzenia?
+Odległości. Czy obudowa, półka, belka, ściana, podłoga i strop zachowują wartości z obu dokumentów?
+Powietrze. Skąd dopływa powietrze i co zrobi wentylacja, gdy kominek pracuje?
+Podłoże. Czy strop lub fundament uniesie urządzenie i obudowę?
+Akty lokalne. Czy plan miejscowy i uchwała antysmogowa nie ograniczają tego rozwiązania?
+
+Jeżeli któregoś pola nie da się wypełnić, nie kupujcie urządzenia „na zaufanie”. Najpierw uzupełnijcie dane.
+
+PRZEPISY, KTÓRE TRZEBA POŁOŻYĆ OBOK KARTY
+
+Warunki techniczne z 2002 r. wygasły 20 września 2026 r., a nowych nie ogłoszono według źródeł z października 2026 r. Okres przejściowy regulują art. 102a–102c Prawa budowlanego, dlatego zapytajcie projektanta, które warunki obejmują Waszą inwestycję. Dotychczasowe rozporządzenie podaje dla kominka w domu jednorodzinnym:
+
+● kominek na paliwo stałe ma mieć własny, samodzielny przewód dymowy (§ 145 ust. 1). Przy otworze paleniskowym do 0,25 m² przepis podaje min. 0,14 × 0,14 m lub średnicę 0,15 m, a przy większym 0,14 × 0,27 m lub 0,18 m,
+● przewody kominowe mają zapewniać właściwy ciąg i przepustowość oraz być szczelne (§ 140 ust. 1–2),
+● pomieszczenie ma mieć co najmniej 4 m³ na 1 kW mocy nominalnej, ale nie mniej niż 30 m³ (§ 132 ust. 3 pkt 1),
+● kominek o obudowie zamkniętej wymaga dopływu co najmniej 10 m³/h na 1 kW mocy nominalnej (§ 132 ust. 3 pkt 4 lit. a),
+● mechaniczna wentylacja wyciągowa jest zabroniona w pomieszczeniu, gdzie palenisko bierze powietrze z pomieszczenia i odprowadza spaliny grawitacyjnie (§ 150 ust. 9). Wyjątek dotyczy wentylacji nawiewno-wywiewnej zrównoważonej lub nadciśnieniowej (§ 150 ust. 10).
+
+Dla kominka 7 kW daje to 28 m³, czyli minimum 30 m³ kubatury, oraz 70 m³/h dopływu powietrza. Karta przykładowego pieca o tej mocy podaje dużo mniejsze zapotrzebowanie powietrza do spalania, 14,8 m³/h. Nie wybierajcie po prostu niższej liczby. Porównajcie przepis z instrukcją i poproście projektanta o zapis, jak spełnić oba wymagania.
+
+Sprawdźcie też, kiedy produkt wprowadzono do obrotu i jaka norma widnieje w dokumentach. Rozporządzenie ekoprojektu 2015/1185 stosuje się od 2022 r., a nowsze deklaracje mogą powoływać EN 16510 zamiast wcześniejszych EN 13229 lub EN 13240. Karta z inną normą nie zastępuje jednak oceny komina.
+
+TRZY OSOBY, JEDNA KARTA
+
+Projektant lub osoba z uprawnieniami sprawdza wymagania pomieszczenia, wentylację, zmiany w projekcie, a konstruktor nośność stropu albo fundamentu.
+
+Wykonawca kominka odpowiada za dobór i montaż zgodny z instrukcją: podłączenie, obudowę, przerwy, izolacje, dostęp serwisowy i dopływ powietrza.
+
+Osoba oceniająca komin. Coroczną kontrolę stanu technicznego przewodów dymowych wykonują osoby z kwalifikacjami mistrza w rzemiośle kominiarskim (art. 62 ust. 1 pkt 1 lit. c i ust. 6 pkt 1 Prawa budowlanego). Dla istniejącego przewodu poproście o sprawdzenie drożności, stanu i dopuszczenia do zamierzonego urządzenia. Jeżeli ciąg budzi wątpliwości, poproście o obliczenia według EN 13384-1 albo o pomiar przy próbnym rozpaleniu.
+
+Zbierzcie te osoby na jednej karcie, nawet jeśli nie spotkają się w jednym pomieszczeniu. Karta powinna mieć pola: urządzenie, komin, wynik, warunek, podpis lub mail potwierdzający, data. Końcowa decyzja brzmi: można kupić, można kupić z warunkami albo trzeba zmienić urządzenie lub przewód.
+
+WIADOMOŚĆ DO ROZESŁANIA
+
+Dzień dobry, przed zakupem kominka proszę o sprawdzenie zgodności urządzenia [model] z przewodem [opis] w budynku [adres]. W załączeniu karta urządzenia, instrukcja, dokumenty komina, rzut pomieszczenia i opis wentylacji. Proszę o informację, czy urządzenie można podłączyć, jakie warunki trzeba spełnić, jakich danych brakuje i kto potwierdza wynik pomiarów lub obliczeń.
+
+OSIEM BŁĘDÓW PRZY WYBORZE KOMINKA
+
+❌ Wybór obudowy przed sprawdzeniem komina
+❌ Porównanie mocy bez strumienia spalin i ciągu
+❌ Założenie, że każdy przewód w bloku nadaje się do kominka
+❌ Dobór na podstawie jednej liczby z karty
+❌ Obudowa bez sprawdzenia odległości od materiałów palnych
+❌ Pominięcie powietrza do spalania i wentylacji
+❌ Brak sprawdzenia podłoża pod cały ciężar
+❌ Decyzja przez telefon, bez dokumentów i odpowiedzialnej osoby
+
+NA KONIEC
+
+Kominek można wybierać oczami, ale dopiero po tym, jak dokumenty pozwolą go zamontować. Najpierw dane urządzenia, komina i powietrza. Dopiero potem kamień, szyba i półka.
+
+#EdukacjaBudowlana #Kominek #Komin #WkładKominkowy #Kominiarz #CiągKominowy #Wentylacja #BudowaDomu #Inwestor #BezpieczeństwoPożarowe #KierownikBudowy
