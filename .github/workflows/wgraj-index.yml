@@ -1,0 +1,60 @@
+name: Wgranie index.html
+
+# Wgrywa sam index.html na Hostingera przez FTPS z weryfikacją certyfikatu (*.hstgr.io).
+# Kolejność: kontrola rozmiaru pliku na serwerze, wgranie jako index.new.html, kopia starego, podmiana, kontrola na żywo.
+# Oczekiwany rozmiar pliku na serwerze: _narzedzia/wgraj-index-trigger (pierwsza linia).
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "_narzedzia/wgraj-index-trigger"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publikacja
+  cancel-in-progress: false
+
+jobs:
+  wgraj:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Wgranie
+        env:
+          HASLO: ${{ secrets.FTP_PASSWORD }}
+        run: |
+          R=_narzedzia/raport-wgrania.txt
+          H=srv2288.hstgr.io; IP=217.65.157.30
+          C="curl -sS --max-time 240 --ssl-reqd --resolve $H:21:$IP --user u475962483:$HASLO"
+          date -u '+%F %H:%M UTC' > $R
+          [ -n "$HASLO" ] || { echo "BRAK sekretu FTP_PASSWORD" | tee -a $R; exit 0; }
+          OCZ=$(head -1 _narzedzia/wgraj-index-trigger)
+          B=index_backup_$(date -u +%Y%m%d_%H%M).html
+          echo "== start ftp" >> $R; $C "ftp://$H/" --list-only 2>&1 | head -12 >> $R
+          NA=$($C -I "ftp://$H/public_html/index.html" 2>>$R | tr -d '\r' | awk 'tolower($1)=="content-length:"{print $2}')
+          echo "na serwerze: $NA, oczekiwane: $OCZ" >> $R
+          if [ "$NA" != "$OCZ" ]; then echo "STOP: plik na serwerze się zmienił, nic nie wgrano" >> $R; exit 0; fi
+          LOK=$(stat -c %s index.html)
+          $C -T index.html "ftp://$H/public_html/index.new.html" 2>>$R || { echo "błąd wgrania" >> $R; exit 0; }
+          NOWY=$($C -I "ftp://$H/public_html/index.new.html" 2>>$R | tr -d '\r' | awk 'tolower($1)=="content-length:"{print $2}')
+          echo "wgrano: $NOWY, lokalnie: $LOK" >> $R
+          if [ "$NOWY" != "$LOK" ]; then echo "STOP: rozmiar się nie zgadza, strona bez zmian" >> $R; exit 0; fi
+          $C "ftp://$H/" --list-only -Q "RNFR public_html/index.html" -Q "RNTO public_html/$B" -Q "RNFR public_html/index.new.html" -Q "RNTO public_html/index.html" >/dev/null 2>>$R && echo "PODMIENIONO, kopia: $B" >> $R || echo "błąd podmiany" >> $R
+          sleep 5
+          echo "== na żywo" >> $R
+          curl -s -o /tmp/l.html -w '%{http_code} %{size_download}\n' "https://edukacjabudowlana.eu/?nocache=$(date +%s)" >> $R
+          echo "zakładka: $(grep -c 'p-polaczenia' /tmp/l.html)" >> $R
+          sed -i "s/$HASLO/***/g" $R
+          cat $R
+      - name: Zapis
+        if: always()
+        run: |
+          git config user.name "EdukacjaBudowlana automat"
+          git config user.email "actions@users.noreply.github.com"
+          git add _narzedzia/raport-wgrania.txt
+          git commit -m "Automat: raport wgrania" || exit 0
+          for i in 1 2 3 4 5; do git pull --rebase origin main && git push && exit 0; sleep 8; done
