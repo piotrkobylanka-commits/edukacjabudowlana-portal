@@ -255,5 +255,320 @@
    2,
    3
   ]
+ },
+ "122143894845228509": {
+  "date": "2026-11-05",
+  "title": "Rusztowanie trzeba ustawić u sąsiada. Ustna zgoda przestała wystarczać",
+  "stage": 2,
+  "dzial": "przygotowanie-terenu",
+  "zag": "sasiedzi-drzewa-i-obiekty-sasiednie",
+  "domain": "prawo",
+  "norms": [
+   "Prawo budowlane art. 47",
+   "Kodeks cywilny art. 363",
+   "Ustawa o ochronie przyrody art. 87a",
+   "Ustawa o ochronie przyrody art. 88",
+   "Kodeks postępowania administracyjnego art. 129",
+   "Kodeks postępowania administracyjnego art. 130",
+   "Rozporządzenie w sprawie BHP podczas wykonywania robót budowlanych"
+  ],
+  "lead": "Co ustalić z sąsiadem przed wejściem ekipy: szkic pasa terenu, terminy, rośliny, nawierzchnia i rekompensata, a także co zrobić, gdy sąsiad odmawia i trzeba złożyć wniosek PB-14.",
+  "disclaimer": "Artykuł ma charakter informacyjny i nie stanowi porady prawnej.",
+  "cover_w": 960,
+  "cover_h": 1200
+ },
+ "122143862853228509": {
+  "date": "2026-11-04",
+  "title": "Klimatyzator ma wisieć na wspólnej elewacji. Co ustalić przed zakupem",
+  "stage": 6,
+  "dzial": "wentylacja-i-klimatyzacja",
+  "zag": "klimatyzacja-i-f-gazy",
+  "domain": "prawo",
+  "norms": [
+   "Ustawa o własności lokali art. 22",
+   "Ustawa o własności lokali art. 25",
+   "Kodeks cywilny art. 144",
+   "Kodeks cywilny art. 199",
+   "Prawo budowlane art. 29",
+   "Ustawa o ochronie zabytków art. 36aa"
+  ],
+  "lead": "Czyja zgoda jest potrzebna, co dołączyć do wniosku do wspólnoty i jak zaplanować miejsce, mocowanie, przewody, odpływ skroplin oraz hałas, zanim kupisz urządzenie.",
+  "disclaimer": "Artykuł ma charakter informacyjny i nie stanowi porady prawnej.",
+  "cover_w": 960,
+  "cover_h": 1200
+ },
+ "122143854105228509": {
+  "date": "2026-11-04",
+  "title": "Pion kanalizacyjny do wymiany, a sąsiad nie udostępnia mieszkania. Dokumentacja, plan prac i komunikacja z zarządcą",
+  "stage": 13,
+  "dzial": "formalnosci-remontu",
+  "zag": "remont-zgloszenie-czy-pozwolenie",
+  "domain": "prawo",
+  "norms": [
+   "Ustawa o własności lokali art. 3",
+   "Ustawa o własności lokali art. 13",
+   "Ustawa o własności lokali art. 22",
+   "Ustawa o spółdzielniach mieszkaniowych art. 6¹",
+   "Prawo budowlane art. 29",
+   "Prawo budowlane art. 66"
+  ],
+  "lead": "Kto może żądać wstępu do lokalu, jaką teczkę dowodów przygotować, co ma zawierać plan prac i jak postępować, gdy sąsiad nadal odmawia albo gdy dochodzi do awarii.",
+  "disclaimer": "Artykuł ma charakter informacyjny i nie stanowi porady prawnej.",
+  "cover_w": 960,
+  "cover_h": 1200
+ },
+ "122143844379228509": {
+  "date": "2026-11-04",
+  "title": "Rynny z jednego metalu, obróbki z drugiego. Czy ktoś sprawdził ich zgodność?",
+  "stage": 4,
+  "dzial": "pokrycie-dachu-granica-sso-i-ssz",
+  "zag": "rynny-i-odwodnienie-dachu",
+  "domain": "wykonczenia",
+  "norms": [
+   "Prawo budowlane art. 20",
+   "Kodeks cywilny art. 651",
+   "Kodeks cywilny art. 634"
+  ],
+  "lead": "Czym różni się styk dwóch metali od drogi wody, co zebrać w tabeli materiałów, kogo zapytać o zgodność i jak wygląda przydatna odpowiedź. W artykule jest gotowe zapytanie do wysłania.",
+  "disclaimer": "Technologię wykonania dla konkretnej budowy ustala projekt i karta techniczna producenta; artykuł ma charakter informacyjny.",
+  "cover_w": 960,
+  "cover_h": 1200
+ },
+ "122143840557228509": {
+  "date": "2026-11-04",
+  "title": "Inwestor zgłasza usterkę, ale na oględziny przychodzą wszyscy poza właściwym wykonawcą",
+  "stage": 12,
+  "dzial": "rekojmia-i-gwarancja",
+  "zag": "zglaszanie-wad",
+  "domain": "prawo",
+  "norms": [
+   "Kodeks cywilny art. 474",
+   "Kodeks cywilny art. 354",
+   "Kodeks cywilny art. 480",
+   "Kodeks cywilny art. 656",
+   "Kodeks cywilny art. 638",
+   "Kodeks cywilny art. 568",
+   "Kodeks cywilny art. 6",
+   "Prawo budowlane art. 25",
+   "Ustawa o prawach konsumenta art. 7a",
+   "Kodeks postępowania cywilnego art. 310"
+  ],
+  "lead": "Jak zaprosić firmy, co wziąć na spotkanie, jak prowadzić pomiary i odkrywkę oraz co zapisać w protokole, żeby po oględzinach było wiadomo, kto, co i do kiedy robi.",
+  "disclaimer": "Artykuł ma charakter informacyjny i nie stanowi porady prawnej.",
+  "cover_w": 960,
+  "cover_h": 1200
+ },
+ "122143789065228509": {
+  "date": "2026-11-03",
+  "title": "Kamienna okładzina na elewacji. Co przekazać projektantowi, zanim wykonawca wyceni sam klej",
+  "stage": 7,
+  "dzial": "ocieplenie-i-elewacja",
+  "zag": "okladziny-klinkier-elewacje-wentylowane",
+  "domain": "konstrukcje",
+  "norms": [
+   "Prawo budowlane art. 5",
+   "Prawo budowlane art. 36a",
+   "Prawo budowlane art. 102a",
+   "Kodeks cywilny art. 651",
+   "Kodeks cywilny art. 634",
+   "Warunki techniczne § 225",
+   "PN-EN 1469",
+   "DIN 18515-1",
+   "DIN 18516-3"
+  ],
+  "lead": "Ile naprawdę waży kamień na ścianie, jakie pięć danych potrzebuje projektant, kiedy sam klej przestaje wystarczać i co zapisać w umowie o mocowaniu okładziny.",
+  "disclaimer": "Rozwiązania konstrukcyjne dla konkretnego budynku dobiera projektant; artykuł ma charakter informacyjny.",
+  "cover_w": 960,
+  "cover_h": 1200
+ },
+ "122143782495228509": {
+  "date": "2026-11-03",
+  "title": "Zbiornik LPG a projekt ogrodu. Lokalizacja, dostęp serwisowy i dostawy paliwa",
+  "stage": 9,
+  "dzial": "przylacza-i-sieci-zewnetrzne",
+  "zag": "przylacze-gazowe",
+  "domain": "instalacje",
+  "norms": [
+   "Warunki techniczne § 179",
+   "Prawo budowlane art. 29",
+   "Prawo budowlane art. 30",
+   "Prawo budowlane art. 102a"
+  ],
+  "lead": "Dlaczego nie ma jednej odległości dla zbiornika, co nałożyć na wspólny plan, o co zapytać projektanta instalacji oraz jak zaplanować dojazd cysterny i dostęp serwisowy.",
+  "disclaimer": "Artykuł ma charakter informacyjny i nie zastępuje projektu, opinii technicznej, ekspertyzy ani porady prawnej dla konkretnej budowy.",
+  "cover_w": 960,
+  "cover_h": 1200
+ },
+ "122143772103228509": {
+  "date": "2026-11-03",
+  "title": "Zmiękczacz zamontowany. Kto ustawił go pod wynik badania wody?",
+  "stage": 6,
+  "dzial": "instalacja-wodociagowa",
+  "zag": "uzdatnianie-wody",
+  "domain": "instalacje",
+  "norms": [
+   "Rozporządzenie Ministra Zdrowia z 22 maja 2026 r. w sprawie jakości wody przeznaczonej do spożycia przez ludzi"
+  ],
+  "lead": "Co ustalić przed odbiorem zmiękczacza: twardość surową i docelową, nastawy, pomiar przed i za urządzeniem, regenerację próbną, odpływ, obejście oraz harmonogram obsługi.",
+  "disclaimer": "Technologię wykonania dla konkretnej budowy ustala projekt i karta techniczna producenta; artykuł ma charakter informacyjny.",
+  "cover_w": 960,
+  "cover_h": 1200
+ },
+ "122143766253228509": {
+  "date": "2026-11-03",
+  "title": "Drzwi łazienkowe zamontowane. Kto sprawdził przewidziany przepływ powietrza?",
+  "stage": 8,
+  "dzial": "stolarka-i-wyposazenie",
+  "zag": "drzwi-wewnetrzne",
+  "domain": "instalacje",
+  "norms": [
+   "Warunki techniczne § 79",
+   "Warunki techniczne § 75",
+   "PN-83/B-03430",
+   "Prawo budowlane art. 102a"
+  ],
+  "lead": "Jak policzyć przekrój podcięcia, tulei i kratki na gotowej podłodze, co zamyka drogę powietrza i jak odebrać drzwi łazienkowe razem z projektem wentylacji.",
+  "disclaimer": "Artykuł ma charakter informacyjny i nie zastępuje projektu, opinii technicznej, ekspertyzy ani porady prawnej dla konkretnej budowy.",
+  "cover_w": 960,
+  "cover_h": 1200
+ },
+ "122143764801228509": {
+  "date": "2026-11-03",
+  "title": "Sauna w domu miała być prostą zabudową z drewna",
+  "stage": 6,
+  "dzial": "pozostale-instalacje",
+  "zag": "koordynacja-przejsc-i-kolizji",
+  "domain": "instalacje",
+  "norms": [
+   "PN-HD 60364-7-703",
+   "Warunki techniczne § 76",
+   "Warunki techniczne § 77",
+   "Warunki techniczne § 78",
+   "Prawo budowlane art. 36a",
+   "Prawo budowlane art. 102a"
+  ],
+  "lead": "Co ustalić przed stolarzem: piec i kubaturę, zasilanie, strefy i wyłącznik różnicowoprądowy, nawiew i wywiew, warstwy ściany oraz wymagania dla pomieszczenia.",
+  "disclaimer": "Artykuł ma charakter informacyjny i nie zastępuje projektu, opinii technicznej, ekspertyzy ani porady prawnej dla konkretnej budowy.",
+  "cover_w": 960,
+  "cover_h": 1200
+ },
+ "122143760937228509": {
+  "date": "2026-11-03",
+  "title": "Kominek wybrany, ale nikt nie sprawdził jego zgodności z kominem",
+  "stage": 6,
+  "dzial": "ogrzewanie-i-chlodzenie",
+  "zag": "kominek-i-przewody-spalinowe",
+  "domain": "instalacje",
+  "norms": [
+   "Warunki techniczne § 132",
+   "Warunki techniczne § 140",
+   "Warunki techniczne § 145",
+   "Warunki techniczne § 150",
+   "Prawo budowlane art. 62",
+   "Prawo budowlane art. 102a",
+   "EN 13384-1",
+   "EN 16510"
+  ],
+  "lead": "Jakie dane podać z karty urządzenia i dokumentacji komina, jak zestawić je przed zakupem oraz kto powinien potwierdzić wynik, zanim wybierzesz obudowę.",
+  "disclaimer": "Artykuł ma charakter informacyjny i nie zastępuje projektu, opinii technicznej, ekspertyzy ani porady prawnej dla konkretnej budowy.",
+  "cover_w": 960,
+  "cover_h": 1200
+ },
+ "122143757697228509": {
+  "date": "2026-11-03",
+  "title": "Dach i elewację wykonują różne firmy. Nikt nie chce podpisać odbioru ich połączenia",
+  "stage": 11,
+  "dzial": "realizacja-umowy",
+  "zag": "procedura-odbiorow-w-umowie",
+  "domain": "prawo",
+  "norms": [
+   "Prawo budowlane art. 22 pkt 7",
+   "Prawo budowlane art. 25",
+   "Kodeks cywilny art. 647",
+   "Kodeks cywilny art. 651",
+   "Kodeks cywilny art. 654",
+   "Kodeks cywilny art. 6"
+  ],
+  "lead": "Kto odpowiada za styk dachu ze ścianą, czym różni się przekazanie frontu od odbioru, co wpisać do protokołu i co zrobić, gdy firma odmawia podpisu.",
+  "disclaimer": "Artykuł ma charakter informacyjny i nie stanowi porady prawnej.",
+  "cover_w": 960,
+  "cover_h": 1200
+ },
+ "122143743447228509": {
+  "date": "2026-11-03",
+  "title": "Wiercenie pod pompę ciepła zakończone. Co wiadomo o wypełnieniu odwiertu?",
+  "stage": 6,
+  "dzial": "ogrzewanie-i-chlodzenie",
+  "zag": "pompa-ciepla",
+  "domain": "instalacje",
+  "norms": [
+   "Prawo geologiczne i górnicze art. 3",
+   "Prawo geologiczne i górnicze art. 79",
+   "Prawo geologiczne i górnicze art. 85",
+   "VDI 4640-2",
+   "EN 17522"
+  ],
+  "lead": "Jakie formalności zależą od głębokości otworu, co zapisać w umowie o materiale i metodzie wypełnienia, kiedy robić próby i jakie dokumenty odebrać przed ostatnią płatnością.",
+  "disclaimer": "Artykuł ma charakter informacyjny i nie zastępuje projektu, opinii technicznej, ekspertyzy ani porady prawnej dla konkretnej budowy.",
+  "cover_w": 960,
+  "cover_h": 1200
+ },
+ "122143741473228509": {
+  "date": "2026-11-03",
+  "title": "Studnia ma odpowiednią głębokość. Ale czy wystarczy wody dla domu?",
+  "stage": 9,
+  "dzial": "przylacza-i-sieci-zewnetrzne",
+  "zag": "przylacze-wodociagowe-i-studnia",
+  "domain": "instalacje",
+  "norms": [
+   "Prawo wodne art. 33",
+   "Prawo wodne art. 331",
+   "Prawo wodne art. 395",
+   "Prawo budowlane art. 29",
+   "Prawo geologiczne i górnicze art. 3",
+   "PN-EN 806-3"
+  ],
+  "lead": "Co naprawdę mierzy próbne pompowanie, jak je zamówić, ile wody potrzebuje dom i jak na podstawie wyniku dobrać pompę. Na końcu formalności dla studni do 30 m.",
+  "disclaimer": "Artykuł ma charakter informacyjny i nie zastępuje projektu, opinii technicznej, ekspertyzy ani porady prawnej dla konkretnej budowy.",
+  "cover_w": 960,
+  "cover_h": 1200
+ },
+ "122143638405228509": {
+  "date": "2026-11-02",
+  "title": "Nie ma kanalizacji, a działka nie przyjmuje wody? Trzy wyjścia dla domu na glinie",
+  "stage": 9,
+  "dzial": "przylacza-i-sieci-zewnetrzne",
+  "zag": "kanalizacja-szambo-i-oczyszczalnia",
+  "domain": "instalacje",
+  "norms": [
+   "Prawo wodne"
+  ],
+  "lead": "Co zrobić, gdy pod trawnikiem jest glina: rozwiązania z gruntem, oczyszczalnia z odprowadzeniem do rowu albo szambo, z formalnościami dla każdej drogi.",
+  "disclaimer": "Artykuł ma charakter informacyjny i nie zastępuje projektu, opinii technicznej, ekspertyzy ani porady prawnej dla konkretnej budowy.",
+  "cover_w": 960,
+  "cover_h": 1200
+ },
+ "122143603461228509": {
+  "date": "2026-11-02",
+  "title": "Przez spoinę widać niebo. Jak naprawić szczeliny w murze nośnym z betonu komórkowego",
+  "stage": 4,
+  "dzial": "sciany-nosne-i-konstrukcyjne",
+  "zag": "technika-murowania-i-spoiny",
+  "domain": "konstrukcje",
+  "norms": [
+   "PN-EN 1996-1-1"
+  ],
+  "lead": "Kiedy pusta spoina pionowa jest dopuszczalna, a kiedy jest wadą, co szczeliny zmieniają w pracy ściany i jakie są sposoby naprawy, od najlżejszego do decyzji konstruktora.",
+  "disclaimer": "Rozwiązania konstrukcyjne dla konkretnego budynku dobiera projektant; artykuł ma charakter informacyjny.",
+  "naglowki": [
+   "Kiedy pusta spoina pionowa jest dopuszczalna, a kiedy jest wadą",
+   "Co takie szczeliny zmieniają w pracy ściany",
+   "Zanim zaczniesz naprawiać",
+   "Sposoby naprawy, od najlżejszego",
+   "Czego nie robić",
+   "Kiedy naprawiać"
+  ],
+  "cover_w": 960,
+  "cover_h": 1200
  }
 }

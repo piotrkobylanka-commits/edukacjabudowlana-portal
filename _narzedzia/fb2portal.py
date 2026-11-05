@@ -45,10 +45,19 @@ def is_heading(line):
 
 
 def is_bullet(line):
-    return line.startswith(("▪️", "▪", "•", "▫️", "❌", "✅"))
+    return line.startswith(("▪️", "▪", "•", "▫️", "❌", "✅", "●")) or bool(re.match(r"^\d{1,2}\.\s", line))
 
 
-def convert(text):
+def is_caps_heading(line):
+    """Nagłówek bez emoji: cała linia wersalikami, bez kropki na końcu (posty od 11.2026)."""
+    if len(line) > 90 or line.endswith(".") or line.startswith(("●", "❌", "✅")):
+        return False
+    letters = [c for c in line if c.isalpha()]
+    return len(letters) >= 5 and line.upper() == line
+
+
+def convert(text, extra_heads=()):
+    text = text.replace("\uf06c", "●")  # punktor z czcionki Wingdings, poza nią nieczytelny
     lines = [l.rstrip() for l in text.strip("\n").split("\n")]
     lines = [l for l in lines if not re.fullmatch(r"(#\S+\s*)+", l.strip())]
     first = lines[0]
@@ -58,7 +67,7 @@ def convert(text):
     for l in lines[1:]:
         if not l.strip():
             continue
-        heading = is_heading(l)
+        heading = is_heading(l) or is_caps_heading(l) or l in extra_heads
         if not heading and (is_bullet(l) or l.startswith("🔹")):
             if not ul:
                 out.append("<ul>")
@@ -94,7 +103,7 @@ def main():
         if text.count(old) != 1:
             sys.exit(f"Poprawka nie pasuje dokładnie raz ({text.count(old)}x) w {pid}: {old[:60]}")
         text = text.replace(old, new)
-    first, body, toc, minutes = convert(text)
+    first, body, toc, minutes = convert(text, meta.get("naglowki", ()))
     title = meta.get("title") or make_title(first)
     norms = meta["norms"]
     src = ["<ul>", "<li>Opracowanie autorskie EdukacjaBudowlana, pierwotnie opublikowane na profilu EdukacjaBudowlana na Facebooku.</li>"]

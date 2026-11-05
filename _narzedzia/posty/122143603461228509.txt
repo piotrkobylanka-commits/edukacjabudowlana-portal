@@ -1,0 +1,72 @@
+Przez spoinę widać niebo. Jak naprawić szczeliny w murze nośnym z betonu komórkowego
+
+Na zdjęciach jest nośna ściana z bloczków z betonu komórkowego murowana na cienką spoinę. To ostatnia warstwa przed wieńcem. W kilku spoinach pionowych widać niebo na wylot. Część szczelin ma kształt klina: u dołu jest szersza niż u góry. W jednym miejscu zamiast dociętego kawałka bloczka jest sama zaprawa. W innym szczelinę przykryto zaprawą rozsmarowaną po licu, ale za nią nadal jest pusto. Ocenię to spokojnie, ale bez pobłażania.
+
+Kiedy pusta spoina pionowa jest dopuszczalna, a kiedy jest wadą
+
+Bloczki z piórem i wpustem muruje się bez zaprawy w spoinach pionowych. To prawidłowa technologia, ale tylko wtedy, gdy bloczki są do siebie dosunięte, a pióro siedzi we wpuście. Norma projektowa PN-EN 1996-1-1 ma dla takich murów osobne, niższe wartości wytrzymałości. Zakłada jednak, że bloczki się stykają, a nie że między nimi jest szczelina. Zaprawę w spoinie pionowej daje się zawsze tam, gdzie bloczki nie łączą się na pióro i wpust:
+
+przy dociętych bloczkach,
+w narożnikach,
+na połączeniach ścian,
+przy bloczkach z gładkimi czołami.
+
+Jeśli przez spoinę między bloczkami z piórem i wpustem widać światło na wylot, to pióro nie weszło we wpust albo bloczek był docinany. Wtedy nie jest to już „spoina bez zaprawy”, tylko przerwa w murze.
+
+Polskie przepisy nie podają jednej dopuszczalnej szerokości takiej szczeliny. Rozstrzygają wytyczne producenta bloczków. W Niemczech producenci przyjmują, że otwarte spoiny pionowe do 5 mm nie są wadą, a szersze trzeba zamknąć zaprawą najpóźniej przed tynkowaniem. Te 5 mm warto traktować jako granicę, a nie jako normę.
+
+Co takie szczeliny zmieniają w pracy ściany
+
+Ściskanie pionowe. Nośność na ściskanie zależy głównie od spoin poziomych i przekroju bloczków. Jedna otwarta spoina pionowa w środku ściany rzadko ją przekreśla.
+Usztywnienie budynku i wiatr. Gorzej jest z pracą ściany jako usztywnienia budynku (ścinanie w jej płaszczyźnie) i ze zginaniem od parcia wiatru. Tu pełna spoina albo szczelny styk naprawdę mają znaczenie.
+Najgroźniejsze miejsca. To szczeliny pod oparciem nadproża, belki lub podciągu, w wąskim filarku między oknami, w narożniku i na połączeniu ze ścianą wewnętrzną. Tam obciążenie jest skupione i nie ma się gdzie rozłożyć.
+Szczelność, akustyka, tynk. Szczelina na wylot przepuszcza powietrze i pogarsza izolacyjność akustyczną. Tynk prawie na pewno pęknie dokładnie w tym miejscu.
+Klinowy kształt. Mówi więcej niż sama szerokość: bloczek jest przekręcony, nie stoi w pionie albo został krzywo docięty. Trzeba wtedy sprawdzić pion i płaszczyznę całej ściany, a nie tylko zaszpachlować jedną fugę.
+
+Zanim zaczniesz naprawiać
+
+Spisz wszystkie szczeliny. Zaznacz każdą na rysunku ściany. Zapisz warstwę, szerokość u góry i u dołu (szczelinomierz albo zestaw wierteł jako wzorce), czy szczelina idzie na wylot i jak daleko jest od otworów i oparć nadproży.
+Sprawdź resztę ściany. Zmierz pion i płaszczyznę łatą i poziomicą. Sprawdź przewiązanie, czyli przesunięcie spoin pionowych między warstwami. Przy bloczkach o wysokości 24 cm powinno wynosić co najmniej około 10 cm. Zdejmij jeden lub dwa bloczki z górnej warstwy, póki da się to zrobić łatwo. Zobaczysz wtedy, czy zaprawa leżała na całej szerokości bloczka.
+Zgłoś to kierownikowi budowy. Potrzebny jest wpis do dziennika budowy i zdjęcia z przyłożoną miarką. Jeśli szczelin jest dużo albo leżą w strefach wymienionych wyżej, sposób naprawy wybiera konstruktor, a nie murarz ani tynkarz.
+
+Sposoby naprawy, od najlżejszego
+
+1. Szczelina do około 5 mm, bloczki z piórem i wpustem, pióro siedzi we wpuście.
+Konstrukcyjnie zwykle nie ma to znaczenia. Przed tynkowaniem zamknij szczelinę z obu stron zaprawą, którą zaleca producent bloczków. Dzięki temu ściana będzie szczelna, a tynk nie pęknie na fudze.
+
+2. Szczelina szersza, na wylot, bez widocznego pióra.
+Wypełnij ją na całą grubość ściany, a nie tylko przy licu. Najpierw usuń pył i grudy zaschniętej zaprawy, potem zwilż boki. Wciskaj zaprawę warstwami z obu stron, aż spotka się w środku. Sprawdź w karcie technicznej, jaką grubość warstwy dopuszcza zaprawa. Wiele zapraw do cienkich spoin ma limit 3–5 mm, więc do szerszych szczelin potrzebna jest zaprawa naprawcza przeznaczona do betonu komórkowego. Po związaniu sprawdź pod światło i przez opukanie, czy w środku nie zostały pustki.
+
+3. Szczelina szeroka, klinowa na całej wysokości bloczka albo w strefie oparcia nadproża, w filarku lub w narożniku.
+Tu bloczek trzeba wymienić. W najwyższej warstwie przed wieńcem jest to proste:
+
+zdejmij bloczek,
+oczyść podłoże,
+dotnij nowy bloczek pod kątem prostym, z użyciem kątownika,
+ułóż go na zaprawie, dociśnij i wypełnij spoinę pionową.
+
+W niższych warstwach bloczek wycina się piłą i osadza docinkę na zaprawie na wszystkich stykach. Nie wbijaj klinów i nie rozbijaj młotkiem sąsiednich warstw.
+
+4. Zaprawa zamiast docinki z bloczka.
+Kilkunastocentymetrowy fragment muru z samej zaprawy ma inną sztywność i inny skurcz niż bloczek, a do tego tworzy mostek termiczny. Wykuj go i wstaw docinkę z bloczka osadzoną na zaprawie.
+
+5. Zaprawa rozsmarowana po licu.
+To nie jest naprawa, tylko zasłona. Skuj ją, odsłoń szczelinę i postępuj jak w punkcie 2 albo 3.
+
+6. Błąd w całej ścianie albo w całym budynku.
+Jeśli szczeliny są co kilka spoin, a ściany są krzywe, potrzebna jest decyzja konstruktora. Możliwe są trzy drogi:
+
+przeliczenie ścian przy rzeczywistych parametrach muru,
+rozebranie i ponowne wymurowanie fragmentów; póki nie ma stropu, to najpewniejsza droga,
+wzmocnienie według projektu, na przykład systemowe pręty ze stali nierdzewnej wklejane w nacięte bruzdy w spoinach poziomych albo dodatkowe słupki żelbetowe.
+
+Czego nie robić
+
+Nie wypełniaj szczelin w murze nośnym samą pianką montażową. Pianka wypełnia pustkę, ale nie łączy bloczków i nie przenosi obciążeń.
+Nie zostawiaj problemu tynkarzowi z siatką. Siatka ograniczy rysy w tynku, ale nie połączy muru.
+Nie wypełniaj szerokich szczelin akrylem ani silikonem.
+Nie wbijaj w szczeliny klinów ani kawałków bloczka bez zaprawy.
+
+Kiedy naprawiać
+
+Zaprawy do betonu komórkowego mają w kartach technicznych zwykle minimalną temperaturę stosowania +5°C. Listopad jest na granicy, więc naprawiaj w cieplejsze dni. Do czasu wykonania wieńca przykryj górę muru folią przed deszczem. Najtaniej jest poprawić to teraz, przed wieńcem i stropem. Później wymiana bloczka w ścianie nośnej oznacza podstemplowanie stropu i dużo więcej pracy.
