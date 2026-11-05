@@ -5,12 +5,22 @@ Bezpieczne do powtórzenia: drugi raz niczego nie zmienia. Wymaga _narzedzia/pla
 import json, os, re, sys
 
 p = sys.argv[1]
+
+
+def modul():
+    d = os.path.dirname(os.path.abspath(__file__))
+    w = open(os.path.join(d, "widok.js"), encoding="utf-8").read()
+    m = open(os.path.join(d, "polaczenia.js"), encoding="utf-8").read()
+    k = "function renderPol(D){"
+    return m.replace(k, w + k)
+
+
 s = open(p, encoding="utf-8").read()
 if "function renderPol(D)" in s:
     # odświeżenie samego modułu przy kolejnym naniesieniu
     a = s.index("/* ---------- zakładka: schemat połączeń ---------- */")
     b = s.index("function update(){", a)
-    s = s[:a] + open(os.path.join(os.path.dirname(__file__), "polaczenia.js"), encoding="utf-8").read() + s[b:]
+    s = s[:a] + modul() + s[b:]
     open(p, "w", encoding="utf-8").write(s)
     print("odświeżono moduł polaczenia.js")
     sys.exit(0)
@@ -41,7 +51,7 @@ a = "      <!-- 07 ZESTAWIENIE -->"
 assert a in h
 h = h.replace(a, '''      <!-- 07 POŁĄCZENIA -->
       <section class="panel" id="p-polaczenia" style="--c:#475569" hidden>
-        <div class="tabhead"><div class="num">07</div><div><h2>Połączenia przewodów</h2><p>Schemat tworzy się sam z obwodów i rozdzielnicy: każda faza swoim kolorem, podział PEN, szyny N i PE, RCD, wyłączniki i lista wszystkich połączeń.</p></div></div>
+        <div class="tabhead"><div class="num">07</div><div><h2>Połączenia przewodów</h2><p>Widok rozdzielnicy tworzy się sam z obwodów: aparaty na szynach DIN, każda faza swoim kolorem, podział PEN, listwy N i PE oraz lista wszystkich połączeń.</p></div></div>
         <div id="polacz"></div>
       </section>
 
@@ -71,25 +81,21 @@ rep('function cableName(s,m,ph){const cores=ph===3?5:3;const t=m==="D1"?"YKY":m=
     'function cableName(s,m,ph,cores){cores=cores||(ph===3?5:3);const t=m==="D1"?"YKY":m==="E"?"YDY":(s<=4?"YDYp":"YDY");return t+" "+cores+"×"+fS(s);}\n'
     'function wlzName(D){const f3=S.supply==="3f";return cableName(D.wlz.S,S.wlzM,f3?3:1,S.net==="tnc"?(f3?4:2):(f3?5:3));}')
 rep('for(const s of SECT.filter(v=>v>=6)){const Iz=IZ[loadedW]', 'for(const s of SECT.filter(v=>v>=(S.net==="tnc"?10:6))){const Iz=IZ[loadedW]')
-rep('return {rows,groups,load,Pi,Pz,cosAvg,IBw,Ipl,Pprz,wlz,FR,ktW,used,need,W,lay,nRows,total,free,frMod,spdMod};',
-    'return {rows,groups,blocks,load,Pi,Pz,cosAvg,IBw,Ipl,Pprz,wlz,FR,ktW,used,need,W,lay,nRows,total,free,frMod,spdMod};')
+rep('return {rows,groups,load,B,Pi,', 'return {rows,groups,blocks,load,B,Pi,')
 rep('$("#s-name").value=S.name;$("#s-supply").value=S.supply;', '$("#s-name").value=S.name;$("#s-supply").value=S.supply;$("#s-net").value=S.net;')
 rep('const startMap={"s-name":["name","t"],"s-supply":["supply","t"],', 'const startMap={"s-name":["name","t"],"s-supply":["supply","t"],"s-net":["net","t"],')
-rep('WLZ: ${cableName(D.wlz.S,S.wlzM,S.supply==="3f"?3:1)}, L =', 'WLZ: ${wlzName(D)}, L =')
-rep('${S.supply==="3f"?"3/N/PE ~ 400/230 V":"1/N/PE ~ 230 V"}',
-    '${(S.supply==="3f"?"3":"1")+(S.net==="tnc"?"/PEN":"/N/PE")+(S.supply==="3f"?" ~ 400/230 V":" ~ 230 V")}')
-rep('WLZ ${cableName(D.wlz.S,S.wlzM,S.supply==="3f"?3:1)}</text>', 'WLZ ${wlzName(D)}</text>')
+rep('cableName(D.wlz.S,S.wlzM,f3?3:1)', 'wlzName(D)', 0)
+rep('s+=T(w-PAD,32,(f3?"3/N/PE ~ 400/230 V":"1/N/PE ~ 230 V")+" · 50 Hz · TN-S",', 's+=T(w-PAD,32,(f3?"3":"1")+(S.net==="tnc"?"/PEN":"/N/PE")+(f3?" ~ 400/230 V":" ~ 230 V")+" · 50 Hz · "+(S.net==="tnc"?"TN-C-S":"TN-S"),')
+rep('const pz=f3?5:3;', 'const pz=S.net==="tnc"?(f3?4:2):(f3?5:3);')
 rep('add("Aparaty","Ogranicznik przepięć SPD",`typ 1+2, ${f3?"3P+N":"1P+N"}, układ TN-S`,D.spdMod,1);',
     'add("Aparaty","Ogranicznik przepięć SPD",`typ 1+2, ${f3?"3P+N":"1P+N"}, układ TN-S${S.net==="tnc"?" (za podziałem PEN)":""}`,D.spdMod,1);')
 rep('add("Osprzęt","Listwa zaciskowa N",`min. ${D.rows.length+3} zacisków`,"",1);',
     'add("Osprzęt","Listwa zaciskowa N0 (przed RCD)",`min. ${D.groups.length+3} zacisków`,"",1);\n'
     ' D.groups.filter(g=>g.kind==="rcd").forEach(g=>add("Osprzęt","Listwa zaciskowa N za RCD",`min. ${g.items.length+1} zacisków`,"",1));')
-rep('cab[cableName(D.wlz.S,S.wlzM,f3?3:1)+" (WLZ)"]=(cab[cableName(D.wlz.S,S.wlzM,f3?3:1)+" (WLZ)"]||0)+S.wlzL;',
-    'cab[wlzName(D)+" (WLZ)"]=(cab[wlzName(D)+" (WLZ)"]||0)+S.wlzL;')
 rep("short:'Bilans mocy, dobór przewodów i zabezpieczeń, spadek napięcia, elewacja rozdzielnicy, schemat i zestawienie materiałów.'",
     "short:'Bilans mocy, dobór przewodów i zabezpieczeń, spadek napięcia, elewacja rozdzielnicy, schemat, połączenia przewodów i zestawienie materiałów.'")
 rep("a na końcu elewacja rozdzielnicy, schemat jednokreskowy i zestawienie materiałów.", "a na końcu elewacja rozdzielnicy, schemat jednokreskowy, schemat połączeń przewodów i zestawienie materiałów.")
-mod = open(os.path.join(os.path.dirname(__file__), "polaczenia.js"), encoding="utf-8").read()
+mod = modul()
 rep("function update(){\n const D=compute();", mod + "function update(){\n const D=compute();")
 rep("renderElev(D);renderSchem(D);renderBom(D);", "renderElev(D);renderSchem(D);renderPol(D);renderBom(D);")
 open(p, "w", encoding="utf-8").write(s)

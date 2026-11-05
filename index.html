@@ -5956,7 +5956,7 @@ const tools = [
    kw:['spad\\p{L}* dachu','kąt\\p{L}* (?:nachylenia|dachu)','nachyleni\\p{L}* (?:dachu|połaci)','połaci\\p{L}*','połać','kalenic\\p{L}*'], sub:['1.2','4.7','4.8','7.5']},
 ];
 const PLANER = {id:'planer', link:true, href:'#narzedzia/planer-rozdzielnicy', name:'Projekt rozdzielnicy', f:'I<sub>B</sub> ≤ I<sub>n</sub> ≤ I<sub>z</sub>',
-  short:'Bilans mocy, dobór przewodów i zabezpieczeń, spadek napięcia, elewacja rozdzielnicy, schemat i zestawienie materiałów.',
+  short:'Bilans mocy, dobór przewodów i zabezpieczeń, spadek napięcia, elewacja rozdzielnicy, schemat, połączenia przewodów i zestawienie materiałów.',
   desc:'Dodaj obwody domu, a projekt dobierze przekroje, wyłączniki i różnicówki, policzy spadki napięcia i pętlę zwarcia oraz narysuje rozdzielnicę i schemat jednokreskowy.',
   kw:['rozdzielnic\\p{L}*','obwod\\p{L}*','obwód','wyłącznik\\p{L}*','różnicówk\\p{L}*','różnicowoprądow\\p{L}*','zabezpieczeni\\p{L}* nadprądow\\p{L}*','przekr\\p{L}* przewod\\p{L}*','spad\\p{L}* napięcia'], sub:['6.5'], min:3};
 const toolRe = t => t._re || (t._re = new RegExp(RB + '(?:' + t.kw.join('|') + ')' + RE, 'giu'));
@@ -10652,7 +10652,7 @@ function viewPro(id){
   return pageHead(p.name, p.short, [['Start','#start'],['Narzędzia','#narzedzia'],[p.name]]) + `<section class="section planer-sec"><div class="wrap"><div id="pro-host"></div></div></section>`;
 }
 function viewPlaner(){
-  return pageHead('Projekt rozdzielnicy', 'Bilans mocy, dobór przekroju i zabezpieczeń, spadek napięcia i pętla zwarcia, a na końcu elewacja rozdzielnicy, schemat jednokreskowy i zestawienie materiałów. Każda zmiana w obwodach od razu przelicza wszystkie zakładki.', [['Start','#start'],['Narzędzia','#narzedzia'],['Projekt rozdzielnicy']])
+  return pageHead('Projekt rozdzielnicy', 'Bilans mocy, dobór przekroju i zabezpieczeń, spadek napięcia i pętla zwarcia, a na końcu elewacja rozdzielnicy, schemat jednokreskowy, schemat połączeń przewodów i zestawienie materiałów. Każda zmiana w obwodach od razu przelicza wszystkie zakładki.', [['Start','#start'],['Narzędzia','#narzedzia'],['Projekt rozdzielnicy']])
     + `<section class="section planer-sec"><div class="wrap"><div id="planer-host"></div></div></section>`;
 }
 function wireTools(root){
@@ -10999,8 +10999,8 @@ document.addEventListener('keydown', e => {
 });
 
 /* ---------- Planer rozdzielnicy (przeniesiony z artefaktu „Planer rozdzielnicy EB”) ---------- */
-const PLANER_CSS = ":host{display:block;\n --p-bg:var(--paper);--p-surface:var(--surface);--p-fg:var(--ink);--p-muted:var(--ink-3);--p-line:var(--line);\n --p-sky:var(--sunken);--p-mist:var(--paper);--p-tab:var(--sunken);--p-ink:var(--navy);--p-navy:var(--navy);\n --p-blue:var(--orange);--p-teal:var(--signal);--p-teal-d:var(--orange);--p-amber:var(--orange);--p-red:var(--danger);--p-green:#2F7D3B;\n --p-dev:var(--surface);--p-rail:var(--line-2);--p-okbg:#E3F1E5;--p-wabg:var(--orange-soft);--p-erbg:var(--danger-soft);--p-tealbg:var(--sunken);\n --p-on-ink:#FFFFFF;--p-on-ink-2:#B9B3AA;--p-f-disp:var(--f-display);--p-f-body:var(--f-ui);--p-f-mono:var(--f-mono)}\n@media (prefers-color-scheme:dark){:host{--p-green:#5CC774;--p-okbg:#173A27}}\n*{box-sizing:border-box}\n.pl-root{color:var(--p-fg);font:15px/1.55 var(--p-f-body);-webkit-font-smoothing:antialiased}\n.wrap{max-width:none;margin:0;padding:0}\nh1,h2,h3{font-family:var(--p-f-disp);text-wrap:balance;margin:0}\n.mono{font-family:var(--p-f-mono)}\nbutton,input,select{font:inherit;color:inherit}\n:focus-visible{outline:2px solid var(--p-teal);outline-offset:2px}\n\n/* okładka */\n.hero{background:var(--p-ink);color:var(--p-on-ink)}\n.hero .wrap{padding-block:28px 26px;display:grid;gap:18px}\n.brandrow{display:flex;align-items:center;gap:12px;flex-wrap:wrap}\n.brandrow svg{width:40px;height:40px;flex:none}\n.patron{font-family:var(--p-f-mono);font-size:11px;letter-spacing:.08em;color:var(--p-on-ink-2);text-transform:uppercase;line-height:1.35}\n.patron b{display:block;color:var(--p-on-ink);font-family:var(--p-f-disp);font-size:16px;letter-spacing:0;text-transform:none}\n.kicker{font-family:var(--p-f-mono);font-size:11.5px;letter-spacing:.12em;color:var(--p-teal);text-transform:uppercase}\n.hero h1{font-size:clamp(34px,6vw,58px);font-weight:500;line-height:1.02;letter-spacing:-.02em}\n.hero h1 em{font-style:normal;color:var(--p-teal);font-weight:700}\n.hero p{margin:0;max-width:62ch;color:var(--p-on-ink-2);font-size:16px}\n.hchips{display:flex;flex-wrap:wrap;gap:8px}\n.hchip{font-family:var(--p-f-mono);font-size:11px;letter-spacing:.06em;border:1px solid rgba(255,255,255,.22);border-radius:999px;padding:4px 10px;color:var(--p-on-ink)}\n.secbar{display:flex;height:6px;border-radius:3px;overflow:hidden;max-width:420px}\n.secbar span{flex:1}\n\n/* podsumowanie */\n.sum{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-block:18px}\n.kpi{background:var(--p-surface);border:1px solid var(--p-line);border-radius:12px;padding:12px 14px;display:grid;gap:2px;min-width:0}\n.kpi .l{font-family:var(--p-f-mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--p-muted)}\n.kpi .v{font-family:var(--p-f-disp);font-size:24px;font-weight:600;font-variant-numeric:tabular-nums;line-height:1.2}\n.kpi .v small{font-size:13px;font-weight:500;color:var(--p-muted);margin-left:3px}\n.kpi .s{font-size:12.5px;color:var(--p-muted)}\n.kpi.state-ok{border-color:var(--p-green)} .kpi.state-er{border-color:var(--p-red)}\n\n/* segregator */\n.binder{display:grid;grid-template-columns:minmax(0,1fr) 54px;align-items:start;margin-bottom:28px}\n.sheet{background:var(--p-surface);border:1px solid var(--p-line);border-radius:14px 0 14px 14px;padding:22px;min-width:0;min-height:520px}\n.tabs{display:flex;flex-direction:column;gap:6px;position:sticky;top:84px;padding-top:14px}\n.tab{writing-mode:vertical-rl;font-family:var(--p-f-disp);font-size:13px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;\n  background:var(--p-tab);color:var(--p-muted);border:0;border-left:4px solid var(--c);border-radius:0 10px 10px 0;\n  padding:14px 8px;cursor:pointer;text-align:left;transition:transform .15s,background .15s}\n.tab:hover{color:var(--p-fg);transform:translateX(2px)}\n.tab[aria-selected=\"true\"]{background:var(--c);color:#fff;transform:translateX(-6px);padding-right:14px}\n.tab .tn{font-family:var(--p-f-mono);font-weight:500;opacity:.75;margin-bottom:6px}\n.panel[hidden]{display:none!important}\n\n.tabhead{display:flex;gap:16px;align-items:center;background:var(--c);color:#fff;border-radius:12px;padding:18px 20px;margin-bottom:20px}\n.tabhead .num{font-family:var(--p-f-disp);font-size:46px;font-weight:300;line-height:1;opacity:.95}\n.tabhead h2{font-size:23px;font-weight:600}\n.tabhead p{margin:4px 0 0;font-size:14px;opacity:.9;max-width:70ch}\nh3{font-size:17px;font-weight:600;margin:24px 0 10px;display:flex;align-items:center;gap:8px}\nh3 .n{font-family:var(--p-f-mono);font-size:11px;font-weight:600;background:var(--p-navy);color:#fff;border-radius:4px;padding:2px 6px}\np.lead{margin:0 0 14px;color:var(--p-muted);max-width:75ch}\n\n/* pola */\n.form{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:12px 14px}\n.fld{display:grid;gap:4px;min-width:0}\n.fld>span{font-family:var(--p-f-mono);font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--p-muted)}\n.fld input,.fld select{width:100%;background:var(--p-surface);border:1px solid var(--p-line);border-radius:7px;padding:7px 9px;font-size:14px;min-width:0}\n.fld input:hover,.fld select:hover{border-color:var(--p-rail)}\n.btn{background:var(--p-navy);color:#fff;border:0;border-radius:8px;padding:9px 14px;font-weight:600;font-size:14px;cursor:pointer}\n.btn.ghost{background:transparent;color:var(--p-fg);border:1px solid var(--p-line)}\n.btn.red{background:var(--p-red)}\n.btn:hover{filter:brightness(1.1)}\n.row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}\n\n/* ramki */\n.law,.tip,.note{border-radius:10px;padding:11px 14px;font-size:13.5px;display:grid;grid-template-columns:22px minmax(0,1fr);gap:10px;align-items:start}\n.law{background:var(--p-sky);font-family:var(--p-f-mono);font-size:12.5px}\n.law::before{content:\"§\";font-family:var(--p-f-disp);font-weight:700;color:var(--p-blue);font-size:17px;line-height:1}\n.tip{background:var(--p-tealbg)}\n.tip::before{content:\"✓\";font-weight:700;color:var(--p-teal-d);font-size:16px;line-height:1.1}\n.note{background:var(--p-wabg)}\n.note::before{content:\"!\";font-family:var(--p-f-disp);font-weight:700;color:var(--p-amber);font-size:17px;line-height:1}\n.stack{display:grid;gap:8px}\n.g2{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px}\n\n.pipe{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px;margin:6px 0 4px;padding:0;list-style:none;counter-reset:st}\n.pipe li{background:var(--p-mist);border:1px solid var(--p-line);border-radius:10px;padding:12px;font-size:13.5px;counter-increment:st;display:grid;gap:4px}\n.pipe li::before{content:counter(st);width:26px;height:26px;border-radius:50%;background:var(--p-teal);color:#fff;font-family:var(--p-f-disp);font-weight:700;display:grid;place-items:center}\n.pipe b{font-family:var(--p-f-disp)}\n\n/* chipy */\n.chip{display:inline-flex;align-items:center;gap:4px;font-family:var(--p-f-mono);font-size:11.5px;border-radius:999px;padding:2px 9px;background:var(--p-mist);border:1px solid var(--p-line);white-space:nowrap;font-variant-numeric:tabular-nums}\n.chip.ok{background:var(--p-okbg);color:var(--p-green);border-color:transparent}\n.chip.wa{background:var(--p-wabg);color:var(--p-amber);border-color:transparent}\n.chip.er{background:var(--p-erbg);color:var(--p-red);border-color:transparent}\n\n/* obwody */\n.adds{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:16px}\n.adds button{background:var(--p-surface);border:1px dashed var(--p-rail);border-radius:999px;padding:5px 11px;font-size:13px;cursor:pointer}\n.adds button:hover{border-style:solid;border-color:var(--p-teal);color:var(--p-teal-d)}\n.cards{display:grid;gap:12px}\n.cc{border:1px solid var(--p-line);border-radius:12px;background:var(--p-surface);overflow:hidden}\n.cc-h{display:flex;flex-wrap:wrap;gap:8px;align-items:center;padding:10px 12px;background:var(--p-mist);border-bottom:1px solid var(--p-line)}\n.cno{font-family:var(--p-f-mono);font-weight:600;font-size:13px;color:#fff;background:var(--gc,var(--p-navy));border-radius:6px;min-width:34px;text-align:center;padding:3px 6px}\n.cc-h input.nm{flex:1 1 180px;min-width:0;font-family:var(--p-f-disp);font-weight:600;font-size:15px;background:transparent;border:1px solid transparent;border-radius:6px;padding:4px 6px}\n.cc-h input.nm:hover,.cc-h input.nm:focus{border-color:var(--p-line);background:var(--p-surface)}\n.cc-h select{background:var(--p-surface);border:1px solid var(--p-line);border-radius:6px;padding:4px 6px;font-size:13px;max-width:100%}\n.del{background:transparent;border:1px solid var(--p-line);border-radius:6px;width:30px;height:30px;cursor:pointer;color:var(--p-muted);font-size:16px;line-height:1}\n.del:hover{color:var(--p-red);border-color:var(--p-red)}\n.cc-g{display:grid;grid-template-columns:repeat(auto-fill,minmax(120px,1fr));gap:10px;padding:12px}\n.cc-g .fld input,.cc-g .fld select{padding:6px 7px;font-size:13.5px}\n.cc-r{display:flex;flex-wrap:wrap;gap:6px;padding:0 12px 12px}\n.empty{border:1px dashed var(--p-rail);border-radius:12px;padding:28px;text-align:center;color:var(--p-muted)}\n\n/* tabele */\n.scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;border-radius:10px;border:1px solid var(--p-line)}\ntable.t{border-collapse:collapse;width:100%;font-size:13.5px;font-variant-numeric:tabular-nums}\ntable.t th{background:var(--p-navy);color:#fff;font-family:var(--p-f-disp);font-size:11px;letter-spacing:.07em;text-transform:uppercase;text-align:left;padding:9px 10px;white-space:nowrap;font-weight:600}\ntable.t td{padding:8px 10px;border-top:1px solid var(--p-line);vertical-align:top}\ntable.t tr:nth-child(even) td{background:var(--p-mist)}\ntable.t td.r,table.t th.r{text-align:right}\ntable.t tfoot td{font-weight:700;background:var(--p-sky)!important}\n.dot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:6px;vertical-align:middle}\n\n/* fazy */\n.phases{display:grid;gap:10px}\n.ph{display:grid;grid-template-columns:34px minmax(0,1fr) 84px;gap:10px;align-items:center;font-variant-numeric:tabular-nums}\n.ph b{font-family:var(--p-f-mono)}\n.ph .bar{height:16px;background:var(--p-mist);border-radius:4px;overflow:hidden;border:1px solid var(--p-line)}\n.ph .bar i{display:block;height:100%;background:var(--c);border-radius:3px}\n.ph span{text-align:right;font-family:var(--p-f-mono);font-size:13px}\n\n/* rysunki */\n.draw{overflow-x:auto;border:1px solid var(--p-line);border-radius:12px;background:var(--p-mist);padding:12px}\n.draw svg{display:block;max-width:none}\n.e-row{fill:var(--p-surface);stroke:var(--p-line)}\n.e-rail{stroke:var(--p-rail);stroke-width:6}\n.e-free{fill:none;stroke:var(--p-rail);stroke-dasharray:3 3}\n.e-dev{fill:var(--p-dev);stroke:var(--p-rail)}\n.e-tog{fill:var(--p-navy)}\n.e-t{fill:var(--p-fg);font-family:var(--p-f-disp);font-size:10.5px;font-weight:700}\n.e-s{fill:var(--p-muted);font-family:var(--p-f-mono);font-size:8.5px}\n.e-lbl{fill:var(--p-muted);font-family:var(--p-f-mono);font-size:10px}\n.e-br{fill:none;stroke-width:2}\n.e-bl{fill:var(--p-fg);font-family:var(--p-f-mono);font-size:9.5px}\n.s-ln{stroke:var(--p-fg);stroke-width:1.6;fill:none}\n.s-box{fill:var(--p-surface);stroke:var(--p-fg);stroke-width:1.4}\n.s-t{fill:var(--p-fg);font-family:var(--p-f-mono);font-size:10px}\n.s-tb{fill:var(--p-fg);font-family:var(--p-f-disp);font-size:11px;font-weight:700}\n.s-m{fill:var(--p-muted);font-family:var(--p-f-mono);font-size:9.5px}\n.legend{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}\n.caption{font-family:var(--p-f-mono);font-size:11px;color:var(--p-muted);margin-top:8px}\n\n.confirm{display:inline-flex;gap:6px;align-items:center;font-size:13.5px}\nfooter.foot{border-top:1px solid var(--p-line);padding-block:18px 26px;color:var(--p-muted);font-size:12.5px}\nfooter.foot .wrap{display:grid;gap:8px}\nfooter.foot b{color:var(--p-fg);font-family:var(--p-f-disp)}\n\n@media (max-width:860px){\n  .binder{grid-template-columns:minmax(0,1fr)}\n  .tabs{order:-1;flex-direction:row;overflow-x:auto;gap:4px;padding:8px 0 0;top:68px;z-index:5;background:var(--p-bg);scrollbar-width:none}\n  .tabs::-webkit-scrollbar{display:none}\n  .tab{writing-mode:horizontal-tb;border-left:0;border-top:4px solid var(--c);border-radius:10px 10px 0 0;padding:8px 12px;white-space:nowrap;font-size:12px;flex:none}\n  .tab .tn{margin:0 6px 0 0}\n  .tab:hover{transform:none}\n  .tab[aria-selected=\"true\"]{transform:none;padding-right:12px}\n  .sheet{border-radius:0 14px 14px 14px;padding:16px}\n  .tabhead{padding:14px 16px}\n  .tabhead .num{font-size:34px}\n  .tabhead h2{font-size:19px}\n}\n@media (prefers-reduced-motion:reduce){*{transition:none!important}}\n\n/* dopasowanie do EdukacjaBudowlana.pl */\nh2,h3{text-transform:uppercase;letter-spacing:.01em}\n.tabhead{border-radius:0}\n.tabhead h2{font-weight:600;font-size:28px;line-height:1}\n.tabhead .num{font-weight:600}\nh3{font-weight:600;font-size:20px}\n.kpi{border-radius:var(--r,14px);border-color:transparent}\n.kpi .v{font-weight:600;font-size:28px}\n.sheet{border-color:transparent;border-radius:var(--r,14px) 0 var(--r,14px) var(--r,14px)}\n.tab{font-weight:700;font-size:14px;letter-spacing:.1em}\n.btn{background:var(--signal);color:var(--on-signal);border-radius:0;font-family:var(--f-display);text-transform:uppercase;letter-spacing:.08em;font-size:16px}\n.btn.ghost{background:transparent;color:var(--p-fg);border:1px solid var(--line-2);font-family:var(--f-ui);text-transform:none;letter-spacing:0;font-size:14px}\n.pl-chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 4px}\ntable.t th{font-size:12.5px;letter-spacing:.1em}\n.cc{border-color:transparent;border-radius:var(--r,14px)}\n.cno{font-family:var(--f-display);font-size:15px}\nfooter.foot{margin-top:6px;padding-block:16px 4px}\n@media (max-width:860px){.sheet{border-radius:0 var(--r,14px) var(--r,14px) var(--r,14px)}}\n";
-const PLANER_HTML = "<div class=\"pl-root\"><div class=\"wrap\">\n  <div class=\"pl-chips\"><span class=\"chip\">PN-HD 60364 · N-SEP-E-002</span><span class=\"chip\">Przewody Cu · PVC 70 °C</span><span class=\"chip\">Przykład: dom fikcyjny</span></div>\n  <div class=\"sum\" id=\"sum\"></div>\n\n  <div class=\"binder\">\n    <div class=\"sheet\">\n\n      <!-- 01 START -->\n      <section class=\"panel\" id=\"p-start\" style=\"--c:#1F6FB2\">\n        <div class=\"tabhead\"><div class=\"num\">01</div><div><h2>Projekt</h2><p>Parametry całej rozdzielnicy. Ustawienia z tej zakładki obowiązują wszystkie obwody, o ile w obwodzie nie wybierzesz inaczej.</p></div></div>\n        <ol class=\"pipe\">\n          <li><b>Ustaw projekt</b>zasilanie, strategię RCD, warunki ułożenia</li>\n          <li><b>Dodaj obwody</b>z gotowych typów, popraw moc i długości</li>\n          <li><b>Sprawdź bilans i przewody</b>moc zapotrzebowana, przekroje, spadki</li>\n          <li><b>Odczytaj wynik</b>elewacja, schemat, zestawienie materiałów</li>\n        </ol>\n\n        <h3><span class=\"n\">01.1</span>Zasilanie i rozdzielnica</h3>\n        <div class=\"form\">\n          <label class=\"fld\"><span>Nazwa projektu</span><input id=\"s-name\" type=\"text\"></label>\n          <label class=\"fld\"><span>Zasilanie</span><select id=\"s-supply\"><option value=\"3f\">3-fazowe 400 V</option><option value=\"1f\">1-fazowe 230 V</option></select></label>\n          <label class=\"fld\"><span>Ochrona różnicowoprądowa</span><select id=\"s-strategy\"><option value=\"rcd\">Grupowe RCD + MCB</option><option value=\"rcbo\">RCBO na każdy obwód</option></select></label>\n          <label class=\"fld\"><span>Maks. obwodów na RCD</span><select id=\"s-rcdmax\"><option>3</option><option>4</option><option>5</option><option>6</option></select></label>\n          <label class=\"fld\"><span>Rezerwa miejsca [%]</span><select id=\"s-reserve\"><option value=\"10\">10</option><option value=\"20\">20</option><option value=\"30\">30</option><option value=\"40\">40</option></select></label>\n          <label class=\"fld\"><span>Moduły w rzędzie</span><select id=\"s-roww\"><option value=\"auto\">Automatycznie</option><option value=\"12\">12</option><option value=\"18\">18</option></select></label>\n          <label class=\"fld\"><span>Impedancja pętli u źródła Zs₀ [Ω]</span><input id=\"s-zs0\" type=\"text\" inputmode=\"decimal\"></label>\n        </div>\n\n        <h3><span class=\"n\">01.2</span>Warunki ułożenia przewodów</h3>\n        <div class=\"form\">\n          <label class=\"fld\"><span>Domyślny sposób ułożenia</span><select id=\"s-method\"></select></label>\n          <label class=\"fld\"><span>Temperatura powietrza [°C]</span><select id=\"s-tair\"></select></label>\n          <label class=\"fld\"><span>Temperatura gruntu [°C]</span><select id=\"s-tgnd\"></select></label>\n          <label class=\"fld\"><span>Dop. spadek od licznika do odbiornika [%]</span><input id=\"s-dumax\" type=\"text\" inputmode=\"decimal\"></label>\n        </div>\n\n        <h3><span class=\"n\">01.3</span>Wewnętrzna linia zasilająca (WLZ)</h3>\n        <div class=\"form\">\n          <label class=\"fld\"><span>Długość WLZ [m]</span><input id=\"s-wlzl\" type=\"text\" inputmode=\"decimal\"></label>\n          <label class=\"fld\"><span>Ułożenie WLZ</span><select id=\"s-wlzm\"></select></label>\n          <label class=\"fld\"><span>Dop. spadek w WLZ [%]</span><input id=\"s-wlzdu\" type=\"text\" inputmode=\"decimal\"></label>\n        </div>\n\n        <h3><span class=\"n\">01.4</span>Projekt</h3>\n        <div class=\"row\">\n          <button class=\"btn ghost\" id=\"b-sample\" type=\"button\">Wczytaj przykład</button>\n          <span id=\"clearbox\"><button class=\"btn ghost\" id=\"b-clear\" type=\"button\">Wyczyść listę obwodów</button></span>\n          <span class=\"chip\">projekt zapisuje się w tej przeglądarce (cookies funkcjonalne)</span>\n        </div>\n\n        <h3><span class=\"n\">01.5</span>Podstawy</h3>\n        <div class=\"stack\">\n          <div class=\"law\">PN-HD 60364-4-43 · ochrona przed przeciążeniem: I<sub>B</sub> ≤ I<sub>n</sub> ≤ I<sub>z</sub> oraz I<sub>2</sub> ≤ 1,45·I<sub>z</sub></div>\n          <div class=\"law\">PN-HD 60364-5-52 · obciążalność długotrwała przewodów (zał. B), spadek napięcia (zał. G), minimalny przekrój Cu w instalacji stałej 1,5 mm²</div>\n          <div class=\"law\">PN-HD 60364-4-41 · samoczynne wyłączenie w układzie TN: 0,4 s dla obwodów odbiorczych do 63 A z gniazdami i do 32 A tylko z odbiornikami stałymi; RCD 30 mA dla gniazd do 32 A i obwodów oświetlenia w mieszkaniach</div>\n          <div class=\"law\">N-SEP-E-002 · spadek napięcia od licznika do odbiornika do 3%, w WLZ do 0,5% przy mocy do 100 kVA</div>\n        </div>\n      </section>\n\n      <!-- 02 OBWODY -->\n      <section class=\"panel\" id=\"p-obwody\" style=\"--c:#6C4AB6\" hidden>\n        <div class=\"tabhead\"><div class=\"num\">02</div><div><h2>Obwody</h2><p>Dodaj obwody z gotowych typów. Każdy typ ustawia moc, cos φ, liczbę faz i zabezpieczenie wyjściowe. Przekrój i zabezpieczenie „auto” projekt dobiera sam.</p></div></div>\n        <div class=\"adds\" id=\"adds\"></div>\n        <div class=\"cards\" id=\"cards\"></div>\n      </section>\n\n      <!-- 03 BILANS -->\n      <section class=\"panel\" id=\"p-bilans\" style=\"--c:#0F9F8F\" hidden>\n        <div class=\"tabhead\"><div class=\"num\">03</div><div><h2>Bilans mocy</h2><p>Moc zapotrzebowana P<sub>z</sub> = Σ k<sub>z</sub>·P<sub>i</sub>. Obwody 1-fazowe projekt rozkłada na fazy tak, żeby obciążenie było możliwie równe.</p></div></div>\n        <div id=\"bilans\"></div>\n      </section>\n\n      <!-- 04 PRZEWODY -->\n      <section class=\"panel\" id=\"p-przewody\" style=\"--c:#0E7490\" hidden>\n        <div class=\"tabhead\"><div class=\"num\">04</div><div><h2>Przewody i zabezpieczenia</h2><p>Obciążalność z poprawkami na temperaturę i grupowanie, spadek napięcia i warunek samoczynnego wyłączenia dla każdego obwodu.</p></div></div>\n        <div id=\"przewody\"></div>\n        <h3><span class=\"n\">04.2</span>Tabela obciążalności</h3>\n        <p class=\"lead\">Obciążalność długotrwała przewodów miedzianych w izolacji PVC (70 °C) według PN-HD 60364-5-52, zał. B, z poprawkami dla wybranych warunków.</p>\n        <div class=\"form\" style=\"margin-bottom:12px\">\n          <label class=\"fld\"><span>Sposób ułożenia</span><select id=\"iz-m\"></select></label>\n          <label class=\"fld\"><span>Żyły obciążone</span><select id=\"iz-k\"><option value=\"2\">2 (obwód 1-fazowy)</option><option value=\"3\">3 (obwód 3-fazowy)</option></select></label>\n          <label class=\"fld\"><span>Temperatura [°C]</span><select id=\"iz-t\"></select></label>\n          <label class=\"fld\"><span>Obwodów w wiązce</span><select id=\"iz-n\"></select></label>\n        </div>\n        <div id=\"iztab\"></div>\n        <h3><span class=\"n\">04.3</span>Wzory</h3>\n        <div class=\"stack\">\n          <div class=\"law\">I<sub>B</sub> = P / (U₀·cos φ) dla 1 fazy; I<sub>B</sub> = P / (√3·U·cos φ) dla 3 faz; U₀ = 230 V, U = 400 V</div>\n          <div class=\"law\">I<sub>z</sub>' = I<sub>z</sub>·k<sub>t</sub>·k<sub>g</sub>; dla wyłącznika nadprądowego I<sub>2</sub> = 1,45·I<sub>n</sub>, więc wystarcza I<sub>n</sub> ≤ I<sub>z</sub>'</div>\n          <div class=\"law\">ΔU = b·I<sub>B</sub>·L·(ρ/S·cos φ + λ·sin φ); b = 2 (1 faza) lub √3 (3 fazy); ρ = 0,0225 Ω·mm²/m, λ = 0,08 mΩ/m (PN-HD 60364-5-52, zał. G)</div>\n          <div class=\"law\">Z<sub>s</sub> = Z<sub>s0</sub> + 2·ρ·L/S ≤ U₀ / I<sub>a</sub>; I<sub>a</sub> = 5·I<sub>n</sub> (B), 10·I<sub>n</sub> (C)</div>\n        </div>\n      </section>\n\n      <!-- 05 ROZDZIELNICA -->\n      <section class=\"panel\" id=\"p-rozdzielnica\" style=\"--c:#D64545\" hidden>\n        <div class=\"tabhead\"><div class=\"num\">05</div><div><h2>Rozdzielnica</h2><p>Rozmieszczenie aparatów na szynach DIN. Grupy RCD z ich obwodami zostają w jednym rzędzie, pola przerywane to rezerwa.</p></div></div>\n        <div id=\"elev\"></div>\n      </section>\n\n      <!-- 06 SCHEMAT -->\n      <section class=\"panel\" id=\"p-schemat\" style=\"--c:#2F9E44\" hidden>\n        <div class=\"tabhead\"><div class=\"num\">06</div><div><h2>Schemat jednokreskowy</h2><p>Zasilanie, rozłącznik główny, ogranicznik przepięć, różnicówki i obwody z oznaczeniem faz i przewodów.</p></div></div>\n        <div id=\"schemat\"></div>\n      </section>\n\n      <!-- 07 ZESTAWIENIE -->\n      <section class=\"panel\" id=\"p-zestawienie\" style=\"--c:#E8912D\" hidden>\n        <div class=\"tabhead\"><div class=\"num\">07</div><div><h2>Zestawienie materiałów</h2><p>Aparaty zagregowane po parametrach i przewody z 10% zapasu. Numery katalogowe dobierz u wybranego producenta.</p></div></div>\n        <div id=\"bom\"></div>\n      </section>\n    </div>\n\n    <nav class=\"tabs\" role=\"tablist\" aria-label=\"Działy projektu\">\n      <button class=\"tab\" role=\"tab\" data-tab=\"start\" style=\"--c:#1F6FB2\"><span class=\"tn\">01</span>Projekt</button>\n      <button class=\"tab\" role=\"tab\" data-tab=\"obwody\" style=\"--c:#6C4AB6\"><span class=\"tn\">02</span>Obwody</button>\n      <button class=\"tab\" role=\"tab\" data-tab=\"bilans\" style=\"--c:#0F9F8F\"><span class=\"tn\">03</span>Bilans</button>\n      <button class=\"tab\" role=\"tab\" data-tab=\"przewody\" style=\"--c:#0E7490\"><span class=\"tn\">04</span>Przewody</button>\n      <button class=\"tab\" role=\"tab\" data-tab=\"rozdzielnica\" style=\"--c:#D64545\"><span class=\"tn\">05</span>Rozdzielnica</button>\n      <button class=\"tab\" role=\"tab\" data-tab=\"schemat\" style=\"--c:#2F9E44\"><span class=\"tn\">06</span>Schemat</button>\n      <button class=\"tab\" role=\"tab\" data-tab=\"zestawienie\" style=\"--c:#E8912D\"><span class=\"tn\">07</span>Zestawienie</button>\n    </nav>\n  </div>\n</div>\n\n<footer class=\"foot\">\n  <div class=\"wrap\">\n    <div>Narzędzie ma charakter edukacyjny. Wyniki są szacunkowe i nie zastępują projektu instalacji elektrycznej wykonanego przez osobę z uprawnieniami ani pomiarów odbiorczych. Przed użyciem sprawdź aktualne wydania norm i wymagania operatora sieci. Przykładowy budynek jest fikcyjny.</div>\n    <div><b>EdukacjaBudowlana</b> · www.edukacjabudowlana.pl</div>\n  </div>\n</footer>\n</div>";
+const PLANER_CSS = ":host{display:block;\n --p-bg:var(--paper);--p-surface:var(--surface);--p-fg:var(--ink);--p-muted:var(--ink-3);--p-line:var(--line);\n --p-sky:var(--sunken);--p-mist:var(--paper);--p-tab:var(--sunken);--p-ink:var(--navy);--p-navy:var(--navy);\n --p-blue:var(--orange);--p-teal:var(--signal);--p-teal-d:var(--orange);--p-amber:var(--orange);--p-red:var(--danger);--p-green:#2F7D3B;\n --p-dev:var(--surface);--p-rail:var(--line-2);--p-okbg:#E3F1E5;--p-wabg:var(--orange-soft);--p-erbg:var(--danger-soft);--p-tealbg:var(--sunken);\n --p-on-ink:#FFFFFF;--p-on-ink-2:#B9B3AA;--p-f-disp:var(--f-display);--p-f-body:var(--f-ui);--p-f-mono:var(--f-mono)}\n@media (prefers-color-scheme:dark){:host{--p-green:#5CC774;--p-okbg:#173A27}}\n*{box-sizing:border-box}\n.pl-root{color:var(--p-fg);font:15px/1.55 var(--p-f-body);-webkit-font-smoothing:antialiased}\n.wrap{max-width:none;margin:0;padding:0}\nh1,h2,h3{font-family:var(--p-f-disp);text-wrap:balance;margin:0}\n.mono{font-family:var(--p-f-mono)}\nbutton,input,select{font:inherit;color:inherit}\n:focus-visible{outline:2px solid var(--p-teal);outline-offset:2px}\n\n/* okładka */\n.hero{background:var(--p-ink);color:var(--p-on-ink)}\n.hero .wrap{padding-block:28px 26px;display:grid;gap:18px}\n.brandrow{display:flex;align-items:center;gap:12px;flex-wrap:wrap}\n.brandrow svg{width:40px;height:40px;flex:none}\n.patron{font-family:var(--p-f-mono);font-size:11px;letter-spacing:.08em;color:var(--p-on-ink-2);text-transform:uppercase;line-height:1.35}\n.patron b{display:block;color:var(--p-on-ink);font-family:var(--p-f-disp);font-size:16px;letter-spacing:0;text-transform:none}\n.kicker{font-family:var(--p-f-mono);font-size:11.5px;letter-spacing:.12em;color:var(--p-teal);text-transform:uppercase}\n.hero h1{font-size:clamp(34px,6vw,58px);font-weight:500;line-height:1.02;letter-spacing:-.02em}\n.hero h1 em{font-style:normal;color:var(--p-teal);font-weight:700}\n.hero p{margin:0;max-width:62ch;color:var(--p-on-ink-2);font-size:16px}\n.hchips{display:flex;flex-wrap:wrap;gap:8px}\n.hchip{font-family:var(--p-f-mono);font-size:11px;letter-spacing:.06em;border:1px solid rgba(255,255,255,.22);border-radius:999px;padding:4px 10px;color:var(--p-on-ink)}\n.secbar{display:flex;height:6px;border-radius:3px;overflow:hidden;max-width:420px}\n.secbar span{flex:1}\n\n/* podsumowanie */\n.sum{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-block:18px}\n.kpi{background:var(--p-surface);border:1px solid var(--p-line);border-radius:12px;padding:12px 14px;display:grid;gap:2px;min-width:0}\n.kpi .l{font-family:var(--p-f-mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--p-muted)}\n.kpi .v{font-family:var(--p-f-disp);font-size:24px;font-weight:600;font-variant-numeric:tabular-nums;line-height:1.2}\n.kpi .v small{font-size:13px;font-weight:500;color:var(--p-muted);margin-left:3px}\n.kpi .s{font-size:12.5px;color:var(--p-muted)}\n.kpi.state-ok{border-color:var(--p-green)} .kpi.state-er{border-color:var(--p-red)}\n\n/* segregator */\n.binder{display:grid;grid-template-columns:minmax(0,1fr) 54px;align-items:start;margin-bottom:28px}\n.sheet{background:var(--p-surface);border:1px solid var(--p-line);border-radius:14px 0 14px 14px;padding:22px;min-width:0;min-height:520px}\n.tabs{display:flex;flex-direction:column;gap:6px;position:sticky;top:84px;padding-top:14px}\n.tab{writing-mode:vertical-rl;font-family:var(--p-f-disp);font-size:13px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;\n  background:var(--p-tab);color:var(--p-muted);border:0;border-left:4px solid var(--c);border-radius:0 10px 10px 0;\n  padding:14px 8px;cursor:pointer;text-align:left;transition:transform .15s,background .15s}\n.tab:hover{color:var(--p-fg);transform:translateX(2px)}\n.tab[aria-selected=\"true\"]{background:var(--c);color:#fff;transform:translateX(-6px);padding-right:14px}\n.tab .tn{font-family:var(--p-f-mono);font-weight:500;opacity:.75;margin-bottom:6px}\n.panel[hidden]{display:none!important}\n\n.tabhead{display:flex;gap:16px;align-items:center;background:var(--c);color:#fff;border-radius:12px;padding:18px 20px;margin-bottom:20px}\n.tabhead .num{font-family:var(--p-f-disp);font-size:46px;font-weight:300;line-height:1;opacity:.95}\n.tabhead h2{font-size:23px;font-weight:600}\n.tabhead p{margin:4px 0 0;font-size:14px;opacity:.9;max-width:70ch}\nh3{font-size:17px;font-weight:600;margin:24px 0 10px;display:flex;align-items:center;gap:8px}\nh3 .n{font-family:var(--p-f-mono);font-size:11px;font-weight:600;background:var(--p-navy);color:#fff;border-radius:4px;padding:2px 6px}\np.lead{margin:0 0 14px;color:var(--p-muted);max-width:75ch}\n\n/* pola */\n.form{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:12px 14px}\n.fld{display:grid;gap:4px;min-width:0}\n.fld>span{font-family:var(--p-f-mono);font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--p-muted)}\n.fld input,.fld select{width:100%;background:var(--p-surface);border:1px solid var(--p-line);border-radius:7px;padding:7px 9px;font-size:14px;min-width:0}\n.fld input:hover,.fld select:hover{border-color:var(--p-rail)}\n.btn{background:var(--p-navy);color:#fff;border:0;border-radius:8px;padding:9px 14px;font-weight:600;font-size:14px;cursor:pointer}\n.btn.ghost{background:transparent;color:var(--p-fg);border:1px solid var(--p-line)}\n.btn.red{background:var(--p-red)}\n.btn:hover{filter:brightness(1.1)}\n.row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}\n\n/* ramki */\n.law,.tip,.note{border-radius:10px;padding:11px 14px;font-size:13.5px;display:grid;grid-template-columns:22px minmax(0,1fr);gap:10px;align-items:start}\n.law{background:var(--p-sky);font-family:var(--p-f-mono);font-size:12.5px}\n.law::before{content:\"§\";font-family:var(--p-f-disp);font-weight:700;color:var(--p-blue);font-size:17px;line-height:1}\n.tip{background:var(--p-tealbg)}\n.tip::before{content:\"✓\";font-weight:700;color:var(--p-teal-d);font-size:16px;line-height:1.1}\n.note{background:var(--p-wabg)}\n.note::before{content:\"!\";font-family:var(--p-f-disp);font-weight:700;color:var(--p-amber);font-size:17px;line-height:1}\n.stack{display:grid;gap:8px}\n.g2{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px}\n\n.pipe{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px;margin:6px 0 4px;padding:0;list-style:none;counter-reset:st}\n.pipe li{background:var(--p-mist);border:1px solid var(--p-line);border-radius:10px;padding:12px;font-size:13.5px;counter-increment:st;display:grid;gap:4px}\n.pipe li::before{content:counter(st);width:26px;height:26px;border-radius:50%;background:var(--p-teal);color:#fff;font-family:var(--p-f-disp);font-weight:700;display:grid;place-items:center}\n.pipe b{font-family:var(--p-f-disp)}\n\n/* chipy */\n.chip{display:inline-flex;align-items:center;gap:4px;font-family:var(--p-f-mono);font-size:11.5px;border-radius:999px;padding:2px 9px;background:var(--p-mist);border:1px solid var(--p-line);white-space:nowrap;font-variant-numeric:tabular-nums}\n.chip.ok{background:var(--p-okbg);color:var(--p-green);border-color:transparent}\n.chip.wa{background:var(--p-wabg);color:var(--p-amber);border-color:transparent}\n.chip.er{background:var(--p-erbg);color:var(--p-red);border-color:transparent}\n\n/* obwody */\n.adds{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:16px}\n.adds button{background:var(--p-surface);border:1px dashed var(--p-rail);border-radius:999px;padding:5px 11px;font-size:13px;cursor:pointer}\n.adds button:hover{border-style:solid;border-color:var(--p-teal);color:var(--p-teal-d)}\n.cards{display:grid;gap:12px}\n.cc{border:1px solid var(--p-line);border-radius:12px;background:var(--p-surface);overflow:hidden}\n.cc-h{display:flex;flex-wrap:wrap;gap:8px;align-items:center;padding:10px 12px;background:var(--p-mist);border-bottom:1px solid var(--p-line)}\n.cno{font-family:var(--p-f-mono);font-weight:600;font-size:13px;color:#fff;background:var(--gc,var(--p-navy));border-radius:6px;min-width:34px;text-align:center;padding:3px 6px}\n.cc-h input.nm{flex:1 1 180px;min-width:0;font-family:var(--p-f-disp);font-weight:600;font-size:15px;background:transparent;border:1px solid transparent;border-radius:6px;padding:4px 6px}\n.cc-h input.nm:hover,.cc-h input.nm:focus{border-color:var(--p-line);background:var(--p-surface)}\n.cc-h select{background:var(--p-surface);border:1px solid var(--p-line);border-radius:6px;padding:4px 6px;font-size:13px;max-width:100%}\n.del{background:transparent;border:1px solid var(--p-line);border-radius:6px;width:30px;height:30px;cursor:pointer;color:var(--p-muted);font-size:16px;line-height:1}\n.del:hover{color:var(--p-red);border-color:var(--p-red)}\n.cc-g{display:grid;grid-template-columns:repeat(auto-fill,minmax(120px,1fr));gap:10px;padding:12px}\n.cc-g .fld input,.cc-g .fld select{padding:6px 7px;font-size:13.5px}\n.cc-r{display:flex;flex-wrap:wrap;gap:6px;padding:0 12px 12px}\n.empty{border:1px dashed var(--p-rail);border-radius:12px;padding:28px;text-align:center;color:var(--p-muted)}\n\n/* tabele */\n.scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;border-radius:10px;border:1px solid var(--p-line)}\ntable.t{border-collapse:collapse;width:100%;font-size:13.5px;font-variant-numeric:tabular-nums}\ntable.t th{background:var(--p-navy);color:#fff;font-family:var(--p-f-disp);font-size:11px;letter-spacing:.07em;text-transform:uppercase;text-align:left;padding:9px 10px;white-space:nowrap;font-weight:600}\ntable.t td{padding:8px 10px;border-top:1px solid var(--p-line);vertical-align:top}\ntable.t tr:nth-child(even) td{background:var(--p-mist)}\ntable.t td.r,table.t th.r{text-align:right}\ntable.t tfoot td{font-weight:700;background:var(--p-sky)!important}\n.dot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:6px;vertical-align:middle}\n\n/* fazy */\n.phases{display:grid;gap:10px}\n.ph{display:grid;grid-template-columns:34px minmax(0,1fr) 84px;gap:10px;align-items:center;font-variant-numeric:tabular-nums}\n.ph b{font-family:var(--p-f-mono)}\n.ph .bar{height:16px;background:var(--p-mist);border-radius:4px;overflow:hidden;border:1px solid var(--p-line)}\n.ph .bar i{display:block;height:100%;background:var(--c);border-radius:3px}\n.ph span{text-align:right;font-family:var(--p-f-mono);font-size:13px}\n\n/* rysunki */\n.draw{overflow-x:auto;border:1px solid var(--p-line);border-radius:12px;background:var(--p-mist);padding:12px}\n.draw svg{display:block;max-width:none}\n.e-row{fill:var(--p-surface);stroke:var(--p-line)}\n.e-rail{stroke:var(--p-rail);stroke-width:6}\n.e-free{fill:none;stroke:var(--p-rail);stroke-dasharray:3 3}\n.e-dev{fill:var(--p-dev);stroke:var(--p-rail)}\n.e-tog{fill:var(--p-navy)}\n.e-t{fill:var(--p-fg);font-family:var(--p-f-disp);font-size:10.5px;font-weight:700}\n.e-s{fill:var(--p-muted);font-family:var(--p-f-mono);font-size:8.5px}\n.e-lbl{fill:var(--p-muted);font-family:var(--p-f-mono);font-size:10px}\n.e-br{fill:none;stroke-width:2}\n.e-bl{fill:var(--p-fg);font-family:var(--p-f-mono);font-size:9.5px}\n.s-ln{stroke:var(--p-fg);stroke-width:1.6;fill:none}\n.s-box{fill:var(--p-surface);stroke:var(--p-fg);stroke-width:1.4}\n.s-t{fill:var(--p-fg);font-family:var(--p-f-mono);font-size:10px}\n.s-tb{fill:var(--p-fg);font-family:var(--p-f-disp);font-size:11px;font-weight:700}\n.s-m{fill:var(--p-muted);font-family:var(--p-f-mono);font-size:9.5px}\n.draw.fit svg{width:100%;height:auto}\ntd.wsec{background:var(--p-sky)!important;font-family:var(--p-f-disp);font-weight:700;text-transform:uppercase;letter-spacing:.04em}\n.stack .tip>span,.stack .note>span{min-width:0}\n.legend{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}\n.caption{font-family:var(--p-f-mono);font-size:11px;color:var(--p-muted);margin-top:8px}\n\n.confirm{display:inline-flex;gap:6px;align-items:center;font-size:13.5px}\nfooter.foot{border-top:1px solid var(--p-line);padding-block:18px 26px;color:var(--p-muted);font-size:12.5px}\nfooter.foot .wrap{display:grid;gap:8px}\nfooter.foot b{color:var(--p-fg);font-family:var(--p-f-disp)}\n\n@media (max-width:860px){\n  .binder{grid-template-columns:minmax(0,1fr)}\n  .tabs{order:-1;flex-direction:row;overflow-x:auto;gap:4px;padding:8px 0 0;top:68px;z-index:5;background:var(--p-bg);scrollbar-width:none}\n  .tabs::-webkit-scrollbar{display:none}\n  .tab{writing-mode:horizontal-tb;border-left:0;border-top:4px solid var(--c);border-radius:10px 10px 0 0;padding:8px 12px;white-space:nowrap;font-size:12px;flex:none}\n  .tab .tn{margin:0 6px 0 0}\n  .tab:hover{transform:none}\n  .tab[aria-selected=\"true\"]{transform:none;padding-right:12px}\n  .sheet{border-radius:0 14px 14px 14px;padding:16px}\n  .tabhead{padding:14px 16px}\n  .tabhead .num{font-size:34px}\n  .tabhead h2{font-size:19px}\n}\n@media (prefers-reduced-motion:reduce){*{transition:none!important}}\n\n/* dopasowanie do EdukacjaBudowlana.pl */\nh2,h3{text-transform:uppercase;letter-spacing:.01em}\n.tabhead{border-radius:0}\n.tabhead h2{font-weight:600;font-size:28px;line-height:1}\n.tabhead .num{font-weight:600}\nh3{font-weight:600;font-size:20px}\n.kpi{border-radius:var(--r,14px);border-color:transparent}\n.kpi .v{font-weight:600;font-size:28px}\n.sheet{border-color:transparent;border-radius:var(--r,14px) 0 var(--r,14px) var(--r,14px)}\n.tab{font-weight:700;font-size:14px;letter-spacing:.1em}\n.btn{background:var(--signal);color:var(--on-signal);border-radius:0;font-family:var(--f-display);text-transform:uppercase;letter-spacing:.08em;font-size:16px}\n.btn.ghost{background:transparent;color:var(--p-fg);border:1px solid var(--line-2);font-family:var(--f-ui);text-transform:none;letter-spacing:0;font-size:14px}\n.pl-chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 4px}\ntable.t th{font-size:12.5px;letter-spacing:.1em}\n.cc{border-color:transparent;border-radius:var(--r,14px)}\n.cno{font-family:var(--f-display);font-size:15px}\nfooter.foot{margin-top:6px;padding-block:16px 4px}\n@media (max-width:860px){.sheet{border-radius:0 var(--r,14px) var(--r,14px) var(--r,14px)}}\n";
+const PLANER_HTML = "<div class=\"pl-root\"><div class=\"wrap\">\n  <div class=\"pl-chips\"><span class=\"chip\">PN-HD 60364 · N-SEP-E-002</span><span class=\"chip\">Przewody Cu · PVC 70 °C</span><span class=\"chip\">Przykład: dom fikcyjny</span></div>\n  <div class=\"sum\" id=\"sum\"></div>\n\n  <div class=\"binder\">\n    <div class=\"sheet\">\n\n      <!-- 01 START -->\n      <section class=\"panel\" id=\"p-start\" style=\"--c:#1F6FB2\">\n        <div class=\"tabhead\"><div class=\"num\">01</div><div><h2>Projekt</h2><p>Parametry całej rozdzielnicy. Ustawienia z tej zakładki obowiązują wszystkie obwody, o ile w obwodzie nie wybierzesz inaczej.</p></div></div>\n        <ol class=\"pipe\">\n          <li><b>Ustaw projekt</b>zasilanie, strategię RCD, warunki ułożenia</li>\n          <li><b>Dodaj obwody</b>z gotowych typów, popraw moc i długości</li>\n          <li><b>Sprawdź bilans i przewody</b>moc zapotrzebowana, przekroje, spadki</li>\n          <li><b>Odczytaj wynik</b>elewacja, schemat, połączenia przewodów, zestawienie materiałów</li>\n        </ol>\n\n        <h3><span class=\"n\">01.1</span>Zasilanie i rozdzielnica</h3>\n        <div class=\"form\">\n          <label class=\"fld\"><span>Nazwa projektu</span><input id=\"s-name\" type=\"text\"></label>\n          <label class=\"fld\"><span>Zasilanie</span><select id=\"s-supply\"><option value=\"3f\">3-fazowe 400 V</option><option value=\"1f\">1-fazowe 230 V</option></select></label>\n          <label class=\"fld\"><span>Układ sieci na wejściu</span><select id=\"s-net\"><option value=\"tnc\">TN-C: PEN, podział w tej rozdzielnicy</option><option value=\"tns\">TN-S: osobno N i PE</option></select></label>\n          <label class=\"fld\"><span>Ochrona różnicowoprądowa</span><select id=\"s-strategy\"><option value=\"rcd\">Grupowe RCD + MCB</option><option value=\"rcbo\">RCBO na każdy obwód</option></select></label>\n          <label class=\"fld\"><span>Maks. obwodów na RCD</span><select id=\"s-rcdmax\"><option>3</option><option>4</option><option>5</option><option>6</option></select></label>\n          <label class=\"fld\"><span>Rezerwa miejsca [%]</span><select id=\"s-reserve\"><option value=\"10\">10</option><option value=\"20\">20</option><option value=\"30\">30</option><option value=\"40\">40</option></select></label>\n          <label class=\"fld\"><span>Moduły w rzędzie</span><select id=\"s-roww\"><option value=\"auto\">Automatycznie</option><option value=\"12\">12</option><option value=\"18\">18</option></select></label>\n          <label class=\"fld\"><span>Impedancja pętli u źródła Zs₀ [Ω]</span><input id=\"s-zs0\" type=\"text\" inputmode=\"decimal\"></label>\n        </div>\n\n        <h3><span class=\"n\">01.2</span>Warunki ułożenia przewodów</h3>\n        <div class=\"form\">\n          <label class=\"fld\"><span>Domyślny sposób ułożenia</span><select id=\"s-method\"></select></label>\n          <label class=\"fld\"><span>Temperatura powietrza [°C]</span><select id=\"s-tair\"></select></label>\n          <label class=\"fld\"><span>Temperatura gruntu [°C]</span><select id=\"s-tgnd\"></select></label>\n          <label class=\"fld\"><span>Dop. spadek od licznika do odbiornika [%]</span><input id=\"s-dumax\" type=\"text\" inputmode=\"decimal\"></label>\n        </div>\n\n        <h3><span class=\"n\">01.3</span>Wewnętrzna linia zasilająca (WLZ)</h3>\n        <div class=\"form\">\n          <label class=\"fld\"><span>Długość WLZ [m]</span><input id=\"s-wlzl\" type=\"text\" inputmode=\"decimal\"></label>\n          <label class=\"fld\"><span>Ułożenie WLZ</span><select id=\"s-wlzm\"></select></label>\n          <label class=\"fld\"><span>Dop. spadek w WLZ [%]</span><input id=\"s-wlzdu\" type=\"text\" inputmode=\"decimal\"></label>\n        </div>\n\n        <h3><span class=\"n\">01.4</span>Projekt</h3>\n        <div class=\"row\">\n          <button class=\"btn ghost\" id=\"b-sample\" type=\"button\">Wczytaj przykład</button>\n          <span id=\"clearbox\"><button class=\"btn ghost\" id=\"b-clear\" type=\"button\">Wyczyść listę obwodów</button></span>\n          <span class=\"chip\">projekt zapisuje się w tej przeglądarce (cookies funkcjonalne)</span>\n        </div>\n\n        <h3><span class=\"n\">01.5</span>Podstawy</h3>\n        <div class=\"stack\">\n          <div class=\"law\">PN-HD 60364-4-43 · ochrona przed przeciążeniem: I<sub>B</sub> ≤ I<sub>n</sub> ≤ I<sub>z</sub> oraz I<sub>2</sub> ≤ 1,45·I<sub>z</sub></div>\n          <div class=\"law\">PN-HD 60364-5-52 · obciążalność długotrwała przewodów (zał. B), spadek napięcia (zał. G), minimalny przekrój Cu w instalacji stałej 1,5 mm²</div>\n          <div class=\"law\">PN-HD 60364-4-41 · samoczynne wyłączenie w układzie TN: 0,4 s dla obwodów odbiorczych do 63 A z gniazdami i do 32 A tylko z odbiornikami stałymi; RCD 30 mA dla gniazd do 32 A i obwodów oświetlenia w mieszkaniach</div>\n          <div class=\"law\">N-SEP-E-002 · spadek napięcia od licznika do odbiornika do 3%, w WLZ do 0,5% przy mocy do 100 kVA</div>\n        </div>\n      </section>\n\n      <!-- 02 OBWODY -->\n      <section class=\"panel\" id=\"p-obwody\" style=\"--c:#6C4AB6\" hidden>\n        <div class=\"tabhead\"><div class=\"num\">02</div><div><h2>Obwody</h2><p>Dodaj obwody z gotowych typów. Każdy typ ustawia moc, cos φ, liczbę faz i zabezpieczenie wyjściowe. Przekrój i zabezpieczenie „auto” projekt dobiera sam.</p></div></div>\n        <div class=\"adds\" id=\"adds\"></div>\n        <div class=\"cards\" id=\"cards\"></div>\n      </section>\n\n      <!-- 03 BILANS -->\n      <section class=\"panel\" id=\"p-bilans\" style=\"--c:#0F9F8F\" hidden>\n        <div class=\"tabhead\"><div class=\"num\">03</div><div><h2>Bilans mocy</h2><p>Moc zapotrzebowana P<sub>z</sub> = Σ k<sub>z</sub>·P<sub>i</sub>. Obwody 1-fazowe projekt rozkłada na fazy tak, żeby obciążenie było możliwie równe.</p></div></div>\n        <div id=\"bilans\"></div>\n      </section>\n\n      <!-- 04 PRZEWODY -->\n      <section class=\"panel\" id=\"p-przewody\" style=\"--c:#0E7490\" hidden>\n        <div class=\"tabhead\"><div class=\"num\">04</div><div><h2>Przewody i zabezpieczenia</h2><p>Obciążalność z poprawkami na temperaturę i grupowanie, spadek napięcia i warunek samoczynnego wyłączenia dla każdego obwodu.</p></div></div>\n        <div id=\"przewody\"></div>\n        <h3><span class=\"n\">04.2</span>Tabela obciążalności</h3>\n        <p class=\"lead\">Obciążalność długotrwała przewodów miedzianych w izolacji PVC (70 °C) według PN-HD 60364-5-52, zał. B, z poprawkami dla wybranych warunków.</p>\n        <div class=\"form\" style=\"margin-bottom:12px\">\n          <label class=\"fld\"><span>Sposób ułożenia</span><select id=\"iz-m\"></select></label>\n          <label class=\"fld\"><span>Żyły obciążone</span><select id=\"iz-k\"><option value=\"2\">2 (obwód 1-fazowy)</option><option value=\"3\">3 (obwód 3-fazowy)</option></select></label>\n          <label class=\"fld\"><span>Temperatura [°C]</span><select id=\"iz-t\"></select></label>\n          <label class=\"fld\"><span>Obwodów w wiązce</span><select id=\"iz-n\"></select></label>\n        </div>\n        <div id=\"iztab\"></div>\n        <h3><span class=\"n\">04.3</span>Wzory</h3>\n        <div class=\"stack\">\n          <div class=\"law\">I<sub>B</sub> = P / (U₀·cos φ) dla 1 fazy; I<sub>B</sub> = P / (√3·U·cos φ) dla 3 faz; U₀ = 230 V, U = 400 V</div>\n          <div class=\"law\">I<sub>z</sub>' = I<sub>z</sub>·k<sub>t</sub>·k<sub>g</sub>; dla wyłącznika nadprądowego I<sub>2</sub> = 1,45·I<sub>n</sub>, więc wystarcza I<sub>n</sub> ≤ I<sub>z</sub>'</div>\n          <div class=\"law\">ΔU = b·I<sub>B</sub>·L·(ρ/S·cos φ + λ·sin φ); b = 2 (1 faza) lub √3 (3 fazy); ρ = 0,0225 Ω·mm²/m, λ = 0,08 mΩ/m (PN-HD 60364-5-52, zał. G)</div>\n          <div class=\"law\">Z<sub>s</sub> = Z<sub>s0</sub> + 2·ρ·L/S ≤ U₀ / I<sub>a</sub>; I<sub>a</sub> = 5·I<sub>n</sub> (B), 10·I<sub>n</sub> (C)</div>\n        </div>\n      </section>\n\n      <!-- 05 ROZDZIELNICA -->\n      <section class=\"panel\" id=\"p-rozdzielnica\" style=\"--c:#D64545\" hidden>\n        <div class=\"tabhead\"><div class=\"num\">05</div><div><h2>Rozdzielnica</h2><p>Rozmieszczenie aparatów na szynach DIN. Grupy RCD z ich obwodami zostają w jednym rzędzie, pola przerywane to rezerwa.</p></div></div>\n        <div id=\"elev\"></div>\n      </section>\n\n      <!-- 06 SCHEMAT -->\n      <section class=\"panel\" id=\"p-schemat\" style=\"--c:#2F9E44\" hidden>\n        <div class=\"tabhead\"><div class=\"num\">06</div><div><h2>Schemat jednokreskowy</h2><p>Zasilanie, rozłącznik główny, ogranicznik przepięć, różnicówki i obwody z oznaczeniem faz i przewodów.</p></div></div>\n        <div id=\"schemat\"></div>\n      </section>\n\n      <!-- 07 POŁĄCZENIA -->\n      <section class=\"panel\" id=\"p-polaczenia\" style=\"--c:#475569\" hidden>\n        <div class=\"tabhead\"><div class=\"num\">07</div><div><h2>Połączenia przewodów</h2><p>Widok rozdzielnicy tworzy się sam z obwodów: aparaty na szynach DIN, każda faza swoim kolorem, podział PEN, listwy N i PE oraz lista wszystkich połączeń.</p></div></div>\n        <div id=\"polacz\"></div>\n      </section>\n\n      <!-- 08 ZESTAWIENIE -->\n      <section class=\"panel\" id=\"p-zestawienie\" style=\"--c:#E8912D\" hidden>\n        <div class=\"tabhead\"><div class=\"num\">08</div><div><h2>Zestawienie materiałów</h2><p>Aparaty zagregowane po parametrach i przewody z 10% zapasu. Numery katalogowe dobierz u wybranego producenta.</p></div></div>\n        <div id=\"bom\"></div>\n      </section>\n    </div>\n\n    <nav class=\"tabs\" role=\"tablist\" aria-label=\"Działy projektu\">\n      <button class=\"tab\" role=\"tab\" data-tab=\"start\" style=\"--c:#1F6FB2\"><span class=\"tn\">01</span>Projekt</button>\n      <button class=\"tab\" role=\"tab\" data-tab=\"obwody\" style=\"--c:#6C4AB6\"><span class=\"tn\">02</span>Obwody</button>\n      <button class=\"tab\" role=\"tab\" data-tab=\"bilans\" style=\"--c:#0F9F8F\"><span class=\"tn\">03</span>Bilans</button>\n      <button class=\"tab\" role=\"tab\" data-tab=\"przewody\" style=\"--c:#0E7490\"><span class=\"tn\">04</span>Przewody</button>\n      <button class=\"tab\" role=\"tab\" data-tab=\"rozdzielnica\" style=\"--c:#D64545\"><span class=\"tn\">05</span>Rozdzielnica</button>\n      <button class=\"tab\" role=\"tab\" data-tab=\"schemat\" style=\"--c:#2F9E44\"><span class=\"tn\">06</span>Schemat</button>\n      <button class=\"tab\" role=\"tab\" data-tab=\"polaczenia\" style=\"--c:#475569\"><span class=\"tn\">07</span>Połączenia</button>\n      <button class=\"tab\" role=\"tab\" data-tab=\"zestawienie\" style=\"--c:#E8912D\"><span class=\"tn\">08</span>Zestawienie</button>\n    </nav>\n  </div>\n</div>\n\n<footer class=\"foot\">\n  <div class=\"wrap\">\n    <div>Narzędzie ma charakter edukacyjny. Wyniki są szacunkowe i nie zastępują projektu instalacji elektrycznej wykonanego przez osobę z uprawnieniami ani pomiarów odbiorczych. Przed użyciem sprawdź aktualne wydania norm i wymagania operatora sieci. Przykładowy budynek jest fikcyjny.</div>\n    <div><b>EdukacjaBudowlana</b> · www.edukacjabudowlana.pl</div>\n  </div>\n</footer>\n</div>";
 function mountPlaner(host){
  const root = host.shadowRoot || host.attachShadow({mode:"open"});
  root.innerHTML = "<style>" + PLANER_CSS + "</style>" + PLANER_HTML;
@@ -11046,7 +11046,7 @@ const PRESETS={
  brama:{label:"Brama / garaż",P:0.8,cos:0.9,ph:1,kz:0.5,ch:"C",In:10,S:1.5},
  wl:{label:"Obwód własny",P:1.5,cos:0.95,ph:1,kz:0.6,ch:"B",In:16,S:2.5}
 };
-const TABS=["start","obwody","bilans","przewody","rozdzielnica","schemat","zestawienie"];
+const TABS=["start","obwody","bilans","przewody","rozdzielnica","schemat","polaczenia","zestawienie"];
 
 const $=s=>root.querySelector(s);
 const esc=s=>String(s).replace(/[&<>"]/g,ch=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[ch]));
@@ -11058,7 +11058,7 @@ let uid=1;
 function mk(type,name,L,over){const p=PRESETS[type];return Object.assign({id:uid++,type,name:name||p.label,P:p.P,cos:p.cos,ph:p.ph,kz:p.kz,L:L||20,method:"",n:1,phase:"auto",S:"auto",prot:"auto"},over||{});}
 function sample(){
  uid=1;
- return {name:"Dom jednorodzinny 140 m² (przykład fikcyjny)",supply:"3f",strategy:"rcd",rcdMax:5,reserve:20,roww:"auto",tair:30,tgnd:20,method:"C",zs0:0.35,dumax:3,wlzL:15,wlzM:"D1",wlzDu:0.5,
+ return {name:"Dom jednorodzinny 140 m² (przykład fikcyjny)",supply:"3f",net:"tnc",strategy:"rcd",rcdMax:5,reserve:20,roww:"auto",tair:30,tgnd:20,method:"C",zs0:0.35,dumax:3,wlzL:15,wlzM:"D1",wlzDu:0.5,
  circ:[mk("osw","Oświetlenie parter",25),mk("osw","Oświetlenie piętro",30),mk("osw","Oświetlenie zewnętrzne",35,{P:0.3}),
   mk("gn","Gniazda salon i jadalnia",22),mk("gn","Gniazda sypialnie piętro",30),mk("gk","Gniazda kuchnia blat",15),
   mk("plyta","Płyta indukcyjna",14),mk("piek","Piekarnik",14),mk("zmyw","Zmywarka",14),mk("pral","Pralka",18),
@@ -11068,6 +11068,7 @@ function sample(){
 let S;
 try{const raw=localStorage.getItem("eb-planer-rozdzielnicy-v1");if(raw){S=JSON.parse(raw);uid=Math.max(0,...S.circ.map(c=>c.id))+1;}}catch(e){S=null;}
 if(!S||!Array.isArray(S.circ))S=sample();
+if(!S.net)S.net="tnc";
 function save(){try{if(window.EBck&&!EBck.func())return;localStorage.setItem("eb-planer-rozdzielnicy-v1",JSON.stringify(S));}catch(e){}}
 
 /* ---------- obliczenia obwodu ---------- */
@@ -11100,7 +11101,8 @@ function calc(c){
  if(r.S<1.5)issues.push("przekrój < 1,5");
  return Object.assign(r,{m,ph,IB,In,ch,kt,kg,Ia,ZsMax,cos,noFit,issues,ok:issues.length===0});
 }
-function cableName(s,m,ph){const cores=ph===3?5:3;const t=m==="D1"?"YKY":m==="E"?"YDY":(s<=4?"YDYp":"YDY");return t+" "+cores+"×"+fS(s);}
+function cableName(s,m,ph,cores){cores=cores||(ph===3?5:3);const t=m==="D1"?"YKY":m==="E"?"YDY":(s<=4?"YDYp":"YDY");return t+" "+cores+"×"+fS(s);}
+function wlzName(D){const f3=S.supply==="3f";return cableName(D.wlz.S,S.wlzM,f3?3:1,S.net==="tnc"?(f3?4:2):(f3?5:3));}
 
 /* ---------- obliczenia całości ---------- */
 function compute(){
@@ -11144,7 +11146,7 @@ function compute(){
  const bW=S.supply==="3f"?SQ3:2, UW=S.supply==="3f"?400:230, loadedW=S.supply==="3f"?3:2;
  const sinW=Math.sqrt(Math.max(0,1-cosAvg*cosAvg));
  const wlzFor=Ip=>{
-  for(const s of SECT.filter(v=>v>=6)){const Iz=IZ[loadedW][S.wlzM][SECT.indexOf(s)]*ktW;const dUp=bW*IBw*S.wlzL*(RHO/s*cosAvg+XL*sinW)/UW*100;
+  for(const s of SECT.filter(v=>v>=(S.net==="tnc"?10:6))){const Iz=IZ[loadedW][S.wlzM][SECT.indexOf(s)]*ktW;const dUp=bW*IBw*S.wlzL*(RHO/s*cosAvg+XL*sinW)/UW*100;
    const t={S:s,Iz,dUp,okIz:Iz>=1.103*Ip,okDU:dUp<=S.wlzDu+1e-9};if(t.okIz&&t.okDU)return t;}
   const s=50,Iz=IZ[loadedW][S.wlzM][8]*ktW;return {S:s,Iz,dUp:bW*IBw*S.wlzL*(RHO/s*cosAvg+XL*sinW)/UW*100,noFit:true};};
  const IkOf=w=>230/Math.max(0.01,S.zs0+2*S.wlzL*RHO/w.S)/1000;
@@ -11175,21 +11177,21 @@ function compute(){
   b.items.forEach(d=>{if(pos+d.w>W)newRow();lay[lay.length-1].push(Object.assign({},d,{col:pos}));pos+=d.w;});});
  const nRows=Math.max(lay.length,Math.ceil(need/W));while(lay.length<nRows)lay.push([]);
  const total=nRows*W, free=total-used;
- return {rows,groups,load,B,Pi,Pz,cosAvg,IBw,Ipl,Pprz,Prow,Pcap,nmin,Ik,selT,selOk,IplOb,IplSel,IplAuto,wlz,FR,ktW,used,need,W,lay,nRows,total,free,frMod,spdMod};
+ return {rows,groups,blocks,load,B,Pi,Pz,cosAvg,IBw,Ipl,Pprz,Prow,Pcap,nmin,Ik,selT,selOk,IplOb,IplSel,IplAuto,wlz,FR,ktW,used,need,W,lay,nRows,total,free,frMod,spdMod};
 }
 
 /* ---------- interfejs: projekt ---------- */
 function fillSelect(el,opts,val){el.innerHTML=opts.map(o=>`<option value="${o[0]}">${esc(o[1])}</option>`).join("");el.value=String(val);}
 const methodOpts=Object.keys(METHODS).map(k=>[k,METHODS[k]]);
 function syncStart(){
- $("#s-name").value=S.name;$("#s-supply").value=S.supply;$("#s-strategy").value=S.strategy;$("#s-rcdmax").value=String(S.rcdMax);
+ $("#s-name").value=S.name;$("#s-supply").value=S.supply;$("#s-net").value=S.net;$("#s-strategy").value=S.strategy;$("#s-rcdmax").value=String(S.rcdMax);
  $("#s-reserve").value=String(S.reserve);$("#s-roww").value=String(S.roww);$("#s-zs0").value=fS(S.zs0);
  fillSelect($("#s-method"),methodOpts,S.method);
  fillSelect($("#s-tair"),Object.keys(KT_AIR).map(k=>[k,k+" °C · k = "+fS(KT_AIR[k])]),S.tair);
  fillSelect($("#s-tgnd"),Object.keys(KT_GND).map(k=>[k,k+" °C · k = "+fS(KT_GND[k])]),S.tgnd);
  $("#s-dumax").value=fS(S.dumax);$("#s-wlzl").value=fS(S.wlzL);fillSelect($("#s-wlzm"),methodOpts,S.wlzM);$("#s-wlzdu").value=fS(S.wlzDu);
 }
-const startMap={"s-name":["name","t"],"s-supply":["supply","t"],"s-strategy":["strategy","t"],"s-rcdmax":["rcdMax","n"],"s-reserve":["reserve","n"],"s-roww":["roww","t"],"s-zs0":["zs0","n"],"s-method":["method","t"],"s-tair":["tair","n"],"s-tgnd":["tgnd","n"],"s-dumax":["dumax","n"],"s-wlzl":["wlzL","n"],"s-wlzm":["wlzM","t"],"s-wlzdu":["wlzDu","n"]};
+const startMap={"s-name":["name","t"],"s-supply":["supply","t"],"s-net":["net","t"],"s-strategy":["strategy","t"],"s-rcdmax":["rcdMax","n"],"s-reserve":["reserve","n"],"s-roww":["roww","t"],"s-zs0":["zs0","n"],"s-method":["method","t"],"s-tair":["tair","n"],"s-tgnd":["tgnd","n"],"s-dumax":["dumax","n"],"s-wlzl":["wlzL","n"],"s-wlzm":["wlzM","t"],"s-wlzdu":["wlzDu","n"]};
 $("#p-start").addEventListener("input",e=>{const m=startMap[e.target.id];if(!m)return;
  if(m[1]==="n"){const v=num(e.target.value,NaN);if(!isFinite(v)||v<0)return;S[m[0]]=v;}else S[m[0]]=e.target.value;
  if(e.target.id==="s-supply"||e.target.id==="s-method")buildCards();update();});
@@ -11354,7 +11356,7 @@ function renderBilans(D){
     <label>Moc minimalna wg N SEP-E-002<select id="bl-nmin">${opt(nop,+S.nmin||30)}</select></label>
    </div>
    <div class="stack">
-    <div class="tip"><span>WLZ: ${cableName(D.wlz.S,S.wlzM,f3?3:1)}, L = ${fmt(S.wlzL,0)} m, I<sub>z</sub>' = ${fmt(D.wlz.Iz)} A, ΔU = ${fmt(D.wlz.dUp,2)}% (limit ${fmt(S.wlzDu,1)}%)</span></div>
+    <div class="tip"><span>WLZ: ${wlzName(D)}, L = ${fmt(S.wlzL,0)} m, I<sub>z</sub>' = ${fmt(D.wlz.Iz)} A, ΔU = ${fmt(D.wlz.dUp,2)}% (limit ${fmt(S.wlzDu,1)}%)</span></div>
     <div class="tip">Rozłącznik główny FR ${f3?"3P":"2P"} ${D.FR} A, prąd znamionowy nie mniejszy niż wkładka</div>
    </div>
   </div>
@@ -11590,18 +11592,18 @@ function svgSchem(D){
  s+=`<rect x="1" y="1" width="${w-2}" height="${h-2}" fill="${SUR}" stroke="${INK}" stroke-width="1.6"/>`;
  s+=T(PAD,32,"SCHEMAT JEDNOKRESKOWY ROZDZIELNICY",{f:DISP,b:800,s:21});
  s+=T(PAD,50,S.name||"Rozdzielnica",{s:11,c:MUT});
- s+=T(w-PAD,32,(f3?"3/N/PE ~ 400/230 V":"1/N/PE ~ 230 V")+" · 50 Hz · TN-S",{a:"end",s:11.5,b:600});
+ s+=T(w-PAD,32,(f3?"3":"1")+(S.net==="tnc"?"/PEN":"/N/PE")+(f3?" ~ 400/230 V":" ~ 230 V")+" · 50 Hz · "+(S.net==="tnc"?"TN-C-S":"TN-S"),{a:"end",s:11.5,b:600});
  s+=T(w-PAD,50,"Pz = "+fmt(D.Pz)+" kW · IB = "+fmt(D.IBw)+" A · Pi = "+fmt(D.Pi)+" kW",{a:"end",s:11,c:MUT});
  s+=L(PAD,60,w-PAD,60,{c:LIN,w:1});
  // zasilanie
- const pz=f3?5:3;
+ const pz=S.net==="tnc"?(f3?4:2):(f3?5:3);
  s+=T(fx+18,80,"Złącze / sieć",{f:DISP,b:700,s:12.5});
  s+=L(fx,68,fx,96);
  s+=`<rect x="${fx-6}" y="96" width="12" height="28" fill="${SUR}" stroke="${INK}" stroke-width="1.5"/>`+L(fx,96,fx,124,{w:1.2});
  s+=T(fx+18,108,"Zabezpieczenie przedlicznikowe",{s:9.5,c:MUT})+T(fx+18,121,"gG "+D.Ipl+" A",{f:DISP,b:700,s:13});
  s+=L(fx,124,fx,134)+`<rect x="${fx-19}" y="134" width="38" height="30" rx="2" fill="${SUR}" stroke="${INK}" stroke-width="1.5"/>`+T(fx,153,"kWh",{a:"middle",s:11,b:700})+T(fx+30,153,"Licznik",{s:9.5,c:MUT});
  s+=L(fx,164,fx,226)+ticks(fx,184,pz);
- s+=T(fx+18,178,"WLZ",{f:DISP,b:700,s:12.5})+T(fx+18,192,cableName(D.wlz.S,S.wlzM,f3?3:1),{s:10.5})+T(fx+18,205,"L = "+fmt(S.wlzL,0)+" m · ΔU = "+fmt(D.wlz.dUp,2)+"%",{s:9.5,c:MUT});
+ s+=T(fx+18,178,"WLZ",{f:DISP,b:700,s:12.5})+T(fx+18,192,wlzName(D),{s:10.5})+T(fx+18,205,"L = "+fmt(S.wlzL,0)+" m · ΔU = "+fmt(D.wlz.dUp,2)+"%",{s:9.5,c:MUT});
  s+=sw(fx,226,"fr")+L(fx,256,fx,BUS)+T(fx+18,240,"FR",{f:DISP,b:700,s:13})+T(fx+18,254,(f3?"3P ":"2P ")+D.FR+" A",{s:10.5})+T(fx+18,267,"rozłącznik główny",{s:9.5,c:MUT});
  // szyna
  s+=`<rect x="40" y="${BUS-3}" width="${w-40-PAD}" height="6" fill="${INK}"/>`;
@@ -11675,19 +11677,20 @@ function bomData(D){
  const f3=S.supply==="3f";
  add("Obudowa","Rozdzielnica modułowa",`${D.nRows} rzędy × ${D.W} mod. (${D.total} mod.), IP40`,"",1);
  add("Aparaty","Rozłącznik izolacyjny FR",`${f3?"3P":"2P"} ${D.FR} A`,D.frMod,1);
- add("Aparaty","Ogranicznik przepięć SPD",`typ 1+2, ${f3?"3P+N":"1P+N"}, układ TN-S`,D.spdMod,1);
+ add("Aparaty","Ogranicznik przepięć SPD",`typ 1+2, ${f3?"3P+N":"1P+N"}, układ TN-S${S.net==="tnc"?" (za podziałem PEN)":""}`,D.spdMod,1);
  add("Aparaty","Lampki kontrolne obecności napięcia",f3?"L1 L2 L3":"L1",1,1);
  D.groups.filter(g=>g.kind==="rcd").forEach(g=>add("Aparaty","Wyłącznik różnicowoprądowy RCD",`${g.poles}P ${g.In} A 30 mA typ ${g.type}`,g.mod,1));
  D.rows.forEach(x=>{if(x.g&&x.g.kind==="rcbo")add("Aparaty","Wyłącznik różnicowo-nadprądowy RCBO",`1P+N ${x.r.ch}${x.r.In} 30 mA typ A, 6 kA`,2,1);
   else add("Aparaty","Wyłącznik nadprądowy MCB",`${x.r.ph===3?"3P":"1P"} ${x.r.ch}${x.r.In} 6 kA`,x.r.ph===3?3:1,1);});
  const used=D.lay.filter(r=>r.length).length;
  add("Osprzęt","Szyna łączeniowa grzebieniowa",`${f3?"3-fazowa":"1-fazowa"}, ${D.W} mod.`,"",used);
- add("Osprzęt","Listwa zaciskowa N",`min. ${D.rows.length+3} zacisków`,"",1);
+ add("Osprzęt","Listwa zaciskowa N0 (przed RCD)",`min. ${D.groups.length+3} zacisków`,"",1);
+ D.groups.filter(g=>g.kind==="rcd").forEach(g=>add("Osprzęt","Listwa zaciskowa N za RCD",`min. ${g.items.length+1} zacisków`,"",1));
  add("Osprzęt","Listwa zaciskowa PE",`min. ${D.rows.length+4} zacisków`,"",1);
  add("Osprzęt","Zaślepki modułowe",`do wolnych pól`,"",D.free);
  add("Zasilanie","Wkładka bezpiecznikowa gG (przed licznikiem)",`${D.Ipl} A`,"",f3?3:1);
  const cab={};D.rows.forEach(x=>{const nm=cableName(x.r.S,x.r.m,x.r.ph);cab[nm]=(cab[nm]||0)+x.c.L;});
- cab[cableName(D.wlz.S,S.wlzM,f3?3:1)+" (WLZ)"]=(cab[cableName(D.wlz.S,S.wlzM,f3?3:1)+" (WLZ)"]||0)+S.wlzL;
+ cab[wlzName(D)+" (WLZ)"]=(cab[wlzName(D)+" (WLZ)"]||0)+S.wlzL;
  Object.keys(cab).sort().forEach(k=>add("Przewody",k,"450/750 V lub 0,6/1 kV, z zapasem 10%","",Math.ceil(cab[k]*1.1/5)*5));
  return L;
 }
@@ -11703,9 +11706,348 @@ function renderBom(D){
   try{navigator.clipboard.writeText(tsv).then(()=>{st.textContent="skopiowano";st.className="chip ok";},fallback);}catch(e){fallback();}};
 }
 
+/* ---------- zakładka: schemat połączeń ---------- */
+const WIRE={L1:"#8B4A1E",L2:"#1A1A1A",L3:"#8A8A8A",N:"#1F7ACC",G:"#2E8B3A",Y:"#F4D21F",BG:"#FBFAF6",INK:"#1C2126",MUT:"#55606B",RED:"#B3261E"};
+const WNAME={L1:"L1 brązowy",L2:"L2 czarny",L3:"L3 szary",N:"N niebieski",PE:"PE żółto-zielony",PEN:"PEN żółto-zielony, niebieskie końce"};
+const busS=I=>I<=25?6:I<=40?10:I<=63?16:I<=80?25:I<=100?35:50;
+const peS=s=>s<=16?s:s<=35?16:s/2;
+const phOf=x=>x.phase==="L1L2L3"?["L1","L2","L3"]:[x.phase];
+let polFit=window.innerWidth>860;
+
+/* lista połączeń: jedno źródło danych tabeli i testów */
+function wiring(D){
+ const f3=S.supply==="3f",tnc=S.net==="tnc",PH=f3?["L1","L2","L3"]:["L1"];
+ const sm=busS(D.FR),sw=D.wlz.S,W=[];
+ const add=(sec,k,from,to,s,uw)=>W.push({sec,k,from,to,s,uw:uw||""});
+ const a="Wejście zasilania";
+ PH.forEach(p=>add(a,p,"WLZ, żyła "+p,"FR, zacisk wejściowy "+p,sw));
+ if(tnc){
+  add(a,"PEN","WLZ, żyła PEN","szyna PE, zacisk główny",sw,"PEN nigdy nie idzie przez RCD ani FR");
+  add(a,"N","szyna PE, mostek","szyna N0",sw,"jedyne połączenie N z PE w całej instalacji");
+ }else{
+  add(a,"N","WLZ, żyła N","szyna N0",sw);
+  add(a,"PE","WLZ, żyła PE","szyna PE, zacisk główny",peS(sw));
+ }
+ add(a,"PE","szyna PE","GSU (główna szyna uziemiająca)",peS(sw),"najkrótszą drogą");
+ const b="Odpływy z rozłącznika";
+ PH.forEach(p=>add(b,p,"FR, zacisk wyjściowy "+p,"szyna zasilająca "+p,sm));
+ if(!f3)add(b,"N","szyna N0","FR, zacisk wejściowy N",sm,"FR 2P rozłącza także N");
+ if(!f3)add(b,"N","FR, zacisk wyjściowy N","szyna zasilająca N",sm);
+ const nSrc=f3?"szyna N0":"szyna zasilająca N";
+ PH.forEach(p=>add(b,p,"szyna zasilająca "+p,"SPD, zacisk "+p,16,"przed RCD, łącznie do 0,5 m"));
+ add(b,"N",nSrc,"SPD, zacisk N",16,"przed RCD");
+ add(b,"PE","SPD, zacisk PE","szyna PE",16,"typ 1: min. 16 mm², najkrótszą drogą");
+ PH.forEach(p=>add(b,p,"szyna zasilająca "+p,"lampka H, zacisk "+p,1.5,"krótko, odporne na zwarcie, zabezpieczenie wg producenta"));
+ add(b,"N",nSrc,"lampka H, zacisk N",1.5);
+ D.groups.forEach(g=>{
+  if(g.kind==="rcd"){
+   const c="RCD "+g.no+" · "+g.In+" A 30 mA typ "+g.type,s=busS(g.In);
+   PH.forEach(p=>add(c,p,"szyna zasilająca "+p,"RCD "+g.no+", wejście "+p,s));
+   add(c,"N",nSrc,"RCD "+g.no+", wejście N",s,"N przed RCD tylko z tego punktu");
+   add(c,"N","RCD "+g.no+", wyjście N","szyna N"+g.no,s,"osobna szyna tej grupy");
+   g.items.forEach(x=>phOf(x).forEach(p=>add(c,p,"RCD "+g.no+", wyjście "+p,"obwód "+x.no+" "+x.r.ch+x.r.In+", wejście "+p,x.r.S)));
+  }
+  g.items.forEach(x=>{const c="Obwód "+x.no+" · "+x.c.name+" · "+cableName(x.r.S,x.r.m,x.r.ph),rb=g.kind==="rcbo";
+   if(rb){add(c,x.phase,"szyna zasilająca "+x.phase,"RCBO "+x.no+", wejście "+x.phase,x.r.S);add(c,"N",nSrc,"RCBO "+x.no+", wejście N",x.r.S);}
+   phOf(x).forEach(p=>add(c,p,(rb?"RCBO ":"obwód ")+x.no+(rb?"":" "+x.r.ch+x.r.In)+", wyjście "+p,"przewód obwodu, żyła "+p,x.r.S));
+   add(c,"N",rb?"RCBO "+x.no+", wyjście N":"szyna N"+g.no,"przewód obwodu, żyła N",x.r.S,x.r.ph===3?"podłącz, gdy odbiornik ma zacisk N":"");
+   add(c,"PE","szyna PE","przewód obwodu, żyła PE",x.r.S,"PE omija RCD");});
+ });
+ return W;
+}
+
+/* kontrola zasad */
+function polChecks(D){
+ const tnc=S.net==="tnc",C=[];
+ const add=(ok,t)=>C.push({ok,t});
+ if(tnc)add(D.wlz.S>=10,"Przekrój PEN "+fS(D.wlz.S)+" mm² Cu (wymagane min. 10 mm²)");
+ add(true,tnc?"PEN rozdzielony przed RCD: najpierw szyna PE, potem mostek do N0. Za punktem podziału układ TN-S":"Układ TN-S: N i PE prowadzone osobno od wejścia");
+ add(true,"Każdy RCD ma własną szynę N, a przewód PE omija wszystkie RCD");
+ D.groups.filter(g=>g.kind==="rcd").forEach(g=>{const pl=[0,0,0];g.items.forEach(x=>{const I=x.r.IB*x.c.kz;if(x.r.ph===3){pl[0]+=I;pl[1]+=I;pl[2]+=I;}else pl[+x.phase[1]-1]+=I;});
+  const m=Math.max(...pl);add(m<=g.In,"RCD "+g.no+": obciążenie najbardziej obciążonej fazy "+fmt(m)+" A przy I<sub>n</sub> "+g.In+" A");});
+ const bad=D.rows.filter(x=>!x.r.ok);
+ add(!bad.length,bad.length?"Obwody wymagające korekty: "+bad.map(x=>"nr "+x.no).join(", ")+". Sprawdź zakładkę Przewody":"Wszystkie obwody spełniają warunki z zakładki Przewody");
+ if(D.wlz.noFit)add(false,"WLZ nie spełnia warunków. Sprawdź zakładkę Bilans");
+ return C;
+}
+
+function svgPol(D){
+ const f3=S.supply==="3f",tnc=S.net==="tnc",PH=f3?["L1","L2","L3"]:["L1"];
+ const RY={L1:72,L2:88,L3:104},RN=122,TOP=150,BOT=226,GRY={L1:250,L2:264,L3:278},MT=300,MB=356,NB=400,PB=444,TE=490,LB=512;
+ const CW=92,LN=14,PX={L1:38,L2:60,L3:82},C0=76,MG=26,X0=46;
+ let gx=X0;const G=[];
+ D.groups.forEach(g=>{const its=g.kind==="rcd"?D.blocks.find(b=>b.g===g).items.filter(d=>d.k==="mcb").map(d=>d.x):g.items;
+  const w=g.kind==="rcd"?C0+its.length*CW+6:CW+8;G.push({g,its,x:gx,w});gx+=w+MG;});
+ const xS=gx+4,sw=f3?118:74,xH=xS+sw+18,hw=f3?118:74,xN=xH+hw+26,xP=xN+150,xF=xP+34,pF=f3?{L1:xF+18,L2:xF+46,L3:xF+74}:{N:xF+18,L1:xF+50},fw=f3?92:68,W=xF+fw+62,H=772,yW=716;
+ const LBG=[],BAR=[],VER=[],BOX=[],DOT=[],TXT=[];
+ const T=(x,y,t,o)=>{o=o||{};TXT.push(`<text x="${x}" y="${y}" font-family="Arial,Helvetica,sans-serif" font-size="${o.s||10.5}" font-weight="${o.b?700:400}" fill="${o.c||WIRE.INK}" text-anchor="${o.a||"start"}"${o.r?` transform="rotate(90 ${x} ${y})"`:""}>${esc(t)}</text>`);};
+ const line=(a,b,c,d,col,w,ex)=>`<line x1="${a}" y1="${b}" x2="${c}" y2="${d}" stroke="${col}" stroke-width="${w}"${ex||""}/>`;
+ const hb=(a,c,y,col,w)=>BAR.push(line(a,y,c,y,col,w||3));
+ const dot=(x,y)=>DOT.push(`<circle cx="${x}" cy="${y}" r="3.6" fill="${WIRE.INK}"/>`);
+ /* przewód pionowy z przerwą w tle: bez kropki znaczy brak połączenia */
+ const v=(x,y1,y2,k,w)=>{w=w||3;const a=Math.min(y1,y2),b=Math.max(y1,y2);if(b-a>16)VER.push(line(x,a+7,x,b-7,WIRE.BG,w+4));
+  if(k==="PE"){VER.push(line(x,a,x,b,WIRE.G,w)+line(x,a,x,b,WIRE.Y,w,' stroke-dasharray="7 7"'));}else VER.push(line(x,a,x,b,WIRE[k],w));};
+ const box=(x,y,w,h,col)=>BOX.push(`<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="3" fill="#FFFFFF" stroke="${col||"#444441"}" stroke-width="1.2"/>`);
+
+ /* szyny zasilające przed RCD */
+ const xFN=f3?xN:pF.N, x0=X0-12;
+ PH.forEach(p=>{hb(x0,pF[p],RY[p],WIRE[p]);T(10,RY[p]+4,p,{b:1,c:p==="L3"?"#5F5E5A":WIRE[p]});});
+ hb(x0,xFN,RN,WIRE.N);T(10,RN+4,f3?"N0":"N",{b:1,c:"#185FA5"});
+
+ /* grupy */
+ G.forEach(o=>{const g=o.g,x=o.x;
+  BOX.unshift(`<rect x="${x}" y="134" width="${o.w}" height="${TE-120}" rx="6" fill="${g.color}" fill-opacity=".07" stroke="${g.color}" stroke-opacity=".55"/>`);
+  if(g.kind==="rcd"){
+   const nx=x+LN,used={};o.its.forEach(i=>phOf(i).forEach(p=>{used[p]=1;}));
+   v(nx,RN,TOP,"N");dot(nx,RN);
+   PH.forEach(p=>{const px=x+PX[p];v(px,RY[p],TOP,p);dot(px,RY[p]);});
+   box(x+4,TOP,102,BOT-TOP,g.color);
+   T(nx,TOP+13,"N",{s:9.5,a:"middle",c:WIRE.MUT});PH.forEach(p=>{T(x+PX[p],TOP+13,p,{s:9.5,a:"middle",c:WIRE.MUT});T(x+PX[p],BOT-5,p,{s:9.5,a:"middle",c:WIRE.MUT});});T(nx,BOT-5,"N",{s:9.5,a:"middle",c:WIRE.MUT});
+   T(x+55,TOP+32,"RCD "+g.no,{b:1,a:"middle",s:12});T(x+55,TOP+47,g.In+" A 30 mA typ "+g.type,{a:"middle",s:9.5,c:WIRE.MUT});T(x+55,TOP+59,g.poles+"P",{a:"middle",s:9.5,c:WIRE.MUT});
+   /* N z RCD na własną szynę */
+   v(nx,BOT,NB,"N");dot(nx,NB);
+   BAR.push(`<rect x="${x+8}" y="${NB-4}" width="${o.w-16}" height="8" fill="${WIRE.N}"/>`);
+   T(x+o.w-10,NB-8,"N"+g.no,{a:"end",b:1,c:"#185FA5",s:10});
+   PH.forEach(p=>{const px=x+PX[p];if(!used[p]){BOX.push(`<circle cx="${px}" cy="${BOT+6}" r="3.5" fill="${WIRE.BG}" stroke="${WIRE[p]}" stroke-width="1.4"/>`);return;}
+    const ts=[];o.its.forEach((i,j)=>{const cx=x+C0+j*CW+CW/2;const pos=i.r.ph===3?{L1:cx-30,L2:cx-18,L3:cx-6}[p]:cx-18;if(phOf(i).includes(p))ts.push(pos);});
+    const a=Math.min(px,...ts),b=Math.max(px,...ts);if(b>a)hb(a,b,GRY[p],WIRE[p]);v(px,BOT,GRY[p],p);dot(px,GRY[p]);ts.forEach(t=>{v(t,GRY[p],MT,p);if(t!==px)dot(t,GRY[p]);});});
+  }
+  o.its.forEach((i,j)=>{const cx=g.kind==="rcd"?x+C0+j*CW+CW/2:x+o.w/2,r=i.r,rb=g.kind==="rcbo";
+   const lx=r.ph===3?{L1:cx-30,L2:cx-18,L3:cx-6}:{[i.phase]:cx-18},nxx=r.ph===3?cx+10:cx,pex=r.ph===3?cx+26:cx+18;
+   if(rb){v(lx[i.phase],RY[i.phase],MT,i.phase);dot(lx[i.phase],RY[i.phase]);v(nxx,RN,MT,"N");dot(nxx,RN);}
+   Object.keys(lx).forEach(p=>v(lx[p],MB,TE,p));
+   if(rb)v(nxx,MB,TE,"N");else{v(nxx,NB,TE,"N");dot(nxx,NB);}
+   v(pex,PB,TE,"PE");dot(pex,PB);
+   const bx=r.ph===3?cx-42:cx-40,bw=r.ph===3?48:rb?62:44;box(bx,MT,bw,MB-MT,g.color);
+   T(bx+bw/2,MT+18,r.ch+r.In,{b:1,a:"middle",s:12});T(bx+bw/2,MT+32,(rb?"RCBO ":"")+"nr "+i.no,{a:"middle",s:9.5,c:WIRE.MUT});T(bx+bw/2,MT+46,r.ph===3?"3P":i.phase,{a:"middle",s:9.5,b:1,c:r.ph===3?WIRE.MUT:(i.phase==="L3"?"#5F5E5A":WIRE[i.phase])});
+   BOX.push(`<rect x="${cx-40}" y="${TE}" width="80" height="12" rx="2" fill="#E4E1D8" stroke="#888780"/>`);
+   const nm=i.c.name.length>27?i.c.name.slice(0,26)+"…":i.c.name;
+   T(cx+4,LB+4,i.no+". "+nm,{b:1,s:10.5,r:1});T(cx-11,LB+4,cableName(r.S,r.m,r.ph)+" · "+i.phase.replace("L1L2L3","L1 L2 L3")+" · "+fmt(i.c.P,1)+" kW",{s:9.5,c:WIRE.MUT,r:1});});
+ });
+
+ /* ogranicznik i lampki */
+ const pinS=x0=>f3?{L1:x0+16,L2:x0+40,L3:x0+64,N:x0+92}:{L1:x0+18,N:x0+50};
+ [[xS,sw,"SPD",f3?"T1+T2 3P+N":"T1+T2 1P+N"],[xH,hw,"H",f3?"L1 L2 L3":"L1"]].forEach(a=>{const P=pinS(a[0]);
+  PH.forEach(p=>{v(P[p],RY[p],TOP,p);dot(P[p],RY[p]);});v(P.N,RN,TOP,"N");dot(P.N,RN);box(a[0],TOP,a[1],BOT-TOP);
+  Object.keys(P).forEach(p=>T(P[p],TOP+13,p,{s:9.5,a:"middle",c:WIRE.MUT}));T(a[0]+a[1]/2,TOP+34,a[2],{b:1,a:"middle",s:12});T(a[0]+a[1]/2,TOP+49,a[3],{a:"middle",s:9.5,c:WIRE.MUT});});
+ v(xS+sw/2,BOT,PB,"PE");dot(xS+sw/2,PB);T(xS+sw/2,BOT-6,"PE",{s:9.5,a:"middle",c:"#27500A"});
+
+ /* szyny N0 i PE */
+ BAR.push(`<rect x="${xN-14}" y="${NB-5}" width="132" height="10" fill="${WIRE.N}"/>`);
+ BAR.push(`<rect x="${X0-22}" y="${PB-6}" width="${xP+5-(X0-22)}" height="12" fill="${WIRE.G}"/>`+line(X0-22,PB,xP+5,PB,WIRE.Y,4,' stroke-dasharray="10 10"'));
+ T(X0+6,PB+22,"Główna szyna PE",{b:1,c:"#27500A",s:10.5});
+ T(xN+118,NB-9,"Szyna N0 (przed RCD)",{a:"end",b:1,c:"#185FA5",s:10});
+ if(f3){v(xN,RN,NB,"N",4);dot(xN,RN);dot(xN,NB);}
+ else{BAR.push(line(xN,NB,xN,240,WIRE.N,3)+line(xN,240,pF.N,240,WIRE.N,3));v(pF.N,240,BOT,"N");v(pF.N,RN,TOP,"N");dot(xN,NB);}
+
+ /* rozłącznik i WLZ od dołu po prawej */
+ PH.forEach(p=>{v(pF[p],RY[p],TOP,p);dot(pF[p],RY[p]);v(pF[p],BOT,yW,p);});
+ box(xF,TOP,fw,BOT-TOP);Object.keys(pF).forEach(p=>{T(pF[p],TOP+13,p,{s:9.5,a:"middle",c:WIRE.MUT});T(pF[p],BOT-5,p,{s:9.5,a:"middle",c:WIRE.MUT});});
+ T(xF+fw/2,TOP+34,"FR",{b:1,a:"middle",s:12});T(xF+fw/2,TOP+49,(f3?"3P ":"2P ")+D.FR+" A",{a:"middle",s:9.5,c:WIRE.MUT});
+ if(tnc){
+  VER.push(line(xP,PB,xP,yW,WIRE.BG,0)+line(xP,PB,xP,yW,WIRE.G,6)+line(xP,PB,xP,yW,WIRE.Y,6,' stroke-dasharray="9 9"'));
+  VER.push(`<rect x="${xP-5}" y="${PB+7}" width="10" height="11" fill="${WIRE.N}"/><rect x="${xP-5}" y="${yW-11}" width="10" height="11" fill="${WIRE.N}"/>`);
+  dot(xP,PB);T(xP-10,yW-20,"PEN",{a:"end",b:1,c:WIRE.RED,s:13});
+  VER.push(line(xN+74,PB-6,xN+74,NB+5,WIRE.N,5));dot(xN+74,PB-6);dot(xN+74,NB+5);T(xN+82,NB+27,"mostek",{c:"#185FA5",s:10});
+ }else{
+  v(xN+108,NB,yW,"N",3);dot(xN+108,NB);v(xP,PB,yW,"PE",4);dot(xP,PB);T(xN+102,yW-14,"N",{a:"end",b:1,c:"#185FA5",s:12});T(xP-8,yW-14,"PE",{a:"end",b:1,c:"#27500A",s:12});
+ }
+ const bx=xN-22,bw=W-bx-(W-xP)+22;
+ BOX.push(`<rect x="${bx}" y="${NB-30}" width="${bw}" height="150" rx="5" fill="none" stroke="${WIRE.RED}" stroke-width="1.5" stroke-dasharray="6 4"/>`);
+ T(bx+8,NB+64,tnc?"Podział PEN":"Wejście N i PE",{b:1,c:WIRE.RED,s:12});
+ if(tnc){T(bx+8,NB+82,"1. PEN na szynę PE",{c:WIRE.RED,s:10});T(bx+8,NB+96,"2. Mostek PE do N0",{c:WIRE.RED,s:10});T(bx+8,NB+110,"3. Dalej N i PE osobno",{c:WIRE.RED,s:10});}
+ else{T(bx+8,NB+82,"N na szynę N0",{c:WIRE.RED,s:10});T(bx+8,NB+96,"PE na szynę PE",{c:WIRE.RED,s:10});T(bx+8,NB+110,"Bez mostka N z PE",{c:WIRE.RED,s:10});}
+ BOX.push(`<rect x="${xN-6}" y="${yW}" width="${W-xN-8}" height="46" rx="4" fill="#E4E1D8" stroke="#888780"/>`);
+ T((xN-6+W-8)/2,yW+19,"WLZ "+wlzName(D),{b:1,a:"middle",s:12});
+ T((xN-6+W-8)/2,yW+35,tnc?(f3?"L1 L2 L3 PEN · TN-C":"L1 PEN · TN-C"):(f3?"L1 L2 L3 N PE · TN-S":"L1 N PE · TN-S"),{a:"middle",s:9.5,c:WIRE.MUT});
+
+ /* GSU */
+ v(X0-14,PB,yW,"PE",3);dot(X0-14,PB+6);
+ BOX.push(`<rect x="${X0-30}" y="${yW}" width="178" height="46" rx="4" fill="#E4E1D8" stroke="#888780"/>`);
+ T(X0+59,yW+19,"GSU i uziom",{b:1,a:"middle",s:12});T(X0+59,yW+35,"połączenia wyrównawcze",{a:"middle",s:9.5,c:WIRE.MUT});
+
+ /* legenda */
+ const lg=[["L1","brązowy"],["L2","czarny"],["L3","szary"],["N","niebieski"],["PE","żółto-zielony"],["PEN","żółto-zielony + niebieskie końce"]];let lx=12;const LG=[];
+ lg.filter(a=>f3||(a[0]!=="L2"&&a[0]!=="L3")).filter(a=>tnc||a[0]!=="PEN").forEach(a=>{const k=a[0];
+  if(k==="PE"||k==="PEN"){LG.push(line(lx,20,lx+32,20,WIRE.G,4)+line(lx,20,lx+32,20,WIRE.Y,4,' stroke-dasharray="7 7"'));if(k==="PEN")LG.push(`<rect x="${lx}" y="16" width="6" height="8" fill="${WIRE.N}"/><rect x="${lx+26}" y="16" width="6" height="8" fill="${WIRE.N}"/>`);}
+  else LG.push(line(lx,20,lx+32,20,WIRE[k],4));
+  T(lx+38,24,k+" "+a[1],{s:11});lx+=38+Math.round((k.length+a[1].length+1)*6.1)+18;});
+ LG.push(`<circle cx="${lx+4}" cy="20" r="3.6" fill="${WIRE.INK}"/>`);T(lx+13,24,"kropka = połączenie, krzyżowanie bez kropki = brak połączenia",{s:11});
+ T(12,46,S.name,{b:1,s:12});
+ return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img" aria-label="Schemat połączeń przewodów w rozdzielnicy"><rect width="${W}" height="${H}" fill="${WIRE.BG}"/>`+BOX.filter(s=>s.includes('fill-opacity')).join("")+BAR.join("")+VER.join("")+BOX.filter(s=>!s.includes('fill-opacity')).join("")+DOT.join("")+LG.join("")+TXT.join("")+"</svg>";
+}
+/* widok rozdzielnicy: aparaty i przewody tak, jak stoją na szynach DIN (rzędy z zakładki Rozdzielnica) */
+function svgBoard(D){
+ const f3=S.supply==="3f",tnc=S.net==="tnc",PH=f3?["L1","L2","L3"]:["L1"];
+ const U=46,DH=128,GR=38,ex=12,x0=ex+80,RLX=f3?{L3:ex+24,L2:ex+40,L1:ex+56}:{L1:ex+32,N:ex+56};
+ const rows=D.lay.map(r=>{const gap={};r.forEach((d,i)=>{if(d.k==="rcd"&&r[i+1]&&r[i+1].g===d.g)gap[d.col+d.w-1]=1;});
+  const X=[];let e=0;for(let k=0;k<D.W;k++){X[k]=x0+k*U+e;if(gap[k])e+=GR;}
+  return {it:r.map(d=>Object.assign({},d,{px:X[d.col],mx:m=>X[d.col]+m*U+U/2})),X,e};});
+ const xR=x0+D.W*U+Math.max(0,...rows.map(r=>r.e))+22,xRN=xR+12,xRP=xR+32,xPEN=xR+56,RRX=f3?{L3:xR+78,L2:xR+94,L1:xR+110}:{L1:xR+110},W=xR+136;
+ const WY=f3?{L1:84,L2:96,L3:108}:{N:84,L1:96};
+ const by=ry=>f3?{L3:ry,L2:ry+11,L1:ry+22,N:ry+33}:{L1:ry+11,N:ry+33};
+ const cy=ry=>({L3:ry+52,L2:ry+62,L1:ry+72});
+ let ry=130;rows.forEach(r=>{r.ry=ry;r.dy=ry+88;r.ns=r.dy+170;r.ps=r.dy+196;r.te=r.dy+226;ry+=r.it.length?462:190;});
+ const bz=ry-10,N0Y=bz+24,PBY=bz+84,yW=bz+204,H=yW+60;
+ const full=rows.filter(r=>r.it.length),BK=[],STR=[],BAR=[],DEV=[],VER=[],DOT=[],TXT=[];
+ const T=(x,y,t,o)=>{o=o||{};TXT.push(`<text x="${x}" y="${y}" font-family="Arial,Helvetica,sans-serif" font-size="${o.s||10.5}" font-weight="${o.b?700:400}" fill="${o.c||WIRE.INK}" text-anchor="${o.a||"start"}"${o.r?` transform="rotate(90 ${x} ${y})"`:""}>${esc(t)}</text>`);};
+ const line=(a,b,c,d,col,w,e2)=>`<line x1="${a}" y1="${b}" x2="${c}" y2="${d}" stroke="${col}" stroke-width="${w}"${e2||""}/>`;
+ const dot=(x,y)=>DOT.push(`<circle cx="${x}" cy="${y}" r="3.2" fill="${WIRE.INK}"/>`);
+ const hb=(a,c,y,k,w)=>{w=w||3;BAR.push(line(a,y,c,y,WIRE[k],w,' stroke-linecap="round"'));};
+ const v=(x,y1,y2,k,w)=>{w=w||3;const a=Math.min(y1,y2),b=Math.max(y1,y2);if(b-a>14)VER.push(line(x,a+6,x,b-6,"#DAD7CF",w+4));
+  if(k==="PE")VER.push(line(x,a,x,b,WIRE.G,w)+line(x,a,x,b,WIRE.Y,w,' stroke-dasharray="7 7"'));else VER.push(line(x,a,x,b,WIRE[k],w,' stroke-linecap="round"'));};
+ const screw=(x,y,r)=>{r=r||6;return `<circle cx="${x}" cy="${y}" r="${r}" fill="#C9C6BE" stroke="#77756E"/><line x1="${x-r+2}" y1="${y+r/2}" x2="${x+r-2}" y2="${y-r/2}" stroke="#55534E" stroke-width="1.4"/>`;};
+ const body=(x,dy,w,col)=>DEV.push(`<rect x="${x+1}" y="${dy}" width="${w-2}" height="${DH}" rx="3" fill="#F8F7F3" stroke="#6E6C66"/><rect x="${x+4}" y="${dy+22}" width="${w-8}" height="${DH-44}" rx="2" fill="#FFFFFF" stroke="#CFCBC2"/>`+(col?`<rect x="${x+1}" y="${dy}" width="${w-2}" height="5" rx="2" fill="${col}"/>`:""));
+ const pins=(xs,dy,top,bot)=>xs.forEach(x=>{if(top)DEV.push(screw(x,dy+13));if(bot)DEV.push(screw(x,dy+DH-13));});
+ const lever=(x,y,col)=>DEV.push(`<rect x="${x-7}" y="${y}" width="14" height="28" rx="3" fill="#D8D5CC" stroke="#6E6C66"/><rect x="${x-5}" y="${y+2}" width="10" height="13" rx="2" fill="${col||"#2A2D31"}"/>`);
+ const phc=p=>p==="L3"?"#5F5E5A":WIRE[p];
+ const TP=13,BP=DH-13;
+
+ /* obudowa, szyny DIN, wolne pola */
+ BK.push(`<rect x="${ex-6}" y="60" width="${W-ex+6}" height="${bz+172-60}" rx="12" fill="#3A3F45"/><rect x="${ex}" y="66" width="${W-ex-6}" height="${bz+160-66}" rx="7" fill="#DAD7CF"/>`);
+ rows.forEach((r,i)=>{const y=r.dy+DH/2;BK.push(`<rect x="${x0-12}" y="${y-11}" width="${xR-x0+2}" height="22" fill="#A9ACAE" stroke="#85888A"/>`);
+  for(let x=x0;x<xR-24;x+=40)BK.push(`<rect x="${x}" y="${y-3}" width="20" height="6" rx="3" fill="#7E8184"/>`);
+  T(ex+66,y+4,"R"+(i+1),{b:1,a:"end",s:11,c:WIRE.MUT});
+  const occ=new Array(D.W).fill(false);r.it.forEach(d=>{for(let k=0;k<d.w;k++)occ[d.col+k]=true;});
+  occ.forEach((o,k)=>{if(!o)BK.push(`<rect x="${r.X[k]+2}" y="${r.dy+22}" width="${U-4}" height="${DH-44}" rx="2" fill="#ECE9E2" stroke="#A9A69C" stroke-dasharray="3 3"/>`);});});
+
+ /* zasilanie: WLZ do FR, pętla z FR na szyny zasilające */
+ const r0=rows[0],fr=r0.it.find(d=>d.k==="fr"),b1=by(r0.ry),lastBus=by(full[full.length-1].ry),FP=f3?["L1","L2","L3"]:["N","L1"];
+ FP.forEach((p,i)=>{const px=fr.mx(i),ly=r0.dy+DH+6+i*10,rx=RLX[p],top=p==="N"?xRN:RRX[p];
+  v(px,WY[p],r0.dy+TP,p,4);hb(px,top,WY[p],p,4);if(p!=="N")v(top,WY[p],yW,p,4);
+  v(px,r0.dy+BP,ly,p);hb(rx,px,ly,p);v(rx,b1[p],Math.max(ly,lastBus[p]),p);if(ly<lastBus[p])dot(rx,ly);});
+ if(f3)v(xRN,b1.N,N0Y,"N",4);else v(xRN,WY.N,N0Y,"N",4);
+
+ /* rzędy */
+ const seenN={};
+ rows.forEach((r,ri)=>{if(!r.it.length)return;const dy=r.dy,B=by(r.ry),C=cy(r.ry),tap={L1:[],L2:[],L3:[],N:[]};
+  const bus=(p,x)=>{tap[p].push(x);v(x,B[p],dy+TP,p);dot(x,B[p]);};
+  let peMin=xRP;const peT=x=>{peMin=Math.min(peMin,x);dot(x,r.ps);};
+  const P=f3?["L1","L2","L3","N"]:["L1","N"];
+  r.it.forEach(d=>{const w=d.w*U,cx=d.px+w/2;
+   if(d.k==="fr"){body(d.px,dy,w);pins(FP.map((p,i)=>d.mx(i)),dy,1,1);lever(cx,dy+42,"#B3261E");T(cx,dy+84,"FR",{b:1,a:"middle",s:13});T(cx,dy+97,(f3?"3P ":"2P ")+D.FR+" A",{a:"middle",s:9.5,c:WIRE.MUT});FP.forEach((p,i)=>T(d.mx(i),dy+29,p,{a:"middle",s:8.5,c:WIRE.MUT}));}
+   else if(d.k==="spd"){body(d.px,dy,w);P.forEach((p,i)=>{bus(p,d.mx(i));DEV.push(`<rect x="${d.px+i*U+6}" y="${dy+44}" width="${U-12}" height="42" rx="2" fill="#E9E6DE" stroke="#8C897F"/><rect x="${d.px+i*U+12}" y="${dy+50}" width="${U-24}" height="10" rx="1" fill="#2F9E44"/>`);T(d.mx(i),dy+33,p,{a:"middle",s:8.5,c:WIRE.MUT});});pins(P.map((p,i)=>d.mx(i)),dy,1,0);DEV.push(screw(cx,dy+BP));T(cx,dy+102,"SPD T1+T2",{b:1,a:"middle",s:10.5});
+    v(cx,dy+BP,r.ps,"PE",4);peT(cx);}
+   else if(d.k==="lamp"){body(d.px,dy,w);const xs=P.map((p,i)=>cx+(i-(P.length-1)/2)*(f3?10:18));P.forEach((p,i)=>{bus(p,xs[i]);DEV.push(screw(xs[i],dy+TP,3.6));});PH.forEach((p,i)=>DEV.push(`<circle cx="${cx}" cy="${dy+44+i*17}" r="6" fill="#3FBF5F" stroke="#27500A"/>`));T(cx,dy+102,"H",{b:1,a:"middle",s:12});}
+   else if(d.k==="rcd"){const g=d.g;body(d.px,dy,w,g.color);const ps=[d.mx(0)].concat(PH.map((p,i)=>d.mx(i+1)));pins(ps,dy,1,1);bus("N",d.mx(0));PH.forEach((p,i)=>bus(p,d.mx(i+1)));
+    lever(d.mx(.5),dy+38);DEV.push(`<circle cx="${d.mx(d.w-1)}" cy="${dy+50}" r="9" fill="#F4D21F" stroke="#7A6A10"/>`);T(d.mx(d.w-1),dy+54,"T",{b:1,a:"middle",s:10});
+    T(cx,dy+80,"RCD "+g.no,{b:1,a:"middle",s:13});T(cx,dy+93,g.In+" A 30 mA typ "+g.type,{a:"middle",s:f3?9.5:7.5,c:WIRE.MUT});
+    T(d.mx(0),dy+33,"N",{a:"middle",s:8.5,c:WIRE.MUT});PH.forEach((p,i)=>T(d.mx(i+1),dy+33,p,{a:"middle",s:8.5,c:WIRE.MUT}));}
+   else if(d.k==="mcb"){const x=d.x,ph=phOf(x),xs=ph.map((p,i)=>d.mx(i));body(d.px,dy,w,d.g.color);pins(xs,dy,1,1);lever(cx,dy+30);T(cx,dy+76,x.r.ch+x.r.In,{b:1,a:"middle",s:13});T(cx,dy+89,"nr "+x.no,{a:"middle",s:9.5,c:WIRE.MUT});T(cx,dy+101,x.r.ph===3?"3P":x.phase,{b:1,a:"middle",s:9.5,c:x.r.ph===3?WIRE.MUT:phc(x.phase)});}
+   else if(d.k==="rcbo"){const x=d.x,lx=d.mx(0),nx=d.mx(1);body(d.px,dy,w,d.g.color);pins([lx,nx],dy,1,1);bus(x.phase,lx);bus("N",nx);lever(cx,dy+30);T(cx,dy+76,x.r.ch+x.r.In,{b:1,a:"middle",s:13});T(cx,dy+89,"RCBO nr "+x.no,{a:"middle",s:9.5,c:WIRE.MUT});T(cx,dy+101,x.phase+" · 30 mA",{b:1,a:"middle",s:9,c:phc(x.phase)});
+    v(lx,dy+BP,r.te,x.phase);v(nx,dy+BP,r.te,"N");const pex=nx+14;v(pex,r.ps,r.te,"PE");peT(pex);
+    DEV.push(`<rect x="${lx-10}" y="${r.te}" width="${pex-lx+20}" height="12" rx="2" fill="#E4E1D8" stroke="#888780"/>`);
+    const nm=x.c.name.length>23?x.c.name.slice(0,22)+"…":x.c.name;T(cx+8,r.te+18,x.no+". "+nm,{b:1,s:10,r:1});T(cx-5,r.te+18,cableName(x.r.S,x.r.m,x.r.ph)+" · "+fmt(x.c.P,1)+" kW",{s:9,c:WIRE.MUT,r:1});}
+  });
+  /* grupy RCD: pętla na szynę grzebieniową, szyna N, odpływy */
+  [...new Set(r.it.filter(d=>d.k==="rcd"||d.k==="mcb").map(d=>d.g))].forEach(g=>{
+   const rc=r.it.find(d=>d.k==="rcd"&&d.g===g),ms=r.it.filter(d=>d.k==="mcb"&&d.g===g);
+   const teeth={L1:[],L2:[],L3:[]};ms.forEach(d=>phOf(d.x).forEach((p,i)=>teeth[p].push(d.mx(i))));
+   const allPh={};g.items.forEach(x=>phOf(x).forEach(p=>{allPh[p]=1;}));
+   const gapX=rc?rc.px+rc.w*U:0,RX={L3:gapX+9,L2:gapX+19,L1:gapX+29},LOOP={L3:0,L2:10,L1:20};
+   PH.forEach((p,i)=>{const tx=teeth[p];
+    if(tx.length){const a=rc?RX[p]:Math.min(...tx)-14;hb(a,Math.max(...tx),C[p],p,3.5);tx.forEach(x=>{v(x,C[p],dy+TP,p);dot(x,C[p]);});
+     if(rc){const pin=rc.mx(i+1),ly=dy+DH+6+LOOP[p];v(pin,dy+BP,ly,p);hb(pin,RX[p],ly,p);v(RX[p],C[p],ly,p);}
+     else T(Math.min(...tx)-16,C[p]+3,"z RCD "+g.no,{a:"end",s:9,c:phc(p)});}
+    else if(rc){if(allPh[p]){const pin=rc.mx(i+1);v(pin,dy+BP,dy+DH+12,p);T(pin+8,dy+DH+15,"cd. w niższym rzędzie",{s:9,c:phc(p)});}
+     else DEV.push(`<circle cx="${rc.mx(i+1)}" cy="${dy+BP}" r="6" fill="none" stroke="${WIRE[p]}" stroke-width="2"/>`);}});
+   const last=ms.length?ms[ms.length-1]:rc,x1=(rc?rc.mx(0):ms[0].px)-10,x2=last.px+last.w*U-4;
+   STR.push(`<rect x="${x1}" y="${r.ns-7}" width="${x2-x1}" height="14" rx="2" fill="#1F7ACC" stroke="#124F86"/>`);
+   T(x1+6,r.ns+4,"N"+g.no+(seenN[g.no]?" cd.":""),{b:1,c:"#FFFFFF",s:10});seenN[g.no]=1;
+   if(rc){v(rc.mx(0),dy+BP,r.ns,"N");dot(rc.mx(0),r.ns);}
+   ms.forEach(d=>{const x=d.x,ph=phOf(x),xs=ph.map((p,i)=>d.mx(i)),lx=xs[xs.length-1],nx=lx+10,pex=lx+20;
+    ph.forEach((p,i)=>v(xs[i],dy+BP,r.te,p));v(nx,r.ns,r.te,"N");dot(nx,r.ns);v(pex,r.ps,r.te,"PE");peT(pex);
+    DEV.push(`<rect x="${xs[0]-9}" y="${r.te}" width="${pex-xs[0]+18}" height="12" rx="2" fill="#E4E1D8" stroke="#888780"/>`);
+    const cx=(xs[0]+pex)/2,nm=x.c.name.length>23?x.c.name.slice(0,22)+"…":x.c.name;T(cx+8,r.te+18,x.no+". "+nm,{b:1,s:10,r:1});T(cx-5,r.te+18,cableName(x.r.S,x.r.m,x.r.ph)+" · "+fmt(x.c.P,1)+" kW",{s:9,c:WIRE.MUT,r:1});});
+  });
+  /* szyny zasilające rzędu */
+  PH.forEach(p=>{if(tap[p].length)hb(RLX[p],Math.max(...tap[p]),B[p],p,3.5);dot(RLX[p],B[p]);});
+  if(f3){hb(Math.min(...tap.N),xRN,B.N,"N",3.5);dot(xRN,B.N);}else if(tap.N.length){hb(RLX.N,Math.max(...tap.N),B.N,"N",3.5);dot(RLX.N,B.N);}
+  /* listwa PE rzędu */
+  STR.push(`<rect x="${peMin-10}" y="${r.ps-7}" width="${xRP-peMin+16}" height="14" rx="2" fill="${WIRE.G}" stroke="#1E5E28"/>`+line(peMin-10,r.ps,xRP+6,r.ps,WIRE.Y,5,' stroke-dasharray="10 10"'));
+  dot(xRP,r.ps);
+  if(f3)T(xRN-6,B.N-5,"N0",{a:"end",b:1,s:10,c:"#185FA5"});
+ });
+ v(xRP,full[0].ps,PBY,"PE",4);
+
+ /* podział PEN i szyny główne */
+ STR.push(`<rect x="${xRN-170}" y="${N0Y-7}" width="178" height="14" rx="2" fill="#1F7ACC" stroke="#124F86"/>`);
+ STR.push(`<rect x="${xRN-300}" y="${PBY-8}" width="${xPEN+8-(xRN-300)}" height="16" rx="2" fill="${WIRE.G}" stroke="#1E5E28"/>`+line(xRN-300,PBY,xPEN+8,PBY,WIRE.Y,5,' stroke-dasharray="11 11"'));
+ dot(xRN,N0Y);dot(xRP,PBY);
+ T(xRN-164,N0Y+4,f3?"N0 przed RCD":"N0 przed FR",{b:1,c:"#FFFFFF",s:10});T(xRN-282,PBY+24,"Główna szyna PE",{b:1,c:"#27500A",s:10.5});
+ if(tnc){VER.push(line(xPEN,PBY,xPEN,yW,WIRE.G,6)+line(xPEN,PBY,xPEN,yW,WIRE.Y,6,' stroke-dasharray="9 9"')+`<rect x="${xPEN-5}" y="${PBY+9}" width="10" height="11" fill="${WIRE.N}"/><rect x="${xPEN-5}" y="${yW-11}" width="10" height="11" fill="${WIRE.N}"/>`);
+  dot(xPEN,PBY);T(xPEN-10,PBY+98,"PEN",{a:"end",b:1,c:WIRE.RED,s:13});
+  VER.push(line(xRN-90,PBY-8,xRN-90,N0Y+7,WIRE.N,5));dot(xRN-90,PBY-8);dot(xRN-90,N0Y+7);T(xRN-82,N0Y+36,"mostek",{c:"#185FA5",s:10});
+ }else{v(xRN-30,N0Y,yW,"N",4);dot(xRN-30,N0Y);v(xPEN,PBY,yW,"PE",4);dot(xPEN,PBY);T(xRN-38,PBY+98,"N",{a:"end",b:1,c:"#185FA5",s:12});T(xPEN-8,PBY+98,"PE",{a:"end",b:1,c:"#27500A",s:12});}
+ const bx=xRN-182;
+ DEV.push(`<rect x="${bx}" y="${N0Y-24}" width="${xPEN+14-bx}" height="${PBY+64-(N0Y-24)}" rx="5" fill="none" stroke="${WIRE.RED}" stroke-width="1.6" stroke-dasharray="6 4"/>`);
+ T(bx+10,PBY+36,tnc?"Podział PEN":"Wejście N i PE",{b:1,c:WIRE.RED,s:12});
+ T(bx+10,PBY+51,tnc?"PEN na szynę PE, mostek do N0":"N na N0, PE na szynę PE",{c:WIRE.RED,s:10});
+ /* WLZ i GSU poza obudową */
+ const bw=W-(xRN-60)-8;
+ DEV.push(`<rect x="${xRN-60}" y="${yW}" width="${bw}" height="46" rx="4" fill="#E4E1D8" stroke="#888780"/>`);
+ T(xRN-60+bw/2,yW+19,"WLZ "+wlzName(D),{b:1,a:"middle",s:12});T(xRN-60+bw/2,yW+35,tnc?(f3?"L1 L2 L3 PEN · TN-C":"L1 PEN · TN-C"):(f3?"L1 L2 L3 N PE · TN-S":"L1 N PE · TN-S"),{a:"middle",s:9.5,c:WIRE.MUT});
+ const gx=xRN-292;v(gx,PBY,yW,"PE",4);dot(gx,PBY);
+ DEV.push(`<rect x="${gx-90}" y="${yW}" width="180" height="46" rx="4" fill="#E4E1D8" stroke="#888780"/>`);
+ T(gx,yW+19,"GSU i uziom",{b:1,a:"middle",s:12});T(gx,yW+35,"połączenia wyrównawcze",{a:"middle",s:9.5,c:WIRE.MUT});
+
+ /* legenda */
+ const lg=[["L1","brązowy"],["L2","czarny"],["L3","szary"],["N","niebieski"],["PE","żółto-zielony"],["PEN","z niebieskimi końcami"]];let lx=12;const LG=[];
+ lg.filter(a=>f3||(a[0]!=="L2"&&a[0]!=="L3")).filter(a=>tnc||a[0]!=="PEN").forEach(a=>{const k=a[0];
+  if(k==="PE"||k==="PEN"){LG.push(line(lx,20,lx+28,20,WIRE.G,4)+line(lx,20,lx+28,20,WIRE.Y,4,' stroke-dasharray="7 7"'));if(k==="PEN")LG.push(`<rect x="${lx}" y="16" width="6" height="8" fill="${WIRE.N}"/><rect x="${lx+22}" y="16" width="6" height="8" fill="${WIRE.N}"/>`);}
+  else LG.push(line(lx,20,lx+28,20,WIRE[k],4));
+  T(lx+33,24,k+" "+a[1],{s:11});lx+=33+Math.round((k.length+a[1].length+1)*5.9)+14;});
+ LG.push(`<circle cx="${lx+4}" cy="20" r="3.2" fill="${WIRE.INK}"/>`);T(lx+12,24,"kropka = połączenie",{s:11});
+ T(12,46,S.name,{b:1,s:12});
+ return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img" aria-label="Widok rozdzielnicy z aparatami na szynach DIN i przewodami"><rect width="${W}" height="${H}" fill="${WIRE.BG}"/>`+BK.join("")+STR.join("")+BAR.join("")+DEV.join("")+VER.join("")+DOT.join("")+LG.join("")+TXT.join("")+"</svg>";
+}
+
+function renderPol(D){
+ const host=$("#polacz");
+ if(!D.rows.length){host.innerHTML='<div class="empty">Dodaj obwody, a schemat połączeń powstanie tutaj.</div>';return;}
+ const W=wiring(D),C=polChecks(D),bad=C.filter(c=>!c.ok).length,dotc=k=>k==="PE"||k==="PEN"?"background:repeating-linear-gradient(90deg,#2E8B3A 0 3px,#F4D21F 3px 6px)":"background:"+WIRE[k];
+ let sec="",rows="",n=0;W.forEach(w=>{if(w.sec!==sec){sec=w.sec;rows+=`<tr><td colspan="6" class="wsec">${esc(sec)}</td></tr>`;}n++;
+  rows+=`<tr><td>${n}</td><td style="white-space:nowrap"><span class="dot" style="${dotc(w.k)}"></span>${w.k}</td><td>${esc(w.from)}</td><td>${esc(w.to)}</td><td class="r">${fS(w.s)} mm²</td><td>${esc(w.uw)}</td></tr>`;});
+ host.innerHTML=`<div class="stack" style="margin-bottom:14px">
+  <div class="${bad?"note":"tip"}">${bad?bad+(bad===1?" punkt wymaga":" punkty wymagają")+" poprawy, zanim wykonasz połączenia.":"Schemat spełnia zasady sprawdzane przez program. Zmiana obwodu, fazy albo układu sieci od razu przerysowuje połączenia."}</div></div>
+ <div class="row" style="margin-bottom:10px"><button class="btn ghost" type="button" id="p-fit">${polFit?"Pokaż w pełnej skali":"Dopasuj do szerokości"}</button><button class="btn ghost" type="button" id="p-svg">Pobierz widok (SVG)</button><button class="btn ghost" type="button" id="p-svg2">Pobierz schemat (SVG)</button><button class="btn ghost" type="button" id="p-copy">Kopiuj listę połączeń</button><span class="chip" id="p-st">${S.supply==="3f"?"3 fazy":"1 faza"} · ${S.net==="tnc"?"TN-C, podział PEN":"TN-S"}</span></div>
+ <div class="draw${polFit?" fit":""}" id="p-board">${svgBoard(D)}</div>
+ <p class="caption">Rys. 3. Widok rozdzielnicy: aparaty na szynach DIN w układzie z zakładki Rozdzielnica, szyny grzebieniowe, listwy N i PE, przewody w kolorach. Rysunek poglądowy.</p>
+ <h3><span class="n">07.1</span>Schemat połączeń</h3>
+ <p class="lead">Ten sam układ rozłożony na jednej linii, wygodny do sprawdzania każdego połączenia.</p>
+ <div class="draw" id="p-draw">${svgPol(D)}</div>
+ <p class="caption">Rys. 4. Schemat połączeń, schemat poglądowy. Przewiń w bok.</p>
+ <h3><span class="n">07.2</span>Kontrola połączeń</h3>
+ <div class="stack">${C.map(c=>`<div class="${c.ok?"tip":"note"}"><span>${c.t}</span></div>`).join("")}</div>
+ <h3><span class="n">07.3</span>Kolejność łączenia</h3>
+ <ol class="pipe"><li><b>Odłącz zasilanie</b>wyłącz i zabezpiecz przed załączeniem, sprawdź brak napięcia</li>
+ <li><b>${S.net==="tnc"?"Podziel PEN":"Podłącz N i PE"}</b>${S.net==="tnc"?"PEN na szynę PE, potem mostek do N0":"N na N0, PE na szynę PE, bez mostka"}</li>
+ <li><b>Podłącz szynę PE</b>do GSU i uziomu, potem PE wszystkich obwodów</li>
+ <li><b>Podłącz fazy</b>WLZ do FR, z FR do SPD, lampek i wejść RCD</li>
+ <li><b>Podłącz N</b>z N0 na wejścia RCD, z wyjść RCD na szyny N1, N2 i kolejne</li>
+ <li><b>Podłącz obwody</b>fazy z wyłączników, N z szyny swojego RCD</li>
+ <li><b>Sprawdź</b>dokręcenie zacisków, pomiary i przycisk testu każdego RCD</li></ol>
+ <h3><span class="n">07.4</span>Lista połączeń</h3>
+ <p class="lead">Każdy przewód z rysunku: kolor, skąd, dokąd i przekrój. Połączenia wewnętrzne wykonuje się przewodem jednożyłowym H07V-K (LgY) w tuleikach albo szyną grzebieniową o obciążalności nie mniejszej niż podana.</p>
+ <div class="scroll"><table class="t" id="p-tab"><thead><tr><th>Nr</th><th>Żyła</th><th>Skąd</th><th>Dokąd</th><th class="r">Przekrój</th><th>Uwaga</th></tr></thead><tbody>${rows}</tbody></table></div>
+ <h3><span class="n">07.5</span>Zasady</h3>
+ <div class="stack">
+  <div class="law">PN-HD 60364-4-41, pkt 411.4 · RCD nie stosuje się w układzie TN-C. W TN-C-S za RCD nie może być PEN, a przewód ochronny przyłącza się do PEN po stronie zasilania RCD</div>
+  <div class="law">PN-HD 60364-5-54, pkt 543.4 · PEN min. 10 mm² Cu. Przy rozdzieleniu PEN dochodzi do zacisku lub szyny PE. Od punktu rozdzielenia N i PE nie wolno ponownie łączyć</div>
+  <div class="law">PN-EN 60445, PN-HD 308 S2 · N niebieski, PE żółto-zielony, PEN żółto-zielony z niebieskimi końcami albo niebieski z żółto-zielonymi końcami; fazy brązowy, czarny, szary</div>
+  <div class="law">PN-HD 60364-5-534 · SPD przy wprowadzeniu zasilania, przed RCD, przewody łączące łącznie do 0,5 m, typ 1 z przewodem do PE min. 16 mm² Cu; zabezpieczenie wstępne i układ połączeń wg producenta</div>
+  <div class="note"><span>Położenie zacisku N w RCD i kolejność biegunów zależą od producenta, łącz według oznaczeń na aparacie. Ten rysunek nie zastępuje projektu. Prace w rozdzielnicy wykonuje osoba z uprawnieniami elektrycznymi, a po zakończeniu trzeba wykonać pomiary.</span></div>
+ </div>`;
+ $("#p-fit").onclick=()=>{polFit=!polFit;$("#p-board").classList.toggle("fit",polFit);$("#p-fit").textContent=polFit?"Pokaż w pełnej skali":"Dopasuj do szerokości";};
+ const dl=(id,nm)=>{const u=URL.createObjectURL(new Blob([$(id).innerHTML],{type:"image/svg+xml"}));const a=document.createElement("a");a.href=u;a.download=nm;root.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(u),1000);};
+ $("#p-svg").onclick=()=>dl("#p-board","widok-rozdzielnicy.svg");$("#p-svg2").onclick=()=>dl("#p-draw","schemat-polaczen-rozdzielnicy.svg");
+ $("#p-copy").onclick=()=>{const tsv=["Lp.\tŻyła\tSkąd\tDokąd\tPrzekrój mm²\tUwaga\tGrupa"].concat(W.map((w,i)=>[i+1,w.k,w.from,w.to,fS(w.s),w.uw,w.sec].join("\t"))).join("\n");const st=$("#p-st");
+  try{navigator.clipboard.writeText(tsv).then(()=>{st.textContent="skopiowano";st.className="chip ok";},()=>{st.textContent="nie udało się skopiować";st.className="chip er";});}catch(e){st.textContent="nie udało się skopiować";st.className="chip er";}};
+}
+
 function update(){
  const D=compute();
- renderCardResults(D);renderSummary(D);renderBilans(D);renderPrzewody(D);renderElev(D);renderSchem(D);renderBom(D);
+ renderCardResults(D);renderSummary(D);renderBilans(D);renderPrzewody(D);renderElev(D);renderSchem(D);renderPol(D);renderBom(D);
  save();
 }
 

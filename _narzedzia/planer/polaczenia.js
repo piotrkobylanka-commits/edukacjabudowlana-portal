@@ -4,7 +4,7 @@ const WNAME={L1:"L1 brązowy",L2:"L2 czarny",L3:"L3 szary",N:"N niebieski",PE:"P
 const busS=I=>I<=25?6:I<=40?10:I<=63?16:I<=80?25:I<=100?35:50;
 const peS=s=>s<=16?s:s<=35?16:s/2;
 const phOf=x=>x.phase==="L1L2L3"?["L1","L2","L3"]:[x.phase];
-let polFit=false;
+let polFit=window.innerWidth>860;
 
 /* lista połączeń: jedno źródło danych tabeli i testów */
 function wiring(D){
@@ -176,12 +176,16 @@ function renderPol(D){
   rows+=`<tr><td>${n}</td><td style="white-space:nowrap"><span class="dot" style="${dotc(w.k)}"></span>${w.k}</td><td>${esc(w.from)}</td><td>${esc(w.to)}</td><td class="r">${fS(w.s)} mm²</td><td>${esc(w.uw)}</td></tr>`;});
  host.innerHTML=`<div class="stack" style="margin-bottom:14px">
   <div class="${bad?"note":"tip"}">${bad?bad+(bad===1?" punkt wymaga":" punkty wymagają")+" poprawy, zanim wykonasz połączenia.":"Schemat spełnia zasady sprawdzane przez program. Zmiana obwodu, fazy albo układu sieci od razu przerysowuje połączenia."}</div></div>
- <div class="row" style="margin-bottom:10px"><button class="btn ghost" type="button" id="p-fit">${polFit?"Pokaż w pełnej skali":"Dopasuj do szerokości"}</button><button class="btn ghost" type="button" id="p-svg">Pobierz schemat (SVG)</button><button class="btn ghost" type="button" id="p-copy">Kopiuj listę połączeń</button><span class="chip" id="p-st">${S.supply==="3f"?"3 fazy":"1 faza"} · ${S.net==="tnc"?"TN-C, podział PEN":"TN-S"}</span></div>
- <div class="draw${polFit?" fit":""}" id="p-draw">${svgPol(D)}</div>
- <p class="caption">Rys. 3. Schemat połączeń, schemat poglądowy. Układ aparatów w kolejności z zakładki Rozdzielnica. Przewiń w bok na telefonie.</p>
- <h3><span class="n">07.1</span>Kontrola połączeń</h3>
+ <div class="row" style="margin-bottom:10px"><button class="btn ghost" type="button" id="p-fit">${polFit?"Pokaż w pełnej skali":"Dopasuj do szerokości"}</button><button class="btn ghost" type="button" id="p-svg">Pobierz widok (SVG)</button><button class="btn ghost" type="button" id="p-svg2">Pobierz schemat (SVG)</button><button class="btn ghost" type="button" id="p-copy">Kopiuj listę połączeń</button><span class="chip" id="p-st">${S.supply==="3f"?"3 fazy":"1 faza"} · ${S.net==="tnc"?"TN-C, podział PEN":"TN-S"}</span></div>
+ <div class="draw${polFit?" fit":""}" id="p-board">${svgBoard(D)}</div>
+ <p class="caption">Rys. 3. Widok rozdzielnicy: aparaty na szynach DIN w układzie z zakładki Rozdzielnica, szyny grzebieniowe, listwy N i PE, przewody w kolorach. Rysunek poglądowy.</p>
+ <h3><span class="n">07.1</span>Schemat połączeń</h3>
+ <p class="lead">Ten sam układ rozłożony na jednej linii, wygodny do sprawdzania każdego połączenia.</p>
+ <div class="draw" id="p-draw">${svgPol(D)}</div>
+ <p class="caption">Rys. 4. Schemat połączeń, schemat poglądowy. Przewiń w bok.</p>
+ <h3><span class="n">07.2</span>Kontrola połączeń</h3>
  <div class="stack">${C.map(c=>`<div class="${c.ok?"tip":"note"}"><span>${c.t}</span></div>`).join("")}</div>
- <h3><span class="n">07.2</span>Kolejność łączenia</h3>
+ <h3><span class="n">07.3</span>Kolejność łączenia</h3>
  <ol class="pipe"><li><b>Odłącz zasilanie</b>wyłącz i zabezpiecz przed załączeniem, sprawdź brak napięcia</li>
  <li><b>${S.net==="tnc"?"Podziel PEN":"Podłącz N i PE"}</b>${S.net==="tnc"?"PEN na szynę PE, potem mostek do N0":"N na N0, PE na szynę PE, bez mostka"}</li>
  <li><b>Podłącz szynę PE</b>do GSU i uziomu, potem PE wszystkich obwodów</li>
@@ -189,10 +193,10 @@ function renderPol(D){
  <li><b>Podłącz N</b>z N0 na wejścia RCD, z wyjść RCD na szyny N1, N2 i kolejne</li>
  <li><b>Podłącz obwody</b>fazy z wyłączników, N z szyny swojego RCD</li>
  <li><b>Sprawdź</b>dokręcenie zacisków, pomiary i przycisk testu każdego RCD</li></ol>
- <h3><span class="n">07.3</span>Lista połączeń</h3>
+ <h3><span class="n">07.4</span>Lista połączeń</h3>
  <p class="lead">Każdy przewód z rysunku: kolor, skąd, dokąd i przekrój. Połączenia wewnętrzne wykonuje się przewodem jednożyłowym H07V-K (LgY) w tuleikach albo szyną grzebieniową o obciążalności nie mniejszej niż podana.</p>
  <div class="scroll"><table class="t" id="p-tab"><thead><tr><th>Nr</th><th>Żyła</th><th>Skąd</th><th>Dokąd</th><th class="r">Przekrój</th><th>Uwaga</th></tr></thead><tbody>${rows}</tbody></table></div>
- <h3><span class="n">07.4</span>Zasady</h3>
+ <h3><span class="n">07.5</span>Zasady</h3>
  <div class="stack">
   <div class="law">PN-HD 60364-4-41, pkt 411.4 · RCD nie stosuje się w układzie TN-C. W TN-C-S za RCD nie może być PEN, a przewód ochronny przyłącza się do PEN po stronie zasilania RCD</div>
   <div class="law">PN-HD 60364-5-54, pkt 543.4 · PEN min. 10 mm² Cu. Przy rozdzieleniu PEN dochodzi do zacisku lub szyny PE. Od punktu rozdzielenia N i PE nie wolno ponownie łączyć</div>
@@ -200,8 +204,9 @@ function renderPol(D){
   <div class="law">PN-HD 60364-5-534 · SPD przy wprowadzeniu zasilania, przed RCD, przewody łączące łącznie do 0,5 m, typ 1 z przewodem do PE min. 16 mm² Cu; zabezpieczenie wstępne i układ połączeń wg producenta</div>
   <div class="note"><span>Położenie zacisku N w RCD i kolejność biegunów zależą od producenta, łącz według oznaczeń na aparacie. Ten rysunek nie zastępuje projektu. Prace w rozdzielnicy wykonuje osoba z uprawnieniami elektrycznymi, a po zakończeniu trzeba wykonać pomiary.</span></div>
  </div>`;
- $("#p-fit").onclick=()=>{polFit=!polFit;$("#p-draw").classList.toggle("fit",polFit);$("#p-fit").textContent=polFit?"Pokaż w pełnej skali":"Dopasuj do szerokości";};
- $("#p-svg").onclick=()=>{const u=URL.createObjectURL(new Blob([$("#p-draw").innerHTML],{type:"image/svg+xml"}));const a=document.createElement("a");a.href=u;a.download="schemat-polaczen-rozdzielnicy.svg";root.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(u),1000);};
+ $("#p-fit").onclick=()=>{polFit=!polFit;$("#p-board").classList.toggle("fit",polFit);$("#p-fit").textContent=polFit?"Pokaż w pełnej skali":"Dopasuj do szerokości";};
+ const dl=(id,nm)=>{const u=URL.createObjectURL(new Blob([$(id).innerHTML],{type:"image/svg+xml"}));const a=document.createElement("a");a.href=u;a.download=nm;root.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(u),1000);};
+ $("#p-svg").onclick=()=>dl("#p-board","widok-rozdzielnicy.svg");$("#p-svg2").onclick=()=>dl("#p-draw","schemat-polaczen-rozdzielnicy.svg");
  $("#p-copy").onclick=()=>{const tsv=["Lp.\tŻyła\tSkąd\tDokąd\tPrzekrój mm²\tUwaga\tGrupa"].concat(W.map((w,i)=>[i+1,w.k,w.from,w.to,fS(w.s),w.uw,w.sec].join("\t"))).join("\n");const st=$("#p-st");
   try{navigator.clipboard.writeText(tsv).then(()=>{st.textContent="skopiowano";st.className="chip ok";},()=>{st.textContent="nie udało się skopiować";st.className="chip er";});}catch(e){st.textContent="nie udało się skopiować";st.className="chip er";}};
 }
