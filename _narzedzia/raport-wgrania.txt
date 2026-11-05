@@ -1,12 +1,12 @@
 2026-11-05 22:20 UTC
-== start ftp
-.filebrowser
-.api_token
-.logs
+== katalog domen
+edukacjabudowlana.eu
 ..
-domains
 .
-.profile
-curl: (9) Server denied you to change to the given directory
-na serwerze: , oczekiwane: 14729330
-STOP: plik na serwerze się zmienił, nic nie wgrano
+ebudem.pl
+na serwerze: 14729330, oczekiwane: 14729330
+wgrano: 14764074, lokalnie: 14764074
+PODMIENIONO, kopia: index_backup_20261105_2220.html
+== na żywo
+200 14764074
+zakładka: 1
