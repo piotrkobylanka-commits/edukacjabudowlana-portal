@@ -1,0 +1,12 @@
+2026-11-05 22:20 UTC
+== start ftp
+.filebrowser
+.api_token
+.logs
+..
+domains
+.
+.profile
+curl: (9) Server denied you to change to the given directory
+na serwerze: , oczekiwane: 14729330
+STOP: plik na serwerze się zmienił, nic nie wgrano
