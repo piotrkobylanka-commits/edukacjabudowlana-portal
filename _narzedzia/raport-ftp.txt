@@ -1,0 +1,31 @@
+2026-11-05 22:18 UTC
+== DNS edukacjabudowlana.eu
+191.96.144.84
+195.35.60.224
+== DNS ftp.edukacjabudowlana.eu
+217.65.157.30
+== DNS srv2288.hstgr.io
+2.24.3.7
+== PORT 21 217.65.157.30
+220 FTP Server ready.
+brak połączenia
+== CERT 217.65.157.30
+subject=CN=*.hstgr.io
+issuer=C=US, O=Let's Encrypt, CN=YE1
+notAfter=Jan 10 08:16:31 2027 GMT
+X509v3 Subject Alternative Name: 
+    DNS:*.hstgr.io, DNS:hstgr.io
+== PORT 21 ftp.edukacjabudowlana.eu
+220 FTP Server ready.
+brak połączenia
+== CERT ftp.edukacjabudowlana.eu
+subject=CN=*.hstgr.io
+issuer=C=US, O=Let's Encrypt, CN=YE1
+notAfter=Jan 10 08:16:31 2027 GMT
+X509v3 Subject Alternative Name: 
+    DNS:*.hstgr.io, DNS:hstgr.io
+== PORT 21 edukacjabudowlana.eu
+brak połączenia
+== CERT edukacjabudowlana.eu
+Could not find certificate from <stdin>
+brak certyfikatu
