@@ -34,16 +34,16 @@ jobs:
           [ -n "$HASLO" ] || { echo "BRAK sekretu FTP_PASSWORD" | tee -a $R; exit 0; }
           OCZ=$(head -1 _narzedzia/wgraj-index-trigger)
           B=index_backup_$(date -u +%Y%m%d_%H%M).html
-          echo "== start ftp" >> $R; $C "ftp://$H/" --list-only 2>&1 | head -12 >> $R
-          NA=$($C -I "ftp://$H/public_html/index.html" 2>>$R | tr -d '\r' | awk 'tolower($1)=="content-length:"{print $2}')
+          echo "== katalog domen" >> $R; $C "ftp://$H/domains/" --list-only 2>&1 | head -12 >> $R
+          NA=$($C -I "ftp://$H/domains/edukacjabudowlana.eu/public_html/index.html" 2>>$R | tr -d '\r' | awk 'tolower($1)=="content-length:"{print $2}')
           echo "na serwerze: $NA, oczekiwane: $OCZ" >> $R
           if [ "$NA" != "$OCZ" ]; then echo "STOP: plik na serwerze się zmienił, nic nie wgrano" >> $R; exit 0; fi
           LOK=$(stat -c %s index.html)
-          $C -T index.html "ftp://$H/public_html/index.new.html" 2>>$R || { echo "błąd wgrania" >> $R; exit 0; }
-          NOWY=$($C -I "ftp://$H/public_html/index.new.html" 2>>$R | tr -d '\r' | awk 'tolower($1)=="content-length:"{print $2}')
+          $C -T index.html "ftp://$H/domains/edukacjabudowlana.eu/public_html/index.new.html" 2>>$R || { echo "błąd wgrania" >> $R; exit 0; }
+          NOWY=$($C -I "ftp://$H/domains/edukacjabudowlana.eu/public_html/index.new.html" 2>>$R | tr -d '\r' | awk 'tolower($1)=="content-length:"{print $2}')
           echo "wgrano: $NOWY, lokalnie: $LOK" >> $R
           if [ "$NOWY" != "$LOK" ]; then echo "STOP: rozmiar się nie zgadza, strona bez zmian" >> $R; exit 0; fi
-          $C "ftp://$H/" --list-only -Q "RNFR public_html/index.html" -Q "RNTO public_html/$B" -Q "RNFR public_html/index.new.html" -Q "RNTO public_html/index.html" >/dev/null 2>>$R && echo "PODMIENIONO, kopia: $B" >> $R || echo "błąd podmiany" >> $R
+          $C "ftp://$H/" --list-only -Q "RNFR domains/edukacjabudowlana.eu/public_html/index.html" -Q "RNTO domains/edukacjabudowlana.eu/public_html/$B" -Q "RNFR domains/edukacjabudowlana.eu/public_html/index.new.html" -Q "RNTO domains/edukacjabudowlana.eu/public_html/index.html" >/dev/null 2>>$R && echo "PODMIENIONO, kopia: $B" >> $R || echo "błąd podmiany" >> $R
           sleep 5
           echo "== na żywo" >> $R
           curl -s -o /tmp/l.html -w '%{http_code} %{size_download}\n' "https://edukacjabudowlana.eu/?nocache=$(date +%s)" >> $R
