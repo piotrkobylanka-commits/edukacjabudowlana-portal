@@ -1,0 +1,27 @@
+🔥 Drugi komin do kominka obok głównego. Jak wysoko i jak daleko od okien?
+TREŚĆ
+W domu stoi już komin, a do kominka ma dojść drugi. Inwestor chciałby, żeby był niższy od głównego albo na tej samej wysokości, bo tak „ładniej wygląda”. Czy wolno? To zależy od dachu i od tego, co stoi obok. A główny komin jest dla nowego przeszkodą.
+📐 Ile ponad dach
+Dotychczasowe warunki techniczne (§ 142) wymagają wyprowadzenia przewodów ponad dach na wysokość, która chroni przed niedopuszczalnym zakłóceniem ciągu. Za spełnienie tego wymogu uznaje się wylot wykonany według Polskiej Normy dla kominów murowanych (PN-89/B-10425):
+● dach płaski lub o nachyleniu do 12°, a także stromy z pokryciem łatwo zapalnym: wylot co najmniej 0,6 m nad kalenicą,
+● dach stromy (ponad 12°) z pokryciem niepalnym: wylot co najmniej 0,3 m nad połacią i co najmniej 1,0 m od niej w poziomie.
+🏠 Drugi komin przy głównym
+Elementy w promieniu 10 m od komina, w tym sąsiedni komin, norma traktuje jako przeszkody:
+● do 1,5 m odstępu: nowy wylot co najmniej 0,3 m wyżej niż wierzch przeszkody,
+● powyżej 1,5 do 3 m: co najmniej na jej poziomie,
+● od 3 do 10 m: ponad płaszczyzną opadającą pod kątem 12° od wierzchu przeszkody. Przy 5 m odstępu oznacza to wylot najwyżej około 1 m niżej.
+„Na równi” z głównym kominem przejdzie więc dopiero przy odstępie powyżej 1,5 m i pod warunkiem, że spełniony jest też wymóg wysokości nad dachem. „Niżej” tylko przy kilku metrach odstępu i w granicach tej płaszczyzny.
+Wylot poniżej dachu, przez ścianę? Przy kominku nie. Przez ścianę można wyprowadzić tylko spaliny z gazowych urządzeń z zamkniętą komorą spalania. W wolnostojącym domu jednorodzinnym dotyczy to urządzeń do 21 kW (§ 175 ust. 1).
+🪟 A okna?
+Warunki techniczne nie podają jednej odległości wylotu przewodu dymowego od okna. Często cytowane 0,5 m dotyczy gazowych wylotów przez ścianę i liczy się od krawędzi okien otwieranych (§ 175 ust. 3). Komina od kominka ta reguła nie obejmuje.
+Tu decyduje wysokość. Jeśli na dachu są lukarny albo nadbudówki z oknami, wylot musi znaleźć się powyżej nich, z zachowaniem reguł dla przeszkód. Gdy w pobliżu są okna dachowe, warto dać zapas wysokości.
+
+⚠️ 4 błędy przy drugim kominie
+● Podłączenie kominka do przewodu, z którego korzysta już kocioł. Zasadą jest osobny przewód dla paleniska, bo § 141 zakazuje grawitacyjnych przewodów zbiorczych.
+● Obniżenie nowego komina dla wyglądu, bez zmierzenia odstępu od głównego.
+● Wysokość dobrana na oko, a nie do wymagań producenta wkładu (ciąg, przekrój, wysokość efektywna).
+● Rozpalenie kominka przed sprawdzeniem przewodu przez kominiarza. Później obowiązuje kontrola co najmniej raz w roku (art. 62 ust. 1 pkt 1 lit. c Prawa budowlanego), a protokół trafia do CEEB.
+📌 Stan prawny
+Warunki techniczne z 2002 r. straciły moc 20 września 2026 r. Do końca października nowych nie ogłoszono. Przez 18 miesięcy można stosować dotychczasowe, na zasadach z art. 102a–102c Prawa budowlanego. Przed budową komina w istniejącym domu ustal z projektantem tryb robót i to, według których przepisów je prowadzicie.
+
+#EdukacjaBudowlana #komin #kominek #przewóddymowy #budowadomu #warunkitechniczne #prawobudowlane #kierownikbudowy #dach #domjednorodzinny

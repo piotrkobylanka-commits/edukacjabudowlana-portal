@@ -1,0 +1,58 @@
+🚧 „Ziemię z wykopu usypano tuż przy jego krawędzi”. Kto powinien wskazać miejsce odkładu?
+
+Takie zdanie brzmi niewinnie, dopóki w wykopie nikt nie pracuje. Hałda przy krawędzi to dodatkowe obciążenie gruntu, gorsze warunki dla ścian wykopu i ryzyko, że ziemia wróci tam, skąd ją wykopano. Operator koparki decyduje o wielu szczegółach swojej pracy, ale nie powinien sam organizować placu budowy.
+
+Kto powinien podjąć decyzję?
+
+Przepisy nie mówią wprost, że miejsce odkładu „zatwierdza” konkretna osoba. Z obowiązków uczestników budowy wynika jednak jasny podział ról, a w mojej ocenie decyzję powinien podjąć kierownik budowy, wspólnie z wykonawcą robót ziemnych.
+
+Kierownik budowy organizuje budowę, kieruje nią i koordynuje działania zapobiegające zagrożeniom (art. 22 pkt 3, 3a i 3b Prawa budowlanego). Jeśli stwierdzi możliwość zagrożenia, wstrzymuje roboty i bezzwłocznie zawiadamia właściwy organ (art. 22 pkt 4).
+
+Pozostali też mają swoją rolę:
+
+● Wykonawca lub kierownik robót planuje odkład, dojazdy i pracę sprzętu.
+● Operator koparki zna zasięg maszyny i zgłasza problemy, ale działa w ustalonych granicach.
+● Projektant lub osoba uprawniona powinna się wypowiedzieć, gdy trzeba ocenić obudowę, skarpę albo obciążenie przy wykopie.
+● Inspektor nadzoru, jeśli jest ustanowiony, może zgłosić uwagi i pilnować zgodności z ustaleniami.
+● Inwestor nie musi wskazywać miejsca odkładu, ale powinien zapewnić kierownictwo budowy i nie naciskać na oszczędność miejsca kosztem bezpieczeństwa.
+
+Co mówią przepisy o odkładzie?
+
+Rozporządzenie BHP dla robót budowlanych z 6 lutego 2003 r. wprost ogranicza składowanie urobku, materiałów i wyrobów przy wykopie (§ 154):
+
+● Przy obudowanych ścianach odkład nie może znajdować się bliżej niż 0,6 m od krawędzi, a obudowa musi być obliczona na dodatkowe obciążenie gruntem.
+● Przy ścianach nieobudowanych nie wolno składować ich w strefie klina naturalnego odłamu gruntu.
+
+Pojazdy powinny poruszać się poza granicą tego klina (§ 155). Same 0,6 m nie są więc uniwersalną odległością dla każdego wykopu.
+
+Jak zaplanować to przed pierwszą łyżką koparki?
+
+Najprościej zaznaczyć na rysunku lub w planie organizacji budowy:
+
+● miejsce czasowego odkładu humusu i urobku,
+● strefę składowania materiałów,
+● dojazd dla koparki, wywrotki i betonowozu,
+● drogę dla ludzi i zejście do wykopu,
+● odprowadzenie wody opadowej od krawędzi wykopu,
+● ogrodzenie, oznakowanie i strefę pracy maszyny.
+
+Rozporządzenie wymaga też wcześniejszego zagospodarowania terenu budowy, w tym wyznaczenia miejsc składowania (§ 8). Składowiska powinny być utwardzone i odwodnione (§ 23). Takie ustalenia warto wpisać do planu BIOZ, jeśli jest wymagany, oraz do instrukcji robót.
+
+Co zrobić, gdy ziemia już leży przy krawędzi?
+
+● Zatrzymaj pracę w wykopie.
+● Sprawdź ściany, rysy, wodę i ewentualne zapadnięcia gruntu.
+● Oceń, czy potrzebna jest zmiana odkładu lub obudowy.
+● Dopiero po decyzji osoby odpowiedzialnej przenieś urobek poza strefę zagrożenia.
+● Zapisz ustalenia w dokumentacji budowy i przekaż je ekipie.
+
+❌ 6 błędów przy organizacji wykopu
+
+Wybór odkładu dopiero po rozpoczęciu kopania.
+Składowanie urobku tam, gdzie jest najbliżej.
+Traktowanie 0,6 m jak bezpiecznej odległości dla każdego wykopu.
+Stawianie palet, kręgów lub kruszywa przy krawędzi.
+Przejazd wywrotki lub betonowozu tuż przy ścianie wykopu.
+Brak jednej osoby, która ma prawo zatrzymać roboty.
+
+#EdukacjaBudowlana #KierownikBudowy #RobotyZiemne #Wykop #BHPnaBudowie #OrganizacjaBudowy #BudowaDomu #PlacBudowy #BezpieczeństwoPracy #Budownictwo

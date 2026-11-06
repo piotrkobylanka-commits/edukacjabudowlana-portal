@@ -1,0 +1,16 @@
+Jak trzyma się piętro, pod którym nic nie ma?
+
+Przejeżdżając obwodnicą przy Donaukanal w Wiedniu, trudno ich nie zauważyć. Trzy wieże TrIIIple mają ponad 100 metrów, a w połowie wysokości górna część każdej z nich jakby przesuwa się w bok. Kilkanaście kondygnacji wisi nad pustką.
+Tak zaplanowali to architekci z biura Henke Schreieck. Dieter Henke mówił w wywiadzie, że wieże nie idą gładko w górę, tylko na różnych wysokościach robią skok w bok. Dzięki temu budynki są względem siebie przesunięte i z każdego mieszkania widać daleko.
+Ładnie to wygląda, ale co z konstrukcją?
+Wysunięta część to wspornik, czyli element zamocowany tylko z jednej strony. Jego ciężar nie spływa pionowo do fundamentów, tylko próbuje wyrwać się z budynku i obrócić go. Przy kilkunastu piętrach to tysiące ton, które trzeba „przekierować”.
+Konstruktorzy mają na to kilka sposobów, zwykle łączonych ze sobą:
+• Kondygnacja transferowa: bardzo grube stropy albo ściany-belki na wysokości uskoku, które zbierają obciążenia z góry i przenoszą je na słupy i ściany niższej części.
+• Sztywny trzon: klatki schodowe i szyby windowe tworzą żelbetowy rdzeń, który działa jak kręgosłup i równoważy moment obracający budynek.
+• Sprężanie: stal naciągnięta w betonie zmniejsza ugięcia i rysy w długich wspornikach.
+• Kontrola ugięć i drgań: krawędź wspornika nie może opaść tak, żeby pękały szyby i okładziny, ani kołysać się tak, żeby mieszkańcy czuli to w kuchni.
+Do tego dochodzi wiatr. Na wysokości 100 metrów wieje mocniej, a uskoki zmieniają opływ powietrza wokół bryły. Dlatego takie projekty sprawdza się obliczeniami komputerowymi, a często także modelem w tunelu aerodynamicznym.
+Kolejność budowy też ma znaczenie. Wspornika nie da się po prostu „dolać” od góry. Potrzebne są tymczasowe podpory i odpowiednia kolejność betonowania, żeby konstrukcja nie przeciążyła się, zanim cała zacznie współpracować.
+Z ulicy widać efektowny uskok. Za nim stoi praca, której mieszkańcy nigdy nie zobaczą, i dobrze: jeśli wszystko policzono poprawnie, nikt nie powinien jej poczuć.
+
+#architektura #konstrukcje #budownictwo #wieżowce #inżynieria #Wiedeń #TrIIIple #HenkeSchreieck #wspornik #konstruktor #projektowanie #highrise

@@ -1,0 +1,88 @@
+Betoniarka dojedzie do działki. Ale czy przejedzie przez przepust?
+
+Na mapie droga dochodzi do samej bramy. Mapa nie pokaże jednak stanu rury w rowie, przykrycia nad przepustem ani tego, czy mostek po drodze przeniesie pełny pojazd.
+
+Czteroosiowa betonomieszarka może mieć dopuszczalną masę całkowitą do 32 t, a 8 m³ betonu waży około 19 t. Dlatego dojazd sprawdzamy od drogi głównej do miejsca rozładunku, zanim padnie pierwszy termin dostawy.
+
+NAJPIERW POJAZD
+
+Zapytaj dostawców betonu, stropu, pustaków i dachówki, czym przyjadą. Poproś o dane pojazdu z ładunkiem:
+
+● rzeczywistą masę całkowitą,
+● naciski na osie,
+● długość, szerokość i wysokość,
+● promień skrętu i możliwość cofania,
+● miejsce rozładunku albo rozstawienia podpór.
+
+Bez tych danych nie ma czego porównywać. Limit odnosi się do konkretnego pojazdu i ładunku, a nie do ogólnego hasła „ciężarówka”.
+
+PODZIEL TRASĘ NA ODCINKI
+
+Droga publiczna. Ustawowy punkt wyjścia to 11,5 t nacisku pojedynczej osi napędowej. Zarządca może wprowadzić znakiem zakaz powyżej 10 t albo 8 t, a rada gminy może utworzyć strefę uchwałą (art. 41 ustawy o drogach publicznych). Na drodze publicznej o nawierzchni innej niż bitumiczna, betonowa, kamienna lub klinkierowa, w tym kostkowa albo płytowa, limit wynosi 8 t, jeśli zarządca nie podniósł go znakiem (art. 41b).
+Mostek lub przepust. Patrz na oba znaki: B-18 ogranicza rzeczywistą masę całkowitą, a B-19 nacisk pojedynczej osi napędowej. Dopuszczalny nacisk nie przesądza, że mostek przyjmie całą masę pojazdu.
+Droga wewnętrzna. Art. 41 dotyczy dróg publicznych. Drogą wewnętrzną zarządza zarządca terenu, a gdy go nie ma, właściciel (art. 8 ust. 2). Przy służebności czytaj akt. Jeśli zakres nie jest określony, stosuje się art. 287 k.c., a służebność trzeba wykonywać tak, by jak najmniej utrudniała korzystanie z nieruchomości obciążonej (art. 288 k.c.).
+Zjazd z drogi. Utrzymanie zjazdu wraz z przepustem pod nim należy do właściciela lub użytkownika gruntu przyległego do drogi (art. 30). Jeśli zjazd trzeba przebudować, potrzebne jest zezwolenie zarządcy drogi (art. 29 ust. 1).
+
+CO OGLĄDAĆ NA MIEJSCU
+
+Oględziny nie dadzą nośności. Pomogą wyłapać obiekt, którego nie wolno zakładać „na oko”.
+
+● pęknięcia, odspojony beton, odsłonięte zbrojenie,
+● zapadnięcie nad rurą, koleiny i osiadanie przy dojazdach,
+● wymyty grunt przy wlocie i wylocie,
+● przesunięte, zgniecione albo skorodowane elementy,
+● zamulony przepust i ślady spiętrzania wody,
+● mała odległość kół od krawędzi skarpy,
+● brak danych o rurze, jej przykryciu i dacie wykonania.
+
+Pytaj zarządcę o właściciela obiektu, ograniczenia, ostatnie kontrole i znane uszkodzenia. Brak dokumentów nie oznacza, że obiekt jest sprawny. W kontroli NIK za lata 2020 do połowy 2022 r. 12 z 16 zarządców nie wykonywało obowiązkowych kontroli części obiektów. Na skontrolowanych drogach gminnych 56% obiektów oceniono jako przedawaryjne lub niedostateczne.
+
+Gdy nośność jest nieznana, a pojazd ma przejechać przez obiekt, przekaż sprawę konstruktorowi, najlepiej z doświadczeniem mostowym. Oceni, czy przejazd jest możliwy i na jakich warunkach oraz czy potrzebne są badania albo wzmocnienie.
+
+USTNE „JAKOŚ TO BĘDZIE” NIE ZMIENIA ZNAKU
+
+Zwolnienie z zakazu wprowadzonego na podstawie art. 41 ust. 2 pkt 1 umieszcza się na znaku (art. 41 ust. 9). Przy drodze objętej art. 41b zarządca może podnieść limit m.in. dla niezbędnego dojazdu do nieruchomości, ale także robi to znakiem.
+
+Gdy nacisk przekracza limit danej drogi, pojazd jest nienormatywny (art. 2 pkt 35a Prawa o ruchu drogowym). Takim pojazdem co do zasady nie wolno przewozić ładunku podzielnego (art. 64 ust. 2). Beton można rozłożyć na mniejsze kursy, więc rozwiązania szukaj przede wszystkim w mniejszym pojeździe, mniejszym załadunku albo innej trasie.
+
+Kara dotyczy przede wszystkim podmiotu wykonującego przejazd. Przepisy dopuszczają ją również wobec m.in. nadawcy lub odbiorcy, jeśli okoliczności wskazują, że miał wpływ na naruszenie albo się na nie godził (art. 41d ust. 10 ustawy o drogach publicznych, art. 140aa ust. 3 Prawa o ruchu drogowym).
+
+KTO CO POTWIERDZA
+
+● zarządca drogi: status drogi, ograniczenia, informacje o obiekcie,
+● właściciel drogi wewnętrznej: zgoda i warunki przejazdu,
+● dostawca lub przewoźnik: konkretny pojazd, ładunek i warunki wjazdu,
+● konstruktor: możliwość przejazdu przez obiekt o nieznanej nośności,
+● wykonawca lub kierownik budowy: zebranie ustaleń i przekazanie ich ekipom, jeśli wynika to z umowy.
+
+Wykonawca powinien niezwłocznie zawiadomić inwestora o okolicznościach, które mogą przeszkodzić prawidłowemu wykonaniu robót (art. 651 k.c.). W umowie zapisz też, kto organizuje dojazd, kto płaci za zabezpieczenia i kto dokumentuje stan trasy przed pierwszą dostawą.
+
+CO POWINNA ZAWIERAĆ OCENA DOJAZDU
+
+Żaden z przepisów przywołanych w tym poście nie narzuca wzoru takiego dokumentu. W praktyce wystarczy krótka karta trasy:
+
+mapa z podziałem na odcinki,
+zdjęcia i pomiary mostków, przepustów, zjazdu oraz wąskich miejsc,
+dane pojazdów z ładunkiem,
+znaki i ograniczenia z datą sprawdzenia,
+pisemne ustalenia z zarządcą, właścicielem lub konstruktorem,
+warunki dostawy: mniejszy załadunek, godzina, osoba kierująca manewrem, trasa zapasowa,
+osoba, która w dniu dostawy może wstrzymać wjazd.
+
+Potwierdzenie ma datę i dotyczy konkretnego pojazdu. Po przebudowie drogi, ulewie, roztopach albo zmianie sprzętu sprawdź je ponownie.
+
+7 BŁĘDÓW PRZY OCENIE DOJAZDU
+
+❌ Sprawdzenie trasy tylko na mapie
+❌ Przyjęcie danych pustego pojazdu zamiast pojazdu z ładunkiem
+❌ Patrzenie na nacisk osi bez sprawdzenia masy i znaku B-18
+❌ Wniosek „szambiarka przejechała, więc betonomieszarka też”
+❌ Założenie, że przepust pod zjazdem utrzymuje gmina
+❌ Traktowanie ustnej zgody jak zmiany oznakowania
+❌ Brak zdjęć trasy przed pierwszą dostawą
+
+NA KONIEC
+
+Przejezdność nie wynika z tego, że droga istnieje. Musi być sprawdzona dla konkretnego pojazdu, ładunku i stanu trasy, a wynik powinien mieć podpis lub pisemny ślad.
+
+#EdukacjaBudowlana #BudowaDomu #Betonomieszarka #DojazdNaBudowę #Przepust #Mostek #LogistykaBudowy #KierownikBudowy #Inwestor #DrogaDojazdowa

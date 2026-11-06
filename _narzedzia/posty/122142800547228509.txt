@@ -1,0 +1,47 @@
+🌬️ Czy klimatyzatorem można ogrzać dom? Można, ale nie każdy i nie każdym
+„Po co pompa ciepła za 50 tysięcy, skoro klimatyzator też grzeje?” To pytanie słychać coraz częściej. Odpowiedź brzmi: klimatyzator grzejący to też pompa ciepła, tylko powietrze-powietrze. W niektórych domach sprawdzi się świetnie, w innych będzie drogim rozczarowaniem.
+🔹 JAK TO DZIAŁA
+▪️ Jednostka zewnętrzna pobiera ciepło z powietrza na zewnątrz, a jednostka w pokoju oddaje je jako ciepłe powietrze.
+▪️ Dobre modele z 2026 r. mają w grzaniu SCOP ok. 4,6–5,2. To wartości dla klimatu umiarkowanego przyjętego w normie. W Polsce, przy chłodniejszych zimach, rzeczywista sprawność jest zwykle niższa, ale nadal 1 kWh prądu daje kilka kWh ciepła.
+▪️ Modele „na zimę” pracują w grzaniu do -25°C, a niektóre do -30°C. Pełną moc trzymają zwykle do -15°C albo -25°C, zależnie od modelu. Sprawdź to w karcie technicznej, a nie w reklamie.
+🔹 ZALETY
+▪️ Zwykle tańszy w zakupie niż pompa ciepła powietrze-woda z podłogówką.
+▪️ Wysoka sprawność, więc tanie grzanie, zwłaszcza w okresie przejściowym.
+▪️ Latem to samo urządzenie chłodzi.
+▪️ Szybko nagrzewa pomieszczenie.
+▪️ Z fotowoltaiką jesienią i wiosną część grzania pokrywa własny prąd. Zimą panele produkują mało, więc na nie nie licz.
+🔹 WADY
+▪️ Nie grzeje ciepłej wody. Na ciepłą wodę potrzebujesz osobnego urządzenia: pompy ciepła do c.w.u. albo podgrzewacza.
+▪️ Grzeje tylko tam, gdzie jest jednostka. Zamknięty pokój bez jednostki będzie chłodniejszy. Rozwiązania: jednostka w każdym pokoju (multisplit) albo system kanałowy.
+▪️ Łazienki nie ogrzejesz jednostką ścienną. Tam zostaje mata grzewcza albo grzejnik elektryczny.
+▪️ Ciepłe powietrze zbiera się pod sufitem. Przy wysokich pomieszczeniach i antresolach podłoga bywa chłodna.
+▪️ Przy mrozie i wilgoci jednostka okresowo odszrania wymiennik. Przez kilka minut nie grzeje.
+▪️ Jednostka zewnętrzna hałasuje i zimą oddaje skropliny, które zamarzają. Trzeba to przewidzieć przy jej ustawieniu.
+🔹 KIEDY MA SENS JAKO GŁÓWNE OGRZEWANIE
+▪️ Dom energooszczędny albo pasywny, z małym zapotrzebowaniem na ciepło i otwartym układem pomieszczeń.
+▪️ Dom parterowy, w którym kilka jednostek albo system kanałowy obejmuje wszystkie pokoje.
+▪️ Dom letniskowy, ogrzewany okresowo.
+🔹 KIEDY LEPIEJ JAKO DODATEK
+▪️ Zwykły dom piętrowy z wieloma małymi pokojami.
+▪️ Dom z kominkiem albo pompą ciepła powietrze-woda: klimatyzator dogrzewa jesienią i wiosną, a latem chłodzi.
+▪️ Remont starego domu bez docieplenia. Najpierw ocieplenie, potem wybór ogrzewania.
+🔹 KOSZTY (2026)
+▪️ Klimatyzator ścienny 3,5 kW z montażem: ok. 4500–7000 zł. Modele przystosowane do grzania przy dużym mrozie są droższe.
+▪️ Kilka jednostek na jednej zewnętrznej (multisplit), np. 3 pokoje: ok. 12 000–16 000 zł.
+▪️ System kanałowy: ok. 20 000–50 000 zł i więcej.
+▪️ Ciepła woda osobno: pompa ciepła do c.w.u. albo podgrzewacz, plus montaż.
+🔹 ILE KOSZTUJE GRZANIE (przykład)
+▪️ Przykładowy nowy dom potrzebuje 8000 kWh ciepła rocznie na ogrzewanie.
+▪️ Przy średniej sprawności 4 to ok. 2000 kWh prądu, czyli przy ok. 1,04 zł/kWh ok. 2100 zł rocznie.
+▪️ Do tego trzeba doliczyć ciepłą wodę i to, że w mrozy sprawność spada.
+▪️ Rachunek wychodzi dobrze tylko wtedy, gdy ciepło rzeczywiście dociera do wszystkich pomieszczeń.
+🔹 ZANIM ZDECYDUJESZ
+▪️ Policz zapotrzebowanie na ciepło domu (OZC), a nie „kW na metr”.
+▪️ Zmiana źródła ciepła względem projektu wpływa na wskaźnik zapotrzebowania na energię i świadectwo charakterystyki energetycznej. Uzgodnij ją z projektantem i kierownikiem budowy.
+▪️ Montaż przez firmę z certyfikatem F-gazowym. Zapytaj o pracę przy mrozie, odszranianie i odpływ skroplin zimą.
+▪️ Zaplanuj miejsce na jednostki tak, żeby nie wiały na łóżko i kanapę.
+▪️ W sezonie grzewczym czyść filtry regularnie, według instrukcji. Zapchany filtr to mniej ciepła i więcej prądu.
+📋 ZAPISZ
+Karty techniczne z SCOP i zakresem pracy, protokół uruchomienia, kartę gwarancyjną i daty przeglądów. Po pierwszej zimie porównaj zużycie prądu z obietnicą sprzedawcy.
+Klimatyzator może grzać dom. Pod warunkiem, że dom jest na to gotowy.
+#pompaciepła #klimatyzacja #ogrzewaniedomu #powietrzepowietrze #budowadomu #EdukacjaBudowlana

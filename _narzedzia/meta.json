@@ -570,5 +570,655 @@
   ],
   "cover_w": 960,
   "cover_h": 1200
+ },
+ "122142776643228509": {
+  "date": "2026-10-26",
+  "title": "Teren wyrównany. Zanim posiejesz trawę, sprawdź, dokąd płynie woda",
+  "stage": 9,
+  "dzial": "uksztaltowanie-terenu",
+  "zag": "niwelacja-i-spadki-od-budynku",
+  "domain": "grunt",
+  "norms": [
+   "Prawo wodne art. 234"
+  ],
+  "lead": "Jak sprawdzić spadek terenu od domu przed sianiem trawnika, jak wysoko trzymać ziemię pod cokołem, jak zrobić opaskę i gdzie odprowadzić deszczówkę, żeby nie zalewać ani siebie, ani sąsiada.",
+  "disclaimer": "Spadki i odwodnienie dla konkretnej działki ustala projekt zagospodarowania; artykuł ma charakter informacyjny.",
+  "cover_w": 960,
+  "cover_h": 536
+ },
+ "122142783069228509": {
+  "date": "2026-10-26",
+  "title": "Kominek postawiony. Zanim pierwszy raz w nim zapalisz",
+  "stage": 6,
+  "dzial": "ogrzewanie-i-chlodzenie",
+  "zag": "kominek-i-przewody-spalinowe",
+  "domain": "instalacje",
+  "norms": [
+   "Prawo budowlane art. 62",
+   "Rozporządzenie w sprawie ochrony przeciwpożarowej budynków § 28a",
+   "Rozporządzenie w sprawie ochrony przeciwpożarowej budynków § 34",
+   "Ustawa o wspieraniu termomodernizacji i remontów oraz o centralnej ewidencji emisyjności budynków"
+  ],
+  "lead": "Co zrobić przed pierwszym rozpaleniem kominka: odbiór kominiarski, zgłoszenie do CEEB w 14 dni, czujki, pierwsze małe ogniska, doprowadzenie powietrza, wilgotność drewna i terminy czyszczenia przewodu.",
+  "disclaimer": "Instalację dla konkretnego budynku projektuje i wykonuje osoba z odpowiednimi uprawnieniami; artykuł ma charakter informacyjny.",
+  "cover_w": 960,
+  "cover_h": 540
+ },
+ "122142790677228509": {
+  "date": "2026-10-26",
+  "title": "Przyłącze prądu zrobione. Zanim w domu zaświeci się światło",
+  "stage": 9,
+  "dzial": "przylacza-i-sieci-zewnetrzne",
+  "zag": "przylacze-elektroenergetyczne",
+  "domain": "instalacje",
+  "norms": [
+   "Prawo energetyczne art. 7"
+  ],
+  "lead": "Co dzieli złącze przy ogrodzeniu od światła w domu: granica odpowiedzialności, linia do rozdzielnicy, moc przyłączeniowa, pomiary, oświadczenie o gotowości, umowa, taryfa i dokumenty do zachowania.",
+  "disclaimer": "Instalację dla konkretnego budynku projektuje i wykonuje osoba z odpowiednimi uprawnieniami; artykuł ma charakter informacyjny.",
+  "cover_w": 960,
+  "cover_h": 540,
+  "poprawki": [
+   [
+    "▪️ Po pozytywnym sprawdzeniu operator montuje licznik.",
+    "▪️ Po pozytywnym sprawdzeniu i zawarciu umowy operator montuje licznik."
+   ]
+  ]
+ },
+ "122142796467228509": {
+  "date": "2026-10-26",
+  "title": "Mata grzewcza elektryczna. Ciepła łazienka rano, bez grzania całego domu",
+  "stage": 6,
+  "dzial": "ogrzewanie-i-chlodzenie",
+  "zag": "ogrzewanie-podlogowe-i-grzejniki",
+  "domain": "instalacje",
+  "norms": [
+   "PN-HD 60364-7-701"
+  ],
+  "lead": "Do czego nadaje się elektryczna mata grzewcza, ile kosztuje zakup i grzanie w 2026 r. oraz co sprawdzić przy montażu: ekran w łazience, pomiary rezystancji, czujnik i miejsca, w których nie wolno jej układać.",
+  "disclaimer": "Instalację dla konkretnego budynku projektuje i wykonuje osoba z odpowiednimi uprawnieniami; artykuł ma charakter informacyjny.",
+  "cover_w": 960,
+  "cover_h": 540,
+  "poprawki": [
+   [
+    "Pod panele są osobne maty i folie, o mniejszej mocy, ok. 80–100 W/m².",
+    "Pod panele są osobne maty i folie, zwykle ok. 80–160 W/m². Dopuszczalną moc sprawdź w karcie podłogi."
+   ]
+  ]
+ },
+ "122142802989228509": {
+  "date": "2026-10-26",
+  "title": "Czy styropian trzeba kołkować na domu parterowym? Zależy od systemu, a nie od tego, co mówi ekipa",
+  "stage": 7,
+  "dzial": "ocieplenie-i-elewacja",
+  "zag": "etics-klejenie-kolkowanie-siatka",
+  "domain": "wykonczenia",
+  "norms": [
+   "Europejska ocena techniczna systemu ETICS",
+   "Krajowa ocena techniczna systemu ETICS"
+  ],
+  "lead": "Kiedy karta systemu pozwala kleić styropian bez kołków, kiedy kołki są konieczne, ile ich dać i gdzie, jak uniknąć biedronek na elewacji i jak sprawdzić starą ścianę przed klejeniem.",
+  "disclaimer": "Technologię wykonania dla konkretnej budowy ustala projekt i karta techniczna producenta; artykuł ma charakter informacyjny.",
+  "cover_w": 960,
+  "cover_h": 540,
+  "poprawki": [
+   [
+    "▪️ Kołek musi trafić w miejsce, gdzie pod płytą jest klej, i stać co najmniej ok. 10 cm od krawędzi płyty.",
+    "▪️ Kołek musi trafić w miejsce, gdzie pod płytą jest klej. Układ kołków na płycie, na stykach i w jej polu, podaje projekt, a dokument kołka podaje odległość od krawędzi muru, często ok. 10 cm."
+   ],
+   [
+    "Nowoczesne kołki kotwią się zwykle na 2,5 cm w betonie, cegle i pustakach, a głębiej w betonie komórkowym.",
+    "Głębokość zakotwienia podaje dokument kołka: w jednych modelach to 2,5 cm w betonie, cegle i pustakach, w innych ok. 6 cm, a w betonie komórkowym zwykle więcej."
+   ],
+   [
+    "to dziś ok. 200–280 zł/m²",
+    "to dziś ok. 160–280 zł/m²"
+   ]
+  ]
+ },
+ "122143471737228509": {
+  "date": "2026-10-31",
+  "title": "Dostawa HDS-em na budowę. Co przygotować, zanim przyjedzie auto z bloczkami",
+  "stage": 2,
+  "dzial": "przygotowanie-terenu",
+  "zag": "przyjmowanie-materialow-i-odpady",
+  "domain": "koszty",
+  "norms": [
+   "Ustawa o dozorze technicznym",
+   "Ustawa o drogach publicznych art. 41",
+   "Ustawa o drogach publicznych art. 41b"
+  ],
+  "lead": "Jak przygotować dojazd, grunt i miejsce postoju pod HDS, jak czytać tabelę udźwigu żurawia, ile palet zabierze auto i ile kosztuje dostawa, wraz z krótką listą do sprawdzenia przed rozładunkiem.",
+  "disclaimer": "Warunki rozładunku dla konkretnej budowy ustalają przewoźnik i kierownik budowy, a podane ceny są przykładowe; artykuł ma charakter informacyjny.",
+  "cover_w": 960,
+  "cover_h": 444,
+  "poprawki": [
+   [
+    "ale zarządca może wprowadzić zakaz, na przykład na słabej drodze lokalnej albo gruntowej.",
+    "ale zarządca może wprowadzić zakaz, na przykład na słabej drodze lokalnej. Na drodze gruntowej limit to z mocy ustawy 8 ton, chyba że zarządca go podniesie."
+   ]
+  ]
+ },
+ "122143664949228509": {
+  "date": "2026-11-03",
+  "title": "Murujesz sam? Policzyliśmy, ile naprawdę zostaje w kieszeni na każdym etapie",
+  "stage": 11,
+  "dzial": "wybor-wykonawcy",
+  "zag": "forma-realizacji-gospodarczy-gw-pod-klucz",
+  "domain": "koszty",
+  "norms": [
+   "Ustawa o VAT art. 41",
+   "Prawo budowlane art. 29",
+   "Prawo budowlane art. 42"
+  ],
+  "lead": "Ile robocizny można realnie zaoszczędzić na fundamentach, ścianach, stropach, dachu i oknach domu 120 m² i co tę oszczędność zjada: różnica VAT, sprzęt, czas, poprawki i wizyty kierownika budowy.",
+  "disclaimer": "Kwoty są orientacyjne i zależą od regionu, projektu i wykonawcy; artykuł ma charakter informacyjny.",
+  "cover_w": 960,
+  "cover_h": 1200
+ },
+ "122143964943228509": {
+  "date": "2026-11-05",
+  "title": "Działka wygląda świetnie, ale czy postawisz na niej dom? Co sprawdzić przed aktem notarialnym",
+  "stage": 1,
+  "dzial": "dzialka-i-warunki-zabudowy",
+  "zag": "wybor-i-ocena-dzialki",
+  "domain": "prawo",
+  "norms": [
+   "Ustawa o planowaniu i zagospodarowaniu przestrzennym art. 2 pkt 14",
+   "Ustawa o planowaniu i zagospodarowaniu przestrzennym art. 61",
+   "Ustawa o planowaniu i zagospodarowaniu przestrzennym art. 64c",
+   "Ustawa o planowaniu i zagospodarowaniu przestrzennym art. 65",
+   "Ustawa o ochronie gruntów rolnych i leśnych art. 7",
+   "Ustawa o ochronie gruntów rolnych i leśnych art. 11",
+   "Ustawa o kształtowaniu ustroju rolnego",
+   "Ustawa o drogach publicznych art. 7",
+   "Ustawa o drogach publicznych art. 29",
+   "Ustawa o drogach publicznych art. 43",
+   "Prawo energetyczne art. 7",
+   "Ustawa o zbiorowym zaopatrzeniu w wodę i zbiorowym odprowadzaniu ścieków art. 19a",
+   "Ustawa o księgach wieczystych i hipotece art. 6",
+   "Ustawa o księgach wieczystych i hipotece art. 7",
+   "Ustawa o księgach wieczystych i hipotece art. 8",
+   "Warunki techniczne § 12",
+   "Prawo budowlane art. 102a"
+  ],
+  "lead": "Co sprawdzić przed aktem notarialnym: czy po 1 września 2026 r. dostaniesz WZ, czy grunt rolny da się zabudować, jaki jest prawny dostęp do drogi, co z mediami, księgą wieczystą, wodą i szerokością działki.",
+  "disclaimer": "Artykuł ma charakter informacyjny i nie stanowi porady prawnej.",
+  "cover_w": 960,
+  "cover_h": 1200,
+  "poprawki": [
+   [
+    "iejscowe nie wygasły wraz z końcem sierpnia. \nfarmer\n",
+    "iejscowe nie wygasły wraz z końcem sierpnia.\n"
+   ],
+   [
+    "ie dostaniesz nowych warunków zabudowy (WZ). \nforsal\n",
+    "ie dostaniesz nowych warunków zabudowy (WZ).\n"
+   ],
+   [
+    "bo pozostałe warunki trzeba spełnić łącznie. \narslege.pl\n +2\n",
+    "bo pozostałe warunki trzeba spełnić łącznie.\n"
+   ],
+   [
+    "że doprowadzić do jej wygaśnięcia (art. 65). \nzbudujmydom\nzbudujmydom\n",
+    "że doprowadzić do jej wygaśnięcia (art. 65).\n"
+   ],
+   [
+    " konkretnej działki potwierdź więc w gminie. \nwartowiedziec\ngov.pl\n",
+    " konkretnej działki potwierdź więc w gminie.\n"
+   ],
+   [
+    "stawy o ochronie gruntów rolnych i leśnych). \nkpmg\n",
+    "stawy o ochronie gruntów rolnych i leśnych).\n"
+   ],
+   [
+    "Przy pozostałych użytkach rolnych wyłączenie następuje przed uzyskaniem pozwolenia na budowę (art. 11). \nwiescirolnicze\nlodz\n",
+    "Przy pozostałych użytkach rolnych decyzję o wyłączeniu trzeba uzyskać przed pozwoleniem na budowę albo zgłoszeniem (art. 11).\n"
+   ],
+   [
+    "awo pierwokupu. Od 1 ha dochodzi zgoda KOWR. \n123skupnieruchomosci\n",
+    "awo pierwokupu. Od 1 ha dochodzi zgoda KOWR.\n"
+   ],
+   [
+    "tyczny, na całej trasie do drogi publicznej. \ne-prawnik\nrp\n",
+    "tyczny, na całej trasie do drogi publicznej.\n"
+   ],
+   [
+    ". Sama nazwa na mapie niczego nie przesądza. \nkielce\n",
+    ". Sama nazwa na mapie niczego nie przesądza.\n"
+   ],
+   [
+    "yskaniu zezwolenia zarządcy drogi (art. 29). \nwartowiedziec\n",
+    "yskaniu zezwolenia zarządcy drogi (art. 29).\n"
+   ],
+   [
+    "pis działa także tam, gdzie obowiązuje MPZP. \nlexlege\nprawo\n",
+    "pis działa także tam, gdzie obowiązuje MPZP.\n"
+   ],
+   [
+    "ed zakupem ustal, kto i kiedy złoży wniosek. \nenerga-operator\nongeo\n",
+    "ed zakupem ustal, kto i kiedy złoży wniosek.\n"
+   ],
+   [
+    "ego, a warunki obowiązują 2 lata (art. 19a). \nmuratordom\n",
+    "ego, a warunki obowiązują 2 lata (art. 19a).\n"
+   ],
+   [
+    "użebności przesyłu. Załatw to przed zakupem. \nmuratordom\n",
+    "użebności przesyłu. Załatw to przed zakupem.\n"
+   ],
+   [
+    "łużebności, hipoteki i wzmianki o wnioskach. \nlexlege\n",
+    "łużebności, hipoteki i wzmianki o wnioskach.\n"
+   ],
+   [
+    "kabel czy ślady przejazdu to powód do pytań. \nlexlege\n",
+    "kabel czy ślady przejazdu to powód do pytań.\n"
+   ],
+   [
+    "ypy powodzi, więc obejrzyj teren po deszczu. \nmuratordom\nwodnesprawy\n",
+    "ypy powodzi, więc obejrzyj teren po deszczu.\n"
+   ],
+   [
+    "ściany z oknami lub drzwiami i 3 m bez nich. \ninzynierbudownictwa\nlexlege\n",
+    "ściany z oknami lub drzwiami i 3 m bez nich.\n"
+   ]
+  ]
+ },
+ "122142781149228509": {
+  "date": "2026-10-26",
+  "title": "Rekuperacja zamontowana. Zanim uznasz, że po prostu działa",
+  "stage": 8,
+  "dzial": "uruchomienie-instalacji",
+  "zag": "regulacja-i-pomiar-wentylacji",
+  "domain": "instalacje",
+  "norms": [
+   "PN-83/B-03430/Az3"
+  ],
+  "lead": "Co ma zawierać protokół regulacji rekuperacji, ile powietrza powinno wychodzić z łazienki, WC i kuchni oraz co zrobić z filtrami, syfonem i biegami w pierwszą zimę.",
+  "disclaimer": "Przepływy i ustawienia dla konkretnego domu wynikają z projektu instalacji i instrukcji centrali; artykuł ma charakter informacyjny.",
+  "cover_w": 960,
+  "cover_h": 540
+ },
+ "122142787497228509": {
+  "date": "2026-10-26",
+  "title": "Schody wylane. Zanim na nie wejdziesz, sprawdź pierwszy i ostatni stopień",
+  "stage": 4,
+  "dzial": "schody-i-komunikacja-pionowa",
+  "zag": "schody-zelbetowe-monolityczne",
+  "domain": "konstrukcje",
+  "norms": [],
+  "lead": "Jak pielęgnować świeże schody żelbetowe, kiedy zdjąć deskowanie i podpory oraz jak policzyć wysokość pierwszego i ostatniego stopnia pod przyszłe podłogi i okładziny.",
+  "disclaimer": "Terminy rozszalowania i wymiary schodów dla konkretnej budowy wynikają z projektu i decyzji kierownika budowy; artykuł ma charakter informacyjny.",
+  "cover_w": 960,
+  "cover_h": 540
+ },
+ "122142799329228509": {
+  "date": "2026-10-26",
+  "title": "Klimatyzator kanałowy. Chłód w całym domu, a na ścianach nic nie wisi",
+  "stage": 6,
+  "dzial": "wentylacja-i-klimatyzacja",
+  "zag": "klimatyzacja-i-f-gazy",
+  "domain": "instalacje",
+  "norms": [
+   "Rozporządzenie Ministra Środowiska z 14 czerwca 2007 r. (Dz.U. 2014 poz. 112)"
+  ],
+  "lead": "Kiedy zaplanować klimatyzację kanałową, ile miejsca zajmuje jednostka, na co uważać przy kanałach, skroplinach i serwisie oraz ile kosztuje montaż w porównaniu z klimatyzatorem ściennym.",
+  "disclaimer": "Instalację dla konkretnego budynku projektuje i wykonuje firma z certyfikatem F-gazowym; artykuł ma charakter informacyjny, a ceny są orientacyjne.",
+  "cover_w": 960,
+  "cover_h": 540
+ },
+ "122142924771228509": {
+  "date": "2026-10-28",
+  "title": "Jak trzyma się piętro, pod którym nic nie ma?",
+  "stage": 4,
+  "dzial": "nadproza-slupy-rdzenie-i-wience",
+  "zag": "slupy-podciagi-i-belki",
+  "domain": "konstrukcje",
+  "norms": [],
+  "lead": "Na przykładzie wiedeńskich wież TrIIIple wyjaśniamy, jak działa wspornik w wysokim budynku: co robią kondygnacja transferowa, sztywny trzon i sprężanie oraz czemu liczy się kolejność budowy.",
+  "disclaimer": "Opis ma charakter poglądowy; rozwiązania konkretnego obiektu wynikają z jego projektu konstrukcyjnego.",
+  "cover_w": 924,
+  "cover_h": 2000
+ },
+ "122143897101228509": {
+  "date": "2026-11-05",
+  "title": "Dom ma nową elewację, ale stare schody zewnętrzne trzeba dopiero wymienić",
+  "stage": 7,
+  "dzial": "ocieplenie-i-elewacja",
+  "zag": "cokol",
+  "domain": "wykonczenia",
+  "norms": [
+   "Prawo budowlane art. 3",
+   "Prawo budowlane art. 5",
+   "Prawo budowlane art. 29",
+   "Prawo budowlane art. 31",
+   "Kodeks cywilny art. 651",
+   "DIN 18533"
+  ],
+  "lead": "Jak połączyć wymianę schodów zewnętrznych z cokołem, izolacją i progiem: w jakiej kolejności pracować, co zrobić przy gotowej elewacji i kiedy wymiana schodów to remont, a kiedy przebudowa.",
+  "disclaimer": "Artykuł ma charakter informacyjny i nie zastępuje projektu, opinii technicznej, ekspertyzy ani porady prawnej dla konkretnej budowy.",
+  "cover_w": 960,
+  "cover_h": 1200,
+  "poprawki": [
+   [
+    "a według dostępnych źródeł nowych nie ogłoszono.",
+    "a nowych nie ogłoszono. Art. 102a–102c Prawa budowlanego pozwalają stosować dotychczasowe warunki do 20 marca 2028 r. po oświadczeniu inwestora."
+   ]
+  ]
+ },
+ "122143967121228509": {
+  "date": "2026-11-05",
+  "title": "Nowe okna mają zastąpić stare, skrzynkowe. Co z ościeżami?",
+  "stage": 13,
+  "dzial": "termomodernizacja",
+  "zag": "wymiana-okien-w-istniejacym-budynku",
+  "domain": "wykonczenia",
+  "norms": [
+   "Prawo budowlane art. 29",
+   "Kodeks cywilny art. 630",
+   "Kodeks cywilny art. 632",
+   "Ustawa o odpadach art. 3",
+   "Ustawa o ochronie zabytków i opiece nad zabytkami art. 36"
+  ],
+  "lead": "Co ustalić przed wymianą okien skrzynkowych: jak zmierzyć otwór, co zrobić z węgarkami i ościeżami, co zapisać w umowie na wypadek niespodzianek oraz kiedy potrzebne są formalności.",
+  "disclaimer": "Artykuł ma charakter informacyjny i nie zastępuje projektu, opinii technicznej, ekspertyzy ani porady prawnej dla konkretnej budowy.",
+  "cover_w": 960,
+  "cover_h": 1200
+ },
+ "122142782181228509": {
+  "date": "2026-10-26",
+  "title": "Fotowoltaika zamontowana. Zanim zaczniesz liczyć oszczędności",
+  "stage": 6,
+  "dzial": "elektryka-i-teletechnika",
+  "zag": "fotowoltaika-i-magazyn-energii",
+  "domain": "instalacje",
+  "norms": [
+   "Prawo budowlane art. 29"
+  ],
+  "lead": "Jakie formalności czekają po montażu fotowoltaiki u operatora i w straży pożarnej, jakie dokumenty odebrać od instalatora oraz jak monitorować produkcję i przesuwać zużycie na dzień w net-billingu.",
+  "disclaimer": "Instalację dla konkretnego budynku projektuje i wykonuje osoba z odpowiednimi uprawnieniami; artykuł ma charakter informacyjny.",
+  "cover_w": 960,
+  "cover_h": 540,
+  "poprawki": [
+   [
+    "▪️ Po montażu zawiadamia się komendę Państwowej Straży Pożarnej.",
+    "▪️ Po montażu zawiadamia się komendę Państwowej Straży Pożarnej, a do zawiadomienia dołącza się plan instalacji dla ekip ratowniczych."
+   ],
+   [
+    "▪️ przy mocy powyżej 6,5 kW: uzgodnienie ppoż. i zawiadomienie PSP.",
+    "▪️ przy mocy powyżej 6,5 kW: uzgodnienie ppoż., plan dla ekip ratowniczych i zawiadomienie PSP."
+   ],
+   [
+    "zwykle tylko ok. jedna trzecia produkcji jest zużywana na bieżąco.",
+    "zwykle tylko ok. 20–30% produkcji jest zużywane na bieżąco."
+   ]
+  ]
+ },
+ "122142788811228509": {
+  "date": "2026-10-26",
+  "title": "Ławy zalane. Zanim stanie pierwszy bloczek",
+  "stage": 3,
+  "dzial": "fundamenty",
+  "zag": "betonowanie-i-pielegnacja",
+  "domain": "konstrukcje",
+  "norms": [
+   "PN-EN 13670"
+  ],
+  "lead": "Jak pielęgnować ławy po betonowaniu, chronić je przed mrozem i wodą w wykopie, kiedy zdjąć deskowanie i co sprawdzić, zanim murarze postawią pierwszą warstwę bloczków.",
+  "disclaimer": "Rozwiązania konstrukcyjne dla konkretnego budynku dobiera projektant; artykuł ma charakter informacyjny.",
+  "cover_w": 960,
+  "cover_h": 720,
+  "poprawki": [
+   [
+    "▪️ Poniżej ok. +5°C beton prawie przestaje przybierać na wytrzymałości.",
+    "▪️ Poniżej ok. +5°C beton twardnieje znacznie wolniej, a przy ujemnych temperaturach hydratacja może stanąć."
+   ]
+  ]
+ },
+ "122142793761228509": {
+  "date": "2026-10-26",
+  "title": "Zanim postawisz ogrodzenie. Płot to też budowa",
+  "stage": 9,
+  "dzial": "nawierzchnie-i-elementy-zewnetrzne",
+  "zag": "ogrodzenie-i-bramy",
+  "domain": "prawo",
+  "norms": [
+   "Prawo budowlane art. 29",
+   "Prawo budowlane art. 49d",
+   "Kodeks cywilny art. 144",
+   "Kodeks cywilny art. 154",
+   "Warunki techniczne § 41",
+   "Warunki techniczne § 42",
+   "Warunki techniczne § 43"
+  ],
+  "lead": "Jak sprawdzić granicę, kiedy płot wymaga zgłoszenia, co mogą narzucić plan miejscowy i uchwała krajobrazowa oraz jakich zasad dla bramy i furtki trzymać się po wygaśnięciu warunków technicznych.",
+  "disclaimer": "Artykuł ma charakter informacyjny i nie stanowi porady prawnej.",
+  "cover_w": 960,
+  "cover_h": 540,
+  "poprawki": [
+   [
+    "▪️ Płot dokładnie na granicy uznaje się za wspólny (art. 154 § 1 KC).",
+    "▪️ Przy płocie dokładnie na granicy domniemywa się, że służy do wspólnego użytku sąsiadów (art. 154 § 1 KC)."
+   ]
+  ]
+ },
+ "122142800547228509": {
+  "date": "2026-10-26",
+  "title": "Czy klimatyzatorem można ogrzać dom? Można, ale nie każdy i nie każdym",
+  "stage": 6,
+  "dzial": "ogrzewanie-i-chlodzenie",
+  "zag": "wybor-zrodla-ciepla",
+  "domain": "instalacje",
+  "norms": [],
+  "lead": "Kiedy klimatyzator sprawdzi się jako główne ogrzewanie, a kiedy tylko jako dodatek: sprawność w mrozie, wady, koszty montażu i przykładowy rachunek roczny za prąd.",
+  "disclaimer": "Artykuł ma charakter informacyjny i nie zastępuje projektu, opinii technicznej, ekspertyzy ani porady prawnej dla konkretnej budowy.",
+  "cover_w": 960,
+  "cover_h": 540,
+  "poprawki": [
+   [
+    "Pełną moc trzymają zwykle do -15°C albo -25°C, zależnie od modelu.",
+    "Pełną moc trzymają zwykle do ok. -15°C, a niżej zależy to od modelu."
+   ],
+   [
+    "np. 3 pokoje: ok. 12 000–16 000 zł.",
+    "np. 3 pokoje: ok. 12 000–20 000 zł."
+   ]
+  ]
+ },
+ "122142926247228509": {
+  "date": "2026-10-28",
+  "title": "Balkon, czyli kawałek domu wysunięty w ulicę",
+  "stage": 4,
+  "dzial": "stropy",
+  "zag": "balkony-i-laczniki-termoizolacyjne",
+  "domain": "konstrukcje",
+  "norms": [],
+  "lead": "Jak na fasadach starych kamienic czytać historię konstrukcji balkonów: od kamiennych konsol, przez żeliwo i stalowe belki, po żelbet z łącznikami termoizolacyjnymi.",
+  "disclaimer": "Stan konkretnego balkonu ocenia osoba z uprawnieniami budowlanymi; artykuł ma charakter informacyjny.",
+  "cover_w": 960,
+  "cover_h": 444
+ },
+ "122143542195228509": {
+  "date": "2026-11-01",
+  "title": "Drugi komin do kominka obok głównego. Jak wysoko i jak daleko od okien?",
+  "stage": 4,
+  "dzial": "kominy-i-przewody",
+  "zag": "wysokosc-komina-nad-dachem",
+  "domain": "instalacje",
+  "norms": [
+   "Warunki techniczne § 141",
+   "Warunki techniczne § 142",
+   "Warunki techniczne § 175",
+   "PN-89/B-10425",
+   "Prawo budowlane art. 62",
+   "Prawo budowlane art. 102a"
+  ],
+  "lead": "Na jakiej wysokości wyprowadzić drugi komin przy głównym: wymiary nad dachem, odstępy od przeszkód, skąd bierze się 0,5 m od okna i jakie błędy popełnia się przy kominku.",
+  "disclaimer": "Artykuł ma charakter informacyjny i nie zastępuje projektu, opinii technicznej, ekspertyzy ani porady prawnej dla konkretnej budowy.",
+  "cover_w": 960,
+  "cover_h": 540,
+  "poprawki": [
+   [
+    "TREŚĆ\n",
+    ""
+   ]
+  ]
+ },
+ "122143662963228509": {
+  "date": "2026-11-03",
+  "title": "Przeciętny dom zdrożał w rok o prawie 79 tys. zł. I nie przez cegły",
+  "stage": 1,
+  "dzial": "budzet-finansowanie-i-harmonogram",
+  "zag": "budzet-kosztorys-i-rezerwa",
+  "domain": "koszty",
+  "norms": [],
+  "lead": "Skąd wziął się roczny wzrost kosztu domu 120 m² i jak bronić budżetu: osobna wycena robocizny, termin ważności ceny, rodzaj wynagrodzenia i rezerwa 10–15%.",
+  "disclaimer": "Podane kwoty są orientacyjne i nie zastępują kosztorysu ani wyceny dla konkretnej budowy.",
+  "cover_w": 960,
+  "cover_h": 1200
+ },
+ "122143843371228509": {
+  "date": "2026-11-04",
+  "title": "Wspólny dach przecieka nad jednym lokalem. Kto powinien zlecić diagnozę?",
+  "stage": 12,
+  "dzial": "przeglady-i-konserwacja",
+  "zag": "konserwacja-dachu-i-rynien",
+  "domain": "prawo",
+  "norms": [
+   "Ustawa o własności lokali art. 3",
+   "Ustawa o własności lokali art. 13",
+   "Ustawa o własności lokali art. 19",
+   "Ustawa o własności lokali art. 22",
+   "Ustawa o własności lokali art. 26",
+   "Ustawa o własności lokali art. 31",
+   "Kodeks cywilny art. 199",
+   "Kodeks cywilny art. 201",
+   "Kodeks cywilny art. 209",
+   "Kodeks cywilny art. 752",
+   "Prawo budowlane art. 62",
+   "Prawo budowlane art. 66",
+   "Ustawa o ochronie zabytków art. 36"
+  ],
+  "lead": "Kto zleca diagnozę przecieku we wspólnocie i w małej nieruchomości, jak rozdzielić zabezpieczenie, diagnozę i naprawę oraz co zrobić, gdy zarząd nie reaguje.",
+  "disclaimer": "Artykuł ma charakter informacyjny i nie stanowi porady prawnej.",
+  "cover_w": 960,
+  "cover_h": 1200
+ },
+ "122143976181228509": {
+  "date": "2026-11-05",
+  "title": "Dojazd to część zagospodarowania budowy",
+  "stage": 2,
+  "dzial": "przygotowanie-terenu",
+  "zag": "droga-tymczasowa-i-skladowanie",
+  "domain": "prawo",
+  "norms": [
+   "Rozporządzenie bhp przy robotach budowlanych § 8",
+   "Rozporządzenie bhp przy robotach budowlanych § 23",
+   "Rozporządzenie bhp przy robotach budowlanych § 26",
+   "Prawo budowlane art. 22",
+   "Ustawa o drogach publicznych art. 29",
+   "Ustawa o drogach publicznych art. 40",
+   "Kodeks cywilny art. 354",
+   "Kodeks cywilny art. 436",
+   "Kodeks cywilny art. 486",
+   "Kodeks cywilny art. 548",
+   "Ustawa o ubezpieczeniach obowiązkowych art. 34"
+  ],
+  "lead": "Jak przygotować dojazd i plac rozładunku przed pierwszą dostawą, kiedy potrzebne jest zezwolenie zarządcy drogi i kto płaci za przestój, przeładunek oraz szkody od ciężarówki.",
+  "disclaimer": "Artykuł ma charakter informacyjny i nie stanowi porady prawnej.",
+  "cover_w": 960,
+  "cover_h": 1200
+ },
+ "122143985355228509": {
+  "date": "2026-11-05",
+  "title": "Przewody na budowie: w ścianie, pod tynkiem czy w korycie? Zasady, wady i zalety",
+  "stage": 6,
+  "dzial": "elektryka-i-teletechnika",
+  "zag": "rozdzielnica-i-obwody",
+  "domain": "instalacje",
+  "norms": [
+   "Rozporządzenie w sprawie warunków technicznych z 2002 r. § 183 ust. 1 pkt 8 i 9",
+   "Rozporządzenie w sprawie warunków technicznych z 2002 r. § 187 ust. 1 i 2",
+   "Ustawa z 31 lipca 2026 r. (Dz.U. 2026 poz. 1161)",
+   "DIN 18015-3",
+   "N SEP-E-002"
+  ],
+  "lead": "Jedenaście sposobów prowadzenia przewodów w domu, od tynku i bruzdy po koryta i grunt, z zaletami, wadami i limitami bruzd w murze. Do tego zasady wspólne, łazienka, nowe trasy po tynkowaniu i 7 błędów, które później najdrożej kosztują.",
+  "disclaimer": "Instalację elektryczną dla konkretnego budynku projektuje i wykonuje osoba z odpowiednimi uprawnieniami; artykuł ma charakter informacyjny.",
+  "poprawki": [
+   [
+    "a przy złym ułożeniu przewód nie da się przeciągnąć",
+    "a przy złym ułożeniu przewodu nie da się przeciągnąć"
+   ],
+   [
+    "#PorybudowlaneBłędy",
+    "#BudowlaneBłędy"
+   ]
+  ],
+  "cover_w": 960,
+  "cover_h": 1200,
+  "thumb": [
+   63,
+   2,
+   0
+  ]
+ },
+ "122143987251228509": {
+  "date": "2026-11-05",
+  "title": "Ziemię z wykopu usypano tuż przy jego krawędzi. Kto powinien wskazać miejsce odkładu?",
+  "stage": 2,
+  "dzial": "wykopy-i-podloze",
+  "zag": "zabezpieczenie-scian-wykopu",
+  "domain": "prawo",
+  "norms": [
+   "Prawo budowlane art. 22 pkt 3, 3a, 3b i 4",
+   "Rozporządzenie w sprawie BHP podczas wykonywania robót budowlanych z 6 lutego 2003 r. § 8",
+   "Rozporządzenie w sprawie BHP podczas wykonywania robót budowlanych z 6 lutego 2003 r. § 23",
+   "Rozporządzenie w sprawie BHP podczas wykonywania robót budowlanych z 6 lutego 2003 r. § 154",
+   "Rozporządzenie w sprawie BHP podczas wykonywania robót budowlanych z 6 lutego 2003 r. § 155"
+  ],
+  "lead": "Kto decyduje o miejscu odkładu urobku, co nakazują § 154 i § 155 rozporządzenia BHP i dlaczego 0,6 m nie jest bezpieczną odległością dla każdego wykopu. Plus plan przed pierwszą łyżką koparki, kroki na wypadek ziemi przy krawędzi i 6 błędów organizacji wykopu.",
+  "disclaimer": "Artykuł ma charakter informacyjny i nie stanowi porady prawnej.",
+  "poprawki": [],
+  "cover_w": 960,
+  "cover_h": 1192,
+  "thumb": [
+   63,
+   1,
+   0
+  ]
+ },
+ "122143996917228509": {
+  "date": "2026-11-05",
+  "title": "Betoniarka dojedzie do działki. Ale czy przejedzie przez przepust?",
+  "stage": 2,
+  "dzial": "przygotowanie-terenu",
+  "zag": "droga-tymczasowa-i-skladowanie",
+  "domain": "prawo",
+  "norms": [
+   "Ustawa o drogach publicznych art. 8 ust. 2",
+   "Ustawa o drogach publicznych art. 29 ust. 1",
+   "Ustawa o drogach publicznych art. 30",
+   "Ustawa o drogach publicznych art. 41",
+   "Ustawa o drogach publicznych art. 41b",
+   "Ustawa o drogach publicznych art. 41d ust. 10",
+   "Prawo o ruchu drogowym art. 2 pkt 35a",
+   "Prawo o ruchu drogowym art. 64 ust. 2",
+   "Prawo o ruchu drogowym art. 140aa ust. 3",
+   "Kodeks cywilny art. 287",
+   "Kodeks cywilny art. 288",
+   "Kodeks cywilny art. 651"
+  ],
+  "lead": "Jak sprawdzić dojazd na budowę od drogi głównej do miejsca rozładunku: dane pojazdu z ładunkiem, limity nacisku osi, znaki B-18 i B-19, mostki, przepusty i zjazd. Kto co potwierdza, komu grozi kara i co zapisać w krótkiej karcie trasy.",
+  "disclaimer": "Artykuł ma charakter informacyjny i nie stanowi porady prawnej.",
+  "poprawki": [],
+  "cover_w": 960,
+  "cover_h": 536,
+  "thumb": [
+   63,
+   0,
+   0
+  ]
  }
 }

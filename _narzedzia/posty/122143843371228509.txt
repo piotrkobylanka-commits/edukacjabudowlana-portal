@@ -1,0 +1,115 @@
+💧 „Wspólny dach przecieka nad jednym lokalem. Kto powinien zlecić diagnozę?”
+
+Zaciek wraca po każdej większej ulewie. Właściciel maluje sufit, dekarz smaruje masą jedno miejsce, a zarządca pyta, czy już jest sucho. Po kolejnym deszczu plama pojawia się kawałek dalej.
+
+Tu pomieszały się trzy różne sprawy: ratowanie lokalu, szukanie przyczyny i wybór naprawy. Każda z nich ma inny cel i powinna skończyć się innym dokumentem.
+
+KTO ZLECA DIAGNOZĘ
+
+Ten, kto zarządza nieruchomością wspólną. Właściciel zalanego sufitu zwykle nie decyduje o tym sam.
+
+● Więcej niż trzy lokale: zarząd wspólnoty albo zarządca, któremu powierzono zarząd (art. 18 ust. 1, art. 20 ust. 1, art. 21 ust. 1 i art. 22 ust. 1 ustawy o własności lokali). Administrator działa w granicach swojej umowy.
+● Najwyżej trzy lokale: właściciele wspólnie, według Kodeksu cywilnego, jeśli umowa nie stanowi inaczej (art. 18 i 19 tej ustawy). Do zwykłego zarządu wystarcza większość liczona udziałami (art. 201 i 204 k.c.). Zlecenie samej diagnozy da się zwykle uznać za zwykły zarząd, choć to ocena, a nie zapis ustawy.
+● Budynek w zarządzie spółdzielni: zgłoszenie składasz do spółdzielni (art. 27 ustawy o spółdzielniach mieszkaniowych).
+
+Woda kapiąca nad jednym lokalem nie czyni dachu dachem tego lokalu. Nieruchomość wspólną tworzą części budynku, które nie służą wyłącznie właścicielom lokali (art. 3 ust. 2 ustawy o własności lokali). W sprawie rozpoznanej w Bydgoszczy właścicielki mieszkań z parteru uważały, że dach ich nie dotyczy, a sąd nakazał im dopłatę (II Ca 406/14). Przy nietypowym układzie sprawdź akt notarialny.
+
+ETAP 1. ZABEZPIECZENIE
+
+Cel jest jeden: zatrzymać szkodę. Nikt jeszcze nie rozstrzyga, skąd wzięła się woda.
+
+Właściciel lokalu:
+
+● Gdy woda dochodzi do oprawy albo sufit się wybrzusza, wyłącz obwód i odsuń ludzi z tego miejsca. Przy zagrożeniu życia dzwoń pod 112.
+● Zanim cokolwiek posprzątasz, zrób zdjęcia i film. Zapisz datę, godzinę i pogodę.
+● Zgłoś sprawę mailem lub pismem zarządowi, a przy najwyżej trzech lokalach pozostałym właścicielom. Poproś o zabezpieczenie i diagnozę.
+● Masz polisę? Sprawdź termin zgłoszenia w umowie lub OWU (art. 818 § 1 k.c.). Ubezpieczający powinien ograniczać szkodę, a celowe koszty są zwracane w granicach sumy ubezpieczenia (art. 826 § 1 i 4 k.c.).
+● Na dach nie wchodź.
+
+Zarząd, a przy najwyżej trzech lokalach właściciele:
+
+● Zlecają ekipie z zabezpieczeniem tymczasowe uszczelnienie, plandekę albo udrożnienie rynny czy wpustu. Gdy nie da się w porę uzyskać zgody właścicieli, zarząd może podjąć czynność zachowawczą (art. 209 k.c.; SN, II CSKP 404/22).
+● Dostają zdjęcia przed i po oraz krótki opis: gdzie, co i czym zrobiono.
+● Zapisują w zleceniu, że to zabezpieczenie tymczasowe i nie usuwa przyczyny.
+
+Masa uszczelniająca potrafi zakryć miejsce, które później trzeba zbadać, dlatego zdjęcia robi się przed jej nałożeniem.
+
+Na żądanie zarządu właściciel musi wpuścić ekipę, gdy jest to niezbędne do konserwacji, remontu albo usunięcia awarii w części wspólnej (art. 13 ust. 2 ustawy o własności lokali).
+
+ETAP 2. DIAGNOZA
+
+Zaciek pokazuje, gdzie woda wyszła. O miejscu, w którym weszła, mówi niewiele. Woda potrafi wędrować po warstwach dachu, a źródłem bywają też skropliny albo instalacja.
+
+Diagnozę najlepiej zlecić komuś, kto nie będzie sprzedawał naprawy, np. inżynierowi z uprawnieniami albo rzeczoznawcy budowlanemu. Dekarz może pomóc przy odkrywce i próbie wodnej. To zalecenie praktyczne.
+
+Przed zleceniem poproś o książkę obiektu budowlanego i ostatnie protokoły kontroli. W budynku wielorodzinnym elementy narażone na działanie pogody kontroluje się co najmniej raz w roku, a robi to osoba z odpowiednimi uprawnieniami (art. 62 ust. 1 pkt 1 lit. a i ust. 4 Prawa budowlanego). Budynek jednorodzinny, także z dwoma lokalami, jest z tego obowiązku wyłączony (art. 62 ust. 2 pkt 1).
+
+W zleceniu zapisz pytania, na które opinia ma odpowiedzieć:
+
+Czy woda pochodzi z opadu, skroplin czy z instalacji?
+Gdzie wchodzi i jaką drogą dochodzi do sufitu?
+Przy jakiej pogodzie pojawia się problem?
+Które warstwy są mokre lub uszkodzone?
+Czy ucierpiały konstrukcja, ocieplenie albo instalacja elektryczna?
+Jakie są warianty naprawy i czym potwierdzimy ich skuteczność?
+
+Metodę dobiera się do dachu: dziennik zdarzeń z pogodą, oględziny poddasza, pomiar wilgotności, próba wodna odcinkami, odkrywka. Na dachu płaskim pomocne bywają badania elektrooporowe albo dymowe. Termowizja wskaże miejsce do sprawdzenia, ale zawilgocenie trzeba potwierdzić pomiarem.
+
+Dobra opinia podaje miejsce i mechanizm przecieku, ze zdjęciami i punktami pomiarowymi. Jeśli czegoś nie ustalono, powinna to powiedzieć wprost.
+
+Ten etap ma znaczenie także później. Sąd Rejonowy Szczecin-Centrum oddalił pozew ubezpieczyciela o zwrot odszkodowania za zalanie mieszkania (III C 214/19). Nie ustalono, gdzie była nieszczelność, kiedy powstała szkoda ani kiedy zgłaszano problem wspólnocie. Lokal był już po remoncie, a zdjęcia z wnętrza nie wyjaśniły przyczyny.
+
+ETAP 3. DECYZJA O NAPRAWIE
+
+Naprawę wybiera się po diagnozie. Inaczej porównujesz oferty na różne domysły.
+
+Ustawa nie podaje kwoty, powyżej której kończy się zwykły zarząd. Liczą się między innymi zakres robót, koszt i wpływ na budynek.
+
+● Bieżąca konserwacja przy więcej niż trzech lokalach: zarząd decyduje sam (art. 22 ust. 1 ustawy o własności lokali).
+● Remont przekraczający zwykły zarząd: potrzebna jest uchwała właścicieli (art. 22 ust. 2). Głosy można zbierać na zebraniu albo indywidualnie (art. 23 ust. 1).
+● Najwyżej trzy lokale: do zwykłego zarządu wystarcza większość udziałów, a do czynności przekraczających ten zakres potrzebna jest zgoda wszystkich (art. 199 i 201 k.c.). W marcu 2026 r. Sąd Okręgowy w Olsztynie uznał kompleksowy remont dachu w budynku z dwoma lokalami za czynność przekraczającą zwykły zarząd (IX Ca 1382/25).
+
+Przy budynku wpisanym do rejestru zabytków roboty budowlane wymagają pozwolenia wojewódzkiego konserwatora (art. 36 ust. 1 pkt 1 ustawy o ochronie zabytków).
+
+Remont części wspólnej to koszt zarządu, który co do zasady rozkłada się według udziałów (art. 12 ust. 2 i art. 14 pkt 1 ustawy o własności lokali). Sufit w lokalu rozlicza się osobno. Właściciel utrzymuje swój lokal (art. 13 ust. 1), a odszkodowanie wymaga wykazania podstawy odpowiedzialności, nie samego przecieku. Wspomniany pozew w Szczecinie opierał się na winie wspólnoty (art. 415 k.c.).
+
+W zleceniu naprawy zapisz:
+
+● zakres zgodny z diagnozą,
+● sposób wykonania detali,
+● zdjęcia robót, które zostaną zakryte,
+● warunek odbioru: próba albo obserwacja przy podobnej pogodzie,
+● gwarancję i protokół odbioru.
+
+Jeśli dach ma gwarancję, sprawdź jej warunki, zanim wejdzie na niego inna firma. Przy dachu od dewelopera zapytaj prawnika, kto może zgłaszać roszczenia: właściciele czy wspólnota.
+
+Sufit maluje się na końcu, po potwierdzeniu szczelności i pomiarze wilgotności.
+
+CO, JEŚLI NIKT NIE REAGUJE
+
+Wyślij drugie pismo z terminem, zdjęciami i dziennikiem zdarzeń.
+Przy więcej niż trzech lokalach zbierz właścicieli mających co najmniej 1/10 udziałów i złóż wniosek o zwołanie zebrania (art. 31 lit. b ustawy o własności lokali).
+Zawiadom nadzór budowlany. Organ może decyzją nakazać usunięcie nieprawidłowości (art. 66 ust. 1 Prawa budowlanego), a przy zagrożeniu zażądać ekspertyzy (art. 62 ust. 3).
+Gdy zarząd nie wypełnia obowiązków, każdy właściciel może wnosić o zarządcę przymusowego (art. 26 ust. 1 ustawy o własności lokali).
+Przy najwyżej trzech lokalach zwykły zarząd można oprzeć na upoważnieniu sądu (art. 201 k.c.). Przy większym remoncie do sądu mogą pójść właściciele mający co najmniej połowę udziałów (art. 199 k.c.). Pozostaje też wniosek o wyznaczenie zarządcy (art. 203 k.c.).
+Jeśli dowód może zniknąć, zapytaj prawnika o zabezpieczenie dowodu (art. 310 k.p.c.).
+
+CZY MOŻESZ ZLECIĆ TO SAM
+
+Pilne ratowanie dachu i remont na własną rękę sądy oceniają inaczej. W sprawie rozpoznanej w Bydgoszczy, w budynku z czterema lokalami uznanym wtedy za małą wspólnotę, dach groził zawaleniem. Remont wykonany bez zgody części właścicielek uznano za czynność zachowawczą (art. 209 k.c.) i zasądzono zwrot kosztów. W sprawie rozpoznanej przez Sąd Okręgowy w Łodzi współwłaściciel sam wymienił papę na całym dachu, bez zgody pozostałych, i zwrotu nie dostał (III Ca 48/19).
+
+W większej wspólnocie sam fakt zapłaty za remont części wspólnej nie wystarcza. Sąd Najwyższy nie przyznał 78 050 zł właścicielowi, który był też jednoosobowym zarządem i przeprowadził samowolny remont zabytkowej kamienicy. Art. 12 ust. 2 ustawy nie był podstawą takiego roszczenia, a warunków prowadzenia cudzych spraw bez zlecenia (art. 752 k.c.) nie spełniono (II CSKP 404/22). To skrajny przypadek, ale pokazuje, że własna faktura nie daje automatycznego zwrotu.
+
+Prywatną opinię możesz zamówić dla siebie, tylko wejście na część wspólną uzgodnij z zarządem albo współwłaścicielami. Gdy sprawa jest pilna, najpierw daj im znać, ogranicz zakres do minimum i zachowaj zdjęcia, ofertę oraz fakturę.
+
+SIEDEM BŁĘDÓW
+
+❌ Malowanie sufitu przed ustaleniem przyczyny
+❌ Zgłoszenie wyłącznie telefonem
+❌ Zabezpieczenie bez zdjęć „przed”
+❌ Diagnoza zlecona tylko temu, kto sprzedaje naprawę
+❌ Opinia bez miejsca, mechanizmu i pomiarów
+❌ Remont całego dachu bez wymaganej zgody
+❌ Odbiór naprawy w suchy dzień, bez próby
+
+#EdukacjaBudowlana #PrzeciekDachu #WspólnotaMieszkaniowa #Dach #NieruchomośćWspólna #ZarządcaNieruchomości #DiagnostykaBudowlana #RemontDachu #ZalanieMieszkania #PrawoBudowlane

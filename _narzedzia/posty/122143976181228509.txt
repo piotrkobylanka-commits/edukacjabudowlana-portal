@@ -1,0 +1,45 @@
+🛣️ Dojazd to część zagospodarowania budowy
+
+Rozporządzenie w sprawie bhp podczas wykonywania robót budowlanych wymaga zagospodarowania terenu budowy przed rozpoczęciem robót. W zakres wchodzą m.in. drogi i składowiska materiałów (§ 8 pkt 2 i 8). Miejsca składowania trzeba wyznaczyć, utwardzić i odwodnić (§ 23). Organizacja budowy i kierowanie nią należą do kierownika budowy (art. 22 pkt 3 Prawa budowlanego). Kto płaci za drogę tymczasową, zależy od umów z wykonawcami.
+
+W praktyce dojazd tymczasowy to najczęściej:
+● geowłóknina i zagęszczona warstwa kruszywa (tłuczeń, kruszony gruz betonowy),
+● płyty drogowe betonowe lub stalowe na słabym gruncie albo na krótkim odcinku,
+● plac rozładunkowy blisko miejsca wbudowania, żeby nie przenosić palet drugi raz,
+● sprawdzenie, czy nad placem nie biegnie linia energetyczna, a pod nim nie ma przyłączy.
+
+Lokalizacja zjazdu z drogi publicznej wymaga zezwolenia zarządcy drogi (art. 29 ust. 1 ustawy o drogach publicznych). Sprawdź w projekcie zagospodarowania działki, którędy auta mają wjeżdżać. Jeśli zjazdu jeszcze nie ma, porozmawiaj z zarządem drogi przed pierwszą dostawą, a nie wtedy, gdy ciężarówka stoi już na poboczu.
+
+📋 Awaryjny plan dostawy ustal przed pierwszym kursem
+● Zaznacz na mapce główne miejsce rozładunku i zapasowe, oba na Twojej działce.
+● Zapisz w zamówieniu, jakim autem przyjedzie dostawca (masa, HDS, długość) i jaki dojazd zapewniasz Ty.
+● Podaj numer osoby, która na miejscu podejmie decyzję, gdy auto nie wjedzie.
+● Przygotuj plan B: mniejsze auto, rozładunek przy wjeździe i dowiezienie ładowarką albo przesunięcie dostawy.
+● Sprawdź cennik dostawcy: ile kosztuje godzina oczekiwania, nieudany kurs i holowanie.
+
+💸 Kto płaci za przestój i przeładunek
+
+Kupujący też ma obowiązki, bo musi współdziałać przy wykonaniu umowy (art. 354 § 2 k.c.). Jeśli zamówiłeś dostawę na plac, a dojazd był nieprzejezdny, dostawca może obciążyć Cię za czekanie lub nieudany kurs według warunków, które przyjąłeś. Gdy kupujący bez uzasadnionego powodu nie przyjmuje towaru albo nie robi tego, bez czego dostawa nie może się odbyć, sprzedawca może żądać naprawienia szkody (art. 486 k.c.).
+
+Działa to też w drugą stronę. Dojazd był taki, jak ustaliliście, a kierowca i tak na własną rękę zrzucił towar gdzie indziej? Wtedy dostawa nie jest wykonana zgodnie z umową i kosztów przeładunku możesz dochodzić od dostawcy (art. 471 k.c.). Przy zakupie konsumenckim ryzyko przypadkowej utraty lub uszkodzenia towaru przechodzi na kupującego z chwilą wydania mu rzeczy (art. 548 § 3 k.c.). Gdy palety leżą przy drodze, a nikt ich nie odebrał, to, czy w ogóle doszło do wydania, jest co najmniej sporne.
+
+🚧 Uszkodzony teren: kto odpowiada
+● Pobocze i chodnik. Palety zostawione na poboczu albo chodniku to zajęcie pasa drogowego. Bez zezwolenia zarządcy (art. 40 ust. 1 ustawy o drogach publicznych) grozi kara w wysokości 10-krotności opłaty (art. 40 ust. 12).
+● Szkody od pojazdu. Za koleiny w trawniku sąsiada, połamany krawężnik czy zerwany kabel odpowiada posiadacz pojazdu na zasadzie ryzyka (art. 436 § 1 k.c.). Ubezpieczenie OC obejmuje też szkody powstałe bezpośrednio przy rozładowywaniu pojazdu (art. 34 ust. 2 pkt 2 ustawy o ubezpieczeniach obowiązkowych). Sąd Najwyższy w składzie siedmiu sędziów uznał, że OC obejmuje również szkody wyrządzone pracą urządzenia zamontowanego na pojeździe (uchwała z 14.01.2022 r., III CZP 7/22).
+● Przyczynienie się. Jeśli poszkodowany jest inwestor, na przykład auto zerwało jego przyłącze, a on sam kazał wjechać na rozmokłą, nieutwardzoną glinę, odszkodowanie może zostać zmniejszone (art. 362 k.c.).
+
+📸 Gdy auto już ugrzęzło
+● Zrób zdjęcia auta, kolein i miejsca, w którym kierowca chce rozładować.
+● Zapisz godzinę przyjazdu i wyjazdu.
+● Decyzję o zmianie miejsca rozładunku potwierdź SMS-em albo wpisem na WZ.
+● Ustal, kto odpowiada za wyciąganie auta, zanim sąsiad podjedzie ciągnikiem.
+
+⚠️ 5 błędów przy dostawach na budowę
+
+Pierwsza dostawa przed zrobieniem dojazdu.
+Zamówienie „z dostawą” bez sprawdzenia, czy auto z HDS-em zmieści się w bramie i pod liniami.
+Zgoda na rozładunek „tam, gdzie się da” bez zdjęć i bez adnotacji na WZ.
+Palety oparte o ogrodzenie sąsiada albo zostawione w pasie drogowym. Stosy muszą stać co najmniej 0,75 m od ogrodzenia lub zabudowań (§ 26 ust. 5 pkt 1 rozporządzenia bhp).
+Podpisanie WZ przed obejrzeniem towaru i terenu.
+
+#EdukacjaBudowlana #budowadomu #placbudowy #kierownikbudowy #dostawamateriałów #budowa #prawobudowlane #inwestor #budujemydom #logistykabudowy #samobudowa

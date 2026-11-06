@@ -1,0 +1,35 @@
+☀️ Fotowoltaika zamontowana. Zanim zaczniesz liczyć oszczędności
+Moduły na dachu, falownik na ścianie, aplikacja pokazuje pierwsze kilowatogodziny. Ale samo zamontowanie instalacji to jeszcze nie koniec. Część formalności ma terminy, a od kilku prostych nawyków zależy, czy instalacja się zwróci.
+🔹 OPERATOR SIECI (OSD)
+▪️ Mikroinstalację zgłasza się operatorowi sieci, zwykle min. 30 dni przed planowanym uruchomieniem. Najczęściej robi to instalator.
+▪️ Operator wymienia albo przeprogramowuje licznik na dwukierunkowy.
+▪️ Do tego czasu nie oddawaj energii do sieci „na próbę”. Zapytaj instalatora, jak falownik ma być ustawiony do dnia wymiany licznika.
+🔹 STRAŻ POŻARNA
+▪️ Instalacja o mocy modułów powyżej 6,5 kW wymaga uzgodnienia projektu z rzeczoznawcą ds. zabezpieczeń przeciwpożarowych przed montażem.
+▪️ Po montażu zawiadamia się komendę Państwowej Straży Pożarnej.
+▪️ Liczy się moc modułów, nie moc falownika.
+▪️ Jeśli instalator montował powyżej 6,5 kW bez uzgodnienia, wyjaśnij to teraz, a nie przy pierwszej szkodzie.
+🔹 DOKUMENTY OD INSTALATORA
+▪️ protokół odbioru z pomiarami (izolacja, uziemienie, napięcia stringów),
+▪️ schemat instalacji z miejscami zabezpieczeń,
+▪️ karty gwarancyjne modułów, falownika i konstrukcji,
+▪️ zgłoszenie do OSD i potwierdzenie wymiany licznika,
+▪️ przy mocy powyżej 6,5 kW: uzgodnienie ppoż. i zawiadomienie PSP.
+🔹 JAK SIĘ ROZLICZASZ
+▪️ Nowe instalacje rozliczają się w systemie net-billing. Energię oddaną do sieci sprzedajesz po cenie rynkowej, a kupioną z sieci płacisz po cenie z taryfy.
+▪️ Prąd zużyty od razu, w czasie produkcji, jest najtańszy. Najbardziej opłaca się więc przesunąć zużycie na dzień: pralka, zmywarka, ciepła woda z pompy ciepła, ładowanie auta.
+▪️ Bez magazynu energii i bez zmiany nawyków zwykle tylko ok. jedna trzecia produkcji jest zużywana na bieżąco.
+🔹 MONITORING
+▪️ Skonfiguruj aplikację falownika i zapisz dane logowania.
+▪️ Raz w tygodniu spójrz na produkcję. Nagły spadek przy słońcu to sygnał usterki: wyłączony string, błąd falownika, zabrudzenie albo cień.
+▪️ Porównuj produkcję z tym samym miesiącem roku wcześniej, nie z sąsiadem.
+🔹 DACH I MODUŁY
+▪️ Nie wchodź na moduły. Pęknięcia ogniw często nie widać, a obniżają produkcję latami.
+▪️ Zwykle deszcz wystarczy do czyszczenia. Przy dużym zabrudzeniu myje się miękką szczotką i czystą wodą, bez myjki ciśnieniowej, według instrukcji producenta.
+▪️ Śniegu z modułów nie skrobie się łopatą.
+🔹 UBEZPIECZENIE
+▪️ Zgłoś instalację ubezpieczycielowi domu. Wiele polis jej nie obejmuje albo obejmuje tylko po zgłoszeniu.
+📋 ZAPISZ
+Datę uruchomienia, datę wymiany licznika, odczyty z licznika co miesiąc (pobór i oddanie) i produkcję z aplikacji. Po roku będziesz wiedział, czy instalacja zarabia tak, jak obiecywano.
+Fotowoltaika zarabia najwięcej wtedy, gdy prąd zużywasz w słońcu.
+#fotowoltaika #netbilling #prosument #nowydom #OZE #EdukacjaBudowlana

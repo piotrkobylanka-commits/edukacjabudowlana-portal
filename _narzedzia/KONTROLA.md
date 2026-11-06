@@ -58,6 +58,7 @@ Etapy: 1 Przygotowanie inwestycji i dokumentacja · 2 Roboty przygotowawcze i zi
 8. Zaktualizuj „Stan” i „Dziennik”.
 
 ## Stan (aktualizuj po każdym przeniesieniu)
+- AKTUALNE (6.11.2026): na serwerze 1384 artykuły, ostatnia paczka p/497.json, ostatni arkusz s63. Najwyższe przeniesione ID zdjęcia FB: 122143996917228509. Serwer wyprzedza repozytorium: nową wersję budować od pliku z serwera. Pełny dziennik: dokumenty projektu claude/EB_FB_portal_kontrola.md i claude/EB_miniatury_status.md.
 - Portal sprawdzony: 26.10.2026, plik z 26.10.2026 01:05.
 - Artykułów ogółem: 1290, z FB: 1140 (1108 z ID posta w okładce).
 - Ostatnia data na portalu: 2026-10-25.

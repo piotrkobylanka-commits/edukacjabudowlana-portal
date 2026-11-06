@@ -1,0 +1,89 @@
+🏠 „Dom ma nową elewację, ale stare schody zewnętrzne trzeba dopiero wymienić”
+
+Tynk gotowy, kolor odebrany, rusztowanie zdjęte. Przy wejściu zostały stare schody, bo „zrobi się je wiosną”. Wiosną ekipa wchodzi z młotem, a nowy cokół pęka razem ze starą okładziną.
+Takiej naprawy często da się uniknąć. Trzeba tylko potraktować schody, drzwi, izolację i cokół jako jeden węzeł, a nie cztery osobne zlecenia.
+
+JEDEN WĘZEŁ, KILKA ZAKRESÓW
+Przy wejściu spotykają się:
+● próg i drzwi,
+● podest albo górny stopień,
+● hydroizolacja ściany i fundamentu,
+● ocieplenie cokołu i tynk,
+● woda z dachu, z podestu i z bryzgów,
+● fundament schodów, który może pracować inaczej niż dom.
+Firma od elewacji skończy na „starych schodach”. Firma od schodów zacznie od „gotowej elewacji”. Między nimi zostaje pas, którego nikt nie wycenił.
+
+NAJPIERW PROJEKT WĘZŁA, POTEM KOLEJNOŚĆ
+Zanim ktoś rozbije schody, ustal:
+Rzędne. Posadzka w środku, próg, podest, teren. Sprawdź je przed zamówieniem drzwi i stopni.
+Geometrię. Wysokość i szerokość stopni, liczbę stopni, podest, otwieranie drzwi, balustradę.
+Konstrukcję. Czy stare schody są związane ze ścianą lub fundamentem domu i czy nowe będą osobną konstrukcją. Jak mają być posadowione i co po rozbiórce zostanie w gruncie.
+Dylatację. Jaka szczelina zostaje przy ścianie, czym ją wypełnić i jak uszczelnić.
+Izolację. Jak hydroizolacja fundamentu, cokołu i schodów łączy się w jedną ciągłą warstwę.
+Cokół. Grubość układu, materiał poniżej terenu, zakończenie tynku i poziom listwy.
+Wodę. Spadki, odpływ, rynna, opaska, styk z kostką.
+To lista dla projektanta albo kierownika budowy. Odpowiedzi trzeba mieć na rysunku, bo ekipa od elewacji i ekipa od schodów mogą się na budowie w ogóle nie spotkać.
+
+KOLEJNOŚĆ, GDY ELEWACJI JESZCZE NIE ZACZĘTO
+Pomiar i rysunek węzła.
+Rozbiórka starych schodów i ocena ściany oraz fundamentu.
+Naprawa i hydroizolacja ściany oraz fundamentu.
+Konstrukcja nowych schodów z zaplanowaną szczeliną.
+Ocieplenie cokołu i ściany.
+Uszczelnienie styku.
+Okładzina stopni, po czasie wymaganym dla betonu i materiałów, potem obróbki i balustrada.
+Teren, opaska i kostka.
+To kolejność przykładowa. Przy niektórych detalach cokół zamyka się wcześniej, a przy innych dopiero po betonowaniu. Rozstrzyga rysunek i system ocieplenia.
+Maciej Rokiel opisał w „Inżynierze Budownictwa” skutek braku takiego planu. Gdy nikt nie ustali kolejności prac i szerokości szczeliny, stopnie bywają wylewane niemal na styk ze ścianą. Kończy się to zawilgacaniem warstwy zbrojącej i wnikaniem wody pod tynk strukturalny.
+
+GDY ELEWACJA JEST JUŻ GOTOWA
+Też da się to zrobić bez niszczenia całej ściany:
+Zrób zdjęcia i protokół stanu przed rozbiórką, z miarką przy cokole.
+Przetnij połączenie przed kuciem. Szczegóły ustal z firmą od elewacji i z systemem. Celem jest kontrolowana krawędź, a nie rysa, która sama wybierze drogę. Cięcie nie może naruszyć izolacji pod spodem.
+Rozbieraj etapami. Nie przenoś uderzeń na ścianę i nie używaj cięższego narzędzia, niż wymaga tego zakres. Nie podkopuj fundamentu domu.
+Sprawdź, co jest pod spodem. Stan izolacji, ściany, fundamentu, przewodów. Odkrywka może zmienić zakres.
+Napraw warstwy po kolei. Hydroizolacja, izolacja, warstwa zbrojona, tynk. Sposób naprawy dobierz po ocenie podłoża. Część uszkodzeń ETICS naprawia się miejscowo, a część wymaga wymiany układu.
+Zapytaj o materiał na poprawkę. Tynk i farba z innej partii mogą być widoczne, a naprawa musi pasować do systemu.
+Osłoń ścianę na czas robót. Folia i płyty chronią ją przed pyłem, wodą i uderzeniami.
+Budżet zaplanuj od razu. Zamawiając schody, wyceń też cokół, tynk, malowanie i osobę, która odpowiada za ich połączenie.
+
+CO SPRAWDZIĆ PRZY CIĘCIU I KOTWACH
+● Kotwy balustrady i daszku nie mogą przypadkowo przebić hydroizolacji.
+● Przewody przy wejściu oznacz przed wierceniem. Dzwonek, oświetlenie, domofon i rury potrafią biec w przypadkowych miejscach.
+● Zakończenie cokołu ma odprowadzać wodę na zewnątrz, a nie pod tynk.
+● Spoina przy ścianie ma pracować, a nie udawać szczelność sztywną zaprawą.
+● Rura spustowa i odpływ nie mogą kończyć się na nowym podeście.
+
+JAK UKŁADAĆ WODĘ I CO WZIĄĆ Z WYTYCZNYCH
+Według Rokiela przy schodach przylegających do ściany hydroizolacja musi być wywinięta na warstwę zbrojącą ocieplenia, a przy styku trzeba przewidzieć cokolik. Izolacja pionowa fundamentu schodów ma w tym opracowaniu sięgać co najmniej 20 cm ponad teren. Dla schodów i spoczników podano spadek 2–3%.
+W materiale Remmers, opartym na DIN 18533 i WTA, strefa wody rozbryzgowej sięga 30 cm ponad teren lub wystający element. Przy schodach zapytaj projektanta, czy liczyć ją od stopnia albo podestu. Uszczelnienie ma być ciągłe lub w ciągły sposób połączone z hydroizolacją części podziemnej.
+Ten sam materiał przywołuje też 50 cm nad terenem dla izolacji pionowej według warunków technicznych ITB. Liczby z różnych opracowań nie są więc wymienne. To wskazówki producenta i wytycznych, a nie polski przepis. Wiążącą wartość dla Twojego węzła ma wskazać projekt i system.
+
+FORMALNOŚCI
+Nie ma jednej odpowiedzi dla „wymiany schodów”.
+● Remont: odtworzenie stanu pierwotnego, także z innych wyrobów (art. 3 pkt 8 Prawa budowlanego).
+● Przebudowa: zmiana parametrów użytkowych lub technicznych, ale bez zmiany m.in. kubatury, powierzchni zabudowy, wysokości, długości i szerokości (art. 3 pkt 7a).
+● Rozbudowa lub odbudowa: art. 3 pkt 6 zalicza je do budowy. W grę mogą wchodzić, gdy zmieniają się charakterystyczne parametry albo gdy obiekt powstaje od nowa. To ocena do sprawdzenia w konkretnej sprawie.
+NSA wskazał, że prace zmieniające parametry użytkowe lub techniczne nie są remontem (I OSK 436/19). Same słowa „wymiana schodów” niczego więc nie przesądzają.
+Remont wolno stojącego domu jednorodzinnego, którego obszar oddziaływania mieści się na działce, zwykle nie wymaga pozwolenia ani zgłoszenia (art. 29 ust. 4 pkt 2 lit. a). W budynkach, których budowa wymaga pozwolenia, remont przegród zewnętrznych albo elementów konstrukcyjnych wymaga zgłoszenia (art. 29 ust. 3 pkt 2 lit. b). Czy schody są takim elementem, ocenia się w konkretnej sprawie. Przy obiekcie z rejestru zabytków potrzebne są pozwolenie na budowę i dokument od konserwatora (art. 29 ust. 7 pkt 1).
+Gdy schody mają inne wymiary, inne miejsce albo mają stanąć jako osobny obiekt, zapytaj projektanta i starostwo o kwalifikację przed rozbiórką. Przy osobnym obiekcie sprawdź też przepisy o rozbiórce (art. 31).
+Warunki techniczne z 2002 r. straciły moc 20 września 2026 r., a według dostępnych źródeł nowych nie ogłoszono. Podstawę geometrii schodów ustal więc z projektantem, a nie z tabelą z internetu. Bezpieczeństwo użytkowania nadal jest wymaganiem ustawy (art. 5 ust. 1 pkt 1 lit. d Prawa budowlanego).
+
+UMOWA I ODPOWIEDZIALNOŚĆ
+● Opisz granicę zakresu w metrach, a nie hasłem „do styku”.
+● Wskaż jedną osobę, która odpowiada za cały węzeł.
+● Wpisz, kto naprawia elewację uszkodzoną przy rozbiórce.
+● Zapytaj wykonawcę elewacji, czy ingerencja wpływa na gwarancję. Warunki zależą od dokumentu gwarancyjnego.
+● Zrób zdjęcia warstw przed zakryciem.
+Przy umowie o roboty budowlane wykonawca powinien niezwłocznie zawiadomić inwestora, gdy dostarczona dokumentacja lub teren budowy nie nadają się do prawidłowego wykonania robót albo zajdą inne okoliczności, które mogą w tym przeszkodzić (art. 651 k.c.).
+
+SIEDEM BŁĘDÓW
+❌ Wycena elewacji bez odpowiedzi, co stanie się ze schodami
+❌ Cokół wykończony tuż przed planowaną rozbiórką
+❌ Nowe schody zabetonowane bez miejsca na izolację i tynk
+❌ Sztywna spoina zamiast zaplanowanej dylatacji
+❌ Zmiana rzędnej podestu bez sprawdzenia progu
+❌ Wymiana schodów bez zapytania o wodę z rynny i terenu
+❌ Brak jednej osoby odpowiedzialnej za węzeł wejścia
+
+#EdukacjaBudowlana #SchodyZewnętrzne #Elewacja #Cokół #Hydroizolacja #Ocieplenie #Remont #BudowaDomu #KierownikBudowy #PrawoBudowlane
