@@ -1,0 +1,115 @@
+📍 „Koparka zniszczyła punkty wytyczenia. Ekipa chce odtworzyć je od ogrodzenia.”
+
+Po wykopie stoją dwie ławy, trzecia leży w ziemi, a paliki z narożników zniknęły. Rano ma ruszyć kolejny etap. Ktoś bierze taśmę i mówi: w projekcie jest tyle od granicy, płot stoi, odmierzymy i po sprawie.
+
+Płot nie staje się granicą przez to, że stoi tam od lat. A nawet gdy stoi dokładnie na niej, taśma od płotu ustala położenie budynku od nowa. To już nie jest robocze odmierzanie.
+
+ZANIM KTOŚ WBIJE NOWY PALIK
+
+Wstrzymajcie roboty zależne od zniszczonych punktów. Nie prostujcie ławy i nie wstawiajcie palików „mniej więcej tam, gdzie były”.
+
+● Zróbcie zdjęcia z kilku stron, razem z wykopem i wykonanymi elementami.
+● Oznaczcie punkty, które ocalały, i odsuńcie od nich maszyny.
+● Spiszcie, co zniszczono: narożniki, osie na ławach, reper, znak graniczny.
+● Zawiadomcie kierownika budowy i inspektora nadzoru, jeśli został ustanowiony.
+
+CO SPRAWDZIĆ PRZED WZNOWIENIEM PRAC
+
+● Co zniknęło, a co się ruszyło. Potrącona ława bywa groźniejsza od zniszczonej. Nadal stoi, nadal ma nacięcie, tylko oś poszła w bok.
+● Co jest pewne. Szkic tyczenia zawiera między innymi dane osnowy, dane do tyczenia i wyniki pomiaru kontrolnego (§ 22 ust. 1 rozporządzenia o standardach pomiarów). Porównajcie z nim i z projektem punkty, które przetrwały.
+● Czy zgadza się wysokość. Poziom przenoście tylko z reperu, którego nikt nie potrącił. Gdy jest drugi reper, porównajcie je ze sobą.
+● Czy koparka nie ruszyła znaku granicznego albo punktu osnowy. To osobne sprawy, opisane niżej.
+● Co już powstało. Wykop można skorygować. Wylana ława albo ściana fundamentowa staje się punktem wyjścia dla kolejnych robót, więc jej położenie trzeba potwierdzić, zanim ktoś zacznie od niej mierzyć.
+
+Taśmą sprawdźcie długości boków i przekątne, ale bez złudzeń. Pokażą, czy obrys ma właściwy kształt. Nie pokażą, czy cały prostokąt nie stoi za daleko albo nie jest obrócony.
+
+GDZIE KOŃCZY SIĘ POMIAR EKIPY
+
+Przepisy nie wyznaczają tej linii jednym zdaniem. Prawo budowlane mówi o geodezyjnym wytyczeniu obiektu (art. 22 pkt 3, art. 43 ust. 1). Rozporządzenie określa tyczenie jako wyznaczenie i oznaczenie w terenie położenia elementów potrzebnych do realizacji projektu (§ 2 pkt 6). Prawo geodezyjne wymienia wytyczenie obiektów budowlanych wśród prac wymagających uprawnień zawodowych (art. 42 ust. 1 i ust. 2 pkt 5).
+
+Z tego wynika praktyczny test. To ocena, a nie brzmienie przepisu: czy ekipa przenosi położenie z pewnego punktu, czy ustala je od nowa?
+
+Zwykle zostaje to po stronie ekipy, pod kierownictwem kierownika budowy:
+
+● rozciągnięcie sznurków między nienaruszonymi ławami,
+● ustawienie szalunku od potwierdzonych osi,
+● odmierzenie wymiarów z rysunku od tych osi,
+● przeniesienie poziomu z potwierdzonego reperu,
+● bieżąca kontrola boków i przekątnych.
+
+Geodetę wzywajcie, gdy:
+
+● nie zostało dość pewnych punktów, by odtworzyć obrys,
+● nie wiadomo, czy ława się przesunęła,
+● reper zniknął, a nie ma drugiego, pewnego punktu wysokościowego,
+● jedyną drogą jest pomiar od płotu, sąsiedniego budynku, krawężnika albo słupa,
+● kontrola daje różnicę, której nikt nie umie wyjaśnić,
+● są wątpliwości co do położenia wykonanego fundamentu,
+● budynek ma stać blisko granicy lub innego obiektu, od którego odległość zapisano w projekcie.
+
+Jedno zastrzeżenie. Geodeta mógł założyć reper na słupku ogrodzenia. Wtedy punktem odniesienia jest ten oznaczony punkt o znanej wysokości, a nie cały płot. I nadal trzeba sprawdzić, czy nikt nie potrącił słupka.
+
+KTO PODEJMUJE DECYZJĘ
+
+Nie operator i nie brygadzista. Kierownik budowy zapewnia geodezyjne wytyczenie i kieruje budową zgodnie z projektem (art. 22 pkt 3 Prawa budowlanego). Art. 43 obejmuje obiekty wymagające pozwolenia i część budów na zgłoszenie. Gdy kierownika nie ustanowiono, zapewnienie wytyczenia należy do inwestora (art. 43 ust. 1b).
+
+Inspektor nadzoru, jeśli jest, reprezentuje inwestora i kontroluje zgodność realizacji z projektem (art. 25 pkt 1).
+
+ZNAK GRANICZNY I OSNOWA TO OSOBNE SPRAWY
+
+Zniszczony znak graniczny może wznowić wykonawca prac geodezyjnych, jeśli znak był wcześniej ustalony, a dokumenty pozwalają określić jego położenie. Strony trzeba zawiadomić, a z czynności powstaje protokół (art. 39 Prawa geodezyjnego). Jeżeli powstanie spór o położenie znaku, sprawa może trafić do sądu.
+
+Znaki geodezyjne podlegają ochronie. Przy ich zniszczeniu, uszkodzeniu lub przesunięciu właściciel albo władający nieruchomością ma bez zbędnej zwłoki zawiadomić starostę (art. 15 ust. 3). Kierownik budowy przejmuje i zabezpiecza stałe punkty osnowy znajdujące się na terenie budowy (art. 22 pkt 1).
+
+CO POWINNO BYĆ W ZLECENIU DLA GEODETY
+
+● aktualny projekt zagospodarowania i szkic tyczenia,
+● lista zniszczonych i ocalałych punktów,
+● informacja, co już wykonano,
+● odtworzenie potrzebnych punktów i osi,
+● pomiar kontrolny wykopu albo fundamentu, jeśli powstał,
+● przeniesienie punktów poza zasięg maszyn,
+● szkic i wpis w dzienniku budowy.
+
+Samo „proszę odtworzyć narożniki” nie odpowie na pytanie, czy to, co już zrobiono, stoi we właściwym miejscu.
+
+CO ZAPISAĆ W DOKUMENTACH
+
+Dziennik budowy rejestruje także zdarzenia mające znaczenie dla oceny prawidłowości robót (art. 47a ust. 1). Przy utracie punktów, od których zależy położenie budynku, trudno uznać wpis za przesadę.
+
+Zapiszcie datę, zakres zniszczeń, stan robót i decyzję kierownika. Geodeta potwierdza tyczenie wpisem w dzienniku (§ 21 ust. 3). Rozbieżności między pomiarami w toku budowy a projektem odnotowuje się w dzienniku i dokumentuje szkicami (§ 23 ust. 4).
+
+GDY POMIAR POKAŻE PRZESUNIĘCIE
+
+Nie poprawiajcie tego po cichu. Niech geodeta udokumentuje stan, a projektant oceni, co różnica oznacza dla projektu.
+
+Sama wielkość przesunięcia nie rozstrzyga sprawy. Art. 36a ust. 5 nie wymienia wprost położenia budynku na działce, ale wskazuje między innymi zwiększenie obszaru oddziaływania poza działkę oraz naruszenie planu miejscowego lub warunków zabudowy. Ocena projektanta nie wiąże nadzoru budowlanego. Istotne odstąpienie od projektu z pozwolenia wymaga zmiany decyzji (art. 36a ust. 1), a przy zgłoszeniu pozwolenia na całość albo ponownego zgłoszenia (art. 36a ust. 1a).
+
+Nadzór może wstrzymać roboty prowadzone w sposób istotnie odbiegający od ustaleń i warunków (art. 50 ust. 1 pkt 4). Może też pouczyć inwestora i po 60 dniach sprawdzić doprowadzenie robót do zgodności (art. 51a). Budynek objęty art. 43 przejdzie po wybudowaniu geodezyjną inwentaryzację powykonawczą, która pokaże rzeczywiste położenie.
+
+KTO ZAPŁACI ZA PONOWNY PRZYJAZD
+
+Zacznijcie od umowy i protokołu przekazania terenu. Przy umowie o roboty budowlane wykonawca, który protokolarnie przejął teren budowy, odpowiada na zasadach ogólnych za szkody wynikłe na tym terenie, aż do oddania obiektu (art. 652 k.c.). Nie oznacza to, że każdy rachunek automatycznie trafia do niego. Zachowajcie zdjęcia, wpis i fakturę geodety.
+
+ŻEBY NIE ROBIĆ TEGO TRZECI RAZ
+
+● ustawcie punkty poza zasięgiem maszyn i krawędzią wykopu,
+● oznaczcie je tak, żeby operator widział je z kabiny,
+● pokażcie mu je przed startem,
+● ustalcie z geodetą drugi punkt wysokościowy,
+● sfotografujcie ławy po zamocowaniu.
+
+SZEŚĆ BŁĘDÓW
+
+❌ Uznanie płotu za granicę bez sprawdzenia
+❌ Prostowanie potrąconej ławy na oko
+❌ Odczytanie poziomu z reperu, który mógł zostać potrącony
+❌ Traktowanie zgodnych przekątnych jako dowodu położenia
+❌ Mierzenie od nowego fundamentu przed potwierdzeniem jego miejsca
+❌ Brak wpisu i zdjęć, gdy sprawa wydaje się drobna
+
+NA KONIEC
+
+Płot pokazuje, gdzie ktoś postawił płot. Położenie domu wynika z projektu, szkicu tyczenia i pomiaru, który można sprawdzić.
+
+#EdukacjaBudowlana #Geodeta #WytyczenieBudynku #BudowaDomu #Fundamenty #ŁawyCiesielskie #GranicaDziałki #KierownikBudowy #DziennikBudowy #BłędyBudowlane #Inwestor

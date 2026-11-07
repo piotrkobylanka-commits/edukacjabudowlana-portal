@@ -1,0 +1,56 @@
+🏠 „Nowe pokrycie dachowe ma być cięższe od starego”. Najpierw więźba, potem cennik
+
+Stara blacha przecieka, dachówka podoba się wszystkim w domu, a dekarz ma wolny termin w marcu. W ofercie jest cena za metr, model dachówki i kolor. Brakuje odpowiedzi na pytanie, czy dach, który przez lata nosił kilka kilogramów na metrze, udźwignie kilkadziesiąt.
+Tę odpowiedź daje konstruktor, a nie katalog i nie dekarz. Zanim konstruktor ją da, musi dostać dane.
+
+ILE TO WŁAŚCIWIE WAŻY
+Poradniki branżowe podają dla dachówek około 30–70 kg/m², a dla blachodachówki 2–6 kg/m². Rozrzut jest duży, więc liczy się karta konkretnego produktu, a nie średnia z internetu.
+Przykład poglądowy: 150 m² połaci, blacha około 5 kg/m² zamieniana na dachówkę około 50 kg/m². Różnica to 45 kg/m², czyli blisko 7 ton więcej na całym dachu. Przy krokwiach co 90 cm każdy metr bieżący krokwi dostaje około 40 kg więcej, jeszcze przed śniegiem.
+Do tego dochodzą rzeczy, o których przy wyborze pokrycia mało kto myśli:
+● ocieplenie między krokwiami,
+● sufit z płyt g-k podwieszony do krokwi lub jętek,
+● gęstsze łaty i kontrłaty pod dachówkę,
+● panele fotowoltaiczne z konstrukcją,
+● okna dachowe, ławy kominiarskie, płotki śniegowe.
+Konstruktor sumuje to wszystko z obciążeniem śniegiem i wiatrem. Ciężar samego pokrycia to tylko część rachunku.
+CZEGO POTRZEBUJE KONSTRUKTOR
+Dokumenty. Projekt archiwalny, jeśli jest. Rok budowy, wcześniejsze przebudowy i naprawy dachu.
+Geometria. Rzut dachu, kąt nachylenia, rozpiętości, rodzaj więźby (krokwiowa, jętkowa, płatwiowo-kleszczowa) i rozstaw krokwi.
+Przekroje. Wymiary krokwi, jętek, płatwi, słupków i murłat zmierzone na strychu, a nie przepisane z pamięci. Gatunek i klasa drewna, jeśli da się je ustalić.
+Stan drewna. Zacieki, zawilgocenie, grzyb, otwory po owadach i mączka drzewna, pęknięcia, widoczne ugięcia, stan połączeń. Do tego sposób zakotwienia murłaty i stan ściany kolankowej.
+Warstwy obecne i planowane. Co leży na dachu teraz, co będzie po remoncie i co zostanie podwieszone od spodu.
+Lokalizacja. Adres i wysokość nad poziomem morza. Z tego konstruktor ustala obciążenie śniegiem i wiatrem według norm (PN-EN 1991-1-3 i PN-EN 1991-1-4), a nośność drewna sprawdza według PN-EN 1995-1-1.
+Karty 2–3 rozważanych pokryć. Ciężar na metr, rozstaw łat i minimalny kąt nachylenia. Nie każda dachówka nadaje się na dach o małym spadku, nawet jeśli więźba ją uniesie.
+Zdjęcia i dostęp. Wejście na strych, a przy wątpliwościach odkrywki w miejscach przy kominie, koszu, murłacie i okapie.
+JAKIEJ ODPOWIEDZI SZUKAĆ
+Przydatna ocena kończy się jednym z trzech wniosków:
+● więźba przeniesie wskazane pokrycie bez wzmocnień,
+● przeniesie je po wzmocnieniu, z rysunkiem i opisem, co dokładnie wzmocnić,
+● nie przeniesie, więc trzeba wybrać lżejsze pokrycie albo przebudować więźbę.
+Dobrze, gdy wpisano w niej dopuszczalny ciężar pokrycia w kg/m² i warunki: co zrobić, jeśli po zdjęciu starego pokrycia wyjdą elementy w gorszym stanie niż na oględzinach.
+Z takim dokumentem porównujesz oferty uczciwie. Tańsza dachówka może się okazać droższa od blachy, jeśli wymaga wzmocnienia więźby, projektu i zgłoszenia.
+FORMALNOŚCI
+Sama wymiana pokrycia to zwykle remont, czyli odtworzenie stanu pierwotnego, także z użyciem innych wyrobów (art. 3 pkt 8 Prawa budowlanego). W domu jednorodzinnym, którego budowa nie wymaga pozwolenia, taki remont nie wymaga ani pozwolenia, ani zgłoszenia (art. 29 ust. 4 pkt 2 lit. a).
+Wyjątek dotyczy budynków, których budowa wymaga pozwolenia na budowę, na przykład gdy obszar oddziaływania wychodzi poza działkę. Wtedy remont przegród zewnętrznych i elementów konstrukcyjnych, w tym dachu, wymaga zgłoszenia (art. 29 ust. 3 pkt 2 lit. b).
+Wzmocnienie więźby to inna sprawa. Prace zmieniające parametry techniczne konstrukcji mogą być przebudową (art. 3 pkt 7a). Przebudowa elementów konstrukcyjnych domu jednorodzinnego wymaga zgłoszenia (art. 29 ust. 3 pkt 1 lit. a). Dołącza się do niego projekt zagospodarowania działki i projekt architektoniczno-budowlany (art. 30 ust. 4c w związku z art. 33 ust. 2 pkt 1). Roboty można zacząć, jeśli organ nie wniesie sprzeciwu w ciągu 21 dni od doręczenia zgłoszenia (art. 30 ust. 5). Kwalifikację prac ustal z projektantem, zanim podpiszesz umowę z dekarzem.
+Przy budynku w rejestrze zabytków, na obszarze objętym ochroną albo przy zapisach planu miejscowego o rodzaju i kolorze pokrycia obowiązują dodatkowe zasady. Jeśli stare pokrycie zawiera azbest, jego usunięcie podlega osobnym przepisom. Zleć je firmie, która się tym zajmuje.
+CO ZAPISAĆ W UMOWIE Z DEKARZEM
+● konkretny produkt i jego ciężar, zgodny z oceną konstruktora,
+● zakaz zamiany na cięższe pokrycie bez pisemnej zgody konstruktora,
+● kto wykonuje wzmocnienia i według jakiego rysunku,
+● oględziny odsłoniętej więźby po zdjęciu starego pokrycia, przed ułożeniem nowego, z protokołem,
+● ceny jednostkowe wymiany krokwi, łat i deskowania, gdy wyjdą zniszczone elementy,
+● zasadę, że roboty dodatkowe zaczynają się dopiero po Twojej decyzji,
+● zabezpieczenie dachu przed opadami na czas prac.
+Wykonawca też ma obowiązki. Przy umowie o roboty budowlane powinien niezwłocznie zawiadomić inwestora, gdy dokumentacja albo inne okoliczności mogą przeszkodzić prawidłowemu wykonaniu robót (art. 651 k.c.). Przy umowie o dzieło podobny obowiązek wynika z art. 634 k.c. Lepiej jednak, żeby pytanie o więźbę padło przed podpisaniem umowy, a nie na rusztowaniu.
+
+7 BŁĘDÓW PRZY ZMIANIE POKRYCIA NA CIĘŻSZE
+❌ Wybór pokrycia z katalogu przed oceną więźby
+❌ Porównywanie ofert tylko ceną za metr pokrycia
+❌ Ciężar przyjęty „mniej więcej” zamiast z karty wybranego produktu
+❌ Pominięcie ocieplenia, sufitu i fotowoltaiki w obciążeniach
+❌ Ocena więźby bez wejścia na strych i bez pomiarów
+❌ Wzmocnienia dokładane przez ekipę „na oko”
+❌ Umowa bez zapisu, co dalej, gdy po zdjęciu starego pokrycia wyjdą zniszczone krokwie
+
+#EdukacjaBudowlana #Dach #WymianaDachu #Więźba #PokrycieDachowe #Dachówka #Konstruktor #RemontDachu #BudowaDomu #Inwestor #KierownikBudowy

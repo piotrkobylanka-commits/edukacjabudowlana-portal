@@ -1,0 +1,112 @@
+🔌 „W starej instalacji są różne rodzaje przewodów. Remont obejmuje tylko 
+
+Płytki skute, ściana otwarta. W jednym miejscu widać stare aluminium, w innym miedź dołożoną przy poprzednim remoncie. Budżet obejmuje jedną łazienkę, a ekipa chce zamknąć ścianę w przyszłym tygodniu.
+
+W tym momencie decyzja zwykle zapada „na oko”. Tymczasem nowe gniazdo będzie korzystać ze starego zasilania, zabezpieczeń i ochrony. Dlatego elektryk powinien ocenić coś więcej niż długość nowego przewodu.
+
+Ten tekst dotyczy zlecenia i dokumentów. Otwieranie puszek i rozdzielnicy, łączenie przewodów oraz pomiary zostaw elektrykowi.
+
+NAJPIERW OCENA, POTEM WYCENA
+
+Zleć ocenę jako osobny etap, zanim wybierzesz płytki, meble i sprzęt. Przekaż elektrykowi:
+
+Zakres remontu. Które pomieszczenie, jakie gniazda, oprawy i urządzenia mają się pojawić.
+Moc nowych urządzeń. Pralka, suszarka, bojler, grzejnik, płyta, klimatyzator.
+Historię instalacji. Co wiesz o przeróbkach. Stare protokoły, rysunki i zdjęcia.
+Rodzaj budynku. Dom czy lokal, a w bloku także kontakt do zarządcy.
+Oczekiwany wynik. Pisemna ocena, warianty wykonania i zakres pomiarów.
+
+Zapytanie „ile za pięć gniazdek?” daje cenę za punkty. Pytanie „co można bezpiecznie zostawić i pod jakim warunkiem?” daje podstawę do decyzji.
+
+CO ELEKTRYK MA USTALIĆ
+
+● Skąd idzie zasilanie pomieszczenia i co jeszcze wisi na tych obwodach.
+● Jakie są żyły, przekroje i izolacja oraz gdzie stare przewody spotykają się z nowszymi.
+● Czy istnieje osobny przewód ochronny, czy instalacja ma przewód ochronno-neutralny PEN.
+● Jakie zabezpieczenia są w rozdzielnicy i czy jest tam miejsce na zmiany.
+● Czy obwód wytrzyma nowe urządzenia, a w bloku także czy wystarczy zasilanie lokalu.
+● Czy w łazience da się spełnić wymagania dla pomieszczeń kąpielowych (PN-HD 60364-7-701), w tym dotyczące ochrony i połączeń wyrównawczych.
+
+Układ TN-C wymaga szczególnej uwagi. Norma PN-HD 60364-4-41 nie przewiduje w nim wyłączników różnicowoprądowych. Plan „dołożymy różnicówkę i będzie bezpiecznie” może więc nie mieć podstaw. Rozwiązanie musi wskazać elektryk po rozpoznaniu instalacji.
+
+DWA RÓŻNE DOKUMENTY
+
+Ocena przed remontem i protokół po remoncie mają inne zadania.
+
+Pierwszy dokument pokazuje stan zastany i warianty. Drugi potwierdza, co wykonano i jakie wyniki dały pomiary.
+
+Po zmianie w instalacji norma PN-HD 60364-6 każe sprawdzić dwie rzeczy: zgodność zmiany z normą oraz to, czy zmiana nie pogarsza bezpieczeństwa istniejącej instalacji. Nowy odcinek nie zamyka więc tematu.
+
+Zapytaj o oględziny oraz pomiary właściwe dla danego zakresu. Zwykle chodzi o rezystancję izolacji, ciągłość przewodów ochronnych, skuteczność ochrony przy uszkodzeniu i działanie wyłączników różnicowoprądowych, jeżeli są w obwodzie.
+
+Pomiar nie pokaże wszystkiego. Nie zastąpi obejrzenia połączeń ukrytych w puszce, której nikt nie otworzył. Ta informacja też powinna znaleźć się na papierze.
+
+TRZY GRUPY DECYZJI
+
+Poproś, aby elektryk podzielił wnioski na trzy grupy:
+
+● Do usunięcia przed uruchomieniem. Bez tego nowa część nie powinna ruszyć.
+● Warto zrobić teraz. Ściana jest otwarta, więc później będzie drożej albo trudniej.
+● Może zostać. Z podaną podstawą, warunkami i terminem kolejnego sprawdzenia.
+
+Tu pojawia się spór, który trzeba nazwać. Starsze poradniki budowlane stawiają sprawę ostro: instalacja aluminiowa kwalifikuje się do wymiany. Z kolei w omówieniu PN-HD 60364-6:2008 Edward Musiał opisał zasadę ochrony zastanej, według której przy sprawdzaniu okresowym wystarcza zgodność z wymaganiami z okresu budowy.
+
+Sam wiek przewodu nie daje więc gotowej odpowiedzi. Stan techniczny, wyniki, nowe obciążenie i ryzyko mogą ją zmienić. Ochrona zastana nie zwalnia też właściciela lub zarządcy z utrzymywania obiektu w należytym stanie technicznym (art. 5 ust. 2 i art. 61 pkt 1 Prawa budowlanego).
+
+JAK UDOKUMENTOWAĆ CZĘŚĆ, KTÓRA ZOSTAJE
+
+Po remoncie powinieneś mieć:
+
+Zdjęcia stanu przed zmianami. Wykonane przez elektryka lub w jego obecności, z opisem miejsca.
+Listę obwodów. Co zasilają, jakie mają zabezpieczenia i przewody, o ile udało się to ustalić.
+Granicę robót. Konkretny punkt, w którym kończy się nowa część. Najlepiej na szkicu.
+Protokół pomiarów. Miejsce, zakres, data, wyniki, warunki, numery przyrządów, uwagi, wniosek końcowy i podpis.
+Listę ograniczeń. Czego nie otwarto, nie zmierzono albo nie dało się ustalić, wraz z powodem.
+Usterki i zalecenia. Co usunięto, co zostało i do kiedy trzeba się tym zająć.
+Opis w rozdzielnicy. Oznaczone zabezpieczenia i aktualny schemat.
+Twoją decyzję. Które elementy zostają, na podstawie jakiej oceny i do kiedy wrócisz do tematu.
+
+Ostatni punkt zostawia ślad decyzji, ale nie naprawia usterki. Elektryk nie powinien też podpisywać, że sprawna jest „cała instalacja”, jeśli oceniał tylko jedno pomieszczenie.
+
+Brak wcześniejszych protokołów może później oznaczać dodatkowe badania. Odłóż dokumenty razem z papierami budynku lub lokalu. Przydadzą się przy następnym remoncie.
+
+KTO PODPISUJE
+
+Poproś o dane i kopię świadectwa kwalifikacyjnego. Sprawdź grupę, rodzaj, zakres i datę ważności.
+
+Świadectwa dla osób eksploatujących urządzenia i instalacje tracą ważność po 5 latach od wydania (art. 54 ust. 1aa Prawa energetycznego). Zgodnie z przepisami przejściowymi stare świadectwa bezterminowe obowiązywały maksymalnie do 3 lipca 2026 r. Ocena konkretnego dokumentu zależy od daty i zakresu.
+
+W opracowaniu członka SEP z 2021 r. zalecono, aby osoby wykonujące pomiary i podpisujące protokoły miały świadectwa E i D. Gdy pomiar wykonuje osoba z E, protokół sprawdza osoba z D.
+
+Okresową kontrolę instalacji elektrycznej wykonuje się co najmniej raz na 5 lat. Mogą ją prowadzić osoby z odpowiednimi uprawnieniami budowlanymi lub kwalifikacjami dozoru (art. 62 ust. 1 pkt 2, ust. 4 i 5 Prawa budowlanego). Ocena jednego pomieszczenia jej nie zastępuje.
+
+FORMALNOŚCI I GRANICE
+
+Instalowanie w użytkowanym budynku instalacji innych niż gazowe zwykle nie wymaga pozwolenia ani zgłoszenia (art. 29 ust. 4 pkt 3 lit. d Prawa budowlanego). Nie zmienia to wymagań bezpieczeństwa. Przy obiekcie wpisanym do rejestru zabytków obowiązują osobne zasady (art. 29 ust. 7).
+
+W budynku wielolokalowym nieruchomością wspólną są części i urządzenia, które nie służą wyłącznie właścicielowi lokalu (art. 3 ust. 2 ustawy o własności lokali). Zanim ktoś dotknie pionu, wspólnych zabezpieczeń albo plomb, ustal zakres z zarządcą, a gdy trzeba także z operatorem.
+
+Nowe bruzdy w ścianach nośnych i przejścia przez konstrukcję skonsultuj z konstruktorem.
+
+CO WPISAĆ DO UMOWY
+
+● Oddziel ocenę, roboty i pomiary oraz wskaż dokumenty, które dostajesz.
+● Opisz punkt, w którym kończy się zakres.
+● Ustal zasady, gdy odkrywka pokaże coś innego: stop, informacja, pisemna decyzja.
+● Wpisz, kto odpowiada za zdjęcia przed zamknięciem ściany.
+● Nie płać końcowo bez protokołu i listy ograniczeń, jeśli umowa to przewiduje.
+
+Jeśli zajdą okoliczności, które mogą przeszkodzić prawidłowemu wykonaniu pracy, wykonawca powinien niezwłocznie zawiadomić zamawiającego. Przy dziele chodzi o art. 634 k.c. Przy umowie o remont budynku zastosowanie może mieć art. 651 w związku z art. 658 k.c.
+
+OSIEM BŁĘDÓW
+
+❌ Cena za gniazdka bez sprawdzenia, co je zasila
+❌ Zakup urządzeń przed oceną obwodu
+❌ Założenie, że nowy przewód poprawia całą instalację
+❌ Plan dołożenia różnicówki bez rozpoznania układu
+❌ Protokół dla „całości” po ocenie jednego pomieszczenia
+❌ Brak zapisu, czego nie sprawdzono
+❌ Decyzja o pozostawieniu przewodów tylko ustnie
+❌ Zamknięcie ściany przed zdjęciami i pomiarem
+
+#EdukacjaBudowlana #InstalacjaElektryczna #StaraInstalacja #Remont #RemontŁazienki #PomiaryElektryczne #ProtokółPomiarów #Elektryk #BezpieczeństwoWDomu #PrawoBudowlane
