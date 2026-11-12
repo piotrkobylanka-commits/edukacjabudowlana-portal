@@ -93,42 +93,6 @@ def pobierz_lista():
     os.remove(path)
 
 
-FB_UA = [
-    {"User-Agent": "facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)"},
-    {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
-     "Accept-Language": "pl-PL,pl;q=0.9"},
-]
-
-
-def fb_url_po_id(pid):
-    """Adres pełnej grafiki z publicznej strony zdjęcia (linia w fb-obrazy.txt z samym ID)."""
-    strony = [
-        f"https://www.facebook.com/photo/?fbid={pid}&set=pb.61586855296654.-2207520000",
-        f"https://www.facebook.com/photo.php?fbid={pid}",
-        f"https://m.facebook.com/photo.php?fbid={pid}",
-        f"https://mbasic.facebook.com/photo.php?fbid={pid}",
-    ]
-    for adres in strony:
-        for h in FB_UA:
-            try:
-                req = urllib.request.Request(adres, headers=h)
-                with urllib.request.urlopen(req, timeout=60) as r:
-                    html = r.read().decode("utf-8", "replace")
-            except Exception as e:
-                REPORT.append(f"FB {pid}: {adres[:40]} {e}")
-                continue
-            kand = []
-            for m in re.finditer(r'"image":\{"uri":"([^"]+)"[^}]*?"width":(\d+)', html):
-                kand.append((int(m.group(2)), m.group(1)))
-            if kand:
-                kand.sort(reverse=True)
-                return kand[0][1].replace("\\/", "/")
-            m = re.search(r'<meta property="og:image" content="([^"]+)"', html)
-            if m:
-                return m.group(1).replace("&amp;", "&")
-    return None
-
-
 def fb_images():
     path = os.path.join(ROOT, "_narzedzia", "fb-obrazy.txt")
     if not os.path.exists(path):
@@ -139,14 +103,13 @@ def fb_images():
         if not line or line.startswith("#"):
             continue
         parts = line.split(None, 1)
-        pid = parts[0]
+        if len(parts) < 2:  # samo ID: adres grafiki trzeba dopisać ręcznie
+            REPORT.append(f"FB {parts[0]}: brak adresu grafiki")
+            continue
+        pid, url = parts
         out = f"_narzedzia/obrazy/{pid}.webp"
         if os.path.exists(os.path.join(ROOT, out)):
             REPORT.append(f"FB {pid}: już jest")
-            continue
-        url = parts[1] if len(parts) > 1 else fb_url_po_id(pid)
-        if not url:
-            REPORT.append(f"FB {pid}: nie znaleziono adresu grafiki")
             continue
         st, ct, data = get(url)
         if st != 200 or not data:
