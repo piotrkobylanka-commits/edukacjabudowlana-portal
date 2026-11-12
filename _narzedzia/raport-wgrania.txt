@@ -1,8 +1,16 @@
-2026-11-12 20:58 UTC
+2026-11-12 21:05 UTC
 == katalog domen
 edukacjabudowlana.eu
 ..
 .
 ebudem.pl
-na serwerze: 14810499, oczekiwane: 14776611
-STOP: plik na serwerze się zmienił, nic nie wgrano
+na serwerze: 14810499, oczekiwane: 14810499
+wgrano plik p/498.json (675689 B)
+wgrano plik img/thumbs/s64.webp (86038 B)
+wgrano: 14824812, lokalnie: 14824812
+PODMIENIONO, kopia: index_backup_20261112_2105.html
+== na żywo
+200 14824812
+zakładka: 1
+p/498.json 200 675689
+img/thumbs/s64.webp 200 86038
