@@ -1,2 +1,2 @@
-p/486.json
-img/thumbs/s60.webp
+p/498.json
+img/thumbs/s64.webp

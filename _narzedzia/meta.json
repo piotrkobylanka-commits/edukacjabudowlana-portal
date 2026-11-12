@@ -601,7 +601,7 @@
   "cover_w": 960,
   "cover_h": 1200,
   "thumb": [
-   60,
+   64,
    0,
    0
   ]
@@ -623,12 +623,7 @@
   "disclaimer": "Instalację projektuje i wykonuje osoba z odpowiednimi kwalifikacjami; artykuł ma charakter informacyjny.",
   "naglowki": [],
   "cover_w": 960,
-  "cover_h": 1200,
-  "thumb": [
-   60,
-   1,
-   0
-  ]
+  "cover_h": 1200
  },
  "122143987251228509": {
   "date": "2026-11-05",
@@ -650,12 +645,7 @@
    "Co zrobić, gdy ziemia już leży przy krawędzi?"
   ],
   "cover_w": 960,
-  "cover_h": 1192,
-  "thumb": [
-   60,
-   2,
-   0
-  ]
+  "cover_h": 1192
  },
  "122143996917228509": {
   "date": "2026-11-05",
@@ -673,11 +663,6 @@
   "disclaimer": "Artykuł ma charakter informacyjny i nie stanowi porady prawnej.",
   "cover_w": 960,
   "cover_h": 536,
-  "thumb": [
-   60,
-   3,
-   0
-  ],
   "listy": true
  },
  "122144043597228509": {
@@ -699,8 +684,8 @@
   "cover_w": 960,
   "cover_h": 1200,
   "thumb": [
-   60,
-   4,
+   64,
+   1,
    0
   ]
  },
@@ -727,9 +712,9 @@
   "cover_w": 960,
   "cover_h": 1200,
   "thumb": [
-   60,
-   0,
-   1
+   64,
+   2,
+   0
   ]
  },
  "122144171007228509": {
