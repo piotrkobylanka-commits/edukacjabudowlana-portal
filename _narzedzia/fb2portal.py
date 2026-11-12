@@ -33,6 +33,8 @@ def make_title(first):
 
 
 def is_heading(line):
+    if line.startswith(("❌", "✅")) and not re.search(r"\d+\s+b[łl][ęe]d|BŁĘD|błędów", line):
+        return False  # punkt listy błędów, nie śródtytuł
     if line.startswith(BULLETS) and not HEAD_EMOJI.match(line):
         return False
     if not HEAD_EMOJI.match(line):

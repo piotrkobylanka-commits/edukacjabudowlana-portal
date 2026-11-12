@@ -1,6 +1,6 @@
 name: Wgranie index.html
 
-# Wgrywa sam index.html na Hostingera przez FTPS z weryfikacją certyfikatu (*.hstgr.io).
+# Wgrywa index.html (i nowe pliki z _narzedzia/wgraj-pliki.txt) na Hostingera przez FTPS z weryfikacją certyfikatu (*.hstgr.io).
 # Kolejność: kontrola rozmiaru pliku na serwerze, wgranie jako index.new.html, kopia starego, podmiana, kontrola na żywo.
 # Oczekiwany rozmiar pliku na serwerze: _narzedzia/wgraj-index-trigger (pierwsza linia).
 
@@ -38,6 +38,20 @@ jobs:
           NA=$($C -I "ftp://$H/domains/edukacjabudowlana.eu/public_html/index.html" 2>>$R | tr -d '\r' | awk 'tolower($1)=="content-length:"{print $2}')
           echo "na serwerze: $NA, oczekiwane: $OCZ" >> $R
           if [ "$NA" != "$OCZ" ]; then echo "STOP: plik na serwerze się zmienił, nic nie wgrano" >> $R; exit 0; fi
+          # Nowe pliki (paczki grafik p/NNN.json, arkusze miniatur): lista w _narzedzia/wgraj-pliki.txt.
+          # Wgrywane tylko wtedy, gdy na serwerze ich NIE MA (nic nie nadpisujemy); jeśli plik już jest, STOP.
+          if [ -f _narzedzia/wgraj-pliki.txt ]; then
+            while read -r F <&3; do
+              case "$F" in ""|\#*) continue;; esac
+              [ -f "$F" ] || { echo "STOP: brak lokalnie $F" >> $R; exit 0; }
+              JEST=$($C -I "ftp://$H/domains/edukacjabudowlana.eu/public_html/$F" 2>/dev/null | tr -d '\r' | awk 'tolower($1)=="content-length:"{print $2}')
+              if [ -n "$JEST" ]; then echo "STOP: $F już jest na serwerze ($JEST B), nic nie nadpisano" >> $R; exit 0; fi
+              $C --ftp-create-dirs -T "$F" "ftp://$H/domains/edukacjabudowlana.eu/public_html/$F" 2>>$R || { echo "STOP: błąd wgrania $F" >> $R; exit 0; }
+              W=$($C -I "ftp://$H/domains/edukacjabudowlana.eu/public_html/$F" 2>>$R | tr -d '\r' | awk 'tolower($1)=="content-length:"{print $2}')
+              if [ "$W" != "$(stat -c %s "$F")" ]; then echo "STOP: rozmiar $F na serwerze ($W) inny niż lokalnie" >> $R; exit 0; fi
+              echo "wgrano plik $F ($W B)" >> $R
+            done 3< _narzedzia/wgraj-pliki.txt
+          fi
           LOK=$(stat -c %s index.html)
           $C -T index.html "ftp://$H/domains/edukacjabudowlana.eu/public_html/index.new.html" 2>>$R || { echo "błąd wgrania" >> $R; exit 0; }
           NOWY=$($C -I "ftp://$H/domains/edukacjabudowlana.eu/public_html/index.new.html" 2>>$R | tr -d '\r' | awk 'tolower($1)=="content-length:"{print $2}')
@@ -48,6 +62,7 @@ jobs:
           echo "== na żywo" >> $R
           curl -s -o /tmp/l.html -w '%{http_code} %{size_download}\n' "https://edukacjabudowlana.eu/?nocache=$(date +%s)" >> $R
           echo "zakładka: $(grep -c 'p-polaczenia' /tmp/l.html)" >> $R
+          if [ -f _narzedzia/wgraj-pliki.txt ]; then grep -v '^#' _narzedzia/wgraj-pliki.txt | while read -r F; do [ -n "$F" ] && curl -s -o /dev/null -w "$F %{http_code} %{size_download}\n" "https://edukacjabudowlana.eu/$F?nocache=$(date +%s)" >> $R; done; fi
           sed -i "s/$HASLO/***/g" $R
           cat $R
       - name: Zapis

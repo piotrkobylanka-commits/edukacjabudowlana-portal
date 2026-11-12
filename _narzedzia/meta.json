@@ -570,5 +570,165 @@
   ],
   "cover_w": 960,
   "cover_h": 1200
+ },
+ "122143958385228509": {
+  "date": "2026-11-05",
+  "title": "W starej instalacji są różne przewody, a remont obejmuje jedno pomieszczenie – jak zlecić ocenę elektrykowi",
+  "stage": 6,
+  "dzial": "elektryka-i-teletechnika",
+  "zag": "pomiary-i-protokoly",
+  "domain": "instalacje",
+  "norms": [
+   "PN-HD 60364-4-41",
+   "PN-HD 60364-6",
+   "PN-HD 60364-7-701",
+   "Prawo budowlane art. 29 ust. 4 pkt 3 lit. d",
+   "Prawo budowlane art. 29 ust. 7",
+   "Prawo budowlane art. 62 ust. 1 pkt 2",
+   "Prawo energetyczne art. 54 ust. 1aa",
+   "Ustawa o własności lokali art. 3 ust. 2",
+   "Kodeks cywilny art. 634",
+   "Kodeks cywilny art. 651"
+  ],
+  "lead": "Co przekazać elektrykowi przed oceną, co ocena ma ustalić, jak podzielić wnioski na trzy grupy decyzji i jakie dokumenty zostawić dla części instalacji, której remont nie obejmuje.",
+  "disclaimer": "Prace przy instalacji elektrycznej wykonuje osoba z odpowiednimi kwalifikacjami; artykuł ma charakter informacyjny.",
+  "poprawki": [
+   [
+    "🔌 „W starej instalacji są różne rodzaje przewodów. Remont obejmuje tylko \n",
+    "🔌 „W starej instalacji są różne rodzaje przewodów. Remont obejmuje tylko jedno pomieszczenie”. Jak zlecić ocenę elektrykowi\n"
+   ]
+  ],
+  "cover_w": 960,
+  "cover_h": 1200,
+  "thumb": [
+   60,
+   0,
+   0
+  ]
+ },
+ "122143985355228509": {
+  "date": "2026-11-05",
+  "title": "Przewody na budowie: w ścianie, pod tynkiem czy w korycie? Zasady, wady i zalety",
+  "stage": 6,
+  "dzial": "elektryka-i-teletechnika",
+  "zag": "gniazda-laczniki-i-oswietlenie",
+  "domain": "instalacje",
+  "norms": [
+   "Warunki techniczne § 183 ust. 1",
+   "Warunki techniczne § 187",
+   "DIN 18015-3",
+   "N SEP-E-002"
+  ],
+  "lead": "Jedenaście sposobów prowadzenia przewodów, od tynku przez rury i zabudowy po koryta i grunt, z zaletami, wadami i zasadami wspólnymi dla każdej metody. Do tego: co zrobić, gdy tynki już są.",
+  "disclaimer": "Instalację projektuje i wykonuje osoba z odpowiednimi kwalifikacjami; artykuł ma charakter informacyjny.",
+  "naglowki": [],
+  "cover_w": 960,
+  "cover_h": 1200,
+  "thumb": [
+   60,
+   1,
+   0
+  ]
+ },
+ "122143987251228509": {
+  "date": "2026-11-05",
+  "title": "Ziemię z wykopu usypano tuż przy jego krawędzi – kto powinien wskazać miejsce odkładu?",
+  "stage": 2,
+  "dzial": "wykopy-i-podloze",
+  "zag": "zabezpieczenie-scian-wykopu",
+  "domain": "prawo",
+  "norms": [
+   "Prawo budowlane art. 22 pkt 3, 3a, 3b i 4",
+   "Rozporządzenie w sprawie BHP podczas wykonywania robót budowlanych § 8, § 23, § 154, § 155"
+  ],
+  "lead": "Dlaczego hałda przy krawędzi wykopu jest problemem, kto na budowie decyduje o miejscu odkładu, co mówią przepisy BHP o odległości urobku od wykopu i co zrobić, gdy ziemia już tam leży.",
+  "disclaimer": "Artykuł ma charakter informacyjny; o zabezpieczeniu konkretnego wykopu decydują kierownik budowy i projektant.",
+  "naglowki": [
+   "Kto powinien podjąć decyzję?",
+   "Co mówią przepisy o odkładzie?",
+   "Jak zaplanować to przed pierwszą łyżką koparki?",
+   "Co zrobić, gdy ziemia już leży przy krawędzi?"
+  ],
+  "cover_w": 960,
+  "cover_h": 1192,
+  "thumb": [
+   60,
+   2,
+   0
+  ]
+ },
+ "122143996917228509": {
+  "date": "2026-11-05",
+  "title": "Betoniarka dojedzie do działki. Ale czy przejedzie przez przepust?",
+  "stage": 2,
+  "dzial": "przygotowanie-terenu",
+  "zag": "droga-tymczasowa-i-skladowanie",
+  "domain": "prawo",
+  "norms": [
+   "Ustawa o drogach publicznych art. 8, 29, 30, 41, 41b, 41d",
+   "Prawo o ruchu drogowym art. 2 pkt 35a, art. 64 ust. 2, art. 140aa",
+   "Kodeks cywilny art. 287, 288, 651"
+  ],
+  "lead": "Jak sprawdzić trasę od drogi głównej do miejsca rozładunku: dane pojazdu z ładunkiem, limity nacisku i masy na drogach, mostki i przepusty, drogi wewnętrzne, kto co potwierdza i co zapisać w karcie trasy.",
+  "disclaimer": "Artykuł ma charakter informacyjny i nie stanowi porady prawnej.",
+  "cover_w": 960,
+  "cover_h": 536,
+  "thumb": [
+   60,
+   3,
+   0
+  ]
+ },
+ "122144043597228509": {
+  "date": "2026-11-06",
+  "title": "Koparka zniszczyła punkty wytyczenia, a ekipa chce odtworzyć je od ogrodzenia – kto decyduje i co sprawdzić",
+  "stage": 2,
+  "dzial": "przygotowanie-terenu",
+  "zag": "wytyczenie-geodezyjne-i-repery",
+  "domain": "prawo",
+  "norms": [
+   "Prawo budowlane art. 22, 25, 36a, 42, 43, 47a, 50, 51a",
+   "Prawo geodezyjne i kartograficzne art. 15 ust. 3, art. 39",
+   "Rozporządzenie w sprawie standardów technicznych pomiarów geodezyjnych",
+   "Kodeks cywilny art. 652"
+  ],
+  "lead": "Dlaczego punktów wytyczenia nie odtwarza się od płotu, kiedy wystarczy pomiar ekipy, a kiedy trzeba wezwać geodetę, co zapisać w dokumentach i kto płaci za ponowny przyjazd.",
+  "disclaimer": "Artykuł ma charakter informacyjny i nie stanowi porady prawnej.",
+  "naglowki": [],
+  "cover_w": 960,
+  "cover_h": 1200,
+  "thumb": [
+   60,
+   4,
+   0
+  ]
+ },
+ "122144158515228509": {
+  "date": "2026-11-07",
+  "title": "Nowe pokrycie dachowe ma być cięższe od starego – najpierw więźba, potem cennik",
+  "stage": 13,
+  "dzial": "konstrukcja-i-wilgoc",
+  "zag": "wzmocnienia-konstrukcji",
+  "domain": "konstrukcje",
+  "norms": [
+   "PN-EN 1991-1-3",
+   "PN-EN 1991-1-4",
+   "PN-EN 1995-1-1",
+   "Prawo budowlane art. 3 pkt 7a i 8",
+   "Prawo budowlane art. 29 ust. 3 i 4",
+   "Prawo budowlane art. 30",
+   "Kodeks cywilny art. 634",
+   "Kodeks cywilny art. 651"
+  ],
+  "lead": "Ile waży nowe pokrycie razem z tym, o czym mało kto myśli, jakich danych potrzebuje konstruktor do oceny więźby, jakie formalności wchodzą w grę i co zapisać w umowie z dekarzem.",
+  "disclaimer": "Ocenę konstrukcji dachu wykonuje konstruktor z uprawnieniami; artykuł ma charakter informacyjny.",
+  "naglowki": [],
+  "cover_w": 960,
+  "cover_h": 1200,
+  "thumb": [
+   60,
+   0,
+   1
+  ]
  }
 }
