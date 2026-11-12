@@ -27,18 +27,28 @@ def oczysc(text):
     return "\n".join(out).replace("—", "–")
 
 
-def listy(text, heads=()):
-    bloki = re.split(r"\n\s*\n", text)
+def listy(text, heads=(), wszystkie=False):
+    """Sąsiednie linie bez znacznika -> punktory. W sekcji błędów zawsze („❌”),
+    w pozostałych tylko gdy meta ma "listy": true (inaczej mogłyby to być zwykłe akapity)."""
+    heads = set(heads)
+    # nagłówki z meta.json jako osobne bloki
+    lines = []
+    for l in text.split("\n"):
+        if l.strip() in heads:
+            lines += ["", l.strip(), ""]
+        else:
+            lines.append(l)
+    bloki = re.split(r"\n\s*\n", "\n".join(lines))
     wynik = []
     sekcja_bledow = False
     for b in bloki:
-        lines = b.split("\n")
+        lines = b.strip("\n").split("\n")
         first = lines[0].strip()
         if len(lines) == 1 and (F.is_heading(first) or F.is_caps_heading(first) or first in heads):
-            sekcja_bledow = "błęd" in first.lower()
+            sekcja_bledow = bool(re.search(r"b[łl][ęe]d|BŁĘD", first))
             wynik.append(b)
             continue
-        if len(lines) >= 2:
+        if len(lines) >= 2 and (sekcja_bledow or wszystkie):
             start = 1 if lines[0].rstrip().endswith(":") else 0
             items = [l for l in lines[start:] if l.strip()]
             plain = [l for l in items if not l.lstrip().startswith(MARK) and not re.match(r"^\d{1,2}\.\s", l)]
@@ -67,10 +77,10 @@ def buduj(pid, meta):
         if text.count(old) != 1:
             sys.exit(f"Poprawka nie pasuje dokładnie raz ({text.count(old)}x) w {pid}: {old[:60]}")
         text = text.replace(old, new)
-    text = numeracja(listy(oczysc(text), meta.get("naglowki", ())))
+    text = numeracja(listy(oczysc(text), meta.get("naglowki", ()), meta.get("listy", False)))
     tmp = os.path.join(ROOT, "_narzedzia", f".tmp_{pid}.txt")
     open(tmp, "w", encoding="utf-8").write(text)
-    m2 = dict(meta); m2.pop("poprawki", None)
+    m2 = dict(meta); m2.pop("poprawki", None); m2.pop("listy", None)
     mp = os.path.join(ROOT, "_narzedzia", f".tmp_{pid}.json")
     json.dump({pid: m2}, open(mp, "w", encoding="utf-8"), ensure_ascii=False)
     import io, contextlib

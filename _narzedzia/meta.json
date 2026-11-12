@@ -677,7 +677,8 @@
    60,
    3,
    0
-  ]
+  ],
+  "listy": true
  },
  "122144043597228509": {
   "date": "2026-11-06",
@@ -729,6 +730,566 @@
    60,
    0,
    1
+  ]
+ },
+ "122144171007228509": {
+  "date": "2026-11-07",
+  "title": "Spod starego tynku wyszedł zamurowany otwór – jak ocenić funkcję, konstrukcję i stan, zanim go zakryjesz",
+  "stage": 13,
+  "dzial": "konstrukcja-i-wilgoc",
+  "zag": "wzmocnienia-konstrukcji",
+  "domain": "konstrukcje",
+  "norms": [
+   "Prawo budowlane art. 3 pkt 7a i 8",
+   "Prawo budowlane art. 29 ust. 3 i 4",
+   "Prawo budowlane art. 30 ust. 4c",
+   "Ustawa o ochronie zabytków i opiece nad zabytkami art. 32",
+   "Kodeks cywilny art. 630, 632, 651"
+  ],
+  "lead": "Czym mógł być zamurowany otwór, jak sprawdzić nadproże i połączenie z murem, kiedy odkrycie zmienia zakres remontu, jakie formalności wchodzą w grę i kto płaci za roboty dodatkowe.",
+  "disclaimer": "Ocenę konstrukcji wykonuje konstruktor z uprawnieniami; artykuł ma charakter informacyjny.",
+  "naglowki": []
+ },
+ "122144173815228509": {
+  "date": "2026-11-07",
+  "title": "Remont trwa, a rodzina nadal mieszka w domu – strefy, instalacje, łazienka i harmonogram uciążliwych prac",
+  "stage": 13,
+  "dzial": "formalnosci-remontu",
+  "zag": "remont-zgloszenie-czy-pozwolenie",
+  "domain": "prawo",
+  "norms": [
+   "Kodeks wykroczeń art. 51 § 1",
+   "Kodeks cywilny art. 354 § 2",
+   "Kodeks cywilny art. 652"
+  ],
+  "lead": "Jak podzielić dom na strefy, ograniczyć pył bez ryzyka czadu, utrzymać działające instalacje, zaplanować łazienkę i kuchnię zastępczą oraz ułożyć hałaśliwe prace w kalendarzu i umowie.",
+  "disclaimer": "Artykuł ma charakter informacyjny i nie stanowi porady prawnej.",
+  "naglowki": []
+ },
+ "122144192559228509": {
+  "date": "2026-11-07",
+  "title": "Duża szyba pękła, choć nikt jej nie uderzył – co udokumentować, zanim zaczniecie szukać winnego",
+  "stage": 12,
+  "dzial": "rekojmia-i-gwarancja",
+  "zag": "zglaszanie-wad",
+  "domain": "prawo",
+  "norms": [
+   "PN-EN 14179-1",
+   "EN 12488",
+   "Ustawa o prawach konsumenta art. 7a, 43a–43g",
+   "Kodeks cywilny art. 6, 577, 578"
+  ],
+  "lead": "Jak odczytać przebieg pęknięcia, co sfotografować i zapisać o warunkach, osłonach i montażu, jak przygotować oględziny i reklamację oraz które przepisy rozstrzygają spór.",
+  "disclaimer": "Artykuł ma charakter informacyjny i nie stanowi porady prawnej.",
+  "naglowki": []
+ },
+ "122144194005228509": {
+  "date": "2026-11-07",
+  "title": "Okno waży kilkaset kilogramów – jak zaplanować jego wymianę, zanim powstanie ogród",
+  "stage": 9,
+  "dzial": "nawierzchnie-i-elementy-zewnetrzne",
+  "zag": "tarasy",
+  "domain": "prawo",
+  "norms": [
+   "Ustawa o drogach publicznych art. 40",
+   "Kodeks cywilny art. 285",
+   "Prawo budowlane art. 61"
+  ],
+  "lead": "Ile waży duże przeszklenie, o co zapytać producenta okna, jak wyznaczyć trasę i miejsce dla sprzętu, kiedy potrzebne jest zajęcie pasa drogowego i jak zabezpieczyć dojazd przez działkę sąsiada.",
+  "disclaimer": "Artykuł ma charakter informacyjny i nie stanowi porady prawnej.",
+  "naglowki": [
+   "1. Zapytaj producenta okna, jak wygląda serwis",
+   "2. Wyznacz trasę od ulicy do okna",
+   "3. Zostaw miejsce na sprzęt",
+   "4. Sprawdź, czy da się podjechać od ulicy",
+   "5. Sąsiad to też droga dojazdu",
+   "6. Zapisz to wszystko"
+  ],
+  "poprawki": [
+   [
+    "kablami oświadczenia ogrodu",
+    "kablami oświetlenia ogrodu"
+   ]
+  ]
+ },
+ "122144206803228509": {
+  "date": "2026-11-07",
+  "title": "Pilot przestał działać, a okno wysoko nad salonem zostało otwarte – trzy pytania przed zakupem okna elektrycznego",
+  "stage": 5,
+  "dzial": "okna-i-drzwi-balkonowe",
+  "zag": "dobor-okien-uw-szyby-profile",
+  "domain": "instalacje",
+  "norms": [
+   "Warunki techniczne § 187, 245, 246, 256, 270",
+   "Rozporządzenie w sprawie ochrony przeciwpożarowej budynków § 3",
+   "Prawo budowlane art. 102a, 102b"
+  ],
+  "lead": "Czym okno elektryczne dla wygody różni się od okna oddymiającego, co sprawdzić w trybie awaryjnym, przy zaniku zasilania i w dostępie serwisowym oraz jak przetestować okno przy odbiorze.",
+  "disclaimer": "Artykuł ma charakter informacyjny; rozwiązania dla konkretnego budynku dobiera projektant.",
+  "naglowki": [
+   "1. Tryb awaryjny: co, jeśli pilot nie zadziała?",
+   "2. Zanik zasilania: w jakiej pozycji zostanie okno?",
+   "3. Dostęp serwisowy: kto i jak się do tego okna dostanie?"
+  ]
+ },
+ "122144271291228509": {
+  "date": "2026-11-08",
+  "title": "Szklany narożnik bez słupka – kto uzgodnił, jak szkło spotyka się z konstrukcją?",
+  "stage": 5,
+  "dzial": "okna-i-drzwi-balkonowe",
+  "zag": "dobor-okien-uw-szyby-profile",
+  "domain": "konstrukcje",
+  "norms": [
+   "Prawo budowlane art. 3 pkt 13, art. 10, 20, 22, 23, 34, 36b, 102a",
+   "Warunki techniczne § 204 ust. 3, § 301"
+  ],
+  "lead": "Co mówią przepisy o narożniku bez słupka, co powinna zawierać karta rozwiązania narożnika, w jakiej kolejności koordynować stolarkę, nadproże i otwór oraz jakich błędów unikać.",
+  "disclaimer": "Artykuł ma charakter informacyjny; rozwiązania dla konkretnego budynku dobiera projektant.",
+  "naglowki": []
+ },
+ "122144283831228509": {
+  "date": "2026-11-08",
+  "title": "Moskitiera, roleta i drzwi przesuwne działają osobno, a razem się blokują – co sprawdzić przed zamówieniem",
+  "stage": 5,
+  "dzial": "okna-i-drzwi-balkonowe",
+  "zag": "rolety-i-oslony-zewnetrzne",
+  "domain": "wykonczenia",
+  "norms": [
+   "Prawo budowlane art. 5 ust. 1 pkt 3, art. 10",
+   "Warunki techniczne § 299 ust. 5"
+  ],
+  "lead": "Jak sprawdzić kolejność warstw przy ościeżu, prowadnice, klamki i uchwyty oraz miejsce do obsługi, kto odpowiada za zgodność zestawu i jak przetestować wszystkie kombinacje przy odbiorze.",
+  "disclaimer": "Artykuł ma charakter informacyjny.",
+  "naglowki": [
+   "1. Wymiary i kolejność warstw",
+   "2. Prowadnice",
+   "3. Klamki i uchwyty",
+   "4. Przestrzeń do obsługi"
+  ]
+ },
+ "122144289627228509": {
+  "date": "2026-11-08",
+  "title": "Płytki na starej drewnianej podłodze – dlaczego „mocniejszy klej” to nie projekt",
+  "stage": 8,
+  "dzial": "podlogi-i-schody",
+  "zag": "plytki-i-spieki-wielkoformatowe",
+  "domain": "konstrukcje",
+  "norms": [
+   "Prawo budowlane art. 3 pkt 7a i 8, art. 5, 10, 22, 29",
+   "Warunki techniczne § 204 ust. 3, § 322 ust. 3"
+  ],
+  "lead": "Jak ocenić konstrukcję pod podłogą i stan drewna, z jakich warstw złożyć układ pod płytki, kiedy potrzebny jest konstruktor i jakie błędy kończą się pękniętą okładziną.",
+  "disclaimer": "Artykuł ma charakter informacyjny; nośność stropu ocenia konstruktor.",
+  "naglowki": [
+   "1. Konstrukcja pod podłogą",
+   "2. Stan drewna",
+   "3. Cały układ warstw"
+  ]
+ },
+ "122144299611228509": {
+  "date": "2026-11-08",
+  "title": "Schody obłożone drewnem, a każdy stopień skrzypi inaczej – jak to zbadać, zanim ktoś „naprawi”",
+  "stage": 8,
+  "dzial": "podlogi-i-schody",
+  "zag": "wykonczenie-schodow",
+  "domain": "wykonczenia",
+  "norms": [],
+  "lead": "Jak zrobić mapę dźwięków, uwzględnić wilgotność, rozpisać kilka hipotez zamiast jednej diagnozy, ocenić schody warstwami aż do odkrywki i zorganizować oględziny z protokołem.",
+  "disclaimer": "Artykuł ma charakter informacyjny.",
+  "naglowki": []
+ },
+ "122144316333228509": {
+  "date": "2026-11-08",
+  "title": "Beton architektoniczny miał wyglądać naturalnie, a inwestor widzi same wady – co uzgodnić przed betonowaniem",
+  "stage": 11,
+  "dzial": "umowa-o-roboty-budowlane",
+  "zag": "zakres-robot-i-standard-wykonania",
+  "domain": "prawo",
+  "norms": [
+   "Beton architektoniczny – wytyczne techniczne (SPC, 2011)",
+   "DBV/VDZ Merkblatt Sichtbeton (2015)",
+   "Kodeks cywilny art. 556¹, 638, 647, 656"
+  ],
+  "lead": "Skąd bierze się spór o beton architektoniczny, jakie klasy powierzchni opisują wytyczne, co wpisać do umowy, jak wykonać próbkę referencyjną i jak z góry ustalić zasady napraw.",
+  "disclaimer": "Artykuł ma charakter informacyjny i nie stanowi porady prawnej.",
+  "naglowki": []
+ },
+ "122144379915228509": {
+  "date": "2026-11-09",
+  "title": "Sprzedajesz dom w trakcie budowy? Przekaż nie tylko nieruchomość, ale też wiedzę o tym, jak ją zbudowano",
+  "stage": 1,
+  "dzial": "formalnosci-i-organizacja-budowy",
+  "zag": "pozwolenie-na-budowe-czy-zgloszenie",
+  "domain": "prawo",
+  "norms": [
+   "Kodeks cywilny art. 48, 519, 638, 656",
+   "Prawo budowlane art. 40, 44, 47i, 57",
+   "Uchwała SN z 5.02.2004 r., III CZP 96/03"
+  ],
+  "lead": "Co przechodzi na kupującego, a co nie, jakie dokumenty robót zanikających przekazać, jak spisać umowy z wykonawcami i co ustalić na okres przejściowy przed przeniesieniem pozwolenia na budowę.",
+  "disclaimer": "Artykuł ma charakter informacyjny i nie stanowi porady prawnej.",
+  "naglowki": [
+   "Co kupujący przejmuje, a czego nie",
+   "Dokumentacja stanu robót na dzień przekazania",
+   "Lista umów – jedna tabela zamiast segregatora pism",
+   "Ustalenia dotyczące dalszego prowadzenia budowy",
+   "6 błędów przy sprzedaży domu w budowie"
+  ]
+ },
+ "122144405499228509": {
+  "date": "2026-11-09",
+  "title": "Inwestor, partner i projektant wnętrz wydają polecenia na budowie – komu ma słuchać ekipa?",
+  "stage": 11,
+  "dzial": "realizacja-umowy",
+  "zag": "roboty-dodatkowe-i-zamienne",
+  "domain": "prawo",
+  "norms": [
+   "Kodeks cywilny art. 98, 103, 648",
+   "Prawo budowlane art. 22, 36a, 47e"
+  ],
+  "lead": "Jak rozdzielić role przy zmianach, kto może zlecać koszty, kiedy pomysł projektanta wnętrz jest odstąpieniem od projektu budowlanego i jak wygląda jedna ścieżka zmiany od zgłoszenia do rejestru.",
+  "disclaimer": "Artykuł ma charakter informacyjny i nie stanowi porady prawnej.",
+  "naglowki": [
+   "Wiele głosów, jedna decyzja",
+   "Kto może zlecać koszty",
+   "Projektant wnętrz a projekt budowlany",
+   "Jedna ścieżka zmiany – w praktyce",
+   "Co z poleceniem, które przyszło inną drogą",
+   "7 błędów przy zmianach na budowie"
+  ]
+ },
+ "122144527881228509": {
+  "date": "2026-11-11",
+  "title": "Pompa basenowa nie da Ci spać? Zanim zbudujesz skrzynkę, policz decybele",
+  "stage": 9,
+  "dzial": "nawierzchnie-i-elementy-zewnetrzne",
+  "zag": "garaz-wiata-i-budynki-gospodarcze",
+  "domain": "instalacje",
+  "norms": [
+   "Rozporządzenie w sprawie dopuszczalnych poziomów hałasu w środowisku",
+   "PN-B-02151-2",
+   "Kodeks cywilny art. 144",
+   "Kodeks wykroczeń art. 51",
+   "Prawo ochrony środowiska art. 363"
+  ],
+  "lead": "Jak rozpoznać źródło hałasu pompy, którędy dźwięk trafia do sypialni, ile dają lokalizacja, mocowanie i niższe obroty, kiedy obudowa ma sens i co grozi przy skardze sąsiada.",
+  "disclaimer": "Artykuł ma charakter informacyjny i nie stanowi porady prawnej.",
+  "naglowki": []
+ },
+ "122144572515228509": {
+  "date": "2026-11-11",
+  "title": "Altana śmietnikowa pasuje do ogrodzenia, ale trudno z niej wyjąć pojemniki – test przed zamknięciem zabudowy",
+  "stage": 9,
+  "dzial": "nawierzchnie-i-elementy-zewnetrzne",
+  "zag": "ogrodzenie-i-bramy",
+  "domain": "prawo",
+  "norms": [
+   "Warunki techniczne § 22, 23, 42",
+   "Ustawa o utrzymaniu czystości i porządku w gminach art. 4 ust. 2, art. 6k ust. 4a",
+   "Prawo budowlane art. 102a–102c"
+  ],
+  "lead": "Jak przejść drogę codzienną i wywozową z pojemnikiem, mierzyć szerokości w świetle, sprawdzić drzwi i rozmieszczenie wyposażenia oraz co mówią przepisy o miejscu na odpady.",
+  "disclaimer": "Artykuł ma charakter informacyjny i nie stanowi porady prawnej.",
+  "naglowki": [
+   "Altanę sprawdza się trasą, a nie widokiem z ulicy",
+   "Co mówią przepisy (stan na 11 listopada 2026 r.)",
+   "Test użytkowy w 4 krokach",
+   "1. Droga obsługi – przejdź ją dwa razy",
+   "2. Szerokości przejść – mierz w świetle, nie w module",
+   "3. Drzwi – otwórz je do końca",
+   "4. Planowane wyposażenie – ustaw wszystko, co ma tam stanąć",
+   "7 błędów, które wychodzą przy pierwszym wywozie"
+  ],
+  "listy": true
+ },
+ "122144573613228509": {
+  "date": "2026-11-11",
+  "title": "Nawierzchnia miała przepuszczać wodę, a po urządzeniu ogrodu przestała – jak ją odbierać warstwa po warstwie",
+  "stage": 9,
+  "dzial": "nawierzchnie-i-elementy-zewnetrzne",
+  "zag": "podjazd-i-chodniki",
+  "domain": "grunt",
+  "norms": [
+   "Prawo budowlane art. 29 ust. 4 pkt 4",
+   "Warunki techniczne § 28, § 29",
+   "Prawo wodne art. 234",
+   "Ustawa o planowaniu i zagospodarowaniu przestrzennym art. 2 pkt 28"
+  ],
+  "lead": "Dlaczego przepuszczalna jest cała konstrukcja, a nie kostka, jak odebrać grunt, podbudowę, podsypkę i spoiny, jak ogród zamula nawierzchnię i jakie dokumenty zachować po odbiorze.",
+  "disclaimer": "Artykuł ma charakter informacyjny i nie stanowi porady prawnej.",
+  "naglowki": [
+   "Przepuszczalna jest konstrukcja, a nie kostka",
+   "Dlaczego często nikt tego nie odbiera",
+   "Co mówią przepisy (stan na 11 listopada 2026 r.)",
+   "Odbiór warstwa po warstwie",
+   "Ogród to najczęstsza przyczyna zamulenia",
+   "Utrzymanie odbiera się razem z nawierzchnią",
+   "Dokumenty, które warto mieć po odbiorze",
+   "8 błędów, przez które nawierzchnia przestaje przepuszczać wodę"
+  ],
+  "listy": true
+ },
+ "122144577183228509": {
+  "date": "2026-11-11",
+  "title": "Podjazd przebiega nad podziemnym zbiornikiem – co potwierdzić przed pierwszym wjazdem ciężkiego auta",
+  "stage": 9,
+  "dzial": "przylacza-i-sieci-zewnetrzne",
+  "zag": "wody-opadowe-i-deszczowka",
+  "domain": "konstrukcje",
+  "norms": [
+   "PN-EN 124-1:2015",
+   "Prawo budowlane art. 5 ust. 2, art. 29, art. 61"
+  ],
+  "lead": "Od czego zależy, co może jechać nad zbiornikiem na deszczówkę lub szambem, czym klasa włazu różni się od klasy zbiornika i jakie osiem rzeczy sprawdzić przed wjazdem betonowozu czy wozu asenizacyjnego.",
+  "disclaimer": "Artykuł ma charakter informacyjny; rozwiązania dla konkretnego budynku dobiera projektant.",
+  "naglowki": [
+   "Zbiornik nie ma jednej nośności",
+   "Klasa włazu to nie klasa zbiornika",
+   "Co mówią przepisy (stan na 11 listopada 2026 r.)",
+   "8 rzeczy do potwierdzenia przed pierwszym wjazdem",
+   "Szambo ma jeszcze jeden problem",
+   "8 błędów przy zbiorniku pod podjazdem"
+  ],
+  "listy": true
+ },
+ "122144597325228509": {
+  "date": "2026-11-11",
+  "title": "Brama przesuwna nie otwiera się, gdy przyjdzie śnieg – analiza wjazdu przed montażem",
+  "stage": 9,
+  "dzial": "nawierzchnie-i-elementy-zewnetrzne",
+  "zag": "ogrodzenie-i-bramy",
+  "domain": "prawo",
+  "norms": [
+   "Warunki techniczne § 41, § 42",
+   "Prawo budowlane art. 29 ust. 2 pkt 20",
+   "Ustawa o utrzymaniu czystości i porządku w gminach art. 5 ust. 1 pkt 4",
+   "Ustawa o drogach publicznych art. 30",
+   "EN 12453"
+  ],
+  "lead": "Ile miejsca naprawdę zajmuje brama przesuwna, jakie zimowe problemy mają bramy na szynie i samonośne, gdzie odkładać śnieg i co sprawdzić w automatyce przed montażem.",
+  "disclaimer": "Artykuł ma charakter informacyjny i nie stanowi porady prawnej.",
+  "naglowki": [
+   "Brama przesuwna potrzebuje pasa, nie tylko otworu",
+   "Szynowa i samonośna – każda ma swój zimowy problem",
+   "Co mówią przepisy (stan na 11 listopada 2026 r.)",
+   "Analiza wjazdu przed montażem – krok po kroku",
+   "8 błędów, przez które brama staje zimą"
+  ],
+  "listy": true
+ },
+ "122144612487228509": {
+  "date": "2026-11-11",
+  "title": "Brama automatyczna zamyka się poprawnie – jak sprawdzono jej zabezpieczenia?",
+  "stage": 9,
+  "dzial": "nawierzchnie-i-elementy-zewnetrzne",
+  "zag": "ogrodzenie-i-bramy",
+  "domain": "prawo",
+  "norms": [
+   "Dyrektywa 2006/42/WE",
+   "Rozporządzenie (UE) 2023/1230",
+   "EN 12453:2017+A1:2021",
+   "EN 12635",
+   "EN 13241",
+   "Warunki techniczne § 41 ust. 1"
+  ],
+  "lead": "Dlaczego bramy nie sprawdza się ciałem ani samochodem, kto odpowiada za bezpieczeństwo bramy z napędem, jakie dokumenty i pomiary zamówić przy odbiorze i kiedy odbiór trzeba powtórzyć.",
+  "disclaimer": "Artykuł ma charakter informacyjny i nie stanowi porady prawnej.",
+  "naglowki": [
+   "Dlaczego nie sprawdzasz bramy ciałem ani samochodem",
+   "Kto odpowiada za bezpieczeństwo bramy z napędem (stan na 11 listopada 2026 r.)",
+   "8 rzeczy do zamówienia przy odbiorze",
+   "Co musi zawierać instrukcja awaryjnego odblokowania",
+   "Kiedy odbiór trzeba powtórzyć",
+   "8 błędów przy odbiorze bramy automatycznej"
+  ],
+  "listy": true
+ },
+ "122144625849228509": {
+  "date": "2026-11-11",
+  "title": "Materiał ma pochodzić z rozbiórki – jak ustalić, czy nadaje się do planowanego zastosowania",
+  "stage": 11,
+  "dzial": "umowa-o-roboty-budowlane",
+  "zag": "materialy-inwestora-czy-wykonawcy",
+  "domain": "prawo",
+  "norms": [
+   "Prawo budowlane art. 10",
+   "Rozporządzenie (UE) 2024/3110",
+   "Ustawa o odpadach",
+   "Ustawa o zakazie stosowania wyrobów zawierających azbest",
+   "REACH załącznik XVII poz. 31"
+  ],
+  "lead": "Jak dopasować wymagania do zastosowania, co mówią przepisy o wyrobach z odzysku, azbeście i kreozocie, co uzgodnić przed zakupem i na co patrzeć przy cegle, drewnie, stali i dachówce.",
+  "disclaimer": "Artykuł ma charakter informacyjny i nie stanowi porady prawnej.",
+  "naglowki": [
+   "Najpierw zastosowanie, potem materiał",
+   "Co mówią przepisy (stan na 11 listopada 2026 r.)",
+   "Co uzgodnić przed zakupem",
+   "Na co patrzeć przy konkretnych materiałach",
+   "8 błędów przy materiałach z rozbiórki"
+  ],
+  "listy": true
+ },
+ "122144703111228509": {
+  "date": "2026-11-12",
+  "title": "„Mam OC, spokojnie” – czy polisa wykonawcy obejmuje akurat Twoje roboty?",
+  "stage": 11,
+  "dzial": "realizacja-umowy",
+  "zag": "ubezpieczenie-budowy-i-oc-wykonawcy",
+  "domain": "prawo",
+  "norms": [
+   "Kodeks cywilny art. 809, 814, 822",
+   "Ustawa o działalności ubezpieczeniowej i reasekuracyjnej art. 17"
+  ],
+  "lead": "Za co płaci OC wykonawcy, a za co nie, o jakie dokumenty i informacje poprosić przed podpisaniem umowy, jak o to zapytać i co wpisać do umowy z wykonawcą.",
+  "disclaimer": "Artykuł ma charakter informacyjny i nie stanowi porady prawnej.",
+  "naglowki": [
+   "Za co płaci OC wykonawcy, a za co nie",
+   "Mieć polisę a mieć zweryfikowaną ochronę",
+   "O co poprosić przed podpisaniem umowy",
+   "Jak to napisać, żeby nie brzmiało jak oskarżenie",
+   "7 błędów przy sprawdzaniu OC wykonawcy"
+  ]
+ },
+ "122144705463228509": {
+  "date": "2026-11-12",
+  "title": "Dom zaprojektowany na jedną rodzinę, a teraz mają być dwa mieszkania – od czego zacząć",
+  "stage": 13,
+  "dzial": "formalnosci-remontu",
+  "zag": "zmiana-sposobu-uzytkowania",
+  "domain": "prawo",
+  "norms": [
+   "Prawo budowlane art. 3 pkt 2a, art. 36a, 71, 102a",
+   "Ustawa o własności lokali art. 2",
+   "PN-B-02151-3:2015-10"
+  ],
+  "lead": "Ile lokali może mieć dom jednorodzinny, kiedy podział oznacza zmianę sposobu użytkowania albo istotne odstąpienie od projektu, czego wymaga samodzielność lokalu i jak przygotować analizę z projektantem.",
+  "disclaimer": "Artykuł ma charakter informacyjny i nie stanowi porady prawnej.",
+  "naglowki": [
+   "Co mówią przepisy, zanim powstanie pierwszy rysunek",
+   "Jak przygotować analizę z projektantem i specjalistami",
+   "7 błędów przy dzieleniu domu na dwa mieszkania"
+  ]
+ },
+ "122144706957228509": {
+  "date": "2026-11-12",
+  "title": "Garaż ma zostać gabinetem – co sprawdzić, zanim przyjadą zamówione okna",
+  "stage": 13,
+  "dzial": "formalnosci-remontu",
+  "zag": "zmiana-sposobu-uzytkowania",
+  "domain": "prawo",
+  "norms": [
+   "Prawo budowlane art. 3 pkt 2a, art. 29, 71, 71a, 102a",
+   "Warunki techniczne § 12, 57, 72, 73, 75"
+  ],
+  "lead": "Dlaczego adaptacja garażu to zmiana sposobu użytkowania, jakie wymagania dla pokoju najczęściej ją blokują, co z konstrukcją, izolacją i ogrzewaniem oraz kiedy gabinet staje się lokalem usługowym.",
+  "disclaimer": "Artykuł ma charakter informacyjny i nie stanowi porady prawnej.",
+  "naglowki": [
+   "Najpierw kwalifikacja, nie wymiar okna",
+   "Plan miejscowy i miejsce dla auta",
+   "Wymagania dla pomieszczenia na pobyt ludzi",
+   "Konstrukcja i fizyka budowli",
+   "Ogrzewanie dopiero po bilansie ciepła",
+   "Do czego gabinet ma służyć",
+   "Co z zamówionymi oknami i ogrzewaniem",
+   "7 błędów przy adaptacji garażu na gabinet"
+  ]
+ },
+ "122144716233228509": {
+  "date": "2026-11-12",
+  "title": "Podbitka zamknęła dach – czy zostawiono wszystko, co przewidywał detal okapu?",
+  "stage": 4,
+  "dzial": "pokrycie-dachu-granica-sso-i-ssz",
+  "zag": "kosze-kalenice-i-okapy",
+  "domain": "fizyka",
+  "norms": [
+   "Prawo budowlane art. 22 pkt 7, art. 25 pkt 3",
+   "DIN 4108-3",
+   "Ustawa o ochronie przyrody art. 52, 56",
+   "Rozporządzenie w sprawie ochrony gatunkowej zwierząt"
+  ],
+  "lead": "Co sprawdzić w okapie przed zamknięciem podbitką: detal, przekrój wlotu powietrza, drogę powietrza, membranę i obróbki, zabezpieczenie przed zwierzętami oraz zasady przy gniazdach w okapie.",
+  "disclaimer": "Artykuł ma charakter informacyjny; rozwiązania dla konkretnego budynku dobiera projektant.",
+  "naglowki": [
+   "Odbiór przed zamknięciem",
+   "Co mówi detal",
+   "Przekrój wlotu",
+   "Droga powietrza",
+   "Membrana i obróbki",
+   "Ptaki, gryzonie, owady",
+   "Gdy w okapie ktoś już mieszka",
+   "7 błędów przy zamykaniu okapu"
+  ]
+ },
+ "122144716821228509": {
+  "date": "2026-11-12",
+  "title": "Stare drewno zaimpregnowane bez rozpoznania wcześniejszych powłok – od czego zacząć renowację",
+  "stage": 13,
+  "dzial": "budynki-zabytkowe",
+  "zag": "technologie-dopuszczone-w-zabytkach",
+  "domain": "fizyka",
+  "norms": [
+   "REACH załącznik XVII poz. 31",
+   "Rozporządzenie (UE) 2019/1021",
+   "Rozporządzenie (UE) 528/2012",
+   "Ustawa o produktach biobójczych",
+   "Ustawa o ochronie zabytków i opiece nad zabytkami art. 36, 36a, 37a"
+  ],
+  "lead": "Jak ustalić historię elementu i rozpoznać stare powłoki, co zrobić przy podejrzeniu ołowiu lub kreozotu, ile powłok usunąć, jak dobrać zgodne preparaty i w jakich warunkach je stosować.",
+  "disclaimer": "Artykuł ma charakter informacyjny.",
+  "naglowki": [
+   "Historia elementu",
+   "Odkrywka i proste testy",
+   "Ołów, kreozot, pentachlorofenol",
+   "Zakres oczyszczenia",
+   "Zgodność preparatów",
+   "Warunki stosowania",
+   "Zabytek",
+   "7 błędów przy renowacji starego drewna"
+  ]
+ },
+ "122144718267228509": {
+  "date": "2026-11-12",
+  "title": "Wykonawca zmarł w trakcie budowy – kto może dokończyć i rozliczyć umowę?",
+  "stage": 11,
+  "dzial": "spory-i-egzekwowanie",
+  "zag": "odstapienie-od-umowy",
+  "domain": "prawo",
+  "norms": [
+   "Ustawa o zarządzie sukcesyjnym przedsiębiorstwem osoby fizycznej",
+   "Kodeks cywilny art. 467, 645, 647¹, 656, 922",
+   "Prawo budowlane art. 44"
+  ],
+  "lead": "Jak ustalić stronę umowy, co daje zarząd sukcesyjny, jak zabezpieczyć budowę i spisać stan robót, co z materiałami i sprzętem, komu płacić i kiedy wprowadzić nowego wykonawcę.",
+  "disclaimer": "Artykuł ma charakter informacyjny i nie stanowi porady prawnej.",
+  "naglowki": [
+   "Najpierw ustal, kto był stroną umowy",
+   "Jednoosobowa firma i zarząd sukcesyjny",
+   "Zabezpiecz budowę, zanim zaczniesz rozliczać",
+   "Materiały i sprzęt",
+   "Komu płacić",
+   "Dokończenie przez innego wykonawcę",
+   "7 błędów po śmierci wykonawcy"
+  ]
+ },
+ "122144718729228509": {
+  "date": "2026-11-12",
+  "title": "Dopłatę uzgodniono przez telefon, a po miesiącu każda strona pamięta inną kwotę – jak potwierdzać zmiany",
+  "stage": 11,
+  "dzial": "realizacja-umowy",
+  "zag": "roboty-dodatkowe-i-zamienne",
+  "domain": "prawo",
+  "norms": [
+   "Kodeks cywilny art. 74, 76, 77, 77³, 630, 632, 648, 656",
+   "Prawo budowlane art. 36a"
+  ],
+  "lead": "Jaką formę ma umowa o roboty budowlane i jej zmiany, co z ryczałtem i pracami dodatkowymi, jak wygląda prosta procedura potwierdzania dopłat i przykładowa wiadomość z akceptacją.",
+  "disclaimer": "Artykuł ma charakter informacyjny i nie stanowi porady prawnej.",
+  "naglowki": [
+   "Co mówią przepisy",
+   "Ryczałt i prace dodatkowe",
+   "Jeśli zmiana dotyczy projektu",
+   "Prosta procedura",
+   "7 błędów przy zmianach na budowie"
   ]
  }
 }
