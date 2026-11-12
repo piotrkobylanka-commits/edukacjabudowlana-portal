@@ -1,0 +1,58 @@
+❄️ Brama przesuwna nie otwiera się, gdy przyjdzie śnieg
+
+Pierwszy śnieżny poranek. Pilot, silnik rusza, brama przejeżdża kilkadziesiąt centymetrów i staje. Pod przeciwwagą leży zwał śniegu z odśnieżania podjazdu, a przed wjazdem twarda pryzma po pługu.
+
+Brama nie jest zepsuta. Po prostu nikt przed montażem nie zaplanował, gdzie zimą ma się podziać śnieg i którędy porusza się skrzydło.
+
+Brama przesuwna potrzebuje pasa, nie tylko otworu
+
+Na rysunku ogrodzenia brama to szerokość wjazdu. W terenie zajmuje znacznie więcej:
+● światło wjazdu,
+● miejsce na całe skrzydło po otwarciu,
+● przeciwwagę, jeśli brama jest samonośna – zwykle 30–40% długości skrzydła, dokładną wartość podaje producent,
+● prześwit pod skrzydłem i pod przeciwwagą,
+● wózki jezdne, napęd, zębatkę, fotokomórki i dostęp do ręcznego odblokowania.
+
+Przy świetle wjazdu 5 m cała strefa bramy w linii ogrodzenia potrafi przekroczyć 12 m. Ten pas to przestrzeń ruchu skrzydła przez cały rok, także w styczniu. Nie może w nim leżeć ani żywopłot, ani śnieg.
+
+Szynowa i samonośna – każda ma swój zimowy problem
+
+● Brama na szynie ma tor w nawierzchni, w poprzek wjazdu. Zbiera się w nim śnieg, lód i liście, a przy mrozie skrzydło potrafi przymarznąć. Szynę trzeba regularnie czyścić; czasem układa się wzdłuż niej przewód grzejny.
+● Brama samonośna nie ma szyny w świetle wjazdu, ale wisi tylko kilka centymetrów nad ziemią. Śnieg wyższy niż prześwit zatrzyma ją tak samo. Najtrudniej oczyścić miejsce pod przeciwwagą, bo jest zasłonięte.
+
+Żadna z nich nie jest bezobsługowa zimą. Różni się tylko miejsce, które trzeba odśnieżać.
+
+Co mówią przepisy (stan na 11 listopada 2026 r.)
+
+● Warunki techniczne z 2002 r. wygasły 20 września 2026 r., a nowe rozporządzenie nie zostało ogłoszone w Dzienniku Ustaw. Przez 18 miesięcy od tej daty można stosować dawne przepisy na zasadach z art. 102a–102c Prawa budowlanego. Paragrafy niżej według dawnych WT.
+● § 42 ust. 1 – bramy i furtki w ogrodzeniu nie mogą otwierać się na zewnątrz działki. W jednej z opisanych spraw sąd uznał, że brama przesuwna też jest „bramą” w rozumieniu tego przepisu. Skrzydło i przeciwwaga nie powinny więc przesuwać się po chodniku ani po działce sąsiada.
+● § 41 ust. 1 – ogrodzenie nie może stwarzać zagrożenia dla bezpieczeństwa ludzi i zwierząt. Brama z napędem, która zimą rusza na przeszkodę przy zasypanych fotokomórkach, to dokładnie taki problem (to moja ocena, nie treść przepisu).
+● Ogrodzenie do 2,20 m wysokości nie wymaga ani pozwolenia, ani zgłoszenia (art. 29 ust. 2 pkt 20 Prawa budowlanego). Często nie ma więc projektu, który pokazałby pas przesuwu i miejsce na śnieg. Uzgadniasz to sam, z firmą od bramy i wykonawcą podjazdu.
+● Art. 5 ust. 1 pkt 4 ustawy o utrzymaniu czystości i porządku w gminach – właściciel uprząta śnieg i lód z drogi dla pieszych biegnącej wzdłuż nieruchomości, bezpośrednio przy jej granicy. Gminy przypominają, że śnieg zgarnia się na krawędź chodnika, a nie na jezdnię. Śniegu z podjazdu nie przerzucisz więc na ulicę. Potrzebujesz na niego miejsca na własnej działce.
+● Art. 30 ustawy o drogach publicznych – utrzymanie zjazdu należy do właściciela lub użytkownika nieruchomości przyległej do drogi. W praktyce pryzmę po pługu na Twoim zjeździe usuwasz Ty (to ocena praktyczna).
+● Bezpieczeństwo bram z napędem opisuje norma EN 12453 (ograniczenie sił, urządzenia zabezpieczające). Zapytaj montażystę, jak sprawdził zabezpieczenia i co dostaniesz na piśmie po montażu.
+
+Analiza wjazdu przed montażem – krok po kroku
+
+Wyznacz pas przesuwu w terenie. Światło wjazdu, skrzydło, przeciwwaga i zapas. Wbij paliki i rozciągnij sznurek, zanim wylejesz fundament.
+Sprawdź, co jest w pasie. Szafka gazowa albo energetyczna, skrzynka na listy, furtka, drzewo, żywopłot, studzienka, rynna, wylot drenażu. Każda z tych rzeczy zablokuje ruch albo utrudni odśnieżanie.
+Porównaj prześwit z zimą na Twojej działce. Zapytaj producenta o prześwit pod skrzydłem i pod przeciwwagą. Zastanów się, ile śniegu zwykle leży i czy przy pełnym ogrodzeniu albo żywopłocie nie tworzą się zaspy.
+Sprawdź spadki i fundament. Pas przesuwu nie może być niecką, w której woda z roztopów zamarza pod skrzydłem albo w szynie. Fundament ma sięgać poniżej strefy przemarzania, bo wysadziny zmieniają geometrię bramy.
+Wskaż miejsce na śnieg. Gdzie trafi śnieg z podjazdu i z wjazdu: na Twojej działce, poza pasem przesuwu, z dala od fotokomórek, nie na furtkę, chodnik ani jezdnię. Im dłuższy podjazd, tym większa pryzma.
+Pomyśl o pryzmie z pługa. Od strony ulicy co zimę może przybywać ubitego śniegu. Kto i czym go usunie, zanim wyjedziesz rano?
+Ustal sposób zimowego utrzymania. Łopata czy odśnieżarka i w którą stronę wyrzuca śnieg. Przewód grzejny przy szynie albo pod przeciwwagą i jego zasilanie. Sól tylko wtedy, gdy dopuszcza ją producent bramy i nawierzchni.
+Sprawdź automatykę pod kątem zimy. Napęd dobrany do masy skrzydła, ustawiona siła i reakcja na opór, fotokomórki na wysokości, której nie zasypie pryzma, ręczne odblokowanie dostępne także wtedy, gdy przy słupku leży śnieg.
+Zapisz ustalenia. W umowie z firmą od bramy i z wykonawcą podjazdu: pas przesuwu, prześwit, miejsce na śnieg, fundament, przewód grzejny, zabezpieczenia napędu.
+
+8 błędów, przez które brama staje zimą
+
+Brama dobrana do szerokości wjazdu, bez sprawdzenia długości ogrodzenia na skrzydło i przeciwwagę.
+Pas przesuwu, który kończy się na chodniku albo na działce sąsiada.
+Żywopłot, skrzynka albo słupek w miejscu, gdzie ma się poruszać przeciwwaga.
+Śnieg z podjazdu odkładany wzdłuż ogrodzenia, czyli dokładnie w pasie przesuwu.
+Prześwit pod skrzydłem mniejszy niż typowa warstwa śniegu na działce.
+Szyna w niecce, w której zbiera się i zamarza woda.
+Fotokomórki na wysokości pryzmy śniegu.
+Ręczne odblokowanie, do którego zimą nie da się dojść.
+
+#EdukacjaBudowlana #BramaPrzesuwna #BramaSamonośna #Ogrodzenie #Podjazd #Zima #Odśnieżanie #BudowaDomu #DomJednorodzinny #ZagospodarowanieDziałki #Inwestor

@@ -1,0 +1,48 @@
+🔲 Szklany narożnik bez słupka: kto uzgodnił, jak szkło spotyka się z konstrukcją?
+
+„Narożne przeszklenie bez słupka. Kto uzgodnił połączenie szkła z konstrukcją?” To pytanie pada zwykle wtedy, gdy stolarka jest już zamówiona, nadproże zabetonowane, a każdy uczestnik pokazuje swój dokument. Sprzedawca ma ofertę, konstruktor projekt nadproża „jak dla okna”, wykonawca otwór wykonany według rzutu. Zdjęcia z katalogu ma inwestor. Wspólnego rysunku narożnika nie ma nikt.
+
+Katalog pokazuje efekt: dwie tafle, które spotykają się w rogu bez żadnego profilu. Nie pokazuje, co dzieje się nad szkłem. W narożniku bez słupka konstrukcja nad otworem musi przenieść obciążenie bez podpory w rogu. Szkło nie może jej w tym zastępować.
+
+⚖️ Co mówią przepisy
+
+● Prawo budowlane, art. 34 ust. 3 pkt 3 lit. a: projekt techniczny obejmuje rozwiązania konstrukcyjne obiektu wraz z wynikami obliczeń. Nadproże lub belka nad narożnikiem bez słupka to właśnie taki element.
+● Art. 20 ust. 1 pkt 1aa i pkt 3: projektant odpowiada za wzajemne skoordynowanie opracowań branżowych i wyjaśnianie wątpliwości dotyczących projektu.
+● Art. 36b ust. 2: odstąpienie od projektu technicznego jest dopuszczalne po wprowadzeniu zmian w projekcie przez projektanta i sprawdzeniu ich, jeśli sprawdzenie jest wymagane. Moja ocena: jeśli projekt przewidywał słup lub słupek w narożniku, a teraz ma go nie być, to nie jest zmiana pozycji w ofercie stolarki. To zmiana rozwiązania, które opisuje projekt.
+● Art. 22 pkt 3 i 8 oraz art. 23 pkt 1: kierownik budowy prowadzi budowę zgodnie z projektem, przygotowuje dokumentację powykonawczą i może występować do inwestora o zmiany w rozwiązaniach projektowych.
+● Warunki techniczne z 2002 r., § 204 ust. 3 pkt 2: w konstrukcji nie mogą wystąpić odkształcenia, które powodują uszkodzenia części niekonstrukcyjnych i elementów wykończenia. Przeszklenie pod nadprożem to podręcznikowy przykład takiego elementu.
+● § 301 ust. 1 i 3: jeśli narożnik jest na piętrze i szkło sięga podłogi, a nie jest to przyziemie, trzeba zachować wysokość podokiennika albo zastosować balustradę lub nieotwieraną część okna ze szkłem o podwyższonej wytrzymałości.
+
+Uwaga na stan prawny: warunki techniczne z 2002 r. utraciły moc 20 września 2026 r. Przez 18 miesięcy można je stosować przy pozwoleniu na budowę i zgłoszeniu, po złożeniu oświadczenia inwestora (art. 102a Prawa budowlanego).
+
+📐 Zamiast inspiracji z katalogu: karta rozwiązania narożnika
+
+To jeden dokument dla konkretnego narożnika: rysunek z opisem, dołączony do dokumentacji budowy. Prawo budowlane zalicza do niej także rysunki i opisy służące realizacji obiektu (art. 3 pkt 13). Co powinno się w nim znaleźć:
+
+● Od dostawcy stolarki: konkretny system i sposób połączenia w narożniku (np. sklejone pakiety szybowe, tzw. step), układ szyb, instrukcja montażu, wymagania wobec otworu i podparcia oraz deklaracja właściwości użytkowych wyrobu. Wyrób ma być wprowadzony do obrotu zgodnie z przepisami i stosowany zgodnie z zamierzonym zastosowaniem (art. 10 Prawa budowlanego).
+● Od konstruktora: jak obciążenie nad narożnikiem trafia do konstrukcji, jaki element je przenosi i jakie przemieszczenia przyjęto w obliczeniach, zestawione z wymaganiami producenta systemu. Plus odpowiedź, od kiedy wolno montować szkło pod tym elementem.
+● Od wykonawcy otworu: wymiary otworu po wykonaniu stanu surowego, poziomy, piony, przekątne i odchyłki. To pomiar z natury, a nie z projektu.
+● Uzgodnione wspólnie: ocieplenie i obróbka narożnika, sposób osadzenia progu lub parapetu oraz osłony przeciwsłoneczne. Rolety czy żaluzje w narożniku bez słupka trzeba rozwiązać na etapie projektu, bo nie ma gdzie zamocować prowadnic.
+● Podpisy: kto zaprojektował, kto sprawdził, kto potwierdził od strony systemu stolarki. To jest odpowiedź na pytanie z tytułu.
+
+🤝 Kolejność koordynacji
+
+● Najpierw wybór systemu i wymagań producenta, dopiero potem projekt nadproża.
+● Konstruktor projektuje element nad narożnikiem i podaje założenia, które dostawca stolarki potwierdza na piśmie.
+● Wykonawca robi otwór, a ktoś niezależny mierzy go przed zamówieniem.
+● Zamówienie stolarki według pomiaru z natury.
+● Montaż według instrukcji systemu i odbiór z kartą narożnika na stole.
+
+❌ 5 błędów przy szklanych narożnikach
+
+● Stolarka zamówiona według wymiarów z rzutu, zanim otwór w ogóle powstał.
+● Nadproże zaprojektowane jak dla zwykłego okna, a „bez słupka” dopisane później w ofercie.
+● Rezygnacja ze słupka uzgodniona między inwestorem a sprzedawcą, bez projektanta.
+● Szkło montowane, zanim ktoś potwierdził, że konstrukcja nad nim pracuje tak, jak założono w obliczeniach.
+● Osłony przeciwsłoneczne „dobierzemy później”, a w narożniku nie ma ich do czego zamocować.
+
+✅ Dokumentacja zamiast domysłów
+
+Szklany narożnik bez słupka to nie produkt z katalogu, tylko węzeł, w którym spotykają się trzy branże. Jeśli na budowie nikt nie potrafi wskazać rysunku, na którym są wszystkie trzy podpisy, to odpowiedź na pytanie „kto uzgodnił?” brzmi: nikt. Karta narożnika kosztuje jedno spotkanie i kilka rysunków. Przeróbka nadproża albo wymiana pękniętej tafli kosztuje znacznie więcej.
+
+#EdukacjaBudowlana #oknanarożne #przeszklenia #stolarkaokienna #nadproże #konstruktor #projektbudowlany #budowadomu #kierownikbudowy #odbiórbudynku #prawobudowlane

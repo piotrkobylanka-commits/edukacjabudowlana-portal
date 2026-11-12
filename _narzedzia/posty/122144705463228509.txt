@@ -1,0 +1,49 @@
+🏠 Dom zaprojektowany na jedną rodzinę, a teraz mają być dwa mieszkania. Od czego zacząć?
+
+Zwykle zaczyna się od prostego pomysłu: rodzice na parterze, dzieci na piętrze. Albo jedno mieszkanie dla siebie, drugie na wynajem. Ściankę działową da się postawić w weekend. Trudniej z resztą. Każde mieszkanie potrzebuje własnego wejścia, liczników i schodów, które nie prowadzą przez cudzy przedpokój. Potrzebne są też dokumenty, bez których drugiego mieszkania nie sprzedasz ani nie założysz dla niego księgi wieczystej.
+
+Co mówią przepisy, zanim powstanie pierwszy rysunek
+
+Budynek mieszkalny jednorodzinny może mieć najwyżej dwa lokale mieszkalne albo jeden mieszkalny i jeden użytkowy do 30% powierzchni całkowitej budynku (art. 3 pkt 2a Prawa budowlanego). Dom z dwoma mieszkaniami jest więc nadal domem jednorodzinnym. Z trzecim mieszkaniem już nim nie jest.
+
+Sam podział nie zawsze oznacza zmianę sposobu użytkowania. Decyduje to, czy zmieniają się m.in. warunki bezpieczeństwa pożarowego, warunki higieniczno-sanitarne albo układ obciążeń (art. 71 ust. 1 pkt 2 PB). Jeśli się zmieniają, zmianę zgłasza się staroście przed jej dokonaniem, a urząd ma 30 dni na sprzeciw (art. 71 ust. 2 i 4 PB).
+
+Ścieżka zależy od etapu:
+● Dom w projekcie albo w budowie. Projektant ocenia, czy zmiana jest istotnym odstąpieniem od projektu (art. 36a ust. 6 PB). Wśród istotnych odstąpień ustawa wymienia m.in. zmianę zamierzonego sposobu użytkowania (art. 36a ust. 5). Takie odstąpienie wymaga zmiany pozwolenia na budowę jeszcze przed wykonaniem robót (art. 36a ust. 1). Przy budowie na zgłoszenie potrzebne jest ponowne zgłoszenie albo pozwolenie (art. 36a ust. 1a). Tej oceny nie robi kierownik budowy, tylko projektant.
+● Dom istniejący. O formalnościach decyduje zakres robót. Wydzielenie mieszkań ścianką działową to co innego niż nowe drzwi wycięte w ścianie nośnej, nowe schody albo przebicie stropu. Dlatego najpierw robi się analizę, a potem pyta urząd.
+
+Warunki techniczne z 2002 r. utraciły moc 20 września 2026 r., a nowych nie ogłoszono. Do 20 marca 2028 r. projekt można sporządzić według przepisów obowiązujących do 19 września 2026 r., jeśli inwestor złoży oświadczenie (art. 102a PB). Ustal z projektantem na starcie, na jakiej podstawie powstaje projekt.
+
+Jeśli mieszkania mają być osobnymi nieruchomościami, np. do sprzedaży, darowizny albo z osobnymi księgami wieczystymi, potrzebne jest zaświadczenie starosty o samodzielności lokalu (art. 2 ust. 3 ustawy o własności lokali). Starosta sprawdza układ lokalu. Sprawdza też, czy lokal powstał zgodnie z planem lub decyzją o warunkach zabudowy, z pozwoleniem albo zgłoszeniem oraz z pozwoleniem na użytkowanie albo zawiadomieniem o zakończeniu budowy (art. 2 ust. 1a). Dom podzielony bez formalności zwykle zatrzymuje się właśnie na tym etapie.
+
+Jak przygotować analizę z projektantem i specjalistami
+
+Dokumenty. Pozwolenie na budowę albo zgłoszenie, zatwierdzony projekt, pozwolenie na użytkowanie albo zawiadomienie o zakończeniu budowy, wypis z planu miejscowego albo warunki zabudowy. W planie sprawdź wskaźniki liczone na lokal, jeśli je przewiduje, np. miejsca postojowe.
+Inwentaryzacja domu, który już stoi. Rzuty z wymiarami, rozpoznanie konstrukcji, przebieg instalacji. Projekt sprzed lat często nie zgadza się z tym, co faktycznie zbudowano.
+Koncepcja podziału z architektem. Każde mieszkanie musi mieć wejście, które nie prowadzi przez drugie mieszkanie. Nie musi to być osobne wejście z zewnątrz. Wspólna sień albo klatka jest dopuszczalna, ale staje się częścią wspólną i nie może należeć do jednego lokalu. Najczęstszy problem to schody na piętro w przedpokoju parteru. Każdy lokal potrzebuje też kuchni lub aneksu, łazienki i pomieszczeń, które pozwalają w nim normalnie mieszkać.
+Konstruktor. Potrzebny, gdy pojawiają się nowe otwory w ścianach nośnych, przebicie stropu, nowe schody wewnętrzne lub zewnętrzne albo zmiana obciążeń, np. druga łazienka w miejscu sypialni.
+Instalacje. Odpowiedz na kilka pytań:
+
+● Czy dla drugiej kuchni i łazienki są piony kanalizacyjne i wentylacja?
+● Ogrzewanie: wspólne źródło ciepła z podziałem kosztów czy dwa niezależne?
+● Prąd: drugi punkt poboru i czy wystarczy moc przyłączeniowa?
+● Gaz: czy operator zgodzi się na dwa gazomierze przy istniejącym przyłączu?
+● Woda: osobny wodomierz czy podlicznik?
+● Przewody kominowe i wentylacyjne: odbiór kominiarski przy nowym kotle albo kuchni gazowej.
+Bezpieczeństwo i komfort. Ściany i stropy między mieszkaniami muszą spełnić wymagania izolacyjności akustycznej z normy PN-B-02151-3:2015-10, do której odsyłają warunki techniczne. Dla przegród między mieszkaniami są one wyraźnie wyższe niż dla ścian wewnątrz jednego mieszkania. Drewniany strop albo lekka ścianka zwykle wymagają tu poprawy. Ochronę przeciwpożarową ocenia projektant: oddzielenie lokali, kotłownię i drogę wyjścia z każdego mieszkania. Przy wątpliwościach warto poprosić o opinię rzeczoznawcę do spraw zabezpieczeń przeciwpożarowych.
+Wniosek formalny. Na koniec projektant odpowiada na jedno pytanie: co jest potrzebne. Bez formalności, zgłoszenie, pozwolenie, zmiana pozwolenia czy zgłoszenie zmiany sposobu użytkowania? Do tego dochodzi decyzja, czy lokale będą wyodrębniane. Jeśli tak, w dalszej kolejności zaświadczenie o samodzielności i notariusz.
+Koszt i kolejność robót. Dopiero teraz wiadomo, czy podział to tydzień pracy, czy przebudowa na kilka miesięcy.
+
+Jeżeli budynek jest zabytkiem, zanim złożysz cokolwiek w starostwie, porozmawiaj z konserwatorem.
+
+7 błędów przy dzieleniu domu na dwa mieszkania
+
+● Ścianka i drugi licznik zamontowane przed sprawdzeniem planu miejscowego i dokumentów domu.
+● Założenie, że skoro dom jednorodzinny może mieć dwa lokale, to nie trzeba niczego zgłaszać.
+● Wejście do górnego mieszkania przez przedpokój dolnego.
+● Wspólna sień przypisana na papierze do jednego lokalu.
+● Druga kuchnia bez sprawdzenia wentylacji i przewodów kominowych.
+● Pominięcie akustyki stropu, która w jednym domu nikomu nie przeszkadzała.
+● Zmiana w trakcie budowy, bo „kierownik powiedział, że da się”, bez oceny projektanta, czy to istotne odstąpienie.
+
+#EdukacjaBudowlana #DomDwulokalowy #BudowaDomu #PrawoBudowlane #Przebudowa #ZmianaSposobuUżytkowania #SamodzielnośćLokalu #Projektant #KierownikBudowy #Inwestor

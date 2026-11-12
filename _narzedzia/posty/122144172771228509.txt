@@ -1,0 +1,90 @@
+🔌 „W starej instalacji są różne rodzaje przewodów. Remont obejmuje tylko jedno pomieszczenie”. Jak zlecić ocenę, zanim ściany zostaną zamknięte
+
+Skuwacie tynk w kuchni albo łazience i w ścianie widać historię kilku remontów. Stare aluminium, kawałek miedzi dołożony później, puszka pełna połączeń. Budżet jest na jedno pomieszczenie, a ekipa chce zamknąć ściany w przyszłym tygodniu.
+
+Nowe gniazda nie będą jednak działać osobno. Będą korzystać z tego samego zasilania, zabezpieczeń i ochrony przeciwporażeniowej co reszta mieszkania. Dlatego pytanie do elektryka nie brzmi „ile za punkt”, tylko „co jest potrzebne, żeby nowa część bezpiecznie współpracowała ze starą”.
+
+Wszystko, co dotyczy przewodów, puszek i rozdzielnicy, robi elektryk. Ten tekst jest o tym, jak to zlecić i jakie dokumenty odebrać.
+
+OCENA TO OSOBNY ETAP, NIE DODATEK DO WYCENY
+
+Zamów ją, zanim kupisz płytki, meble i sprzęt. Przekaż elektrykowi:
+
+● zakres remontu: które pomieszczenie, ile i jakich punktów,
+● listę nowych odbiorników z mocą: piekarnik, płyta, zmywarka, pralka, suszarka, ogrzewacz, klimatyzator,
+● rodzaj budynku i to, co wiesz o wcześniejszych przeróbkach,
+● stare protokoły, schematy i zdjęcia, jeśli istnieją,
+● dostęp do rozdzielnicy, a w bloku kontakt do zarządcy.
+
+Poproś o pisemną ocenę z wariantami. Każdy wariant powinien mieć opis, cenę i skutki dla reszty instalacji.
+
+NA CO OCENA MA ODPOWIEDZIEĆ
+
+● Skąd zasilane jest pomieszczenie i co jeszcze wisi na tych samych obwodach.
+● Z czego są przewody, jaki mają przekrój i stan izolacji. Gdzie stare łączy się z nowszym.
+● Czy instalacja ma osobny przewód ochronny, czy przewód ochronno-neutralny PEN, czyli układ TN-C.
+● Czy zabezpieczenia w rozdzielnicy pasują do przewodów i do nowych odbiorników.
+● Czy obwód udźwignie urządzenia, które planujecie.
+
+Układ TN-C to częsty punkt sporny. Norma PN-HD 60364-4-41 wskazuje, że w układzie TN-C wyłącznika różnicowoprądowego nie powinno się stosować. Hasło „dołożymy różnicówkę i będzie dobrze” może więc nie mieć podstaw. Przy łazience problem jest większy, bo PN-HD 60364-7-701 wymaga, żeby obwody łazienki chroniło urządzenie różnicowoprądowe do 30 mA, z nielicznymi wyjątkami. Pogodzenie tych dwóch wymagań to zadanie dla elektryka i zwykle oznacza zmiany wykraczające poza samo pomieszczenie.
+
+TRZY KOSZYKI DECYZJI
+
+Poproś, żeby wnioski z oceny trafiły do trzech grup:
+
+Musi być zrobione przed uruchomieniem. Bez tego nowa część nie powinna zostać włączona.
+Warto zrobić teraz. Ściana jest otwarta, więc później będzie drożej i z większym bałaganem.
+Może zostać. Z uzasadnieniem, warunkiem i terminem ponownego sprawdzenia.
+
+Punktem wyjścia jest norma o sprawdzaniu instalacji, PN-HD 60364-6. Przy zmianie lub rozbudowie instalacji trzeba sprawdzić dwie rzeczy: czy zmiana jest zgodna z normą i czy nie pogorszy stanu bezpieczeństwa istniejącej instalacji (pkt 61.1.5). Nowy przewód nie zamyka więc tematu, jeśli zasila go stary obwód.
+
+JAK UDOKUMENTOWAĆ CZĘŚĆ, KTÓRA ZOSTAJE
+
+Po remoncie powinieneś mieć w teczce:
+
+● protokół pomiarów z rodzajem i zakresem pomiarów, datą, wykonawcą i jego uprawnieniami, warunkami, użytymi przyrządami, identyfikacją obwodów, wynikami, uwagami i wnioskiem końcowym,
+● szkic z zaznaczoną granicą robót, czyli miejscem, w którym kończy się nowa część,
+● zdjęcia tras i połączeń starego z nowym, zrobione przed zamknięciem ścian,
+● listę obwodów z opisem zabezpieczeń i aktualny opis rozdzielnicy,
+● listę ograniczeń: czego nie otwarto, nie zmierzono albo nie dało się ustalić, i dlaczego,
+● zalecenia z terminami,
+● Twoją decyzję na piśmie: co zostaje, na podstawie jakiej oceny i kiedy do tego wrócisz.
+
+Zwróć uwagę na jedno sformułowanie. Jeśli elektryk oceniał jedno pomieszczenie, protokół nie powinien mówić o sprawności „całej instalacji”.
+
+KTO MOŻE TO PODPISAĆ
+
+● Świadectwo kwalifikacyjne. Poproś o kopię i sprawdź rodzaj, zakres i datę. Świadectwa dla osób eksploatujących urządzenia, instalacje i sieci tracą ważność po 5 latach od wydania (art. 54 ust. 1aa Prawa energetycznego).
+● Pomiary i protokół. W opracowaniu SEP z 2021 r. przyjęto, że osoba wykonująca pomiary i podpisująca protokoły powinna mieć świadectwa E i D. Gdy pomiary robi osoba tylko ze świadectwem E, protokół sprawdza i podpisuje osoba ze świadectwem D.
+● Kontrola okresowa. Niezależnie od remontu instalację elektryczną kontroluje się co najmniej raz na 5 lat (art. 62 ust. 1 pkt 2 Prawa budowlanego). Dotyczy to także domów jednorodzinnych, a kontrolę mogą przeprowadzić osoby z kwalifikacjami wymaganymi przy dozorze (art. 62 ust. 5). Ocena jednego pomieszczenia jej nie zastępuje.
+
+FORMALNOŚCI I GRANICE
+
+● Instalowanie instalacji innych niż gazowe w użytkowanym budynku nie wymaga pozwolenia ani zgłoszenia (art. 29 ust. 4 pkt 3 lit. d Prawa budowlanego). Nie zwalnia to z wymagań bezpieczeństwa.
+● Przy obiekcie wpisanym do rejestru zabytków takie roboty wymagają pozwolenia na budowę (art. 29 ust. 7 pkt 1).
+● W bloku pion, wewnętrzna linia zasilająca, zabezpieczenia na klatce i plomby to nie jest teren prywatnego remontu. Zakres ustal z zarządcą, a gdy trzeba, także z operatorem.
+● Nowe bruzdy w ścianach nośnych skonsultuj z konstruktorem.
+
+CO WPISAĆ DO UMOWY
+
+● osobne pozycje: ocena, roboty, pomiary i dokumentacja,
+● granicę zakresu opisaną konkretnie, najlepiej na szkicu,
+● zasadę na niespodzianki: stop, informacja, wycena, pisemna decyzja,
+● kto robi zdjęcia przed zamknięciem ścian,
+● płatność końcową po przekazaniu protokołu i listy ograniczeń.
+
+Wykonawca powinien niezwłocznie zawiadomić o okolicznościach, które mogą przeszkodzić prawidłowemu wykonaniu pracy: przy umowie o dzieło wynika to z art. 634 k.c., przy umowie o roboty budowlane z art. 651 k.c.
+
+7 BŁĘDÓW PRZY CZĘŚCIOWYM REMONCIE INSTALACJI
+
+❌ Wycena za punkty bez sprawdzenia, co je zasila
+❌ Zakup sprzętu przed oceną obwodu
+❌ Przekonanie, że nowy odcinek poprawia całą instalację
+❌ Plan „dołożymy różnicówkę” bez rozpoznania układu sieci
+❌ Protokół o „całej instalacji” po ocenie jednego pomieszczenia
+❌ Brak listy tego, czego nie sprawdzono
+❌ Zamknięcie ścian przed zdjęciami i pomiarami
+
+A u Was: remont objął całą instalację, czy tylko jedno pomieszczenie i reszta czeka na „kiedyś”?
+
+#EdukacjaBudowlana #InstalacjaElektryczna #StaraInstalacja #Remont #RemontKuchni #RemontŁazienki #PomiaryElektryczne #ProtokółPomiarów #Elektryk #BezpieczeństwoWDomu #Inwestor

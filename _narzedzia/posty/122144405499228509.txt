@@ -1,0 +1,51 @@
+🧭 Inwestor, partner i projektant wnętrz wydają polecenia na budowie. Komu ma słuchać ekipa?
+
+Rano inwestor prosi, żeby przesunąć gniazdo w kuchni o 40 cm. W południe partner dzwoni, że gniazdo ma zostać, za to wyspa idzie bliżej okna. Po południu projektantka wnętrz przysyła na komunikatorze nowy rzut, w którym nie ma ani jednego, ani drugiego. 
+Elektryk zrobił to, co usłyszał ostatnie. Za tydzień każda z trzech osób uważa, że to ktoś inny zmienił zdanie, a wykonawca wystawia fakturę za bruzdy kute dwa razy.
+Problem nie w tym, że na budowie są trzy osoby z pomysłami. Wnętrza projektuje się wspólnie i dobrze, że partner i projektant mają wpływ na efekt. Problem zaczyna się wtedy, gdy każda z tych osób wydaje ekipie polecenia bezpośrednio.
+
+Wiele głosów, jedna decyzja
+Zasada jest prosta: każdy może proponować, decyduje jedna osoba, a do ekipy trafia jedna wersja.
+
+Rozdziel cztery role:
+● proponuje – inwestor, partner, projektant wnętrz, a także wykonawca, który widzi problem na miejscu,
+● opiniuje – kierownik budowy (czy to zgodne z projektem i wykonalne), projektant budowlany (gdy zmiana dotyka konstrukcji, instalacji albo układu ścian), wykonawca (koszt i termin),
+● zatwierdza – jedna wskazana osoba, z imienia i nazwiska,
+● przekazuje do wykonania – jeden kanał: kierownik budowy albo osoba prowadząca roboty u wykonawcy.
+Przy dwóch inwestorach, np. małżonkach z pozwoleniem wydanym na oboje, ta zasada jest jeszcze ważniejsza. Oboje są inwestorem, ale ekipa powinna dostawać polecenia od jednego z nich.
+Kto może zlecać koszty
+Zmiana zakresu robót to zmiana umowy z wykonawcą, a zwykle także jej ceny. Zlecić ją może tylko strona umowy albo jej pełnomocnik.
+● Pełnomocnictwo daj na piśmie i opisz zakres. Do czynności przekraczających zwykły zarząd potrzebne jest pełnomocnictwo określające ich rodzaj (art. 98 Kodeksu cywilnego). Przykład: „zatwierdzanie robót zamiennych w zakresie wykończenia wnętrz do kwoty X zł brutto za pojedynczą zmianę”.
+● Jeśli ktoś bez umocowania albo poza jego zakresem „zamówi” coś w Twoim imieniu, ważność takiej umowy zależy od Twojego potwierdzenia (art. 103 k.c.). Uwaga: płacąc albo przyjmując prace bez sprzeciwu, łatwo takie potwierdzenie wyrazić.
+● Umowa o roboty budowlane powinna być stwierdzona pismem (art. 648 § 1 k.c.). Ustal w niej, kto może podpisywać zmiany i w jakiej formie.
+● Wpisz w umowie, że kierownik budowy, projektant wnętrz i inne osoby nie zaciągają w Twoim imieniu zobowiązań finansowych, chyba że mają pisemne pełnomocnictwo.
+
+Sam zapis w umowie nie wystarczy, jeśli przyjmujesz dodatkowe prace i z nich korzystasz. Gdy widzisz na budowie coś, czego nie zlecałeś, zgłoś sprzeciw od razu i na piśmie.
+
+Projektant wnętrz a projekt budowlany
+Projektant wnętrz decyduje o wyglądzie, materiałach i układzie wyposażenia. Ale gdy jego propozycja oznacza nowy otwór w ścianie, przesunięcie pionu kanalizacyjnego, zmianę wentylacji albo dodatkowe obciążenie stropu, jest to odstąpienie od projektu budowlanego. Czy jest istotne, czy nieistotne, ocenia projektant obiektu (art. 36a Prawa budowlanego), a kierownik budowy kieruje budową zgodnie z projektem (art. 22 pkt 3).
+Wpisów do dziennika budowy dokonują uczestnicy procesu budowlanego (art. 47e ust. 1 Prawa budowlanego), czyli m.in. inwestor, projektant, kierownik budowy i inspektor nadzoru inwestorskiego. Partner inwestora i projektant wnętrz zwykle do nich nie należą.
+
+Jedna ścieżka zmiany – w praktyce
+1. Zgłoszenie: kto proponuje, co dokładnie, dlaczego. Najlepiej z rysunkiem albo zdjęciem z zaznaczeniem.
+1. Opinia kierownika budowy: czy zmiana jest zgodna z projektem, czy wymaga projektanta budowlanego, co wpływa na roboty już wykonane.
+2. Wycena wykonawcy: koszt, wpływ na termin, co trzeba rozebrać.
+3. Decyzja osoby zatwierdzającej: tak albo nie, z podpisem i datą. Mail albo podpisany protokół zmiany.
+4. Przekazanie ekipie jedną drogą, z numerem zmiany. Stara wersja rysunku zostaje oznaczona jako nieaktualna.
+5. Rejestr zmian: jedna tabela z numerem, opisem, kosztem, decyzją i datą wykonania.
+Drobne decyzje można delegować. Projektant wnętrz może sam wybierać np. kolor fugi albo wzór listwy, jeśli mieści się w zatwierdzonym budżecie i katalogu. Ważne, żeby granica była zapisana, a nie domyślna.
+
+Co z poleceniem, które przyszło inną drogą
+Ustal to z wykonawcą na początku: jeśli ekipa dostanie polecenie od kogoś spoza listy, nie wykonuje go, tylko przekazuje osobie zatwierdzającej. Nie chodzi o to, żeby ignorować partnera albo projektanta. Chodzi o to, żeby ich pomysł wrócił na właściwą ścieżkę, zanim ktoś skuje ścianę.
+
+Wyjątek: działania potrzebne, żeby zapobiec zagrożeniu dla ludzi albo mienia. Tu wykonawca działa od razu i niezwłocznie zawiadamia inwestora.
+7 błędów przy zmianach na budowie
+1. Polecenia wydawane ekipie bezpośrednio przez kilka osób.
+1. Zmiany ustalane przez telefon i niczym niepotwierdzone.
+2. Brak pisemnego zakresu pełnomocnictwa dla osoby, która „zawsze jest na budowie”.
+3. Projektant wnętrz zmieniający rozwiązania instalacyjne albo ścianę bez projektanta budowlanego i kierownika budowy.
+4. Wycena przychodzi po wykonaniu, a nie przed decyzją.
+5. Kilka wersji tego samego rysunku w obiegu, bez oznaczenia, która jest aktualna.
+6. Brak sprzeciwu wobec prac, których nikt nie zlecał, a potem spór o zapłatę.
+
+#EdukacjaBudowlana #BudowaDomu #Inwestor #KierownikBudowy #ProjektWnętrz #ZmianyNaBudowie #RobotyDodatkowe #UmowaZWykonawcą #Pełnomocnictwo #WykończenieWnętrz #DziennikBudowy

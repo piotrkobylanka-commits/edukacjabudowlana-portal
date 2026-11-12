@@ -1,0 +1,49 @@
+🪟 Pilot przestał działać, a okno wysoko nad salonem zostało otwarte
+
+„Okno dachowe jest wysoko. Pilot przestał działać, a okno zostało otwarte”. W salonie z antresolą, nad klatką schodową czy w holu na dwie kondygnacje to nie jest drobna niedogodność. Nie podejdziesz, nie sięgniesz klamki, a prognoza zapowiada deszcz.
+
+Okno elektryczne kupuje się zwykle dla wygody. A to, jak zachowa się w awarii, trzeba sprawdzić przed zakupem, bo po zamontowaniu go już nie zmienisz.
+
+⚖️ Dwa różne okna: dla wygody i do oddymiania
+
+Na etapie zakupu trzeba to rozdzielić.
+
+● Okno elektryczne w domu (salon, antresola, klatka w domu jednorodzinnym) to wyposażenie użytkowe. Przepisy nie mówią, jak ma działać pilot. Liczy się instrukcja producenta, projekt elektryki i to, co ustalisz przy zamówieniu.
+● Okno lub klapa oddymiająca na klatce schodowej to urządzenie przeciwpożarowe. Warunki techniczne z 2002 r. w § 245 wymagają m.in. w średniowysokich budynkach użyteczności publicznej i zamieszkania zbiorowego, żeby klatki ewakuacyjne miały urządzenia zapobiegające zadymieniu lub usuwające dym, uruchamiane samoczynnie przez system wykrywania dymu. W budynkach wielorodzinnych oddymianie klatek wynika z § 246 (budynki wysokie i wysokościowe) albo z rozwiązania przyjętego w projekcie na podstawie § 256 ust. 2. § 270 ust. 5 określa klasy klap dymowych w grawitacyjnej wentylacji oddymiającej, osobno dla otwieranych automatycznie i wyłącznie ręcznie. § 187 ust. 3 wymaga, żeby przewody zasilające i sterujące urządzeniami przeciwpożarowymi zapewniały ciągłość zasilania przez czas potrzebny do ich działania.
+● Rozporządzenie MSWiA o ochronie przeciwpożarowej budynków, § 3: urządzenia przeciwpożarowe wykonuje się według projektu uzgodnionego z rzeczoznawcą ds. zabezpieczeń przeciwpożarowych. Przeglądy i konserwacja odbywają się w terminach producenta, nie rzadziej niż raz w roku.
+
+Uwaga na stan prawny: warunki techniczne z 2002 r. utraciły moc 20 września 2026 r. Przez 18 miesięcy od tej daty można je stosować przy pozwoleniu na budowę i zgłoszeniu, po złożeniu oświadczenia inwestora (art. 102a Prawa budowlanego), oraz przy robotach niewymagających pozwolenia ani zgłoszenia (art. 102b). Rozporządzenie przeciwpożarowe obowiązuje normalnie.
+
+Wniosek praktyczny: okna oddymiającego nie „upraszcza się” pod wygodę domowników. Zmiany w sterowaniu tylko przez serwis i zgodnie z projektem.
+
+🔍 Trzy pytania przed zakupem okna elektrycznego
+
+1. Tryb awaryjny: co, jeśli pilot nie zadziała?
+● Czy pilot to jedyny sposób sterowania? Zapytaj o przycisk ścienny albo drugi sterownik. Pilot może mieć wyczerpaną baterię, stracić parowanie albo zależeć od aplikacji i internetu.
+● Czy okno da się zamknąć ręcznie bez napędu i jak. Ma to być opisane w instrukcji konkretnego modelu, a nie „jakoś się da”.
+● Jeśli okno jest wysoko: czy producent przewiduje obsługę z poziomu podłogi, np. drążkiem, i czy ten sposób w ogóle obejmuje model z napędem.
+
+2. Zanik zasilania: w jakiej pozycji zostanie okno?
+● Okna sterowane zdalnie wymagają zasilania. Czujnik deszczu zamyka okno, gdy zacznie padać, ale w oknie zasilanym z sieci bez własnej baterii zrobi to tylko wtedy, gdy jest prąd. Burza z wyłączeniem prądu to dokładnie ten scenariusz, w którym okno zostaje otwarte.
+● Rozwiązania do rozważenia: wersja solarna z akumulatorem, podtrzymanie zasilania obwodu okien, automatyka zamykająca okno przy wyjściu z domu, możliwość ręcznego zamknięcia.
+● Dla okien oddymiających: jakie zasilanie awaryjne ma centrala i co mówi o tym projekt. Producenci central podają zwykle konkretny czas pracy na akumulatorach. Zapisz go i sprawdzaj przy przeglądach.
+
+3. Dostęp serwisowy: kto i jak się do tego okna dostanie?
+● Czym dojedzie serwis: rusztowanie, drabina, podnośnik? Czy da się to rozstawić w gotowym salonie, na schodach, nad meblami?
+● Gdzie jest sterownik lub zasilacz? Jeśli zostanie zabudowany pod płytą g-k bez klapy rewizyjnej, każda naprawa zacznie się od cięcia sufitu.
+● Czy wymiana napędu, czujnika deszczu albo uszczelki wymaga dostępu od dachu.
+● Kto wykona przegląd i ile to kosztuje. W budynku z oddymianiem to obowiązek, w domu to rozsądek.
+
+❌ 5 błędów przy wysoko zamontowanych oknach elektrycznych
+
+● Pilot jako jedyny sposób obsługi, bez przycisku ściennego.
+● Nikt nie sprawdził, co robi okno po zaniku prądu.
+● Sterownik schowany w zabudowie bez rewizji.
+● Brak planu dostępu dla serwisu: okno ląduje nad klatką schodową, gdzie nie postawisz drabiny.
+● Okno oddymiające na klatce przepięte „dla wygody” na zwykłe sterowanie albo zwykły obwód.
+
+✅ Test przy odbiorze
+
+Zanim zejdzie ekipa: otwórz okno, wyłącz bezpiecznik obwodu okien i sprawdź, czy i jak da się je zamknąć. Potem przetestuj przycisk ścienny bez pilota i zasymuluj deszcz na czujniku przy włączonym zasilaniu. Wynik zapisz w protokole, a sposób awaryjnej obsługi dopisz do instrukcji użytkowania domu. Za trzy lata nikt nie będzie pamiętał, gdzie był przycisk ani jak zamknąć okno bez prądu.
+
+#EdukacjaBudowlana #oknadachowe #poddasze #salon #klatkaschodowa #oddymianie #inteligentnydom #budowadomu #odbiórbudynku #instalacjeelektryczne #ochronaprzeciwpożarowa

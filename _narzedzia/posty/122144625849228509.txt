@@ -1,0 +1,56 @@
+♻️ Materiał ma pochodzić z rozbiórki. Jak ustalić, czy nadaje się do planowanego zastosowania?
+
+Paleta cegły ze starej stodoły, belki z rozebranego domu, dachówka „jak nowa”. Cena to ułamek nowego materiału, a wygląd lepszy niż w katalogu.
+
+Tylko że wygląd nie mówi nic o wytrzymałości, nasiąkliwości, mrozoodporności, gatunku stali ani o tym, czym kiedyś zaimpregnowano drewno. Te informacje trzeba ustalić przed zakupem, a nie po wbudowaniu.
+
+Najpierw zastosowanie, potem materiał
+
+Ten sam materiał może być w porządku w jednym miejscu i niedopuszczalny w innym. Pomyśl o trzech poziomach:
+● dekoracja i ogród, bez funkcji nośnej – np. obrzeże rabaty, okładzina murka,
+● przegrody i pokrycia, na które działa deszcz i mróz – np. ściana zewnętrzna, dach,
+● konstrukcja, która przenosi obciążenia – np. mur nośny, belka stropowa, nadproże, słup.
+
+Im wyżej na tej liście, tym więcej dowodów potrzebujesz, że materiał się nadaje.
+
+Co mówią przepisy (stan na 11 listopada 2026 r.)
+
+● Art. 10 Prawa budowlanego dotyczy wyrobów wytworzonych w celu trwałego zastosowania w obiekcie budowlanym: można je stosować, jeśli zostały wprowadzone do obrotu albo udostępnione zgodnie z przepisami odrębnymi. Materiał z rozbiórki zwykle nie ma żadnej dokumentacji, a bez dokumentacji praktycznie nie da się go zgodnie z prawem zastosować w obiekcie budowlanym. Jednocześnie cegła może mieć właściwości użytkowe pozwalające ją zastosować, ale może je też stracić przez wieloletnie obciążenia, pogodę albo uszkodzenia przy rozbiórce.
+● Rozporządzenie (UE) 2024/3110 weszło w życie 7 stycznia 2025 r., a jego zasadnicze przepisy stosuje się od 8 stycznia 2026 r.; rozszerza ono zakres przepisów o wyroby używane i regenerowane. Do 8 stycznia 2040 r. trwa okres przejściowy, w którym stare i nowe rozporządzenie działają równolegle. To kierunek, a nie gotowa ścieżka dla palety cegły z sąsiedniej wsi (to moja ocena).
+● Ustawa o odpadach definiuje przygotowanie do ponownego użycia jako odzysk polegający na sprawdzeniu, czyszczeniu lub naprawie produktów albo ich części, które wcześniej stały się odpadami. To, czy materiał jest odpadem, czy produktem do ponownego użycia, ma znaczenie dla dokumentów przy jego przekazaniu. Zapytaj sprzedawcę, na jakiej podstawie go oddaje.
+● Ustawa o zakazie stosowania wyrobów zawierających azbest zakazuje m.in. produkcji i obrotu wyrobami zawierającymi azbest. Płyt falistych czy rur azbestowo-cementowych z rozbiórki nie kupujesz i nie montujesz.
+● Pozycja 31 załącznika XVII do rozporządzenia REACH zakazuje wprowadzania do obrotu i stosowania kreozotu do obróbki drewna oraz wprowadzania do obrotu drewna nim zaimpregnowanego, przewidując pod pewnymi warunkami odstępstwa. Zużyte podkłady kolejowe są z założenia klasyfikowane jako odpady niebezpieczne i nie powinny być przekazywane osobom fizycznym do jakiegokolwiek wykorzystania. Tak, dotyczy to też „podkładów do ogrodu”. 
+eli.gov.pl
+ +8
+
+Co uzgodnić przed zakupem
+
+Pochodzenie. Z jakiego obiektu, z którego roku, do czego służył. Obora, stodoła, garaż, zakład, komin – każde z tych miejsc mogło zostawić w materiale coś innego. Poproś o zdjęcia obiektu przed rozbiórką i pisemne oświadczenie sprzedawcy.
+Stan. Pęknięcia, odpryski, resztki zaprawy, wilgoć, grzyb, ślady szkodników w drewnie, gwoździe i korozja. Policz zapas na odrzuty po sortowaniu.
+Substancje szkodliwe. Azbest, stare impregnaty i smoły w drewnie, skażenia z działalności w obiekcie. Jeśli jest wątpliwość, badanie laboratoryjne robisz, zanim zapłacisz za całość.
+Badania pod zastosowanie. Projektant mówi, jakie parametry są potrzebne, a laboratorium bada próbki. Próbki pobierasz losowo z całej partii, a nie te, które wybierze sprzedający.
+Kto dopuszcza materiał. Ustal na piśmie, czy projektant przyjmuje go do projektu i na jakich parametrach, czy kierownik budowy go akceptuje, czy wykonawca zgodzi się go wbudować i jaką da gwarancję na robotę.
+Umowa zakupu. Opis partii, ilość, stan, oświadczenie o pochodzeniu i braku azbestu czy kreozotu, prawo zwrotu przy złym wyniku badań, kto płaci za badania.
+Składowanie. Pod dachem, na paletach, z dala od gruntu. Materiał, który przeleżał zimę w kałuży, to już inny materiał niż ten, który kupiłeś.
+
+Na co patrzeć przy konkretnych materiałach
+
+● Cegła: wytrzymałość na ściskanie, nasiąkliwość, mrozoodporność, sole rozpuszczalne. Cegła z obory albo z komina może mieć w sobie to, czego nie widać.
+● Drewno: gatunek, klasa wytrzymałości po sortowaniu, wilgotność, szkodniki, osłabienia po starych połączeniach, dawne impregnaty.
+● Stal: gatunek i parametry wytrzymałościowe, korozja, możliwość spawania. Profil „ten sam co nowy” nie znaczy, że ze stali o tych samych parametrach.
+● Dachówka: nasiąkliwość, mrozoodporność, kompletność i dopasowanie zamków, dostępność gąsiorów i elementów systemowych.
+
+Stuknięcie w cegłę i „ładny dźwięk” to nie badanie.
+
+8 błędów przy materiałach z rozbiórki
+
+Decyzja o zakupie na podstawie zdjęcia i ceny.
+Brak informacji, z jakiego obiektu pochodzi materiał.
+Materiał z rozbiórki w konstrukcji bez zgody projektanta.
+Badania próbek wybranych przez sprzedawcę.
+Płyty azbestowe „za darmo, tylko trzeba odebrać”.
+Podkłady kolejowe jako obrzeża rabat albo schody w ogrodzie.
+Brak zapasu na odrzuty po sortowaniu.
+Wykonawca, który dowiaduje się o materiale dopiero w dniu dostawy.
+
+#EdukacjaBudowlana #MateriałyZRozbiórki #CegłaRozbiórkowa #StareDrewno #Recykling #BudowaDomu #Remont #Azbest #KierownikBudowy #Inwestor #GospodarkaObieguZamkniętego

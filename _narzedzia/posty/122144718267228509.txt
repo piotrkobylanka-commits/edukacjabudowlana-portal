@@ -1,0 +1,51 @@
+⚖️ Wykonawca zmarł w trakcie realizacji. Kto może dokończyć i rozliczyć umowę?
+
+Taka sytuacja zdarza się rzadko, ale kiedy już się zdarzy, nikt nie ma na nią gotowego planu. Budowa nagle staje. Na placu zostają materiały, rusztowanie, otwarty strop albo wykop. Ekipa nie wie, czy przychodzić do pracy, a inwestor nie wie, z kim teraz rozmawiać i komu płacić. Odpowiedź zależy od trzech rzeczy: kto formalnie był stroną umowy, co w tej umowie zapisano i na jakim etapie są roboty.
+
+Najpierw ustal, kto był stroną umowy
+
+Jeśli umowę podpisała spółka z o.o., śmierć prezesa czy wspólnika nie kończy jej istnienia. Stroną dalej jest spółka. Trzeba tylko ustalić w KRS, kto ją teraz reprezentuje. Przy spółce cywilnej i spółkach osobowych skutki zależą od umowy spółki i przepisów, które jej dotyczą. Tu trzeba usiąść z prawnikiem i dokumentami.
+
+Najtrudniej jest przy jednoosobowej działalności gospodarczej, a tak działa wielu wykonawców domów jednorodzinnych.
+
+Jednoosobowa firma i zarząd sukcesyjny
+
+Zacznij od CEIDG. Przedsiębiorca mógł za życia ustanowić zarządcę sukcesyjnego. Jeśli tego nie zrobił, małżonek albo spadkobiercy mogą powołać zarządcę w ciągu dwóch miesięcy od śmierci. Zarządca prowadzi przedsiębiorstwo w spadku i wykonuje prawa i obowiązki zmarłego związane z jego działalnością. Firma działa wtedy pod dotychczasową nazwą z dopiskiem „w spadku”. Jeśli zarządca jest, to z nim rozmawiasz o dalszych robotach, terminach i pieniądzach. Zarząd sukcesyjny jest rozwiązaniem tymczasowym, więc zapytaj od razu, jakie są plany co do dalszego prowadzenia firmy.
+
+Jeśli zarządcy nie ma, majątkowe prawa i obowiązki zmarłego przechodzą co do zasady na spadkobierców (art. 922 § 1 k.c.). Wyjątek stanowią te ściśle związane z jego osobą (art. 922 § 2 k.c.). Kodeks nie rozstrzyga wprost, co dzieje się z umową o roboty budowlane po śmierci wykonawcy. Przepis o rozwiązaniu umowy wskutek śmierci przyjmującego zamówienie (art. 645 k.c.) dotyczy umowy o dzieło, której wykonanie zależy od osobistych przymiotów wykonawcy. Art. 656 § 1 k.c. przenosi na roboty budowlane tylko wybrane przepisy o dziele i tego akurat nie obejmuje. To, czy umowa trwa i kto ma ją wykonać, trzeba więc ocenić na podstawie jej treści i okoliczności. Inną sytuacją jest umowa z fachowcem, który robił wszystko sam, a inną umowa z firmą, która miała własną ekipę.
+
+Zabezpiecz budowę, zanim zaczniesz rozliczać
+
+Pierwszy tydzień to nie czas na spory, tylko na zabezpieczenie tego, co jest. Ogrodź teren, zabezpiecz wykopy, krawędzie stropów i rusztowanie, osłoń przed wodą to, co nie może zamoknąć. Jeśli zmarły był jednocześnie kierownikiem budowy, budowa zostaje bez kierownika. Wtedy przed wznowieniem robót trzeba ustanowić nowego. Jego oświadczenie o przejęciu obowiązków inwestor dołącza do dokumentacji budowy (art. 44 Prawa budowlanego).
+
+Potem przychodzi czas na inwentaryzację. Spisz stan robót w protokole, najlepiej w obecności zarządcy sukcesyjnego albo kogoś z rodziny, kierownika budowy i świadka. Zrób zdjęcia i film każdego elementu, pomiary, a jeśli się da, nalot dronem. Policz materiały na placu i zrób ich zdjęcia. Dołącz wpis w dzienniku budowy. Od tego protokołu zależy całe dalsze rozliczenie i późniejsza rękojmia, bo pokazuje, gdzie kończy się praca zmarłego wykonawcy, a zaczyna praca następnego.
+
+Zbierz dokumenty: umowę, aneksy, protokoły odbiorów częściowych, faktury, dowody wpłat, deklaracje właściwości użytkowych zabudowanych materiałów. Część z nich może być tylko u wykonawcy, więc poproś o kopie zarządcę albo rodzinę.
+
+Materiały i sprzęt
+
+To, co już wbudowano, jest częścią budynku. Inaczej jest z materiałami, które leżą na palecie. Jeśli zapłaciłeś za nie wykonawcy i masz na to dowód, możesz rozmawiać o ich przejęciu. Jeśli kupił je wykonawca, wchodzą do jego majątku. Rusztowania, betoniarka i kontener należą do zmarłego albo do wypożyczalni. Nie zużywaj, nie sprzedawaj i nie zatrzymuj ich „na poczet rozliczeń” bez uzgodnienia z uprawnioną osobą.
+
+Komu płacić
+
+Nie płać nikomu tylko dlatego, że przedstawił się jako ktoś z rodziny. Uprawniony do odbioru wynagrodzenia jest zarządca sukcesyjny widoczny w CEIDG albo spadkobiercy, którzy wykażą się postanowieniem o stwierdzeniu nabycia spadku lub aktem poświadczenia dziedziczenia. Jeśli nie wiesz, kto jest wierzycielem, albo między spadkobiercami trwa spór, możesz złożyć należność do depozytu sądowego (art. 467 pkt 1 i 3 k.c.).
+
+Sprawdź też podwykonawców. Jeśli szczegółowy przedmiot ich robót zgłoszono Ci przed rozpoczęciem prac, a Ty nie złożyłeś sprzeciwu, odpowiadasz solidarnie z wykonawcą za ich wynagrodzenie (art. 647¹ § 1 k.c.). Mogą więc zgłosić się bezpośrednio do Ciebie.
+
+Dokończenie przez innego wykonawcę
+
+Nową ekipę najlepiej wprowadzić dopiero wtedy, gdy stan robót jest spisany, a relacja ze spadkobiercami albo zarządcą jasno ustalona: umowa jest kontynuowana, rozwiązana porozumieniem albo zakończona odstąpieniem. Inwestor może odstąpić od umowy przed ukończeniem obiektu na zasadach z przepisów o dziele, do których odsyła art. 656 § 1 k.c. Każdy wariant ma jednak inne skutki finansowe. Zanim złożysz takie oświadczenie, skonsultuj je z prawnikiem. Nowa umowa powinna wskazywać, od jakiego stanu nowy wykonawca zaczyna i za co odpowiada.
+
+7 błędów po śmierci wykonawcy
+
+● wpuszczenie nowej ekipy przed spisaniem stanu robót,
+● zapłata osobie z rodziny bez dokumentu potwierdzającego jej prawo,
+● pominięcie sprawdzenia CEIDG i zarządcy sukcesyjnego,
+● prowadzenie robót bez kierownika budowy, gdy zmarły pełnił tę funkcję,
+● zużycie materiałów wykonawcy bez uzgodnienia,
+● zapomnienie o podwykonawcach, którzy byli zgłoszeni inwestorowi,
+● odstąpienie od umowy w pośpiechu, bez policzenia skutków.
+
+Spotkaliście się z taką sytuacją na budowie? Jak udało się ją rozwiązać?
+
+#EdukacjaBudowlana #UmowaOBudowę #Wykonawca #Inwestor #KierownikBudowy #ZarządSukcesyjny #BudowaDomu #PrawoBudowlane #KodeksCywilny #DomJednorodzinny

@@ -1,0 +1,55 @@
+📝 Dopłatę uzgodniono głosowo. Po miesiącu każda strona pamięta inną kwotę
+
+Na budowie wszystko ustala się szybko. Wykonawca dzwoni, że trzeba dołożyć nadproże albo przełożyć odpływ. Inwestor mówi „róbcie”, padają jakieś kwoty i obie strony wracają do swoich zajęć. Miesiąc później przychodzi faktura. Wykonawca pamięta 4 tysiące, inwestor 2,5 tysiąca i do tego „w cenie materiału”. Nikt tu nie musi kłamać. Rozmowa telefoniczna po prostu nie zostawia śladu, który dałoby się później spokojnie przeczytać.
+
+Co mówią przepisy
+
+Umowa o roboty budowlane powinna być stwierdzona pismem (art. 648 § 1 k.c.). Sąd Najwyższy przyjmuje, że chodzi o formę dla celów dowodowych. Umowa zawarta bez niej jest ważna, ale w sporze trudniej udowodnić jej treść. Zmiana umowy wymaga takiej formy, jaką przewidziano dla jej zawarcia (art. 77 § 1 k.c.). Ustna zmiana ceny czy zakresu nie jest więc z założenia nieważna. Kłopot w tym, że w razie sporu ograniczony jest dowód ze świadków i z przesłuchania stron (art. 74 § 1 k.c.).
+
+Są od tego wyjątki (art. 74 § 2 k.c.). Dowód jest dopuszczalny, gdy zgodzą się na niego obie strony, gdy żąda go konsument w sporze z przedsiębiorcą albo gdy fakt dokonania czynności uprawdopodobni się dokumentem. Ten trzeci wyjątek ma największe znaczenie w praktyce. Dokumentem jest każdy nośnik informacji, z którego da się poznać jej treść (art. 77³ k.c.), więc może nim być także e-mail albo SMS. Między przedsiębiorcami przepisów o skutkach niezachowania formy dowodowej się nie stosuje (art. 74 § 4 k.c.).
+
+Zupełnie inaczej jest wtedy, gdy umowa zastrzega, że zmiany wymagają formy pisemnej pod rygorem nieważności. Wtedy zmiana dochodzi do skutku tylko w tej formie (art. 76 k.c.). SMS czy e-mail nie zastąpią podpisanego aneksu. Zanim więc ustalisz procedurę, sprawdź, co Twoja umowa mówi o zmianach.
+
+Ryczałt i prace dodatkowe
+
+Przy wynagrodzeniu ryczałtowym wykonawca co do zasady nie może żądać podwyższenia wynagrodzenia, nawet jeśli w chwili zawarcia umowy nie dało się przewidzieć rozmiaru ani kosztów prac (art. 632 § 1 k.c.). Robota spoza zakresu umowy powinna mieć więc własną cenę, ustaloną przed jej rozpoczęciem. Przy wynagrodzeniu kosztorysowym wykonawca, który wykonał prace dodatkowe bez zgody zamawiającego, nie może żądać podwyższenia wynagrodzenia (art. 630 § 2 w zw. z art. 656 § 1 k.c.). Krótka akceptacja na piśmie chroni tu obie strony.
+
+Jeśli zmiana dotyczy projektu
+
+Nie każdą zmianę wystarczy uzgodnić między inwestorem a wykonawcą. Jeśli dodatkowa robota zmienia rozwiązania z zatwierdzonego projektu, to projektant ocenia, czy odstąpienie jest istotne. Istotne odstąpienie jest dopuszczalne dopiero po uzyskaniu decyzji o zmianie pozwolenia na budowę (art. 36a Prawa budowlanego). Ustalenie ceny niczego tu nie przyspieszy.
+
+Prosta procedura
+
+Rozmowa może zostać rozmową. Ważne, żeby jeszcze tego samego dnia, przed rozpoczęciem robót, jedna strona wysłała drugiej krótką wiadomość, a druga odpisała, że akceptuje. Najlepiej, żeby wysyłał ten, kto chce za robotę zapłaty, czyli zwykle wykonawca. W umowie warto też wpisać, kto po stronie inwestora może akceptować zmiany. Inaczej szybko okaże się, że „pan z budowy powiedział, że można”.
+
+Przykładowa wiadomość:
+
+Temat: Robota dodatkowa nr 3 – przełożenie odpływu w łazience – prośba o akceptację
+
+Dzień dobry, potwierdzam ustalenia z rozmowy z 12 listopada:
+● zakres: przełożenie odpływu prysznica o 60 cm w stronę okna, z nowym spadkiem,
+● powód: zmiana ustawienia brodzika na życzenie inwestora,
+● cena: 1800 zł brutto, ryczałt za całość z materiałem,
+● termin: dwa dni robocze, termin końcowy umowy się nie zmienia,
+● płatność: razem z najbliższą fakturą częściową,
+● zmiana projektu: nie dotyczy.
+
+Proszę o odpowiedź „akceptuję”. Bez niej nie zaczynamy prac.
+
+Odpowiedź zawsze w słowach. Emotka z kciukiem w górę też jest jakąś odpowiedzią, ale po miesiącu trudno ją komuś wytłumaczyć. Raz w miesiącu dobrze zrobić zestawienie wszystkich zaakceptowanych zmian z numerami i kwotami. Jeśli umowa wymaga aneksu, zestawienie jest podstawą do jego podpisania. Na koniec budowy zostaje wtedy jedno rozliczenie zamiast kilku wersji wspomnień.
+
+Wpis w dzienniku budowy dokumentuje przebieg robót. Moim zdaniem nie zastępuje jednak uzgodnienia ceny między stronami umowy, bo dziennik służy czemu innemu.
+
+7 błędów przy zmianach na budowie
+
+● dopłata ustalona przez telefon bez żadnego potwierdzenia,
+● wiadomość wysłana dopiero po wykonaniu roboty,
+● kwota bez informacji, czy jest netto, czy brutto, i czy obejmuje materiał,
+● brak słowa o terminie, a potem spór o kary umowne,
+● akceptacja od osoby, która nie miała prawa decydować w imieniu inwestora,
+● SMS zamiast aneksu, gdy umowa wymaga formy pisemnej pod rygorem nieważności,
+● zmiana rozwiązania z projektu bez opinii projektanta.
+
+Jak u Was potwierdza się dodatkowe roboty: mailem, SMS-em, aneksem czy wpisem w dzienniku?
+
+#EdukacjaBudowlana #UmowaOBudowę #RobotyDodatkowe #Wykonawca #Inwestor #KierownikBudowy #BudowaDomu #Aneks #KodeksCywilny #DomJednorodzinny

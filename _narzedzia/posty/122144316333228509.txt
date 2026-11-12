@@ -1,0 +1,56 @@
+🧱 „Miało wyglądać naturalnie”. Beton architektoniczny, w którym inwestor widzi same wady
+
+Ściana rozszalowana. Architekt jest zadowolony: pory, delikatne różnice odcienia, widoczny rysunek płyt deskowania. Inwestor podchodzi na odległość dłoni i wylicza: tu dziura, tu ciemniejsza plama, tu krawędź wyszczerbiona, a tu „szew”. Dla jednego to charakter materiału, dla drugiego partactwo.
+
+Najczęściej obaj mają trochę racji, bo nikt przed betonowaniem nie zapisał, co znaczy „naturalnie”.
+
+📌 Skąd bierze się ten spór
+
+Nie natrafiłem na obowiązującą polską normę, która opisywałaby, jak ma wyglądać powierzchnia betonu architektonicznego. Są wytyczne branżowe, z których można skorzystać:
+
+● „Beton architektoniczny – wytyczne techniczne” Stowarzyszenia Producentów Cementu (Kraków 2011). Dzielą powierzchnie na klasy BA1–BA3, od małych do dużych wymagań.
+● Niemiecki DBV/VDZ Merkblatt „Sichtbeton” (wydanie 2015). Ma cztery klasy, SB1–SB4, i bywa stosowany także w Polsce.
+
+Takie wytyczne same z siebie nikogo nie wiążą. Wiążą dopiero wtedy, gdy strony wpiszą je do umowy. Żadne z nich nie obiecuje też idealnej powierzchni. Nawet przy najwyższych wymaganiach drobne nieregularności i różnice odcienia pozostają cechą betonu, a nie błędem.
+
+Przy odbiorze sprawdza się zgodność z umową. Wada fizyczna to w uproszczeniu niezgodność wykonanego obiektu z tym, co strony uzgodniły (art. 556¹ § 1 k.c., stosowany do robót budowlanych przez art. 638 § 1 i art. 656 § 1 k.c.). Jeżeli w umowie stoją tylko dwa słowa, „beton architektoniczny”, to spór toczy się o znaczenie tych dwóch słów. Wykonawca odwoła się do projektu i zasad wiedzy technicznej (art. 647 k.c.). Inwestor odwoła się do zdjęcia, które pokazał na pierwszym spotkaniu. To moja ocena praktyczna, nie treść przepisu: im mniej konkretów w dokumentach, tym bardziej odbiór zamienia się w dyskusję o gustach.
+
+📝 Co uzgodnić przed pierwszym betonowaniem
+
+● Jedne wytyczne i jedną klasę. Wybierz konkretną klasę wymagań według konkretnego dokumentu. Klasa z jednych wytycznych i tolerancje z drugich to prosta droga do sporu.
+● Cechy powierzchni. Opisz fakturę, porowatość, równomierność barwy, wygląd styków płyt, przerw roboczych i otworów po ściągach. Ustal też, czy krawędzie mają być fazowane, czy ostre.
+● Rysunek deskowania. Układ płyt, ściągów i przerw roboczych powinien zobaczyć i zaakceptować inwestor, bo to on będzie na nie patrzył przez lata.
+● Warunki oceny. Ustal odległość, z której ocenia się powierzchnię, czyli taką, z jakiej użytkownik będzie ją oglądał na co dzień. Ustal też oświetlenie i moment oceny. Beton zmienia odcień w trakcie wysychania, więc ocena dzień po rozszalowaniu może wprowadzać w błąd.
+● Rozstrzyganie sporów. Wskaż z góry, kto rozstrzyga, gdy strony się nie zgadzają, np. niezależny rzeczoznawca wybrany już przy podpisywaniu umowy.
+
+🔍 Próbka referencyjna, czyli wzorzec, z którym porównujesz
+
+Zdjęcie z katalogu ani wizualizacja nie są wzorcem. Wzorcem jest fragment betonu wykonany na tej budowie.
+
+● Wykonuje go ta sama ekipa, z betonu z tej samej wytwórni, w tym samym deskowaniu i z tym samym środkiem antyadhezyjnym, w zbliżonych warunkach pogodowych.
+● Zawiera miejsca trudne: styk płyt, ściąg, narożnik, przerwę roboczą. Gładki środek płyty wyjdzie dobrze prawie zawsze.
+● Akceptację potwierdza protokół ze zdjęciami (z miarką i wzornikiem barw w kadrze), datą i opisem warunków wykonania.
+● Próbkę chroni się i zostawia do końcowego odbioru. Rozbita po tygodniu przestaje być dowodem.
+● Jeżeli powierzchnia ma być impregnowana albo hydrofobizowana, sprawdź preparat najpierw na próbce. Niektóre preparaty zmieniają odcień betonu.
+
+🛠️ Naprawy ustal, zanim będą potrzebne
+
+● Zapisz, które niezgodności się akceptuje, a które naprawia, odwołując się do przyjętej klasy.
+● Przetestuj metodę naprawy na próbce referencyjnej. Szpachla w innym kolorze często jest bardziej widoczna niż por, który miała zakryć.
+● Określ, kto naprawia, jakim materiałem i po czym poznać, że naprawa jest przyjęta.
+● Ustal, że wykonawca nie poprawia niczego „po cichu” przed odbiorem bez zgody inwestora.
+● Ustal, co się dzieje, gdy naprawa nie daje akceptowalnego efektu: okładzina, obniżenie wynagrodzenia, wykonanie elementu od nowa.
+
+❌ 5 błędów, które kończą się sporem
+
+● W umowie i specyfikacji jest tylko hasło „beton architektoniczny”, bez klasy i opisu cech.
+● Wzorcem jest zdjęcie z internetu albo wizualizacja, a nie próbka z budowy.
+● Próbkę wykonała inna ekipa, z innego betonu albo w lepszych warunkach niż właściwe elementy.
+● Ocena odbywa się z kilkunastu centymetrów, w ostrym świetle bocznym, bez ustalonej odległości.
+● Naprawy robi się „na oko”, bez testu, a łata okazuje się gorsza od wady.
+
+💬 Dla inwestora
+
+Jeśli marzy Ci się powierzchnia gładka, jednolita i bez porów, powiedz to przed zamówieniem betonu, a nie przy odbiorze. To zwykle wyższa klasa wymagań, inne deskowanie, więcej czasu i wyższy koszt. Czasem uczciwiej jest wtedy rozważyć okładzinę albo powłokę niż obiecywać sobie efekt, którego żywy materiał nie da.
+
+#EdukacjaBudowlana #BetonArchitektoniczny #Budowa #BudowaDomu #KierownikBudowy #OdbiórRobót #UmowaOBudowę #Inwestor #Wykonawca #Rękojmia #Deskowanie

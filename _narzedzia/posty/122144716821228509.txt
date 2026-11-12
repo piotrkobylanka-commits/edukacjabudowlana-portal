@@ -1,0 +1,52 @@
+🪵 Stare drewno zostało zaimpregnowane bez rozpoznania jego wcześniejszych powłok
+
+Impregnat działa wtedy, gdy wniknie w drewno. Jeśli na powierzchni zostały resztki farby olejnej, wosku albo lakieru, preparat zostaje na wierzchu, schnie nierówno i po pierwszej zimie zaczyna schodzić płatami. Bywa też gorzej. Pod kilkoma warstwami farby leży stary środek ochronny, o którego składzie nikt nic nie wie, a przy szlifowaniu zamienia się on w pył. Renowację trzeba więc zacząć od ustalenia, co już jest na drewnie. Preparat wybiera się dopiero potem.
+
+Historia elementu
+
+Najwięcej mówi to, gdzie drewno pracowało i co się z nim działo. Belka stropowa, która przez sto lat była sucha, to inny przypadek niż podwalina przy gruncie albo deski na elewacji. Zbierz, co się da: dokumentację, stare rachunki, to, co właściciel pamięta z poprzednich remontów. Ślady na samym drewnie też coś podpowiadają. Ciemna, tłusta powierzchnia i zapach smoły mogą oznaczać kreozot albo podobny środek smołowy. To tylko poszlaka, ale wystarczy, żeby nie zaczynać od szlifierki.
+
+Odkrywka i proste testy
+
+Na niewidocznym fragmencie zeskrob kilka centymetrów kwadratowych, aż do drewna. Przekrój pokaże, ile jest warstw i czy pod farbą leży jeszcze coś innego. Potem przydaje się wacik z rozpuszczalnikiem. Szelak szybko puszcza pod spirytusem, lakier nitro mięknie od acetonu albo rozcieńczalnika nitro, a farba alkidowa zabarwia szmatkę zwilżoną ksylenem. Takie próby pozwalają się zorientować, ale pewności nie dają. Przy zabytku albo gdy podejrzewasz farbę z ołowiem lub środek smołowy, lepiej oddać próbkę do laboratorium.
+
+Ołów, kreozot, pentachlorofenol
+
+Starsze farby olejne mogły zawierać związki ołowiu. Farba w dobrym stanie zwykle nie stanowi zagrożenia. Problem zaczyna się przy skrobaniu, szlifowaniu i opalaniu, bo wtedy powstaje pył. Jeśli test potwierdzi ołów, lepiej zrezygnować ze szlifowania na sucho i z opalarki, a sposób usunięcia ustalić ze specjalistą.
+
+Kreozot jest objęty ograniczeniami REACH (załącznik XVII, pozycja 31). Co do zasady nie wolno go stosować do obróbki drewna ani wprowadzać do obrotu drewna nim zaimpregnowanego, choć przepis przewiduje odstępstwa. Pentachlorofenol jest w Unii zakazany jako trwałe zanieczyszczenie organiczne (rozporządzenie 2019/1021). Jeśli takie środki są w drewnie, wybór impregnatu schodzi na dalszy plan. Najpierw trzeba zdecydować, czy element zostaje, czy idzie do wymiany. Odpady z usuwania takich powłok i z takiego drewna mają w katalogu odpadów kody niebezpieczne, np. 08 01 17* albo 17 02 04*, i trafiają do uprawnionego odbiorcy.
+
+Zakres oczyszczenia
+
+Ile trzeba usunąć, zależy od trzech rzeczy: czego wymaga nowy preparat, w jakim stanie jest stara powłoka i czy zawiera coś niebezpiecznego. Impregnaty i lazury cienkowarstwowe zwykle potrzebują gołego drewna. W kartach technicznych często jest wprost napisane, że stare lazury grubowarstwowe i farby kryjące trzeba usunąć w całości. Łuszczące się warstwy usuwa się zawsze. Jeśli stara powłoka jest zdrowa i ma zostać, producenci wymagają próby przyczepności i zgodności przed nałożeniem na nią produktu spoza ich systemu.
+
+Zgodność preparatów
+
+Najprościej trzymać się jednego systemu: impregnatu, podkładu i powłoki nawierzchniowej, które producent przewidział do wspólnego stosowania. Listę zgodnych produktów zwykle podaje karta techniczna. Impregnat grzybobójczy lub owadobójczy jest produktem biobójczym. W Polsce można go sprzedawać i stosować tylko wtedy, gdy ma pozwolenie (rozporządzenie UE 528/2012 i ustawa o produktach biobójczych). Wykaz takich produktów prowadzi URPL. Pozwolenie obejmuje konkretne zastosowania, a niektóre produkty są dopuszczone tylko dla użytkowników przemysłowych. Przed zakupem sprawdź więc na etykiecie, do czego i dla kogo jest przeznaczony.
+
+Warunki stosowania
+
+Od wilgotności drewna i pogody zależy, czy preparat wniknie i zwiąże. Wymagania różnią się między produktami. Jedna karta techniczna podaje 11–15% wilgotności dla elementów zachowujących wymiar i maksymalnie 18% dla pozostałych, inna 15%. Podobnie jest z temperaturą i wilgotnością powietrza. Jeden producent podaje zakres od +5 do +30°C przy wilgotności poniżej 70%, inny co najmniej +8°C. Wilgotność drewna mierzy się wilgotnościomierzem w kilku miejscach, zwłaszcza przy czołach i w strefie przy gruncie. Kilka słonecznych dni nie oznacza jeszcze, że drewno jest suche.
+
+Zabytek
+
+Gdy budynek jest wpisany do rejestru zabytków, prace przy drewnianych elementach wymagają pozwolenia wojewódzkiego konserwatora zabytków (art. 36 ust. 1 ustawy o ochronie zabytków i opiece nad zabytkami). Prace konserwatorskie prowadzi osoba, która spełnia wymagania ustawy (art. 36a i 37a). Zakres oczyszczenia i preparaty uzgadnia się wtedy z konserwatorem przed rozpoczęciem prac.
+
+Przed renowacją zapisz:
+● zdjęcia odkrywek z opisem miejsca,
+● wyniki testów rozpuszczalnikowych i badań laboratoryjnych, jeśli były,
+● pomiary wilgotności drewna z datą,
+● kartę techniczną i kartę charakterystyki preparatu,
+● warunki pogodowe w dniu aplikacji.
+
+7 błędów przy renowacji starego drewna
+
+● zakup impregnatu przed sprawdzeniem, co jest na drewnie,
+● impregnat nałożony na resztki farby, wosku lub lakieru,
+● szlifowanie na sucho i opalanie starej farby bez sprawdzenia, czy zawiera ołów,
+● łączenie preparatów różnych producentów bez próby przyczepności,
+● malowanie drewna po deszczu bez pomiaru wilgotności,
+● środek biobójczy użyty poza zakresem podanym na etykiecie,
+● zeskrobane powłoki wyrzucone razem ze zmieszanymi odpadami.
+
+#EdukacjaBudowlana #RenowacjaDrewna #Impregnacja #StareDrewno #OchronaDrewna #Renowacja #Zabytki #DomDrewniany #KierownikBudowy #Remont

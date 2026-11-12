@@ -1,0 +1,59 @@
+🪵 Płytki na starej drewnianej podłodze: „mocniejszy klej” to nie projekt
+
+„Pod płytkami jest stara drewniana podłoga. Wykonawca proponuje tylko mocniejszy klej”. Brzmi rozsądnie: podłoże trudne, więc bierzemy najlepszy klej z półki. Problem w tym, że klej nie usztywni desek, nie zatrzyma ugięcia legarów i nie wysuszy drewna. Okładzina ceramiczna jest sztywna i nie przenosi odkształceń podłoża, które pracuje pod obciążeniem i ze zmianą wilgotności.
+
+Producenci płytek piszą wprost, że odkształcalność kleju pomaga w takim przypadku tylko w niewielkim zakresie. Jeśli podłoże się ugina, ryzyko pęknięcia okładziny zostaje. Pytanie nie brzmi więc „jaki klej?”, tylko „jaki układ warstw na tym konkretnym podłożu?”.
+
+⚖️ Przepisy w skrócie
+
+● Prawo budowlane, art. 5 ust. 1 pkt 1 lit. a: obiekt i jego części projektuje się i wykonuje tak, żeby zapewnić nośność i stateczność konstrukcji. Dokładając kilkadziesiąt kilogramów na metr kwadratowy płytek i warstw wyrównujących na drewnianym stropie, zmieniasz obciążenie, które ta konstrukcja przenosi.
+● Art. 29 ust. 3 pkt 1 lit. a: w domu jednorodzinnym przebudowa elementów konstrukcyjnych wymaga zgłoszenia. Wymiana samej okładziny bez ingerencji w konstrukcję co do zasady nie wymaga ani pozwolenia, ani zgłoszenia (art. 29 ust. 4). O tym, czy wzmocnienie legarów czy belek to remont, czy przebudowa, decydują definicje z art. 3 pkt 7a i 8. Ustal to, zanim ktoś zacznie je wymieniać. Przy budynku wpisanym do rejestru zabytków obowiązują osobne zasady (art. 29 ust. 7).
+● Art. 10: wyroby stosuje się zgodnie z zamierzonym zastosowaniem. W praktyce: klej, płyta i mata mają być przez producenta przewidziane do podłoża drewnianego, a nie tylko „mocne”.
+● Art. 22 pkt 7: kierownik budowy, jeśli jest ustanowiony, zgłasza inwestorowi do sprawdzenia lub odbioru roboty ulegające zakryciu. Usztywnienie i warstwy pod płytkami to dokładnie takie roboty.
+● Warunki techniczne z 2002 r., § 204 ust. 3 pkt 2: w konstrukcji nie mogą wystąpić odkształcenia powodujące uszkodzenia części niekonstrukcyjnych i elementów wykończenia.
+● § 322 ust. 3: jeśli przed przebudową stwierdzisz zawilgocenie i oznaki korozji biologicznej, trzeba wykonać ekspertyzę mykologiczną i na jej podstawie roboty zabezpieczające.
+
+Uwaga na stan prawny: warunki techniczne z 2002 r. utraciły moc 20 września 2026 r. Przez 18 miesięcy od tej daty można je stosować przy pozwoleniu na budowę i zgłoszeniu, po złożeniu oświadczenia inwestora (art. 102a Prawa budowlanego), oraz przy robotach niewymagających pozwolenia ani zgłoszenia (art. 102b).
+
+🔍 Ocena w trzech krokach
+
+1. Konstrukcja pod podłogą
+● Co dokładnie jest pod deskami: legary na podkładzie, legary na stropie, a może deski przybite wprost do belek stropu drewnianego?
+● Rozstaw, przekroje i podparcie legarów lub belek. Czy podłoga ugina się, drga, skrzypi przy chodzeniu?
+● Ile będą ważyć nowe warstwy i czy konstrukcja to przeniesie. Przy stropie drewnianym to pytanie do konstruktora, nie do sprzedawcy kleju.
+
+2. Stan drewna
+● Wilgotność drewna, ślady zagrzybienia, butwienia, owadów, luźne lub pęknięte deski.
+● Czy przestrzeń pod podłogą jest wentylowana i czy nie ma źródła wilgoci od spodu.
+● Jeśli widać zawilgocenie i korozję biologiczną, najpierw ekspertyza mykologiczna i naprawa, dopiero potem rozmowa o płytkach.
+
+3. Cały układ warstw
+Narysuj przekrój od belki lub legara aż po fugę:
+● Deski: zostają czy są zdejmowane?
+● Warstwa usztywniająca: rodzaj płyty, grubość i sposób mocowania według systemu, który ją przewiduje. W jednym z systemów producent wymaga płyt drewnopochodnych grubości 22–25 mm, a inni podają własne wymagania.
+● Warstwa kompensacyjna lub odcinająca, czyli mata lub płyta ograniczająca przenoszenie naprężeń z podłoża na okładzinę.
+● Hydroizolacja w łazience: płyty drewnopochodne trzeba przed układaniem płytek zabezpieczyć.
+● Klej o podwyższonej odkształcalności, dobrany do całego układu i formatu płytek.
+● Dylatacje obwodowe i fuga.
+● Łączna wysokość warstw: progi, drzwi, przejścia do innych pomieszczeń.
+
+🧩 Rozwiązanie systemowe zamiast „najlepszego” produktu
+
+● Jeden producent, który w karcie technicznej lub rysunku systemowym opisuje cały układ dla podłoża drewnianego: od płyty przez matę po klej i fugę, z warunkami stosowania.
+● Jeśli elementy pochodzą od różnych producentów: potwierdzenie kompatybilności na piśmie.
+● Przy stropie drewnianym: konstruktor ocenia nośność i ugięcie przed doborem układu, a nie po pierwszym pęknięciu.
+● Protokół przed zakryciem: stan drewna, wykonane usztywnienie, mocowanie, warstwy, karty techniczne. To jest dokument, do którego wrócicie, jeśli płytka pęknie.
+
+❌ 5 błędów przy płytkach na drewnie
+
+● Dobór „najmocniejszego” kleju zamiast oceny podłoża.
+● Płytki przyklejone wprost na deski albo na płytę OSB bez przygotowania wskazanego przez producenta. OSB ma słabą przyczepność dla zapraw klejowych.
+● Brak oceny ugięcia i nośności stropu drewnianego.
+● Pominięta wilgotność i stan biologiczny drewna.
+● Warstwy od różnych producentów „bo każda osobno jest dobra”, bez sprawdzenia, czy działają razem.
+
+✅ Ocena podłoża przed wyborem produktu
+
+Stara drewniana podłoga może być dobrym podłożem pod płytki, ale tylko jako część zaprojektowanego układu. Kolejność jest zawsze ta sama: konstrukcja, stan drewna, przekrój warstw, system, protokół. Klej jest na końcu tej listy, a nie na początku.
+
+#EdukacjaBudowlana #płytki #podłogadrewniana #stropdrewniany #remont #łazienka #okładzinyceramiczne #klejdopłytek #budowadomu #kierownikbudowy #odbiórrobót

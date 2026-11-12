@@ -1,0 +1,49 @@
+🔊 Pompa basenowa nie da Ci spać? Zanim zbudujesz skrzynkę, policz decybele
+
+Latem woda w basenie jest czysta, a w nocy przez uchylone okno słychać jednostajne buczenie. Pierwszy pomysł to zwykle skrzynka ze sklejki wokół pompy. Ten pomysł bywa najsłabszy z dostępnych. Lepiej zacząć od kilku pomiarów i prostych rachunków.
+
+🔍 Najpierw ustal, co hałasuje
+● Odgłos jak przesypywany żwir to zwykle kawitacja: za mała lub zdławiona rura ssawna albo zapchany kosz.
+● „Strzelanie” pęcherzy oznacza, że pompa zasysa powietrze, np. przez nieszczelne ssanie albo przy za niskim poziomie wody.
+● Stały gwizd, który nie zmienia się z pracą hydrauliki, wskazuje na łożyska. Do wymiany, nie do obudowy.
+● Buczenie, które znika w chwili odłączenia prądu, ma źródło magnetyczne. Na taki niski ton ekrany i obudowy działają słabo.
+
+🏠 Którędy dźwięk wchodzi do sypialni?
+Porównaj, co słychać przy zamkniętym i uchylonym oknie. Dotknij rur przy ścianie domu. Sprawdź, czy płyta pod pompą łączy się z tarasem albo fundamentem. Jeśli drgania idą przez konstrukcję, obudowa nic tu nie zmieni.
+
+📏 Liczby, które warto znać
+● Hałas w środowisku przy zabudowie jednorodzinnej nie może przekraczać nocą 40 dB, liczonych dla najmniej korzystnej godziny. W dzień limit wynosi 50 dB.
+● Polska norma akustyczna dla pokoi w budynkach podaje 25 dB poziomu równoważnego i 30 dB maksymalnego. Przy dźwięku tonalnym lub niskoczęstotliwościowym obie wartości są niższe o 5 dB. Dla pompy stojącej w ogrodzie traktuj to jako punkt odniesienia.
+● Nocne tło na wsi wynosi ok. 22–26 dB. Pompa, która formalnie mieści się w 40 dB, nadal jest dobrze słyszalna.
+
+📍 Lokalizacja daje najwięcej
+● Każda bliska ściana dodaje ok. 3 dB, a narożnik ok. 6 dB.
+● Dwa razy większa odległość od okna daje ok. 6 dB mniej.
+● Najskuteczniej działa schowanie pompy za bryłą domu, po stronie bez sypialni (Twoich i sąsiadów).
+● Pompa ma jednak stać blisko i nisko względem lustra wody, z krótką rurą ssawną i w odległości od basenu podanej w instrukcji.
+
+🔩 Mocowanie
+● Osobna płyta betonowa, oddzielona od domu i tarasu.
+● Wibroizolatory dobrane do masy pompy i do jej najniższych obrotów. Zbyt cienka mata potrafi przy niskich obrotach wejść w rezonans.
+● Elastyczne łączniki na ssaniu i tłoczeniu, rury podparte niezależnie, obejmy z wkładką gumową. Żadna rura nie może dotykać ściany domu.
+
+⏱️ Godziny pracy i obroty
+Filtrację da się zwykle zaplanować na dzień, w blokach po kilka godzin. Pompa inwerterowa na niskich obrotach jest według kart producentów cichsza o 20–30 dB niż na pełnych. To więcej, niż daje typowa obudowa.
+
+📦 Dopiero na końcu ekran albo obudowa
+● Ekran musi zasłaniać linię widoczności, być szczelny i ciężki, co najmniej ok. 10 kg/m². Daje zwykle 5–10 dB.
+● Obudowa musi być szczelna, wyłożona od środka materiałem pochłaniającym i nie może dotykać pompy. Trzeba też policzyć wentylację, bo silnik się grzeje.
+
+❌ 7 błędów przy wyciszaniu pompy
+● Pompa pod oknem sypialni albo w narożniku.
+● Pompa na tarasie połączonym z budynkiem.
+● Sztywne rury przykręcone do ściany domu.
+● Cienka mata zamiast dobranych wibroizolatorów.
+● Szczelna skrzynka bez wentylacji, przez co silnik się przegrzewa.
+● Szczeliny w obudowie. Otwór o powierzchni ok. 1% potrafi ograniczyć jej skuteczność do ok. 20 dB.
+● Wyciszanie pompy z zużytymi łożyskami zamiast ich wymiany.
+
+⚖️ Gdy sąsiad zgłosi problem
+Sąsiad może iść do sądu na podstawie art. 144 Kodeksu cywilnego. Ten przepis zakazuje zakłóceń ponad przeciętną miarę, a dotrzymanie norm hałasu nie zamyka sprawy. Policja może sięgnąć po art. 51 Kodeksu wykroczeń, a wójt może wydać decyzję na podstawie art. 363 Prawa ochrony środowiska. Prościej i taniej jest zrobić ocenę przed montażem.
+
+#EdukacjaBudowlana #basen #pompabasenowa #hałas #akustyka #budowadomu #ogród #sąsiedzi #wibroizolacja #domjednorodzinny #prawobudowlane

@@ -1,0 +1,52 @@
+🔍 Podbitka zamknęła dach. Czy pozostawiono wszystko, co przewidywał detal okapu?
+
+Podbitkę montuje się na końcu, więc łatwo potraktować ją jak zwykłe wykończenie. Tymczasem zasłania miejsce, w którym schodzą się wentylacja dachu, membrana, obróbki blacharskie i ściana. Kiedy deski albo panele są już przykręcone, nikt nie sprawdzi, czy powietrze ma którędy wejść pod pokrycie i czy siatka przeciw ptakom nie zatkała wlotu. Skutki rzadko widać od razu. Pojawiają się po kilku sezonach jako mokra wełna, zaciek na desce okapowej albo gniazdo os pod podbitką.
+
+Odbiór przed zamknięciem
+
+Okap przed montażem podbitki to w praktyce robota zanikająca. Kierownik budowy ma obowiązek zgłaszać inwestorowi do sprawdzenia lub odbioru roboty ulegające zakryciu (art. 22 pkt 7 Prawa budowlanego). Jeżeli inwestor ustanowił inspektora nadzoru, to inspektor je sprawdza i odbiera (art. 25 pkt 3). Po takim odbiorze powinien zostać wpis w dzienniku budowy i zdjęcia, na których da się rozpoznać, którego fragmentu okapu dotyczą.
+
+Co mówi detal
+
+Na dach najlepiej wejść z rysunkiem okapu z projektu albo z wytycznych producenta pokrycia i membrany. Detal musi przede wszystkim rozstrzygać, co okap wentyluje: szczelinę nad membraną, szczelinę pod deskowaniem czy nieużytkowy strych. Od tego zależy położenie wlotu. Raz jest on z przodu, pod pierwszym rzędem pokrycia, innym razem w perforacji albo w kratkach podbitki. Z detalu wynika też wymagany przekrój wlotu, sposób zakończenia membrany, rodzaj zabezpieczenia przed zwierzętami i połączenie podbitki ze ścianą. Jeśli takiego rysunku nie ma, trzeba go uzgodnić z projektantem przed zamknięciem okapu, a nie w dniu montażu.
+
+Przekrój wlotu
+
+Wymagany przekrój podaje projekt albo producent. Gdy projekt tego nie określa, jako punkt odniesienia przyjmuje się często niemiecką normę DIN 4108-3. Według niej wlot przy okapie powinien mieć co najmniej 2‰ powierzchni połaci, ale nie mniej niż 200 cm² na metr okapu. To nie jest polski przepis.
+
+Liczy się przekrój, przez który powietrze faktycznie przejdzie. Krokwie, kratka, siatka i grzebień zabierają część otworu. Przy podbitce perforowanej i kratkach efektywną powierzchnię wentylacyjną podaje karta techniczna. Wystarczy przeliczyć ją na metr okapu i porównać z projektem.
+
+Droga powietrza
+
+Otwór w podbitce nic nie da, jeśli zaraz za nim powietrze trafi na przeszkodę. Najczęściej jest nią wełna dociśnięta do membrany albo do deskowania przy murłacie. Zdarza się też, że ocieplenie ściany wchodzi pod okap i zamyka szczelinę albo że deska czołowa przylega do pokrycia. Źle dobrany do profilu dachówki grzebień potrafi zablokować wlot równie skutecznie. Sam wlot to też za mało: powietrze musi mieć którędy wyjść przy kalenicy i grzbietach.
+
+Membrana i obróbki
+
+Membranę wyprowadza się na pas podrynnowy albo nadrynnowy, zależnie od przyjętego rozwiązania. Stosuje się oba warianty i w obu woda z membrany ma spłynąć na blachę, a nie na deskę okapową czy podbitkę. Przy odbiorze sprawdź zakłady i ciągłość membrany na całej długości okapu, szczególnie przy koszach, narożach i przejściach przez dach.
+
+Ptaki, gryzonie, owady
+
+Grzebień okapowy, siatka i kratki mają zatrzymać zwierzęta, ale nie mogą przy tym odciąć powietrza. Słabe miejsca to zwykle naroża, kosze, zakończenia przy wiatrownicach i szpary przy krokwiach albo przy ścianie. Siatka przypięta kilkoma zszywkami może odpaść przy pierwszym mocniejszym wietrze.
+
+Gdy w okapie ktoś już mieszka
+
+Jeśli okap długo stał otwarty albo remontujesz stary dach, mogą w nim być gniazda. Ustawa o ochronie przyrody zakazuje m.in. niszczenia gniazd i siedlisk gatunków chronionych (art. 52 ust. 1). Bez zezwolenia gniazdo ptasie z obiektu budowlanego można usunąć tylko od 16 października do końca lutego i tylko ze względów bezpieczeństwa lub sanitarnych. Wynika to z rozporządzenia w sprawie ochrony gatunkowej zwierząt. Wyjątek obejmuje samo gniazdo, więc zamknięcie miejsca lęgowego może wymagać zezwolenia regionalnego dyrektora ochrony środowiska także zimą (art. 56). Nietoperze są w Polsce pod ścisłą ochroną, wszystkie gatunki. W razie wątpliwości zapytaj RDOŚ albo ornitologa, zanim wykonawca przykręci ostatnią deskę.
+
+Przed zamknięciem zrób zdjęcia:
+● wlotu na każdym odcinku okapu, z miarą przy szczelinie,
+● zakończenia membrany i obróbek,
+● grzebienia lub siatki przy narożach i koszach.
+
+Do dokumentacji dołącz kartę techniczną podbitki albo kratek. Odbiór potwierdź wpisem w dzienniku budowy.
+
+7 błędów przy zamykaniu okapu
+
+● pełna podbitka tam, gdzie detal przewidywał wlot przez podbitkę,
+● przekrój wlotu liczony brutto, bez potrącenia kratki, siatki i krokwi,
+● wełna dociśnięta do membrany lub deskowania przy murłacie,
+● ocieplenie ściany zamykające szczelinę pod okapem,
+● membrana zakończona na desce okapowej zamiast na obróbce,
+● grzebień albo siatka z przerwami przy narożach i koszach,
+● zamknięcie okapu bez sprawdzenia, czy nie ma w nim gniazd.
+
+#EdukacjaBudowlana #Dach #Podbitka #Okap #WentylacjaDachu #KierownikBudowy #OdbiórRobót #InspektorNadzoru #DomJednorodzinny #OchronaPtaków

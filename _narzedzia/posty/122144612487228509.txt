@@ -1,0 +1,76 @@
+🔒 Brama automatyczna zamyka się poprawnie. Jak sprawdzono jej zabezpieczenia?
+
+Montaż skończony. Brama jedzie płynnie, pilot działa, montażysta przechodzi przed fotokomórką i skrzydło staje. Wszyscy zadowoleni, podpis, przelew.
+
+To był pokaz, a nie odbiór. Odbiór bramy z napędem to porównanie z dokumentacją, pomiar i protokół. Nie próba „na nogę”, „na rękę” ani „na zderzak”.
+
+Dlaczego nie sprawdzasz bramy ciałem ani samochodem
+
+● Napęd ma ograniczać siłę, z jaką skrzydło naciska na przeszkodę. Tę siłę mierzy się przyrządem w określonych punktach. Norma EN 12453:2017 wymaga, by ograniczenie siły nie przekraczało dopuszczalnych granic dla zgniecenia i uderzenia, a do pomiaru służą specjalne mierniki sił dynamicznych i statycznych, dostarczane ze świadectwem wzorcowania. Człowiek tej siły nie zmierzy, najwyżej poczuje, że boli.
+● To, że skrzydło raz się zatrzymało, nie mówi, co zrobi przy innej prędkości, w innym miejscu albo zimą.
+● Samochód nie jest przeszkodą testową. Uszkodzisz auto, bramę albo jedno i drugie. 
+calibrate
+geneq
+
+Zasada jest prosta: próby wykonuje montażysta według procedury z instrukcji napędu, Ty obserwujesz z bezpiecznej odległości i dostajesz wyniki na piśmie.
+
+Kto odpowiada za bezpieczeństwo bramy z napędem (stan na 11 listopada 2026 r.)
+
+● Brama z napędem jest maszyną. Do 19 stycznia 2027 r. obowiązuje dyrektywa maszynowa 2006/42/WE. Według sprostowania do rozporządzenia (UE) 2023/1230 dyrektywa traci moc z dniem 20 stycznia 2027 r. i od tego dnia stosuje się nowe rozporządzenie. Rozporządzenie nie wymaga wdrożenia rozporządzeniem ministra, tak jak dyrektywa, i obowiązuje bezpośrednio.
+● Zarówno dyrektywa 2006/42/WE, jak i rozporządzenie (UE) 2023/1230 wymagają przeprowadzenia oceny ryzyka dla każdej maszyny.
+● Napęd często kupuje się osobno. W instrukcjach napędów pojawia się zastrzeżenie, że montaż może przeprowadzić tylko wykwalifikowany montażysta, uprawniony do wystawienia deklaracji zgodności dla kompletnego systemu automatyki. Napęd ma zwykle od swojego producenta deklarację włączenia, ale to nie jest deklaracja zgodności całej bramy.
+● Normy: EN 12453:2017+A1:2021 (bezpieczeństwo użytkowania bram z napędem, wymagania i metody badań) figuruje w bazie norm zharmonizowanych z przepisami o maszynach; EN 12635 dotyczy instalowania i użytkowania i definiuje książkę raportową, czyli książkę z głównymi danymi bramy i miejscem na zapisy z kontroli, prób, konserwacji, napraw i modyfikacji; EN 13241 to norma wyrobu.
+● Dawne warunki techniczne (wygasłe 20 września 2026 r., stosowane przejściowo na zasadach art. 102a–102c Prawa budowlanego) mówią, że ogrodzenie nie może stwarzać zagrożenia dla bezpieczeństwa ludzi i zwierząt (§ 41 ust. 1). Brama z napędem jest jego częścią. 
+Wpis na blogu
+ +7
+
+8 rzeczy do zamówienia przy odbiorze
+
+Wpisz je do umowy z firmą montażową, zanim zacznie pracę.
+
+Uruchomienie według procedury odbioru z instrukcji napędu. Producenci napędów zastrzegają, by nie używać urządzenia, jeśli nie przeprowadzono procedury odbioru i przekazania do eksploatacji. 
+montersi
+Pomiar sił miernikiem. Protokół z punktami pomiaru, wynikami, datą, typem miernika i ważnym świadectwem wzorcowania.
+Sprawdzenie każdego zabezpieczenia osobno: każdej pary fotokomórek, listew krawędziowych, wyłączników krańcowych, lampy ostrzegawczej, przycisku stop, zachowania po zaniku zasilania. W protokole: co sprawdzono, jaką metodą i z jakim wynikiem.
+Wyłącznik odłączający wszystkie bieguny zasilania. Instrukcje napędów wymagają, by montażysta przewidział urządzenie odłączające napęd od sieci we wszystkich biegunach, np. wyłącznik sieciowy. 
+adeo
+Tabliczka z danymi identyfikacyjnymi bramy automatycznej w widocznym miejscu. 
+adeo
+Komplet dokumentów: deklaracja zgodności dla kompletnej bramy z napędem, instrukcja obsługi, instrukcja awaryjnego otwierania, plan konserwacji i książka raportowa z pierwszym wpisem. Montażysta ma przekazać użytkownikowi wszystkie informacje o obsłudze bramy, otwieraniu awaryjnym (wysprzęglaniu) i konserwacji. 
+adeo
+Szkolenie domowników. Montażysta pokazuje odblokowanie i ponowne zablokowanie, potem każdy dorosły domownik robi to sam przy wyłączonym zasilaniu.
+Ustalenie przeglądów. Kto je robi, jak często według instrukcji i że każda zmiana ustawień, naprawa czy wymiana części trafia do książki raportowej.
+
+Co musi zawierać instrukcja awaryjnego odblokowania
+
+● gdzie jest odblokowanie i klucz, także zapasowy,
+● kolejność czynności według instrukcji napędu, w tym czy najpierw odłączyć zasilanie,
+● ostrzeżenie, że po odblokowaniu skrzydło porusza się swobodnie, a na spadku może się przetoczyć,
+● jak ponownie zablokować napęd i co zrobić po powrocie prądu,
+● kto w domu umie to zrobić.
+
+Zrób zdjęcie tej strony i trzymaj je w telefonie. Brak prądu rzadko zdarza się wtedy, gdy instrukcja leży pod ręką.
+
+Kiedy odbiór trzeba powtórzyć
+
+To moja ocena praktyczna, a nie lista z przepisu. Ponownego sprawdzenia przez montażystę wymagają:
+● zmiana ustawień siły, prędkości albo trybu pracy,
+● wymiana napędu, centrali lub zabezpieczeń,
+● przeróbka skrzydła, np. pełne wypełnienie zamiast ażurowego,
+● dołożenie lub przestawienie fotokomórek.
+
+Instrukcje bram zabraniają zmiany podzespołów i przeróbek, np. docieplania skrzydła. Każda taka zmiana wpływa na to, co mierzono przy odbiorze. 
+leroymerlin
+
+8 błędów przy odbiorze bramy automatycznej
+
+Odbiór „na oko”, bez protokołu.
+Próby własnym ciałem, ręką albo samochodem.
+Brak pomiaru sił albo pomiar bez danych miernika.
+Deklaracja włączenia napędu wzięta za deklarację zgodności całej bramy.
+Brak instrukcji awaryjnego odblokowania w języku polskim.
+Domownicy, którzy nigdy nie odblokowali bramy.
+Brak książki raportowej i terminów przeglądów.
+Zmiana ustawień „bo brama zatrzymuje się na wietrze” bez powtórzenia pomiaru.
+
+#EdukacjaBudowlana #BramaAutomatyczna #BramaPrzesuwna #NapędBramy #Fotokomórki #Bezpieczeństwo #Ogrodzenie #BudowaDomu #DomJednorodzinny #OdbiórRobót #Inwestor
