@@ -1,4 +1,4 @@
-2026-11-07 12:24 UTC
+2026-11-12 20:50 UTC
 FB 122142724155228509: już jest
 FB 122142726459228509: już jest
 FB 122142751101228509: już jest
@@ -24,13 +24,121 @@ FB 122143764801228509: już jest
 FB 122143766253228509: już jest
 FB 122143772103228509: już jest
 FB 122143603461228509: już jest
-FB 122144158515228509: 1122x1402 -> _narzedzia/obrazy/122144158515228509.webp
-FB 122144043597228509: 1122x1402 -> _narzedzia/obrazy/122144043597228509.webp
-FB 122143996917228509: 1024x572 -> _narzedzia/obrazy/122143996917228509.webp
-FB 122143987251228509: 1650x2048 -> _narzedzia/obrazy/122143987251228509.webp
+FB 122144158515228509: już jest
+FB 122144043597228509: już jest
+FB 122143996917228509: już jest
+FB 122143987251228509: już jest
 FB 122143985355228509: już jest
-FB 122143976181228509: 1122x1402 -> _narzedzia/obrazy/122143976181228509.webp
-FB 122143967121228509: 1122x1402 -> _narzedzia/obrazy/122143967121228509.webp
-FB 122143964943228509: 1122x1402 -> _narzedzia/obrazy/122143964943228509.webp
-FB 122143958385228509: 1122x1402 -> _narzedzia/obrazy/122143958385228509.webp
-FB 122143897101228509: 1122x1402 -> _narzedzia/obrazy/122143897101228509.webp
+FB 122143976181228509: już jest
+FB 122143967121228509: już jest
+FB 122143964943228509: już jest
+FB 122143958385228509: już jest
+FB 122143897101228509: już jest
+FB 122144171007228509: https://www.facebook.com/photo/?fbid=122 HTTP Error 400: Bad Request
+FB 122144171007228509: https://www.facebook.com/photo.php?fbid= HTTP Error 400: Bad Request
+FB 122144171007228509: https://m.facebook.com/photo.php?fbid=12 HTTP Error 400: Bad Request
+FB 122144171007228509: nie znaleziono adresu grafiki
+FB 122144172771228509: https://www.facebook.com/photo/?fbid=122 HTTP Error 400: Bad Request
+FB 122144172771228509: https://www.facebook.com/photo.php?fbid= HTTP Error 400: Bad Request
+FB 122144172771228509: https://m.facebook.com/photo.php?fbid=12 HTTP Error 400: Bad Request
+FB 122144172771228509: nie znaleziono adresu grafiki
+FB 122144173815228509: https://www.facebook.com/photo/?fbid=122 HTTP Error 400: Bad Request
+FB 122144173815228509: https://www.facebook.com/photo.php?fbid= HTTP Error 400: Bad Request
+FB 122144173815228509: https://m.facebook.com/photo.php?fbid=12 HTTP Error 400: Bad Request
+FB 122144173815228509: nie znaleziono adresu grafiki
+FB 122144192559228509: https://www.facebook.com/photo/?fbid=122 HTTP Error 400: Bad Request
+FB 122144192559228509: https://www.facebook.com/photo.php?fbid= HTTP Error 400: Bad Request
+FB 122144192559228509: https://m.facebook.com/photo.php?fbid=12 HTTP Error 400: Bad Request
+FB 122144192559228509: nie znaleziono adresu grafiki
+FB 122144194005228509: https://www.facebook.com/photo/?fbid=122 HTTP Error 400: Bad Request
+FB 122144194005228509: https://www.facebook.com/photo.php?fbid= HTTP Error 400: Bad Request
+FB 122144194005228509: https://m.facebook.com/photo.php?fbid=12 HTTP Error 400: Bad Request
+FB 122144194005228509: nie znaleziono adresu grafiki
+FB 122144206803228509: https://www.facebook.com/photo/?fbid=122 HTTP Error 400: Bad Request
+FB 122144206803228509: https://www.facebook.com/photo.php?fbid= HTTP Error 400: Bad Request
+FB 122144206803228509: https://m.facebook.com/photo.php?fbid=12 HTTP Error 400: Bad Request
+FB 122144206803228509: nie znaleziono adresu grafiki
+FB 122144271291228509: https://www.facebook.com/photo/?fbid=122 HTTP Error 400: Bad Request
+FB 122144271291228509: https://www.facebook.com/photo.php?fbid= HTTP Error 400: Bad Request
+FB 122144271291228509: https://m.facebook.com/photo.php?fbid=12 HTTP Error 400: Bad Request
+FB 122144271291228509: nie znaleziono adresu grafiki
+FB 122144283831228509: https://www.facebook.com/photo/?fbid=122 HTTP Error 400: Bad Request
+FB 122144283831228509: https://www.facebook.com/photo.php?fbid= HTTP Error 400: Bad Request
+FB 122144283831228509: https://m.facebook.com/photo.php?fbid=12 HTTP Error 400: Bad Request
+FB 122144283831228509: nie znaleziono adresu grafiki
+FB 122144289627228509: https://www.facebook.com/photo/?fbid=122 HTTP Error 400: Bad Request
+FB 122144289627228509: https://www.facebook.com/photo.php?fbid= HTTP Error 400: Bad Request
+FB 122144289627228509: https://m.facebook.com/photo.php?fbid=12 HTTP Error 400: Bad Request
+FB 122144289627228509: nie znaleziono adresu grafiki
+FB 122144299611228509: https://www.facebook.com/photo/?fbid=122 HTTP Error 400: Bad Request
+FB 122144299611228509: https://www.facebook.com/photo.php?fbid= HTTP Error 400: Bad Request
+FB 122144299611228509: https://m.facebook.com/photo.php?fbid=12 HTTP Error 400: Bad Request
+FB 122144299611228509: nie znaleziono adresu grafiki
+FB 122144316333228509: https://www.facebook.com/photo/?fbid=122 HTTP Error 400: Bad Request
+FB 122144316333228509: https://www.facebook.com/photo.php?fbid= HTTP Error 400: Bad Request
+FB 122144316333228509: https://m.facebook.com/photo.php?fbid=12 HTTP Error 400: Bad Request
+FB 122144316333228509: nie znaleziono adresu grafiki
+FB 122144379915228509: https://www.facebook.com/photo/?fbid=122 HTTP Error 400: Bad Request
+FB 122144379915228509: https://www.facebook.com/photo.php?fbid= HTTP Error 400: Bad Request
+FB 122144379915228509: https://m.facebook.com/photo.php?fbid=12 HTTP Error 400: Bad Request
+FB 122144379915228509: nie znaleziono adresu grafiki
+FB 122144405499228509: https://www.facebook.com/photo/?fbid=122 HTTP Error 400: Bad Request
+FB 122144405499228509: https://www.facebook.com/photo.php?fbid= HTTP Error 400: Bad Request
+FB 122144405499228509: https://m.facebook.com/photo.php?fbid=12 HTTP Error 400: Bad Request
+FB 122144405499228509: nie znaleziono adresu grafiki
+FB 122144527881228509: https://www.facebook.com/photo/?fbid=122 HTTP Error 400: Bad Request
+FB 122144527881228509: https://www.facebook.com/photo.php?fbid= HTTP Error 400: Bad Request
+FB 122144527881228509: https://m.facebook.com/photo.php?fbid=12 HTTP Error 400: Bad Request
+FB 122144527881228509: nie znaleziono adresu grafiki
+FB 122144572515228509: https://www.facebook.com/photo/?fbid=122 HTTP Error 400: Bad Request
+FB 122144572515228509: https://www.facebook.com/photo.php?fbid= HTTP Error 400: Bad Request
+FB 122144572515228509: https://m.facebook.com/photo.php?fbid=12 HTTP Error 400: Bad Request
+FB 122144572515228509: nie znaleziono adresu grafiki
+FB 122144573613228509: https://www.facebook.com/photo/?fbid=122 HTTP Error 400: Bad Request
+FB 122144573613228509: https://www.facebook.com/photo.php?fbid= HTTP Error 400: Bad Request
+FB 122144573613228509: https://m.facebook.com/photo.php?fbid=12 HTTP Error 400: Bad Request
+FB 122144573613228509: nie znaleziono adresu grafiki
+FB 122144577183228509: https://www.facebook.com/photo/?fbid=122 HTTP Error 400: Bad Request
+FB 122144577183228509: https://www.facebook.com/photo.php?fbid= HTTP Error 400: Bad Request
+FB 122144577183228509: https://m.facebook.com/photo.php?fbid=12 HTTP Error 400: Bad Request
+FB 122144577183228509: nie znaleziono adresu grafiki
+FB 122144597325228509: https://www.facebook.com/photo/?fbid=122 HTTP Error 400: Bad Request
+FB 122144597325228509: https://www.facebook.com/photo.php?fbid= HTTP Error 400: Bad Request
+FB 122144597325228509: https://m.facebook.com/photo.php?fbid=12 HTTP Error 400: Bad Request
+FB 122144597325228509: nie znaleziono adresu grafiki
+FB 122144612487228509: https://www.facebook.com/photo/?fbid=122 HTTP Error 400: Bad Request
+FB 122144612487228509: https://www.facebook.com/photo.php?fbid= HTTP Error 400: Bad Request
+FB 122144612487228509: https://m.facebook.com/photo.php?fbid=12 HTTP Error 400: Bad Request
+FB 122144612487228509: nie znaleziono adresu grafiki
+FB 122144625849228509: https://www.facebook.com/photo/?fbid=122 HTTP Error 400: Bad Request
+FB 122144625849228509: https://www.facebook.com/photo.php?fbid= HTTP Error 400: Bad Request
+FB 122144625849228509: https://m.facebook.com/photo.php?fbid=12 HTTP Error 400: Bad Request
+FB 122144625849228509: nie znaleziono adresu grafiki
+FB 122144703111228509: https://www.facebook.com/photo/?fbid=122 HTTP Error 400: Bad Request
+FB 122144703111228509: https://www.facebook.com/photo.php?fbid= HTTP Error 400: Bad Request
+FB 122144703111228509: https://m.facebook.com/photo.php?fbid=12 HTTP Error 400: Bad Request
+FB 122144703111228509: nie znaleziono adresu grafiki
+FB 122144705463228509: https://www.facebook.com/photo/?fbid=122 HTTP Error 400: Bad Request
+FB 122144705463228509: https://www.facebook.com/photo.php?fbid= HTTP Error 400: Bad Request
+FB 122144705463228509: https://m.facebook.com/photo.php?fbid=12 HTTP Error 400: Bad Request
+FB 122144705463228509: nie znaleziono adresu grafiki
+FB 122144706957228509: https://www.facebook.com/photo/?fbid=122 HTTP Error 400: Bad Request
+FB 122144706957228509: https://www.facebook.com/photo.php?fbid= HTTP Error 400: Bad Request
+FB 122144706957228509: https://m.facebook.com/photo.php?fbid=12 HTTP Error 400: Bad Request
+FB 122144706957228509: nie znaleziono adresu grafiki
+FB 122144716233228509: https://www.facebook.com/photo/?fbid=122 HTTP Error 400: Bad Request
+FB 122144716233228509: https://www.facebook.com/photo.php?fbid= HTTP Error 400: Bad Request
+FB 122144716233228509: https://m.facebook.com/photo.php?fbid=12 HTTP Error 400: Bad Request
+FB 122144716233228509: nie znaleziono adresu grafiki
+FB 122144716821228509: https://www.facebook.com/photo/?fbid=122 HTTP Error 400: Bad Request
+FB 122144716821228509: https://www.facebook.com/photo.php?fbid= HTTP Error 400: Bad Request
+FB 122144716821228509: https://m.facebook.com/photo.php?fbid=12 HTTP Error 400: Bad Request
+FB 122144716821228509: nie znaleziono adresu grafiki
+FB 122144718267228509: https://www.facebook.com/photo/?fbid=122 HTTP Error 400: Bad Request
+FB 122144718267228509: https://www.facebook.com/photo.php?fbid= HTTP Error 400: Bad Request
+FB 122144718267228509: https://m.facebook.com/photo.php?fbid=12 HTTP Error 400: Bad Request
+FB 122144718267228509: nie znaleziono adresu grafiki
+FB 122144718729228509: https://www.facebook.com/photo/?fbid=122 HTTP Error 400: Bad Request
+FB 122144718729228509: https://www.facebook.com/photo.php?fbid= HTTP Error 400: Bad Request
+FB 122144718729228509: https://m.facebook.com/photo.php?fbid=12 HTTP Error 400: Bad Request
+FB 122144718729228509: nie znaleziono adresu grafiki
