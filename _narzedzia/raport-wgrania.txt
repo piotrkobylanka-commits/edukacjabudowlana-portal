@@ -1,62 +1,12 @@
-2026-11-19 11:44 UTC
+2026-11-19 14:14 UTC
 == katalog domen
 edukacjabudowlana.eu
 ..
 .
 ebudem.pl
-na serwerze: 14824812, oczekiwane: 14824812
-wgrano plik p/499.json (715657 B)
-wgrano plik p/500.json (487037 B)
-wgrano plik p/501.json (545105 B)
-wgrano plik p/502.json (576701 B)
-wgrano plik p/503.json (766005 B)
-wgrano plik p/504.json (492681 B)
-wgrano plik p/505.json (541737 B)
-wgrano plik p/506.json (546417 B)
-wgrano plik p/507.json (736541 B)
-wgrano plik p/508.json (414833 B)
-wgrano plik p/509.json (558573 B)
-wgrano plik p/510.json (522897 B)
-wgrano plik p/511.json (528305 B)
-wgrano plik p/512.json (622445 B)
-wgrano plik p/513.json (548749 B)
-wgrano plik p/514.json (875925 B)
-wgrano plik p/515.json (651997 B)
-wgrano plik p/516.json (839677 B)
-wgrano plik p/517.json (976405 B)
-wgrano plik p/518.json (636113 B)
-wgrano plik p/519.json (651265 B)
-wgrano plik p/520.json (682205 B)
-wgrano plik img/thumbs/s65.webp (634618 B)
-wgrano plik img/thumbs/s66.webp (541282 B)
-wgrano plik img/thumbs/s67.webp (469196 B)
-wgrano: 15261057, lokalnie: 15261057
-PODMIENIONO, kopia: index_backup_20261119_1144.html
+na serwerze: 15261057, oczekiwane: 15261057
+wgrano: 15260393, lokalnie: 15260393
+PODMIENIONO, kopia: index_backup_20261119_1414.html
 == na żywo
-200 15261057
+200 15260393
 zakładka: 1
-p/499.json 200 715657
-p/500.json 200 487037
-p/501.json 200 545105
-p/502.json 200 576701
-p/503.json 200 766005
-p/504.json 200 492681
-p/505.json 200 541737
-p/506.json 200 546417
-p/507.json 200 736541
-p/508.json 200 414833
-p/509.json 200 558573
-p/510.json 200 522897
-p/511.json 200 528305
-p/512.json 200 622445
-p/513.json 200 548749
-p/514.json 200 875925
-p/515.json 200 651997
-p/516.json 200 839677
-p/517.json 200 976405
-p/518.json 200 636113
-p/519.json 200 651265
-p/520.json 200 682205
-img/thumbs/s65.webp 200 634618
-img/thumbs/s66.webp 200 541282
-img/thumbs/s67.webp 200 469196
