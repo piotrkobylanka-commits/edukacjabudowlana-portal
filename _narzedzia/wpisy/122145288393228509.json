@@ -1,0 +1,38 @@
+{
+ "slug": "plytki-kolczaste-w-wiazarach-polaczenie-spod-prasy-nie-spod-mlotka",
+ "title": "Płytki kolczaste w wiązarach – połączenie spod prasy, nie spod młotka",
+ "lead": "Jak powstaje wiązar z płytkami kolczastymi, dlaczego płytki nie wbija się młotkiem i co zrobić, gdy płytka uszkodzi się w transporcie lub przy montażu.",
+ "stage": 4,
+ "dzial": "konstrukcja-dachu",
+ "domain": "konstrukcje",
+ "norms": [],
+ "date": "2026-11-17",
+ "html": "<p>Płytki kolczaste. Połączenie spod prasy, nie spod młotka</p>\n<p>Patrzysz na drewniany wiązar i widzisz niewielką stalową płytkę na styku elementów. Najważniejsza część tego łącznika jest schowana w drewnie: to gęsto rozmieszczone kolce, wycięte i odgięte z samej blachy, które podczas prasowania zagłębiają się w łączone części.</p>\n<h2 id=\"jak-z-luznych-elementow-powstaje-wiazar\">Jak z luźnych elementów powstaje wiązar?</h2>\n<p>Najpierw przygotowuje się dokumentację warsztatową i docina drewno, a następnie układa elementy na stanowisku utrzymującym zaprojektowany kształt konstrukcji. Płytki są wprasowywane z obu stron węzła, dzięki czemu poszczególne części zostają połączone w gotowy wiązar.</p>\n<p>Szablon pilnuje geometrii, a prasa osadza łączniki; taki sposób produkcji pozwala powtarzać ten sam kształt kolejnych wiązarów i dostarczać je na budowę jako przygotowane prefabrykaty. To właśnie tutaj warto szukać odpowiedzi na pytanie, co umożliwiło przemysłowe składanie drewnianych konstrukcji dachowych.</p>\n<h2 id=\"dlaczego-nie-wystarczy-kupic-plytki-i-chwycic-za-mlotek\">Dlaczego nie wystarczy kupić płytki i chwycić za młotek?</h2>\n<p>Płytki kolczastej nie montuje się jak zwykłej blachy z otworami na gwoździe: uderzenia młotkiem mogą pozaginać kolce, a takie połączenie nie zapewnia wymaganej nośności węzła. Również jej dobór nie jest kwestią tego, czy „wygląda solidnie”, ponieważ płytki oblicza się dla konkretnych połączeń, sprawdzając między innymi nośność i ryzyko rozwarstwienia drewna.</p>\n<p>Dla inwestora ważna jest jeszcze jedna rzecz: uszkodzonej lub odchylonej płytki nie należy samodzielnie dobijać ani zastępować innym łącznikiem; naprawa powinna wynikać z przygotowanych wytycznych, a nie z improwizacji na budowie. Przy odbiorze warto więc zapytać dostawcę, jak sprawdzono połączenia i czy podczas transportu lub montażu odnotowano uszkodzenia.</p>",
+ "toc": [
+  {
+   "id": "jak-z-luznych-elementow-powstaje-wiazar",
+   "t": "Jak z luźnych elementów powstaje wiązar?"
+  },
+  {
+   "id": "dlaczego-nie-wystarczy-kupic-plytki-i-chwycic-za-mlotek",
+   "t": "Dlaczego nie wystarczy kupić płytki i chwycić za młotek?"
+  }
+ ],
+ "sources": "<ul>\n<li>Opracowanie autorskie EdukacjaBudowlana, pierwotnie opublikowane na profilu EdukacjaBudowlana na Facebooku.</li>\n</ul>",
+ "disclaimer": "Rozwiązanie dla konkretnego budynku dobiera projektant z odpowiednimi uprawnieniami; artykuł ma charakter informacyjny.",
+ "minutes": 2,
+ "nr": null,
+ "seria": null,
+ "zag": "rodzaje-wiezby-i-wiazary",
+ "cover": {
+  "src": "img/full/122145288393228509.webp",
+  "w": 960,
+  "h": 1200,
+  "alt": "Płytki kolczaste w wiązarach – połączenie spod prasy, nie spod młotka"
+ },
+ "thumb": [
+  67,
+  4,
+  1
+ ]
+}

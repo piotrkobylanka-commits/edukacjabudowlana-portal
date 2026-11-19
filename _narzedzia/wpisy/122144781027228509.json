@@ -1,0 +1,53 @@
+{
+ "slug": "zapora-trzech-przeleczy-181-m-betonu-ktory-nie-mogl-sie-przegrzac",
+ "title": "Zapora Trzech Przełęczy – 181 m betonu, który nie mógł się przegrzać",
+ "lead": "Jak chłodzono beton masywny na Jangcy, na czym stoi zapora i jakie zasady betonowania dużych bloków obowiązują też na polskich budowach.",
+ "stage": 3,
+ "dzial": "fundamenty",
+ "domain": "konstrukcje",
+ "norms": [
+  "Rozporządzenie w sprawie warunków technicznych dla budowli hydrotechnicznych (Dz.U. 2026 poz. 692)",
+  "PN-EN 13670"
+ ],
+ "date": "2026-11-13",
+ "html": "<p>🏗️ 002 |🌊 Sanxia Daba: 181 m betonu, który nie mógł się przegrzać</p>\n<p>Zapora Trzech Przełęczy na Jangcy ma 2309,5 m długości i 181 m wysokości. Na papierze to zwykła betonowa zapora ciężkościowa, czyli blok, który trzyma wodę własnym ciężarem. Na budowie najtrudniejszym przeciwnikiem nie była jednak rzeka, tylko ciepło, które beton wydziela sam z siebie.</p>\n<h2 id=\"skala-w-kilku-liczbach\">Skala w kilku liczbach</h2>\n<ul>\n<li class=\"fb-b\">● ok. 28 mln m³ betonu w całej inwestycji, z czego ok. 16 mln m³ w samej zaporze,</li>\n<li class=\"fb-b\">● 22 500 MW mocy i rekordowe 111,8 TWh w 2020 r.,</li>\n<li class=\"fb-b\">● 22,15 mld m³ pojemności zarezerwowanej na powódź,</li>\n<li class=\"fb-b\">● pięciostopniowe śluzy i podnośnik, który unosi statek do 3000 t na wysokość 113 m.</li>\n</ul>\n<h2 id=\"jak-schlodzono-beton\">Jak schłodzono beton</h2>\n<p>W szczytowym okresie wylewano nawet 22 000 m³ na dobę. Tak duży blok nagrzewa się od środka, a powierzchnia stygnie szybciej i zaczyna pękać. Dlatego mieszanka wyjeżdżała z wytwórni w temperaturze ok. 7°C: kruszywo chłodzono powietrzem, do mieszanki szedł lód i zimna woda. W blokach układano rury chłodzące, powierzchnie przykrywano izolacją, a 20–40% spoiwa stanowił popiół lotny. W ponad 4 mln m³ betonu ostatniego etapu nie stwierdzono rys termicznych.</p>\n<h2 id=\"fundament-i-przekroj\">Fundament i przekrój</h2>\n<p>Zapora stoi na granicie masywu Huangling o wytrzymałości ok. 100 MPa. Pod piętą wykonano kurtynę zastrzykową i drenaż, a najgroźniejszy przypadek poślizgu głębokiego sprawdzono z wymaganym współczynnikiem bezpieczeństwa co najmniej 3,0. Korona sekcji przelewowej leży na rzędnej 185 m n.p.m., normalne piętrzenie to 175 m, a podstawa przekroju ma ok. 126 m.</p>\n<h2 id=\"a-w-polsce\">A w Polsce?</h2>\n<p>Od 11 czerwca 2026 r. obowiązuje nowe rozporządzenie w sprawie warunków technicznych dla budowli hydrotechnicznych (Dz.U. 2026 poz. 692). Przy betonie masywnym wracają te same tematy co w Chinach. PN-EN 13670 ogranicza temperaturę we wnętrzu elementu do 70°C, jeśli specyfikacja nie stanowi inaczej, a w praktyce pilnuje się, żeby różnica między wnętrzem a powierzchnią nie przekraczała ok. 20°C. Przy fundamencie bloku energetycznego w Jaworznie czujniki pokazały maksimum 34,2°C i różnicę 16,2°C, czyli dokładnie to, o co chodzi w dobrze zaplanowanym betonowaniu.</p>\n<h2 id=\"5-bledow-przy-betonie-masywnym\">5 błędów przy betonie masywnym</h2>\n<ul>\n<li class=\"fb-b\">● zwykły CEM I zamiast cementu o niskim cieple hydratacji (LH),</li>\n<li class=\"fb-b\">● betonowanie w upale bez chłodzenia mieszanki,</li>\n<li class=\"fb-b\">● zbyt wczesne zdjęcie izolacji z gorącego bloku,</li>\n<li class=\"fb-b\">● brak czujników temperatury we wnętrzu i przy powierzchni,</li>\n<li class=\"fb-b\">● za grube warstwy bez zaplanowanych przerw i dylatacji.</li>\n</ul>\n<p>Przy Waszym ostatnim fundamencie masywnym ktoś mierzył temperaturę w środku bloku, czy tylko na powierzchni?</p>",
+ "toc": [
+  {
+   "id": "skala-w-kilku-liczbach",
+   "t": "Skala w kilku liczbach"
+  },
+  {
+   "id": "jak-schlodzono-beton",
+   "t": "Jak schłodzono beton"
+  },
+  {
+   "id": "fundament-i-przekroj",
+   "t": "Fundament i przekrój"
+  },
+  {
+   "id": "a-w-polsce",
+   "t": "A w Polsce?"
+  },
+  {
+   "id": "5-bledow-przy-betonie-masywnym",
+   "t": "5 błędów przy betonie masywnym"
+  }
+ ],
+ "sources": "<ul>\n<li>Opracowanie autorskie EdukacjaBudowlana, pierwotnie opublikowane na profilu EdukacjaBudowlana na Facebooku.</li>\n<li>Rozporządzenie w sprawie warunków technicznych dla budowli hydrotechnicznych (Dz.U. 2026 poz. 692)</li>\n<li>PN-EN 13670</li>\n</ul>",
+ "disclaimer": "Artykuł ma charakter popularnonaukowy; dane techniczne obiektu podano w zaokrągleniu.",
+ "minutes": 2,
+ "nr": null,
+ "seria": null,
+ "zag": "betonowanie-i-pielegnacja",
+ "cover": {
+  "src": "img/full/122144781027228509.webp",
+  "w": 960,
+  "h": 1200,
+  "alt": "Zapora Trzech Przełęczy – 181 m betonu, który nie mógł się przegrzać"
+ },
+ "thumb": [
+  66,
+  4,
+  0
+ ]
+}

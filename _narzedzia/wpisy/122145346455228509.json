@@ -1,0 +1,50 @@
+{
+ "slug": "laboratorium-zbadalo-probke-ale-nie-wiadomo-z-ktorego-elementu-jak-prowadzic-rejestr-probek",
+ "title": "Laboratorium zbadało próbkę, ale nie wiadomo, z którego elementu – jak prowadzić rejestr próbek",
+ "lead": "Jak numerować próbki betonu, co zapisać przy pobraniu, jak przenieść numer na kostkę przed rozformowaniem i jak wynik z laboratorium wraca do konkretnego elementu.",
+ "stage": 4,
+ "dzial": "kontrola-jakosci-sso",
+ "domain": "konstrukcje",
+ "norms": [
+  "PN-EN 12350-1",
+  "PN-EN 12390-2",
+  "PN-EN 13791"
+ ],
+ "date": "2026-11-18",
+ "html": "<p>🧪 „Laboratorium zbadało próbkę. Czy wiadomo, z którego elementu pochodziła?” O identyfikowalności próbek na budowie</p>\n<p>Sprawozdanie z laboratorium przychodzi po 28 dniach. Jedna z serii kostek ma za niską wytrzymałość. Wszyscy zadają wtedy to samo pytanie: który to był beton? Strop nad parterem czy wieniec? Pierwsza gruszka czy trzecia? Na kostce jest numer, ale nikt już nie pamięta, co on oznaczał.</p>\n<p>Badanie może być wykonane bez zarzutu, a i tak niewiele z niego wynika, jeśli nie da się powiązać wyniku z konkretnym miejscem w konstrukcji. Laboratorium bada to, co dostało, a jego sprawozdanie dotyczy wyłącznie tej próbki. Skąd ona pochodzi, musi udokumentować budowa. Pobieranie mieszanki opisuje PN-EN 12350-1, a wykonanie i pielęgnację próbek PN-EN 12390-2. Żadna z tych norm nie poprowadzi jednak za nas rejestru, który połączy kostkę z polem betonowania.</p>\n<h2 id=\"numer-ktory-cos-znaczy\">Numer, który coś znaczy</h2>\n<p>Numer próbki powinien być krótki, jednoznaczny i nadawany po kolei w ramach budowy, np. B-014 dla czternastej serii betonu. Całą resztę informacji trzymamy w rejestrze próbek, a nie na nalepce. Długi kod z datą, osiami i klasą betonu rozmazuje się na formie i nikt go nie przepisze bez błędu.</p>\n<p>Przy pobraniu do rejestru trafiają:</p>\n<ul>\n<li class=\"fb-b\">● numer próbki i liczba kostek w serii,</li>\n<li class=\"fb-b\">● data i godzina pobrania,</li>\n<li class=\"fb-b\">● numer dokumentu dostawy (WZ) i numer pojazdu,</li>\n<li class=\"fb-b\">● element i jego dokładne miejsce, np. strop nad parterem, pole 2, osie A–C / 1–3,</li>\n<li class=\"fb-b\">● zaprojektowana klasa betonu i to, co zostało zamówione,</li>\n<li class=\"fb-b\">● wynik badania konsystencji i temperatura powietrza,</li>\n<li class=\"fb-b\">● kto pobrał próbkę i kto był przy tym obecny,</li>\n<li class=\"fb-b\">● numer zdjęcia.</li>\n</ul>\n<p>Zdjęcie robimy tak, żeby w kadrze były jednocześnie forma z numerem, gruszka i fragment elementu, który właśnie jest betonowany. Jedno takie ujęcie wyjaśnia więcej niż pół strony notatek. Miejsce pobrania zaznaczamy też na rzucie albo na wydruku rysunku konstrukcji, bo „pole 2” za pół roku może znaczyć dla każdego coś innego.</p>\n<h2 id=\"numer-musi-przetrwac-rozformowanie\">Numer musi przetrwać rozformowanie</h2>\n<p>To miejsce, w którym łańcuch najczęściej się zrywa. Numer napisany na formie znika, kiedy kostkę z niej wyjmujemy. Przed rozformowaniem przenosimy go na samą próbkę markerem odpornym na wodę, bo kostki dalej dojrzewają zwykle w wodzie. Przy przekazaniu do laboratorium spisujemy protokół: numery, liczbę sztuk, datę, stan próbek i podpis osoby odbierającej. Z laboratorium warto ustalić wprost, że w sprawozdaniu ma się pojawić nasz numer próbki obok ich własnego numeru wewnętrznego.</p>\n<h2 id=\"wynik-wraca-do-elementu\">Wynik wraca do elementu</h2>\n<p>Kiedy przychodzi sprawozdanie, wynik wpisujemy do tego samego rejestru, w wierszu tej samej próbki. Dzięki temu w jednym zestawieniu widać: element, dostawę, warunki pobrania i wytrzymałość. Jeżeli wynik jest zły, wiadomo od razu, gdzie szukać. Można zlecić odwierty rdzeniowe w tym konkretnym polu i ocenić beton w konstrukcji według PN-EN 13791, zamiast wiercić cały strop na ślepo albo spierać się z betoniarnią bez dowodów.</p>\n<p>Ta sama zasada dotyczy innych badań: zagęszczenia gruntu, przyczepności tynku czy wilgotności jastrychu. Punkt badania musi być oznaczony na planie, opisany w rejestrze i widoczny na zdjęciu.</p>\n<h2 id=\"7-bledow-przez-ktore-dobre-badanie-traci-wartosc\">7 błędów, przez które dobre badanie traci wartość</h2>\n<ul>\n<li class=\"fb-b\">● numer tylko na formie, bez przeniesienia na próbkę po rozformowaniu,</li>\n<li class=\"fb-b\">● wpis „beton ze stropu” bez pola, osi i godziny,</li>\n<li class=\"fb-b\">● brak numeru WZ, przez co nie da się ustalić, z której dostawy była mieszanka,</li>\n<li class=\"fb-b\">● kostki przez pierwsze dni na mrozie albo w pełnym słońcu, a w rejestrze nic o tym nie ma,</li>\n<li class=\"fb-b\">● przekazanie do laboratorium bez protokołu, więc nie wiadomo, ile próbek dotarło i w jakim stanie,</li>\n<li class=\"fb-b\">● sprawozdanie z numerem laboratorium, którego nie da się dopasować do numeru z budowy,</li>\n<li class=\"fb-b\">● wyniki odłożone do segregatora bez wpisania ich przy elemencie, którego dotyczą.</li>\n</ul>",
+ "toc": [
+  {
+   "id": "numer-ktory-cos-znaczy",
+   "t": "Numer, który coś znaczy"
+  },
+  {
+   "id": "numer-musi-przetrwac-rozformowanie",
+   "t": "Numer musi przetrwać rozformowanie"
+  },
+  {
+   "id": "wynik-wraca-do-elementu",
+   "t": "Wynik wraca do elementu"
+  },
+  {
+   "id": "7-bledow-przez-ktore-dobre-badanie-traci-wartosc",
+   "t": "7 błędów, przez które dobre badanie traci wartość"
+  }
+ ],
+ "sources": "<ul>\n<li>Opracowanie autorskie EdukacjaBudowlana, pierwotnie opublikowane na profilu EdukacjaBudowlana na Facebooku.</li>\n<li>PN-EN 12350-1</li>\n<li>PN-EN 12390-2</li>\n<li>PN-EN 13791</li>\n</ul>",
+ "disclaimer": "Rozwiązanie dla konkretnego budynku dobiera projektant z odpowiednimi uprawnieniami; artykuł ma charakter informacyjny.",
+ "minutes": 3,
+ "nr": null,
+ "seria": null,
+ "zag": "odbiory-zbrojenia-i-robot-zanikajacych",
+ "cover": {
+  "src": "img/full/122145346455228509.webp",
+  "w": 960,
+  "h": 1200,
+  "alt": "Laboratorium zbadało próbkę, ale nie wiadomo, z którego elementu – jak prowadzić rejestr próbek"
+ },
+ "thumb": [
+  67,
+  2,
+  2
+ ]
+}

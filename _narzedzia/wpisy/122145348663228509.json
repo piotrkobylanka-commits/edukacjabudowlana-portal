@@ -1,0 +1,45 @@
+{
+ "slug": "beton-przyjechal-za-gesty-ekipa-chce-dolac-wody-jak-reagowac",
+ "title": "Beton przyjechał za gęsty, ekipa chce dolać wody – jak reagować",
+ "lead": "Co się dzieje z betonem po dolaniu wody, jak sprawdzić dokument dostawy i konsystencję, kiedy dzwonić do technologa betoniarni i kiedy wstrzymać wbudowanie.",
+ "stage": 4,
+ "dzial": "stropy",
+ "domain": "konstrukcje",
+ "norms": [
+  "PN-EN 206",
+  "PN-EN 12350-2"
+ ],
+ "date": "2026-11-18",
+ "html": "<p>🚨 BETON PRZYJECHAŁ. EKIPA CHCE DOLAĆ WODY!</p>\n<p>„Panie, za gęsty! Dolejemy trochę wody i będzie się lepiej układał”.</p>\n<p>To jedno z tych zdań na budowie, które powinno natychmiast zwrócić uwagę kierownika budowy i inspektora nadzoru.</p>\n<p>Dlaczego? Bo dodatkowa woda może poprawić urabialność mieszanki, ale jednocześnie zmienić jej parametry.</p>\n<h2 id=\"co-moze-sie-stac-po-dolaniu-wody\">⚠️ Co może się stać po dolaniu wody?</h2>\n<p>Niekontrolowane zwiększenie ilości wody w mieszance betonowej może prowadzić do:</p>\n<p>- obniżenia wytrzymałości betonu na ściskanie,</p>\n<p>- zwiększenia porowatości i nasiąkliwości,</p>\n<p>- pogorszenia mrozoodporności i szczelności,</p>\n<p>- zwiększenia skurczu i ryzyka zarysowań,</p>\n<p>- segregacji składników mieszanki.</p>\n<p>Szczególne znaczenie ma wskaźnik wodno-cementowy (w/c), czyli stosunek masy wody do masy cementu. Jego niekontrolowany wzrost może istotnie pogorszyć właściwości stwardniałego betonu.</p>\n<h2 id=\"jak-reagowac-na-budowie\">🔍 Jak reagować na budowie?</h2>\n<ul>\n<li class=\"fb-b\">1. Wstrzymaj dolewanie wody.</li>\n</ul>\n<p>Nie pozwalaj na samowolną zmianę składu mieszanki. Nie oznacza to, że każda korekta ilości wody jest bezwzględnie zakazana. Może być dopuszczalna w określonych warunkach, pod kontrolą producenta i przy zachowaniu wymaganych parametrów.</p>\n<ul>\n<li class=\"fb-b\">2. Sprawdź dokument dostawy (WZ).</li>\n</ul>\n<p>Zweryfikuj klasę wytrzymałości, klasę konsystencji, klasy ekspozycji, ilość betonu, godzinę załadunku i identyfikację dostawy. Porównaj dane z projektem, specyfikacją i zamówieniem.</p>\n<ul>\n<li class=\"fb-b\">3. Sprawdź konsystencję, a nie tylko wygląd.</li>\n</ul>\n<p>Jeżeli są wątpliwości, zleć odpowiednie badanie konsystencji mieszanki, np. metodą opadu stożka, zgodnie z PN-EN 12350-2, jeżeli metoda jest właściwa dla danej mieszanki.</p>\n<ul>\n<li class=\"fb-b\">4. Skontaktuj się z technologiem betoniarni.</li>\n</ul>\n<p>Jeżeli mieszanka wymaga korekty, producent powinien określić, czy i w jaki sposób można ją wykonać. Rozwiązaniem może być odpowiednio dobrana domieszka upłynniająca, zastosowana zgodnie z recepturą i instrukcją producenta.</p>\n<ul>\n<li class=\"fb-b\">5. Zabezpiecz dowody.</li>\n</ul>\n<p>Zachowaj dokument WZ, numer dostawy, godziny przyjazdu i rozładunku, wyniki badań, zdjęcia, dane dotyczące ewentualnej korekty mieszanki oraz informację, kto ją zatwierdził. Przy uzasadnionych wątpliwościach rozważ pobranie próbek do badań wytrzymałościowych.</p>\n<ul>\n<li class=\"fb-b\">6. Podejmij decyzję przed wbudowaniem.</li>\n</ul>\n<p>Jeżeli nie można potwierdzić zgodności mieszanki z wymaganiami, należy wstrzymać jej wbudowanie do czasu wyjaśnienia sprawy. W razie potwierdzonej niezgodności może być konieczne odrzucenie dostawy.</p>\n<h2 id=\"najwazniejsza-zasada\">🏗️ Najważniejsza zasada</h2>\n<p>Beton ma spełniać wymagania projektu, a nie tylko łatwo wypływać z pompy!</p>\n<p>Łatwiejsze układanie przez kilka minut nie może być ważniejsze od trwałości konstrukcji przez kilkadziesiąt lat.</p>\n<p>Nie podpisuj bez zastrzeżeń dokumentów potwierdzających prawidłowy odbiór, jeżeli występują niewyjaśnione niezgodności.</p>",
+ "toc": [
+  {
+   "id": "co-moze-sie-stac-po-dolaniu-wody",
+   "t": "⚠️ Co może się stać po dolaniu wody?"
+  },
+  {
+   "id": "jak-reagowac-na-budowie",
+   "t": "🔍 Jak reagować na budowie?"
+  },
+  {
+   "id": "najwazniejsza-zasada",
+   "t": "🏗️ Najważniejsza zasada"
+  }
+ ],
+ "sources": "<ul>\n<li>Opracowanie autorskie EdukacjaBudowlana, pierwotnie opublikowane na profilu EdukacjaBudowlana na Facebooku.</li>\n<li>PN-EN 206</li>\n<li>PN-EN 12350-2</li>\n</ul>",
+ "disclaimer": "Rozwiązanie dla konkretnego budynku dobiera projektant z odpowiednimi uprawnieniami; artykuł ma charakter informacyjny.",
+ "minutes": 2,
+ "nr": null,
+ "seria": null,
+ "zag": "zamawianie-betonu",
+ "cover": {
+  "src": "img/full/122145348663228509.webp",
+  "w": 960,
+  "h": 1200,
+  "alt": "Beton przyjechał za gęsty, ekipa chce dolać wody – jak reagować"
+ },
+ "thumb": [
+  67,
+  3,
+  2
+ ]
+}

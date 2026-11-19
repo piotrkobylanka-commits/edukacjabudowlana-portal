@@ -1,0 +1,38 @@
+{
+ "slug": "pompa-tlokowa-ktesibiosa-dwa-tloki-i-zawory-ktore-kierowaly-wode-pod-gore",
+ "title": "Pompa tłokowa Ktesibiosa – dwa tłoki i zawory, które kierowały wodę pod górę",
+ "lead": "Jak działała dwucylindrowa pompa opisana przez Witruwiusza, jaką rolę grały zawory zwrotne i dlaczego o sukcesie decydowało wykonanie.",
+ "stage": 6,
+ "dzial": "instalacja-wodociagowa",
+ "domain": "instalacje",
+ "norms": [],
+ "date": "2026-11-16",
+ "html": "<p>Pompa tłokowa Ktesibiosa. Dwa tłoki i zawory, które kierowały wodę pod górę</p>\n<p>Cylinder, tłok, zawór zwrotny i przewód tłoczny. Brzmi jak opis instalacji technicznej, ale taki zestaw elementów znajdziemy już w starożytnym opisie pompy Ktesibiosa, pozostawionym przez Witruwiusza.</p>\n<h2 id=\"jeden-cylinder-sie-napelnial-drugi-tloczyl\">Jeden cylinder się napełniał, drugi tłoczył</h2>\n<p>W układzie dwucylindrowym wspólna dźwignia poruszała tłokami naprzemiennie: podniesienie jednego oznaczało opuszczenie drugiego. Dzięki temu podczas napełniania jednej komory druga wypychała wodę w kierunku wspólnego wylotu.</p>\n<p>O kierunku przepływu decydowały zawory zwrotne, które dopuszczały wodę do cylindrów i zapobiegały jej powrotowi z komory zbiorczej. Woda trafiała następnie do przewodu prowadzącego w górę, dzięki czemu niżej położony zbiornik mógł zasilać fontannę znajdującą się wyżej.</p>\n<h2 id=\"liczyl-sie-nie-tylko-pomysl-ale-tez-wykonanie\">Liczył się nie tylko pomysł, ale też wykonanie</h2>\n<p>Witruwiusz zwracał uwagę na dokładne dopasowanie zaworów oraz gładko obrobione tłoki smarowane olejem. Opisywał również mocowanie pokrywy wspólnej komory tak, aby ciśnienie tłoczonej wody nie mogło jej unieść.</p>\n<p>To właśnie te szczegóły są w tej historii najciekawsze. Patrząc na taką konstrukcję, łatwo podziwiać dużą dźwignię i przeoczyć niewielkie elementy odpowiedzialne za kontrolowanie przepływu.</p>\n<p>Starożytne pompy tego rodzaju wykorzystywano między innymi do gaszenia pożarów i usuwania wody z wnętrza statków. Nie znamy ich wyłącznie z opisów: w zbiorach British Museum zachowały się elementy rzymskich pomp znalezionych w Bolsenie.</p>",
+ "toc": [
+  {
+   "id": "jeden-cylinder-sie-napelnial-drugi-tloczyl",
+   "t": "Jeden cylinder się napełniał, drugi tłoczył"
+  },
+  {
+   "id": "liczyl-sie-nie-tylko-pomysl-ale-tez-wykonanie",
+   "t": "Liczył się nie tylko pomysł, ale też wykonanie"
+  }
+ ],
+ "sources": "<ul>\n<li>Opracowanie autorskie EdukacjaBudowlana, pierwotnie opublikowane na profilu EdukacjaBudowlana na Facebooku.</li>\n</ul>",
+ "disclaimer": "Artykuł ma charakter popularnonaukowy i informacyjny; nie zastępuje projektu ani wytycznych producenta.",
+ "minutes": 2,
+ "nr": null,
+ "seria": null,
+ "zag": "rozprowadzenie-wody-i-materialy-rur",
+ "cover": {
+  "src": "img/full/122145155577228509.webp",
+  "w": 960,
+  "h": 1200,
+  "alt": "Pompa tłokowa Ktesibiosa – dwa tłoki i zawory, które kierowały wodę pod górę"
+ },
+ "thumb": [
+  66,
+  4,
+  4
+ ]
+}

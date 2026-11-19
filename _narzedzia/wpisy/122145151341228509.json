@@ -1,0 +1,38 @@
+{
+ "slug": "taran-hydrauliczny-woda-splywa-w-dol-zeby-czesc-trafila-wyzej",
+ "title": "Taran hydrauliczny – woda spływa w dół, żeby część trafiła wyżej",
+ "lead": "Jak taran wykorzystuje uderzenie hydrauliczne do podnoszenia wody bez silnika i od jakich pomiarów zacząć, zanim się go zamówi.",
+ "stage": 9,
+ "dzial": "przylacza-i-sieci-zewnetrzne",
+ "domain": "instalacje",
+ "norms": [],
+ "date": "2026-11-16",
+ "html": "<p>Taran hydrauliczny. Woda spływa w dół, żeby część mogła trafić wyżej</p>\n<p>Pompa bez silnika, przewodu zasilającego i paliwa? Taran hydrauliczny potrafi podnosić wodę, wykorzystując energię jej przepływu z wyżej położonego ujęcia do urządzenia ustawionego niżej.</p>\n<p>Nie jest to nowy pomysł: samoczynny taran opracowany przez Josepha Montgolfiera pochodzi z 1796 roku i miał służyć jego papierni. Najciekawsze nie jest jednak to, czego w tej pompie brakuje, lecz sposób wykorzystania nagłego zatrzymania wody.</p>\n<h2 id=\"zawor-zamyka-sie-cisnienie-rosnie\">Zawór zamyka się, ciśnienie rośnie</h2>\n<p>Najpierw woda rozpędza się w przewodzie doprowadzającym i wypływa przez otwarty zawór impulsowy, nazywany również odpływowym. Jego gwałtowne zamknięcie wywołuje uderzenie hydrauliczne: wzrost ciśnienia otwiera drugi zawór i wtłacza porcję wody do komory powietrznej.</p>\n<p>Sprężone w komorze powietrze pomaga następnie wypychać wodę przewodem tłocznym do wyżej położonego zbiornika, a układ zaworów umożliwia powtarzanie cyklu. Bez silnika nie znaczy więc bez źródła energii: energię dostarcza woda tracąca wysokość.</p>\n<h2 id=\"nie-cala-woda-trafia-na-gore\">Nie cała woda trafia na górę</h2>\n<p>Część przepływu opuszcza urządzenie przez zawór odpływowy, a ilość wody podnoszonej zależy między innymi od dostępnego spadu, dopływu i wysokości tłoczenia. Ten odpływ nie jest sam w sobie awarią, lecz normalnym elementem pracy tarana.</p>\n<p>Dlatego przed wyborem urządzenia zacząłbym od pomiarów terenu i wydajności źródła, szczególnie w okresie najmniejszych przepływów. To właśnie różnice wysokości, dostępna ilość wody i możliwość jej odprowadzenia decydują, czy taka instalacja ma warunki do działania.</p>",
+ "toc": [
+  {
+   "id": "zawor-zamyka-sie-cisnienie-rosnie",
+   "t": "Zawór zamyka się, ciśnienie rośnie"
+  },
+  {
+   "id": "nie-cala-woda-trafia-na-gore",
+   "t": "Nie cała woda trafia na górę"
+  }
+ ],
+ "sources": "<ul>\n<li>Opracowanie autorskie EdukacjaBudowlana, pierwotnie opublikowane na profilu EdukacjaBudowlana na Facebooku.</li>\n</ul>",
+ "disclaimer": "Artykuł ma charakter popularnonaukowy i informacyjny; nie zastępuje projektu ani wytycznych producenta.",
+ "minutes": 2,
+ "nr": null,
+ "seria": null,
+ "zag": "przylacze-wodociagowe-i-studnia",
+ "cover": {
+  "src": "img/full/122145151341228509.webp",
+  "w": 960,
+  "h": 1200,
+  "alt": "Taran hydrauliczny – woda spływa w dół, żeby część trafiła wyżej"
+ },
+ "thumb": [
+  66,
+  0,
+  4
+ ]
+}

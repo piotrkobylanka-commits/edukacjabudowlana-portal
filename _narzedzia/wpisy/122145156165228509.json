@@ -1,0 +1,38 @@
+{
+ "slug": "grodze-jak-budowano-na-sucho-ponizej-poziomu-rzeki",
+ "title": "Grodze – jak budowano na sucho poniżej poziomu rzeki",
+ "lead": "Jak dawne grodze drewniane i dzisiejsze ścianki z grodzic wydzielają suche miejsce pracy i dlaczego samo odpompowanie wody nie kończy problemu.",
+ "stage": 2,
+ "dzial": "wykopy-i-podloze",
+ "domain": "grunt",
+ "norms": [],
+ "date": "2026-11-16",
+ "html": "<p>Grodze. Jak budowano na sucho poniżej poziomu rzeki?</p>\n<p>Jak wykonać fundament filara tam, gdzie płynie woda? Jednym z rozwiązań było otoczenie miejsca robót grodzą, a następnie odpompowanie wody z wydzielonej przestrzeni.</p>\n<h2 id=\"najpierw-przegroda-potem-dostep-do-dna\">Najpierw przegroda, potem dostęp do dna</h2>\n<p>W dawnych grodzach drewnianych stosowano między innymi dwie równoległe ściany z pali, a przestrzeń między nimi wypełniano ubijaną gliną ograniczającą przecieki. Poziome belki i rozpory usztywniały konstrukcję, która musiała przeciwstawić się naporowi wody z zewnątrz.</p>\n<p>Po usunięciu wody można było obejrzeć podłoże, wykonać potrzebny wykop i rozpocząć budowę fundamentu. „Sucha wyspa” nie musiała więc być nasypem wystającym z rzeki: stanowisko pracy znajdowało się wewnątrz osłony, poniżej otaczającego lustra wody.</p>\n<h2 id=\"odpompowanie-wody-nie-konczylo-problemu\">Odpompowanie wody nie kończyło problemu</h2>\n<p>Szczelne ściany nie rozwiązywały wszystkiego, ponieważ woda mogła napływać również przez podłoże, a ciśnienie od spodu zagrażać stateczności dna. Wraz z obniżaniem poziomu wody wewnątrz zmieniało się też obciążenie przegrody, dlatego odwodnienie należało rozpatrywać razem z konstrukcją ścian, rozparciem i warunkami gruntowymi.</p>\n<p>W nowszych rozwiązaniach stosuje się między innymi stalowe grodzice, układy rozpór oraz, gdy wymaga tego projekt, podwodne uszczelnienie dna betonem. Zasada pozostaje podobna: wydzielić przestrzeń roboczą i kontrolować dopływ wody, aby można było wykonać docelową konstrukcję.</p>",
+ "toc": [
+  {
+   "id": "najpierw-przegroda-potem-dostep-do-dna",
+   "t": "Najpierw przegroda, potem dostęp do dna"
+  },
+  {
+   "id": "odpompowanie-wody-nie-konczylo-problemu",
+   "t": "Odpompowanie wody nie kończyło problemu"
+  }
+ ],
+ "sources": "<ul>\n<li>Opracowanie autorskie EdukacjaBudowlana, pierwotnie opublikowane na profilu EdukacjaBudowlana na Facebooku.</li>\n</ul>",
+ "disclaimer": "Artykuł ma charakter popularnonaukowy i informacyjny; nie zastępuje projektu ani wytycznych producenta.",
+ "minutes": 2,
+ "nr": null,
+ "seria": null,
+ "zag": "odwodnienie-wykopu",
+ "cover": {
+  "src": "img/full/122145156165228509.webp",
+  "w": 960,
+  "h": 1200,
+  "alt": "Grodze – jak budowano na sucho poniżej poziomu rzeki"
+ },
+ "thumb": [
+  67,
+  0,
+  0
+ ]
+}

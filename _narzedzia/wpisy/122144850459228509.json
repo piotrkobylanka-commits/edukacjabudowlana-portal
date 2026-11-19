@@ -1,0 +1,58 @@
+{
+ "slug": "wiadukt-millau-filar-wyzszy-niz-wieza-eiffla-i-pomost-nasuniety-nad-dolina",
+ "title": "Wiadukt Millau – filar wyższy niż Wieża Eiffla i pomost nasunięty nad doliną",
+ "lead": "Jak posadowiono i wzniesiono filary Millau, jak nasunięto 36 000 t stali nad dolinę Tarnu, jak zakotwiono wanty i na co uważać przy wysokich podporach.",
+ "stage": 4,
+ "dzial": "kontrola-jakosci-sso",
+ "domain": "konstrukcje",
+ "norms": [
+  "Rozporządzenie w sprawie ustalania geotechnicznych warunków posadawiania obiektów budowlanych (Dz.U. 2012 poz. 463)",
+  "PN-EN 1991-1-4",
+  "PN-EN 13670"
+ ],
+ "date": "2026-11-14",
+ "html": "<p>🏗️ 003 | 🌉 Millau Viaduct: filar wyższy niż Wieża Eiffla i pomost, który przyjechał na siłownikach</p>\n<p>Most nad doliną Tarnu we Francji ma 2460 m długości, a jego najwyższy filar P2 mierzy 245 m. Razem z pomostem i pylonem daje to 336 m konstrukcji, czyli więcej niż Wieża Eiffla. Najciekawsze jest jednak to, że stalowego pomostu nikt nie montował w powietrzu. Zsunięto go z obu brzegów nad dolinę, po kilkanaście metrów na godzinę.</p>\n<h2 id=\"skala-w-kilku-liczbach\">Skala w kilku liczbach</h2>\n<ul>\n<li class=\"fb-b\">● 7 betonowych filarów i 7 stalowych pylonów po 87 m,</li>\n<li class=\"fb-b\">● 154 wanty, ok. 1500 t stali w samych wantach,</li>\n<li class=\"fb-b\">● pomost ze stalowej skrzynki 32,05 × 4,20 m, ok. 36 000 t,</li>\n<li class=\"fb-b\">● budowa od października 2001 do grudnia 2004, czyli nieco ponad 3 lata.</li>\n</ul>\n<h2 id=\"fundamenty-i-filary\">Fundamenty i filary</h2>\n<p>Każdy filar stoi na czterech studniach o średnicy 4,5–5 m, wierconych na 9–16 m w wapieniach i marglach. Na nich leży stopa grubości 3–5 m. Ściany filarów rosły odcinkami po 4 m w deskowaniu samowznoszącym, zwykle co trzy dni, a położenie każdego odcinka sprawdzano GPS z dokładnością kilku milimetrów. Górne ok. 90 m filara to dwa smukłe trzony. Pomost wydłuża się od temperatury nawet o ok. 0,6 m na końcach, więc podpory muszą się trochę uginać wzdłuż mostu, zamiast go blokować.</p>\n<h2 id=\"jak-nasunieto-pomost\">Jak nasunięto pomost</h2>\n<p>Z północy wjechało 717 m pomostu, z południa 1743 m. Między filarami stanęło 7 tymczasowych podpór, najwyższa miała 173 m, dzięki czemu przy nasuwaniu przęsło skracało się do 171 m. Pracę wykonywały 64 translatory: siłownik pionowy unosił pomost o ok. 2 cm, dwa poziome przesuwały go o 600 mm, potem opuszczenie i powrót. Jeden cykl trwał ok. 4 minut. Przy wietrze powyżej 85 km/h prace stawały. Obie części połączono 28 maja 2004 r.</p>\n<h2 id=\"wanty-i-ich-zakotwienie\">Wanty i ich zakotwienie</h2>\n<p>Wanty biegną w jednej płaszczyźnie, w osi mostu. Każda ma od ok. 50 do 91 splotów T15,7 ze stali 1860 MPa, a każdy splot ma trzy warstwy ochrony: ocynk, wosk i własną osłonę HDPE. W pylonie wanta ma koniec stały. Koniec w pomoście jest regulowany: każdy splot trzymają osobne kliny, a nakrętka pierścieniowa pozwala korygować siłę. Kotwy są widoczne od środka skrzynki, w strefie osuszanego powietrza.</p>\n<h2 id=\"a-w-polsce\">A w Polsce?</h2>\n<p>Rozporządzenie w sprawie ustalania geotechnicznych warunków posadawiania obiektów budowlanych (Dz.U. 2012 poz. 463) nadal obowiązuje, więc rozpoznanie gruntu pod każdą podporą to podstawa, nie formalność. Obciążenie wiatrem liczymy według PN-EN 1991-1-4, a Eurokody drugiej generacji mają wejść do 30 września 2027 r. PN-EN 13670 przewiduje cztery klasy pielęgnacji betonu. Na wysokości wiatr wysusza świeży beton dużo szybciej niż na poziomie gruntu. Dla porównania: najwyższe podpory mostowe w Polsce, na estakadzie na S19 Babica–Jawornik, mają ok. 80 m.</p>\n<h2 id=\"5-bledow-przy-wysokich-podporach\">5 błędów przy wysokich podporach</h2>\n<ul>\n<li class=\"fb-b\">● podnoszenie deskowań i betonowanie bez sprawdzenia prognozy wiatru,</li>\n<li class=\"fb-b\">● świeży beton bez pielęgnacji przy wietrze i niskiej wilgotności,</li>\n<li class=\"fb-b\">● brak geodezyjnej kontroli każdego etapu wysokiego elementu,</li>\n<li class=\"fb-b\">● jeden projekt fundamentu bez rozpoznania gruntu pod każdą podporą,</li>\n<li class=\"fb-b\">● łożyska i dylatacje dobrane bez uwzględnienia ruchów od temperatury.</li>\n</ul>",
+ "toc": [
+  {
+   "id": "skala-w-kilku-liczbach",
+   "t": "Skala w kilku liczbach"
+  },
+  {
+   "id": "fundamenty-i-filary",
+   "t": "Fundamenty i filary"
+  },
+  {
+   "id": "jak-nasunieto-pomost",
+   "t": "Jak nasunięto pomost"
+  },
+  {
+   "id": "wanty-i-ich-zakotwienie",
+   "t": "Wanty i ich zakotwienie"
+  },
+  {
+   "id": "a-w-polsce",
+   "t": "A w Polsce?"
+  },
+  {
+   "id": "5-bledow-przy-wysokich-podporach",
+   "t": "5 błędów przy wysokich podporach"
+  }
+ ],
+ "sources": "<ul>\n<li>Opracowanie autorskie EdukacjaBudowlana, pierwotnie opublikowane na profilu EdukacjaBudowlana na Facebooku.</li>\n<li>Rozporządzenie w sprawie ustalania geotechnicznych warunków posadawiania obiektów budowlanych (Dz.U. 2012 poz. 463)</li>\n<li>PN-EN 1991-1-4</li>\n<li>PN-EN 13670</li>\n</ul>",
+ "disclaimer": "Artykuł ma charakter popularnonaukowy; dane techniczne obiektu podano w zaokrągleniu.",
+ "minutes": 3,
+ "nr": null,
+ "seria": null,
+ "zag": "ochrona-konstrukcji-przed-pogoda",
+ "cover": {
+  "src": "img/full/122144850459228509.webp",
+  "w": 960,
+  "h": 1200,
+  "alt": "Wiadukt Millau – filar wyższy niż Wieża Eiffla i pomost nasunięty nad doliną"
+ },
+ "thumb": [
+  66,
+  3,
+  1
+ ]
+}

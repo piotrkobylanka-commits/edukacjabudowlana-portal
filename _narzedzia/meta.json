@@ -733,7 +733,14 @@
   ],
   "lead": "Czym mógł być zamurowany otwór, jak sprawdzić nadproże i połączenie z murem, kiedy odkrycie zmienia zakres remontu, jakie formalności wchodzą w grę i kto płaci za roboty dodatkowe.",
   "disclaimer": "Ocenę konstrukcji wykonuje konstruktor z uprawnieniami; artykuł ma charakter informacyjny.",
-  "naglowki": []
+  "naglowki": [],
+  "cover_w": 960,
+  "cover_h": 1200,
+  "thumb": [
+   65,
+   0,
+   0
+  ]
  },
  "122144173815228509": {
   "date": "2026-11-07",
@@ -749,7 +756,14 @@
   ],
   "lead": "Jak podzielić dom na strefy, ograniczyć pył bez ryzyka czadu, utrzymać działające instalacje, zaplanować łazienkę i kuchnię zastępczą oraz ułożyć hałaśliwe prace w kalendarzu i umowie.",
   "disclaimer": "Artykuł ma charakter informacyjny i nie stanowi porady prawnej.",
-  "naglowki": []
+  "naglowki": [],
+  "cover_w": 960,
+  "cover_h": 1152,
+  "thumb": [
+   65,
+   1,
+   0
+  ]
  },
  "122144192559228509": {
   "date": "2026-11-07",
@@ -766,7 +780,14 @@
   ],
   "lead": "Jak odczytać przebieg pęknięcia, co sfotografować i zapisać o warunkach, osłonach i montażu, jak przygotować oględziny i reklamację oraz które przepisy rozstrzygają spór.",
   "disclaimer": "Artykuł ma charakter informacyjny i nie stanowi porady prawnej.",
-  "naglowki": []
+  "naglowki": [],
+  "cover_w": 960,
+  "cover_h": 1200,
+  "thumb": [
+   65,
+   2,
+   0
+  ]
  },
  "122144194005228509": {
   "date": "2026-11-07",
@@ -795,6 +816,13 @@
     "kablami oświadczenia ogrodu",
     "kablami oświetlenia ogrodu"
    ]
+  ],
+  "cover_w": 960,
+  "cover_h": 1200,
+  "thumb": [
+   65,
+   3,
+   0
   ]
  },
  "122144206803228509": {
@@ -815,6 +843,13 @@
    "1. Tryb awaryjny: co, jeśli pilot nie zadziała?",
    "2. Zanik zasilania: w jakiej pozycji zostanie okno?",
    "3. Dostęp serwisowy: kto i jak się do tego okna dostanie?"
+  ],
+  "cover_w": 960,
+  "cover_h": 1200,
+  "thumb": [
+   65,
+   1,
+   1
   ]
  },
  "122144271291228509": {
@@ -830,7 +865,14 @@
   ],
   "lead": "Co mówią przepisy o narożniku bez słupka, co powinna zawierać karta rozwiązania narożnika, w jakiej kolejności koordynować stolarkę, nadproże i otwór oraz jakich błędów unikać.",
   "disclaimer": "Artykuł ma charakter informacyjny; rozwiązania dla konkretnego budynku dobiera projektant.",
-  "naglowki": []
+  "naglowki": [],
+  "cover_w": 960,
+  "cover_h": 1200,
+  "thumb": [
+   65,
+   2,
+   1
+  ]
  },
  "122144283831228509": {
   "date": "2026-11-08",
@@ -850,6 +892,13 @@
    "2. Prowadnice",
    "3. Klamki i uchwyty",
    "4. Przestrzeń do obsługi"
+  ],
+  "cover_w": 960,
+  "cover_h": 1200,
+  "thumb": [
+   65,
+   3,
+   1
   ]
  },
  "122144289627228509": {
@@ -869,6 +918,13 @@
    "1. Konstrukcja pod podłogą",
    "2. Stan drewna",
    "3. Cały układ warstw"
+  ],
+  "cover_w": 960,
+  "cover_h": 1280,
+  "thumb": [
+   65,
+   4,
+   1
   ]
  },
  "122144299611228509": {
@@ -881,7 +937,14 @@
   "norms": [],
   "lead": "Jak zrobić mapę dźwięków, uwzględnić wilgotność, rozpisać kilka hipotez zamiast jednej diagnozy, ocenić schody warstwami aż do odkrywki i zorganizować oględziny z protokołem.",
   "disclaimer": "Artykuł ma charakter informacyjny.",
-  "naglowki": []
+  "naglowki": [],
+  "cover_w": 960,
+  "cover_h": 1200,
+  "thumb": [
+   65,
+   0,
+   2
+  ]
  },
  "122144316333228509": {
   "date": "2026-11-08",
@@ -897,7 +960,14 @@
   ],
   "lead": "Skąd bierze się spór o beton architektoniczny, jakie klasy powierzchni opisują wytyczne, co wpisać do umowy, jak wykonać próbkę referencyjną i jak z góry ustalić zasady napraw.",
   "disclaimer": "Artykuł ma charakter informacyjny i nie stanowi porady prawnej.",
-  "naglowki": []
+  "naglowki": [],
+  "cover_w": 960,
+  "cover_h": 1200,
+  "thumb": [
+   65,
+   1,
+   2
+  ]
  },
  "122144379915228509": {
   "date": "2026-11-09",
@@ -919,6 +989,13 @@
    "Lista umów – jedna tabela zamiast segregatora pism",
    "Ustalenia dotyczące dalszego prowadzenia budowy",
    "6 błędów przy sprzedaży domu w budowie"
+  ],
+  "cover_w": 960,
+  "cover_h": 1200,
+  "thumb": [
+   65,
+   2,
+   2
   ]
  },
  "122144405499228509": {
@@ -941,6 +1018,13 @@
    "Jedna ścieżka zmiany – w praktyce",
    "Co z poleceniem, które przyszło inną drogą",
    "7 błędów przy zmianach na budowie"
+  ],
+  "cover_w": 960,
+  "cover_h": 1200,
+  "thumb": [
+   65,
+   3,
+   2
   ]
  },
  "122144527881228509": {
@@ -959,7 +1043,14 @@
   ],
   "lead": "Jak rozpoznać źródło hałasu pompy, którędy dźwięk trafia do sypialni, ile dają lokalizacja, mocowanie i niższe obroty, kiedy obudowa ma sens i co grozi przy skardze sąsiada.",
   "disclaimer": "Artykuł ma charakter informacyjny i nie stanowi porady prawnej.",
-  "naglowki": []
+  "naglowki": [],
+  "cover_w": 960,
+  "cover_h": 1200,
+  "thumb": [
+   65,
+   4,
+   2
+  ]
  },
  "122144572515228509": {
   "date": "2026-11-11",
@@ -985,7 +1076,14 @@
    "4. Planowane wyposażenie – ustaw wszystko, co ma tam stanąć",
    "7 błędów, które wychodzą przy pierwszym wywozie"
   ],
-  "listy": true
+  "listy": true,
+  "cover_w": 960,
+  "cover_h": 1192,
+  "thumb": [
+   65,
+   0,
+   3
+  ]
  },
  "122144573613228509": {
   "date": "2026-11-11",
@@ -1012,7 +1110,14 @@
    "Dokumenty, które warto mieć po odbiorze",
    "8 błędów, przez które nawierzchnia przestaje przepuszczać wodę"
   ],
-  "listy": true
+  "listy": true,
+  "cover_w": 960,
+  "cover_h": 1192,
+  "thumb": [
+   65,
+   1,
+   3
+  ]
  },
  "122144577183228509": {
   "date": "2026-11-11",
@@ -1035,7 +1140,14 @@
    "Szambo ma jeszcze jeden problem",
    "8 błędów przy zbiorniku pod podjazdem"
   ],
-  "listy": true
+  "listy": true,
+  "cover_w": 960,
+  "cover_h": 1200,
+  "thumb": [
+   65,
+   2,
+   3
+  ]
  },
  "122144597325228509": {
   "date": "2026-11-11",
@@ -1060,7 +1172,14 @@
    "Analiza wjazdu przed montażem – krok po kroku",
    "8 błędów, przez które brama staje zimą"
   ],
-  "listy": true
+  "listy": true,
+  "cover_w": 960,
+  "cover_h": 1193,
+  "thumb": [
+   65,
+   3,
+   3
+  ]
  },
  "122144612487228509": {
   "date": "2026-11-11",
@@ -1087,7 +1206,14 @@
    "Kiedy odbiór trzeba powtórzyć",
    "8 błędów przy odbiorze bramy automatycznej"
   ],
-  "listy": true
+  "listy": true,
+  "cover_w": 960,
+  "cover_h": 1200,
+  "thumb": [
+   65,
+   4,
+   3
+  ]
  },
  "122144625849228509": {
   "date": "2026-11-11",
@@ -1112,7 +1238,14 @@
    "Na co patrzeć przy konkretnych materiałach",
    "8 błędów przy materiałach z rozbiórki"
   ],
-  "listy": true
+  "listy": true,
+  "cover_w": 960,
+  "cover_h": 1200,
+  "thumb": [
+   65,
+   0,
+   4
+  ]
  },
  "122144703111228509": {
   "date": "2026-11-12",
@@ -1133,6 +1266,13 @@
    "O co poprosić przed podpisaniem umowy",
    "Jak to napisać, żeby nie brzmiało jak oskarżenie",
    "7 błędów przy sprawdzaniu OC wykonawcy"
+  ],
+  "cover_w": 960,
+  "cover_h": 1193,
+  "thumb": [
+   65,
+   1,
+   4
   ]
  },
  "122144705463228509": {
@@ -1153,6 +1293,13 @@
    "Co mówią przepisy, zanim powstanie pierwszy rysunek",
    "Jak przygotować analizę z projektantem i specjalistami",
    "7 błędów przy dzieleniu domu na dwa mieszkania"
+  ],
+  "cover_w": 960,
+  "cover_h": 1200,
+  "thumb": [
+   65,
+   2,
+   4
   ]
  },
  "122144706957228509": {
@@ -1177,6 +1324,13 @@
    "Do czego gabinet ma służyć",
    "Co z zamówionymi oknami i ogrzewaniem",
    "7 błędów przy adaptacji garażu na gabinet"
+  ],
+  "cover_w": 960,
+  "cover_h": 1200,
+  "thumb": [
+   65,
+   3,
+   4
   ]
  },
  "122144716233228509": {
@@ -1203,6 +1357,13 @@
    "Ptaki, gryzonie, owady",
    "Gdy w okapie ktoś już mieszka",
    "7 błędów przy zamykaniu okapu"
+  ],
+  "cover_w": 960,
+  "cover_h": 1200,
+  "thumb": [
+   65,
+   4,
+   4
   ]
  },
  "122144716821228509": {
@@ -1230,6 +1391,13 @@
    "Warunki stosowania",
    "Zabytek",
    "7 błędów przy renowacji starego drewna"
+  ],
+  "cover_w": 960,
+  "cover_h": 1200,
+  "thumb": [
+   66,
+   0,
+   0
   ]
  },
  "122144718267228509": {
@@ -1254,6 +1422,13 @@
    "Komu płacić",
    "Dokończenie przez innego wykonawcę",
    "7 błędów po śmierci wykonawcy"
+  ],
+  "cover_w": 960,
+  "cover_h": 1193,
+  "thumb": [
+   66,
+   1,
+   0
   ]
  },
  "122144718729228509": {
@@ -1275,6 +1450,1118 @@
    "Jeśli zmiana dotyczy projektu",
    "Prosta procedura",
    "7 błędów przy zmianach na budowie"
+  ],
+  "cover_w": 960,
+  "cover_h": 1280,
+  "thumb": [
+   66,
+   2,
+   0
+  ]
+ },
+ "122144195025228509": {
+  "title": "Roleta zjechała na jedyne wyjście, a prądu nie ma – jak zaplanować osłony na drzwiach ewakuacyjnych",
+  "stage": 5,
+  "dzial": "okna-i-drzwi-balkonowe",
+  "zag": "rolety-i-oslony-zewnetrzne",
+  "domain": "prawo",
+  "norms": [
+   "Rozporządzenie MSWiA w sprawie ochrony przeciwpożarowej budynków § 4 ust. 1 pkt 14 i 18",
+   "Warunki techniczne § 239, § 240, § 300",
+   "Prawo budowlane art. 102a–102c"
+  ],
+  "lead": "Co mówią przepisy o drzwiach ewakuacyjnych zasłanianych roletą, jakie trzy rzeczy ustalić przed zamówieniem osłon i jak sprawdzić przy odbiorze, czy da się wyjść po zaniku prądu.",
+  "disclaimer": "Artykuł ma charakter informacyjny i nie stanowi porady prawnej.",
+  "date": "2026-11-07",
+  "cover_w": 960,
+  "cover_h": 1200,
+  "thumb": [
+   65,
+   4,
+   0
+  ]
+ },
+ "122144196873228509": {
+  "title": "Zasobnik i centrala są w środku – czy da się je wynieść przy wymianie",
+  "stage": 6,
+  "dzial": "ogrzewanie-i-chlodzenie",
+  "zag": "bufor-i-zasobnik-cwu",
+  "domain": "instalacje",
+  "norms": [
+   "Prawo budowlane art. 5 ust. 1 pkt 3, art. 61, art. 102a",
+   "Warunki techniczne § 154 ust. 3"
+  ],
+  "lead": "Jak sprawdzić drogę wymiany zasobnika, pompy ciepła i centrali wentylacyjnej: światło drzwi, wymiar po przechyleniu, masa, otwór strychowy i rozbieralne zabudowy.",
+  "disclaimer": "Rozwiązanie dla konkretnego budynku dobiera projektant z odpowiednimi uprawnieniami; artykuł ma charakter informacyjny.",
+  "date": "2026-11-07",
+  "cover_w": 960,
+  "cover_h": 1200,
+  "thumb": [
+   65,
+   0,
+   1
+  ]
+ },
+ "122144730261228509": {
+  "title": "Burj Khalifa – 828 m na słabej skale i pale, które pracują na tarciu",
+  "stage": 3,
+  "dzial": "fundamenty",
+  "zag": "pale-i-wzmocnienia-podloza",
+  "domain": "grunt",
+  "norms": [
+   "PN-EN 206 (klasy ekspozycji XA)"
+  ],
+  "lead": "Jak posadowiono najwyższy budynek świata na spękanej skale i agresywnej wodzie gruntowej, jak działa rdzeń z przyporami, jak zmylono wiatr i co z tego wynika dla fundamentu domu.",
+  "disclaimer": "Artykuł ma charakter popularnonaukowy; dane techniczne obiektu podano w zaokrągleniu.",
+  "naglowki": [
+   "Fundament: płyta, która „wisi” na tarciu",
+   "Konstrukcja: rdzeń z przyporami",
+   "Wiatr: zamiast walczyć, zmylić",
+   "Budowa: beton na 606 m i kondygnacja co 3 dni",
+   "Iglica: złożona w środku, wypchnięta do góry",
+   "5 błędów, które przy fundamencie w trudnym gruncie kosztują najwięcej:"
+  ],
+  "seria": "200-cudow-inzynierii",
+  "nr": 1,
+  "date": "2026-11-12",
+  "poprawki": [
+   [
+    "Fundament: płyta, która „wisi” na tarciu Pod wieżą",
+    "Fundament: płyta, która „wisi” na tarciu\nPod wieżą"
+   ],
+   [
+    "Konstrukcja: rdzeń z przyporami SOM",
+    "Konstrukcja: rdzeń z przyporami\nSOM"
+   ],
+   [
+    "Wiatr: zamiast walczyć, zmylić Przy",
+    "Wiatr: zamiast walczyć, zmylić\nPrzy"
+   ],
+   [
+    "Budowa: beton na 606 m i kondygnacja co 3 dni Ściany",
+    "Budowa: beton na 606 m i kondygnacja co 3 dni\nŚciany"
+   ],
+   [
+    "Iglica: złożona w środku, wypchnięta do góry Powyżej",
+    "Iglica: złożona w środku, wypchnięta do góry\nPowyżej"
+   ],
+   [
+    "kosztują najwięcej: ● projekt fundamentu bez rzetelnych badań podłoża, ● pominięcie składu chemicznego wody gruntowej przy doborze betonu, ● beton bez właściwej klasy ekspozycji XA i bez cementu siarczanoodpornego przy XA2 i XA3, ● betonowanie w upale bez chłodzenia mieszanki i bez pielęgnacji, ● brak",
+    "kosztują najwięcej:\n● projekt fundamentu bez rzetelnych badań podłoża,\n● pominięcie składu chemicznego wody gruntowej przy doborze betonu,\n● beton bez właściwej klasy ekspozycji XA i bez cementu siarczanoodpornego przy XA2 i XA3,\n● betonowanie w upale bez chłodzenia mieszanki i bez pielęgnacji,\n● brak"
+   ]
+  ],
+  "cover_w": 960,
+  "cover_h": 1200,
+  "thumb": [
+   66,
+   3,
+   0
+  ]
+ },
+ "122144781027228509": {
+  "title": "Zapora Trzech Przełęczy – 181 m betonu, który nie mógł się przegrzać",
+  "stage": 3,
+  "dzial": "fundamenty",
+  "zag": "betonowanie-i-pielegnacja",
+  "domain": "konstrukcje",
+  "norms": [
+   "Rozporządzenie w sprawie warunków technicznych dla budowli hydrotechnicznych (Dz.U. 2026 poz. 692)",
+   "PN-EN 13670"
+  ],
+  "lead": "Jak chłodzono beton masywny na Jangcy, na czym stoi zapora i jakie zasady betonowania dużych bloków obowiązują też na polskich budowach.",
+  "disclaimer": "Artykuł ma charakter popularnonaukowy; dane techniczne obiektu podano w zaokrągleniu.",
+  "naglowki": [
+   "Skala w kilku liczbach",
+   "Jak schłodzono beton",
+   "Fundament i przekrój",
+   "A w Polsce?",
+   "5 błędów przy betonie masywnym"
+  ],
+  "seria": "200-cudow-inzynierii",
+  "nr": 2,
+  "date": "2026-11-13",
+  "poprawki": [
+   [
+    "Skala w kilku liczbach ● ok. 28 mln m³ betonu w całej inwestycji, z czego ok. 16 mln m³ w samej zaporze, ● 22 500 MW mocy i rekordowe 111,8 TWh w 2020 r., ● 22,15 mld m³ pojemności zarezerwowanej na powódź, ● pięciostopniowe",
+    "Skala w kilku liczbach\n● ok. 28 mln m³ betonu w całej inwestycji, z czego ok. 16 mln m³ w samej zaporze,\n● 22 500 MW mocy i rekordowe 111,8 TWh w 2020 r.,\n● 22,15 mld m³ pojemności zarezerwowanej na powódź,\n● pięciostopniowe"
+   ],
+   [
+    "Jak schłodzono beton W szczytowym",
+    "Jak schłodzono beton\nW szczytowym"
+   ],
+   [
+    "Fundament i przekrój Zapora stoi",
+    "Fundament i przekrój\nZapora stoi"
+   ],
+   [
+    " W karuzeli znajdziesz przekrój przez sekcję przelewową narysowany w jednej skali: korona 185 m n.p.m., normalne piętrzenie 175 m, podstawa ok. 126 m.",
+    " Korona sekcji przelewowej leży na rzędnej 185 m n.p.m., normalne piętrzenie to 175 m, a podstawa przekroju ma ok. 126 m."
+   ],
+   [
+    "A w Polsce? Od 11 czerwca",
+    "A w Polsce?\nOd 11 czerwca"
+   ]
+  ],
+  "cover_w": 960,
+  "cover_h": 1200,
+  "thumb": [
+   66,
+   4,
+   0
+  ]
+ },
+ "122144787297228509": {
+  "title": "Pale są pod ziemią – jak inwestor ma odebrać coś, czego nigdy nie zobaczy",
+  "stage": 3,
+  "dzial": "fundamenty",
+  "zag": "pale-i-wzmocnienia-podloza",
+  "domain": "grunt",
+  "norms": [
+   "Prawo budowlane art. 22 pkt 7, art. 25 pkt 3, art. 43 ust. 3",
+   "Rozporządzenie w sprawie ustalania geotechnicznych warunków posadawiania obiektów budowlanych",
+   "PN-EN 1536+A1:2015",
+   "PN-EN 12699:2015",
+   "PN-EN 14199:2015",
+   "PN-EN ISO 22477-1:2019-01",
+   "PN-EN 1997-1:2025-10"
+  ],
+  "lead": "Co ustalić przed wjazdem palownicy, co ma zawierać metryka każdego pala, które badania mówią o nośności, a które tylko o ciągłości, i jak odebrać głowice.",
+  "disclaimer": "Rozwiązanie dla konkretnego budynku dobiera projektant z odpowiednimi uprawnieniami; artykuł ma charakter informacyjny.",
+  "naglowki": [
+   "Co mówi prawo",
+   "Zanim wjedzie palownica, ustal:",
+   "Metryka każdego pala",
+   "Badania i to, co które z nich mówi",
+   "Odbiór głowic",
+   "8 błędów przy odbiorze pali"
+  ],
+  "date": "2026-11-13",
+  "cover_w": 960,
+  "cover_h": 1196,
+  "thumb": [
+   66,
+   0,
+   1
+  ]
+ },
+ "122144845797228509": {
+  "title": "Dokumentacja powykonawcza wygląda idealnie – jak sprawdzić, czy opisuje ten budynek",
+  "stage": 10,
+  "dzial": "dokumentacja-powykonawcza",
+  "zag": "oswiadczenie-kierownika-budowy",
+  "domain": "prawo",
+  "norms": [
+   "Prawo budowlane art. 3 pkt 14, art. 22 pkt 7 i 8, art. 36a ust. 6, art. 57, art. 60, art. 63"
+  ],
+  "lead": "Jak wyrywkowo porównać rysunki, urządzenia, przebieg instalacji i protokoły z tym, co faktycznie zbudowano, i co zapisać w umowie, żeby dostać dokumenty przed odbiorem.",
+  "disclaimer": "Artykuł ma charakter informacyjny i nie stanowi porady prawnej.",
+  "naglowki": [
+   "Dla kogo są te papiery",
+   "Wyrywkowo, ale naprawdę",
+   "1. Rysunki: wymiar, miejsce, zmiana",
+   "2. Urządzenia: tabliczka kontra papier",
+   "3. Przebieg instalacji, czyli to, czego już nie widać",
+   "4. Protokoły: czytaj, nie licz",
+   "Umowa i odbiór"
+  ],
+  "date": "2026-11-14",
+  "cover_w": 960,
+  "cover_h": 1196,
+  "thumb": [
+   66,
+   1,
+   1
+  ]
+ },
+ "122144846493228509": {
+  "title": "Po kolejnych poprawkach nie wiadomo, która warstwa jest czyja – jak prowadzić rejestr napraw",
+  "stage": 12,
+  "dzial": "rekojmia-i-gwarancja",
+  "zag": "zglaszanie-wad",
+  "domain": "prawo",
+  "norms": [
+   "Kodeks cywilny art. 6, art. 581",
+   "Prawo budowlane art. 60b, art. 62, art. 63",
+   "Kodeks postępowania cywilnego art. 310"
+  ],
+  "lead": "Co wpisywać przy każdej naprawie, jak fotografować warstwy, które za chwilę znikną, i co zrobić, zanim na budowę wejdzie kolejna firma.",
+  "disclaimer": "Artykuł ma charakter informacyjny i nie stanowi porady prawnej.",
+  "listy": true,
+  "naglowki": [
+   "Każda naprawa przykrywa poprzednią",
+   "Przy domu nikt tego od ciebie nie wymaga",
+   "Co wpisać przy każdej naprawie",
+   "Zdjęcia, które coś pokażą",
+   "Zanim wejdzie następna firma"
+  ],
+  "date": "2026-11-14",
+  "cover_w": 960,
+  "cover_h": 1196,
+  "thumb": [
+   66,
+   2,
+   1
+  ]
+ },
+ "122144850459228509": {
+  "title": "Wiadukt Millau – filar wyższy niż Wieża Eiffla i pomost nasunięty nad doliną",
+  "stage": 4,
+  "dzial": "kontrola-jakosci-sso",
+  "zag": "ochrona-konstrukcji-przed-pogoda",
+  "domain": "konstrukcje",
+  "norms": [
+   "Rozporządzenie w sprawie ustalania geotechnicznych warunków posadawiania obiektów budowlanych (Dz.U. 2012 poz. 463)",
+   "PN-EN 1991-1-4",
+   "PN-EN 13670"
+  ],
+  "lead": "Jak posadowiono i wzniesiono filary Millau, jak nasunięto 36 000 t stali nad dolinę Tarnu, jak zakotwiono wanty i na co uważać przy wysokich podporach.",
+  "disclaimer": "Artykuł ma charakter popularnonaukowy; dane techniczne obiektu podano w zaokrągleniu.",
+  "naglowki": [
+   "Skala w kilku liczbach",
+   "Fundamenty i filary",
+   "Jak nasunięto pomost",
+   "Wanty i ich zakotwienie",
+   "A w Polsce?",
+   "5 błędów przy wysokich podporach"
+  ],
+  "seria": "200-cudow-inzynierii",
+  "nr": 3,
+  "date": "2026-11-14",
+  "poprawki": [
+   [
+    "TREŚĆ Most nad doliną",
+    "Most nad doliną"
+   ],
+   [
+    "\n\n[MIEJSCE NA ANEGDOTĘ Z BUDOWY]\n",
+    "\n"
+   ],
+   [
+    "Fundamenty i filary Każdy",
+    "Fundamenty i filary\nKażdy"
+   ],
+   [
+    "Jak nasunięto pomost Z północy",
+    "Jak nasunięto pomost\nZ północy"
+   ],
+   [
+    "Wanty i ich zakotwienie Wanty",
+    "Wanty i ich zakotwienie\nWanty"
+   ],
+   [
+    " W karuzeli znajdziesz przekrój pomostu w skali i schemat tego zakotwienia.",
+    ""
+   ],
+   [
+    "A w Polsce? Rozporządzenie",
+    "A w Polsce?\nRozporządzenie"
+   ]
+  ],
+  "cover_w": 960,
+  "cover_h": 1200,
+  "thumb": [
+   66,
+   3,
+   1
+  ]
+ },
+ "122144925825228509": {
+  "title": "Tunel bazowy Gotthard – 57 km pod Alpami i skała, która wciska się w tunel",
+  "stage": 2,
+  "dzial": "wykopy-i-podloze",
+  "zag": "zabezpieczenie-scian-wykopu",
+  "domain": "grunt",
+  "norms": [
+   "Rozporządzenie w sprawie warunków technicznych dla budowli kolejowych (Dz.U. 2026 poz. 1225) § 42",
+   "Rozporządzenie Komisji (UE) nr 1303/2014 (TSI SRT)",
+   "Rozporządzenie w sprawie przepisów techniczno-budowlanych dotyczących dróg publicznych (Dz.U. 2022 poz. 1518)",
+   "Rozporządzenie w sprawie ustalania geotechnicznych warunków posadawiania obiektów budowlanych (Dz.U. 2012 poz. 463)"
+  ],
+  "lead": "Jak drążono najdłuższy tunel kolejowy świata, jak zbudowano obudowę podatną w strefie skały, która się wciska, i jak zaprojektowano bezpieczeństwo w dwóch rurach.",
+  "disclaimer": "Artykuł ma charakter popularnonaukowy; dane techniczne obiektu podano w zaokrągleniu.",
+  "naglowki": [
+   "Skala w kilku liczbach",
+   "Maszyny i obudowa",
+   "Skała, która się wciska",
+   "Bezpieczeństwo w dwóch rurach",
+   "A w Polsce?",
+   "5 błędów przy tunelach i robotach podziemnych"
+  ],
+  "seria": "200-cudow-inzynierii",
+  "nr": 4,
+  "date": "2026-11-14",
+  "poprawki": [
+   [
+    "TREŚĆ Najdłuższy kolejowy",
+    "Najdłuższy kolejowy"
+   ],
+   [
+    "Maszyny i obudowa Główne",
+    "Maszyny i obudowa\nGłówne"
+   ],
+   [
+    "Skała, która się wciska Pod",
+    "Skała, która się wciska\nPod"
+   ],
+   [
+    "Bezpieczeństwo w dwóch rurach Rury",
+    "Bezpieczeństwo w dwóch rurach\nRury"
+   ],
+   [
+    "A w Polsce? Od 20.09.2026",
+    "A w Polsce?\nOd 20.09.2026"
+   ],
+   [
+    "przejścia poprzeczne co 312,5 m, ponad 170 sztuk",
+    "przejścia poprzeczne co ok. 325 m, ponad 170 sztuk"
+   ],
+   [
+    "a na Gotthardzie są co 312,5 m.",
+    "a na Gotthardzie są co ok. 325 m."
+   ]
+  ],
+  "cover_w": 960,
+  "cover_h": 1200,
+  "thumb": [
+   66,
+   4,
+   1
+  ]
+ },
+ "122144928609228509": {
+  "title": "Dwie ekspertyzy, dwie różne przyczyny tej samej usterki – którą wybrać",
+  "stage": 12,
+  "dzial": "pierwsze-lata-domu",
+  "zag": "rysy-i-osiadanie",
+  "domain": "prawo",
+  "norms": [
+   "Kodeks postępowania cywilnego art. 245, art. 278 § 1, art. 286",
+   "Prawo budowlane art. 81c ust. 2"
+  ],
+  "lead": "Jak zestawić dwie sprzeczne ekspertyzy: zakres oględzin, dane wejściowe, pomiary i założenia, jakie pytania uzupełniające zadać obu autorom i jak takie opracowania traktuje sąd.",
+  "disclaimer": "Artykuł ma charakter informacyjny i nie stanowi porady prawnej.",
+  "naglowki": [
+   "Skąd biorą się takie rozbieżności",
+   "Cztery rzeczy do zestawienia obok siebie",
+   "Pytania uzupełniające zamiast wybierania",
+   "W sądzie i w nadzorze budowlanym",
+   "6 błędów przy dwóch sprzecznych ekspertyzach"
+  ],
+  "date": "2026-11-14",
+  "cover_w": 960,
+  "cover_h": 1196,
+  "thumb": [
+   66,
+   0,
+   2
+  ]
+ },
+ "122144946441228509": {
+  "title": "Ekspert dostał jedno zdjęcie – jakie dokumenty przygotować, żeby dostać diagnozę",
+  "stage": 12,
+  "dzial": "rekojmia-i-gwarancja",
+  "zag": "zglaszanie-wad",
+  "domain": "prawo",
+  "norms": [
+   "Prawo budowlane art. 3 pkt 13 i 14, art. 60, art. 64"
+  ],
+  "lead": "Co włożyć do pakietu dla eksperta: projekt, chronologia prac, materiały, protokoły i wcześniejsze naprawy, jak robić zdjęcia i jak sformułować zlecenie diagnozy.",
+  "disclaimer": "Artykuł ma charakter informacyjny i nie stanowi porady prawnej.",
+  "naglowki": [
+   "Pakiet dla eksperta, część po części",
+   "Zdjęcia też, ale porządne",
+   "Zlecenie diagnozy, nie komentarza",
+   "Gdzie szukać, jeśli nic nie masz",
+   "7 błędów przy zamawianiu ekspertyzy"
+  ],
+  "date": "2026-11-14",
+  "cover_w": 960,
+  "cover_h": 1200,
+  "thumb": [
+   66,
+   1,
+   2
+  ],
+  "poprawki": [
+   [
+    "(art. 64 ust. 2 pkt 1)",
+    "(art. 60b ust. 2 pkt 1 lit. a)"
+   ]
+  ]
+ },
+ "122145107211228509": {
+  "title": "Fasada wygląda jak kamień, a przyjechała z odlewni – żeliwne fronty XIX wieku",
+  "stage": 7,
+  "dzial": "ocieplenie-i-elewacja",
+  "zag": "okladziny-klinkier-elewacje-wentylowane",
+  "domain": "wykonczenia",
+  "norms": [],
+  "lead": "Jak w XIX wieku składano zdobione fasady z prefabrykowanych odlewów żeliwnych, dlaczego udawały kamień i czego nie wnioskować o całym budynku z samej elewacji.",
+  "disclaimer": "Artykuł ma charakter popularnonaukowy i informacyjny; nie zastępuje projektu ani wytycznych producenta.",
+  "naglowki": [
+   "Ozdobna architektura z powtarzalnych części",
+   "Metal, który udawał kamień"
+  ],
+  "date": "2026-11-16",
+  "cover_w": 960,
+  "cover_h": 1200,
+  "thumb": [
+   66,
+   2,
+   2
+  ]
+ },
+ "122145114855228509": {
+  "title": "Szkło float – szyba, która powstaje na powierzchni ciekłej cyny",
+  "stage": 5,
+  "dzial": "okna-i-drzwi-balkonowe",
+  "zag": "dobor-okien-uw-szyby-profile",
+  "domain": "wykonczenia",
+  "norms": [],
+  "lead": "Jak w procesie float powstaje płaska, gładka szyba bez szlifowania i dlaczego przy zamówieniu przeszklenia nie wystarczy podać samej grubości.",
+  "disclaimer": "Artykuł ma charakter popularnonaukowy i informacyjny; nie zastępuje projektu ani wytycznych producenta.",
+  "naglowki": [
+   "Nie pojedyncza tafla, lecz ciągła wstęga",
+   "Przełom ukryty w zwykłym oknie"
+  ],
+  "date": "2026-11-16",
+  "cover_w": 960,
+  "cover_h": 1200,
+  "thumb": [
+   66,
+   3,
+   2
+  ]
+ },
+ "122145116895228509": {
+  "title": "Blacha falista – sztywność z kształtu, a nie z grubości",
+  "stage": 4,
+  "dzial": "pokrycie-dachu-granica-sso-i-ssz",
+  "zag": "dachowka-blacha-i-inne-pokrycia",
+  "domain": "konstrukcje",
+  "norms": [],
+  "lead": "Co zmienia profilowanie cienkiej blachy, dlaczego liczy się kierunek fal względem podpór i o co zapytać przed zakupem pokrycia.",
+  "disclaimer": "Artykuł ma charakter popularnonaukowy i informacyjny; nie zastępuje projektu ani wytycznych producenta.",
+  "naglowki": [
+   "Co właściwie zmienia profilowanie?",
+   "Lekki materiał, który łatwo było przewozić"
+  ],
+  "date": "2026-11-16",
+  "cover_w": 960,
+  "cover_h": 1200,
+  "thumb": [
+   66,
+   4,
+   2
+  ]
+ },
+ "122145146217228509": {
+  "title": "Pustaki Palmera – puste miejsce też można zaprojektować",
+  "stage": 4,
+  "dzial": "sciany-nosne-i-konstrukcyjne",
+  "zag": "materialy-ceramika-silikat-beton-komorkowy",
+  "domain": "konstrukcje",
+  "norms": [],
+  "lead": "Co opisywał patent Palmera z 1901 roku na betonowe pustaki, jak rozwiązano w nim narożniki i oparcie stropu i jakie pytanie zadać wykonawcy przy wyborze materiału ściennego.",
+  "disclaimer": "Artykuł ma charakter popularnonaukowy i informacyjny; nie zastępuje projektu ani wytycznych producenta.",
+  "naglowki": [
+   "Pustki to dopiero początek pomysłu",
+   "Co z tego wynika dla inwestora?"
+  ],
+  "date": "2026-11-16",
+  "cover_w": 960,
+  "cover_h": 1200,
+  "thumb": [
+   66,
+   0,
+   3
+  ]
+ },
+ "122145147297228509": {
+  "title": "Chodnik był sufitem – szklane przeszklenia, które doświetlały podziemia",
+  "stage": 13,
+  "dzial": "budynki-zabytkowe",
+  "zag": "technologie-dopuszczone-w-zabytkach",
+  "domain": "wykonczenia",
+  "norms": [],
+  "lead": "Jak działały historyczne przeszklenia chodnikowe z pryzmatycznymi wkładami i od czego zacząć ocenę takiego detalu przed remontem.",
+  "disclaimer": "Artykuł ma charakter popularnonaukowy i informacyjny; nie zastępuje projektu ani wytycznych producenta.",
+  "naglowki": [
+   "Szklane oczka zamiast otwartego rusztu",
+   "Światło miało dotrzeć dalej niż pod sam otwór"
+  ],
+  "date": "2026-11-16",
+  "cover_w": 960,
+  "cover_h": 1200,
+  "thumb": [
+   66,
+   1,
+   3
+  ]
+ },
+ "122145148557228509": {
+  "title": "Szkło Luxfer – szyba, która kierowała światło w głąb sklepu",
+  "stage": 13,
+  "dzial": "budynki-zabytkowe",
+  "zag": "prace-przy-zabytku-i-konserwator",
+  "domain": "fizyka",
+  "norms": [],
+  "lead": "Jak pryzmatyczne płytki Luxfer z 1897 roku przekierowywały światło dzienne w głąb lokalu i o co zapytać przy wymianie takiego przeszklenia.",
+  "disclaimer": "Artykuł ma charakter popularnonaukowy i informacyjny; nie zastępuje projektu ani wytycznych producenta.",
+  "naglowki": [
+   "Najważniejsze było to, czego nie widać z ulicy",
+   "Przy remoncie zapytaj o działanie, nie tylko o wygląd"
+  ],
+  "date": "2026-11-16",
+  "cover_w": 960,
+  "cover_h": 1200,
+  "thumb": [
+   66,
+   2,
+   3
+  ]
+ },
+ "122145149325228509": {
+  "title": "Automatyczny tryskacz – otwierał się od ciepła, nie od sygnału z centrali",
+  "stage": 6,
+  "dzial": "pozostale-instalacje",
+  "zag": "instalacje-przeciwpozarowe",
+  "domain": "instalacje",
+  "norms": [],
+  "lead": "Jak działał topikowy tryskacz z patentu Parmelee z 1874 roku, dlaczego głowice nie otwierają się wszystkie naraz i co sprawdzić przy odbiorze instalacji tryskaczowej.",
+  "disclaimer": "Artykuł ma charakter popularnonaukowy i informacyjny; nie zastępuje projektu ani wytycznych producenta.",
+  "naglowki": [
+   "Mały element, duża odpowiedzialność",
+   "Nie wszystkie głowice naraz"
+  ],
+  "date": "2026-11-16",
+  "cover_w": 960,
+  "cover_h": 1200,
+  "thumb": [
+   66,
+   3,
+   3
+  ]
+ },
+ "122145150759228509": {
+  "title": "Pochyły transporter Reno – zanim pojawiły się stopnie, pod górę jechała podłoga",
+  "stage": 4,
+  "dzial": "schody-i-komunikacja-pionowa",
+  "zag": "schody-prefabrykowane-stalowe-i-drewniane",
+  "domain": "konstrukcje",
+  "norms": [],
+  "lead": "Jak działał pochyły transporter Jessego Reno z patentu z 1892 roku i dlaczego w takim urządzeniu najważniejsze jest miejsce wejścia i zejścia.",
+  "disclaimer": "Artykuł ma charakter popularnonaukowy i informacyjny; nie zastępuje projektu ani wytycznych producenta.",
+  "naglowki": [
+   "Jechała powierzchnia pod stopami. Poręcz również",
+   "Przejażdżka, która pokazywała nowe możliwości"
+  ],
+  "date": "2026-11-16",
+  "cover_w": 960,
+  "cover_h": 1200,
+  "thumb": [
+   66,
+   4,
+   3
+  ]
+ },
+ "122145151341228509": {
+  "title": "Taran hydrauliczny – woda spływa w dół, żeby część trafiła wyżej",
+  "stage": 9,
+  "dzial": "przylacza-i-sieci-zewnetrzne",
+  "zag": "przylacze-wodociagowe-i-studnia",
+  "domain": "instalacje",
+  "norms": [],
+  "lead": "Jak taran wykorzystuje uderzenie hydrauliczne do podnoszenia wody bez silnika i od jakich pomiarów zacząć, zanim się go zamówi.",
+  "disclaimer": "Artykuł ma charakter popularnonaukowy i informacyjny; nie zastępuje projektu ani wytycznych producenta.",
+  "naglowki": [
+   "Zawór zamyka się, ciśnienie rośnie",
+   "Nie cała woda trafia na górę"
+  ],
+  "date": "2026-11-16",
+  "cover_w": 960,
+  "cover_h": 1200,
+  "thumb": [
+   66,
+   0,
+   4
+  ]
+ },
+ "122145153339228509": {
+  "title": "Pompa łańcuchowa – łańcuch krążył, a woda wędrowała do góry",
+  "stage": 9,
+  "dzial": "przylacza-i-sieci-zewnetrzne",
+  "zag": "przylacze-wodociagowe-i-studnia",
+  "domain": "instalacje",
+  "norms": [],
+  "lead": "Jak działała pompa łańcuchowa z krążkami, gdzie ją stosowano i dlaczego o jej wydajności decydowały pozornie drobne szczegóły.",
+  "disclaimer": "Artykuł ma charakter popularnonaukowy i informacyjny; nie zastępuje projektu ani wytycznych producenta.",
+  "naglowki": [
+   "Nie zawsze były to wiaderka",
+   "Ze studni, z kopalni, z wnętrza statku"
+  ],
+  "date": "2026-11-16",
+  "cover_w": 960,
+  "cover_h": 1200,
+  "thumb": [
+   66,
+   1,
+   4
+  ]
+ },
+ "122145153795228509": {
+  "title": "Noria – koło, którym rzeka podnosiła własną wodę",
+  "stage": 9,
+  "dzial": "nawierzchnie-i-elementy-zewnetrzne",
+  "zag": "retencja-i-nawadnianie",
+  "domain": "instalacje",
+  "norms": [],
+  "lead": "Jak noria napędzana nurtem podnosiła wodę do kanałów i akweduktów oraz dlaczego bez odpowiedniego przepływu rzeki nie działała.",
+  "disclaimer": "Artykuł ma charakter popularnonaukowy i informacyjny; nie zastępuje projektu ani wytycznych producenta.",
+  "naglowki": [
+   "Czerpaki zamiast noszenia wiader",
+   "Bez silnika, ale nie bez wymagań"
+  ],
+  "date": "2026-11-16",
+  "cover_w": 960,
+  "cover_h": 1200,
+  "thumb": [
+   66,
+   2,
+   4
+  ]
+ },
+ "122145155085228509": {
+  "title": "Śruba Archimedesa – obrót, który podnosi wodę i ścieki",
+  "stage": 9,
+  "dzial": "przylacza-i-sieci-zewnetrzne",
+  "zag": "kanalizacja-szambo-i-oczyszczalnia",
+  "domain": "instalacje",
+  "norms": [],
+  "lead": "Jak śruba Archimedesa przenosi wodę między zwojami, od czego zależy jej wydajność i gdzie tę zasadę stosuje się do dziś.",
+  "disclaimer": "Artykuł ma charakter popularnonaukowy i informacyjny; nie zastępuje projektu ani wytycznych producenta.",
+  "naglowki": [
+   "Woda nie płynęła jedną strugą pod górę",
+   "Prosta zasada, konkretne wymagania"
+  ],
+  "date": "2026-11-16",
+  "cover_w": 960,
+  "cover_h": 1200,
+  "thumb": [
+   66,
+   3,
+   4
+  ]
+ },
+ "122145155577228509": {
+  "title": "Pompa tłokowa Ktesibiosa – dwa tłoki i zawory, które kierowały wodę pod górę",
+  "stage": 6,
+  "dzial": "instalacja-wodociagowa",
+  "zag": "rozprowadzenie-wody-i-materialy-rur",
+  "domain": "instalacje",
+  "norms": [],
+  "lead": "Jak działała dwucylindrowa pompa opisana przez Witruwiusza, jaką rolę grały zawory zwrotne i dlaczego o sukcesie decydowało wykonanie.",
+  "disclaimer": "Artykuł ma charakter popularnonaukowy i informacyjny; nie zastępuje projektu ani wytycznych producenta.",
+  "naglowki": [
+   "Jeden cylinder się napełniał, drugi tłoczył",
+   "Liczył się nie tylko pomysł, ale też wykonanie"
+  ],
+  "date": "2026-11-16",
+  "cover_w": 960,
+  "cover_h": 1200,
+  "thumb": [
+   66,
+   4,
+   4
+  ]
+ },
+ "122145156165228509": {
+  "title": "Grodze – jak budowano na sucho poniżej poziomu rzeki",
+  "stage": 2,
+  "dzial": "wykopy-i-podloze",
+  "zag": "odwodnienie-wykopu",
+  "domain": "grunt",
+  "norms": [],
+  "lead": "Jak dawne grodze drewniane i dzisiejsze ścianki z grodzic wydzielają suche miejsce pracy i dlaczego samo odpompowanie wody nie kończy problemu.",
+  "disclaimer": "Artykuł ma charakter popularnonaukowy i informacyjny; nie zastępuje projektu ani wytycznych producenta.",
+  "naglowki": [
+   "Najpierw przegroda, potem dostęp do dna",
+   "Odpompowanie wody nie kończyło problemu"
+  ],
+  "date": "2026-11-16",
+  "cover_w": 960,
+  "cover_h": 1200,
+  "thumb": [
+   67,
+   0,
+   0
+  ]
+ },
+ "122145156651228509": {
+  "title": "Zaprawy z dodatkiem ceramiki – pokruszona dachówka, która zatrzymywała wodę",
+  "stage": 13,
+  "dzial": "budynki-zabytkowe",
+  "zag": "technologie-dopuszczone-w-zabytkach",
+  "domain": "wykonczenia",
+  "norms": [],
+  "lead": "Jak tłuczona ceramika nadawała zaprawom wapiennym właściwości hydrauliczne, od czego zależy jej reaktywność i dlaczego nie jest to przepis na współczesną hydroizolację.",
+  "disclaimer": "Artykuł ma charakter popularnonaukowy i informacyjny; nie zastępuje projektu ani wytycznych producenta.",
+  "naglowki": [
+   "Ceramika mogła zmieniać właściwości zaprawy",
+   "Nie każda pokruszona cegła działa tak samo"
+  ],
+  "date": "2026-11-16",
+  "cover_w": 960,
+  "cover_h": 1200,
+  "thumb": [
+   67,
+   1,
+   0
+  ]
+ },
+ "122145163929228509": {
+  "title": "Antyczne komory rozdzielcze – miejsce, w którym akwedukt dzielił wodę między dzielnice",
+  "stage": 6,
+  "dzial": "instalacja-wodociagowa",
+  "zag": "rozprowadzenie-wody-i-materialy-rur",
+  "domain": "instalacje",
+  "norms": [],
+  "lead": "Jak działało castellum divisorium w Nîmes, dokąd prowadziły jego odpływy i dlaczego nie był to wzorzec dla wszystkich rzymskich miast.",
+  "disclaimer": "Artykuł ma charakter popularnonaukowy i informacyjny; nie zastępuje projektu ani wytycznych producenta.",
+  "naglowki": [
+   "Dziesięć odpływów, pięć tras w stronę miasta",
+   "Nie każda komora działała tak samo"
+  ],
+  "date": "2026-11-16",
+  "cover_w": 960,
+  "cover_h": 1200,
+  "thumb": [
+   67,
+   2,
+   0
+  ]
+ },
+ "122145166875228509": {
+  "title": "Średniowiecze na budowie – rozwiązania, które zmieniły więcej niż krajobraz",
+  "stage": 4,
+  "dzial": "nadproza-slupy-rdzenie-i-wience",
+  "zag": "dylatacje-i-usztywnienie-budynku",
+  "domain": "konstrukcje",
+  "norms": [],
+  "lead": "Sklepienie żebrowe, łuki przyporowe, żuraw kołowrotowy i taczka: co każde z tych rozwiązań zmieniło na budowie i jaka lekcja z nich zostaje dziś.",
+  "disclaimer": "Artykuł ma charakter popularnonaukowy i informacyjny; nie zastępuje projektu ani wytycznych producenta.",
+  "naglowki": [
+   "1. Sklepienie żebrowe – geometria, która pozwoliła budować inaczej",
+   "2. Łuki przyporowe – siły wyprowadzone poza ścianę",
+   "3. Żuraw kołowrotowy – ciężary podnoszone siłą ludzkich kroków",
+   "4. Taczka – niewielkie urządzenie, ogromna zmiana organizacyjna",
+   "Co z tego wynika dla współczesnej budowy?"
+  ],
+  "date": "2026-11-16",
+  "cover_w": 960,
+  "cover_h": 1440,
+  "thumb": [
+   67,
+   3,
+   0
+  ]
+ },
+ "122145167787228509": {
+  "title": "Syfon odwrócony – jak Rzymianie przeprowadzali wodę przez doliny i dlaczego syfony kanalizacyjne zawodzą",
+  "stage": 9,
+  "dzial": "przylacza-i-sieci-zewnetrzne",
+  "zag": "kanalizacja-szambo-i-oczyszczalnia",
+  "domain": "instalacje",
+  "norms": [],
+  "lead": "Jak działa syfon odwrócony, jakie ciśnienia wytrzymywały rzymskie rury ołowiane i czego wymaga porządny syfon w dzisiejszej kanalizacji.",
+  "disclaimer": "Artykuł ma charakter popularnonaukowy i informacyjny; nie zastępuje projektu ani wytycznych producenta.",
+  "date": "2026-11-16",
+  "poprawki": [
+   [
+    "z dużą prędkością, prędkość samooczyszczania",
+    "z dużą prędkością,\nprędkość samooczyszczania"
+   ],
+   [
+    "w ogólnospławnej),piaskownik przed wlotem, zasuwy na każdej nitce i studnię, z której da się płukać, łagodne łuki",
+    "w ogólnospławnej),\npiaskownik przed wlotem,\nzasuwy na każdej nitce i studnię, z której da się płukać,\nłagodne łuki"
+   ]
+  ],
+  "listy": true,
+  "cover_w": 960,
+  "cover_h": 1200,
+  "thumb": [
+   67,
+   4,
+   0
+  ]
+ },
+ "122145168435228509": {
+  "title": "Hypocaust – rzymskie ogrzewanie podłogowe sprzed dwóch tysięcy lat",
+  "stage": 6,
+  "dzial": "ogrzewanie-i-chlodzenie",
+  "zag": "ogrzewanie-podlogowe-i-grzejniki",
+  "domain": "instalacje",
+  "norms": [],
+  "lead": "Jak zbudowany był hypocaust według Witruwiusza, jak ogrzewano Wielki Refektarz w Malborku i co łączy te systemy z dzisiejszą podłogówką.",
+  "disclaimer": "Artykuł ma charakter popularnonaukowy i informacyjny; nie zastępuje projektu ani wytycznych producenta.",
+  "date": "2026-11-16",
+  "cover_w": 960,
+  "cover_h": 1200,
+  "thumb": [
+   67,
+   0,
+   1
+  ]
+ },
+ "122145169443228509": {
+  "title": "Platform frame – każdy strop jest stołem montażowym dla następnej kondygnacji",
+  "stage": 4,
+  "dzial": "stropy",
+  "zag": "stropy-drewniane",
+  "domain": "konstrukcje",
+  "norms": [],
+  "lead": "Jak powstaje dom w układzie platformowym, czym różni się od balloon frame i na co uważać przy skurczu drewna ułożonego w poprzek.",
+  "disclaimer": "Artykuł ma charakter popularnonaukowy i informacyjny; nie zastępuje projektu ani wytycznych producenta.",
+  "date": "2026-11-17",
+  "cover_w": 960,
+  "cover_h": 1200,
+  "thumb": [
+   67,
+   1,
+   1
+  ]
+ },
+ "122145234225228509": {
+  "title": "Balloon frame – lekki szkielet, który przyspieszył budowę, ale przepuszczał ogień",
+  "stage": 4,
+  "dzial": "stropy",
+  "zag": "stropy-drewniane",
+  "domain": "konstrukcje",
+  "norms": [],
+  "lead": "Skąd wziął się szkielet balonowy, jak działał, dlaczego ciągłe pustki w ścianach były groźne w czasie pożaru i co go zastąpiło.",
+  "disclaimer": "Artykuł ma charakter popularnonaukowy i informacyjny; nie zastępuje projektu ani wytycznych producenta.",
+  "naglowki": [
+   "Skąd wziął się system",
+   "Jak działał balloon frame",
+   "Dlaczego przyspieszał budowę",
+   "Słabość: pustki jak kominy",
+   "Od balloon frame do platform frame",
+   "Co warto zapamiętać"
+  ],
+  "date": "2026-11-17",
+  "cover_w": 960,
+  "cover_h": 1200,
+  "thumb": [
+   67,
+   2,
+   1
+  ],
+  "poprawki": [
+   [
+    "przez Augustina Taylora",
+    "przez Augustine’a Taylora"
+   ],
+   [
+    "#bezpieczeństwapożarowe",
+    "#bezpieczeństwopożarowe"
+   ]
+  ]
+ },
+ "122145259095228509": {
+  "title": "Pomosty na nabrzeżach – od drewnianych pali do ścian kombinowanych",
+  "stage": 3,
+  "dzial": "fundamenty",
+  "zag": "pale-i-wzmocnienia-podloza",
+  "domain": "grunt",
+  "norms": [],
+  "lead": "Jak zmieniały się fundamenty nabrzeży: kaszyce, pale drewniane, grodzice stalowe, kesony i współczesne ściany kombinowane wbijane z platform.",
+  "disclaimer": "Artykuł ma charakter popularnonaukowy i informacyjny; nie zastępuje projektu ani wytycznych producenta.",
+  "date": "2026-11-17",
+  "cover_w": 960,
+  "cover_h": 960,
+  "thumb": [
+   67,
+   3,
+   1
+  ],
+  "poprawki": [
+   [
+    "kaszyc — skrzyń z faszyny i kamienia, które umacniano brzegi Parsęty",
+    "kaszyc, czyli drewnianych skrzyń wypełnianych kamieniem, którymi umacniano brzegi Parsęty"
+   ],
+   [
+    "Pod koniec XIX w. drewno zaczęło brakować, a ports needed głębsze konstrukcje — drewniane pale zastąpiły stalowe grodzice (ścianki szczelne), stosowane w portach od prawie 100 lat.",
+    "Na przełomie XIX i XX w. zaczęło brakować drewna, a porty potrzebowały głębszych konstrukcji. Drewniane pale zastąpiono stalowymi grodzicami (ściankami szczelnymi), które stosuje się w portach od ponad 100 lat."
+   ],
+   [
+    "Tak powstawało nabrzeże LNG w Świnoujściu — 22 690 ton stali wbitej z platformy jack-up młotem IHC S70.",
+    "Tak powstawała ściana kombinowana przy falochronie portu zewnętrznego dla terminalu LNG w Świnoujściu: ok. 2 km ściany z rur o średnicy 1220 mm, a razem z grodzicami i kotwami ok. 21 000 ton stali, wbijanej m.in. z platform jack-up."
+   ]
+  ]
+ },
+ "122145288393228509": {
+  "title": "Płytki kolczaste w wiązarach – połączenie spod prasy, nie spod młotka",
+  "stage": 4,
+  "dzial": "konstrukcja-dachu",
+  "zag": "rodzaje-wiezby-i-wiazary",
+  "domain": "konstrukcje",
+  "norms": [],
+  "lead": "Jak powstaje wiązar z płytkami kolczastymi, dlaczego płytki nie wbija się młotkiem i co zrobić, gdy płytka uszkodzi się w transporcie lub przy montażu.",
+  "disclaimer": "Rozwiązanie dla konkretnego budynku dobiera projektant z odpowiednimi uprawnieniami; artykuł ma charakter informacyjny.",
+  "naglowki": [
+   "Jak z luźnych elementów powstaje wiązar?",
+   "Dlaczego nie wystarczy kupić płytki i chwycić za młotek?"
+  ],
+  "date": "2026-11-17",
+  "cover_w": 960,
+  "cover_h": 1200,
+  "thumb": [
+   67,
+   4,
+   1
+  ]
+ },
+ "122145289227228509": {
+  "title": "Wełna zamokła na budowie, a ekipa chce zamknąć dach – suszyć czy wymieniać",
+  "stage": 7,
+  "dzial": "dach-i-poddasze",
+  "zag": "izolacja-termiczna-polaci",
+  "domain": "fizyka",
+  "norms": [],
+  "lead": "Jak ustalić źródło wilgoci, ocenić stopień zamoczenia wełny, zdecydować o suszeniu lub wymianie i udokumentować odbiór przed zabudową.",
+  "disclaimer": "Rozwiązanie dla konkretnego budynku dobiera projektant z odpowiednimi uprawnieniami; artykuł ma charakter informacyjny.",
+  "date": "2026-11-17",
+  "cover_w": 960,
+  "cover_h": 1200,
+  "thumb": [
+   67,
+   0,
+   2
+  ]
+ },
+ "122145341637228509": {
+  "title": "Czujnik zalania zadziałał, a zawór nie odciął wody – jak odebrać system antyzalaniowy",
+  "stage": 6,
+  "dzial": "pozostale-instalacje",
+  "zag": "automatyka-budynkowa",
+  "domain": "instalacje",
+  "norms": [],
+  "lead": "Jakie odpowiedzi uzyskać od instalatora, jak przeprowadzić próby z płynącą wodą, bez internetu i bez prądu oraz co wpisać do protokołu.",
+  "disclaimer": "Rozwiązanie dla konkretnego budynku dobiera projektant z odpowiednimi uprawnieniami; artykuł ma charakter informacyjny.",
+  "naglowki": [
+   "Zanim zaczniecie testować",
+   "Przykładowy test do uzgodnienia z instalatorem",
+   "6 błędów, przez które system „jest”, a woda leci dalej"
+  ],
+  "date": "2026-11-18",
+  "cover_w": 960,
+  "cover_h": 1200,
+  "thumb": [
+   67,
+   1,
+   2
+  ]
+ },
+ "122145346455228509": {
+  "title": "Laboratorium zbadało próbkę, ale nie wiadomo, z którego elementu – jak prowadzić rejestr próbek",
+  "stage": 4,
+  "dzial": "kontrola-jakosci-sso",
+  "zag": "odbiory-zbrojenia-i-robot-zanikajacych",
+  "domain": "konstrukcje",
+  "norms": [
+   "PN-EN 12350-1",
+   "PN-EN 12390-2",
+   "PN-EN 13791"
+  ],
+  "lead": "Jak numerować próbki betonu, co zapisać przy pobraniu, jak przenieść numer na kostkę przed rozformowaniem i jak wynik z laboratorium wraca do konkretnego elementu.",
+  "disclaimer": "Rozwiązanie dla konkretnego budynku dobiera projektant z odpowiednimi uprawnieniami; artykuł ma charakter informacyjny.",
+  "naglowki": [
+   "Numer, który coś znaczy",
+   "Numer musi przetrwać rozformowanie",
+   "Wynik wraca do elementu",
+   "7 błędów, przez które dobre badanie traci wartość"
+  ],
+  "date": "2026-11-18",
+  "cover_w": 960,
+  "cover_h": 1200,
+  "thumb": [
+   67,
+   2,
+   2
+  ]
+ },
+ "122145348663228509": {
+  "title": "Beton przyjechał za gęsty, ekipa chce dolać wody – jak reagować",
+  "stage": 4,
+  "dzial": "stropy",
+  "zag": "zamawianie-betonu",
+  "domain": "konstrukcje",
+  "norms": [
+   "PN-EN 206",
+   "PN-EN 12350-2"
+  ],
+  "lead": "Co się dzieje z betonem po dolaniu wody, jak sprawdzić dokument dostawy i konsystencję, kiedy dzwonić do technologa betoniarni i kiedy wstrzymać wbudowanie.",
+  "disclaimer": "Rozwiązanie dla konkretnego budynku dobiera projektant z odpowiednimi uprawnieniami; artykuł ma charakter informacyjny.",
+  "date": "2026-11-18",
+  "cover_w": 960,
+  "cover_h": 1200,
+  "thumb": [
+   67,
+   3,
+   2
+  ]
+ },
+ "122145349743228509": {
+  "title": "Wynik wyszedł źle, wykonawca chce badać gdzie indziej – jak zaplanować dalsze badania",
+  "stage": 4,
+  "dzial": "kontrola-jakosci-sso",
+  "zag": "odbiory-zbrojenia-i-robot-zanikajacych",
+  "domain": "prawo",
+  "norms": [
+   "Prawo budowlane art. 20 ust. 1 pkt 4, art. 26",
+   "PN-EN 13791"
+  ],
+  "lead": "Kiedy powtórka badania ma sens, kto decyduje o miejscach i liczbie kolejnych punktów i co spisać przed badaniem, żeby nikt nie szukał wyniku pod tezę.",
+  "disclaimer": "Artykuł ma charakter informacyjny i nie stanowi porady prawnej.",
+  "naglowki": [
+   "Kiedy powtórka ma sens",
+   "Kto o tym decyduje",
+   "Co spisać przed kolejnymi badaniami",
+   "7 błędów przy niekorzystnym wyniku"
+  ],
+  "date": "2026-11-18",
+  "cover_w": 960,
+  "cover_h": 1280,
+  "thumb": [
+   67,
+   4,
+   2
+  ]
+ },
+ "122145427233228509": {
+  "title": "Instalację grzewczą odebrano wiosną – kto sprawdzi ją zimą",
+  "stage": 8,
+  "dzial": "uruchomienie-instalacji",
+  "zag": "rozruch-zrodla-ciepla",
+  "domain": "instalacje",
+  "norms": [
+   "Kodeks cywilny art. 647"
+  ],
+  "lead": "Jak rozdzielić odbiór techniczny instalacji grzewczej i sezonową weryfikację, co sprawdzić podczas zimowej wizyty i jak zapisać ją w umowie z wykonawcą.",
+  "disclaimer": "Artykuł ma charakter informacyjny i nie stanowi porady prawnej.",
+  "date": "2026-11-19",
+  "poprawki": [
+   [
+    "\nedukacjabudowlana.pl",
+    ""
+   ]
+  ],
+  "cover_w": 960,
+  "cover_h": 1280,
+  "thumb": [
+   67,
+   0,
+   3
   ]
  }
 }

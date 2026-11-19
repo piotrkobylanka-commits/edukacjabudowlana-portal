@@ -1,0 +1,38 @@
+{
+ "slug": "automatyczny-tryskacz-otwieral-sie-od-ciepla-nie-od-sygnalu-z-centrali",
+ "title": "Automatyczny tryskacz – otwierał się od ciepła, nie od sygnału z centrali",
+ "lead": "Jak działał topikowy tryskacz z patentu Parmelee z 1874 roku, dlaczego głowice nie otwierają się wszystkie naraz i co sprawdzić przy odbiorze instalacji tryskaczowej.",
+ "stage": 6,
+ "dzial": "pozostale-instalacje",
+ "domain": "instalacje",
+ "norms": [],
+ "date": "2026-11-16",
+ "html": "<p>Automatyczny tryskacz. Otwierał się od ciepła, nie od sygnału z komputera</p>\n<p>Czy instalacja może rozpocząć gaszenie bez człowieka i elektronicznego czujnika? Już w XIX wieku stosowano rozwiązania, w których rozgrzanie topliwego elementu zwalniało zamknięcie tryskacza i umożliwiało wypływ wody.</p>\n<p>11 sierpnia 1874 roku Henry S. Parmelee otrzymał patent na udoskonalenie automatycznego urządzenia gaśniczego. Opisał w nim mechanizm, w którym ciepło uwalniało zawór, a ciśnienie wody otwierało drogę do perforowanej głowicy rozprowadzającej strumienie.</p>\n<h2 id=\"maly-element-duza-odpowiedzialnosc\">Mały element, duża odpowiedzialność</h2>\n<p>W rozwiązaniu Parmelee topliwy materiał utrzymywał mechanizm dociskający zawór; gdy odpowiednio się nagrzał i stopił, docisk ustępował, a woda zaczynała płynąć. Nie trzeba było czekać, aż płomień bezpośrednio dotknie urządzenia, co stanowiło przewagę nad wcześniejszymi rozwiązaniami wykorzystującymi przepalające się nici.</p>\n<p>Najciekawsze jest tu dla mnie wykorzystanie właściwości materiału. Element, który podczas normalnej pracy miał utrzymywać zamknięcie, w warunkach pożaru miał właśnie przestać je utrzymywać.</p>\n<h2 id=\"nie-wszystkie-glowice-naraz\">Nie wszystkie głowice naraz</h2>\n<p>W typowym układzie z tryskaczami termicznymi każdy reaguje miejscowo na nagrzanie, a nie na samą obecność dymu. Otwarcie jednej głowicy nie oznacza automatycznego otwarcia wszystkich pozostałych, wbrew scenom znanym z filmów.</p>\n<p>Trzeba jednak oddzielić samoczynność głowicy od sprawności całej instalacji. Do właściwego rozprowadzenia wody potrzebne są określone parametry przepływu i ciśnienia, a tryskacze muszą być dobrane oraz zamontowane zgodnie z ich przeznaczeniem.</p>\n<p>Dlatego przy odbiorze nie poprzestałbym na stwierdzeniu: „Pod sufitem są tryskacze”. Poprosiłbym również o dokumentację prób i potwierdzenie sprawności zasilania w wodę.</p>\n<p>Z czym bardziej kojarzyliście uruchomienie tryskacza: z dymem czy z temperaturą? Napiszcie, czy filmowe sceny też wpłynęły na Wasze wyobrażenie o tej instalacji.</p>",
+ "toc": [
+  {
+   "id": "maly-element-duza-odpowiedzialnosc",
+   "t": "Mały element, duża odpowiedzialność"
+  },
+  {
+   "id": "nie-wszystkie-glowice-naraz",
+   "t": "Nie wszystkie głowice naraz"
+  }
+ ],
+ "sources": "<ul>\n<li>Opracowanie autorskie EdukacjaBudowlana, pierwotnie opublikowane na profilu EdukacjaBudowlana na Facebooku.</li>\n</ul>",
+ "disclaimer": "Artykuł ma charakter popularnonaukowy i informacyjny; nie zastępuje projektu ani wytycznych producenta.",
+ "minutes": 2,
+ "nr": null,
+ "seria": null,
+ "zag": "instalacje-przeciwpozarowe",
+ "cover": {
+  "src": "img/full/122145149325228509.webp",
+  "w": 960,
+  "h": 1200,
+  "alt": "Automatyczny tryskacz – otwierał się od ciepła, nie od sygnału z centrali"
+ },
+ "thumb": [
+  66,
+  3,
+  3
+ ]
+}
