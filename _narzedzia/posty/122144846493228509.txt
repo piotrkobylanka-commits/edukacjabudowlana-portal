@@ -1,0 +1,66 @@
+🗂️ Po kolejnych poprawkach nie wiadomo, która warstwa pochodzi od której firmy
+
+Taras nad garażem przecieka trzeci raz. Pierwsza firma robiła hydroizolację, druga poprawiała fugi i dołożyła warstwę szlamu, trzecia uszczelniała próg. Woda znów jest na suficie garażu. Pytanie, kto za to odpowiada, brzmi prosto, tylko że odpowiedź wymaga wiedzy, której nikt nie zapisał.
+
+Każda naprawa przykrywa poprzednią
+
+Kolejna ekipa skuwa, szlifuje, gruntuje i nakłada swoje. Po tygodniu nie ma śladu, jak wyglądał element przed jej wejściem. Jeśli przyczyną przecieku był błąd pierwszej firmy, dowód właśnie zniknął pod nową warstwą.
+
+A dowód będzie potrzebny. Kto żąda naprawy albo pieniędzy, ten musi wykazać fakty, z których to wywodzi (art. 6 k.c.). Rękojmia nie zależy od winy wykonawcy, ale trzeba pokazać, że wada dotyczy jego roboty, a nie warstwy położonej później przez kogoś innego.
+
+Do tego każda naprawa to osobna umowa i osobne terminy. Rękojmię liczy się co do zasady od oddania danej roboty, a gwarancja działa na warunkach swojego dokumentu. Przy gwarancji na wyrób lub urządzenie wymiana na nowy albo istotna naprawa sprawia, że termin gwarancji biegnie od nowa (art. 581 § 1 k.c.). Przy innych naprawach termin wydłuża się o czas, w którym nie można było korzystać z rzeczy (art. 581 § 2 k.c.). Bez dat trudno potem policzyć, co jeszcze obowiązuje.
+
+Przy domu nikt tego od ciebie nie wymaga
+
+Dla budynku wielorodzinnego, usługowego czy przemysłowego prowadzi się książkę obiektu budowlanego (art. 60b Prawa budowlanego). Dom jednorodzinny jest z tego obowiązku zwolniony (art. 60b ust. 2). Zwolniony jest też z corocznej kontroli elementów narażonych na warunki atmosferyczne (art. 62 ust. 2). Nadal obowiązuje go natomiast coroczna kontrola instalacji gazowej i przewodów kominowych oraz kontrola co 5 lat z badaniem instalacji elektrycznej i piorunochronnej (art. 62 ust. 1).
+
+Skoro przepis nie każe prowadzić historii napraw, w większości domów jej po prostu nie ma. Własny rejestr wypełnia tę lukę. Trzymaj go razem z dokumentacją budowy i protokołami kontroli, które właściciel i tak przechowuje przez cały okres istnienia budynku (art. 63 ust. 1).
+
+Co wpisać przy każdej naprawie
+
+Wystarczy arkusz albo zeszyt, byle uzupełniany od razu, a nie po roku z pamięci. Jedna naprawa to jeden wpis:
+
+● data rozpoczęcia, zakończenia i odbioru,
+● element i dokładne miejsce, czyli pomieszczenie, ściana, odległość od narożnika albo oś z rzutu,
+● objaw, który zgłosiłeś, i przyczyna, którą wskazał wykonawca,
+● firma, osoba prowadząca prace, kontakt oraz numer umowy lub zlecenia,
+● co usunięto i co dodano, z kolejnością warstw od spodu,
+● materiały: producent, nazwa handlowa, numer partii i data z opakowania,
+● warunki podczas prac, jeśli mają znaczenie, np. temperatura, deszcz, wilgotne podłoże,
+● numery zdjęć z tej naprawy,
+● terminy rękojmi i gwarancji oraz miejsce, gdzie leży dokument gwarancyjny.
+
+Do wpisu dołącz kartę techniczną materiału w wersji z dnia zakupu, bo producenci aktualizują je z czasem. Zdjęcie etykiety z numerem partii zajmuje sekundę, a po latach bywa jedynym śladem, czego użyto.
+
+Zdjęcia, które coś pokażą
+
+Rób trzy serie: przed, w trakcie i po. Najcenniejsza jest środkowa, bo pokazuje warstwy, których później nikt już nie zobaczy. W każdej serii przydają się:
+
+● ujęcie ogólne, z którego widać, w którym miejscu budynku jesteś,
+● zbliżenie z miarką albo kątownikiem w kadrze,
+● przekrój odkrywki z widocznymi kolejnymi warstwami i ich grubością,
+● opakowanie lub etykieta użytego materiału.
+
+Nazywaj pliki według jednego wzoru, np. data_element_etap_numer, i zachowuj oryginały. Część komunikatorów zmniejsza zdjęcia i usuwa z nich dane o dacie wykonania, więc kopia z czatu nie zastąpi pliku z aparatu.
+
+Zanim wejdzie następna firma
+
+To moment, w którym historia ginie najłatwiej. Pilne zabezpieczenie przed dalszym zalewaniem rób od razu, ale tak, żeby nie niszczyć tego, co ma zostać ocenione. Potem:
+
+sfotografuj stan zastany, zanim ktokolwiek zacznie skuwać,
+jeśli podejrzewasz wadę po poprzednim wykonawcy, zawiadom go na piśmie i zaproponuj termin wspólnych oględzin przed rozbiórką,
+odkrywkę prowadź etapami i dokumentuj każdą zdjętą warstwę,
+przy realnym sporze zachowaj opisane próbki usuniętych materiałów,
+spisz z nową firmą krótki protokół stanu zastanego, z podpisami obu stron,
+przy poważnym sporze rozważ wniosek do sądu o zabezpieczenie dowodu przed usunięciem wady, który jest możliwy, gdy później przeprowadzenie dowodu byłoby niewykonalne lub zbyt utrudnione (art. 310 k.p.c.).
+
+6 BŁĘDÓW W HISTORII NAPRAW
+
+● zapisywanie napraw z pamięci po kilku miesiącach,
+● zdjęcia tylko po naprawie, bez stanu przed i w trakcie,
+● faktura z ogólnikiem „naprawa tarasu” zamiast opisu zakresu,
+● brak nazwy i numeru partii materiału,
+● zgoda na skucie wszystkiego przed oględzinami z poprzednim wykonawcą,
+● zdjęcia trzymane wyłącznie w jednym telefonie, bez kopii.
+
+#EdukacjaBudowlana #RejestrNapraw #HistoriaBudynku #Naprawy #Remont #Rękojmia #Gwarancja #DokumentacjaFotograficzna #BudowaDomu #PrawoBudowlane

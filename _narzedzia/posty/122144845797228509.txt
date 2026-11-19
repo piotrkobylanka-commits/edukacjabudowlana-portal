@@ -1,0 +1,55 @@
+📂 Dokumentacja powykonawcza wygląda idealnie. Tylko czy opisuje ten budynek?
+
+Segregator jest gruby, zakładki kolorowe, każdy protokół ma podpis i pieczątkę. Inwestor przegląda spis treści, odhacza pozycje i podpisuje odbiór.
+Komplet podpisów mówi tylko tyle, że ktoś coś podpisał. Nie mówi, czy rura w posadzce leży tam, gdzie pokazuje rysunek, ani czy numer w karcie gwarancyjnej należy do pompy, która stoi w kotłowni.
+Dla kogo są te papiery
+Prawo budowlane definiuje dokumentację powykonawczą jako dokumentację budowy uzupełnioną o zmiany wprowadzone w trakcie robót i o geodezyjne pomiary powykonawcze (art. 3 pkt 14). Przygotowuje ją kierownik budowy (art. 22 pkt 8). Inwestor, oddając obiekt do użytkowania, przekazuje ją właścicielowi (art. 60 ust. 1), a właściciel ma ją przechowywać przez cały okres istnienia budynku (art. 63 ust. 1).
+To nie jest teczka dla urzędu. To opis domu, po który sięgniesz przy awarii, przebudowie czy sprzedaży.
+Przy domu jednorodzinnym jest jeszcze jeden powód, żeby przeczytać ją samemu. Do zawiadomienia o zakończeniu budowy takiego domu nie dołącza się protokołów badań i sprawdzeń instalacji, z wyjątkiem protokołu szczelności instalacji gazowej (art. 57 ust. 1b). Próby trzeba wykonać (art. 22 pkt 7), ale nadzór budowlany nie dostaje ich razem z zawiadomieniem. Czy opisują twój dom, sprawdzasz więc ty, a jeśli go masz, także twój inspektor nadzoru.
+
+Wyrywkowo, ale naprawdę
+Nie sprawdzisz każdej kreski na rysunku. Możesz za to wybrać 5–8 miejsc i porównać je z naturą. Jeśli wszystkie się zgadzają, rośnie zaufanie do reszty. Jeśli dwa nie pasują, wiesz, że dokumentację trzeba poprawić przed odbiorem.
+Przy wyborze punktów kieruj się kilkoma zasadami:
+● bierz punkty z różnych branż: konstrukcja, elektryka, woda i kanalizacja, ogrzewanie, teren,
+● stawiaj na to, co już zakryte i za kilka lat będzie trudne do znalezienia,
+● uwzględnij miejsca, w których w trakcie budowy coś zmieniano,
+● przynajmniej jeden punkt wybierz sam, a nie z propozycji wykonawcy.
+
+1. Rysunki: wymiar, miejsce, zmiana
+Weź rzut i miarkę. Zmierz dwa, trzy otwory okienne, sprawdź położenie ściany działowej, wysokość parapetu, miejsce kanału wentylacyjnego.
+Każda różnica rodzi pytanie, czy ta zmiana jest gdzieś zapisana. Kwalifikację odstąpienia od zatwierdzonego projektu robi projektant (art. 36a ust. 6). Przy zmianach nieistotnych do zawiadomienia dołącza się kopie rysunków z naniesionymi zmianami, a oświadczenie kierownika o zgodności wykonania z projektem potwierdza wtedy projektant i inspektor nadzoru, jeśli go ustanowiono (art. 57 ust. 2). Ustalenie „na budowie, z majstrem” nie jest żadnym z tych dokumentów.
+
+2. Urządzenia: tabliczka kontra papier
+Tu sprawdzenie zajmuje kilka minut na urządzenie:
+● model, numer seryjny i moc z tabliczki znamionowej pompy ciepła, kotła czy rekuperatora zestawione z protokołem uruchomienia i kartą gwarancyjną,
+● typ zasobnika, zmiękczacza i innych urządzeń porównany z projektem albo z zaakceptowanym zamiennikiem,
+● opisy przy zabezpieczeniach w rozdzielnicy porównane ze schematem powykonawczym, najlepiej z próbą polegającą na wyłączeniu jednego obwodu i sprawdzeniu, co faktycznie zgasło,
+● opisy pętli na rozdzielaczu ogrzewania podłogowego zestawione z pomieszczeniami na rysunku,
+● etykieta albo oznaczenie okna, jeśli producent je umieszcza, porównane z dokumentem, z którego pochodzą jego parametry.
+Rozbieżność numeru seryjnego łatwiej wyjaśnić z instalatorem teraz niż przy pierwszej reklamacji.
+
+3. Przebieg instalacji, czyli to, czego już nie widać
+Tu przydają się zdjęcia zrobione przed zakryciem. Użyteczne zdjęcie ma w kadrze miarkę i stały punkt odniesienia: narożnik, ościeżnicę, otwór drzwiowy. Zestaw dwa, trzy takie zdjęcia z rysunkiem powykonawczym. Jeśli na zdjęciu rura biegnie 40 cm od ściany, a na rysunku przy samej ścianie, rysunek jest do poprawy.
+Bez zdjęć zostają narzędzia. Kamera termowizyjna przy pracującym ogrzewaniu podłogowym często pokazuje układ pętli, choć przy grubej wylewce czy drewnianej podłodze obraz bywa nieostry. Przy ścianach pomoże wykrywacz przewodów.
+Na zewnątrz porównaj mapę z geodezyjnej inwentaryzacji powykonawczej z tym, co widać w terenie: studzienki, rewizje, skrzynkę gazową, złącze kablowe. Ta dokumentacja geodezyjna jest obowiązkowym załącznikiem do zawiadomienia także przy domu jednorodzinnym (art. 57 ust. 1 pkt 5).
+4. Protokoły: czytaj, nie licz
+Protokół może być podpisany i dalej nie dotyczyć twojego domu. Przy każdym sprawdź:
+● adres i opis obiektu, bo szablony bywają przenoszone z poprzedniej budowy,
+● datę i to, czy pasuje do kolejności robót z dziennika budowy, np. próba szczelności przed zakryciem rur,
+● wyniki, czyli konkretne wartości i kryteria oceny, a nie samo słowo „pozytywny”,
+● liczbę obwodów lub odcinków w porównaniu z rozdzielnicą i projektem,
+● kto podpisał i jakie ma kwalifikacje do tej czynności.
+Umowa i odbiór
+Najprościej zadbać o to w umowie. W załączniku wypisz dokumenty powykonawcze, ich formę (papier, PDF) i termin przekazania przed odbiorem końcowym, a nie w dniu odbioru. Dopisz, że zgodność dokumentacji z wykonaniem jest częścią odbioru. Na przeczytanie segregatora wręczonego przy podpisywaniu protokołu zwykle nie ma już czasu.
+Rozbieżność znalezioną w dokumentach wpisz do protokołu odbioru jak każdą inną niezgodność: gdzie, co, w porównaniu z czym i do kiedy ma zostać poprawione.
+
+7 BŁĘDÓW PRZY ODBIORZE DOKUMENTACJI POWYKONAWCZEJ
+● liczenie dokumentów zamiast ich czytania,
+● przyjęcie schematu rozdzielnicy z projektu jako powykonawczego,
+● zdjęcia instalacji bez miarki i punktu odniesienia,
+● karta gwarancyjna z numerem seryjnym innym niż na tabliczce,
+● zmiany uzgodnione ustnie i nigdzie nienaniesione,
+● protokół z wynikiem „pozytywny” bez wartości pomiarów,
+● segregator odebrany w dniu odbioru, bez czasu na sprawdzenie.
+
+#EdukacjaBudowlana #DokumentacjaPowykonawcza #OdbiórDomu #OdbiórKońcowy #ProtokółOdbioru #KierownikBudowy #InspektorNadzoru #BudowaDomu #InstalacjeWDomu #PrawoBudowlane

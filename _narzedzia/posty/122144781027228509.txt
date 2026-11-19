@@ -1,0 +1,22 @@
+🏗️ 002 |🌊 Sanxia Daba: 181 m betonu, który nie mógł się przegrzać
+
+Zapora Trzech Przełęczy na Jangcy ma 2309,5 m długości i 181 m wysokości. Na papierze to zwykła betonowa zapora ciężkościowa, czyli blok, który trzyma wodę własnym ciężarem. Na budowie najtrudniejszym przeciwnikiem nie była jednak rzeka, tylko ciepło, które beton wydziela sam z siebie.
+
+Skala w kilku liczbach ● ok. 28 mln m³ betonu w całej inwestycji, z czego ok. 16 mln m³ w samej zaporze, ● 22 500 MW mocy i rekordowe 111,8 TWh w 2020 r., ● 22,15 mld m³ pojemności zarezerwowanej na powódź, ● pięciostopniowe śluzy i podnośnik, który unosi statek do 3000 t na wysokość 113 m.
+
+Jak schłodzono beton W szczytowym okresie wylewano nawet 22 000 m³ na dobę. Tak duży blok nagrzewa się od środka, a powierzchnia stygnie szybciej i zaczyna pękać. Dlatego mieszanka wyjeżdżała z wytwórni w temperaturze ok. 7°C: kruszywo chłodzono powietrzem, do mieszanki szedł lód i zimna woda. W blokach układano rury chłodzące, powierzchnie przykrywano izolacją, a 20–40% spoiwa stanowił popiół lotny. W ponad 4 mln m³ betonu ostatniego etapu nie stwierdzono rys termicznych.
+
+Fundament i przekrój Zapora stoi na granicie masywu Huangling o wytrzymałości ok. 100 MPa. Pod piętą wykonano kurtynę zastrzykową i drenaż, a najgroźniejszy przypadek poślizgu głębokiego sprawdzono z wymaganym współczynnikiem bezpieczeństwa co najmniej 3,0. W karuzeli znajdziesz przekrój przez sekcję przelewową narysowany w jednej skali: korona 185 m n.p.m., normalne piętrzenie 175 m, podstawa ok. 126 m.
+
+A w Polsce? Od 11 czerwca 2026 r. obowiązuje nowe rozporządzenie w sprawie warunków technicznych dla budowli hydrotechnicznych (Dz.U. 2026 poz. 692). Przy betonie masywnym wracają te same tematy co w Chinach. PN-EN 13670 ogranicza temperaturę we wnętrzu elementu do 70°C, jeśli specyfikacja nie stanowi inaczej, a w praktyce pilnuje się, żeby różnica między wnętrzem a powierzchnią nie przekraczała ok. 20°C. Przy fundamencie bloku energetycznego w Jaworznie czujniki pokazały maksimum 34,2°C i różnicę 16,2°C, czyli dokładnie to, o co chodzi w dobrze zaplanowanym betonowaniu.
+
+5 błędów przy betonie masywnym
+● zwykły CEM I zamiast cementu o niskim cieple hydratacji (LH),
+● betonowanie w upale bez chłodzenia mieszanki,
+● zbyt wczesne zdjęcie izolacji z gorącego bloku,
+● brak czujników temperatury we wnętrzu i przy powierzchni,
+● za grube warstwy bez zaplanowanych przerw i dylatacji.
+
+Przy Waszym ostatnim fundamencie masywnym ktoś mierzył temperaturę w środku bloku, czy tylko na powierzchni?
+
+#EdukacjaBudowlana #200CudówInżynierii #ZaporaTrzechPrzełęczy #BetonMasywny #Hydrotechnika #Beton #Budownictwo #InżynieriaLądowa #Zapory #TechnologiaBetonu

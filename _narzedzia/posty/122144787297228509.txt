@@ -1,0 +1,71 @@
+🔩 Pale są pod ziemią. Jak inwestor ma odebrać coś, czego nigdy nie zobaczy?
+
+Po zabetonowaniu z pala zostaje głowica wystająca nad dno wykopu. Reszta, czyli kilka albo kilkanaście metrów betonu i stali, znika w gruncie na zawsze. Nie da się jej obejrzeć, opukać ani zmierzyć taśmą. Jeśli coś poszło źle, zwykle wychodzi to dopiero w postaci rys na ścianach.
+
+Dlatego pale odbiera się z dokumentów i z badań. A o tym, jakie to mają być dokumenty i jakie badania, trzeba się umówić przed pierwszym palem, a nie po ostatnim.
+
+Co mówi prawo
+
+Pale to typowe roboty zanikające. Art. 22 pkt 7 Prawa budowlanego zobowiązuje kierownika budowy do zgłaszania inwestorowi takich robót do sprawdzenia lub odbioru. Jeśli na budowie jest inspektor nadzoru inwestorskiego, to według art. 25 pkt 3 jego obowiązkiem jest je sprawdzić i odebrać. Art. 43 ust. 3 dodaje, że elementy ulegające zakryciu, które wymagają inwentaryzacji geodezyjnej, inwentaryzuje się przed zakryciem.
+
+Ustawa nie mówi jednak, jak ma wyglądać sam odbiór pala. To wynika z projektu, z norm wykonawczych i z tego, co strony zapiszą w umowie.
+
+Zanim wjedzie palownica, ustal:
+
+● projekt palowania z planem pali, rzędnymi podstaw i głowic, nośnościami oraz programem badań,
+● dokumentację geotechniczną, z którą porównuje się to, co maszyna faktycznie przewierca,
+● technologię pali i jej zgodność z projektem (CFA, wiercone w rurze, prefabrykowane wbijane, mikropale),
+● wzór metryki pala i formę zapisu z monitoringu maszyny, osobno dla każdego pala,
+● rodzaj badań, liczbę badanych pali, termin, wykonawcę badań i kryteria przyjęcia wyniku,
+● to, czy w koszach zbrojeniowych mają być rurki do badań ultradźwiękowych,
+● kto tyczy pale i kto mierzy położenie głowic po wykonaniu,
+● tryb postępowania, gdy pal wyjdzie krótszy, beton się urwie albo świder trafi na przeszkodę.
+
+O ostatni punkt najłatwiej się pokłócić. Bez wcześniejszych ustaleń każda niezgodność zamienia się w negocjacje między wykonawcą a inwestorem, a rozstrzygnąć ją i tak musi projektant.
+
+Zakres rozpoznania podłoża i forma dokumentacji zależą od kategorii geotechnicznej obiektu (rozporządzenie z 25 kwietnia 2012 r. w sprawie ustalania geotechnicznych warunków posadawiania obiektów budowlanych). Od października 2025 r. w zbiorze Polskich Norm jest też nowa generacja Eurokodu 7 (PN-EN 1997-1, -2 i -3:2025-10), więc dobrze wiedzieć, według której wersji projektant liczył nośność i ustalał badania.
+
+Metryka każdego pala
+
+Normy wykonawcze, czyli PN-EN 1536+A1:2015 dla pali wierconych (w tym CFA), PN-EN 12699:2015 dla przemieszczeniowych i PN-EN 14199:2015 dla mikropali, opisują nadzór nad robotami i ich dokumentowanie. Szczegółowy wzór metryki zwykle podaje projekt albo specyfikacja. W praktyce dla każdego pala powinny się znaleźć:
+
+● numer zgodny z planem palowania,
+● data i godzina wykonania,
+● rzędne platformy roboczej, podstawy i projektowanej głowicy,
+● długość i średnica,
+● opis przewiercanych gruntów albo opory wiercenia,
+● ilość wbudowanego betonu w porównaniu z objętością teoretyczną,
+● długość kosza zbrojeniowego i głębokość, na jaką wszedł,
+● numery dokumentów dostawy betonu z jego klasą,
+● uwagi o przerwach, przeszkodach i odstępstwach.
+
+Przy palach CFA dochodzi wydruk z systemu monitoringu: głębokość, prędkość podciągania świdra, ciśnienie i objętość betonu w funkcji głębokości. W tej technologii poza oporami wiercenia praktycznie nie da się na bieżąco kontrolować, przez jakie warstwy przechodzi świder, więc zapis z maszyny jest jednym z niewielu dowodów, że trzon jest ciągły. Przy palach wbijanych zapisuje się wpędy, a przy mikropalach ciśnienie i ilość iniektu.
+
+Metryki warto dostawać na bieżąco, najlepiej tego samego dnia. Zbiorczy raport oddany po zakończeniu palowania trudno zestawić z tym, co faktycznie działo się na budowie.
+
+Badania i to, co które z nich mówi
+
+● próbne obciążenie statyczne (PN-EN ISO 22477-1:2019-01) daje najbardziej miarodajną ocenę pracy pala pod obciążeniem, ale wymaga balastu albo pali kotwiących i czasu,
+● badanie dynamiczne polega na uderzeniu ciężkim bijakiem i pomiarze odpowiedzi pala, nośność wychodzi z interpretacji, za to w jeden dzień można zbadać kilka pali,
+● badanie ciągłości metodą młotkową (PIT, sonic echo) jest szybkie i pozwala sprawdzić wiele pali, nawet wszystkie, ale nie mówi nic o nośności,
+● badanie ultradźwiękowe między rurkami (cross-hole) dokładniej pokazuje jakość betonu w trzonie, tylko że rurki trzeba zamontować w koszu przed betonowaniem,
+● próbki betonu potwierdzają klasę betonu, a nie jakość pala jako całości.
+
+Jedno badanie nie zastąpi drugiego. Badanie ciągłości nie powie, ile pal przeniesie, a próbne obciążenie kilku pali nie wykaże przewężenia w pozostałych. Program badań układa projektant i to on powinien go podpisać, zanim ruszy palowanie.
+
+Odbiór głowic
+
+Po skuciu głowic do projektowanej rzędnej sprawdź, czy beton na tej rzędnej jest zdrowy, bez rozwarstwień i zanieczyszczeń gruntem, czy zbrojenie wystaje na wymaganą długość i czy położenie pali zgadza się z planem. Dopiero potem zbrojenie oczepów.
+
+8 błędów przy odbiorze pali
+
+● odbiór na podstawie oglądu głowic i zapewnienia, że „wszystko poszło”,
+● palowanie bez programu badań zapisanego w projekcie lub umowie,
+● brak metryk albo jeden zbiorczy raport oddany po zakończeniu robót,
+● pale CFA wykonane bez zapisu z monitoringu,
+● zlecenie badań ciągłości dopiero wtedy, gdy głowice są już zabetonowane w oczepach,
+● brak rurek w koszach, chociaż projekt przewiduje badania ultradźwiękowe,
+● zmiana technologii pali na budowie bez zgody projektanta,
+● wykonanie oczepów bez pomiaru położenia i rzędnych głowic.
+
+#EdukacjaBudowlana #Pale #FundamentyPalowe #PaleCFA #KierownikBudowy #InspektorNadzoru #OdbiórRobót #Geotechnika #BudowaDomu #PrawoBudowlane

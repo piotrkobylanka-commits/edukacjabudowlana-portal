@@ -1,0 +1,43 @@
+🧪 „Laboratorium zbadało próbkę. Czy wiadomo, z którego elementu pochodziła?” O identyfikowalności próbek na budowie
+
+Sprawozdanie z laboratorium przychodzi po 28 dniach. Jedna z serii kostek ma za niską wytrzymałość. Wszyscy zadają wtedy to samo pytanie: który to był beton? Strop nad parterem czy wieniec? Pierwsza gruszka czy trzecia? Na kostce jest numer, ale nikt już nie pamięta, co on oznaczał.
+
+Badanie może być wykonane bez zarzutu, a i tak niewiele z niego wynika, jeśli nie da się powiązać wyniku z konkretnym miejscem w konstrukcji. Laboratorium bada to, co dostało, a jego sprawozdanie dotyczy wyłącznie tej próbki. Skąd ona pochodzi, musi udokumentować budowa. Pobieranie mieszanki opisuje PN-EN 12350-1, a wykonanie i pielęgnację próbek PN-EN 12390-2. Żadna z tych norm nie poprowadzi jednak za nas rejestru, który połączy kostkę z polem betonowania.
+
+Numer, który coś znaczy
+
+Numer próbki powinien być krótki, jednoznaczny i nadawany po kolei w ramach budowy, np. B-014 dla czternastej serii betonu. Całą resztę informacji trzymamy w rejestrze próbek, a nie na nalepce. Długi kod z datą, osiami i klasą betonu rozmazuje się na formie i nikt go nie przepisze bez błędu.
+
+Przy pobraniu do rejestru trafiają:
+● numer próbki i liczba kostek w serii,
+● data i godzina pobrania,
+● numer dokumentu dostawy (WZ) i numer pojazdu,
+● element i jego dokładne miejsce, np. strop nad parterem, pole 2, osie A–C / 1–3,
+● zaprojektowana klasa betonu i to, co zostało zamówione,
+● wynik badania konsystencji i temperatura powietrza,
+● kto pobrał próbkę i kto był przy tym obecny,
+● numer zdjęcia.
+
+Zdjęcie robimy tak, żeby w kadrze były jednocześnie forma z numerem, gruszka i fragment elementu, który właśnie jest betonowany. Jedno takie ujęcie wyjaśnia więcej niż pół strony notatek. Miejsce pobrania zaznaczamy też na rzucie albo na wydruku rysunku konstrukcji, bo „pole 2” za pół roku może znaczyć dla każdego coś innego.
+
+Numer musi przetrwać rozformowanie
+
+To miejsce, w którym łańcuch najczęściej się zrywa. Numer napisany na formie znika, kiedy kostkę z niej wyjmujemy. Przed rozformowaniem przenosimy go na samą próbkę markerem odpornym na wodę, bo kostki dalej dojrzewają zwykle w wodzie. Przy przekazaniu do laboratorium spisujemy protokół: numery, liczbę sztuk, datę, stan próbek i podpis osoby odbierającej. Z laboratorium warto ustalić wprost, że w sprawozdaniu ma się pojawić nasz numer próbki obok ich własnego numeru wewnętrznego.
+
+Wynik wraca do elementu
+
+Kiedy przychodzi sprawozdanie, wynik wpisujemy do tego samego rejestru, w wierszu tej samej próbki. Dzięki temu w jednym zestawieniu widać: element, dostawę, warunki pobrania i wytrzymałość. Jeżeli wynik jest zły, wiadomo od razu, gdzie szukać. Można zlecić odwierty rdzeniowe w tym konkretnym polu i ocenić beton w konstrukcji według PN-EN 13791, zamiast wiercić cały strop na ślepo albo spierać się z betoniarnią bez dowodów.
+
+Ta sama zasada dotyczy innych badań: zagęszczenia gruntu, przyczepności tynku czy wilgotności jastrychu. Punkt badania musi być oznaczony na planie, opisany w rejestrze i widoczny na zdjęciu.
+
+7 błędów, przez które dobre badanie traci wartość
+
+● numer tylko na formie, bez przeniesienia na próbkę po rozformowaniu,
+● wpis „beton ze stropu” bez pola, osi i godziny,
+● brak numeru WZ, przez co nie da się ustalić, z której dostawy była mieszanka,
+● kostki przez pierwsze dni na mrozie albo w pełnym słońcu, a w rejestrze nic o tym nie ma,
+● przekazanie do laboratorium bez protokołu, więc nie wiadomo, ile próbek dotarło i w jakim stanie,
+● sprawozdanie z numerem laboratorium, którego nie da się dopasować do numeru z budowy,
+● wyniki odłożone do segregatora bez wpisania ich przy elemencie, którego dotyczą.
+
+#EdukacjaBudowlana #beton #badaniabetonu #próbkibetonu #kierownikbudowy #budowadomu #kontrolajakości #laboratorium #dokumentacjabudowy #konstrukcjażelbetowa

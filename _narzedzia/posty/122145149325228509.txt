@@ -1,0 +1,20 @@
+Automatyczny tryskacz. Otwierał się od ciepła, nie od sygnału z komputera
+Czy instalacja może rozpocząć gaszenie bez człowieka i elektronicznego czujnika? Już w XIX wieku stosowano rozwiązania, w których rozgrzanie topliwego elementu zwalniało zamknięcie tryskacza i umożliwiało wypływ wody.
+
+11 sierpnia 1874 roku Henry S. Parmelee otrzymał patent na udoskonalenie automatycznego urządzenia gaśniczego. Opisał w nim mechanizm, w którym ciepło uwalniało zawór, a ciśnienie wody otwierało drogę do perforowanej głowicy rozprowadzającej strumienie.
+
+Mały element, duża odpowiedzialność
+W rozwiązaniu Parmelee topliwy materiał utrzymywał mechanizm dociskający zawór; gdy odpowiednio się nagrzał i stopił, docisk ustępował, a woda zaczynała płynąć. Nie trzeba było czekać, aż płomień bezpośrednio dotknie urządzenia, co stanowiło przewagę nad wcześniejszymi rozwiązaniami wykorzystującymi przepalające się nici.
+
+Najciekawsze jest tu dla mnie wykorzystanie właściwości materiału. Element, który podczas normalnej pracy miał utrzymywać zamknięcie, w warunkach pożaru miał właśnie przestać je utrzymywać.
+
+Nie wszystkie głowice naraz
+W typowym układzie z tryskaczami termicznymi każdy reaguje miejscowo na nagrzanie, a nie na samą obecność dymu. Otwarcie jednej głowicy nie oznacza automatycznego otwarcia wszystkich pozostałych, wbrew scenom znanym z filmów.
+
+Trzeba jednak oddzielić samoczynność głowicy od sprawności całej instalacji. Do właściwego rozprowadzenia wody potrzebne są określone parametry przepływu i ciśnienia, a tryskacze muszą być dobrane oraz zamontowane zgodnie z ich przeznaczeniem.
+
+Dlatego przy odbiorze nie poprzestałbym na stwierdzeniu: „Pod sufitem są tryskacze”. Poprosiłbym również o dokumentację prób i potwierdzenie sprawności zasilania w wodę.
+
+Z czym bardziej kojarzyliście uruchomienie tryskacza: z dymem czy z temperaturą? Napiszcie, czy filmowe sceny też wpłynęły na Wasze wyobrażenie o tej instalacji.
+
+#EdukacjaBudowlana #Tryskacze #OchronaPrzeciwpożarowa #HistoriaBudownictwa #InstalacjePrzeciwpożarowe #BezpieczeństwoPożarowe #Budownictwo #DetaleTechniczne

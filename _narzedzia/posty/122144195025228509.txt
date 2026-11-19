@@ -1,0 +1,44 @@
+Prąd zgasł, roleta na dole, a to było jedyne wyjście na zewnątrz
+
+„Żaluzja zewnętrzna zasłania drzwi, którymi trzeba wyjść podczas awarii”. To zdanie zwykle pada za późno. Osłony są zamontowane, automatyka ustawiona, a dopiero przy odbiorze albo przy pierwszej awarii zasilania okazuje się, że pancerz w dolnej pozycji zamyka cały otwór drzwiowy.
+
+Roleta czy żaluzja nad drzwiami to nie dodatek z katalogu stolarki. Gdy zjeżdża na drzwi, staje się częścią drogi wyjścia. Trzeba ją więc projektować tak samo świadomie jak same drzwi.
+
+⚖️ Co mówią przepisy (stan na listopad 2026 r.)
+● Rozporządzenie MSWiA z 7 czerwca 2010 r. w sprawie ochrony przeciwpożarowej budynków, § 4 ust. 1 pkt 14: nie wolno zamykać drzwi ewakuacyjnych tak, żeby nie dało się ich natychmiast użyć w razie pożaru lub innego zagrożenia. Pkt 18 lit. e: nie wolno utrudniać dostępu do wyjść ewakuacyjnych. To obowiązek użytkownika na co dzień, a nie tylko projektanta.
+● Warunki techniczne z 2002 r., § 240 ust. 3: do celów ewakuacji nie stosuje się drzwi obrotowych ani podnoszonych.
+● Ten sam akt, § 240 ust. 4: drzwi rozsuwane mogą być na drodze ewakuacyjnej tylko wtedy, gdy otwierają się automatycznie i ręcznie bez możliwości blokady oraz same się rozsuwają i zostają otwarte po sygnale z systemu wykrywania dymu, a także przy awarii.
+● § 300 ust. 2: w mieszkaniu kraty i okiennice w co najmniej jednym otworze okiennym muszą otwierać się od wewnątrz.
+Żaden z tych przepisów nie używa słowa „roleta”. Moja ocena: osłona zjeżdżająca na wyjście ewakuacyjne działa jak zamknięcie podnoszone i warto ją traktować co najmniej tak ostrożnie jak drzwi rozsuwane z § 240 ust. 4. Ma dać się otworzyć ręcznie, bez blokady, i nie może zostać w pozycji zamkniętej po zaniku prądu ani po alarmie. To interpretacja, nie treść przepisu. W konkretnym budynku rozstrzyga projektant, a tam gdzie to wymagane, rzeczoznawca ds. zabezpieczeń przeciwpożarowych.
+Ważne: rozporządzenie o warunkach technicznych z 2002 r. utraciło moc 20 września 2026 r., a nowe nie zostało ogłoszone. Przepisy epizodyczne (art. 102a–102c Prawa budowlanego) pozwalają przez 18 miesięcy od tej daty stosować dotychczasowe warunki techniczne. Przy pozwoleniu na budowę i zgłoszeniu wymaga to oświadczenia inwestora złożonego organowi. Rozporządzenie przeciwpożarowe z 2010 r. obowiązuje normalnie.
+
+🛠️ Trzy rzeczy do uzgodnienia przed zamówieniem osłon
+1. Sposób ręcznego otwarcia
+● Kto otwiera: osoba wychodząca od środka, a nie serwisant z zewnątrz.
+● Czym: korba awaryjna, ręczne odblokowanie napędu, inny mechanizm. Gdzie on jest: przy drzwiach, w zasięgu ręki, a nie w kartonie w garażu.
+● Czy da się to zrobić bez klucza, bez narzędzi i po ciemku.
+● Ile to trwa. Sprawdź na próbie, nie w katalogu.
+2. Zachowanie po zaniku zasilania
+Większość napędów elektrycznych po zaniku napięcia po prostu staje, a osłona zostaje tam, gdzie była. Do wyboru masz:
+● zasilanie podtrzymane (UPS, akumulator) dla osłon na drzwiach wyjściowych,
+● sterowanie, które przy alarmie pożarowym lub awarii podnosi osłonę (tam, gdzie jest system sygnalizacji pożarowej),
+● ręczne otwarcie niezależne od prądu (pkt 1),
+● rezygnację z osłony na tych drzwiach albo rozwiązanie, które nie zasłania przejścia.
+Sprawdź też automatykę: zegar, czujnik wiatru, scenę „noc”. Żaden program nie powinien zamykać wyjścia, gdy w środku są ludzie. Zimą pamiętaj o przymarzaniu pancerza do progu.
+3. Wymagania dla konkretnego wyjścia
+● Z projektu: czy te drzwi są wyjściem ewakuacyjnym, dla ilu osób, w którą stronę się otwierają.
+● Wymiary w świetle po montażu: prowadnice i skrzynka nie mogą zabrać szerokości ani wysokości poniżej wymaganej. W warunkach technicznych to co najmniej 0,9 m szerokości (§ 239 ust. 1) i 2 m wysokości (§ 239 ust. 6 w zw. z § 62 ust. 1).
+● Instrukcja bezpieczeństwa pożarowego: jeśli budynek ją ma, opis osłon musi być z nią zgodny.
+● Kto podpisuje rozwiązanie: architekt, projektant elektryki, dostawca osłon, a w obiektach, które tego wymagają, rzeczoznawca ppoż.
+
+❌ 5 błędów przy osłonach na drzwiach wyjściowych
+● Osłony zamawia się z zestawienia stolarki, bez spojrzenia na plan ewakuacji.
+● Rolety trafiają na zwykły obwód i nikt nie pyta, co się stanie po zaniku napięcia.
+● Korba awaryjna jest w komplecie, ale nikt nie wie, gdzie leży, albo gniazdo jest od zewnątrz.
+● Prowadnice i skrzynka zabierają centymetry z wymiaru wyliczonego „na styk”.
+● Automatyka zamyka wszystkie osłony naraz, łącznie z tą na jedynym wyjściu.
+
+✅ Osłona jako część działającego budynku
+Prosty test przy odbiorze: wyłącz bezpiecznik, opuść osłonę, zgaś światło i poproś kogoś, kto jej nie montował, żeby wyszedł na zewnątrz. Wynik wpisz do protokołu, a sposób otwarcia do instrukcji użytkowania. Mechanizm awaryjny, którego nikt nie używa, też trzeba co jakiś czas sprawdzić.
+
+#EdukacjaBudowlana #rolety #żaluzjezewnętrzne #ewakuacja #ochronaprzeciwpożarowa #warunkitechniczne #prawobudowlane #odbiórbudynku #budowadomu #drzwitarasowe #bezpieczeństwo

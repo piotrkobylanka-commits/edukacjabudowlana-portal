@@ -1,0 +1,28 @@
+🏗️ 003 | 🌉 Millau Viaduct: filar wyższy niż Wieża Eiffla i pomost, który przyjechał na siłownikach
+
+TREŚĆ Most nad doliną Tarnu we Francji ma 2460 m długości, a jego najwyższy filar P2 mierzy 245 m. Razem z pomostem i pylonem daje to 336 m konstrukcji, czyli więcej niż Wieża Eiffla. Najciekawsze jest jednak to, że stalowego pomostu nikt nie montował w powietrzu. Zsunięto go z obu brzegów nad dolinę, po kilkanaście metrów na godzinę.
+
+[MIEJSCE NA ANEGDOTĘ Z BUDOWY]
+
+Skala w kilku liczbach
+● 7 betonowych filarów i 7 stalowych pylonów po 87 m,
+● 154 wanty, ok. 1500 t stali w samych wantach,
+● pomost ze stalowej skrzynki 32,05 × 4,20 m, ok. 36 000 t,
+● budowa od października 2001 do grudnia 2004, czyli nieco ponad 3 lata.
+
+Fundamenty i filary Każdy filar stoi na czterech studniach o średnicy 4,5–5 m, wierconych na 9–16 m w wapieniach i marglach. Na nich leży stopa grubości 3–5 m. Ściany filarów rosły odcinkami po 4 m w deskowaniu samowznoszącym, zwykle co trzy dni, a położenie każdego odcinka sprawdzano GPS z dokładnością kilku milimetrów. Górne ok. 90 m filara to dwa smukłe trzony. Pomost wydłuża się od temperatury nawet o ok. 0,6 m na końcach, więc podpory muszą się trochę uginać wzdłuż mostu, zamiast go blokować.
+
+Jak nasunięto pomost Z północy wjechało 717 m pomostu, z południa 1743 m. Między filarami stanęło 7 tymczasowych podpór, najwyższa miała 173 m, dzięki czemu przy nasuwaniu przęsło skracało się do 171 m. Pracę wykonywały 64 translatory: siłownik pionowy unosił pomost o ok. 2 cm, dwa poziome przesuwały go o 600 mm, potem opuszczenie i powrót. Jeden cykl trwał ok. 4 minut. Przy wietrze powyżej 85 km/h prace stawały. Obie części połączono 28 maja 2004 r.
+
+Wanty i ich zakotwienie Wanty biegną w jednej płaszczyźnie, w osi mostu. Każda ma od ok. 50 do 91 splotów T15,7 ze stali 1860 MPa, a każdy splot ma trzy warstwy ochrony: ocynk, wosk i własną osłonę HDPE. W pylonie wanta ma koniec stały. Koniec w pomoście jest regulowany: każdy splot trzymają osobne kliny, a nakrętka pierścieniowa pozwala korygować siłę. Kotwy są widoczne od środka skrzynki, w strefie osuszanego powietrza. W karuzeli znajdziesz przekrój pomostu w skali i schemat tego zakotwienia.
+
+A w Polsce? Rozporządzenie w sprawie ustalania geotechnicznych warunków posadawiania obiektów budowlanych (Dz.U. 2012 poz. 463) nadal obowiązuje, więc rozpoznanie gruntu pod każdą podporą to podstawa, nie formalność. Obciążenie wiatrem liczymy według PN-EN 1991-1-4, a Eurokody drugiej generacji mają wejść do 30 września 2027 r. PN-EN 13670 przewiduje cztery klasy pielęgnacji betonu. Na wysokości wiatr wysusza świeży beton dużo szybciej niż na poziomie gruntu. Dla porównania: najwyższe podpory mostowe w Polsce, na estakadzie na S19 Babica–Jawornik, mają ok. 80 m.
+
+5 błędów przy wysokich podporach
+● podnoszenie deskowań i betonowanie bez sprawdzenia prognozy wiatru,
+● świeży beton bez pielęgnacji przy wietrze i niskiej wilgotności,
+● brak geodezyjnej kontroli każdego etapu wysokiego elementu,
+● jeden projekt fundamentu bez rozpoznania gruntu pod każdą podporą,
+● łożyska i dylatacje dobrane bez uwzględnienia ruchów od temperatury.
+
+#EdukacjaBudowlana #200CudówInżynierii #MillauViaduct #Mosty #MostyPodwieszone #Budownictwo #InżynieriaLądowa #Nasuwanie #Wanty #KonstrukcjeStalowe

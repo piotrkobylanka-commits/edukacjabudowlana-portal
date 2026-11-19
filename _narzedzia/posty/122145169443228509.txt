@@ -1,0 +1,26 @@
+Platform frame. Każdy strop jest stołem montażowym dla następnej kondygnacji
+„Każde piętro staje się stołem roboczym dla następnego”. Dobrze to oddaje, jak działa najpopularniejszy dziś układ szkieletu drewnianego.
+
+Najpierw stawia się ściany parteru, potem kładzie na nich belki stropowe, a na wierzch płytę, najczęściej OSB. Tak powstaje płaska, sztywna platforma. Na niej cieśle składają na leżąco ściany piętra, przybijają poszycie i podnoszą gotową ścianę do pionu. Potem cykl się powtarza: następny strop, następne ściany i dach.
+
+Jakie to daje korzyści? Słupki mają długość jednej kondygnacji, w Ameryce typowo ok. 2,35 m pod ścianę 8 stóp. Drewno jest krótsze, tańsze, łatwiej je przewieźć i ustawić. Pracuje się na równej podłodze, a nie na drabinie przy kilkumetrowym słupku. Robotę da się podzielić na etapy, a ściany i stropy można zrobić jako prefabrykaty i tylko złożyć na budowie.
+
+Wcześniej w Ameryce budowano inaczej, w układzie balonowym (balloon frame). Pojawił się w Chicago w latach 30. XIX wieku. Słupki szły tam w jednym kawałku od podwaliny do dachu, a stropy przybijano do nich z boku. Szybkie, ale z dwoma wadami. Brakowało długiego, prostego drewna, a pusta przestrzeń między słupkami działała jak komin od piwnicy po strych. W układzie platformowym oczep i podwalina na każdej kondygnacji zamykają tę przestrzeń. Ognioochronną przegrodę dostaje się więc w samej konstrukcji. Od połowy XX wieku platform frame jest w Ameryce Północnej standardem.
+
+Taki układ ma też swoją cenę, o której mało kto mówi inwestorowi. Drewno prawie nie kurczy się wzdłuż włókien, za to w poprzek wyraźnie. W układzie platformowym na każdej kondygnacji leży pakiet drewna ułożonego w poprzek: podwalina, belki stropowe, belka obwodowa i podwójny oczep. Według WoodWorks taki pakiet o wysokości ok. 40 cm może siąść o ok. 7 mm na kondygnację. Przy pięciu piętrach to już ok. 3,5 cm. Przy jednym piętrze w domu jednorodzinnym to niewiele. Problem zaczyna się tam, gdzie szkielet styka się z czymś, co nie siada: z murowaną elewacją, pionem kanalizacyjnym, kominem albo szybem windy.
+
+Dlatego na budowie trzeba pilnować kilku rzeczy:
+
+- wilgotności drewna przy montażu, bo lepiej wbudować KVH ok. 15% niż mokrą tarcicę,
+
+- szczelin dylatacyjnych przy oknach, przejściach instalacji i elewacji ceglanej (w irlandzkich wytycznych typowo ok. 8 mm na kondygnację),
+
+- kotew do muru, które pozwalają na ruch pionowy,
+
+- tego, żeby nikt na budowie nie zamieniał detalu połączenia stropu ze ścianą bez zgody projektanta.
+
+W Polsce typowy szkielet „kanadyjski” to słupki 38×140 mm i rozstaw zwykle 60 cm. W budynkach piętrowych często spotyka się 40 cm. Moduł wynika z wymiaru płyt poszycia, więc każda zmiana rozstawu w trakcie budowy to zmiana konstrukcyjna, a nie kosmetyka.
+
+Kto chce zobaczyć to na rysunkach, niech sięgnie do „Wood-Frame House Construction”, podręcznika amerykańskiego Departamentu Rolnictwa (Agriculture Handbook No. 73). Od 1955 roku pokazuje krok po kroku, jak powstaje taki dom: od podwaliny, przez stropy i ściany, po przegrody ogniowe.
+
+#EdukacjaBudowlana #PlatformFrame #SzkieletDrewniany #DomSzkieletowy #KonstrukcjeDrewniane #BalloonFrame #Budownictwo #KierownikBudowy #HistoriaBudownictwa #Prefabrykacja

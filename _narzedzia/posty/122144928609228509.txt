@@ -1,0 +1,57 @@
+🔍 Dwie ekspertyzy, dwie różne przyczyny tej samej usterki. Którą wybrać? Żadną, dopóki nie zadasz pytań
+
+Na ścianie nośnej są pęknięcia. Inwestor zamawia ekspertyzę i czyta, że winne jest nierównomierne osiadanie, więc problem leży w posadowieniu. Wykonawca zamawia swoją i czyta, że to skurcz materiału i błędy przy tynkowaniu, za które odpowiada ktoś inny. Obie mają podpisy osób z uprawnieniami, zdjęcia i kilkanaście stron uzasadnienia.
+
+Kusi, żeby położyć je obok siebie i wybrać tę, która brzmi przekonująco. Tyle że druga strona zrobi dokładnie to samo z drugim dokumentem i spór stoi w miejscu.
+
+Skąd biorą się takie rozbieżności
+
+Dwóch rzetelnych inżynierów, którzy mają ten sam materiał, rzadko dochodzi do sprzecznych wniosków. Różnica dużo częściej wynika z tego, co każdy z nich zobaczył, zmierzył i przyjął na starcie. Dlatego porównanie zacznij od podstaw obu opracowań, a wnioski zostaw na koniec.
+
+Cztery rzeczy do zestawienia obok siebie
+
+Zakres oględzin. Kiedy autor był na miejscu, które pomieszczenia i elewacje obejrzał, czy zajrzał do piwnicy i na strych, czy zrobił odkrywki. Opracowanie oparte na jednej wizycie w suchym sierpniu nie pokaże tego, co widać w marcu po roztopach. Sprawdź też, kto był obecny przy oględzinach i czy obie strony mogły pokazać, co uważają za istotne.
+
+Dane wejściowe. Czy autor miał projekt budowlany i techniczny, dokumentację geotechniczną, dziennik budowy, protokoły odbiorów, zdjęcia ze stanu surowego, karty zastosowanych materiałów. Zdarza się, że jedna ekspertyza powstała na samych oględzinach, a druga na pełnej dokumentacji. To od razu tłumaczy część różnic.
+
+Badania i pomiary. Jaką metodą mierzono wilgotność, szerokość rys, odchyłki. Elektroniczny miernik wilgotności daje obraz orientacyjny, metoda karbidowa albo suszarkowo-wagowa daje wynik liczbowy. Jednorazowy pomiar rysy nie powie, czy rysa wciąż pracuje, do tego potrzebna jest obserwacja w czasie, np. na szczelinomierzach albo plombach. Zobacz też, czy w opracowaniu są surowe wyniki z miejscem i datą pomiaru, czy tylko zdanie „stwierdzono zawilgocenie”.
+
+Założenia. Ta część jest pomijana najczęściej, a bywa rozstrzygająca. Jakie obciążenia i parametry gruntu przyjęto, co uznano za stan wyjściowy, czy autor założył wykonanie zgodne z projektem, nie sprawdzając tego. Sprawdź też, czy w ogóle rozważył inne przyczyny i dlaczego je odrzucił.
+
+Do tego dochodzi treść zlecenia. Pytanie postawione autorowi wyznacza granice odpowiedzi. Kto zapytał, czy przyczyną jest wadliwe wykonanie tynku, dostał odpowiedź o tynku, a o fundamencie już niekoniecznie.
+
+Pytania uzupełniające zamiast wybierania
+
+Po takim zestawieniu zwykle widać, w którym miejscu opracowania się rozjeżdżają. Zamiast wybierać jedno z nich, przygotuj jeden zestaw pytań i wyślij go obu autorom. Ten sam dla obu, żeby odpowiedzi dało się porównać.
+
+Przykładowe pytania:
+
+● czy oględziny objęły [konkretne miejsce] i czy wykonano tam odkrywkę,
+● z jakich dokumentów autor korzystał i czy znał dokumentację geotechniczną,
+● jaką metodą, w których punktach i kiedy wykonano pomiary oraz jakie dały wyniki,
+● na jakiej podstawie wykluczono przyczynę wskazaną w drugim opracowaniu,
+● czy wniosek zmieniłby się, gdyby [przyjęte założenie] okazało się nieprawdziwe,
+● jakie dodatkowe badanie pozwoliłoby jednoznacznie ustalić przyczynę.
+
+Ostatnie pytanie często daje najwięcej. Jeśli obaj autorzy wskażą to samo badanie, np. odwiert z badaniem gruntu albo kilkutygodniowy monitoring rys, strony mają wspólny plan zamiast dwóch sprzecznych dokumentów.
+
+Pytania formułuj neutralnie. „Proszę potwierdzić, że przyczyną jest osiadanie” niczego nie pyta, tylko prosi o podpis pod gotową tezą.
+
+W sądzie i w nadzorze budowlanym
+
+W procesie cywilnym ekspertyza zamówiona przez stronę nie jest opinią biegłego. Sądy traktują ją jako dokument prywatny (art. 245 k.p.c.), czyli fachowo uzasadnione stanowisko tej strony. Biegłego powołuje sąd, gdy sprawa wymaga wiadomości specjalnych (art. 278 § 1 k.p.c.). Sąd może też zażądać uzupełnienia albo wyjaśnienia opinii, a także dodatkowej opinii od tych samych lub innych biegłych (art. 286 k.p.c.).
+
+Prywatne ekspertyzy nie są przez to bezużyteczne. Dobrze opisane różnice między dwoma opracowaniami i lista otwartych pytań to gotowy materiał do sformułowania tez dla biegłego albo zarzutów do jego opinii.
+
+W postępowaniu przed nadzorem budowlanym organ może postanowieniem nałożyć obowiązek dostarczenia oceny technicznej lub ekspertyzy (art. 81c ust. 2 Prawa budowlanego). Jeśli w aktach leżą już dwie sprzeczne, uporządkowane pytania pomagają ustalić, co właściwie ma rozstrzygnąć kolejna.
+
+6 błędów przy dwóch sprzecznych ekspertyzach
+
+● porównywanie samych wniosków bez sprawdzenia, na czym się opierają,
+● uznanie za lepszą ekspertyzy grubszej, droższej albo podpisanej bardziej znanym nazwiskiem,
+● zamówienie trzeciej ekspertyzy bez wskazania, co dokładnie ma rozstrzygnąć,
+● pytania, które podsuwają odpowiedź,
+● wysłanie każdemu autorowi innego zestawu pytań,
+● naprawa usterki, zanim jej stan zostanie udokumentowany zdjęciami, pomiarami i protokołem z udziałem stron.
+
+#EdukacjaBudowlana #ekspertyzabudowlana #usterkibudowlane #biegłysądowy #nadzórbudowlany #kierownikbudowy #budowadomu #spórbudowlany #inżynierbudownictwa #prawobudowlane

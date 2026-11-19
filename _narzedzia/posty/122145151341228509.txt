@@ -1,0 +1,16 @@
+Taran hydrauliczny. Woda spływa w dół, żeby część mogła trafić wyżej
+Pompa bez silnika, przewodu zasilającego i paliwa? Taran hydrauliczny potrafi podnosić wodę, wykorzystując energię jej przepływu z wyżej położonego ujęcia do urządzenia ustawionego niżej.
+
+Nie jest to nowy pomysł: samoczynny taran opracowany przez Josepha Montgolfiera pochodzi z 1796 roku i miał służyć jego papierni. Najciekawsze nie jest jednak to, czego w tej pompie brakuje, lecz sposób wykorzystania nagłego zatrzymania wody.
+
+Zawór zamyka się, ciśnienie rośnie
+Najpierw woda rozpędza się w przewodzie doprowadzającym i wypływa przez otwarty zawór impulsowy, nazywany również odpływowym. Jego gwałtowne zamknięcie wywołuje uderzenie hydrauliczne: wzrost ciśnienia otwiera drugi zawór i wtłacza porcję wody do komory powietrznej.
+
+Sprężone w komorze powietrze pomaga następnie wypychać wodę przewodem tłocznym do wyżej położonego zbiornika, a układ zaworów umożliwia powtarzanie cyklu. Bez silnika nie znaczy więc bez źródła energii: energię dostarcza woda tracąca wysokość.
+
+Nie cała woda trafia na górę
+Część przepływu opuszcza urządzenie przez zawór odpływowy, a ilość wody podnoszonej zależy między innymi od dostępnego spadu, dopływu i wysokości tłoczenia. Ten odpływ nie jest sam w sobie awarią, lecz normalnym elementem pracy tarana.
+
+Dlatego przed wyborem urządzenia zacząłbym od pomiarów terenu i wydajności źródła, szczególnie w okresie najmniejszych przepływów. To właśnie różnice wysokości, dostępna ilość wody i możliwość jej odprowadzenia decydują, czy taka instalacja ma warunki do działania.
+
+#EdukacjaBudowlana #TaranHydrauliczny #TaranWodny #Hydrotechnika #HistoriaTechniki #Inżynieria #InstalacjeWodne #GospodarkaWodna

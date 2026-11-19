@@ -1,0 +1,20 @@
+Syfon odwrócony. Jak Rzymianie przeprowadzali wodę przez głębokie doliny
+
+„Wodociąg schodził na dno doliny, a potem podnosił wodę po drugiej stronie”.
+Brzmi jak sztuczka, ale to zwykła fizyka naczyń połączonych.
+
+Woda z kanału wpadała do zbiornika na krawędzi doliny. Stamtąd płynęła zamkniętą rurą w dół, przechodziła przez najniższy punkt i wznosiła się po przeciwnym zboczu do drugiego zbiornika. Ten drugi zbiornik musiał leżeć trochę niżej od pierwszego, bo część energii zabierają opory w rurze. Nie ma tu żadnego zasysania. Rura jest cały czas pełna, a największe ciśnienie panuje na samym dole.
+
+Ile wynosi to ciśnienie? Na każde 10 m głębokości przypada mniej więcej 1 bar. Syfon Madradağ w Pergamonie (dzisiejsza Turcja) schodził około 190 m poniżej zbiornika górnego. To daje prawie 19 barów w ołowianej rurze o średnicy ok. 17,5 cm. W domowej instalacji wodnej mamy zwykle kilka barów.
+
+Po co to wszystko? Arkady mają swoje granice. Przy szerokiej i głębokiej dolinie most byłby ogromny, drogi i budowany latami. Na akwedukcie Gier, który zaopatrywał Lyon, Rzymianie zbudowali cztery syfony. W każdym leżało obok siebie 9 do 11 rur ołowianych o średnicy ok. 20 cm. Syfon Beaunant miał 2,66 km długości i 122 m głębokości. Na dnie doliny rury często prowadzono po niskim moście, zwanym venter, żeby zmniejszyć ciśnienie.
+
+Problemy były te same co dziś: powietrze w rurze, nieszczelne złącza i siła, która na łukach próbuje wypchnąć rurę. Witruwiusz radził napełniać syfon powoli. Przy każdym rurociągu ciśnieniowym ta rada nadal obowiązuje.
+
+A dziś? Syfony spotyka się głównie w kanalizacji. Robi się je pod rzeką, rowem, torami albo drogą, kiedy grawitacyjnie się nie da, a pompowni nikt nie chce. Tylko że ścieki to nie czysta woda ze źródła. W najniższym punkcie i na odcinku wznoszącym odkłada się piasek, a pod sklepieniem tłuszcz. Rura stoi pełna, ścieki zagniwają, powstaje siarkowodór i beton w studniach zaczyna się sypać. Dlatego porządny syfon ma:
+
+co najmniej dwie nitki, żeby przy małym przepływie jedna pracowała z dużą prędkością, prędkość samooczyszczania osiąganą przynajmniej raz na dobę (w polskiej praktyce ok. 0,9 m/s w kanalizacji rozdzielczej i 1,2 m/s w ogólnospławnej),piaskownik przed wlotem, zasuwy na każdej nitce i studnię, z której da się płukać, łagodne łuki zamiast ostrych załamań.
+
+Że to nie teoria, pokazał syfon pod Wisłą w Warszawie. W sierpniu 2019 roku pękł tam łącznik między rurą stalową a rurą kompozytową (GRP) zaraz za wlotem do tunelu. Według biegłych NIK połączenie wykonano inaczej i w innym miejscu niż w projekcie budowlanym. Do tego średnice wewnętrzne się nie zgadzały i w przekroju powstał próg. Pulsujące ciśnienie i turbulencja zrobiły resztę, a ścieki trafiły do rzeki.
+
+#EdukacjaBudowlana #SyfonOdwrócony #Kanalizacja #Wodociągi #Akwedukt #HistoriaBudownictwa #Hydraulika #InżynieriaSanitarna #KierownikBudowy #Budownictwo

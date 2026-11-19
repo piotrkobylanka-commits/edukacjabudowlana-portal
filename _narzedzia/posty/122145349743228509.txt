@@ -1,0 +1,45 @@
+📉 „Wynik wyszedł źle, zróbmy badanie gdzie indziej”. Jak ustalić dalsze badania, żeby nie wybierać wyników pod tezę
+
+Przychodzi niekorzystne sprawozdanie: za niska wytrzymałość, za słabe zagęszczenie albo za wysoka wilgotność jastrychu. Wykonawca od razu proponuje: „Zróbmy jeszcze raz, ale kawałek dalej”. Brzmi rozsądnie, tylko że badanie w innym miejscu odpowiada na inne pytanie. Mówi coś o tamtym miejscu, a nic o tym, gdzie wynik był zły.
+
+Kłopot nie polega na tym, że ktoś chce powtórzyć badanie. Powtórka bywa w pełni uzasadniona. Kłopot zaczyna się wtedy, gdy kolejne punkty wybiera ta strona, która potrzebuje dobrego wyniku, i badania trwają tak długo, aż któryś wyjdzie dobrze. Wtedy na koniec w teczce leży jeden ładny protokół, a o pierwszym nikt nie pamięta.
+
+Kiedy powtórka ma sens
+
+Powtarzamy badanie, gdy jest konkretny i opisany powód, żeby nie ufać pierwszemu wynikowi: uszkodzona próbka, rdzeń z przeciętym prętem, błędna pielęgnacja kostek, pomyłka w laboratorium. Wtedy badamy ten sam obszar, a pierwszy wynik zostaje w dokumentacji razem z wyjaśnieniem, dlaczego go nie bierzemy pod uwagę. Samo „wyszło gorzej, niż się spodziewaliśmy” nie jest takim powodem.
+
+Jeśli wynik jest wiarygodny, a pytanie brzmi, jak duży obszar jest słaby i co z nim zrobić, to jest już zupełnie inna sytuacja. Trzeba wtedy zaplanować badania uzupełniające i ustalić, kto będzie oceniał ich wyniki.
+
+Kto o tym decyduje
+
+Laboratorium podaje wynik, ale nie przesądza, czy konstrukcja jest dobra. Zgodność realizacji z projektem ocenia projektant w ramach nadzoru autorskiego. Do jego obowiązków należy stwierdzanie w toku robót zgodności z projektem i uzgadnianie rozwiązań zamiennych, które zgłasza kierownik budowy lub inspektor nadzoru (art. 20 ust. 1 pkt 4 Prawa budowlanego). Inspektor nadzoru inwestorskiego, jeśli jest ustanowiony, może poleceniem potwierdzonym wpisem do dziennika budowy zlecić wykonanie prób lub badań, także takich, które wymagają odkrycia elementów zakrytych. Może też żądać poprawek albo ponownego wykonania wadliwych robót (art. 26 pkt 1 i 2). Przy betonie w konstrukcji sposób oceny na podstawie odwiertów i badań nieniszczących opisuje PN-EN 13791. Ta norma też zakłada, że plan badań ustala się przed ich wykonaniem, a nie po pierwszych wynikach.
+
+W praktyce dobrze jest ustalić to tak: wykonawca może zaproponować badania, ale miejsca i liczbę punktów zatwierdza projektant konstrukcji albo inspektor, zanim ktoś przyjedzie z wiertnicą.
+
+Co spisać przed kolejnymi badaniami
+
+Przed kolejnymi badaniami wystarczy krótka notatka podpisana przez strony, a w ważniejszych sprawach wpis do dziennika budowy:
+● jakie pytanie ma rozstrzygnąć badanie, np. „czy strop w polu 2 ma klasę zakładaną w projekcie”,
+● kto wskazuje miejsca i liczbę punktów i na jakiej podstawie,
+● metoda badania i laboratorium, najlepiej niezależne od wykonawcy,
+● kryterium oceny, ustalone przed badaniem, a nie po nim,
+● zasada, że do oceny trafiają wszystkie wyniki, także ten pierwszy,
+● kto interpretuje wyniki i w jakiej formie (opinia, notatka, wpis),
+● co robimy w każdym wariancie: wynik dobry, graniczny, zły,
+● kto płaci za badania i od czego to zależy.
+
+Ostatnie dwa punkty wydają się formalnością, a często zapobiegają sporom najskuteczniej. Kiedy przed badaniem wiadomo już, że zły wynik oznacza np. opinię konstruktora i ewentualne wzmocnienie na koszt wykonawcy, a dobry wynik oznacza koszt po stronie inwestora, nikt nie ma interesu w tym, żeby szukać „lepszego” miejsca.
+
+7 błędów przy niekorzystnym wyniku
+
+● badanie w innym miejscu przedstawione jako „powtórzenie” pierwszego,
+● punkty wskazane przez wykonawcę bez akceptacji projektanta lub inspektora,
+● kryterium oceny ustalone dopiero wtedy, kiedy znane są wyniki,
+● odrzucenie pierwszego wyniku bez opisanego powodu,
+● badania prowadzone tak długo, aż któreś wyjdzie dobrze,
+● laboratorium wybrane i opłacane wyłącznie przez stronę, której wynik dotyczy, bez wiedzy drugiej strony,
+● ocena konstrukcji na podstawie samego sprawozdania, bez interpretacji osoby z uprawnieniami projektowymi.
+
+Zdarzyło się Wam, że po złym wyniku zaczęło się „szukanie” lepszego miejsca? Kto u Was decydował, gdzie i ile badań robić dalej?
+
+#EdukacjaBudowlana #badaniabetonu #kontrolajakości #kierownikbudowy #inspektornadzoru #projektant #nadzórautorski #budowadomu #prawobudowlane #odbiórrobót

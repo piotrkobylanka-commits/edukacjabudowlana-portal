@@ -1,0 +1,44 @@
+💧 „Czujnik zalania jest, ale zawór nie odciął wody”. Jak odebrać system antyzalaniowy, żeby naprawdę działał
+
+Odbiór systemu wykrywania wycieków wygląda zwykle tak: instalator zwilża czujnik palcem, telefon inwestora piszczy i wszyscy się rozchodzą. Sprawdzone zostało tylko to, że aplikacja wysyła powiadomienie. Nikt nie sprawdził, czy w domu przestała płynąć woda.
+
+Taki system to łańcuch: czujnik, komunikacja (przewód, radio albo Wi-Fi), centralka lub reguła w aplikacji, zasilanie i na końcu zawór z napędem. Może zawieść każde ogniwo, a powiadomienie na telefonie potwierdza tylko pierwsze dwa. Dlatego odbiór robimy na otwartej wodzie i z wodomierzem przed oczami, a nie w aplikacji.
+
+Zanim zaczniecie testować
+
+Poproście instalatora o trzy odpowiedzi na piśmie: gdzie dokładnie stoi zawór i czy przed nim nie odchodzi żadna gałąź, gdzie wykonywana jest reguła „wykryto wodę → zamknij zawór” (w centralce na miejscu czy w chmurze producenta) i co robi zawór, kiedy zabraknie prądu. Od tych odpowiedzi zależy, które z poniższych prób są w ogóle możliwe do zaliczenia.
+
+Przykładowy test do uzgodnienia z instalatorem
+
+Każdą próbę robimy przy odkręconym kranie w punkcie najdalej od zaworu, np. w umywalce na piętrze. Ktoś stoi przy wodomierzu.
+
+1️⃣ Każdy czujnik osobno:
+● zwilżenie styków czujnika przy płynącej wodzie,
+● alarm na miejscu (syrena lub dioda) i powiadomienie na telefonach wszystkich osób z listy,
+● zamknięcie zaworu i zapisany czas od zwilżenia do zatrzymania wskazań wodomierza,
+● po wytarciu czujnika zawór zostaje zamknięty i otwiera się dopiero ręcznie lub z aplikacji.
+
+2️⃣ Bez internetu: odłączamy router od światłowodu i powtarzamy próbę z jednym czujnikiem. Powiadomienie może nie przyjść, ale zawór ma się zamknąć. Jeśli się nie zamyka, reguła siedzi w chmurze i trzeba to zmienić albo przynajmniej wpisać w protokole jako znane ograniczenie.
+
+3️⃣ Bez prądu: wyłączamy bezpiecznik obwodu, z którego zasilane są centralka i zawór. Zawór powinien zamknąć się z zasilania awaryjnego albo sam, zależnie od tego, co obiecuje producent. Przy okazji wychodzi, czy w ogóle jest w nim bateria i czy ktoś ją włożył.
+
+4️⃣ Zasięg: czujnik w najdalszym miejscu (pralnia w garażu, kotłownia) przy zamkniętych drzwiach. Odczytujemy poziom sygnału w aplikacji lub centralce i robimy próbę z wodą.
+
+5️⃣ Obsługa ręczna: pokazujemy domownikom, jak otworzyć i zamknąć zawór bez aplikacji i gdzie jest zwykły zawór główny.
+
+Do protokołu trafiają: data, lista czujników z miejscem montażu, czasy zamknięcia z każdej próby, wynik prób bez internetu i bez prądu, zdjęcie zaworu oraz podpisy. Taki protokół przydaje się też później, gdy system przestanie działać i trzeba ustalić, od kiedy.
+
+Jedno trzeba wiedzieć przed testem: zamknięty zawór nie oznacza od razu suchej podłogi. Z rur wypłynie jeszcze woda, która w nich została. Liczy się to, że przestaje płynąć woda z sieci, a to widać na wodomierzu.
+
+6 błędów, przez które system „jest”, a woda leci dalej
+
+● zawór zamontowany na odgałęzieniu zamiast na zasilaniu całego domu, więc część instalacji zostaje bez ochrony,
+● obejście (bypass) wokół zaworu zrobione „na czas serwisu” i zostawione otwarte,
+● reguła zamykania działająca tylko przez chmurę, która przy awarii internetu nic nie robi,
+● brak zasilania awaryjnego albo bateria, której nikt nie wymienia,
+● siłownik nakładany na stary zawór kulowy, który po latach stania w jednej pozycji nie ma siły go obrócić,
+● czujnik położony na cokole lub półce zamiast w najniższym miejscu, do którego spłynie woda.
+
+Ostatnie dwa punkty dotyczą też domów, w których system przeszedł odbiór bez zastrzeżeń. Dlatego test zaworu i czujników raz na jakiś czas warto powtarzać samemu, a nie tylko przy odbiorze.
+
+#EdukacjaBudowlana #instalacjawodna #czujnikzalania #zaworantyzalaniowy #inteligentnydom #odbiórtechniczny #budowadomu #zalanie #hydraulika #kierownikbudowy

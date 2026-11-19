@@ -1,0 +1,26 @@
+🏗️ 004 | 🚄 Gotthard Base Tunnel: 57 km pod Alpami i do 2300 m skały nad torem
+
+TREŚĆ Najdłuższy kolejowy tunel świata to tak naprawdę dwie jednotorowe rury, każda po ok. 57 km, biegnące pod masywem Gotthard od Erstfeld w kantonie Uri do Bodio w Ticino. Z szybami, sztolniami i przejściami daje to ok. 152 km wyrobisk. Nad torem leży miejscami ok. 2300 m skały. Przy takim nadkładzie skała nie tylko jest ciężka, ale bywa też gorąca i potrafi wciskać się w tunel.
+
+Skala w kilku liczbach
+● pierwszy wybuch 4.11.1999, otwarcie 1.06.2016, ruch planowy od 11.12.2016,
+● ok. 28,2 mln t urobku, koszt ok. 12,2 mld CHF,
+● 4 maszyny TBM o średnicy 8,8–9,6 m, razem ponad 85 km drążenia,
+● przebicie rury wschodniej 15.10.2010 z odchyłką 8 cm w poziomie i 1 cm w pionie.
+
+Maszyny i obudowa Główne rury drążyły w większości gripperowe TBM firmy Herrenknecht. Maszyna zapiera się bocznymi stopami o ścianę wyrobiska i dociska głowicę z 60–66 dyskami do przodka. Moc napędu głowicy to ok. 3500 kW, a z zapleczem cały zestaw ma 377–450 m i waży do 3400 t. Tuż za głowicą montowano łuki stalowe, kotwy i siatkę, potem torkret, izolację i betonową obudowę wewnętrzną. Najlepsza doba jednej maszyny to 56 m. Tam, gdzie skała była zbyt zmienna, m.in. pod Sedrun i w stacjach, pracowano metodą wierć-strzelaj.
+
+Skała, która się wciska Pod Sedrun ok. 1,1 km trasy przechodzi przez kakiryt, czyli skałę roztartą w strefie uskoku. Pod naciskiem góry przemieszczała się do wnętrza wyrobiska. Sztywna obudowa by tego nie wytrzymała, więc wyłom robiono większy, nawet do ok. 13 m średnicy, i stawiano podatne łuki stalowe ze złączami przesuwnymi. Projekt zakładał, że skała przemieści się do środka o ok. 0,7–0,8 m, a łuki ustąpią razem z nią, zamiast pęknąć. Dlatego wyłom o średnicy 13 m zaciskał się z czasem do ok. 11 m.
+
+Bezpieczeństwo w dwóch rurach Rury, których osie dzieli 40 m, łączą przejścia poprzeczne co 312,5 m, ponad 170 sztuk. W Sedrun i Faido są stacje ratunkowe: pociąg zatrzymuje się przy peronie, pasażerowie przechodzą przez drzwi do drugiej rury lub do strefy bezpiecznej z nawiewem świeżego powietrza, a dym odciągają wentylatory. Ruchem steruje ETCS poziomu 2, bez semaforów przy torze.
+
+A w Polsce? Od 20.09.2026 obowiązuje nowe rozporządzenie w sprawie warunków technicznych dla budowli kolejowych (Dz.U. 2026 poz. 1225). Według jego § 42 tunel kolejowy o długości co najmniej 100 m musi spełniać TSI SRT, czyli rozporządzenie Komisji (UE) nr 1303/2014. Dla porównania: TSI dopuszcza przejścia poprzeczne co najwyżej co 500 m, a na Gotthardzie są co 312,5 m. Dla tuneli drogowych dłuższych niż 500 m wymagania co do wyjść i przejść są w rozporządzeniu z 2022 r. o przepisach techniczno-budowlanych dla dróg publicznych (Dz.U. 2022 poz. 1518). Rozporządzenie w sprawie geotechnicznych warunków posadawiania (Dz.U. 2012 poz. 463) nadal obowiązuje, a Eurokody drugiej generacji, w tym PN-EN 1997, mają być wdrożone do 30.09.2027. U nas tunel S2 pod Ursynowem ma 2335 m, a kolejowy tunel pod Pisarzową, o długości 3750 m, jest już przebity, ale jeszcze nie jeździ nim żaden pociąg.
+
+5 błędów przy tunelach i robotach podziemnych
+● projekt bez rozpoznania stref uskokowych na całej trasie,
+● sztywna obudowa tam, gdzie skała będzie się wciskać,
+● wyłom bez zapasu na odkształcenia,
+● brak pomiarów konwergencji tuż za przodkiem,
+● drogi ucieczki i wentylacja dopisane na końcu, a nie w pierwszej koncepcji.
+
+ #EdukacjaBudowlana #200CudówInżynierii #GotthardBaseTunnel #Tunele #TBM #Budownictwo #InżynieriaLądowa #Geotechnika #BudownictwoPodziemne #Kolej #Alpy

@@ -1,0 +1,21 @@
+🏗️ 001 | Burj Khalifa: 828 m na skale, która ledwo trzyma
+
+Najwyższy budynek świata stoi na gruncie, na którym mało kto chciałby postawić nawet halę. Pod Dubajem nie ma litej skały. Są słabe, spękane skały węglanowe o wytrzymałości ok. 1–2,5 MPa, a woda gruntowa zaczyna się 2–2,5 m pod terenem i ma ok. trzy razy więcej chlorków i siarczanów niż woda morska. Na tym trzeba było oprzeć 828 m betonu i stali.
+
+Fundament: płyta, która „wisi” na tarciu Pod wieżą leży płyta o grubości 3,7 m i powierzchni ok. 8000 m², czyli 12 500 m³ betonu samozagęszczalnego C50 wylanego w czterech betonowaniach. Płytę niosą 192 pale o średnicy 1,5 m z betonu C60, sięgające ponad 50 m pod teren. Nie opierają się na skale, bo jej nie ma, tylko pracują na tarciu na całej długości. Obciążenie projektowe pala to ok. 30 MN, a pale próbne wytrzymały ok. 60 MN bez utraty nośności gruntu. Otwory wiercono na płuczce polimerowej zamiast bentonitowej, bo zostawia ona lepszą powierzchnię styku betonu z gruntem.
+
+Przy takiej wodzie gruntowej beton i stal muszą przetrwać 100 lat. Zastosowano więc ochronę katodową prądem narzuconym z siatką tytanową pod płytą, membranę hydroizolacyjną, beton o niskiej przepuszczalności (cement, popiół lotny, mikrokrzemionka, w/c ok. 0,32–0,34), zwiększoną otulinę i inhibitor korozji. Prognozowano osiadanie ok. 70–80 mm. Pomiar z lutego 2008 r. pokazał ok. 43 mm.
+
+Konstrukcja: rdzeń z przyporami SOM i William F. Baker zaprojektowali układ „buttressed core”. Sześciokątny rdzeń żelbetowy przenosi skręcanie, a trzy skrzydła w kształcie litery Y podpierają go jak przypory. Ściany korytarzowe w skrzydłach pracują jak środniki wspornika, ściany rdzenia zwężają się od 1300 do 500 mm, a pięć poziomów outriggerów wiąże słupy obwodowe z rdzeniem. Moduł 9 m pozwolił poprowadzić ściany prosto do fundamentu, bez belek przesiadkowych.
+
+Wiatr: zamiast walczyć, zmylić Przy tej smukłości groźniejsze od samego parcia jest rytmiczne odrywanie się wirów, które rozkołysuje budynek w poprzek wiatru. Co kilka kondygnacji jedno skrzydło kończy się o 9-metrowe przęsło, a uskoki biegną spiralnie. Przekrój ciągle się zmienia, więc wiry tracą rytm. RWDI badał wieżę w tunelu aerodynamicznym na modelach 1:500 (wagowym, aeroelastycznym i ciśnieniowym z 1142 punktami pomiaru) oraz na modelu wierzchołka w skali 1:50. Po obróceniu bryły o 120° i zmianie uskoków szczytowe przyspieszenie wierzchołka spadło z ponad 37 do ok. 12 milli-g, bez dodatkowego tłumika drgań.
+
+Budowa: beton na 606 m i kondygnacja co 3 dni Ściany wykonano z betonu C80 w dolnej części i C60 wyżej, stropy z C50. Pompy Putzmeister BSA 14000 SHP-D tłoczyły beton rurociągiem 150 mm pod ciśnieniem ok. 200 bar: 452 m w maju 2007, 601 m w listopadzie 2007 i 606 m w 2008 r. W upale do ok. 50°C betonowano nocą, a część wody zarobowej zastępowano lodem. Samowznoszące deskowania Doka skróciły cykl z 7 do 3 dni na kondygnację.
+
+Iglica: złożona w środku, wypchnięta do góry Powyżej ok. 585 m żelbet przechodzi w stalową ramę stężoną iglicy (ponad 4000 t stali). Najwyższą część, rurę o średnicy 2,1 m zwężaną do 1,2 m, złożono z 5-metrowych segmentów wewnątrz budynku i wypchnięto trzema siłownikami linowymi w ośmiu cyklach, łącznie o ok. 89 m. Pełną wysokość osiągnięto w styczniu 2009 r.
+
+5 błędów, które przy fundamencie w trudnym gruncie kosztują najwięcej: ● projekt fundamentu bez rzetelnych badań podłoża, ● pominięcie składu chemicznego wody gruntowej przy doborze betonu, ● beton bez właściwej klasy ekspozycji XA i bez cementu siarczanoodpornego przy XA2 i XA3, ● betonowanie w upale bez chłodzenia mieszanki i bez pielęgnacji, ● brak pomiarów osiadań, które można porównać z prognozą projektanta.
+
+Burj Khalifa to skrajny przykład, ale zasada jest ta sama co przy domu jednorodzinnym. Fundament projektuje się pod konkretny grunt i konkretną wodę, a nie pod katalog.
+
+#EdukacjaBudowlana #200CudówInżynierii #BurjKhalifa #Fundamenty #Pale #Konstrukcje #Beton #InżynieriaLądowa #Wieżowce #Megaprojekty #Budownictwo
