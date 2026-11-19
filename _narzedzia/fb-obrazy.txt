@@ -35,11 +35,11 @@
 122143958385228509 https://scontent-waw2-1.xx.fbcdn.net/v/t39.99422-6/891675969_1142526771980221_6125379175654999187_n.png?stp=dst-jpg_tt6&cstp=mx1122x1402&ctp=s1122x1402&_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Ao9zL2vvqBwQ7kNvwHM5FDN&_nc_oc=AdoQVxPavNB1YsaSsYkqCiyn4-dF-rR5-CgQoczPuZ2gx0HrQVqQBKjifofXIXjiKtk&_nc_zt=14&_nc_ht=scontent-waw2-1.xx&_nc_gid=ndMB_2VK8iVr3cpeQm4lIg&_nc_ss=79289&oh=00_AQSSpgRU4i_XtsndOQyypNmrUnZ3_NinkOtGsrMLEHvNIw&oe=6AF4F9F3
 122143897101228509 https://scontent-waw2-1.xx.fbcdn.net/v/t39.99422-6/890865758_998340749362433_6058490887356864604_n.png?stp=dst-jpg_tt6&cstp=mx1122x1402&ctp=s1122x1402&_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_ohc=qDqzBay8GVwQ7kNvwEsd8W4&_nc_oc=Ado1ZTdsveWFvzjU6H4YOCTULil1DKs7348ziSysENuEeUogs3pPcb0xB9xlddirh_s&_nc_zt=14&_nc_ht=scontent-waw2-1.xx&_nc_gid=dyAv6srjV8wcXz88BpYZEA&_nc_ss=79289&oh=00_AQTn_4sVu80cJbT-agibYGhZ9K-7Q79m_HPxAghztEjuDA&oe=6AF4F457
 # 7-12.11.2026: same ID, adres grafiki ustala mirror.py
-122144171007228509
+122144171007228509 https://scontent-prg1-1.xx.fbcdn.net/v/t39.99422-6/894976637_1363038689098826_6461689141837122205_n.png?stp=dst-jpg_tt6&cstp=mx1122x1402&ctp=s1122x1402&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=u70UTGryPgEQ7kNvwEXUkUC&_nc_oc=Ado1_gm2fF1JEZhDIe6OQNaODoCT47JfVT2ABVtUUF3RCHseLt5wyu4td5IiDCH6c7Y&_nc_zt=14&_nc_ht=scontent-prg1-1.xx&_nc_gid=AbOQdmFr9__t8O3KeEeEMQ&_nc_ss=792a8&oh=00_AQT2kqVPjjZzO907OzHjTRfst9PZOjOWJFehuc3nes3itQ&oe=6B009ADB
 122144172771228509
-122144173815228509
-122144192559228509
-122144194005228509
+122144173815228509 https://scontent-prg1-1.xx.fbcdn.net/v/t39.99422-6/897644068_1855784455619566_3679325871416068444_n.png?stp=dst-jpg_tt6&cstp=mx1145x1374&ctp=s1145x1374&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=PKcy1KntRWcQ7kNvwG0o6FK&_nc_oc=AdqgTcauodbPbdsGvzcrXfKMzeyqL5pD2neiSG-xtB6-TDZlVzvjPsxs1wALMIuo1dI&_nc_zt=14&_nc_ht=scontent-prg1-1.xx&_nc_gid=y5IdS8pr3TQ_wHQlIfk78A&_nc_ss=792a8&oh=00_AQSFkI2Eviawqtt3G_WQIx-QMtCiEDUU_fhlYdy3zmyjbA&oe=6B0076E3
+122144192559228509 https://scontent-prg1-1.xx.fbcdn.net/v/t39.99422-6/894926174_1747048813046814_352001211214308508_n.png?stp=dst-jpg_tt6&cstp=mx1122x1402&ctp=s1122x1402&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=ndf4M4uThisQ7kNvwHcTbg9&_nc_oc=Adr4HxtK6HO6OnCEig3of2iGAyikImPfpOgJFnZAVbLq7yM1dCDbIqjjU0_Yqux3QX8&_nc_zt=14&_nc_ht=scontent-prg1-1.xx&_nc_gid=M6lid6YZR8szJnTE9JR8iw&_nc_ss=792a8&oh=00_AQRwVYlQGwLMKxX59YrLL1Pce94LI59r8y4Uolv0lD6Dmg&oe=6B008008
+122144194005228509 https://scontent-prg1-1.xx.fbcdn.net/v/t39.99422-6/897252558_2012420122764043_8848749673639094614_n.png?stp=dst-jpg_tt6&cstp=mx1122x1402&ctp=s1122x1402&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=SKnWoUrlgHkQ7kNvwGqbSCH&_nc_oc=AdrKYcaH1IAIF5hAbRI1KZ8upQbovMiWadYpEFVLp_R7EG_Tiq1muWTEebFhAi1_Rrc&_nc_zt=14&_nc_ht=scontent-prg1-1.xx&_nc_gid=Tgcc1XQno96VJJssuIh1vg&_nc_ss=792a8&oh=00_AQSx-38QRQAoES3CmLIX4i_USC4Bm3zTyT8QR80yC4yxwA&oe=6B008BD4
 122144206803228509
 122144271291228509
 122144283831228509
