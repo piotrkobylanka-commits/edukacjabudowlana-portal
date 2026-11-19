@@ -3,7 +3,7 @@
 
 Użycie: python3 _narzedzia/usun-resztki-fb.py index.html
 
-Usuwa napis „Wyświetl mniej” na końcu akapitu lub punktu listy oraz samotny
+Usuwa znaczniki „miejsce na anegdotę” z szablonu postów, napis „Wyświetl mniej” na końcu akapitu lub punktu listy oraz samotny
 akapit „1” na samym końcu treści artykułu. Skrypt można uruchamiać wielokrotnie.
 Reszta pliku zostaje bez zmian.
 """
@@ -20,6 +20,8 @@ surowe = strona[start:koniec]
 przed = json.loads(surowe)
 
 nowe, napisy = re.subn(r"[ \t]*Wyświetl mniej(?=<\\/(?:p|li)>)", "", surowe)
+# znaczniki z szablonu postów („[MIEJSCE NA ANEGDOTĘ Z BUDOWY …]”, „(miejsce na anegdotę: …)”), decyzja Piotra 19.11.2026
+nowe, anegdoty = re.subn(r"(?i)(\\n)?<p>[^<]*miejsce na anegdot[^<]*<\\/p>", "", nowe)
 nowe, jedynki = re.subn(r'\\n<p>1<\\/p>(?=","(?:toc|sources)")', "", nowe)
 po = json.loads(nowe)
 
@@ -28,7 +30,8 @@ for a, b in zip(przed["articles"], po["articles"]):
     assert (a["slug"], a["title"]) == (b["slug"], b["title"])
     assert {k: v for k, v in a.items() if k != "html"} == {k: v for k, v in b.items() if k != "html"}
 assert "Wyświetl mniej" not in nowe
+assert "miejsce na anegdot" not in nowe.lower()
 
 zmienione = sum(a != b for a, b in zip(przed["articles"], po["articles"]))
 open(sciezka, "w", encoding="utf-8", newline="").write(strona[:start] + nowe + strona[koniec:])
-print(f"napisy: {napisy}, samotne „1”: {jedynki}, zmienione artykuły: {zmienione}")
+print(f"anegdoty: {anegdoty}, napisy: {napisy}, samotne „1”: {jedynki}, zmienione artykuły: {zmienione}")

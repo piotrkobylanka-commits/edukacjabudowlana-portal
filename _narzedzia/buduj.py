@@ -17,7 +17,13 @@ RESZTKI = re.compile(r"^(?:[a-z0-9.-]+\.(?:pl|com|eu|org|gov\.pl)|[a-z0-9-]{3,20
 MARK = ("●", "❌", "✅", "▪", "•", "▫", "🔹", "🔸", "➡", "👉")
 
 
+# Znaczniki z szablonów postów, które nigdy nie trafiają na portal (decyzja Piotra 19.11.2026).
+SZABLON = re.compile(r"\[\s*MIEJSCE NA ANEGDOT[ĘE] Z BUDOWY\s*\]", re.I)
+
+
 def oczysc(text):
+    text = SZABLON.sub("", text)
+    text = re.sub(r"(?m)^TREŚĆ[ :]+", "", text)
     out = []
     for l in text.split("\n"):
         s = l.strip()
