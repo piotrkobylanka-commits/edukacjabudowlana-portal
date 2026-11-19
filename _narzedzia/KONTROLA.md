@@ -23,6 +23,7 @@ Każdy nowy post z fanpage’a EdukacjaBudowlana trafia na portal jako pełny ar
 4. Oryginalność wg skilla `oryginalne-tresci-prawa-autorskie`: post z FB to nasz materiał, ale artykuł opracowujemy na nowo i rozwijamy, nie kopiujemy cudzych tekstów.
 5. Stan prawny: przed publikacją sprawdź aktualność przywołanych przepisów i norm (wyszukiwanie). Każdy obowiązek z podstawą prawną.
 6. Przykłady fikcyjne i opisane jako fikcyjne.
+7a. ZAKAZ ZNACZNIKÓW Z SZABLONU (decyzja Piotra 19.11.2026): „[MIEJSCE NA ANEGDOTĘ Z BUDOWY]” i każda odmiana „miejsce na anegdotę” nigdy nie trafia ani na FB, ani na portal. buduj.py usuwa go przy konwersji (razem z „TREŚĆ ” na początku linii), usun-resztki-fb.py usuwa go z całego index.html. Jeśli znajdziesz go w poście na FB, usuń go z posta (Edytuj opis/Edytuj post) za zgodą wyrażoną przez Piotra 19.11.
 7. Nie przenosić drugi raz posta, który już jest (sprawdzaj ID posta i tytuł).
 
 ## Budowa portalu
@@ -117,3 +118,4 @@ Etapy: 1 Przygotowanie inwestycji i dokumentacja · 2 Roboty przygotowawcze i zi
   - Pominięte: 122144721153 (zapowiedź serii, użyta jako opis serii), 122145231165 (krótki duplikat tematu tryskacza z 16.11), 15 zdjęć z 16.11 21:10 (122145157437…160005) wgranych do albumu bez tekstu.
   - Weryfikacja merytoryczna 40 nowych postów (agent): poprawki tylko na portalu w meta.json (Gotthard: przejścia co ok. 325 m; art. 60b ust. 2 pkt 1 lit. a zamiast uchylonego art. 64 ust. 2; Augustine D. Taylor; pomosty: kaszyce, „ports needed”, Świnoujście). Resztki szablonu w karuzelach 003 i 004 („TREŚĆ ”, „[MIEJSCE NA ANEGDOTĘ Z BUDOWY]”) usunięte na portalu, na FB nadal są. Wątpliwe, niezmienione: Malbork 1822 (liczby), Millau 336/343 m i długości nasuwania, Burj 192/194 pale, średnice TBM Gotthard, kaszyce na Parsęcie w XIV w., Ustka, dane z Jaworzna.
   - Grafiki pakowane po 3 na paczkę (pakuj.py w pętli), żeby paczki miały ok. 0,5–1 MB.
+- 19.11.2026 (15:00): na prośbę Piotra usunięto „miejsce na anegdotę” z 5 postów na FB (003 Millau, ściana trójwarstwowa, rękojmia i gwarancja, plan ogólny/OUZ, membrana i paroizolacja wraz z pustym śródtytułem „JAK TO WYGLĄDA W PRAKTYCE”) i z 4 artykułów na portalu. Skille eb-post-z-weryfikacja-przepisow i 200-cudow-inzynierii-karuzela: zaproponowano usunięcie wymogu znacznika.
