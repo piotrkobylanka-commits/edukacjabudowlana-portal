@@ -86,6 +86,7 @@ Etapy: 1 Przygotowanie inwestycji i dokumentacja · 2 Roboty przygotowawcze i zi
 - (Sprostowanie 26.10: okładki i miniatury wpisów z 25.10 są na serwerze; wcześniejsza uwaga o brakach wynikała z kopii z pamięci podręcznej CDN.)
 
 ## Dziennik
+- 20.11.2026: sprawdzono FB – brak nowych postów po 19.11 07:32 (122145427233228509). Na prośbę Piotra usunięto słowo „TREŚĆ” z początku opisu karuzel 003 (Millau) i 004 (Gotthard) na FB; posty/ i meta.json ujednolicone (portal bez zmian, tam „TREŚĆ” już nie było).
 - 26.10.2026: utworzono plik kontrolny; ustalono budowę portalu i stan na 25.10.2026.
 - 26.10.2026: automat GitHuba skopiował index.html (13,7 MB, zgodny z serwerem). Grafiki 9 wpisów spakowane do p/427.json; arkusz s49 odświeżony z serwera bez cache i uzupełniony o 9 miniatur. Weryfikacja merytoryczna 9 postów: poprawki tylko na portalu (PB-16a nowy wzór, zaświadczenie PINB „może”, załączniki przy projektach od 19.09.2020, WZ od 1.01.2027 tylko z prawem do dysponowania, progi f-gazów, literówki). Wpisy wstawione do index.html, miniatury w s49.
 - 26.10.2026: założono repozytorium GitHub i automaty; przygotowano 9 wpisów z 26.10 (zdjęcia FB 122142724155, …726459, …728661, …732153, …747843, …751101, …767925, …768747, …769719). Piotr zaakceptował okładki; myślnik „—” na grafice „Ściany pomalowane” i literówki („gwarancyjn9ą”, „Farbę wysycha się”) zostają jak w oryginale.
