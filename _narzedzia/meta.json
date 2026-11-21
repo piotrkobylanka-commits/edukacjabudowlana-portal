@@ -2572,7 +2572,14 @@
    "▪️ ODBIÓR, ZANIM WSZYSTKO ZNIKNIE POD MEMBRANĄ",
    "▪️ SIEDEM BŁĘDÓW PRZY WIĄZARACH"
   ],
-  "date": "2026-11-21"
+  "date": "2026-11-21",
+  "cover_w": 960,
+  "cover_h": 444,
+  "thumb": [
+   68,
+   0,
+   0
+  ]
  },
  "122145699507228509": {
   "title": "Gąsior nie dopasuje się sam – wysokość łaty kalenicowej zależy od profilu dachówki",
@@ -2590,7 +2597,14 @@
    "Przymiarka przed wkręceniem wsporników",
    "6 błędów przy osadzaniu gąsiorów"
   ],
-  "date": "2026-11-21"
+  "date": "2026-11-21",
+  "cover_w": 960,
+  "cover_h": 444,
+  "thumb": [
+   68,
+   1,
+   0
+  ]
  },
  "122145700785228509": {
   "title": "Otwory w podbitce – ile powietrza potrzebuje wentylowany dach",
@@ -2611,6 +2625,13 @@
    "Jak to zrobić porządnie",
    "8 błędów przy otworach w podbitce"
   ],
-  "date": "2026-11-21"
+  "date": "2026-11-21",
+  "cover_w": 960,
+  "cover_h": 444,
+  "thumb": [
+   68,
+   2,
+   0
+  ]
  }
 }
