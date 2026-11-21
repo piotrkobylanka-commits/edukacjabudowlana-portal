@@ -70,7 +70,8 @@ Etapy: 1 Przygotowanie inwestycji i dokumentacja · 2 Roboty przygotowawcze i zi
 - Posty z FB 7–12.11 (26 sztuk, ID 122144171007…122144718729, końcówka 228509): teksty 1:1 w posty/, metryczki gotowe w meta.json (z „naglowki” i „listy”), CZEKAJĄ NA GRAFIKI. Post 122144172771 (stara instalacja, 7.11) pominięty: ten sam temat co 122143958385 (5.11), który jest już na portalu.
 
 - 19.11.2026 (11:44 UTC): na serwerze index.html 15 261 057 B (kopia poprzedniej: index_backup_20261119_1144.html), 1453 artykuły, najnowszy 2026-11-19. Paczki grafik do p/520 (po 3 grafiki), arkusze miniatur do s67 (s67: zajęte pola do (0,3)).
-- Najwyższe przeniesione ID zdjęcia FB: 122145427233228509 („Instalację odebrano wiosną…”, 19.11.2026). Karuzele mają klucz = post_id (np. 122144730261228509), okładka = pierwszy slajd.
+- 21.11.2026 (20:43 UTC): na serwerze index.html 15 282 167 B (kopia poprzedniej: index_backup_20261121_2043.html), 1456 artykułów, najnowszy 2026-11-21. Paczki grafik do p/521, arkusze miniatur do s68 (s68: zajęte pola (0,0), (1,0), (2,0)).
+- Najwyższe przeniesione ID zdjęcia FB: 122145701151228509 (ostatnie zdjęcie posta „Te dziury w podbitce…”, 21.11.2026 20:47). Posty z kilkoma zdjęciami mają klucz = post_id. Karuzele mają klucz = post_id (np. 122144730261228509), okładka = pierwszy slajd.
 - Seria „200 cudów inżynierii świata” (klucz 200-cudow-inzynierii, planned 200): odcinki 001–004 na portalu. Nowe odcinki: meta „seria”, „nr”, potem `python3 _narzedzia/seria200.py index.html`.
 
 ## Repozytorium i automaty
@@ -120,3 +121,4 @@ Etapy: 1 Przygotowanie inwestycji i dokumentacja · 2 Roboty przygotowawcze i zi
   - Grafiki pakowane po 3 na paczkę (pakuj.py w pętli), żeby paczki miały ok. 0,5–1 MB.
 - 19.11.2026 (15:00): na prośbę Piotra usunięto „miejsce na anegdotę” z 5 postów na FB (003 Millau, ściana trójwarstwowa, rękojmia i gwarancja, plan ogólny/OUZ, membrana i paroizolacja wraz z pustym śródtytułem „JAK TO WYGLĄDA W PRAKTYCE”) i z 4 artykułów na portalu. Skille eb-post-z-weryfikacja-przepisow i 200-cudow-inzynierii-karuzela: zaproponowano usunięcie wymogu znacznika.
 - 20.11.2026: sprawdzono FB – brak nowych postów po 19.11 07:32 (122145427233228509). Na prośbę Piotra usunięto słowo „TREŚĆ” z początku opisu karuzel 003 (Millau) i 004 (Gotthard) na FB; posty/ i meta.json ujednolicone (portal bez zmian, tam „TREŚĆ” już nie było).
+- 21.11.2026: przeniesiono 3 posty z 21.11 (zdjęcia z budowy): 122145696213228509 (post_id; wiązary i stężenia, 3 zdjęcia, okładka 122145696153), 122145699507228509 (zdjęcie; gąsior i łata kalenicowa), 122145700785228509 (post_id; otwory w podbitce, 2 zdjęcia, okładka 122145700725). Sprawdzone: utrata mocy WT 2002 z 20.09.2026 i 18-miesięczny okres przejściowy (art. 102a Pb), art. 22 pkt 7 Pb, PN-EN 14250, DIN 4108-3 (2‰, min. 200 cm²/m). Bez poprawek. Okładki 2000×924 z FB. Grafiki p/521.json, miniatury s68. Sprawdzone na żywo (200).
