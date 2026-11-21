@@ -2551,5 +2551,66 @@
    0,
    3
   ]
+ },
+ "122145696213228509": {
+  "title": "Zielone deski między wiązarami – stężenia, które trzymają dach w pionie",
+  "stage": 4,
+  "dzial": "konstrukcja-dachu",
+  "zag": "stezenia-i-polaczenia",
+  "domain": "konstrukcje",
+  "norms": [
+   "PN-EN 14250",
+   "Prawo budowlane art. 22 pkt 7"
+  ],
+  "lead": "Po co są stężenia tymczasowe, podłużne i ukośne, jak powinien być oparty wiązar na wieńcu i drabinka szczytowa oraz co sprawdzić przy odbiorze, zanim więźbę zakryje membrana.",
+  "disclaimer": "Rozwiązanie dla konkretnego budynku dobiera projektant z odpowiednimi uprawnieniami; artykuł ma charakter informacyjny.",
+  "naglowki": [
+   "▪️ TRZY RODZAJE STĘŻEŃ, KAŻDY ROBI CO INNEGO",
+   "▪️ WIĄZAR NA WIEŃCU: BEZ MURŁATY, ALE NIE BEZ ZASAD",
+   "▪️ OKAP OD STRONY SZCZYTU, CZYLI DRABINKA",
+   "▪️ CZEGO NIE WOLNO ROBIĆ Z WIĄZAREM",
+   "▪️ ODBIÓR, ZANIM WSZYSTKO ZNIKNIE POD MEMBRANĄ",
+   "▪️ SIEDEM BŁĘDÓW PRZY WIĄZARACH"
+  ],
+  "date": "2026-11-21"
+ },
+ "122145699507228509": {
+  "title": "Gąsior nie dopasuje się sam – wysokość łaty kalenicowej zależy od profilu dachówki",
+  "stage": 4,
+  "dzial": "pokrycie-dachu-granica-sso-i-ssz",
+  "zag": "kosze-kalenice-i-okapy",
+  "domain": "konstrukcje",
+  "norms": [],
+  "lead": "Jak ustawić łatę kalenicową pod konkretną dachówkę, kiedy i jak docinać dachówki przy kalenicy i narożu oraz jakie błędy przy gąsiorach wychodzą przy pierwszej ulewie.",
+  "disclaimer": "Technologię wykonania dla konkretnej budowy ustala projekt i karta techniczna producenta; artykuł ma charakter informacyjny.",
+  "naglowki": [
+   "Jak gąsior powinien leżeć",
+   "Co zmienia profil dachówki",
+   "Kiedy dachówkę się docina",
+   "Przymiarka przed wkręceniem wsporników",
+   "6 błędów przy osadzaniu gąsiorów"
+  ],
+  "date": "2026-11-21"
+ },
+ "122145700785228509": {
+  "title": "Otwory w podbitce – ile powietrza potrzebuje wentylowany dach",
+  "stage": 4,
+  "dzial": "pokrycie-dachu-granica-sso-i-ssz",
+  "zag": "kosze-kalenice-i-okapy",
+  "domain": "fizyka",
+  "norms": [
+   "Warunki techniczne § 321 ust. 2",
+   "Prawo budowlane art. 102a–102c",
+   "DIN 4108-3"
+  ],
+  "lead": "Po co są kratki w podbitce, jak policzyć powierzchnię wlotu przy okapie i jak wykonać otwory, żeby powietrze rzeczywiście przepływało pod pokryciem.",
+  "disclaimer": "Technologię wykonania dla konkretnej budowy ustala projekt i karta techniczna producenta; artykuł ma charakter informacyjny.",
+  "naglowki": [
+   "Po co te otwory",
+   "Ile tego musi być",
+   "Jak to zrobić porządnie",
+   "8 błędów przy otworach w podbitce"
+  ],
+  "date": "2026-11-21"
  }
 }

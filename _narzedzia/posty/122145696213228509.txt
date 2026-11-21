@@ -1,0 +1,66 @@
+🪵 Zielone deski między wiązarami to nie ozdoba. Bez nich wiązary przewracają się jak domino
+
+Na zdjęciach dach z wiązarów prefabrykowanych tuż po montażu. To kratownice z desek, a w węzłach siedzą stalowe płytki kolczaste wciśnięte prasą w zakładzie. Między wiązarami biegną zielone deski, wzdłuż dachu i na ukos. Część inwestorów bierze je za pozostałość po montażu, którą cieśle i tak zdejmą przed pokryciem. A to właśnie one trzymają cały dach w pionie.
+
+Wiązar ma zwykle 45 mm grubości i kilka metrów wysokości. W swojej płaszczyźnie bez kłopotu przenosi pokrycie, śnieg i wiatr. W poprzek jest wiotki jak kartka postawiona na sztorc. Nośność, którą policzył projektant, istnieje tylko wtedy, gdy wiązary są stężone dokładnie tak, jak przewiduje projekt.
+
+▪️ TRZY RODZAJE STĘŻEŃ, KAŻDY ROBI CO INNEGO
+
+Stężenia tymczasowe zakłada się od pierwszego ustawionego wiązara. To deski przybite do wiązarów i do stałych elementów budynku albo zastrzały oparte o podłoże. Trzymają wiązary w pionie, dopóki nie powstaną stężenia docelowe. Bez nich podmuch wiatru w trakcie montażu potrafi przewrócić kilka wiązarów naraz.
+
+Stężenia podłużne łączą wiązary wzdłuż dachu i nie pozwalają ściskanym pasom i krzyżulcom wyboczyć się na bok. Wytyczne producentów podają zwykle deski co najmniej 22×95 mm klasy C18, a jako przekrój zalecany 25×100 mm. Każda deska powinna łączyć co najmniej trzy kolejne wiązary.
+
+Stężenia ukośne pomija się najczęściej, a bez nich podłużne niewiele dają. Same deski podłużne przesuwają się razem z wiązarami jak równoległobok. Dopiero przekątne w płaszczyźnie pasów górnych, dolnych i krzyżulców przenoszą siły poziome aż do podpór, na przykład parcie wiatru na ścianę szczytową. Jeśli stężenie robi się taśmą stalową, układa się ją pod kątem zbliżonym do 45° względem okapu i napina. Luźna taśma niczego nie stęża.
+
+Liczba stężeń, ich przekroje i rozmieszczenie wynikają z obliczeń. To część projektu, a nie decyzja ekipy na dachu.
+
+▪️ WIĄZAR NA WIEŃCU: BEZ MURŁATY, ALE NIE BEZ ZASAD
+
+Na zbliżeniu oparcia widać, że wiązary stoją bezpośrednio na wieńcu, bez murłaty. Przy wiązarach to częste i poprawne rozwiązanie, pod warunkiem że wykonano je według projektu:
+
+● drewno nie leży na gołym betonie, pod każdym oparciem jest papa albo inna izolacja z projektu,
+● wiązar mocuje się do wieńca łącznikami kątowymi zakotwionymi w betonie, w typie i liczbie z projektu, z kompletem gwoździ,
+● wiązar liczy się zwykle jako oparty nieprzesuwnie z jednej strony i przesuwnie z drugiej, więc zablokowanie obu podpór „na sztywno” zmienia sposób, w jaki konstrukcja pracuje.
+
+▪️ OKAP OD STRONY SZCZYTU, CZYLI DRABINKA
+
+Na zdjęciu od strony szczytu widać drabinkę: ramę z desek wysuniętą poza ścianę szczytową, która tworzy okap. Od spodu podrywa ją wiatr, z góry dociska śnieg. Im większy wysięg, tym mocniej rama musi być związana z dachem. Krótką drabinkę można przymocować do skrajnego wiązara. Dłuższa powinna opierać się na ścianie szczytowej i być połączona z wiązarami w głębi dachu. Sposób mocowania, łączniki i dopuszczalny wysięg powinny wynikać z projektu.
+
+▪️ CZEGO NIE WOLNO ROBIĆ Z WIĄZAREM
+
+Wiązar to wyrób budowlany produkowany według normy PN-EN 14250, z oznakowaniem CE i deklaracją właściwości użytkowych. Każdy pręt i każda płytka są policzone, dlatego:
+
+● nie wierci się otworów, nie wycina krzyżulców i nie podcina pasów pod instalację, komin czy okno dachowe bez zgody projektanta,
+● nie odbija się płytek kolczastych i nie naprawia ich na własną rękę,
+● nie składuje się dachówek, płyt ani palet na niestężonych wiązarach, w środku rozpiętości ani na wysięgach,
+● sposób naprawy uszkodzonego wiązara uzgadnia się z producentem albo projektantem.
+
+▪️ ODBIÓR, ZANIM WSZYSTKO ZNIKNIE POD MEMBRANĄ
+
+Za kilka dni stężenia i oparcia zakryje membrana, kontrłaty i pokrycie. Art. 22 pkt 7 Prawa budowlanego zobowiązuje kierownika budowy do zgłaszania inwestorowi do sprawdzenia lub odbioru robót, które ulegają zakryciu. Więźba z wiązarów to właśnie taki przypadek. Przy odbiorze warto przejść przez taką listę:
+
+● na budowie jest projekt wiązarów od producenta z rysunkiem rozmieszczenia stężeń,
+● liczba, przekroje i kierunki stężeń zgadzają się z projektem,
+● stężenia ukośne są w każdej płaszczyźnie wskazanej w projekcie i przenoszą siły do podpór,
+● taśmy stalowe są napięte i zakończone systemowo, a nie zawinięte na pasie i przybite,
+● odchylenie wiązarów od pionu mieści się w tolerancji producenta, np. do 10 mm przy wiązarach do 2 m wysokości i 0,5% wysokości przy wiązarach od 2 do 3,2 m,
+● każde oparcie ma izolację, łącznik kątowy, kotwy i pełną liczbę gwoździ,
+● płytki kolczaste są całe i przylegają do drewna,
+● drabinka szczytowa jest oparta i połączona tak, jak w projekcie,
+● inwestor ma od producenta deklarację właściwości użytkowych wiązarów.
+
+Zróbcie teraz zdjęcia oparć, stężeń i drabinek. Po położeniu membrany nikt już ich nie zobaczy bez rozbierania dachu.
+
+▪️ SIEDEM BŁĘDÓW PRZY WIĄZARACH
+
+❌ pominięte stężenia ukośne, bo „podłużne wystarczą”,
+❌ stężenia montażowe zdjęte, zanim powstały docelowe,
+❌ taśma stężająca położona luźno albo zagięta na pasie i przybita zamiast systemowego zakończenia,
+❌ wiązar przycięty pod okno dachowe lub komin bez uzgodnienia z projektantem,
+❌ drewno oparte bezpośrednio na betonie wieńca,
+❌ łącznik kątowy z połową gwoździ albo bez kotew,
+❌ palety z dachówką postawione na niestężonych wiązarach.
+
+Wiązary montuje się w dwa, trzy dni i dach szybko nabiera kształtu. Stężenia to kilkadziesiąt desek i kilka taśm, ale bez nich ta szybkość nic nie daje.
+
+#EdukacjaBudowlana #Wiązary #WiązaryDachowe #WięźbaDachowa #StężeniaWiązarów #Dach #BudowaDomu #StanSurowy #KierownikBudowy #BłędyBudowlane #OdbiórRobót

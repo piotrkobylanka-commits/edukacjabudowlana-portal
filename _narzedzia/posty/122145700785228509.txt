@@ -1,0 +1,43 @@
+🕳️ Te dziury w podbitce wyglądają na detal. Tymczasem to przez nie oddycha cały dach
+
+Okrągłe kratki w podbitce większość inwestorów zauważa dopiero wtedy, gdy zamieszkają w nich osy. A to jest dolny wlot powietrza do wentylacji dachu. Kiedy go brakuje albo jest za mały, wilgoć zostaje w połaci i robi swoje latami, zanim cokolwiek pokaże się na suficie.
+
+Po co te otwory
+
+Nad ociepleniem musi płynąć powietrze. Zależnie od układu warstw płynie pod pokryciem, pod membraną albo pod deskowaniem. Wchodzi dołem, przy okapie, i wychodzi górą, przy kalenicy. Ten ruch wywiewa parę wodną, która z domu przenika w ocieplenie, osusza deski i krokwie po deszczu, a latem odbiera część ciepła z nagrzanego pokrycia.
+
+Bez wlotu nie ma przepływu. Wywietrzniki w kalenicy niczego nie wyciągną, jeśli na dole powietrze nie ma którędy wejść. Skutki wychodzą po kilku sezonach: mokra wełna, ciemne zacieki na deskowaniu, pleśń, a przy długotrwałym zawilgoceniu także rozkład drewna.
+
+Ile tego musi być
+
+Polskie przepisy nie podają liczby centymetrów na metr okapu. Warunki techniczne z 2002 r. w § 321 ust. 2 wymagały, żeby we wnętrzu przegrody nie narastało z roku na rok zawilgocenie od kondensacji pary wodnej. Wentylowany dach to jeden ze sposobów spełnienia tego warunku. To rozporządzenie straciło moc 20 września 2026 r. Nowe nie zostało ogłoszone, a przepisy przejściowe Prawa budowlanego (art. 102a–102c) pozwalają przez 18 miesięcy od tej daty stosować dotychczasowe wymagania.
+
+Konkretne wartości wynikają więc z projektu, z wytycznych producentów pokryć i membran oraz z praktyki dekarskiej. Najczęściej przyjmuje się wlot przy okapie o powierzchni co najmniej 2‰ wentylowanej połaci, ale nie mniej niż 200 cm² na metr okapu. Takie wartości podaje niemiecka norma DIN 4108-3, na której opiera się wielu producentów.
+
+Liczy się powierzchnia netto, czyli to, przez co powietrze naprawdę przejdzie po odjęciu perforacji, siatki i kołnierza. Producent kratki podaje ją w karcie technicznej.
+
+Prosty rachunek: otwór Ø100 mm ma ok. 78 cm². Jeden taki otwór na każde pole między krokwiami rozstawionymi co 90 cm daje ok. 87 cm² na metr okapu. I to licząc samą dziurę, bez kratki. Do 200 cm² brakuje ponad połowy.
+
+Jak to zrobić porządnie
+
+1. policz wymaganą powierzchnię wlotu dla każdej połaci i dobierz kratki po powierzchni netto, nie po średnicy,
+2. daj wlot w każdym polu między krokwiami, bo każde pole to osobny kanał, a pole bez otworu stoi bez przepływu,
+3. zanim wywiercisz, sprawdź od góry, dokąd powietrze ma trafić, bo murłata, wełna dociśnięta do deskowania albo źle wyprowadzona folia potrafią zamknąć drogę tuż za kratką,
+4. tnij otwornicą dopasowaną do średnicy kratki, najlepiej jeszcze na ziemi, przed przykręceniem desek,
+5. oczyść i przeszlifuj krawędź, a potem zabezpiecz ją impregnatem, bo cięcie odsłania drewno, do którego fabryczna impregnacja mogła nie dotrzeć,
+6. montuj kratki z siatką przeciw owadom, na wkrętach nierdzewnych albo na systemowym zatrzasku, tak żeby kołnierz zakrył krawędź otworu,
+7. przy malowaniu podbitki zabezpiecz perforację, bo kratka zalana farbą przestaje przepuszczać powietrze,
+8. upewnij się, że górą jest wylot: wentylowana kalenica, gąsiory z wentylacją albo dachówki wentylacyjne.
+
+8 błędów przy otworach w podbitce
+
+● wiercenie „na oko”, bez policzenia, ile powietrza dach potrzebuje,
+● dobór kratek po średnicy zamiast po powierzchni netto,
+● pole między krokwiami bez żadnego wlotu,
+● otwór zasłonięty od góry wełną, murłatą albo folią,
+● kratka bez siatki, czyli zaproszenie dla os, szerszeni i ptaków,
+● poszarpana, niezabezpieczona krawędź otworu,
+● perforacja zalana farbą przy malowaniu,
+● porządne wloty przy okapie i zamknięta kalenica.
+
+#EdukacjaBudowlana #podbitka #wentylacjadachu #dach #okap #więźbadachowa #poddasze #budowadomu #budujemydom #kierownikbudowy #dekarz
